@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "撤回秘方",
+      "scenes": 3,
+      "axis_headers": 4,
+      "shots": 44,
+      "groups": 14,
+      "seam_anchors": 14,
+      "total_sec": 166.0,
+      "asl_sec": 3.77,
+      "active_cam_shots": 6,
+      "active_cam_pct": 13.6,
+      "wide_pct": 6.8,
+      "talk_shots": 22,
+      "vo_shots": 4,
+      "crammed_speech_count": 0,
+      "compound_cam_count": 0
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 2,
+      "title": "当街断交",
+      "scenes": 3,
+      "axis_headers": 4,
+      "shots": 38,
+      "groups": 12,
+      "seam_anchors": 12,
+      "total_sec": 156.0,
+      "asl_sec": 4.11,
+      "active_cam_shots": 7,
+      "active_cam_pct": 18.4,
+      "wide_pct": 7.9,
+      "talk_shots": 25,
+      "vo_shots": 4,
+      "crammed_speech_count": 1,
+      "compound_cam_count": 0
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第2集台词超载塞不进镜长：['2-3-03(27字/4.5s)']"
+  ]
+}

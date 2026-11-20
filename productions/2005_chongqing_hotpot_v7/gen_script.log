@@ -5,3 +5,17 @@
 [general-gate] Auditing batch [1, 2, 3] (round 1/2, model=gemini-4-carbon-medium)...
 [general-gate] PASS_HIT_READY on batch [1, 2, 3] (round 1, score=92.75, events=2)!
 [v7-prod] Screenplay generation DONE! Gate: PASS_HIT_READY 92.75
+[main 195d9aa] feat(hotpot-v7): regenerate fresh outline and Ep 1-3 screenplay via hit-short-drama v7
+ 9 files changed, 926 insertions(+)
+ create mode 100644 productions/2005_chongqing_hotpot_v7/00_premise_lock.json
+ create mode 100644 productions/2005_chongqing_hotpot_v7/01_outline.md
+ create mode 100644 productions/2005_chongqing_hotpot_v7/combined_1-3.md
+ create mode 100644 productions/2005_chongqing_hotpot_v7/episodes/ep001-003.check.json
+ create mode 100644 productions/2005_chongqing_hotpot_v7/episodes/ep001-003.draft.md
+ create mode 100644 productions/2005_chongqing_hotpot_v7/episodes/ep001-003.general_gate_r1.json
+ create mode 100644 productions/2005_chongqing_hotpot_v7/episodes/ep001-003.md
+ create mode 100644 productions/2005_chongqing_hotpot_v7/gen_script.log
+ create mode 100644 productions/2005_chongqing_hotpot_v7/state_ledger.json
+To github.com:zhongwenyu/ai-director-train.git
+   bb666b8..195d9aa  main -> main
+[v7-prod] Pushed fresh outline & Ep 1-3 script to origin/main!

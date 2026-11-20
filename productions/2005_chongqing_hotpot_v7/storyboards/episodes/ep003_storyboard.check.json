@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 3,
+      "title": "一锅定音",
+      "scenes": 2,
+      "axis_headers": 2,
+      "shots": 53,
+      "groups": 16,
+      "seam_anchors": 16,
+      "total_sec": 199.0,
+      "asl_sec": 3.75,
+      "active_cam_shots": 7,
+      "active_cam_pct": 13.2,
+      "wide_pct": 1.9,
+      "talk_shots": 24,
+      "vo_shots": 5,
+      "crammed_speech_count": 2,
+      "compound_cam_count": 7
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第3集存在复合运镜：['3-1-01(横摇＋中速：夏建国弯腰剧烈干咳触发；摄影机固定于)', '3-1-10(横摇＋缓速：紫铜锅红汤沸腾白气升起触发；摄影机固)', '3-1-18(推近＋缓速：夏建国喉结滚动咽唾沫触发；摄影机从前)', '3-1-25(横摇＋中速：夏建国伸手拉纸笔触发；摄影机固定于前)']",
+    "第3集台词超载塞不进镜长：['3-2-04(31字/5.0s)', '3-2-06(34字/5.5s)']"
+  ]
+}
