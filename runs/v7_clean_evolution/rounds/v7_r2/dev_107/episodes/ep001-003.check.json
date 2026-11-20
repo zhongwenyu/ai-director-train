@@ -2,7 +2,7 @@
   "ok": true,
   "protagonist_detected": "林娇娇",
   "episode_count": 3,
-  "mean_est_duration_sec": 136.4,
+  "mean_est_duration_sec": 160.1,
   "episodes": [
     {
       "episode": 1,
@@ -11,9 +11,9 @@
       "actions": 13,
       "dialogue_lines": 24,
       "vo_lines": 1,
-      "spoken_chars": 485,
-      "avg_line_chars": 19.4,
-      "est_duration_sec": 130.6,
+      "spoken_chars": 559,
+      "avg_line_chars": 22.4,
+      "est_duration_sec": 147.0,
       "has_end_marker": true
     },
     {
@@ -23,9 +23,9 @@
       "actions": 11,
       "dialogue_lines": 25,
       "vo_lines": 0,
-      "spoken_chars": 518,
-      "avg_line_chars": 20.7,
-      "est_duration_sec": 138.7,
+      "spoken_chars": 640,
+      "avg_line_chars": 25.6,
+      "est_duration_sec": 165.8,
       "has_end_marker": true
     },
     {
@@ -35,9 +35,9 @@
       "actions": 11,
       "dialogue_lines": 25,
       "vo_lines": 0,
-      "spoken_chars": 523,
-      "avg_line_chars": 20.9,
-      "est_duration_sec": 139.8,
+      "spoken_chars": 647,
+      "avg_line_chars": 25.9,
+      "est_duration_sec": 167.4,
       "has_end_marker": true
     }
   ],
