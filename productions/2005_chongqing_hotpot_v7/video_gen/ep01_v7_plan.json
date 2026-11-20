@@ -1,0 +1,372 @@
+[
+  {
+    "id": "1-1-01",
+    "episode": 1,
+    "duration": 12,
+    "seed": 71101,
+    "description": "上市前夕庆功宴，叶寻刚在秘方无偿并入确认书摁完红手印，林双双一把抽走文件并将总厨金帽递给赵帆。",
+    "dialogue": "叶寻：双双……这帽子怎么给他了？\n林双双：都要敲钟上市了。后厨往后归赵主厨。",
+    "assetNames": [
+      "双林轩总部顶层试菜厅",
+      "叶寻 · 2020研发总厨白服",
+      "林双双 · 塞纳左岸酒红礼服",
+      "赵帆",
+      "配方无偿归属确认书与调岗单"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-1-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/93aee4d3-dc87-4f3e-9fbf-0cc1b79ca68c_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/4dc3a4ab-e8b4-4a5f-afb5-7354fed97e49_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The man standing on screen-left beside the banquet table in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The woman standing on screen-right in <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3>: The newly hired chef standing to the right of <Subject 2>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-3.5s) Medium close-up two-shot framed from <Picture 1> behind a blurred foreground champagne tower.\n- [Shot 2] (3.5s-7.7s) Medium three-shot from the same south side of the table showing <Subject 1> on screen-left, <Subject 2> in center, and <Subject 3> on screen-right.\n- [Shot 3] (7.7s-12.0s) Over-the-shoulder close-up past <Subject 1>'s right shoulder onto <Subject 2> and <Subject 3>.\n[Timeline]\n- [Shot 1] (0.1s-3.4s): As <Subject 1> lifts his red-inked right thumb from the signed agreement paper, <Subject 2> snatches the agreement decisively off the table and tucks it into a folder under her left arm while <Subject 1>'s hand freezes mid-air.\n- [Shot 2] (3.6s-7.6s): <Subject 2> picks up the gold-trimmed ceremonial cap from the tray and hands it to <Subject 3>, who cradles it smugly against his chest; stunned, <Subject 1> (S1) steps half a pace forward and asks: <d>[Chinese] 双双，这帽子怎么给他了。</d>\n- [Shot 3] (7.9s-11.6s): Turning her chin coolly back toward <Subject 1>, <Subject 2> (S2) declares coldly: <d>[Chinese] 都要敲钟上市了，后厨往后归赵主厨。</d> Immediately upon finishing, she presses her lips shut in icy detachment.\n[Environment]\n- Upscale banquet dining room at night with warm crystal chandelier and champagne tower reflections.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Crisp paper snatch, stunned male question, icy female declaration, subtle banquet room tone, zero music."
+  },
+  {
+    "id": "1-1-04",
+    "episode": 1,
+    "duration": 12,
+    "seed": 71104,
+    "description": "楚南两指嫌弃地拈起叶寻洗得发白的旧围布丢进垃圾桶羞辱土锅底，赵帆捧着总厨礼帽得意宣告改做法式鹅肝融火锅。",
+    "dialogue": "楚南：老叶，上市得讲门面。你那套土锅底，早该翻篇了。\n赵帆：往后店里主打法式鹅肝融火锅，只接高档客。",
+    "assetNames": [
+      "双林轩总部顶层试菜厅",
+      "叶寻 · 2020研发总厨白服",
+      "楚南 · 海归并购总监西装",
+      "赵帆"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-1-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/93aee4d3-dc87-4f3e-9fbf-0cc1b79ca68c_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/e7103299-3c66-4f69-ace0-156e25de97df_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/ffa8d320-912f-4a57-b98a-d319ecda15fd.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The man standing silently on screen-left in <Picture 1>, matching <Picture 2>.\n- <Subject 2> (S1): The executive man on screen-right in <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n- <Subject 3> (S2): The Western-style chef matching <Picture 4>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-2.4s) Medium shot framed from <Picture 1> beside the dining chair and open floor trash bin.\n- [Shot 2] (2.4s-7.4s) Slightly high-angle medium close-up favoring <Subject 2> on screen-right above the floor trash bin.\n- [Shot 3] (7.4s-12.0s) Close-up on <Subject 3> on screen-right holding the gold-trimmed ceremonial cap proudly.\n[Timeline]\n- [Shot 1] (0.1s-2.3s): Wrinkling his nose in disgust, <Subject 2> pinches a corner of the faded old work cloth off the chair back with two fingers and holds it over the trash bin while <Subject 1> glares with closed lips.\n- [Shot 2] (2.5s-7.2s): Dropping the faded cloth into the trash bin and dusting his fingertips together, <Subject 2> (S1) looks toward screen-left and sneers: <d>[Chinese] 老叶，上市得讲门面，你那套土锅底，早该翻篇了。</d>\n- [Shot 3] (7.6s-11.6s): Resting both hands smugly on the gold-trimmed ceremonial cap at his chest, <Subject 3> (S2) tilts his chin up toward screen-left and boasts: <d>[Chinese] 往后店里主打法式鹅肝融火锅，只接高档客。</d>\n[Environment]\n- Luxury corporate banquet VIP room at night.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Cloth thudding into bin, arrogant male sneer, pretentious male boast, zero music."
+  },
+  {
+    "id": "1-1-07",
+    "episode": 1,
+    "duration": 13,
+    "seed": 71107,
+    "description": "叶寻急切争辩撤掉温补底料外地客受不了重辣，被林双双抽出调岗单厉声打断翻脸训斥，叶寻彻骨心寒。",
+    "dialogue": "叶寻：撤了我家的温补底料，外地客哪受得了这重辣——\n林双双：少往自己脸上贴金！没楚南铺路做推广，你现在还在小县城守破灶呢！",
+    "assetNames": [
+      "双林轩总部顶层试菜厅",
+      "叶寻 · 2020研发总厨白服",
+      "林双双 · 塞纳左岸酒红礼服",
+      "配方无偿归属确认书与调岗单"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-1-07_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/93aee4d3-dc87-4f3e-9fbf-0cc1b79ca68c_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/4dc3a4ab-e8b4-4a5f-afb5-7354fed97e49_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The man on screen-left in <Picture 1> with a metal lanyard badge at his chest, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The woman on screen-right holding a black folder, matching <Picture 3>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-4.5s) Close-up framed from <Picture 1> on <Subject 1> facing screen-right.\n- [Shot 2] (4.5s-11.0s) Reverse close-up from the same 180-degree side on <Subject 2> on screen-right facing screen-left.\n- [Shot 3] (11.0s-13.0s) Tight close-up back on <Subject 1> on screen-left in silent shock.\n[Timeline]\n- [Shot 1] (0.1s-4.4s): Leaning forward urgently and gesturing with his right hand, <Subject 1> (S1) argues earnestly: <d>[Chinese] 撤了我家的温补底料，外地客哪受得了这重辣。</d>\n- [Shot 2] (4.6s-10.8s): Pulling a printed transfer slip sharply out of her folder, <Subject 2> (S2) glares at screen-left and snaps harshly: <d>[Chinese] 少往自己脸上贴金，没楚南铺路做推广，你现在还在小县城守破灶呢。</d> She presses her lips shut right as the line finishes.\n- [Shot 3] (11.0s-13.0s): <Subject 1> stands frozen with lips pressed tightly shut, eyes turning ice-cold in bitter realization.\n[Environment]\n- Upscale banquet room with warm bokeh lights.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Urgent male plea cut off by sharp paper rustle and biting female rebuke, silent room tension, zero music."
+  },
+  {
+    "id": "1-1-10",
+    "episode": 1,
+    "duration": 13,
+    "seed": 71110,
+    "description": "林双双将郊区仓库调岗单重重拍在叶寻胸口并亲昵挽住楚南胳膊，楚南扇着鼻子嫌弃草药味撵叶寻腾地方。",
+    "dialogue": "林双双：看在以前的分上，郊区仓库给你留了个位置。去不去随你。\n楚南：行了叶师傅，腾地方吧，这一身草药味儿怪冲的。",
+    "assetNames": [
+      "双林轩总部顶层试菜厅",
+      "叶寻 · 2020研发总厨白服",
+      "林双双 · 塞纳左岸酒红礼服",
+      "楚南 · 海归并购总监西装",
+      "赵帆"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-1-10_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/93aee4d3-dc87-4f3e-9fbf-0cc1b79ca68c_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/4dc3a4ab-e8b4-4a5f-afb5-7354fed97e49_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/e7103299-3c66-4f69-ace0-156e25de97df_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The man standing on screen-left in <Picture 1>, matching <Picture 2>.\n- <Subject 2> (S1): The woman on screen-right in <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n- <Subject 3> (S2): The executive man standing to the right of <Subject 2>, matching <Picture 4>. Voice matches Audio 2.\n- <Subject 4>: The chef standing on the far right, matching <Picture 5>.\n[Shot]\n- [Shot 1] (0s-2.4s) Profile medium close-up framed from <Picture 1> beside the table edge.\n- [Shot 2] (2.4s-8.4s) Over-the-shoulder shot past <Subject 1>'s right shoulder pulling back smoothly 0.5m as <Subject 2> links arms with <Subject 3> beside <Subject 4>.\n- [Shot 3] (8.4s-13.0s) Close-up two-shot favoring <Subject 3> with <Subject 2> holding his left arm.\n[Timeline]\n- [Shot 1] (0.1s-2.3s): <Subject 2> slaps the printed transfer slip hard against <Subject 1>'s left chest and withdraws her hand; the paper slides down onto the table edge while <Subject 1> stands motionless.\n- [Shot 2] (2.5s-8.2s): Stepping back half a pace to link both hands affectionately around <Subject 3>'s left arm, <Subject 2> (S1) speaks condescendingly toward screen-left: <d>[Chinese] 看在以前的分上，郊区仓库给你留了个位置，去不去随你。</d>\n- [Shot 3] (8.5s-12.6s): Waving his right hand dismissively twice in front of his nose, <Subject 3> (S2) smirks at screen-left and says: <d>[Chinese] 行了叶师傅，腾地方吧，这一身草药味儿怪冲的。</d>\n[Environment]\n- Upscale banquet VIP room at night.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Crisp slap of paper on chest, condescending female voice, mocking male dismissal, zero music."
+  },
+  {
+    "id": "1-1-13",
+    "episode": 1,
+    "duration": 10,
+    "seed": 71113,
+    "description": "叶寻盯着垃圾桶里的旧围布攥拳绷白，一把扯断胸前总厨工牌重重砸在桌面调岗单旁，转身推开包厢门决绝离场。",
+    "dialogue": "",
+    "assetNames": [
+      "双林轩总部顶层试菜厅",
+      "叶寻 · 2020研发总厨白服",
+      "林双双 · 塞纳左岸酒红礼服",
+      "楚南 · 海归并购总监西装"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-1-13_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/93aee4d3-dc87-4f3e-9fbf-0cc1b79ca68c_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/4dc3a4ab-e8b4-4a5f-afb5-7354fed97e49_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/e7103299-3c66-4f69-ace0-156e25de97df_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/8f051edf-6fbe-433a-8d45-e0a226c0e283_main_1k.png"
+    ],
+    "ref_audios": [],
+    "prompt": "[Subject]\n- <Subject 1>: The man whose left hand appears in <Picture 1>, matching <Picture 2>.\n- <Subject 2>: The woman by the table, matching <Picture 3>.\n- <Subject 3>: The executive man beside <Subject 2>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-2.3s) High-angle close-up framed from <Picture 1> showing <Subject 1>'s left hand in the foreground and the faded cloth inside the floor trash bin.\n- [Shot 2] (2.3s-5.0s) Fast push-in close-up on <Subject 1>'s upper chest and face inside <Picture 5>.\n- [Shot 3] (5.0s-7.0s) Tabletop close-up beside a champagne flute and the white transfer slip.\n- [Shot 4] (7.0s-10.0s) Wide interior shot toward the dark double wooden doors at right-rear of <Picture 5> (camera stays strictly inside the room).\n[Timeline]\n- [Shot 1] (0.1s-2.2s): <Subject 1>'s left fingers clench into a rock-hard fist with white knuckles.\n- [Shot 2] (2.4s-4.9s): With reddened, razor-cold eyes and closed lips, <Subject 1> grabs the metal badge at his chest with his right hand and rips the lanyard cord clean off.\n- [Shot 3] (5.1s-6.9s): <Subject 1>'s right hand slams the metal badge and snapped cord sharply down onto the table beside the transfer slip, making the champagne in the glass tremble.\n- [Shot 4] (7.1s-10.0s): Turning sharply away from <Subject 2> and <Subject 3> by the table, <Subject 1> strides briskly to the right-rear wooden door, pushes it open, and exits into the corridor.\n[Environment]\n- Luxury banquet room interior with dark wooden doors.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Snapping lanyard cord, sharp metallic slam of badge on table, brisk footsteps, heavy wooden door pushed open, distant thunder rumble, zero speech, zero music."
+  },
+  {
+    "id": "1-2-01",
+    "episode": 1,
+    "duration": 13,
+    "seed": 71201,
+    "description": "暴雨长街叶寻浑身湿透死攥爷爷留下的旧木牌痛悔心声，刺目远光灯劈开雨幕伴随着急刹声吞没画面，旧木牌与手臂坠落积水黑沉。",
+    "dialogue": "叶寻（心声）：十年心血，连爷爷留的方子……全喂了狗。",
+    "assetNames": [
+      "集团大厦旋转门雨夜街口",
+      "叶寻 · 2020研发总厨白服"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-2-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/93aee4d3-dc87-4f3e-9fbf-0cc1b79ca68c_front_1k.png"
+    ],
+    "ref_audios": [],
+    "vo_custom": {
+      "voice": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "face_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/93aee4d3-dc87-4f3e-9fbf-0cc1b79ca68c_front_1k.png",
+      "text": "十年心血，连爷爷留的方子，全喂了狗。",
+      "duration": 5,
+      "dst_start": 3.25,
+      "max_len": 4.0,
+      "base_duck": 0.34
+    },
+    "prompt": "[Subject]\n- <Subject 1>: The drenched man walking in the pouring rain in <Picture 1>, matching <Picture 2>.\n[Shot]\n- [Shot 1] (0s-3.0s) Wide rainy night street shot framed from <Picture 1>.\n- [Shot 2] (3.0s-7.5s) Tight close-up on <Subject 1> in the pouring rain clutching a dark carved wooden plaque tightly against his chest.\n- [Shot 3] (7.5s-10.0s) Fast push-in extreme close-up on <Subject 1>'s rain-streaked face as blinding white car headlights slash in from screen-right.\n- [Shot 4] (10.0s-13.0s) Low ground-level close-up of dark rain puddles on wet asphalt.\n[Timeline]\n- [Shot 1] (0.1s-2.9s): Soaked to the bone in torrential rain, <Subject 1> stumbles forward to the center lane of the empty wet street and pulls an old dark wooden plaque from his pocket.\n- [Shot 2] (3.1s-7.4s): Rain streaming down his face, <Subject 1> clutches the old wooden plaque fiercely against his chest with trembling white knuckles, keeping his lips pressed tightly shut in silent anguish.\n- [Shot 3] (7.6s-9.9s): Hearing a sudden horn, <Subject 1> whips his head toward screen-right as blinding twin white headlight beams rapidly flood his widening pupils and wash the entire frame in pure white glare.\n- [Shot 4] (10.1s-13.0s): After a brief camera jolt, the dark wooden plaque skids to a stop across the rain puddle while <Subject 1>'s limp drenched right forearm rests motionless in the water as the frame fades to pitch black.\n[Environment]\n- Torrential rainstorm on a wet asphalt city street at night.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Heavy pouring rain and thunder, blaring car horn and screeching tires at 7.6s, dull impact thud and wooden plaque skidding in water at 10.0s fading into silence, zero speech, zero music."
+  },
+  {
+    "id": "1-3-01",
+    "episode": 1,
+    "duration": 12,
+    "seed": 71301,
+    "description": "老吊扇吱呀乱转，叶寻在2005年林记大堂木桌上猛然惊醒，摸向腿边完好无损的试锅草本包，抬头见年轻林双双伸手索要秘方、楚南仰头灌冰可乐。",
+    "dialogue": "林双双：叶寻，发什么呆呢？赶紧把你爷爷那方子拿出来呀！",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻",
+      "林双双",
+      "楚南"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/31f8723d-8c9e-4d0b-936e-3ac9faf25432_main_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The young man sleeping face-down at the wooden table in <Picture 1>, matching <Picture 2>.\n- <Subject 2> (S1): The young woman standing on screen-right of the table, matching <Picture 3>. Voice matches Audio 1.\n- <Subject 3>: The young man lounging on a wooden chair beside <Subject 2> with an iced cola can, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-3.8s) Medium close-up framed from <Picture 1> beneath the spinning vintage green ceiling fan.\n- [Shot 2] (3.8s-7.0s) High-angle close-up on the worn army-green canvas backpack resting on the wooden bench beside <Subject 1>'s leg.\n- [Shot 3] (7.0s-12.0s) Over-the-shoulder medium shot past <Subject 1>'s left shoulder onto <Subject 2> standing upper-right and <Subject 3> seated lower-right across the table with a half-sheet sketch on the wood.\n[Timeline]\n- [Shot 1] (0.1s-3.7s): <Subject 1> jolts upright from the greasy wooden table gasping heavily, sweeps a stunned look around the sunlit old hall, and reaches his right hand swiftly down toward the canvas backpack beside his leg.\n- [Shot 2] (3.9s-6.9s): <Subject 1>'s right hand reaches into the half-unzipped canvas backpack and squeezes the bulging twine-tied coarse cloth herb bundle firmly inside.\n- [Shot 3] (7.1s-11.6s): While <Subject 3> tilts his head back gulping iced cola from a red aluminum can, <Subject 2> (S1) frowns impatiently, holds out her open right palm toward <Subject 1>, and demands: <d>[Chinese] 叶寻，发什么呆呢，赶紧把你爷爷那方子拿出来呀。</d>\n[Environment]\n- Hot September 2005 afternoon inside an old Chongqing small eatery hall (<Picture 5>) with creaking ceiling fan.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Creaking ceiling fan and cicadas, sharp gasp, canvas rustle, cola gulp, impatient female demand, zero music."
+  },
+  {
+    "id": "1-3-04",
+    "episode": 1,
+    "duration": 10,
+    "seed": 71304,
+    "description": "叶寻确认回到2005年试锅当日眼神转冷，对桌楚南扯着领口嫌九月天太热嘲讽只有干苦力的才吃火锅。",
+    "dialogue": "叶寻（心声）：还没交出去……我回到试锅这天了？\n楚南：双双，这九月天热得冒烟，谁进门吃火锅啊？干苦力的？",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻",
+      "楚南"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav"
+    ],
+    "vo_custom": {
+      "voice": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "face_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "text": "还没交出去，我回到试锅这天了。",
+      "duration": 5,
+      "dst_start": 0.35,
+      "max_len": 3.6,
+      "base_duck": 0.22
+    },
+    "prompt": "[Subject]\n- <Subject 1>: The young man seated on screen-left in <Picture 1>, matching <Picture 2>.\n- <Subject 2> (S1): The young man lounging on a chair on screen-right holding an aluminum cola can, matching <Picture 3>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-4.3s) Push-in close-up starting from <Picture 1> advancing 0.35m onto <Subject 1>'s sharp eyes.\n- [Shot 2] (4.3s-10.0s) Reverse close-up from the same 180-degree side onto <Subject 2> seated on screen-right.\n[Timeline]\n- [Shot 1] (0.1s-4.2s): Looking across the table with his lips pressed completely shut and motionless, <Subject 1> steadies his breathing as shock gives way to razor-sharp, icy clarity.\n- [Shot 2] (4.5s-9.5s): Lowering the cola can from his mouth and fanning his collar disdainfully, <Subject 2> (S1) scoffs toward screen-left: <d>[Chinese] 双双，这九月天热得冒烟，谁进门吃火锅啊，干苦力的。</d>\n[Environment]\n- Sunlit old Chongqing eatery hall at midday.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Quiet creaking fan and cicadas during [Shot 1], aluminum can crinkle and arrogant male scoff in [Shot 2], zero music."
+  },
+  {
+    "id": "1-3-06",
+    "episode": 1,
+    "duration": 14,
+    "seed": 71306,
+    "description": "楚南把空可乐罐重重顿在桌上环视空荡大堂，撺掇林双双改开高档西餐厅赚重大学生钱，林双双心动却苦恼账上没钱请西餐师傅。",
+    "dialogue": "楚南：听我的，直接改高档西餐厅！外头重大的学生就吃这套。\n林双双：我也想啊，可家里账上没几个活钱了，上哪儿请西餐师傅去……",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "楚南",
+      "林双双",
+      "叶寻"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-06_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man seated on screen-right in <Picture 1> holding the empty cola can, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young woman standing beside <Subject 1> in <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3>: The young man seated on the far left edge in <Picture 1>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-2.2s) Medium shot framed from <Picture 1> showing the empty dining tables across the hall.\n- [Shot 2] (2.2s-7.6s) Close-up on <Subject 1> on screen-right tapping the table edge.\n- [Shot 3] (7.6s-14.0s) Close-up on <Subject 2> on screen-right looking down toward <Subject 1>.\n[Timeline]\n- [Shot 1] (0.1s-2.1s): <Subject 1> thumps the empty aluminum cola can onto the wooden table and sweeps an arrogant look across the empty hall.\n- [Shot 2] (2.3s-7.3s): Tapping his index finger twice on the table and gesturing grandly up at <Subject 2>, <Subject 1> (S1) pitches enthusiastically: <d>[Chinese] 听我的，直接改高档西餐厅，外头重大的学生就吃这套。</d>\n- [Shot 3] (7.8s-13.4s): Crossing her arms as her eyes light up with vanity and then cloud over in worry, <Subject 2> (S2) sighs to <Subject 1>: <d>[Chinese] 我也想啊，可家里账上没几个活钱了，上哪儿请西餐师傅去。</d>\n[Environment]\n- Sunlit empty old eatery hall with wooden tables.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Hollow thump of empty aluminum can on wood, boastful male pitch, fretful female sigh and reply, zero music."
+  },
+  {
+    "id": "1-3-09",
+    "episode": 1,
+    "duration": 11,
+    "seed": 71309,
+    "description": "楚南拍胸口包揽介绍星级西餐主厨，林双双惊喜之余仍不甘心放过叶寻，转头与楚南齐齐盯住叶寻催讨秘方。",
+    "dialogue": "楚南：找我啊！我认识个星级西餐主厨，打声招呼的事儿。\n林双双：当真？不过叶寻答应今儿试锅了……叶寻，东西呢？",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "楚南",
+      "林双双",
+      "叶寻"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-09_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man leaning back in his chair in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young woman standing beside him, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3>: The young man seated on screen-left across the table, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-5.2s) Low-angle close-up framed from <Picture 1> on <Subject 1> on screen-right.\n- [Shot 2] (5.2s-11.0s) Over-the-shoulder medium close-up past <Subject 3>'s blurred left shoulder onto <Subject 2> and <Subject 1> on screen-right.\n[Timeline]\n- [Shot 1] (0.2s-5.0s): Patting his own chest smugly with his right hand, <Subject 1> (S1) boasts up to <Subject 2>: <d>[Chinese] 找我啊，我认识个星级西餐主厨，打声招呼的事儿。</d>\n- [Shot 2] (5.4s-10.5s): Flashing a delighted smile at <Subject 1> before turning sharply with him to stare at <Subject 3> and holding out her hand again, <Subject 2> (S2) demands: <d>[Chinese] 当真，不过叶寻答应今儿试锅了，叶寻，东西呢。</d>\n[Environment]\n- Sunlit old eatery dining hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Hand patting chest, smug male brag, greedy female demand, creaking ceiling fan, zero music."
+  },
+  {
+    "id": "1-3-11",
+    "episode": 1,
+    "duration": 12,
+    "seed": 71311,
+    "description": "叶寻果断拉死帆布书包拉链锁起草本包，当着两人面把桌上《林记火锅改造草图》撕成两半丢进痰桶，林双双拍桌炸毛怒斥。",
+    "dialogue": "林双双：叶寻你发什么疯？！好端端撕它干嘛！",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻",
+      "林双双",
+      "楚南"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-11_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-12_aux_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The young man seated on screen-left in <Picture 2>, matching <Picture 3>.\n- <Subject 2> (S1): The young woman standing on screen-right in <Picture 2>, matching <Picture 4>. Voice matches Audio 1.\n- <Subject 3>: The young man seated beside <Subject 2> in <Picture 2>, matching <Picture 5>.\n[Shot]\n- [Shot 1] (0s-2.4s) High-angle close-up framed from <Picture 1> on the army-green canvas backpack on the wooden bench.\n- [Shot 2] (2.4s-5.6s) Medium close-up three-shot framed from <Picture 2> across the wooden table.\n- [Shot 3] (5.6s-7.6s) High-angle close-up of the white enamel spittoon beside the table leg.\n- [Shot 4] (7.6s-12.0s) Close-up on <Subject 2> leaning over the right edge of the table.\n[Timeline]\n- [Shot 1] (0.1s-2.3s): <Subject 1>'s right hand pulls the metal zipper briskly from left to right, sealing the canvas backpack completely shut.\n- [Shot 2] (2.5s-5.5s): With an expressionless stare at <Subject 2> and <Subject 3>, <Subject 1> lifts the renovation sketch paper from the table and rips it cleanly in half right in front of their shocked faces.\n- [Shot 3] (5.7s-7.5s): <Subject 1>'s right hand drops both torn halves of paper straight into the white enamel spittoon on the floor.\n- [Shot 4] (7.8s-11.3s): Slamming both palms onto the wooden table and leaning forward with blazing eyes, <Subject 2> (S1) yells furiously: <d>[Chinese] 叶寻你发什么疯，好端端撕它干嘛。</d> Immediately upon finishing, she clamps her lips shut and glares.\n[Environment]\n- Sunlit 2005 eatery hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Sharp metallic zipper pull, crisp paper rip, paper dropping into enamel spittoon, palms slapping table, furious female shout, zero music."
+  },
+  {
+    "id": "1-3-15",
+    "episode": 1,
+    "duration": 15,
+    "seed": 71315,
+    "description": "叶寻拿楚南嫌火锅土的原话淡然回敬，林双双翻旧账倒打一耙，楚南抱臂抖腿阴阳怪气激将嘲讽。",
+    "dialogue": "叶寻：楚少不是说了吗，火锅太土，别糟蹋你家这地方。\n林双双：说两句你还甩上脸子了？昨晚拍胸脯说帮我家的人是谁？\n楚南：嗨，人家这是有自知之明，不好意思拿土方子出来丢人。",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻",
+      "林双双",
+      "楚南"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-15_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man seated calmly on screen-left in <Picture 1> with his hands resting on the zipped canvas backpack, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young woman standing on screen-right, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3> (S3): The young man seated on screen-right, matching <Picture 4>. Voice matches Audio 3.\n[Shot]\n- [Shot 1] (0s-4.7s) Close-up framed from <Picture 1> on <Subject 1> facing screen-right.\n- [Shot 2] (4.7s-10.2s) Over-the-shoulder close-up past <Subject 1>'s left shoulder onto <Subject 2> on screen-right.\n- [Shot 3] (10.2s-15.0s) Close-up on <Subject 3> folding his arms smugly in his chair on screen-right.\n[Timeline]\n- [Shot 1] (0.2s-4.5s): Unmoved by her anger, <Subject 1> (S1) nods toward screen-right and replies evenly: <d>[Chinese] 楚少不是说了吗，火锅太土，别糟蹋你家这地方。</d>\n- [Shot 2] (4.9s-10.0s): Straightening up and pointing an accusing finger at <Subject 1>, <Subject 2> (S2) snaps indignantly: <d>[Chinese] 说两句你还甩上脸子了，昨晚拍胸脯说帮我家的人是谁。</d>\n- [Shot 3] (10.4s-14.6s): Folding his arms and tilting his head in a mocking sneer toward screen-left, <Subject 3> (S3) says sarcastically: <d>[Chinese] 嗨，人家这是有自知之明，不好意思拿土方子出来丢人。</d>\n[Environment]\n- Sunlit 2005 Chongqing eatery hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Cool unhurried male reply, indignant female accusation, sarcastic male mockery, zero music."
+  },
+  {
+    "id": "1-3-18",
+    "episode": 1,
+    "duration": 10,
+    "seed": 71318,
+    "description": "叶寻毫不在意激将，干脆宣告退出，利落拎起帆布书包甩上右肩转身拉开大堂木门，林双双在身后慌乱急喊。",
+    "dialogue": "叶寻：嗯。你们改西餐吧，我不掺和了。\n林双双：一中午连个人影都没有，你现在甩手走人？！",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "重庆老街对门双火锅铺街景",
+      "叶寻",
+      "林双双",
+      "楚南"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-18_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/31f8723d-8c9e-4d0b-936e-3ac9faf25432_main_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man seated on screen-left in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young woman standing at the table on screen-left rear, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3>: The young man seated at the table, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-3.5s) Close-up framed from <Picture 1> on <Subject 1> gripping the canvas backpack strap.\n- [Shot 2] (3.5s-5.8s) Medium shot beside the wooden bench as <Subject 1> stands up and slings the backpack onto his right shoulder.\n- [Shot 3] (5.8s-10.0s) Wide tracking shot inside <Picture 5> moving 1.5m rightward parallel to <Subject 1> as he pulls open the wooden front door on screen-right (camera stays strictly inside the doorway).\n[Timeline]\n- [Shot 1] (0.1s-3.3s): Giving a crisp nod, <Subject 1> (S1) says coolly: <d>[Chinese] 嗯，你们改西餐吧，我不掺和了。</d>\n- [Shot 2] (3.6s-5.7s): Without sparing the table another glance, <Subject 1> rises briskly, swings the heavy army-green canvas backpack onto his right shoulder, and grips the front strap.\n- [Shot 3] (5.9s-9.6s): As <Subject 1> strides to the right wooden door and pulls it wide open onto the bright street, <Subject 2> (S2) lurches half a step forward in the left background shouting anxiously at his back: <d>[Chinese] 一中午连个人影都没有，你现在甩手走人。</d>\n[Environment]\n- Old eatery hall opening onto a bright sunlit Chongqing street.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Crisp male farewell, heavy canvas bag swung onto shoulder, creaking wooden door pulled open, anxious female shout, zero music."
+  },
+  {
+    "id": "1-3-21",
+    "episode": 1,
+    "duration": 15,
+    "seed": 71321,
+    "description": "叶寻在门口冷刺回敬后迈入阳光老街暗下决心，林双双脸色骤变追出门槛一把死死拽住他的帆布书包带厉声喝阻切集。",
+    "dialogue": "叶寻：找你的星级主厨去。\n叶寻（心声）：上辈子拿我当血包，这回，如你们的愿。\n林双双：叶寻你给我站住！话没说清楚往哪儿走——谁准你反悔的？！",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "重庆老街对门双火锅铺街景",
+      "叶寻",
+      "林双双"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-21_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/c4e41118-a4ed-49d3-85f8-c06d4b0b0173_main_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "vo_custom": {
+      "voice": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "face_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "text": "上辈子拿我当血包，这回，如你们的愿。",
+      "duration": 5,
+      "dst_start": 2.9,
+      "max_len": 3.7,
+      "base_duck": 0.22
+    },
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man standing alone at the open wooden doorway threshold in <Picture 1> with the canvas backpack on his right shoulder, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young woman chasing out from inside the doorway, matching <Picture 3>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-2.6s) Close-up framed from <Picture 1> on <Subject 1> alone at the sunlit threshold.\n- [Shot 2] (2.6s-6.8s) Medium close-up from the sunlit street side (<Picture 4>) facing <Subject 1> stepping across the wooden threshold.\n- [Shot 3] (6.8s-8.8s) Medium shot looking out the doorway onto the stone steps as <Subject 2> rushes out from left-rear.\n- [Shot 4] (8.8s-15.0s) Tight profile two-shot on the sunlit steps with <Subject 2> on screen-left gripping the taut backpack strap and <Subject 1> on screen-right.\n[Timeline]\n- [Shot 1] (0.1s-2.4s): Half-glancing back over his shoulder without turning around, <Subject 1> (S1) replies coldly: <d>[Chinese] 找你的星级主厨去。</d>\n- [Shot 2] (2.7s-6.7s): Stepping firmly over the wooden threshold into the sunlit 2005 bluestone street, <Subject 1> tightens his right hand on his backpack strap with resolute eyes and keeps his lips completely closed and silent.\n- [Shot 3] (6.9s-8.7s): <Subject 2> dashes out through the doorway from left-rear and grabs the rear strap of <Subject 1>'s canvas backpack with both hands, yanking him sharply to a halt.\n- [Shot 4] (9.0s-14.3s): Clutching the taut canvas strap fiercely on screen-left, <Subject 2> (S2) glares at <Subject 1> and barks imperiously: <d>[Chinese] 叶寻你给我站住，话没说清楚往哪儿走，谁准你反悔的。</d> Both freeze in high-tension standoff as <Subject 1> eyes her gripping hands coldly.\n[Environment]\n- Bright sunlit 2005 Chongqing bluestone street outside the old eatery doorway.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Cool male retort in [Shot 1], footsteps on bluestone in [Shot 2], urgent running steps and taut canvas strap yank in [Shot 3], furious female command in [Shot 4], zero music."
+  }
+]

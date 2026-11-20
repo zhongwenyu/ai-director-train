@@ -1,0 +1,424 @@
+[
+  {
+    "id": "3-1-01",
+    "episode": 3,
+    "duration": 13,
+    "seed": 73101,
+    "description": "夏建国捂着脖子剧烈干咳被夏芊芊扶坐递温水，叶寻点破急火攻心嗓痛如吞刀片，夏建国沙哑抗拒再闻燥辣红油味。",
+    "dialogue": "叶寻：夏叔，急火攻心，嗓子眼疼得像吞刀片吧？\n夏建国：可不是！再闻见那股燥辣红油味儿，我这嗓子彻底交代了！",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "夏建国",
+      "夏芊芊",
+      "叶寻"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4c7edfe0-1a73-4082-90c0-a2a5f6eede2e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S2): The master chef clutching his sore throat in <Picture 1>, matching <Picture 2>. Voice matches Audio 2.\n- <Subject 2>: The young woman supporting <Subject 1>'s arm in <Picture 1>, matching <Picture 3>.\n- <Subject 3> (S1): The young man standing by the wooden counter on screen-left in <Picture 1>, matching <Picture 4>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-2.8s) Medium shot framed from <Picture 1> panning slightly as <Subject 2> helps <Subject 1> sit down on the bench at the wooden table.\n- [Shot 2] (2.8s-7.0s) Medium close-up across the wooden table as <Subject 2> hands <Subject 1> a white porcelain cup of warm water and <Subject 3> speaks from screen-left.\n- [Shot 3] (7.0s-13.0s) Over-the-shoulder close-up past <Subject 3>'s left shoulder onto <Subject 1> holding the cup.\n[Timeline]\n- [Shot 1] (0.1s-2.7s): Coughing raspingly while clutching his neck, <Subject 1> is guided gently by <Subject 2> onto the wooden bench beside the table.\n- [Shot 2] (3.0s-6.8s): As <Subject 1> takes the white cup of warm water into his left hand, <Subject 3> (S1) leans slightly forward from screen-left and asks calmly: <d>[Chinese] 夏叔，急火攻心，嗓子眼疼得像吞刀片吧。</d>\n- [Shot 3] (7.2s-12.5s): Wincing as he holds the warm cup at his chest and tapping the iron ladle handle on the table edge, <Subject 1> (S2) replies in a raspy pained voice: <d>[Chinese] 可不是，再闻见那股燥辣红油味儿，我这嗓子彻底交代了。</d>\n[Environment]\n- Sunlit traditional eatery front hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Dry raspy cough, bench scrape, warm concerned male question, raspy pained older male reply, zero music."
+  },
+  {
+    "id": "3-1-04",
+    "episode": 3,
+    "duration": 14,
+    "seed": 73104,
+    "description": "叶寻立军令状借后厨小灶四十分钟试熬，若烧嗓子拎包就走，夏芊芊柔声帮腔，夏建国搁下铁炒勺默许叶寻捧草本包进后厨。",
+    "dialogue": "叶寻：后厨小灶借我四十分钟。熬出来您尝一口，要是烧嗓子，我拎包就走。\n夏芊芊：爸，小寻从小不说空话，就让他开火试试嘛。",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "叶寻",
+      "夏建国",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man standing by the dark wooden counter on screen-left in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The master chef seated at the wooden table on screen-right, matching <Picture 3>.\n- <Subject 3> (S2): The young woman standing beside <Subject 2>, matching <Picture 4>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-6.5s) Over-the-shoulder close-up framed from <Picture 1> onto <Subject 1> patting the coarse cloth herb bundle.\n- [Shot 2] (6.5s-11.2s) Medium close-up on screen-right as <Subject 3> bends gently beside seated <Subject 2>.\n- [Shot 3] (11.2s-14.0s) Medium wide shot of the front hall showing <Subject 1> on screen-left and <Subject 2> with <Subject 3> on screen-right.\n[Timeline]\n- [Shot 1] (0.2s-6.3s): Patting the coarse cloth herb bundle firmly with his right palm and looking squarely at <Subject 2>, <Subject 1> (S1) pledges clearly: <d>[Chinese] 后厨小灶借我四十分钟，熬出来您尝一口，要是烧嗓子，我拎包就走。</d>\n- [Shot 2] (6.7s-11.0s): Holding <Subject 2>'s right arm gently with an encouraging smile, <Subject 3> (S2) coaxes softly: <d>[Chinese] 爸，小寻从小不说空话，就让他开火试试嘛。</d>\n- [Shot 3] (11.3s-14.0s): Shooting his daughter a reluctant look, <Subject 2> lays his iron wok ladle flat onto the table corner in tacit consent; <Subject 1> lifts the herb bundle in both hands and strides toward the rear kitchen curtain.\n[Environment]\n- Sunlit traditional eatery front hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Confident male pledge, warm coaxing female voice, metallic clink of iron ladle set flat on wood, brisk footsteps, zero music."
+  },
+  {
+    "id": "3-1-08",
+    "episode": 3,
+    "duration": 9,
+    "seed": 73108,
+    "description": "后厨小灶火苗升腾，叶寻将十七味温补草本入温油慢焖滤渣再融化醇厚牛油，紫铜锅红汤清亮翻滚无浓烟，药膳脂香顺木窗飘出巷口。",
+    "dialogue": "",
+    "assetNames": [
+      "夏氏小厨后厨猛火炒灶",
+      "叶寻",
+      "紫铜子母鸳鸯锅"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-08_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/dffa9e8a-758f-40cd-9987-7478b523c3c1_main_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/52c5f62e-628b-4b65-a41a-14c20992c1fc_main_1k.png"
+    ],
+    "ref_audios": [],
+    "prompt": "[Subject]\n- <Subject 1>: The young man working beside the brick stove in <Picture 1>, matching <Picture 2>.\n[Shot]\n- [Shot 1] (0s-3.4s) Medium close-up framed from <Picture 1> at the brick stove in <Picture 4>.\n- [Shot 2] (3.4s-6.4s) Overhead close-up into the iron wok as herbs are strained clean and rich white beef tallow melts into amber-red oil.\n- [Shot 3] (6.4s-9.0s) Medium shot panning smoothly 20 degrees leftward from the simmering copper pot (<Picture 3>) on the stove to the open wooden window looking out onto the stone alley.\n[Timeline]\n- [Shot 1] (0.1s-3.3s): Untying the coarse cloth bundle, <Subject 1> tips dried aromatic herbs into the warm oil in the wok and stirs steadily with a long wooden ladle.\n- [Shot 2] (3.5s-6.3s): <Subject 1>'s left hand lifts all infused herbs cleanly out with a fine mesh strainer while his right ladle slides a block of solid white beef tallow into the golden-red oil, melting smoothly.\n- [Shot 3] (6.5s-9.0s): Clear ruby-red broth bubbles briskly without acrid smoke inside the copper pot as fragrant white steam wafts out through the open left wooden window into the sunlit alley.\n[Environment]\n- Sunlit traditional brick-stove restaurant kitchen with open wooden alley window.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Roaring stove flame, gentle sizzle of herbs in warm oil, mesh strainer clink, rich bubbling broth, light breeze at window, zero speech, zero music."
+  },
+  {
+    "id": "3-1-11",
+    "episode": 3,
+    "duration": 11,
+    "seed": 73111,
+    "description": "摇蒲扇路过的陈伯被药膳奇香勾住脚步扒着木窗台往里打听，叶寻在灶前撇净浮油盛出半碗清亮红汤并涮熟两片鲜毛肚。",
+    "dialogue": "陈伯：老夏，背着人炖啥好汤呢？隔半条街都闻见香了！",
+    "assetNames": [
+      "夏氏小厨后厨猛火炒灶",
+      "陈伯",
+      "叶寻",
+      "紫铜子母鸳鸯锅"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-11_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-13_aux_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b88d814a-407f-4063-8e21-7a7b39478909_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/dffa9e8a-758f-40cd-9987-7478b523c3c1_main_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The neighborhood uncle holding a palm-leaf fan outside the wooden window in <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n- <Subject 2>: The young man working at the stove in <Picture 2>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-2.4s) Exterior alley medium shot framed from <Picture 1> beside the open wooden kitchen window.\n- [Shot 2] (2.4s-7.2s) Interior kitchen close-up looking past blurred steam toward <Subject 1> leaning eagerly in through the left wooden window.\n- [Shot 3] (7.2s-11.0s) High-angle stove close-up framed from <Picture 2> showing the simmering copper pot (<Picture 5>) and a white porcelain bowl.\n[Timeline]\n- [Shot 1] (0.1s-2.3s): Stopping abruptly outside the open window, <Subject 1> inhales the rich aroma deeply twice and grips the wooden windowsill to peer inside.\n- [Shot 2] (2.6s-7.0s): Beaming with eager curiosity through the window frame, <Subject 1> (S1) calls out cheerfully: <d>[Chinese] 老夏，背着人炖啥好汤呢，隔半条街都闻见香了。</d>\n- [Shot 3] (7.3s-11.0s): Skimming the clear ruby broth into the white porcelain bowl, <Subject 2> dips two fresh tripe slices into the bubbling copper pot with long bamboo chopsticks until crisp and places them into the bowl.\n[Environment]\n- Sunlit Chongqing stone alley window and warm traditional kitchen stove.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Deep sniff of aroma, cheerful hearty male neighbor call, ladle pouring broth and tripe swished in boiling soup, zero music."
+  },
+  {
+    "id": "3-1-14",
+    "episode": 3,
+    "duration": 12,
+    "seed": 73114,
+    "description": "叶寻把红汤端到夏建国面前请他趁热抿原汤，夏建国半信半疑抿一口后双眸微亮，仰头喝下大半碗嚼完毛肚，墙上挂钟走过十分钟。",
+    "dialogue": "叶寻：夏叔，趁热抿两口原汤。",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "叶寻",
+      "夏建国",
+      "夏芊芊",
+      "紫铜子母鸳鸯锅"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-14_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/dffa9e8a-758f-40cd-9987-7478b523c3c1_main_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man on screen-left setting the white bowl down in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The master chef seated on screen-right of the wooden table in <Picture 1>, matching <Picture 3>.\n- <Subject 3>: The young woman standing beside <Subject 2> in <Picture 1>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-3.6s) Medium shot framed from <Picture 1> around the wooden table with the simmering copper pot (<Picture 5>).\n- [Shot 2] (3.6s-6.6s) Close-up on <Subject 2> taking a cautious first sip from the white bowl.\n- [Shot 3] (6.6s-10.0s) Side close-up on <Subject 2> drinking half the bowl and chewing the crisp tripe with bamboo chopsticks.\n- [Shot 4] (10.0s-12.0s) Close-up of the round black-framed quartz wall clock on the white interior wall.\n[Timeline]\n- [Shot 1] (0.2s-3.4s): Setting the white bowl of clear red broth steadily in front of <Subject 2>, <Subject 1> (S1) invites him warmly: <d>[Chinese] 夏叔，趁热抿两口原汤。</d>\n- [Shot 2] (3.7s-6.5s): Lifting the bowl skeptically to his lips, <Subject 2> takes a small sip and swallows; his furrowed brows instantly relax and his eyes light up in astonishment.\n- [Shot 3] (6.7s-9.9s): <Subject 2> tilts the bowl to gulp down half the broth smoothly without pain, then uses chopsticks to eat both slices of crisp tripe with relish.\n- [Shot 4] (10.1s-12.0s): On the wall clock, the minute hand sweeps briskly forward ten minutes and settles into a steady tick.\n[Environment]\n- Sunlit traditional eatery front hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Porcelain bowl set on wood, calm male invitation, sip and hearty gulp of soup, crisp chew, brisk ticking wall clock, zero music."
+  },
+  {
+    "id": "3-1-18",
+    "episode": 3,
+    "duration": 12,
+    "seed": 73118,
+    "description": "夏建国额角沁出细汗，咽了口唾沫猛摸脖子惊喜发现火辣肿痛全散、嗓音恢复洪亮清透，夏芊芊惊喜合掌欢呼。",
+    "dialogue": "夏建国：奇了……嗓子眼里那股火辣辣顶着的劲儿，真散了？！\n夏芊芊：爸！你听你说话，嗓子不劈也不哑了！",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "夏建国",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-18_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4c7edfe0-1a73-4082-90c0-a2a5f6eede2e.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The master chef seated at the table in <Picture 1> with fine sweat on his forehead, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young woman standing beside him, matching <Picture 3>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-2.4s) Push-in close-up starting from <Picture 1> onto <Subject 1>'s throat and astonished eyes.\n- [Shot 2] (2.4s-8.0s) Close-up on <Subject 1> feeling his neck with his right hand and looking toward screen-left.\n- [Shot 3] (8.0s-12.0s) Close-up on <Subject 2> clasping her hands together joyfully.\n[Timeline]\n- [Shot 1] (0.1s-2.3s): Swallowing smoothly without a trace of pain, <Subject 1> widens his eyes in disbelief and reaches his right hand swiftly to his neck.\n- [Shot 2] (2.6s-7.8s): Pressing his throat twice and snapping his amazed gaze toward screen-left, <Subject 1> (S1) exclaims in a clear, resonant voice: <d>[Chinese] 奇了，嗓子眼里那股火辣辣顶着的劲儿，真散了。</d>\n- [Shot 3] (8.2s-11.6s): Clasping both hands happily in front of her chest and beaming down at her father, <Subject 2> (S2) cheers brightly: <d>[Chinese] 爸，你听你说话，嗓子不劈也不哑了。</d>\n[Environment]\n- Warm sunlit eatery front hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Smooth swallow, booming clear older male exclamation, joyful female cheer and light hand clap, zero music."
+  },
+  {
+    "id": "3-1-21",
+    "episode": 3,
+    "duration": 12,
+    "seed": 73121,
+    "description": "窗外的陈伯馋得直咽口水，摸出二十块钱拍在木窗框上催老夏盛一碗，叶寻爽朗笑着让陈伯收钱许诺新锅挂牌头一顿请他白吃。",
+    "dialogue": "陈伯：老夏你可别吃独食！闻着一点不呛嗓子，赶紧给我盛一碗！\n叶寻：陈伯钱收回去，等过几天新锅挂牌，头一顿请您白吃。",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "陈伯",
+      "叶寻",
+      "紫铜子母鸳鸯锅"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-21_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b88d814a-407f-4063-8e21-7a7b39478909_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/dffa9e8a-758f-40cd-9987-7478b523c3c1_main_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The neighborhood uncle leaning in at the open left wooden window in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young man standing inside the hall beside the wooden table and copper pot (<Picture 4>), matching <Picture 3>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-2.2s) Close-up framed from <Picture 1> at the open wooden window.\n- [Shot 2] (2.2s-7.3s) Close-up on <Subject 1> pressing a twenty-yuan banknote onto the windowsill.\n- [Shot 3] (7.3s-12.0s) Over-the-shoulder medium close-up past the wooden window frame onto <Subject 2> smiling warmly inside the hall.\n[Timeline]\n- [Shot 1] (0.1s-2.1s): Swallowing eagerly at the sight of the hotpot, <Subject 1> slaps a twenty-yuan bill firmly down onto the wooden windowsill.\n- [Shot 2] (2.4s-7.1s): Pushing the bill forward on the wood and craning his neck eagerly toward the table, <Subject 1> (S1) calls out loudly: <d>[Chinese] 老夏你可别吃独食，闻着一点不呛嗓子，赶紧给我盛一碗。</d>\n- [Shot 3] (7.5s-11.6s): Turning toward the left window with a bright, generous smile and gesturing for <Subject 1> to take back his money, <Subject 2> (S2) replies warmly: <d>[Chinese] 陈伯钱收回去，等过几天新锅挂牌，头一顿请您白吃。</d>\n[Environment]\n- Sunlit open wooden window connecting stone alley and traditional dining hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Crisp slap of banknote on wood, eager hearty neighbor shout, warm confident young male reply, gentle simmering pot, zero music."
+  },
+  {
+    "id": "3-1-24",
+    "episode": 3,
+    "duration": 15,
+    "seed": 73124,
+    "description": "夏建国绕红汤锅看了两圈重重一拍大腿，拉过柜台纸笔推给叶寻，当场拍板改火锅让叶寻拿方子占五成一股权，叶寻执笔落字据。",
+    "dialogue": "夏建国：小寻，叔今儿服气了！改火锅！你拿方子占五成一，往后叔听你的！\n叶寻：行，夏叔，咱先把字据落下来。",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "夏建国",
+      "叶寻",
+      "夏芊芊",
+      "紫铜子母鸳鸯锅"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-1-24_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/dffa9e8a-758f-40cd-9987-7478b523c3c1_main_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4c7edfe0-1a73-4082-90c0-a2a5f6eede2e.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The master chef standing excitedly on screen-right of the wooden table in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young man standing on screen-left of the table in <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3>: The young woman smiling behind the table in <Picture 1>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-3.3s) Medium shot framed from <Picture 1> around the steaming copper pot (<Picture 5>).\n- [Shot 2] (3.3s-5.7s) Medium close-up panning briefly as <Subject 1> pulls blank white sheets and a black pen from the adjacent counter onto the table before <Subject 2>.\n- [Shot 3] (5.7s-11.7s) Over-the-shoulder close-up past <Subject 2>'s left shoulder onto <Subject 1> and beaming <Subject 3>.\n- [Shot 4] (11.7s-15.0s) Reverse over-the-shoulder close-up onto <Subject 2> uncapping the black pen over the paper.\n[Timeline]\n- [Shot 1] (0.1s-3.2s): Looking into the clear red broth in admiration, <Subject 1> nods vigorously and slaps his own right thigh hard with a resounding smack.\n- [Shot 2] (3.4s-5.6s): <Subject 1> reaches over to pull a stack of white paper and a black pen off the counter and slides them briskly across the wooden table to <Subject 2>.\n- [Shot 3] (5.9s-11.5s): Bracing both hands on the table with blazing conviction, <Subject 1> (S1) declares heartily: <d>[Chinese] 小寻，叔今儿服气了，改火锅，你拿方子占五成一，往后叔听你的。</d>\n- [Shot 4] (11.9s-14.7s): Steadying the white paper with his left hand and uncapping the black pen, <Subject 2> (S2) looks up with a steady smile and says: <d>[Chinese] 行，夏叔，咱先把字据落下来。</d>\n[Environment]\n- Sunlit traditional eatery front hall.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Loud palm slap on thigh, paper sliding on wood, booming decisive male declaration, pen cap click and steady male agreement, zero music."
+  },
+  {
+    "id": "3-2-01",
+    "episode": 3,
+    "duration": 9,
+    "seed": 73201,
+    "description": "次日上午叶寻三人拿着字据和账本刚走到夏记门口，斜对门突然炸响鞭炮红纸屑崩满地，赵帆迈出林记大门一脚踩断林记旧木匾。",
+    "dialogue": "",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "叶寻",
+      "夏芊芊",
+      "夏建国",
+      "赵帆"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-03_aux_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png"
+    ],
+    "ref_audios": [],
+    "prompt": "[Subject]\n- <Subject 1>: The young man holding a folded white agreement paper in <Picture 1>, matching <Picture 3>.\n- <Subject 2>: The young woman holding a ledger in <Picture 1>, matching <Picture 4>.\n- <Subject 3>: The master chef stepping out beside them in <Picture 1>, matching <Picture 5>.\n- <Subject 4>: The Western-style chef stepping out across the street in <Picture 2>, matching <Picture 6>.\n[Shot]\n- [Shot 1] (0s-3.4s) Medium shot framed from <Picture 1> at the sunlit stone steps of the west storefront (with a long-handled shovel leaning inside the doorpost).\n- [Shot 2] (3.4s-5.4s) High-angle close-up of the stone ground across the street bursting with red firecracker confetti and white smoke around an old wooden sign plaque.\n- [Shot 3] (5.4s-9.0s) Low-angle medium shot framed from <Picture 2> tilting down 18 degrees to <Subject 4>'s polished shoe stomping the wooden plaque.\n[Timeline]\n- [Shot 1] (0.1s-3.3s): Stepping cheerfully onto the stone steps, <Subject 1>, <Subject 2>, and <Subject 3> halt abruptly at a sudden burst of loud firecrackers and turn their heads sharply toward screen-right.\n- [Shot 2] (3.5s-5.3s): Final strings of red firecrackers pop sharply on the pavement, scattering crimson confetti across the detached old black wooden plaque.\n- [Shot 3] (5.5s-9.0s): Striding out arrogantly with hands behind his back, <Subject 4> raises his right foot high and stomps hard onto the center of the old wooden plaque, cracking the wood in two.\n[Environment]\n- Bright morning sunlight on the Chongqing bluestone street between the two facing storefronts.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Crackling firecracker bursts, footsteps halting, heavy shoe stomp snapping wooden plaque cleanly, zero speech, zero music."
+  },
+  {
+    "id": "3-2-04",
+    "episode": 3,
+    "duration": 15,
+    "seed": 73204,
+    "description": "林双双挽着楚南当街把红皮聘书递给赵帆，炫耀批下十五万装修款和八千月薪，赵帆拍胸吹嘘正宗法式西餐一开火整条街土馆子全喝西北风。",
+    "dialogue": "林双双：赵主厨，十五万装修款我全批了，往后一个月八千块工资，店里可就指望您啦！\n赵帆：林小姐把心放肚子里，等我这正宗法式西餐一开火，整条街的土馆子全得喝西北风！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "林双双",
+      "楚南",
+      "赵帆"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/ffa8d320-912f-4a57-b98a-d319ecda15fd.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young woman on screen-right in <Picture 1> linking arms with <Subject 2> and handing over a red hardcover appointment booklet, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The young man beside <Subject 1> in <Picture 1> holding a red-and-white handheld megaphone at his side, matching <Picture 3>.\n- <Subject 3> (S2): The chef on screen-left in <Picture 1> receiving the red appointment booklet, matching <Picture 4>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-7.3s) Medium close-up three-shot framed from <Picture 1> amidst red firecracker confetti outside the east storefront.\n- [Shot 2] (7.3s-15.0s) Close-up favoring <Subject 3> holding the red appointment booklet in his left hand as <Subject 1> and <Subject 2> nod smugly beside him.\n[Timeline]\n- [Shot 1] (0.2s-7.0s): Handing the gold-stamped red hardcover booklet proudly to <Subject 3> while clinging to <Subject 2>'s arm, <Subject 1> (S1) flatters him brightly: <d>[Chinese] 赵主厨，十五万装修款我全批了，往后一个月八千块工资，店里可就指望您啦。</d>\n- [Shot 2] (7.5s-14.5s): Accepting the red booklet, patting his chest theatricality with his right hand, and sweeping his arm grandly down the street, <Subject 3> (S2) brags loudly: <d>[Chinese] 林小姐把心放肚子里，等我这正宗法式西餐一开火，整条街的土馆子全得喝西北风。</d>\n[Environment]\n- Sunlit Chongqing old street storefront with firecracker confetti on the ground.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Flattering proud female voice, booklet handoff, theatrical chest pat and boastful male brag, street air, zero music."
+  },
+  {
+    "id": "3-2-08",
+    "episode": 3,
+    "duration": 14,
+    "seed": 73208,
+    "description": "叶寻站在台阶上一眼认出前世光会摆盘吃回扣的混子赵帆，对门楚南举起扩音小喇叭冲夏记嚣张喊话叫他们趁早关张。",
+    "dialogue": "叶寻（心声）：赵帆……还真是这个光会摆盘吃回扣的混子。\n楚南：喂——半个月后我们“塞纳河畔”西餐厅开业，对门冷锅冷灶的趁早关张吧！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "叶寻",
+      "楚南",
+      "林双双",
+      "赵帆",
+      "夏芊芊",
+      "夏建国"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-08_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-09_aux_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav"
+    ],
+    "vo_custom": {
+      "voice": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "face_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "text": "赵帆，还真是这个光会摆盘吃回扣的混子。",
+      "duration": 5,
+      "dst_start": 0.35,
+      "max_len": 4.0,
+      "base_duck": 0.22
+    },
+    "prompt": "[Subject]\n- <Subject 1>: The young man standing calmly on the stone steps in <Picture 1>, matching <Picture 3>.\n- <Subject 2> (S1): The young man raising a red-and-white megaphone in <Picture 2>, matching <Picture 4>. Voice matches Audio 1.\n- <Subject 3>: The young woman holding <Subject 2>'s arm in <Picture 2>, matching <Picture 5>.\n- <Subject 4>: The chef watching smugly in <Picture 2>, matching <Picture 6>.\n- <Subject 5>: The young woman holding a ledger on the steps, matching <Picture 7>.\n- <Subject 6>: The master chef standing beside <Subject 5>, matching <Picture 8>.\n[Shot]\n- [Shot 1] (0s-4.6s) Close-up framed from <Picture 1> on <Subject 1> looking toward screen-right.\n- [Shot 2] (4.6s-11.8s) Medium close-up framed from <Picture 2> on <Subject 2> shouting through the handheld megaphone toward screen-left.\n- [Shot 3] (11.8s-14.0s) Medium three-shot on the west stone steps showing <Subject 1>, <Subject 5>, and <Subject 6> facing screen-right.\n[Timeline]\n- [Shot 1] (0.1s-4.5s): Watching across the street with his lips pressed completely closed and silent, <Subject 1> narrows his eyes in cold recognition.\n- [Shot 2] (4.8s-11.6s): Lifting the red-and-white megaphone to his mouth and grinning arrogantly toward screen-left, <Subject 2> (S1) shouts loudly: <d>[Chinese] 喂，半个月后我们塞纳河畔西餐厅开业，对门冷锅冷灶的趁早关张吧。</d> He lowers the megaphone slightly with closed mouth as the sentence ends.\n- [Shot 3] (11.9s-14.0s): On the stone steps, <Subject 6> clenches his fists in anger and <Subject 5> frowns tightly around her ledger, while <Subject 1> stands unmoved with closed lips.\n[Environment]\n- Sunlit Chongqing bluestone street between the two facing shops.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Quiet street air in [Shot 1], brief megaphone click and loud projected male taunt in [Shot 2], tense reaction in [Shot 3], zero music."
+  },
+  {
+    "id": "3-2-11",
+    "episode": 3,
+    "duration": 13,
+    "seed": 73211,
+    "description": "林双双冲叶寻扬下巴炫耀离了他照样开高档西餐厅，夏建国暴怒斥骂，叶寻收起字据抬臂拦住夏建国看都不看对门一眼直接低头翻账本。",
+    "dialogue": "林双双：叶寻，瞧见没？离了你，我家照样开高档西餐厅！\n夏建国：欺负人欺负到家门口了！请个洋厨子就不知道姓啥了——",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "林双双",
+      "楚南",
+      "夏建国",
+      "叶寻",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-11_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-12_aux_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4c7edfe0-1a73-4082-90c0-a2a5f6eede2e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young woman on screen-right in <Picture 1> clinging to <Subject 2>'s arm, matching <Picture 3>. Voice matches Audio 1.\n- <Subject 2>: The young man beside <Subject 1> in <Picture 1>, matching <Picture 4>.\n- <Subject 3> (S2): The master chef on screen-right of the steps in <Picture 2>, matching <Picture 5>. Voice matches Audio 2.\n- <Subject 4>: The young man on screen-left of the steps in <Picture 2>, matching <Picture 6>.\n- <Subject 5>: The young woman holding the ledger between them in <Picture 2>, matching <Picture 7>.\n[Shot]\n- [Shot 1] (0s-4.5s) Close-up framed from <Picture 1> on <Subject 1> jeering toward screen-left.\n- [Shot 2] (4.5s-9.6s) Medium close-up framed from <Picture 2> on the west stone steps.\n- [Shot 3] (9.6s-13.0s) Tighter medium three-shot on the steps as <Subject 4> blocks <Subject 3> and opens <Subject 5>'s ledger.\n[Timeline]\n- [Shot 1] (0.2s-4.3s): Tilting her chin high in spiteful pride toward screen-left, <Subject 1> (S1) calls out sharply: <d>[Chinese] 叶寻，瞧见没，离了你，我家照样开高档西餐厅。</d>\n- [Shot 2] (4.7s-9.4s): Stepping half a pace forward and pointing furiously toward screen-right while <Subject 4> tucks the folded paper into his backpack pocket, <Subject 3> (S2) roars: <d>[Chinese] 欺负人欺负到家门口了，请个洋厨子就不知道姓啥了。</d>\n- [Shot 3] (9.7s-13.0s): Raising his left forearm calmly across <Subject 3>'s chest to hold him back without sparing a single glance across the street, <Subject 4> turns directly to <Subject 5> and flips open the ledger in her hands.\n[Environment]\n- Sunlit Chongqing bluestone street.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Spiteful female taunt, booming angry older male roar, crisp rustle of ledger pages flipped open, zero music."
+  },
+  {
+    "id": "3-2-14",
+    "episode": 3,
+    "duration": 15,
+    "seed": 73214,
+    "description": "叶寻劝夏叔不必置气并向夏芊芊核实账上净剩两万六现钱，正拍板从门口动工改明档，画外骤传沉重铁斗车滚轮急推声。",
+    "dialogue": "叶寻：夏叔，犯不着跟他们置气。芊芊姐，账上还能腾出多少现钱？\n夏芊芊：账面一共三万八，刨去欠菜贩子的货款，手里现钱就剩两万六了。\n叶寻：两万六够把前头改成明档了，今儿先从门口动——",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "叶寻",
+      "夏芊芊",
+      "夏建国"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-14_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man on screen-left in <Picture 1> pointing at the open ledger, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The young woman holding the open ledger on screen-right, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3>: The master chef standing beside <Subject 2> on the steps, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-5.0s) Over-the-shoulder close-up framed from <Picture 1> onto <Subject 1>.\n- [Shot 2] (5.0s-11.0s) Reverse over-the-shoulder close-up onto <Subject 2> reading the open ledger.\n- [Shot 3] (11.0s-15.0s) Medium close-up three-shot on the stone steps with <Subject 1> on screen-left, <Subject 2> in center, and <Subject 3> on screen-right.\n[Timeline]\n- [Shot 1] (0.2s-4.8s): Tapping the open ledger page calmly and looking at <Subject 2>, <Subject 1> (S1) asks steadily: <d>[Chinese] 夏叔，犯不着跟他们置气，芊芊姐，账上还能腾出多少现钱。</d>\n- [Shot 2] (5.2s-10.8s): Scanning the bottom summary line and looking earnestly up at <Subject 1>, <Subject 2> (S2) answers clearly: <d>[Chinese] 账面一共三万八，刨去欠菜贩子的货款，手里现钱就剩两万六了。</d>\n- [Shot 3] (11.2s-14.8s): Closing the ledger cover decisively and pointing toward the storefront entrance, <Subject 1> (S1) says: <d>[Chinese] 两万六够把前头改成明档了，今儿先从门口动。</d> At 14.3s, loud heavy iron wheelbarrow wheels rumble from screen-right and all three snap their heads sharply right.\n[Environment]\n- Sunlit stone steps outside the west storefront.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Calm male inquiry, clear earnest female accounting reply, confident male plan interrupted at 14.3s by heavy rumbling iron wheels, zero music."
+  },
+  {
+    "id": "3-2-17",
+    "episode": 3,
+    "duration": 11,
+    "seed": 73217,
+    "description": "赵帆一挥手，两辆满载水泥沙石的铁皮斗车横穿马路哗啦一声全倾倒在夏记正门口堵死台阶和排水沟，夏芊芊气红眼眶愤怒质问。",
+    "dialogue": "夏芊芊：你们干什么呀！自己装修凭什么往我家门口倒沙子？！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "赵帆",
+      "叶寻",
+      "夏芊芊",
+      "夏建国"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-17_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The chef standing at right-rear in <Picture 1>, matching <Picture 2>.\n- <Subject 2>: The young man on the left foreground steps in <Picture 1>, matching <Picture 3>.\n- <Subject 3> (S1): The young woman clutching the ledger on the left steps in <Picture 1>, matching <Picture 4>. Voice matches Audio 1.\n- <Subject 4>: The master chef on the left steps in <Picture 1>, matching <Picture 5>.\n[Shot]\n- [Shot 1] (0s-2.8s) High-angle wide street shot framed from <Picture 1>.\n- [Shot 2] (2.8s-5.8s) Medium downward shot of the west storefront stone steps and drainage ditch with a sharp impact shake.\n- [Shot 3] (5.8s-11.0s) Medium close-up on <Subject 3> standing on the stone steps amidst settling dust.\n[Timeline]\n- [Shot 1] (0.1s-2.7s): At right-rear, <Subject 1> waves his right hand aggressively and two hard-hatted workers push two iron wheelbarrows heaped with grey-yellow sand and gravel straight across the narrow street to the west steps.\n- [Shot 2] (2.9s-5.7s): Both workers tip the iron wheelbarrows up sharply, dumping a huge mound of sand and gravel with a roaring crash that completely blocks the stone steps and drainage ditch in a cloud of dust.\n- [Shot 3] (6.0s-10.4s): Hugging the ledger to her chest and pointing furiously down toward screen-right through the thinning dust, <Subject 3> (S1) shouts indignantly: <d>[Chinese] 你们干什么呀，自己装修凭什么往我家门口倒沙子。</d> She presses her lips shut in anger right as she finishes.\n[Environment]\n- Sunlit Chongqing bluestone street with sand and gravel dumped against the steps.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Rumbling iron wheelbarrows, crashing roar of dumped gravel and sand, indignant female shout, zero music."
+  },
+  {
+    "id": "3-2-20",
+    "episode": 3,
+    "duration": 12,
+    "seed": 73220,
+    "description": "赵帆歪着脖子无赖嘲讽破店没人登门借台阶堆半个月，夏建国暴怒抄起门边长柄铁锹要拼命，被叶寻一把按住铁锹杆沉稳接过手。",
+    "dialogue": "赵帆：路窄，借你们台阶堆半个月呗，横竖你们这破店也没人登门！\n夏建国：蹬鼻子上脸是吧，我跟你们拼了——",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "赵帆",
+      "夏建国",
+      "叶寻",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-20_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/ffa8d320-912f-4a57-b98a-d319ecda15fd.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4c7edfe0-1a73-4082-90c0-a2a5f6eede2e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The chef standing arrogantly beside the gravel mound on screen-right in <Picture 1> with the red booklet tucked under his left arm, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The master chef on the west stone steps, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3>: The young man on the steps, matching <Picture 4>.\n- <Subject 4>: The young woman holding the ledger on the steps, matching <Picture 5>.\n[Shot]\n- [Shot 1] (0s-6.0s) Slightly low-angle medium close-up framed from <Picture 1> on <Subject 1> facing upper-left.\n- [Shot 2] (6.0s-9.5s) Medium side shot of the west doorway steps where a long-handled iron shovel leans against the wooden doorpost.\n- [Shot 3] (9.5s-12.0s) Tight close-up on the wooden shovel shaft gripped between <Subject 2> on screen-right and <Subject 3> stepping in from screen-left.\n[Timeline]\n- [Shot 1] (0.2s-5.8s): Gesturing dismissively at the gravel mound and folding his arms with a smug sneer toward upper-left, <Subject 1> (S1) jeers: <d>[Chinese] 路窄，借你们台阶堆半个月呗，横竖你们这破店也没人登门。</d>\n- [Shot 2] (6.2s-9.4s): Veins bulging in fury, <Subject 2> (S2) snatches up the long-handled iron shovel from the doorpost with both hands to charge down the steps, roaring: <d>[Chinese] 蹬鼻子上脸是吧，我跟你们拼了。</d>\n- [Shot 3] (9.6s-12.0s): <Subject 3> clamps both hands firmly onto the center of the wooden shovel shaft, takes the shovel steadily into his own hands, and steps squarely in front of <Subject 2>.\n[Environment]\n- Sunlit Chongqing street steps blocked by a mound of sand and gravel.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Smug shameless male jeer, iron shovel scraped off stone, furious older male roar, solid grip on wooden shovel handle, zero music."
+  },
+  {
+    "id": "3-2-23",
+    "episode": 3,
+    "duration": 13,
+    "seed": 73223,
+    "description": "迎着对门林双双和楚南看戏的刺耳哄笑，叶寻提铁锹一步踏上沙石堆顶端盯死赵帆，赵帆狂妄拍胸碰瓷叫嚣动一下赔十万切集。",
+    "dialogue": "赵帆：咋的穷学生，还敢抡铁锹啊？来，往这儿拍，动一下赔十万！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "林双双",
+      "楚南",
+      "叶寻",
+      "赵帆"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-23_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-24_aux_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/ffa8d320-912f-4a57-b98a-d319ecda15fd.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The young woman laughing across the street in <Picture 1>, matching <Picture 3>.\n- <Subject 2>: The young man holding a megaphone beside <Subject 1> in <Picture 1>, matching <Picture 4>.\n- <Subject 3>: The young man standing high atop the gravel mound gripping the long-handled iron shovel in <Picture 2>, matching <Picture 5>.\n- <Subject 4> (S1): The chef standing on the road at lower-right below the gravel mound in <Picture 2>, matching <Picture 6>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-2.0s) Medium close-up two-shot framed from <Picture 1> as <Subject 1> and <Subject 2> laugh mockingly toward screen-left.\n- [Shot 2] (2.0s-4.8s) Low-angle push-in medium shot framed from <Picture 2> as <Subject 3> steps firmly atop the gravel mound and plants the iron shovel blade into the sand.\n- [Shot 3] (4.8s-10.5s) High-angle over-the-shoulder close-up past <Subject 3>'s shovel shaft onto <Subject 4> below on screen-right.\n- [Shot 4] (10.5s-13.0s) Low-angle tight close-up on <Subject 3> towering atop the gravel mound with white-knuckled grip on the shovel shaft.\n[Timeline]\n- [Shot 1] (0.1s-1.9s): Watching the blocked entrance across the street, <Subject 1> and <Subject 2> throw their heads back in gloating laughter.\n- [Shot 2] (2.1s-4.7s): Stepping heavily onto the crest of the sand-and-gravel mound, <Subject 3> drives the iron shovel blade sharply into the gravel beside his boot and locks icy eyes down on <Subject 4>.\n- [Shot 3] (5.0s-10.3s): Stepping half a pace closer and slapping his own chest twice provocatively with his right palm, <Subject 4> (S1) glares up at <Subject 3> and taunts: <d>[Chinese] 咋的穷学生，还敢抡铁锹啊，来，往这儿拍，动一下赔十万。</d> He holds his arrogant chin-out glare silently.\n- [Shot 4] (10.6s-13.0s): With lips pressed tightly shut, <Subject 3>'s knuckles tighten white around the wooden shovel shaft as he drives the blade half an inch deeper into the gravel, freezing on the razor's edge of retaliation.\n[Environment]\n- Bright sunlit Chongqing street with high sand-and-gravel mound blocking the storefront steps.\n[Camera & Visuals]\n- Crisp 35mm live-action cinema photography, natural skin texture, accurate 180-degree eye lines and lip-sync, completely clean unobstructed frame with zero text overlays, captions, watermarks, or split-screen borders.\n[Audio]\n- Mocking laughter in [Shot 1], heavy boot crunch on gravel and iron shovel blade driven into sand in [Shot 2], two chest slaps and brazen male taunt in [Shot 3], creaking wooden shaft in [Shot 4], zero music."
+  }
+]
