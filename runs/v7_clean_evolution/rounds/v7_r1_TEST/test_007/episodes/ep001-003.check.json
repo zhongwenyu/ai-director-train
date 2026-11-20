@@ -2,7 +2,7 @@
   "ok": true,
   "protagonist_detected": "林致远",
   "episode_count": 3,
-  "mean_est_duration_sec": 146.4,
+  "mean_est_duration_sec": 157.6,
   "episodes": [
     {
       "episode": 1,
@@ -11,21 +11,21 @@
       "actions": 12,
       "dialogue_lines": 24,
       "vo_lines": 2,
-      "spoken_chars": 551,
-      "avg_line_chars": 21.2,
-      "est_duration_sec": 145.6,
+      "spoken_chars": 611,
+      "avg_line_chars": 23.5,
+      "est_duration_sec": 159.0,
       "has_end_marker": true
     },
     {
       "episode": 2,
       "title": "假表实锤与席位易势",
       "scenes": 2,
-      "actions": 12,
-      "dialogue_lines": 23,
+      "actions": 10,
+      "dialogue_lines": 24,
       "vo_lines": 2,
-      "spoken_chars": 561,
-      "avg_line_chars": 22.4,
-      "est_duration_sec": 147.9,
+      "spoken_chars": 622,
+      "avg_line_chars": 23.9,
+      "est_duration_sec": 158.2,
       "has_end_marker": true
     },
     {
@@ -35,16 +35,16 @@
       "actions": 11,
       "dialogue_lines": 24,
       "vo_lines": 1,
-      "spoken_chars": 558,
-      "avg_line_chars": 22.3,
-      "est_duration_sec": 145.6,
+      "spoken_chars": 603,
+      "avg_line_chars": 24.1,
+      "est_duration_sec": 155.6,
       "has_end_marker": true
     }
   ],
   "hard_errors": [],
   "warnings": [
-    "第 1 集角色 ['苏清晏', '王秀琴'] 未直接叫出全名（已出现称谓 ['妈', '娘', '叔', '婶', '哥', '妹']，交由屏幕盲审核验关系清晰度）",
-    "第 2 集角色 ['王秀琴', '张鹏', '苏清晏'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '爷']，交由屏幕盲审核验关系清晰度）",
-    "第 3 集角色 ['张莉', '王秀琴', '苏清晏'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '姑']，交由屏幕盲审核验关系清晰度）"
+    "第 1 集角色 ['苏清晏'] 未直接叫出全名（已出现称谓 ['妈', '娘', '叔', '婶', '哥', '弟']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['张莉', '苏清晏'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '舅']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['张莉', '苏清晏'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '舅']，交由屏幕盲审核验关系清晰度）"
   ]
 }
