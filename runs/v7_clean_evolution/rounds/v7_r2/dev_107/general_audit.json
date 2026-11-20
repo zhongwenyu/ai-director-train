@@ -1,0 +1,230 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“拒当血包捧杀二房接盘、锁死白眼狼与绿茶互咬”及“护短家人吃肉致富”为双爽点引擎。裸看实况中爷奶父母、二叔二婶等亲属称谓自然落地，利益算计与防线步步咬合，口语鲜活接地气，悬念钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "雪坡拒当冤大头",
+      "audible_counts": {
+        "林娇娇": 9,
+        "林穗穗": 9,
+        "王翠花": 6
+      },
+      "unintroduced_speakers": [
+        "王翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "爷",
+        "公",
+        "姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　后山雪坡　日",
+          "audible_counts": {
+            "林娇娇": 9,
+            "林穗穗": 9,
+            "王翠花": 6
+          },
+          "vo_counts": {
+            "林穗穗": 1
+          },
+          "mute_present_characters": [
+            "沈砚舟"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "拧腕立威定铁契",
+      "audible_counts": {
+        "王翠花": 5,
+        "周桂兰": 2,
+        "陈秀英": 1,
+        "林建国": 1,
+        "林建业": 2,
+        "林老根": 1,
+        "林娇娇": 6,
+        "林穗穗": 4,
+        "赵铁柱": 1,
+        "孙半夏": 2
+      },
+      "unintroduced_speakers": [
+        "王翠花",
+        "周桂兰",
+        "陈秀英",
+        "林建国",
+        "林建业",
+        "林老根"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "爷",
+        "奶",
+        "公",
+        "哥",
+        "姐",
+        "总",
+        "大夫",
+        "队长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　后山雪坡　日",
+          "audible_counts": {
+            "王翠花": 2,
+            "周桂兰": 2,
+            "陈秀英": 1,
+            "林建国": 1,
+            "林建业": 1,
+            "林老根": 1,
+            "林娇娇": 3,
+            "林穗穗": 4,
+            "赵铁柱": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "沈砚舟"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　二房西屋　夜",
+          "audible_counts": {
+            "孙半夏": 2,
+            "王翠花": 2,
+            "林建业": 1,
+            "林娇娇": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "沈砚舟"
+          ]
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　老宅堂屋　夜",
+          "audible_counts": {
+            "林娇娇": 1,
+            "王翠花": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "林穗穗"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "瓮中擒贼封院门",
+      "audible_counts": {
+        "王翠花": 2,
+        "林穗穗": 3,
+        "林建业": 1,
+        "周桂兰": 3,
+        "林娇娇": 6,
+        "赵铁柱": 1,
+        "林老根": 2,
+        "孙半夏": 1,
+        "林建国": 1,
+        "沈砚舟": 5
+      },
+      "unintroduced_speakers": [
+        "王翠花",
+        "林建业",
+        "周桂兰",
+        "林老根",
+        "沈砚舟"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "爷",
+        "奶",
+        "婆",
+        "公",
+        "哥",
+        "姐",
+        "总",
+        "大夫",
+        "队长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内/外　老宅堂屋至月亮门　夜",
+          "audible_counts": {
+            "王翠花": 1,
+            "林穗穗": 1,
+            "林建业": 1,
+            "周桂兰": 1,
+            "林娇娇": 1,
+            "赵铁柱": 1,
+            "林老根": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "林建国",
+            "陈秀英"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　两房院门前　日",
+          "audible_counts": {
+            "孙半夏": 1,
+            "林娇娇": 1,
+            "王翠花": 1,
+            "周桂兰": 1,
+            "林穗穗": 1,
+            "林建国": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "内　老宅堂屋与二房西屋　夜",
+          "audible_counts": {
+            "林穗穗": 1,
+            "林老根": 1,
+            "周桂兰": 1,
+            "沈砚舟": 5,
+            "林娇娇": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈秀英"
+          ]
+        }
+      ]
+    }
+  ]
+}
