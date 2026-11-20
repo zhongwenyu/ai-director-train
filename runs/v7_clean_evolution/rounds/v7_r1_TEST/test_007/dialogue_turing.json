@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是活人张嘴吵架过日子的真动静！长短句咬得很紧，“摆个屁”“手松开”“见过真表吗你”句句话赶话顶着走。全员只算两百随礼、席卡盒饭、袖口勾丝、茶碗烫不烫手这些具体细账，零总结金句和端腔口号，各色人等声纹分明，极具爆款短剧烟火气。",
+  "scores": {
+    "character_voice_distinction": 9.3,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.2,
+    "subtext_and_micro_specificity": 9.4
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 93.5,
+  "rhythm_metrics": {
+    "total_lines": 77,
+    "mean_char_len": 20.7,
+    "char_len_stdev": 6.6,
+    "short_reaction_ratio_le7": 0.039,
+    "twin_clause_symmetry_ratio": 0.078
+  }
+}
