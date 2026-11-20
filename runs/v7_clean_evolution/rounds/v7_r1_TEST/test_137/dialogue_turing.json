@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是红果爆款末世爽剧的真人口语质感！抢话打断、短促惊呼与冷笑反讽咬得很紧，连科幻空间设定和酸雨灾变都化成了“收进脑子里翻百倍”“雨水咬人”“空调眼烂穿了”这种活人大白话，三人声纹鲜明，零说教金句与电报腔。",
+  "scores": {
+    "character_voice_distinction": 9.2,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.3,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 93.5,
+  "rhythm_metrics": {
+    "total_lines": 84,
+    "mean_char_len": 17.0,
+    "char_len_stdev": 5.4,
+    "short_reaction_ratio_le7": 0.06,
+    "twin_clause_symmetry_ratio": 0.083
+  }
+}
