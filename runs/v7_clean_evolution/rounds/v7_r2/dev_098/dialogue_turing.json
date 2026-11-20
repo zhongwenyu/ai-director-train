@@ -1,0 +1,50 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "熬过冷静期还得二诉呢，没个一年半载的，她根本耗不起。",
+      "quote": "熬过冷静期二次起诉，没个一年半载结不了案。"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "就到五点！见不着钱，你这破厂等着关门吧！",
+      "quote": "五点前见不着五百万，让你连厂带人一块赔光！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "等等，你说她现在还在厂里挂着名？平时刷的也是你的副卡？",
+      "quote": "她在你厂里挂着副总，手里还刷着三张亲情副卡？"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "嚷嚷啥呀！这房陈总一早就租给咱车间当宿舍了，有合同的！",
+      "quote": "房本就陈总个人名，上午刚办完三年宿舍长租备案。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "哎陈总，风控部电话，我借里屋接一下啊，报表咱待会儿对。",
+      "quote": "陈总，风控部来电，我进茶歇室接，十分钟后核报表。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "少废话！就当买视频的钱，现在，全转我个人卡上！",
+      "quote": "买这段视频的封口费，全给我打进赵凯私人账户！"
+    }
+  ],
+  "ear_test_impression": "一耳朵听出浓重的AI限字数电报腔！全篇77句台词竟无一句10字内的本能短反应，句句死卡17～22字工整双分句，像节拍器切出来的。车间工人、律师、反派全员同一种高密度播报腔，频繁替大纲硬报设定、勒索自报全名，毫无活人呼吸感。",
+  "scores": {
+    "character_voice_distinction": 3,
+    "conversational_bite_and_rhythm": 2,
+    "spoken_naturalness": 3.5,
+    "subtext_and_micro_specificity": 5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 33.75,
+  "rhythm_metrics": {
+    "total_lines": 77,
+    "mean_char_len": 17.7,
+    "char_len_stdev": 2.3,
+    "short_reaction_ratio_le7": 0.0,
+    "twin_clause_symmetry_ratio": 0.312
+  }
+}
