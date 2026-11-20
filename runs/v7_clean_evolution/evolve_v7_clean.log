@@ -44,3 +44,4 @@
 [10:20:16]   [v7_r1] dev_067 (古装穿越/concise_1s): ten=PASS_HIT_READY(92.75) dlg=PASS_HUMAN_NATURAL(92.75) | vs_GT[ten=GEN, dlg=REAL_GT] | vs_CHAMP[ten=CAND, dlg=CHAMP]
 [10:20:16]   [v7_r1] End-to-End Generating dev_107 (年代乡村 | concise_1s)...
 [10:28:02]   [v7_r1] dev_112 (玄幻修仙/concise_1s): ten=PASS_HIT_READY(94.5) dlg=PASS_HUMAN_NATURAL(95.5) | vs_GT[ten=GEN, dlg=REAL_GT] | vs_CHAMP[ten=CAND, dlg=CAND]
+[10:56:46]   [v7_r1] dev_036 (都市情感/rich_brief): ten=PASS_HIT_READY(95.25) dlg=REJECT_AI_STAGEY(38.75) | vs_GT[ten=GEN, dlg=REAL_GT] | vs_CHAMP[ten=CHAMP, dlg=CHAMP]
