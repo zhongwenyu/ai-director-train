@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听像真人在街边吵架唠嗑：长短句错落，“拉倒吧”“掏出来呗室友”“分就分”“真不顶胃”等短促反应和话咬话顶针很抓耳；八个人物各有声纹与零五年烟火气，冲突全落具体账目物件，仅第三集男主个别收尾句略带短剧狠话感，整体鲜活上口。",
+  "scores": {
+    "character_voice_distinction": 9.2,
+    "conversational_bite_and_rhythm": 9.2,
+    "spoken_naturalness": 8.8,
+    "subtext_and_micro_specificity": 9.4
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 91.5,
+  "rhythm_metrics": {
+    "total_lines": 76,
+    "mean_char_len": 17.8,
+    "char_len_stdev": 5.5,
+    "short_reaction_ratio_le7": 0.066,
+    "twin_clause_symmetry_ratio": 0.079
+  }
+}
