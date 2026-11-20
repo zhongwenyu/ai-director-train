@@ -1,0 +1,144 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎以“死不离婚+婚内合规锁死资产”破除捉奸仍需平分家产的憋屈困局，断粮逼急奸夫淫妇越界敲诈再设局送狱。裸看实况人物称谓与利益绑定开场即明，前因后果咬合紧密，情绪压迫与反杀爽感极强。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "捉奸遭逼宫，毒计破死局",
+      "audible_counts": {
+        "陈建国": 11,
+        "林婉": 4,
+        "赵凯": 3,
+        "郑律师": 4,
+        "沈律": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "公",
+        "总",
+        "律师"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　江景别墅客厅　傍晚",
+          "audible_counts": {
+            "陈建国": 4,
+            "林婉": 4,
+            "赵凯": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　律所接待室　夜",
+          "audible_counts": {
+            "郑律师": 4,
+            "陈建国": 7,
+            "沈律": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "撕协议拒离，锁资遭黑料要挟",
+      "audible_counts": {
+        "林婉": 7,
+        "赵凯": 8,
+        "陈建国": 6,
+        "沈律": 5
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "公",
+        "总",
+        "律师"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　江景别墅客厅　日",
+          "audible_counts": {
+            "林婉": 7,
+            "赵凯": 8,
+            "陈建国": 6,
+            "沈律": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "停卡腾房断粮，闯司勒索入瓮",
+      "audible_counts": {
+        "林婉": 8,
+        "赵凯": 7,
+        "吴店长": 2,
+        "老马": 2,
+        "孙行长": 1,
+        "陈建国": 3,
+        "沈律": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "公",
+        "姐",
+        "弟",
+        "总",
+        "律师"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　汽车展厅　日",
+          "audible_counts": {
+            "林婉": 3,
+            "赵凯": 1,
+            "吴店长": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　江景别墅门口　日",
+          "audible_counts": {
+            "林婉": 3,
+            "老马": 2,
+            "赵凯": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "内　建国机械董事长办公室　日",
+          "audible_counts": {
+            "孙行长": 1,
+            "陈建国": 3,
+            "林婉": 2,
+            "赵凯": 5,
+            "沈律": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
