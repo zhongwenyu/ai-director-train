@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听满是七十年代东北屯子的活人烟火气。吵架求情只抠十五块押金、二十支青霉素、炕洞私账、五块粮债等具体死理，零说教金句；“赊账？”“疯了吧你”“啥？！”等顶针短句咬得很紧，村医、大哥、老猎户、泼辣二婶声纹分明，自然上口。",
+  "scores": {
+    "character_voice_distinction": 9.2,
+    "conversational_bite_and_rhythm": 8.5,
+    "spoken_naturalness": 9,
+    "subtext_and_micro_specificity": 9.3
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 90.0,
+  "rhythm_metrics": {
+    "total_lines": 78,
+    "mean_char_len": 16.3,
+    "char_len_stdev": 3.8,
+    "short_reaction_ratio_le7": 0.051,
+    "twin_clause_symmetry_ratio": 0.128
+  }
+}
