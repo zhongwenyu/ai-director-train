@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听完全是活生生的都市短剧人物在交锋！台词短促有力、话咬话紧，充满“垫两口”“齐活了”“顺”“包圆了”等鲜活口语。零说教金句，全围绕保卡、放行单、八十万具体算账，女主表里反差与二奢老板等配角声纹极其贴脸。",
+  "scores": {
+    "character_voice_distinction": 9.3,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.25,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 15.8,
+    "char_len_stdev": 5.7,
+    "short_reaction_ratio_le7": 0.093,
+    "twin_clause_symmetry_ratio": 0.053
+  }
+}
