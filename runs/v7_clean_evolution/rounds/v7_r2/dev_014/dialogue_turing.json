@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听活脱脱就是北方农村地头院门口的真人吵架实录！长短句呼吸错落有致，“罚两千？”“按规矩，不拉”等短促顶针咬得很紧；滑头邻居、赖账老太、拿腔作调实习生与硬气老农声纹分明，句句算具体细账，极具活人烟火气。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.75,
+  "rhythm_metrics": {
+    "total_lines": 76,
+    "mean_char_len": 20.5,
+    "char_len_stdev": 7.1,
+    "short_reaction_ratio_le7": 0.066,
+    "twin_clause_symmetry_ratio": 0.053
+  }
+}
