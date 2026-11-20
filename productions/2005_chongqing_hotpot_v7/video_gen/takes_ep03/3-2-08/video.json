@@ -1,0 +1,75 @@
+{
+  "headers": {
+    "X-Task-Id": "fb2d2b2222de42869d8a4bb813dd8c2d",
+    "X-Task-Type": "ref2va",
+    "X-Model": "Pika-H3-Flex",
+    "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "X-Precision": "int8",
+    "X-Pruned": "true",
+    "X-Duration": "14.375",
+    "X-Resolution": "480x832",
+    "X-Steps": "6",
+    "X-Audio-Generated": "true",
+    "X-Queue-Wait-S": "0.0",
+    "X-E2E-S": "141.838",
+    "X-Turbo": "false",
+    "X-Frames": "345",
+    "X-Requested-Duration": "14.0",
+    "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
+    "X-SOL": "false",
+    "X-SOL-Tau": "none",
+    "X-Sampler": "lcm"
+  },
+  "elapsed_s": 141.85,
+  "seed": 73208,
+  "requested_duration": 14,
+  "actual_duration": 14.375,
+  "width": 480,
+  "height": 832,
+  "has_audio": true,
+  "ref_images_1k": [
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-08_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/3-2-09_aux_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png"
+  ],
+  "ref_audios": [
+    "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav"
+  ],
+  "vo_custom_applied": {
+    "src": [
+      0.238,
+      5.184
+    ],
+    "eff_dur": 4.0,
+    "dst_start": 0.35,
+    "vo_headers": {
+      "X-Audio-Generated": "true",
+      "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "X-Duration": "5.167",
+      "X-E2e-S": "113.196",
+      "X-Frames": "124",
+      "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
+      "X-Model": "Pika-H3-Flex",
+      "X-Precision": "int8",
+      "X-Pruned": "true",
+      "X-Queue-Wait-S": "0.0",
+      "X-Requested-Duration": "5.0",
+      "X-Resolution": "368x656",
+      "X-Sampler": "lcm",
+      "X-Sol": "false",
+      "X-Sol-Tau": "none",
+      "X-Steps": "6",
+      "X-Task-Id": "84eed0a53712449097afc4d8c8f6b398",
+      "X-Task-Type": "ref2va",
+      "X-Turbo": "false",
+      "seed": 73285,
+      "elapsed": 114,
+      "resolution": "368p"
+    }
+  }
+}
