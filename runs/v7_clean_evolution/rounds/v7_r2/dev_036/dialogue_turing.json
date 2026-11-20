@@ -1,0 +1,70 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "坏了，上同城热搜第一了！他们把视频声音全抹了，光截了你占座那几秒！",
+      "quote": "林夏：坏了！他们把消音截帧片买上同城热搜第一了！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "声音全给消了……连刚才那空姐硬拽孩子那段，他们都直接剪没了！",
+      "quote": "沈知意：声音抹干净了，孙薇抢孩子那截也掐没了。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "等会儿，你管她叫“沈律”？……哎，你看着好眼熟，去年告赢远航那个周律师？！",
+      "quote": "林夏：正衡的王牌合伙人？去年告赢远航的就是你？"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "沈律放心，手机原视频和验伤单都做完证据保全了，随时能出公证书。",
+      "quote": "公证员：沈律放心，4K母带和伤情单都进公证库了。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "带婴儿本来就只能坐这排，这排才多一个氧气面罩！你们自己超售，凭啥赶我？",
+      "quote": "沈知意：婴儿票得坐双氧面罩这排，你们超售凭什么清我？"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "痛快！视频我先发你一份……哎，你脚是不是崴了？来，搭着我胳膊，先带娃看大夫去！",
+      "quote": "林夏：痛快！备份先传你，脚崴了吧？扶我先去验伤！"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "改票工号查着了。这趟一共超售了四张，他们就是专挑带孩子的软柿子捏。",
+      "quote": "周叙白：查到改票工号了，这班超售四张，专挑妇孺清。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "谁稀罕他们那点私了钱？把我家孩子拧成这样，这官司我跟他们打到底！",
+      "quote": "沈知意：和解金我一分不要，法庭上跟云翼算总账。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "把原声给我掐了再发！我让人花十万推上去，就说她拿孩子霸座讹钱，看谁信她！",
+      "quote": "赵宏宇：抹掉原声发！我砸十万买水军，咬死她带娃霸座讹钱！"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "放心，几点看的、红肿多大块我都给你记病历上了。先外头留观俩钟头啊，孩子不发烧就能回。",
+      "quote": "急诊医生：按司法验伤规矩写全了，留观俩钟头不烧就能走。"
+    }
+  ],
+  "ear_test_impression": "典型AI卡字数上限写的“高密度电报腔”。全篇无一句6字内短促反应，清一色18～22字双三分句，像全员端着念快讯；为塞设定硬造“消音截帧片”“双氧面罩”“4K母带”等假词，更有未报姓名直呼“孙薇”、见面背履历等大纲穿帮。",
+  "scores": {
+    "character_voice_distinction": 4,
+    "conversational_bite_and_rhythm": 3,
+    "spoken_naturalness": 3.5,
+    "subtext_and_micro_specificity": 5.5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 40.0,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 16.8,
+    "char_len_stdev": 3.3,
+    "short_reaction_ratio_le7": 0.013,
+    "twin_clause_symmetry_ratio": 0.133
+  }
+}
