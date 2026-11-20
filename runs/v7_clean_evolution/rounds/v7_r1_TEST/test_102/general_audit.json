@@ -1,0 +1,200 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“全员预期踏空+具象搞钱减重蜕变”为核心爽点引擎：女主穿成两百斤讨嫌肥妻后清醒止损，签分账约拿五元本金做卤味破局。裸看实况下夫妻、绿茶女邻与大院街坊关系交代清晰，VO无串音，口语鲜活接地气，前因后果与戏剧张力抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.2,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.3
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "馊饭破局，当众索钱立字据",
+      "audible_counts": {
+        "林娇娇": 6,
+        "陆铮": 5,
+        "王嫂": 2,
+        "苏晚晴": 9,
+        "陈干事": 1
+      },
+      "unintroduced_speakers": [
+        "林娇娇",
+        "苏晚晴"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "婆",
+        "哥",
+        "嫂",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　红星机械厂一车间门口　日",
+          "audible_counts": {
+            "林娇娇": 6,
+            "陆铮": 5,
+            "王嫂": 2,
+            "苏晚晴": 9,
+            "陈干事": 1
+          },
+          "vo_counts": {
+            "苏晚晴": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "五元分家，鲜椒酱抵息套门路",
+      "audible_counts": {
+        "陆铮": 1,
+        "陈干事": 1,
+        "苏晚晴": 10,
+        "林娇娇": 1,
+        "王翠花": 7,
+        "老刘": 2,
+        "屠宰工": 1
+      },
+      "unintroduced_speakers": [
+        "屠宰工"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "婶",
+        "婆",
+        "公",
+        "哥",
+        "嫂",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　红星机械厂一车间门口　日",
+          "audible_counts": {
+            "陆铮": 1,
+            "陈干事": 1,
+            "苏晚晴": 2,
+            "林娇娇": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　机械厂大院西厢房灶间　傍晚",
+          "audible_counts": {
+            "王翠花": 7,
+            "苏晚晴": 6
+          },
+          "vo_counts": {
+            "苏晚晴": 1
+          },
+          "mute_present_characters": [
+            "林娇娇"
+          ]
+        },
+        {
+          "scene_id": "2-3",
+          "location": "外　县肉联厂后门卸货口　夜",
+          "audible_counts": {
+            "老刘": 2,
+            "屠宰工": 1,
+            "苏晚晴": 2
+          },
+          "vo_counts": {
+            "苏晚晴": 1
+          },
+          "mute_present_characters": [
+            "王翠花"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "卤香炸街，甩现钱还债遇查摊",
+      "audible_counts": {
+        "苏晚晴": 8,
+        "屠宰工": 2,
+        "老刘": 1,
+        "女工顾客": 2,
+        "王翠花": 3,
+        "买菜大爷": 2,
+        "林娇娇": 2,
+        "王嫂": 1,
+        "陆铮": 1,
+        "赵干事": 2
+      },
+      "unintroduced_speakers": [
+        "屠宰工",
+        "女工顾客"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "婶",
+        "爷",
+        "婆",
+        "公",
+        "哥",
+        "妹",
+        "嫂",
+        "总",
+        "主任",
+        "师傅",
+        "大爷"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　县肉联厂后门卸货口　夜",
+          "audible_counts": {
+            "苏晚晴": 2,
+            "屠宰工": 2,
+            "老刘": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "王翠花"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　红星厂外早市路口　晨",
+          "audible_counts": {
+            "女工顾客": 2,
+            "王翠花": 2,
+            "苏晚晴": 2,
+            "买菜大爷": 2
+          },
+          "vo_counts": {
+            "苏晚晴": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　机械厂大院中庭　日",
+          "audible_counts": {
+            "林娇娇": 2,
+            "苏晚晴": 4,
+            "王翠花": 1,
+            "王嫂": 1,
+            "陆铮": 1,
+            "赵干事": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
