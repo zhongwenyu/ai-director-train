@@ -1,0 +1,224 @@
+{
+  "episode": 3,
+  "audit_round": 3,
+  "cross_episode_prev_shot": {
+    "id": "2-3-11",
+    "video_path": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-3-11/video.mp4",
+    "end_state_summary": "夏氏小厨前厅（传菜口在后左，蓝布门帘与楼梯在后右，木柜台在前景右侧，餐桌长凳在左侧）。叶寻立于右侧柜台旁、背军绿帆布背包、左手按粗布草本包且左腕无表；夏芊芊立于中左；夏建国（右腕缠白绷带）左手持铁炒勺、右手捂喉立于左侧餐桌后。"
+  },
+  "final_entity_ledger": [
+    {
+      "entity": "叶寻_左手腕手表（跨集状态）",
+      "state": "2-3-11、3-1-01、3-1-04、3-2-11、3-2-14、3-2-20已无表（或仅极轻遮挡）；3-1-08、3-1-11、3-1-14、3-1-24、3-2-01、3-2-23[Shot 4]仍可见黑色或银色手表",
+      "scope": "episode_3_all",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "叶寻_军绿色帆布背包",
+      "state": "3-1-01、3-1-04在身旁/柜台；3-2-01/08/11/14/20/23稳定背于左肩（仅未重修的3-2-17首帧仍缺）",
+      "scope": "episode_3_all",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "夏氏小厨前厅_空间拓扑与现代家电",
+      "state": "3-1-01已彻底清除现代冰箱与布局翻转；未再重修的3-1-04[Shot 3]与3-1-24[Shot 2]-[Shot 3]仍保留白色分体空调与墙贴",
+      "scope": "ep03_scene01",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "紫铜子母鸳鸯锅",
+      "state": "3-1-08、3-1-14、3-1-21均已保持内外双格紫铜子母锅（3-1-08本轮已清除钢琴BGM）；未重修的3-1-11[Shot 3]与3-1-24[Shot 4]仍缺内胆",
+      "scope": "ep03_scene01",
+      "since_shot": "3-1-08"
+    },
+    {
+      "entity": "夏记棕色硬皮账本",
+      "state": "3-2-01/11/14/20均保持单本连续（3-2-11本轮已彻底消除双份账本复制）",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-01"
+    },
+    {
+      "entity": "红白扩音小喇叭与东侧人物归属",
+      "state": "3-2-04/08[Shot 2]由楚南持于东侧街面；3-2-08（Round 3D已修通）[Shot 1]VO与[Shot 2]喇叭喊话完全分离，[Shot 3]为西侧夏记台阶正常三人无声反应，无鼓掌无杂音",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-04"
+    },
+    {
+      "entity": "夏记门口长柄铁锹与沙石堆",
+      "state": "3-2-01单把铁锹靠左门框 -> 3-2-20（Round 3C已修通）单把铁锹由夏建国从沙堆侧抓起被叶寻稳稳接手，无双锹复制无胡话 -> 3-2-23沙堆顶单锹对峙正常",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-01"
+    },
+    {
+      "entity": "合伙字据（折叠白纸）",
+      "state": "3-2-11[Shot 2]已塞入叶寻背包袋；3-2-14[Shot 3]与3-2-20[Shot 2]叶寻右手仍残留折叠白纸（低影响遗留）",
+      "scope": "ep03_scene01_to_02",
+      "since_shot": "3-1-24"
+    }
+  ],
+  "shots": [
+    {
+      "id": "3-1-01",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-1-04",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.0-00:14.4",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "（本轮未更新，沿用轮二核查结果）[Shot 3]后墙刚体几何漂移：门洞上方凭空出现白色分体空调，传菜口上方墙面新增两张印刷菜单贴纸。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "在[Shot 3]挂载前厅Spatial Epoch洁净后墙母图，明确禁止门洞上方出现分体空调及传菜口上方墙面贴纸。"
+    },
+    {
+      "id": "3-1-08",
+      "cut_type_from_prev": "B",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-1-11",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:07.2-00:11.5",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "MEDIUM",
+          "description": "（本轮未更新，沿用轮一/二核查结果）[Shot 3]锚点图3-1-13_aux_1k.png仍为单腔红汤铜锅（缺白汤内胆）、青花瓷碗且桌面另有重复满汤碗；08.0s->08.8s汤勺跳切变碗且仅涮1片毛肚。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "重绘3-1-13_aux_1k.png为双格紫铜子母鸳鸯锅与单只空纯白瓷碗，重写[Shot 3]连贯舀汤涮两片毛肚动作。"
+    },
+    {
+      "id": "3-1-14",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.0-00:12.2",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "（本轮未更新，沿用轮二核查结果）[Shot 4]画面挂钟走时物理错乱：10:10起点上分针仅微动至10:11，时针反常跳至11点半位置。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "保留本镜已净化的音轨设计，重写[Shot 4]锁定挂钟时针在10点位、分针由2顺时针扫至4（10:10->10:20）。"
+    },
+    {
+      "id": "3-1-18",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-1-21",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-1-24",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:03.5-00:14.8",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "（本轮未更新，沿用轮二核查结果）[Shot 2]-[Shot 4]左上后墙冒出白色分体空调；[Shot 3]已拔笔帽，[Shot 4]（12.0s）黑笔重置为带帽重新拔帽且空白白纸瞬变满页成文，同时铜锅跳至左下角并丢失白汤内胆。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "锚定前厅母图消除左上墙空调，统一仅在[Shot 4]拔笔帽且保持纸面空白待写，锁定紫铜子母锅双格位置。"
+    },
+    {
+      "id": "3-2-01",
+      "cut_type_from_prev": "C",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-04",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-08",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-11",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-14",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-17",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.0-00:11.55",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "MEDIUM",
+          "description": "（本轮未更新，沿用轮一/二核查结果）3-2-17_1k.png缺叶寻军绿背包；[Shot 1]推斗车配发动机马达声；[Shot 2]-[Shot 3]倒沙背景漂移至巷道石梯；11.36s/11.55s紧边距。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "补全3-2-17_1k.png叶寻左肩背包，锁定夏记门口木门台阶与铁轮声，将夏芊芊台词提前至5.6s-10.2s留足句尾余量。"
+    },
+    {
+      "id": "3-2-20",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-23",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    }
+  ]
+}

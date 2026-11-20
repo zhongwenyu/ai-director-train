@@ -1,5 +1,5 @@
 {
-  "total_duration": 176.529,
+  "total_duration": 182.228,
   "vtt_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/post_ep01_v7/ep01_v7_subtitles.vtt",
   "bgm_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/post_ep01_v7/ep01_v7_bgm.mp3",
   "bgm_segments": [
@@ -12,7 +12,7 @@
       "fade_in": 0.6,
       "fade_out": 0.9,
       "start": 0.0,
-      "end": 61.959
+      "end": 64.793
     },
     {
       "label": "重回2005年9月林记大堂午后索方与改西餐厅算计（市井烟火衬底 CC0）",
@@ -22,8 +22,8 @@
       "gain": 0.34,
       "fade_in": 0.8,
       "fade_out": 0.7,
-      "start": 75.655,
-      "end": 123.966
+      "start": 78.489,
+      "end": 129.659
     },
     {
       "label": "拉死书包拉链撕毁草图入痰桶至门槛拽带悬念切集（利落反击渐强 Mixkit Free）",
@@ -34,8 +34,8 @@
       "gain": 0.43,
       "fade_in": 0.6,
       "fade_out": 0.4,
-      "start": 123.966,
-      "end": 176.529
+      "start": 129.659,
+      "end": 182.228
     }
   ],
   "shots": [
@@ -71,7 +71,7 @@
     {
       "id": "1-1-04",
       "studioShotId": "5a61f4cc-e5c7-4e13-b547-7c072ffb6da9",
-      "duration": 12.25,
+      "duration": 15.084,
       "bgmOffset": 12.25,
       "subtitles": [
         {
@@ -94,7 +94,7 @@
       "id": "1-1-07",
       "studioShotId": "2eb1c300-fe28-4f0b-8ca7-fbb34dae84d1",
       "duration": 13.667,
-      "bgmOffset": 24.5,
+      "bgmOffset": 27.334,
       "subtitles": [
         {
           "start": 0.15,
@@ -116,7 +116,7 @@
       "id": "1-1-10",
       "studioShotId": "7d709add-4d21-4bc9-ae69-0c7def64f15f",
       "duration": 13.667,
-      "bgmOffset": 38.167,
+      "bgmOffset": 41.001,
       "subtitles": [
         {
           "start": 2.5,
@@ -138,14 +138,14 @@
       "id": "1-1-13",
       "studioShotId": "ea50541b-d663-48a1-b96e-7c756cc44cfe",
       "duration": 10.125,
-      "bgmOffset": 51.834,
+      "bgmOffset": 54.668,
       "subtitles": []
     },
     {
       "id": "1-2-01",
       "studioShotId": "3fe172c6-2b84-4b52-81e0-8070c9b797f6",
       "duration": 13.696,
-      "bgmOffset": 61.959,
+      "bgmOffset": 64.793,
       "subtitles": [
         {
           "start": 3.25,
@@ -159,8 +159,8 @@
     {
       "id": "1-3-01",
       "studioShotId": "b53735c0-9c30-4c5b-a5af-4a1444985253",
-      "duration": 12.25,
-      "bgmOffset": 75.655,
+      "duration": 15.084,
+      "bgmOffset": 78.489,
       "subtitles": [
         {
           "start": 0.15,
@@ -182,7 +182,7 @@
       "id": "1-3-04",
       "studioShotId": "35e9d629-3fa3-4259-addb-63ca8d9df672",
       "duration": 10.144,
-      "bgmOffset": 87.905,
+      "bgmOffset": 93.573,
       "subtitles": [
         {
           "start": 0.35,
@@ -203,8 +203,8 @@
     {
       "id": "1-3-06",
       "studioShotId": "c9e346c0-e4ed-4682-87a3-95d3e541aeae",
-      "duration": 14.375,
-      "bgmOffset": 98.049,
+      "duration": 14.4,
+      "bgmOffset": 103.717,
       "subtitles": [
         {
           "start": 2.3,
@@ -226,7 +226,7 @@
       "id": "1-3-09",
       "studioShotId": "c8101e8a-d97d-4683-976b-6b50860911d9",
       "duration": 11.542,
-      "bgmOffset": 112.424,
+      "bgmOffset": 118.117,
       "subtitles": [
         {
           "start": 0.2,
@@ -247,8 +247,8 @@
     {
       "id": "1-3-11",
       "studioShotId": "cc3bf549-c156-4426-9e3f-b67f7d86ae26",
-      "duration": 12.25,
-      "bgmOffset": 123.966,
+      "duration": 12.256,
+      "bgmOffset": 129.659,
       "subtitles": [
         {
           "start": 7.8,
@@ -263,7 +263,7 @@
       "id": "1-3-15",
       "studioShotId": "7e709301-02d0-4aa6-ae97-989f0797a005",
       "duration": 15.084,
-      "bgmOffset": 136.216,
+      "bgmOffset": 141.915,
       "subtitles": [
         {
           "start": 0.2,
@@ -292,7 +292,7 @@
       "id": "1-3-18",
       "studioShotId": "43ac9037-aa08-4133-9a21-b6b88d6e1ac4",
       "duration": 10.125,
-      "bgmOffset": 151.3,
+      "bgmOffset": 156.999,
       "subtitles": [
         {
           "start": 0.15,
@@ -314,7 +314,7 @@
       "id": "1-3-21",
       "studioShotId": "3e8647fa-42b8-4c66-940c-356d2afd18c1",
       "duration": 15.104,
-      "bgmOffset": 161.425,
+      "bgmOffset": 167.124,
       "subtitles": [
         {
           "start": 0.15,
@@ -382,176 +382,176 @@
       "shotId": "1-1-04"
     },
     {
-      "start": 24.65,
-      "end": 28.9,
+      "start": 27.484,
+      "end": 31.734,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "撤了我家的温补底料，外地客哪受得了这重辣——",
       "shotId": "1-1-07"
     },
     {
-      "start": 29.1,
-      "end": 35.3,
+      "start": 31.934,
+      "end": 38.134,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "少往自己脸上贴金！没楚南铺路做推广，你现在还在小县城守破灶呢！",
       "shotId": "1-1-07"
     },
     {
-      "start": 40.667,
-      "end": 46.367,
+      "start": 43.501,
+      "end": 49.201,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "看在以前的分上，郊区仓库给你留了个位置。去不去随你。",
       "shotId": "1-1-10"
     },
     {
-      "start": 46.667,
-      "end": 50.767,
+      "start": 49.501,
+      "end": 53.601,
       "kind": "dialogue",
       "speaker": "楚南",
       "text": "行了叶师傅，腾地方吧，这一身草药味儿怪冲的。",
       "shotId": "1-1-10"
     },
     {
-      "start": 65.209,
-      "end": 69.159,
+      "start": 68.043,
+      "end": 71.993,
       "kind": "vo",
       "speaker": "叶寻",
       "text": "十年心血，连爷爷留的方子……全喂了狗。",
       "shotId": "1-2-01"
     },
     {
-      "start": 75.805,
-      "end": 79.355,
+      "start": 78.639,
+      "end": 82.189,
       "kind": "caption",
       "speaker": "",
       "text": "2005年9月 · 重庆大学外餐饮街",
       "shotId": "1-3-01"
     },
     {
-      "start": 82.755,
-      "end": 87.255,
+      "start": 85.589,
+      "end": 90.089,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "叶寻，发什么呆呢？赶紧把你爷爷那方子拿出来呀！",
       "shotId": "1-3-01"
     },
     {
-      "start": 88.255,
-      "end": 91.805,
+      "start": 93.923,
+      "end": 97.473,
       "kind": "vo",
       "speaker": "叶寻",
       "text": "还没交出去……我回到试锅这天了？",
       "shotId": "1-3-04"
     },
     {
-      "start": 92.405,
-      "end": 97.405,
+      "start": 98.073,
+      "end": 103.073,
       "kind": "dialogue",
       "speaker": "楚南",
       "text": "双双，这九月天热得冒烟，谁进门吃火锅啊？干苦力的？",
       "shotId": "1-3-04"
     },
     {
-      "start": 100.349,
-      "end": 105.349,
+      "start": 106.017,
+      "end": 111.017,
       "kind": "dialogue",
       "speaker": "楚南",
       "text": "听我的，直接改高档西餐厅！外头重大的学生就吃这套。",
       "shotId": "1-3-06"
     },
     {
-      "start": 105.849,
-      "end": 111.449,
+      "start": 111.517,
+      "end": 117.117,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "我也想啊，可家里账上没几个活钱了，上哪儿请西餐师傅去……",
       "shotId": "1-3-06"
     },
     {
-      "start": 112.624,
-      "end": 117.424,
+      "start": 118.317,
+      "end": 123.117,
       "kind": "dialogue",
       "speaker": "楚南",
       "text": "找我啊！我认识个星级西餐主厨，打声招呼的事儿。",
       "shotId": "1-3-09"
     },
     {
-      "start": 117.824,
-      "end": 122.924,
+      "start": 123.517,
+      "end": 128.617,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "当真？不过叶寻答应今儿试锅了……叶寻，东西呢？",
       "shotId": "1-3-09"
     },
     {
-      "start": 131.766,
-      "end": 135.366,
+      "start": 137.459,
+      "end": 141.059,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "叶寻你发什么疯？！好端端撕它干嘛！",
       "shotId": "1-3-11"
     },
     {
-      "start": 136.416,
-      "end": 140.716,
+      "start": 142.115,
+      "end": 146.415,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "楚少不是说了吗，火锅太土，别糟蹋你家这地方。",
       "shotId": "1-3-15"
     },
     {
-      "start": 141.116,
-      "end": 146.216,
+      "start": 146.815,
+      "end": 151.915,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "说两句你还甩上脸子了？昨晚拍胸脯说帮我家的人是谁？",
       "shotId": "1-3-15"
     },
     {
-      "start": 146.616,
-      "end": 150.816,
+      "start": 152.315,
+      "end": 156.515,
       "kind": "dialogue",
       "speaker": "楚南",
       "text": "嗨，人家这是有自知之明，不好意思拿土方子出来丢人。",
       "shotId": "1-3-15"
     },
     {
-      "start": 151.45,
-      "end": 154.6,
+      "start": 157.149,
+      "end": 160.299,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "嗯。你们改西餐吧，我不掺和了。",
       "shotId": "1-3-18"
     },
     {
-      "start": 157.2,
-      "end": 160.9,
+      "start": 162.899,
+      "end": 166.599,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "一中午连个人影都没有，你现在甩手走人？！",
       "shotId": "1-3-18"
     },
     {
-      "start": 161.575,
-      "end": 163.825,
+      "start": 167.274,
+      "end": 169.524,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "找你的星级主厨去。",
       "shotId": "1-3-21"
     },
     {
-      "start": 164.325,
-      "end": 168.025,
+      "start": 170.024,
+      "end": 173.724,
       "kind": "vo",
       "speaker": "叶寻",
       "text": "上辈子拿我当血包，这回，如你们的愿。",
       "shotId": "1-3-21"
     },
     {
-      "start": 170.425,
-      "end": 175.725,
+      "start": 176.124,
+      "end": 181.424,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "叶寻你给我站住！话没说清楚往哪儿走——谁准你反悔的？！",

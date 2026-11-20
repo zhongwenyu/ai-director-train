@@ -1,5 +1,5 @@
 {
-  "total_duration": 201.796,
+  "total_duration": 213.76,
   "vtt_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/post_ep03_v7/ep03_v7_subtitles.vtt",
   "bgm_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/post_ep03_v7/ep03_v7_bgm.mp3",
   "bgm_segments": [
@@ -12,7 +12,7 @@
       "fade_in": 0.7,
       "fade_out": 0.8,
       "start": 0.0,
-      "end": 100.835
+      "end": 105.112
     },
     {
       "label": "对门踩匾聘赵帆扩音叫嚣、两车沙石堵死店门（紧迫压迫 Mixkit Free）",
@@ -22,8 +22,8 @@
       "gain": 0.4,
       "fade_in": 0.6,
       "fade_out": 0.6,
-      "start": 100.835,
-      "end": 175.879
+      "start": 105.112,
+      "end": 185.01
     },
     {
       "label": "叶寻接过铁锹踏上沙石堆顶端对峙赵帆碰瓷挑衅切集（高燃悬念拉满 Mixkit Free）",
@@ -34,15 +34,15 @@
       "gain": 0.45,
       "fade_in": 0.6,
       "fade_out": 0.35,
-      "start": 175.879,
-      "end": 201.796
+      "start": 185.01,
+      "end": 213.76
     }
   ],
   "shots": [
     {
       "id": "3-1-01",
       "studioShotId": "1060e21a-9df9-46a7-ae1c-c165d4f8549f",
-      "duration": 13.667,
+      "duration": 15.084,
       "bgmOffset": 0.0,
       "subtitles": [
         {
@@ -65,7 +65,7 @@
       "id": "3-1-04",
       "studioShotId": "d185c58b-67de-4f58-9625-a3e9a6f63639",
       "duration": 14.375,
-      "bgmOffset": 13.667,
+      "bgmOffset": 15.084,
       "subtitles": [
         {
           "start": 0.2,
@@ -87,14 +87,14 @@
       "id": "3-1-08",
       "studioShotId": "daf332b5-e3c5-4072-873b-87d128d8a910",
       "duration": 9.417,
-      "bgmOffset": 28.042,
+      "bgmOffset": 29.459,
       "subtitles": []
     },
     {
       "id": "3-1-11",
       "studioShotId": "67e29001-07cd-4ba1-b0d6-8bfaa6399b4e",
       "duration": 11.542,
-      "bgmOffset": 37.459,
+      "bgmOffset": 38.876,
       "subtitles": [
         {
           "start": 2.6,
@@ -108,8 +108,8 @@
     {
       "id": "3-1-14",
       "studioShotId": "c1b99631-5354-4464-9d52-5cba4cd78f68",
-      "duration": 12.25,
-      "bgmOffset": 49.001,
+      "duration": 12.256,
+      "bgmOffset": 50.418,
       "subtitles": [
         {
           "start": 0.2,
@@ -123,8 +123,8 @@
     {
       "id": "3-1-18",
       "studioShotId": "851e202b-7013-421a-b144-538977ec23ea",
-      "duration": 12.25,
-      "bgmOffset": 61.251,
+      "duration": 13.667,
+      "bgmOffset": 62.674,
       "subtitles": [
         {
           "start": 2.6,
@@ -145,8 +145,8 @@
     {
       "id": "3-1-21",
       "studioShotId": "ca340fa6-e131-4bb4-8f46-0bd4af8c9d76",
-      "duration": 12.25,
-      "bgmOffset": 73.501,
+      "duration": 13.667,
+      "bgmOffset": 76.341,
       "subtitles": [
         {
           "start": 2.4,
@@ -167,8 +167,8 @@
     {
       "id": "3-1-24",
       "studioShotId": "c7576259-5aac-408b-b1c2-ee2f3c392188",
-      "duration": 15.084,
-      "bgmOffset": 85.751,
+      "duration": 15.104,
+      "bgmOffset": 90.008,
       "subtitles": [
         {
           "start": 5.9,
@@ -190,7 +190,7 @@
       "id": "3-2-01",
       "studioShotId": "52a7e1d8-c21f-4954-874d-5cf1cfebb2e1",
       "duration": 9.417,
-      "bgmOffset": 100.835,
+      "bgmOffset": 105.112,
       "subtitles": [
         {
           "start": 0.15,
@@ -205,7 +205,7 @@
       "id": "3-2-04",
       "studioShotId": "9f5c75a8-8278-45c4-af9e-85441f9e37da",
       "duration": 15.084,
-      "bgmOffset": 110.252,
+      "bgmOffset": 114.529,
       "subtitles": [
         {
           "start": 0.2,
@@ -226,8 +226,8 @@
     {
       "id": "3-2-08",
       "studioShotId": "aa3df3e0-0891-4d94-a666-dd66a1d2c40b",
-      "duration": 10.25,
-      "bgmOffset": 125.336,
+      "duration": 15.104,
+      "bgmOffset": 129.613,
       "subtitles": [
         {
           "start": 0.35,
@@ -238,7 +238,7 @@
         },
         {
           "start": 4.8,
-          "end": 10.17,
+          "end": 11.6,
           "kind": "dialogue",
           "speaker": "楚南",
           "text": "喂——半个月后我们“塞纳河畔”西餐厅开业，对门冷锅冷灶的趁早关张吧！"
@@ -249,7 +249,7 @@
       "id": "3-2-11",
       "studioShotId": "5e6a91f4-c310-4e23-9a00-532321a72bec",
       "duration": 13.667,
-      "bgmOffset": 135.586,
+      "bgmOffset": 144.717,
       "subtitles": [
         {
           "start": 0.2,
@@ -271,7 +271,7 @@
       "id": "3-2-14",
       "studioShotId": "3d20c954-310b-48ff-9f5c-4527b5609c63",
       "duration": 15.084,
-      "bgmOffset": 149.253,
+      "bgmOffset": 158.384,
       "subtitles": [
         {
           "start": 0.2,
@@ -300,7 +300,7 @@
       "id": "3-2-17",
       "studioShotId": "f5c74a3e-5744-41f8-8ffb-1c1e0280791b",
       "duration": 11.542,
-      "bgmOffset": 164.337,
+      "bgmOffset": 173.468,
       "subtitles": [
         {
           "start": 6.0,
@@ -314,8 +314,8 @@
     {
       "id": "3-2-20",
       "studioShotId": "4b77643f-9e50-49a3-8acf-e9a5daa85ed6",
-      "duration": 12.25,
-      "bgmOffset": 175.879,
+      "duration": 14.375,
+      "bgmOffset": 185.01,
       "subtitles": [
         {
           "start": 0.2,
@@ -336,8 +336,8 @@
     {
       "id": "3-2-23",
       "studioShotId": "7ab93461-e05e-4dd9-af7d-3624bb0b95c8",
-      "duration": 13.667,
-      "bgmOffset": 188.129,
+      "duration": 14.375,
+      "bgmOffset": 199.385,
       "subtitles": [
         {
           "start": 5.0,
@@ -367,192 +367,192 @@
       "shotId": "3-1-01"
     },
     {
-      "start": 13.867,
-      "end": 19.967,
+      "start": 15.284,
+      "end": 21.384,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "后厨小灶借我四十分钟。熬出来您尝一口，要是烧嗓子，我拎包就走。",
       "shotId": "3-1-04"
     },
     {
-      "start": 20.367,
-      "end": 24.667,
+      "start": 21.784,
+      "end": 26.084,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "爸，小寻从小不说空话，就让他开火试试嘛。",
       "shotId": "3-1-04"
     },
     {
-      "start": 40.059,
-      "end": 44.459,
+      "start": 41.476,
+      "end": 45.876,
       "kind": "dialogue",
       "speaker": "陈伯",
       "text": "老夏，背着人炖啥好汤呢？隔半条街都闻见香了！",
       "shotId": "3-1-11"
     },
     {
-      "start": 49.201,
-      "end": 52.401,
+      "start": 50.618,
+      "end": 53.818,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "夏叔，趁热抿两口原汤。",
       "shotId": "3-1-14"
     },
     {
-      "start": 63.851,
-      "end": 69.051,
+      "start": 65.274,
+      "end": 70.474,
       "kind": "dialogue",
       "speaker": "夏建国",
       "text": "奇了……嗓子眼里那股火辣辣顶着的劲儿，真散了？！",
       "shotId": "3-1-18"
     },
     {
-      "start": 69.451,
-      "end": 72.851,
+      "start": 70.874,
+      "end": 74.274,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "爸！你听你说话，嗓子不劈也不哑了！",
       "shotId": "3-1-18"
     },
     {
-      "start": 75.901,
-      "end": 80.601,
+      "start": 78.741,
+      "end": 83.441,
       "kind": "dialogue",
       "speaker": "陈伯",
       "text": "老夏你可别吃独食！闻着一点不呛嗓子，赶紧给我盛一碗！",
       "shotId": "3-1-21"
     },
     {
-      "start": 81.001,
-      "end": 85.101,
+      "start": 83.841,
+      "end": 87.941,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "陈伯钱收回去，等过几天新锅挂牌，头一顿请您白吃。",
       "shotId": "3-1-21"
     },
     {
-      "start": 91.651,
-      "end": 97.251,
+      "start": 95.908,
+      "end": 101.508,
       "kind": "dialogue",
       "speaker": "夏建国",
       "text": "小寻，叔今儿服气了！改火锅！你拿方子占五成一，往后叔听你的！",
       "shotId": "3-1-24"
     },
     {
-      "start": 97.651,
-      "end": 100.451,
+      "start": 101.908,
+      "end": 104.708,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "行，夏叔，咱先把字据落下来。",
       "shotId": "3-1-24"
     },
     {
-      "start": 100.985,
-      "end": 104.135,
+      "start": 105.262,
+      "end": 108.412,
       "kind": "caption",
       "speaker": "",
       "text": "次日上午",
       "shotId": "3-2-01"
     },
     {
-      "start": 110.452,
-      "end": 117.252,
+      "start": 114.729,
+      "end": 121.529,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "赵主厨，十五万装修款我全批了，往后一个月八千块工资，店里可就指望您啦！",
       "shotId": "3-2-04"
     },
     {
-      "start": 117.752,
-      "end": 124.752,
+      "start": 122.029,
+      "end": 129.029,
       "kind": "dialogue",
       "speaker": "赵帆",
       "text": "林小姐把心放肚子里，等我这正宗法式西餐一开火，整条街的土馆子全得喝西北风！",
       "shotId": "3-2-04"
     },
     {
-      "start": 125.686,
-      "end": 129.636,
+      "start": 129.963,
+      "end": 133.913,
       "kind": "vo",
       "speaker": "叶寻",
       "text": "赵帆……还真是这个光会摆盘吃回扣的混子。",
       "shotId": "3-2-08"
     },
     {
-      "start": 130.136,
-      "end": 135.506,
+      "start": 134.413,
+      "end": 141.213,
       "kind": "dialogue",
       "speaker": "楚南",
       "text": "喂——半个月后我们“塞纳河畔”西餐厅开业，对门冷锅冷灶的趁早关张吧！",
       "shotId": "3-2-08"
     },
     {
-      "start": 135.786,
-      "end": 139.886,
+      "start": 144.917,
+      "end": 149.017,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "叶寻，瞧见没？离了你，我家照样开高档西餐厅！",
       "shotId": "3-2-11"
     },
     {
-      "start": 140.286,
-      "end": 144.986,
+      "start": 149.417,
+      "end": 154.117,
       "kind": "dialogue",
       "speaker": "夏建国",
       "text": "欺负人欺负到家门口了！请个洋厨子就不知道姓啥了——",
       "shotId": "3-2-11"
     },
     {
-      "start": 149.453,
-      "end": 154.053,
+      "start": 158.584,
+      "end": 163.184,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "夏叔，犯不着跟他们置气。芊芊姐，账上还能腾出多少现钱？",
       "shotId": "3-2-14"
     },
     {
-      "start": 154.453,
-      "end": 160.053,
+      "start": 163.584,
+      "end": 169.184,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "账面一共三万八，刨去欠菜贩子的货款，手里现钱就剩两万六了。",
       "shotId": "3-2-14"
     },
     {
-      "start": 160.453,
-      "end": 163.853,
+      "start": 169.584,
+      "end": 172.984,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "两万六够把前头改成明档了，今儿先从门口动——",
       "shotId": "3-2-14"
     },
     {
-      "start": 170.337,
-      "end": 174.737,
+      "start": 179.468,
+      "end": 183.868,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "你们干什么呀！自己装修凭什么往我家门口倒沙子？！",
       "shotId": "3-2-17"
     },
     {
-      "start": 176.079,
-      "end": 181.679,
+      "start": 185.21,
+      "end": 190.81,
       "kind": "dialogue",
       "speaker": "赵帆",
       "text": "路窄，借你们台阶堆半个月呗，横竖你们这破店也没人登门！",
       "shotId": "3-2-20"
     },
     {
-      "start": 182.079,
-      "end": 185.279,
+      "start": 191.21,
+      "end": 194.41,
       "kind": "dialogue",
       "speaker": "夏建国",
       "text": "蹬鼻子上脸是吧，我跟你们拼了——",
       "shotId": "3-2-20"
     },
     {
-      "start": 193.129,
-      "end": 198.429,
+      "start": 204.385,
+      "end": 209.685,
       "kind": "dialogue",
       "speaker": "赵帆",
       "text": "咋的穷学生，还敢抡铁锹啊？来，往这儿拍，动一下赔十万！",

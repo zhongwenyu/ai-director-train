@@ -1,5 +1,5 @@
 {
-  "total_duration": 167.574,
+  "total_duration": 169.225,
   "vtt_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/post_ep02_v7/ep02_v7_subtitles.vtt",
   "bgm_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/post_ep02_v7/ep02_v7_bgm.mp3",
   "bgm_segments": [
@@ -12,7 +12,7 @@
       "fade_in": 0.6,
       "fade_out": 0.8,
       "start": 0.0,
-      "end": 70.46
+      "end": 71.877
     },
     {
       "label": "护夏芊芊逼退混混、前厅取出祖传草本包提议合伙（温情守护 CC0）",
@@ -22,8 +22,8 @@
       "gain": 0.37,
       "fade_in": 0.7,
       "fade_out": 0.6,
-      "start": 70.46,
-      "end": 139.532
+      "start": 71.877,
+      "end": 141.658
     },
     {
       "label": "夏建国捂红肿脖子拎铁炒勺冲出死拒红油锅进门悬念切集（紧绷对峙 Mixkit Free）",
@@ -34,8 +34,8 @@
       "gain": 0.42,
       "fade_in": 0.6,
       "fade_out": 0.4,
-      "start": 139.532,
-      "end": 167.574
+      "start": 141.658,
+      "end": 169.225
     }
   ],
   "shots": [
@@ -93,7 +93,7 @@
     {
       "id": "2-1-08",
       "studioShotId": "24d68122-9e6c-4dd2-bd40-8c791e64464e",
-      "duration": 13.667,
+      "duration": 15.084,
       "bgmOffset": 28.751,
       "subtitles": [
         {
@@ -116,7 +116,7 @@
       "id": "2-1-11",
       "studioShotId": "ed4033ec-4dc6-4c34-973e-5d90bb21b9b1",
       "duration": 14.375,
-      "bgmOffset": 42.418,
+      "bgmOffset": 43.835,
       "subtitles": [
         {
           "start": 0.2,
@@ -138,7 +138,7 @@
       "id": "2-1-14",
       "studioShotId": "d8231905-155b-4bc4-8cf7-186c6082149c",
       "duration": 13.667,
-      "bgmOffset": 56.793,
+      "bgmOffset": 58.21,
       "subtitles": [
         {
           "start": 0.2,
@@ -160,7 +160,7 @@
       "id": "2-2-01",
       "studioShotId": "ae9ff178-f086-42af-a83e-b954aa7714a0",
       "duration": 12.25,
-      "bgmOffset": 70.46,
+      "bgmOffset": 71.877,
       "subtitles": [
         {
           "start": 0.15,
@@ -189,7 +189,7 @@
       "id": "2-2-04",
       "studioShotId": "1a9a919b-73ee-46d3-8b1b-c3adbb37d4da",
       "duration": 13.667,
-      "bgmOffset": 82.71,
+      "bgmOffset": 84.127,
       "subtitles": [
         {
           "start": 2.7,
@@ -211,7 +211,7 @@
       "id": "2-2-07",
       "studioShotId": "30ddda77-1c7d-491f-afff-f483eb24a172",
       "duration": 13.696,
-      "bgmOffset": 96.377,
+      "bgmOffset": 97.794,
       "subtitles": [
         {
           "start": 3.4,
@@ -233,7 +233,7 @@
       "id": "2-3-01",
       "studioShotId": "27bc40c2-1167-440e-a3c2-834340a5ddb9",
       "duration": 15.084,
-      "bgmOffset": 110.073,
+      "bgmOffset": 111.49,
       "subtitles": [
         {
           "start": 2.8,
@@ -254,8 +254,8 @@
     {
       "id": "2-3-05",
       "studioShotId": "88ce01dd-3ef7-44ab-bd96-e727f8c4c287",
-      "duration": 14.375,
-      "bgmOffset": 125.157,
+      "duration": 15.084,
+      "bgmOffset": 126.574,
       "subtitles": [
         {
           "start": 2.9,
@@ -276,8 +276,8 @@
     {
       "id": "2-3-08",
       "studioShotId": "f24d0959-d596-4543-9d9d-756c6e383156",
-      "duration": 13.667,
-      "bgmOffset": 139.532,
+      "duration": 13.192,
+      "bgmOffset": 141.658,
       "subtitles": [
         {
           "start": 0.2,
@@ -299,7 +299,7 @@
       "id": "2-3-11",
       "studioShotId": "50f13b7d-8453-4498-8af2-4d2158db5736",
       "duration": 14.375,
-      "bgmOffset": 153.199,
+      "bgmOffset": 154.85,
       "subtitles": [
         {
           "start": 0.2,
@@ -376,152 +376,152 @@
       "shotId": "2-1-08"
     },
     {
-      "start": 42.618,
-      "end": 46.718,
+      "start": 44.035,
+      "end": 48.135,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "楚南，你刚说的那个主厨，到底准不准？",
       "shotId": "2-1-11"
     },
     {
-      "start": 47.118,
-      "end": 53.618,
+      "start": 48.535,
+      "end": 55.035,
       "kind": "dialogue",
       "speaker": "楚南",
       "text": "什么准不准？就明天！我把星级主厨赵帆连装修队一块儿给你拉来！",
       "shotId": "2-1-11"
     },
     {
-      "start": 56.993,
-      "end": 58.993,
+      "start": 58.41,
+      "end": 60.41,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "行，祝你们发财。",
       "shotId": "2-1-14"
     },
     {
-      "start": 60.993,
-      "end": 66.293,
+      "start": 62.41,
+      "end": 67.71,
       "kind": "dialogue",
       "speaker": "林双双",
       "text": "滚就滚！离了我家这门面，你那破方子烂手里都没人要！",
       "shotId": "2-1-14"
     },
     {
-      "start": 70.61,
-      "end": 73.86,
+      "start": 72.027,
+      "end": 75.277,
       "kind": "caption",
       "speaker": "",
       "text": "斜对门 · 夏记食府",
       "shotId": "2-2-01"
     },
     {
-      "start": 73.06,
-      "end": 78.46,
+      "start": 74.477,
+      "end": 79.877,
       "kind": "dialogue",
       "speaker": "混混",
       "text": "小老板娘，招工纸都撕啦？周转不开签两万块应急呗——",
       "shotId": "2-2-01"
     },
     {
-      "start": 78.76,
-      "end": 80.66,
+      "start": 80.177,
+      "end": 82.077,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "不借！你让开——",
       "shotId": "2-2-01"
     },
     {
-      "start": 85.41,
-      "end": 90.41,
+      "start": 86.827,
+      "end": 91.827,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "街口岗亭民警正往这儿瞧，过去聊聊你这利息？",
       "shotId": "2-2-04"
     },
     {
-      "start": 90.91,
-      "end": 94.71,
+      "start": 92.327,
+      "end": 96.127,
       "kind": "dialogue",
       "speaker": "混混",
       "text": "少管闲事！守着这冷灶台等关张吧！",
       "shotId": "2-2-04"
     },
     {
-      "start": 99.777,
-      "end": 104.277,
+      "start": 101.194,
+      "end": 105.694,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "小寻？今天没课啊……怎么跑这儿来了？",
       "shotId": "2-2-07"
     },
     {
-      "start": 104.527,
-      "end": 109.227,
+      "start": 105.944,
+      "end": 110.644,
       "kind": "vo",
       "speaker": "叶寻",
       "text": "上辈子林双双搞垮夏家逼你们远走……这回有我在。",
       "shotId": "2-2-07"
     },
     {
-      "start": 112.873,
-      "end": 116.673,
+      "start": 114.29,
+      "end": 118.09,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "芊芊姐，这几天客流掉得这么厉害？",
       "shotId": "2-3-01"
     },
     {
-      "start": 117.073,
-      "end": 123.073,
+      "start": 118.49,
+      "end": 124.49,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "后街连开了几家快餐店，学生全往那边跑，昨天一天才卖两百多块！",
       "shotId": "2-3-01"
     },
     {
-      "start": 128.057,
-      "end": 133.357,
+      "start": 129.474,
+      "end": 134.774,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "店别关。炒菜改做养生火锅，我出方子盯灶，咱们合伙。",
       "shotId": "2-3-05"
     },
     {
-      "start": 133.757,
-      "end": 138.757,
+      "start": 135.174,
+      "end": 140.174,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "这哪行啊？你爷爷留的方子，不是说好拿去帮双双吗？",
       "shotId": "2-3-05"
     },
     {
-      "start": 139.732,
-      "end": 143.532,
+      "start": 141.858,
+      "end": 145.658,
       "kind": "dialogue",
       "speaker": "叶寻",
       "text": "刚跟她分了。这东西，我只信得过夏家。",
       "shotId": "2-3-08"
     },
     {
-      "start": 146.732,
-      "end": 152.032,
+      "start": 148.858,
+      "end": 154.158,
       "kind": "dialogue",
       "speaker": "夏建国",
       "text": "瞎胡闹！夏家做了一辈子川菜……改什么野路子！",
       "shotId": "2-3-08"
     },
     {
-      "start": 153.399,
-      "end": 157.999,
+      "start": 155.05,
+      "end": 159.65,
       "kind": "dialogue",
       "speaker": "夏芊芊",
       "text": "爸，你扁桃体肿得水都咽不下，快少说两句——",
       "shotId": "2-3-11"
     },
     {
-      "start": 158.399,
-      "end": 164.699,
+      "start": 160.05,
+      "end": 166.35,
       "kind": "dialogue",
       "speaker": "夏建国",
       "text": "小寻，心意叔领了……但那号上火烂嘴的红油锅，绝不能进咱家门！",

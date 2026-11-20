@@ -1,0 +1,240 @@
+{
+  "episode": 1,
+  "round": "3E",
+  "cross_episode_prev_shot": null,
+  "reviewed_updated_shots": [
+    "1-3-01"
+  ],
+  "summary": {
+    "total_shots": 14,
+    "pass_count": 13,
+    "fail_count": 1,
+    "round3e_updated_pass": 1,
+    "round3e_updated_fail": 0,
+    "unchanged_shots_fail": 1
+  },
+  "final_entity_ledger": [
+    {
+      "entity": "ceremonial_chef_cap",
+      "state": "Handed from Lin Shuangshuang to Zhao Fan in 1-1-01 and held by Zhao Fan; duplication resolved in 1-1-10 Shot 2.",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-01"
+    },
+    {
+      "entity": "signed_agreement_paper",
+      "state": "Picked up by Lin Shuangshuang and tucked into her folder under her left arm.",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-01"
+    },
+    {
+      "entity": "ye_xun_chest_badge",
+      "state": "Absent in 1-1-01; black lanyard + gold square badge preserved across 1-1-04, 1-1-07, 1-1-10, and ripped off/slammed onto round marble table in 1-1-13 (natural dark eyes restored).",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-04"
+    },
+    {
+      "entity": "faded_work_cloth",
+      "state": "Cleanly dropped into cylindrical floor trash bin by Chu Nan in 1-1-04 Shot 1 (marble table clear); remains inside trash bin in 1-1-13 Shot 1 and Shot 4.",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-04"
+    },
+    {
+      "entity": "transfer_slip_paper",
+      "state": "Pulled from black folder in 1-1-07; slapped onto Ye Xun's chest and preserved on round marble table across 1-1-10 and 1-1-13 (Shot 3 & Shot 4).",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-07"
+    },
+    {
+      "entity": "grandpa_wooden_plaque",
+      "state": "Pulled from drenched pocket and dropped onto wet asphalt street in 2020 car crash blackout.",
+      "scope": "ep01_2020_rain_street",
+      "since_shot": "1-2-01"
+    },
+    {
+      "entity": "ye_xun_canvas_backpack_and_herbs",
+      "state": "Zipper-top army-green canvas backpack on wooden bench with herb bundle squeezed inside in 1-3-01 (Shot 2 & Shot 3) and zipped shut in 1-3-11; unchanged 1-3-15 mutates to flap-buckle rucksack on lap before reverting to zipper-top on bench in 1-3-18 and grabbed in 1-3-21.",
+      "scope": "ep01_2005_eatery_and_doorway",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "eatery_2005_characters_and_set",
+      "state": "Cream plaster walls with framed calligraphy, green ceiling fan (ZERO air conditioner), Lin Shuangshuang in cream/beige tweed suit, Chu Nan in black blazer + patterned shirt consistent across 1-3-01..1-3-21.",
+      "scope": "ep01_2005_eatery_hall",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "chu_nan_cola_can",
+      "state": "Red aluminum cola can held by Chu Nan in 1-3-01 & 1-3-04; tips on side at 00:01 and pops upright bottom-left at 00:07 in 1-3-06; held in 1-3-09; omitted from table in 1-3-11 Shot 2 (1-3-12_aux_1k.png).",
+      "scope": "ep01_2005_eatery_hall",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "renovation_sketch_paper",
+      "state": "On wooden table from 1-3-01 to 1-3-09; torn in half by Ye Xun and dropped into ceramic floor spittoon in 1-3-11.",
+      "scope": "ep01_2005_eatery_hall",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "eatery_doorway_and_exterior_lane",
+      "state": "Glass-paned double wooden doors opening onto sunlit old Chongqing street (1-3-18 & 1-3-21); intrusive brick stove eliminated in 1-3-21.",
+      "scope": "ep01_2005_eatery_and_doorway",
+      "since_shot": "1-3-18"
+    }
+  ],
+  "shots": [
+    {
+      "id": "1-1-01",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "START",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-04",
+      "round3_reviewed": true,
+      "cut_type_from_prev": "B",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-07",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-10",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-13",
+      "round3_reviewed": true,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [
+        {
+          "timestamp": "00:05.5-00:09.5",
+          "category": "PROP_CONTINUITY",
+          "severity": "LOW",
+          "description": "Non-blocking minor tint shift: the lanyard on the marble table in [Shot 3]-[Shot 4] has a subtle navy-blue sheen compared to black in [Shot 2]. Natural dark human eyes and all props/onlookers clean."
+        }
+      ],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-2-01",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "C",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-01",
+      "round3_reviewed": true,
+      "cut_type_from_prev": "C",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-04",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-06",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [
+        {
+          "timestamp": "00:01.0-00:07.5",
+          "category": "PROP_CONTINUITY",
+          "severity": "LOW",
+          "description": "Non-blocking residual from -c:v copy: cola can tips onto its side at 00:01 and pops upright bottom-left at 00:07. Audio clean."
+        }
+      ],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-09",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-11",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [
+        {
+          "timestamp": "00:03.0-00:05.6",
+          "category": "PROP_DISAPPEARANCE",
+          "severity": "LOW",
+          "description": "Non-blocking residual from -c:v copy: red cola can is absent from table in [Shot 2] (1-3-12_aux_1k.png). Audio clean."
+        }
+      ],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-15",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.0-00:04.7",
+          "category": "PROP_MUTATION_AND_K_HOP_CONTINUITY",
+          "severity": "MEDIUM",
+          "description": "Unchanged since Round 1: in [Shot 1] (from 1-3-15_1k.png / 1-3_post_tear_master_1k.png), Ye Xun's army-green canvas backpack jumps from the wooden bench (1-3-11) onto his lap and mutates from a zipper-top backpack into a flap-cover buckled rucksack before reverting to zipper-top on the bench in 1-3-18."
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE",
+      "fix_recipe": "Rebuild 1-3-15_1k.png and 1-3_post_tear_master_1k.png via Spark H3 Image keeping the zipper-top army-green canvas backpack zipped on the wooden bench beside Ye Xun (and fixing forearm/table clipping in 1-3_post_tear_master_1k.png), then regenerate 1-3-15."
+    },
+    {
+      "id": "1-3-18",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-21",
+      "round3_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    }
+  ]
+}

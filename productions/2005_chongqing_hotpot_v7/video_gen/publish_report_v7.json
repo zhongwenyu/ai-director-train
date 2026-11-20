@@ -3,31 +3,31 @@
   "episodes": {
     "ep01": {
       "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
-      "bgmMediaId": "ffa64bac-7b3f-4051-b85e-85857ac690ab",
-      "subtitleMediaId": "645c1c64-6d67-4a6c-9ecf-63a06933f986",
-      "total_duration_s": 176.529,
+      "bgmMediaId": "f592c909-9372-4cd0-9581-687889319f84",
+      "subtitleMediaId": "26ce39a9-19fe-40fa-a5ff-0e0c18bb18b2",
+      "total_duration_s": 182.228,
       "shot_count": 14,
-      "filmMediaId": "ca9a6e12-5818-48be-9188-8eb2240d484f",
+      "filmMediaId": "5c93fa51-958f-48f2-b143-7200cd36fb73",
       "httpStatus": 200,
       "completedShots": 14
     },
     "ep02": {
       "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
-      "bgmMediaId": "a3aac4a3-05cc-44cc-8f30-4f1253b0b00a",
-      "subtitleMediaId": "a2f2399a-74f3-4b27-a2d4-730c826c7a49",
-      "total_duration_s": 167.574,
+      "bgmMediaId": "266dfc3c-7e5f-4133-8efd-40326c80131a",
+      "subtitleMediaId": "0b3445ad-9f9f-4cea-949f-6d94b3314cad",
+      "total_duration_s": 169.225,
       "shot_count": 12,
-      "filmMediaId": "b56f0a50-e312-4cec-81cd-48124b69d192",
+      "filmMediaId": "c184b5c3-ac26-4644-b488-a6cfda101026",
       "httpStatus": 200,
       "completedShots": 12
     },
     "ep03": {
       "episodeId": "ed05ad9d-55c2-4a89-a8af-4d88d640ed07",
-      "bgmMediaId": "911de900-e324-4868-b134-2cba925262f5",
-      "subtitleMediaId": "8d0b5e45-02bd-472d-b254-5ac41ba68cc7",
-      "total_duration_s": 201.796,
+      "bgmMediaId": "0dca99fc-2a47-415b-8c0b-9b4783fca72c",
+      "subtitleMediaId": "b16fd89b-0d99-4875-be26-5903d1acb83c",
+      "total_duration_s": 213.76,
       "shot_count": 16,
-      "filmMediaId": "147208b0-bf4a-4c76-8c15-baa7d5a9067c",
+      "filmMediaId": "6983dd9c-6990-4d38-9c4e-d323c7e77b76",
       "httpStatus": 200,
       "completedShots": 16
     }
