@@ -81,3 +81,4 @@
 [14:24:02]   [v7_r1_TEST] test_102 (年代乡村/concise_1s): ten=PASS_HIT_READY(93.5) dlg=PASS_HUMAN_NATURAL(95.0) | vs_GT[ten=GEN, dlg=REAL_GT] 
 [14:24:02]   [v7_r1_TEST] End-to-End Generating test_ood_hotpot2005 (都市年代重生商战情感 | rich_brief)...
 [14:38:08]   [v7_r1_TEST] test_085 (都市情感/concise_1s): ten=PASS_HIT_READY(93.0) dlg=PASS_HUMAN_NATURAL(94.25) | vs_GT[ten=GEN, dlg=TIE] 
+[14:43:51]   [v7_r1_TEST] test_137 (末世科幻/concise_1s): ten=PASS_HIT_READY(94.25) dlg=PASS_HUMAN_NATURAL(93.5) | vs_GT[ten=GEN, dlg=TIE] 
