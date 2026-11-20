@@ -190,3 +190,4 @@ RuntimeError: Isolated agy sub-agent (gemini-4-carbon-medium) failed: timeout 60
 [stage0] Premise Lock PASSED on round 1: 流落农门，软糯小公主被皇兄宠上天
 [11:52:28]   [v7_r2] dev_066 (都市情感/concise_1s): ten=PASS_HIT_READY(94.0) dlg=PASS_HUMAN_NATURAL(93.5) | vs_GT[ten=TIE, dlg=REAL_GT] | vs_CHAMP[ten=TIE, dlg=TIE]
 [11:52:28]   [v7_r2] End-to-End Generating dev_098 (都市情感 | concise_1s)...
+[stage0] Premise Lock PASSED on round 1: 死不离婚：锁死家产送她入狱
