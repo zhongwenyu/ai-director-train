@@ -1,0 +1,174 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以铁血皇兄雷霆护短与软糯萌娃异能化废为宝构成双向救赎爽点，异能强度绑定温饱体能避免无代价开挂。裸看实况人物称谓与字幕锚定清晰，反派讹诈与借假邸报拦路动机层层自洽，情绪拉扯饱满抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "饥寒护苗",
+      "audible_counts": {
+        "岁岁": 9,
+        "王婆子": 6,
+        "赵铁嘴": 7,
+        "陆沉": 1,
+        "萧凛": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "叔",
+        "婶",
+        "婆",
+        "哥",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内/外　牛家柴房及小院　日",
+          "audible_counts": {
+            "岁岁": 7,
+            "王婆子": 6,
+            "赵铁嘴": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　寒石村口窄道　日",
+          "audible_counts": {
+            "赵铁嘴": 4,
+            "岁岁": 2,
+            "陆沉": 1,
+            "萧凛": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "血脉认主",
+      "audible_counts": {
+        "赵铁嘴": 3,
+        "陆沉": 2,
+        "岁岁": 5,
+        "萧凛": 7,
+        "王婆子": 6,
+        "牛耀祖": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "叔",
+        "婶",
+        "爷",
+        "婆",
+        "哥",
+        "弟",
+        "妹",
+        "老婆"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　寒石村口窄道　日",
+          "audible_counts": {
+            "赵铁嘴": 3,
+            "陆沉": 2,
+            "岁岁": 4,
+            "萧凛": 6,
+            "王婆子": 5
+          },
+          "vo_counts": {
+            "萧凛": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　牛家院门外　日",
+          "audible_counts": {
+            "王婆子": 1,
+            "岁岁": 1,
+            "萧凛": 1,
+            "牛耀祖": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陆沉"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "枯根生药",
+      "audible_counts": {
+        "牛耀祖": 1,
+        "周奉": 5,
+        "王婆子": 5,
+        "陆沉": 3,
+        "岁岁": 3,
+        "萧凛": 3,
+        "牛有才": 2,
+        "马县丞": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "娘",
+        "叔",
+        "婶",
+        "爷",
+        "奶",
+        "婆",
+        "哥",
+        "弟",
+        "妹",
+        "老婆",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　牛家小院　日",
+          "audible_counts": {
+            "牛耀祖": 1,
+            "周奉": 4,
+            "王婆子": 5,
+            "陆沉": 3,
+            "岁岁": 3,
+            "萧凛": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　寒石村口　日",
+          "audible_counts": {
+            "萧凛": 2,
+            "周奉": 1,
+            "牛有才": 2,
+            "马县丞": 2
+          },
+          "vo_counts": {
+            "萧凛": 1
+          },
+          "mute_present_characters": [
+            "岁岁",
+            "陆沉"
+          ]
+        }
+      ]
+    }
+  ]
+}
