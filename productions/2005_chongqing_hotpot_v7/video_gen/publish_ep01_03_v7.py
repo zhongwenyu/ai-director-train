@@ -316,8 +316,8 @@ def build_ep2_post_spec(shot_map: Dict[str, Any]) -> Dict[str, Any]:
             {"start": 8.2, "end": 12.0, "kind": "dialogue", "speaker": "混混", "text": "少管闲事！守着这冷灶台等关张吧！"},
         ]),
         ("2-2-07", [
-            {"start": 2.2, "end": 6.5, "kind": "dialogue", "speaker": "夏芊芊", "text": "小寻？今天没课啊……怎么跑这儿来了？"},
-            {"start": 7.15, "end": 12.3, "kind": "vo", "speaker": "叶寻", "text": "上辈子林双双搞垮夏家逼你们远走……这回有我在。"},
+            {"start": 3.4, "end": 7.9, "kind": "dialogue", "speaker": "夏芊芊", "text": "小寻？今天没课啊……怎么跑这儿来了？"},
+            {"start": 8.15, "end": 12.85, "kind": "vo", "speaker": "叶寻", "text": "上辈子林双双搞垮夏家逼你们远走……这回有我在。"},
         ]),
         ("2-3-01", [
             {"start": 2.8, "end": 6.6, "kind": "dialogue", "speaker": "叶寻", "text": "芊芊姐，这几天客流掉得这么厉害？"},

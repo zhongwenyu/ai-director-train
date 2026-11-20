@@ -1,0 +1,301 @@
+{
+  "prefix": "ep02_v7",
+  "bgm_segments": [
+    {
+      "label": "林记门口解塑料电子表拍掌断交、激将楚南抽包带过街（干脆决裂 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-350.mp3",
+      "start_shot": "2-1-01",
+      "end_shot": "2-1-14",
+      "gain": 0.41,
+      "fade_in": 0.6,
+      "fade_out": 0.8
+    },
+    {
+      "label": "护夏芊芊逼退混混、前厅取出祖传草本包提议合伙（温情守护 CC0）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/freesound-845168.mp3",
+      "start_shot": "2-2-01",
+      "end_shot": "2-3-05",
+      "gain": 0.37,
+      "fade_in": 0.7,
+      "fade_out": 0.6
+    },
+    {
+      "label": "夏建国捂红肿脖子拎铁炒勺冲出死拒红油锅进门悬念切集（紧绷对峙 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "2-3-08",
+      "end_shot": "2-3-11",
+      "src_offset": 15.0,
+      "gain": 0.42,
+      "fade_in": 0.6,
+      "fade_out": 0.4
+    }
+  ],
+  "shots": [
+    {
+      "id": "2-1-01",
+      "studioShotId": "dec2fde4-d79d-4511-890c-977c6ee90adb",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-1-01/video.mp4",
+      "cues": [
+        {
+          "start": 2.0,
+          "end": 7.4,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "行啊叶寻，跟我玩这一套——看楚南帮我出主意，吃醋了？"
+        },
+        {
+          "start": 7.8,
+          "end": 12.5,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "至于吗老叶，大老爷们儿搞欲擒故纵，掉价了啊。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-04",
+      "studioShotId": "f41a7159-4a97-4ab4-8301-f004b3437e58",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-1-04/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.8,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "差不多行了。服个软把方子交出来，刚才的事我翻篇。"
+        },
+        {
+          "start": 7.6,
+          "end": 11.0,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "东西收好。咱俩完了。"
+        },
+        {
+          "start": 11.4,
+          "end": 14.6,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "你说什么？叶寻，你敢提分手？！"
+        }
+      ]
+    },
+    {
+      "id": "2-1-08",
+      "studioShotId": "24d68122-9e6c-4dd2-bd40-8c791e64464e",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-1-08/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.5,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "分了。往后你家店是死是活，别来沾边。"
+        },
+        {
+          "start": 7.0,
+          "end": 12.4,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "楚少，刚吹出去的星级主厨，赶紧给人请来啊。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-11",
+      "studioShotId": "ed4033ec-4dc6-4c34-973e-5d90bb21b9b1",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-1-11/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.3,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "楚南，你刚说的那个主厨，到底准不准？"
+        },
+        {
+          "start": 4.7,
+          "end": 11.2,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "什么准不准？就明天！我把星级主厨赵帆连装修队一块儿给你拉来！"
+        }
+      ]
+    },
+    {
+      "id": "2-1-14",
+      "studioShotId": "d8231905-155b-4bc4-8cf7-186c6082149c",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-1-14/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 2.2,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "行，祝你们发财。"
+        },
+        {
+          "start": 4.2,
+          "end": 9.5,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "滚就滚！离了我家这门面，你那破方子烂手里都没人要！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-01",
+      "studioShotId": "ae9ff178-f086-42af-a83e-b954aa7714a0",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-2-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.15,
+          "end": 3.4,
+          "kind": "caption",
+          "speaker": "",
+          "text": "斜对门 · 夏记食府"
+        },
+        {
+          "start": 2.6,
+          "end": 8.0,
+          "kind": "dialogue",
+          "speaker": "混混",
+          "text": "小老板娘，招工纸都撕啦？周转不开签两万块应急呗——"
+        },
+        {
+          "start": 8.3,
+          "end": 10.2,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "不借！你让开——"
+        }
+      ]
+    },
+    {
+      "id": "2-2-04",
+      "studioShotId": "1a9a919b-73ee-46d3-8b1b-c3adbb37d4da",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-2-04/video.mp4",
+      "cues": [
+        {
+          "start": 2.7,
+          "end": 7.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "街口岗亭民警正往这儿瞧，过去聊聊你这利息？"
+        },
+        {
+          "start": 8.2,
+          "end": 12.0,
+          "kind": "dialogue",
+          "speaker": "混混",
+          "text": "少管闲事！守着这冷灶台等关张吧！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-07",
+      "studioShotId": "30ddda77-1c7d-491f-afff-f483eb24a172",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-2-07/video.mp4",
+      "cues": [
+        {
+          "start": 3.4,
+          "end": 7.9,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "小寻？今天没课啊……怎么跑这儿来了？"
+        },
+        {
+          "start": 8.15,
+          "end": 12.85,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "上辈子林双双搞垮夏家逼你们远走……这回有我在。"
+        }
+      ]
+    },
+    {
+      "id": "2-3-01",
+      "studioShotId": "27bc40c2-1167-440e-a3c2-834340a5ddb9",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-3-01/video.mp4",
+      "cues": [
+        {
+          "start": 2.8,
+          "end": 6.6,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "芊芊姐，这几天客流掉得这么厉害？"
+        },
+        {
+          "start": 7.0,
+          "end": 13.0,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "后街连开了几家快餐店，学生全往那边跑，昨天一天才卖两百多块！"
+        }
+      ]
+    },
+    {
+      "id": "2-3-05",
+      "studioShotId": "88ce01dd-3ef7-44ab-bd96-e727f8c4c287",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-3-05/video.mp4",
+      "cues": [
+        {
+          "start": 2.9,
+          "end": 8.2,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "店别关。炒菜改做养生火锅，我出方子盯灶，咱们合伙。"
+        },
+        {
+          "start": 8.6,
+          "end": 13.6,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "这哪行啊？你爷爷留的方子，不是说好拿去帮双双吗？"
+        }
+      ]
+    },
+    {
+      "id": "2-3-08",
+      "studioShotId": "f24d0959-d596-4543-9d9d-756c6e383156",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-3-08/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.0,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "刚跟她分了。这东西，我只信得过夏家。"
+        },
+        {
+          "start": 7.2,
+          "end": 12.5,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "瞎胡闹！夏家做了一辈子川菜……改什么野路子！"
+        }
+      ]
+    },
+    {
+      "id": "2-3-11",
+      "studioShotId": "50f13b7d-8453-4498-8af2-4d2158db5736",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-3-11/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.8,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "爸，你扁桃体肿得水都咽不下，快少说两句——"
+        },
+        {
+          "start": 5.2,
+          "end": 11.42,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "小寻，心意叔领了……但那号上火烂嘴的红油锅，绝不能进咱家门！"
+        }
+      ]
+    }
+  ]
+}
