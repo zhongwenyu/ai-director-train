@@ -194,3 +194,4 @@ RuntimeError: Isolated agy sub-agent (gemini-4-carbon-medium) failed: timeout 60
 [11:56:03]   [v7_r2] dev_023 (年代乡村/rich_brief): ten=PASS_HIT_READY(94.0) dlg=PASS_HUMAN_NATURAL(90.0) | vs_GT[ten=GEN, dlg=REAL_GT] | vs_CHAMP[ten=CHAMP, dlg=CHAMP]
 [11:56:03]   [v7_r2] End-to-End Generating dev_112 (玄幻修仙 | concise_1s)...
 [stage0] Premise Lock PASSED on round 1: 寒门宝葫：断亲后我逆季粮满仓
+  [script_check reject] 第 2 集存在超长单句台词（72字 > 60字），请拆为有来有回的真实对话；第 3 集预估时长超标（232.1s > 205s），戏量过载，须控制在 100~165s（约20~28句对白）内；第 3 集句均字数过长（28.7字 > 28.5字），须用 14~24 字通俗活人短句把事说清；第 3 集存在超长单句台词（69字 > 60字），请拆为有来有回的真实对话
