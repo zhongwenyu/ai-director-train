@@ -1,0 +1,187 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以祖传不上火药膳火锅秘方为支点，围绕重回2005撤方止损、携青梅盘活老店并与前任西餐厅同街打擂展开，兑现清醒切割与食效口碑逆袭爽感。裸看前3集人物关系与称谓自然清晰，无VO抢话，断交激将、试汤立约到堵门挑衅层层递进，抓人有力。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.1,
+    "motivation_and_logic": 9.2,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.3
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 92.75,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "撤回秘方",
+      "audible_counts": {
+        "叶寻": 5,
+        "林双双": 10,
+        "楚南": 6,
+        "赵帆": 1
+      },
+      "unintroduced_speakers": [
+        "赵帆"
+      ],
+      "kinship_or_titles_heard": [
+        "爷",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　火锅集团庆功宴包厢　夜",
+          "audible_counts": {
+            "叶寻": 2,
+            "林双双": 3,
+            "楚南": 2,
+            "赵帆": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　酒楼门外街道　夜",
+          "audible_counts": {},
+          "vo_counts": {
+            "叶寻": 1
+          },
+          "mute_present_characters": [
+            "叶寻"
+          ]
+        },
+        {
+          "scene_id": "1-3",
+          "location": "内　林记饭馆大堂　日",
+          "audible_counts": {
+            "林双双": 7,
+            "楚南": 4,
+            "叶寻": 3
+          },
+          "vo_counts": {
+            "叶寻": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "当街断交",
+      "audible_counts": {
+        "林双双": 5,
+        "楚南": 2,
+        "叶寻": 8,
+        "混混": 2,
+        "夏芊芊": 5,
+        "夏建国": 2
+      },
+      "unintroduced_speakers": [
+        "混混",
+        "夏建国"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "娘",
+        "叔",
+        "爷",
+        "姐",
+        "老板",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　林记饭馆门口　日",
+          "audible_counts": {
+            "林双双": 5,
+            "楚南": 2,
+            "叶寻": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　夏记食府门口　日",
+          "audible_counts": {
+            "混混": 2,
+            "夏芊芊": 2,
+            "叶寻": 1
+          },
+          "vo_counts": {
+            "叶寻": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　夏记食府前厅　日",
+          "audible_counts": {
+            "叶寻": 3,
+            "夏芊芊": 3,
+            "夏建国": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "一锅定音",
+      "audible_counts": {
+        "叶寻": 7,
+        "夏建国": 5,
+        "夏芊芊": 4,
+        "陈伯": 2,
+        "林双双": 2,
+        "赵帆": 3,
+        "楚南": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "娘",
+        "叔",
+        "伯",
+        "爷",
+        "姐",
+        "老板",
+        "师傅",
+        "小姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　夏记食府前厅及后厨　日",
+          "audible_counts": {
+            "叶寻": 5,
+            "夏建国": 3,
+            "夏芊芊": 2,
+            "陈伯": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　夏记食府门前餐饮街　日",
+          "audible_counts": {
+            "林双双": 2,
+            "赵帆": 3,
+            "楚南": 1,
+            "夏建国": 2,
+            "叶寻": 2,
+            "夏芊芊": 2
+          },
+          "vo_counts": {
+            "叶寻": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
