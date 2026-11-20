@@ -13,6 +13,7 @@ Supports:
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import json
 import subprocess
@@ -155,14 +156,18 @@ while time.time() < deadline:
     time.sleep(1.5)
 raise TimeoutError(f"Timed out waiting for Spark H3 Image prompt_id={{pid}}")
 """
+    b64_script = base64.b64encode(remote_runner.encode("utf-8")).decode("ascii")
     proc = subprocess.run(
-        ["ssh", ssh_host, "python3", "-c", remote_runner],
+        ["ssh", ssh_host, f"python3 -c 'import base64; exec(base64.b64decode(\"{b64_script}\").decode())'"],
         input=json.dumps(graph),
         text=True,
         capture_output=True,
-        check=True,
         timeout=480,
     )
+    if proc.returncode != 0:
+        raise RuntimeError(
+            f"Spark H3 Image remote runner failed (rc={proc.returncode}):\nSTDOUT: {proc.stdout}\nSTDERR: {proc.stderr}"
+        )
     last_line = [ln.strip() for ln in proc.stdout.splitlines() if ln.strip()][-1]
     img_info = json.loads(last_line)
     sub = img_info.get("subfolder", "").strip("/")
