@@ -1,0 +1,21 @@
+{
+  "left": "REAL_HIT",
+  "right": "LEGACY_R27",
+  "slot_A": "REAL_HIT",
+  "slot_B": "LEGACY_R27",
+  "winner_label": "TIE",
+  "margin": "narrow",
+  "dimension_winners": {
+    "opening_attraction": "LEGACY_R27",
+    "dialogue_humanity": "REAL_HIT",
+    "tension_and_payoff": "TIE",
+    "ending_cliffhanger": "REAL_HIT"
+  },
+  "why_winner_wins": "A险胜，但两版都未达到优秀短剧标准。①开场B更扎心：“别把血蹭我箱子”把物品比丈夫重要的关系直接拍出来，比泛泛骂废物有效。②A更相信现场冲突：“现在够了”配合划改名单，冷漠有动作承载；B则频繁用旁白解释已经看懂的委屈。③两版真正有效的筹码都是六个座位：被迫留下的不只是乘客，而是丈夫；但后续家人轮番羞辱都在重复同一信息，张力打平。④A虽也把取消安排、冻结副卡、离婚全部说完，至少没有像B再明说钱出自个人账户，尚留一点‘他究竟掌握什么资源’的疑问，因此追看动力略胜。",
+  "why_loser_loses": "B输在把潜台词写成解说词：“她记得他的擦伤，却没问我的血”“人走了，差事还留给丈夫”，都在替观众总结画面；“自己的复诊都推了”也没有后续承接，像临时追加的卖惨筹码。结尾又用取消成功字幕和个人账户旁白把反击机制解释到底，留下的主要是等待宋家吃瘪，而非真相将揭未揭的悬念。必须重扣的是：两版都存在全家排队羞辱、富贵旅行清单、撕婚纱照宣言的套路，A还有冷笑、十指相扣等加码，不能因A胜出就视为合格。B的具体生活细节值得保留，但不足以抵消贯穿全集的解释性旁白。",
+  "swap_check": {
+    "pass1_winner": "REAL_HIT",
+    "pass2_winner": "LEGACY_R27",
+    "consistent": false
+  }
+}

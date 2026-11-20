@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是真实农村偏心叔婶与兄妹在雪夜吵架算账。长短句呼吸错落，顶针反问与两三字短促反应咬得很紧，吵的全是半瓢热水、十四文钱、五两彩礼和挑水劈柴的实账；连宝葫芦奇遇都落到铜板谷种上，毫无AI端腔或喊口号。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.6
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.75,
+  "rhythm_metrics": {
+    "total_lines": 100,
+    "mean_char_len": 13.1,
+    "char_len_stdev": 6.2,
+    "short_reaction_ratio_le7": 0.23,
+    "twin_clause_symmetry_ratio": 0.13
+  }
+}

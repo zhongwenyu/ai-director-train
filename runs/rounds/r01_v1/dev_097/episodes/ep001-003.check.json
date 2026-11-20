@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 197.8,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "脱衣断亲，这牛马我不当了",
+      "scenes": 2,
+      "actions": 20,
+      "dialogue_lines": 20,
+      "vo_lines": 1,
+      "spoken_chars": 804,
+      "avg_line_chars": 38.3,
+      "est_duration_sec": 210.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "十里奔袭锁死学籍，秘饵夜下清河湾",
+      "scenes": 4,
+      "actions": 19,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 668,
+      "avg_line_chars": 47.7,
+      "est_duration_sec": 183.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "智甩恶犬闯宾馆，肉香飘断偏心肠",
+      "scenes": 3,
+      "actions": 15,
+      "dialogue_lines": 20,
+      "vo_lines": 0,
+      "spoken_chars": 777,
+      "avg_line_chars": 38.9,
+      "est_duration_sec": 198.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集预估时长偏长（210.8s > 190s），注意节奏拖沓"
+  ]
+}

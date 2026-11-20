@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是北方农村地头的活人烟火气！长短句呼吸错落，“罚两千？！”“我翻旧账？！”“担待？！”话咬话反咬干脆利落。富贵的厚脸皮、翠芳的急脾气、建国的闷声硬气、老太的护短声纹分明；吵架全算白菜、卖蒜钱、棉护膝的实账，零AI金句。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.5,
+  "rhythm_metrics": {
+    "total_lines": 87,
+    "mean_char_len": 16.5,
+    "char_len_stdev": 6.8,
+    "short_reaction_ratio_le7": 0.172,
+    "twin_clause_symmetry_ratio": 0.023
+  }
+}

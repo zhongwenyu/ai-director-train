@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是活人吵架交锋的呼吸感！全员围绕房产、周转金、副卡、三万二方巾和两百万现金步步紧逼，话咬话极紧。软饭男遇付账结巴溜号、律师大白话拆招、厂长顺水推舟套取敲诈口供，声纹鲜明，零说教金句。",
+  "scores": {
+    "character_voice_distinction": 9.1,
+    "conversational_bite_and_rhythm": 9.2,
+    "spoken_naturalness": 9.3,
+    "subtext_and_micro_specificity": 9.4
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 92.5,
+  "rhythm_metrics": {
+    "total_lines": 76,
+    "mean_char_len": 18.5,
+    "char_len_stdev": 8.0,
+    "short_reaction_ratio_le7": 0.066,
+    "twin_clause_symmetry_ratio": 0.066
+  }
+}

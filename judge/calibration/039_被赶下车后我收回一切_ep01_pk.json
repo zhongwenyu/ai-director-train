@@ -1,0 +1,21 @@
+{
+  "left": "REAL_HIT",
+  "right": "NAIVE_ZEROSHOT",
+  "slot_A": "REAL_HIT",
+  "slot_B": "NAIVE_ZEROSHOT",
+  "winner_label": "REAL_HIT",
+  "margin": "clear",
+  "dimension_winners": {
+    "opening_attraction": "REAL_HIT",
+    "dialogue_humanity": "REAL_HIT",
+    "tension_and_payoff": "REAL_HIT",
+    "ending_cliffhanger": "REAL_HIT"
+  },
+  "why_winner_wins": "A胜在母子关系的痛感和儿子尚未表态的追看动力。替儿子整理胸花、叮嘱照顾新娘，与随后被要求自己打车形成情感反差；“我把位置让给她，我坐哪里？”有实际处境，“明浩，你怎么说？”把争座升级成儿子是否维护母亲。结尾等待儿子选择，比B继续展示权势更牵动人。但A只是相对胜出：开场豪车酒席铺陈拖慢入戏，八十八辆车却容不下一个临时来客，冲突依据薄弱；亲属排队指责、董事长字幕、赠股协议和冷笑仍有明显套路感。开头还提前喊出收回钥匙，削弱后续悬念，不能据此认定已达到优秀短剧水准。",
+  "why_loser_loses": "B集中堆砌了题目要求重判的廉价套路：劳斯莱斯幻影、千亿晚宴、富二代扔钱、黑金私人手机、秘书广播董事长身份和百亿合同、特殊牌照迈巴赫车队。人物轮流羞辱，妻子甚至直说男闺蜜会因丈夫在场而不自在，行为主要服务于激怒观众，缺少可信的利益掩饰。五座车原坐四人，接一人本可坐满，却硬造赶司机下车的理由；刚打电话车队便到，也缺少时间交代。末尾一次说完锁车、报警、断合作、取消资格，虽有反击爽点，却把后续行动清单提前播报完，主要只剩等反派受罚，缺少更有层次的未知。",
+  "swap_check": {
+    "pass1_winner": "REAL_HIT",
+    "pass2_winner": "REAL_HIT",
+    "consistent": true
+  }
+}

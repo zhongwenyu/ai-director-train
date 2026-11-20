@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈修远",
+  "episode_count": 3,
+  "mean_est_duration_sec": 169.9,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "拆房夺名额",
+      "scenes": 1,
+      "actions": 16,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 619,
+      "avg_line_chars": 24.8,
+      "est_duration_sec": 165.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "净身切割撤礼遇",
+      "scenes": 3,
+      "actions": 15,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 601,
+      "avg_line_chars": 24.0,
+      "est_duration_sec": 163.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "至尊副卡当众拉黑",
+      "scenes": 2,
+      "actions": 17,
+      "dialogue_lines": 25,
+      "vo_lines": 1,
+      "spoken_chars": 673,
+      "avg_line_chars": 25.9,
+      "est_duration_sec": 180.8,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 2 集角色 ['唐琳'] 未直接叫出全名（已出现称谓 ['爸', '姨', '爷', '奶', '公', '姐']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['检票专员', '排队女客'] 未直接叫出全名（已出现称谓 ['爸', '姨', '爷', '奶', '公', '姐']，交由屏幕盲审核验关系清晰度）"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "属下绝不会把皇上叫成“父皇”（典型的AI视角串台），也不会在村口生硬交代设定，真人会压低声音急道：“全枯了……殿下，宫里那位怕是熬不过这个月了。”",
+      "quote": "陆青：是，父皇的寒毒怕是撑不过半月。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "人都走到院门口了，不会跟一路随行的护卫复述大纲前情，真人只会简短叮嘱：“先进村找人。记住，进门一律称公子。”",
+      "quote": "萧景珩：先找小妹。五年前线索指在这赵家村，进门称公子。"
+    },
+    {
+      "defect_type": "era_or_region_register_mismatch",
+      "how_real_person_would_say_it": "“核验无误”是现代公文审核词，且还没见到孩子就说核验无误逻辑生硬；古装随从会亮出银子说：“只要人对得上，这十两先拿着，事成再赏一百两。”",
+      "quote": "秦风：核验无误，这十两纹银先拿着，另谢百两。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "当面戳穿农户冒领不会掉书袋报体检词“骨龄”，真人打量一眼会直接拆台：“公子，这丫头个头牙口都七八岁了，哪像四岁半？”",
+      "quote": "陆青：公子，这骨龄足有七八岁。"
+    },
+    {
+      "defect_type": "era_or_region_register_mismatch",
+      "how_real_person_would_say_it": "古代村妇撒泼讹钱不会蹦出“买断银”这种现代商业合同词，真人会叉腰嚷嚷：“拿不出五百两养家钱，这丫头片子甭想迈出我家大门！”",
+      "quote": "孙氏：掏不出五百两买断银，这丫头就得留下来干活。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "心里盘算援兵时间不会端着念网文电报旁白，真人内心反应更自然直白：“再拖片刻，外头的人就到了。”",
+      "quote": "[心声OS] 萧景珩：一盏茶，铁骑便到。"
+    }
+  ],
+  "ear_test_impression": "表面刻意塞了短反问拉高统计指标，但闭眼一听全是AI按大纲逐句派发任务的电报腔：属下竟管皇帝叫“父皇”，到了村口还在硬报“五年前线索”，随从张嘴“核验无误”、村妇蹦出“买断银”，全员一人一句排队报剧情，毫无真实活人交锋的烟火气。",
+  "scores": {
+    "character_voice_distinction": 4,
+    "conversational_bite_and_rhythm": 4.5,
+    "spoken_naturalness": 3.5,
+    "subtext_and_micro_specificity": 4
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 40.0,
+  "rhythm_metrics": {
+    "total_lines": 85,
+    "mean_char_len": 12.5,
+    "char_len_stdev": 5.6,
+    "short_reaction_ratio_le7": 0.247,
+    "twin_clause_symmetry_ratio": 0.071
+  }
+}

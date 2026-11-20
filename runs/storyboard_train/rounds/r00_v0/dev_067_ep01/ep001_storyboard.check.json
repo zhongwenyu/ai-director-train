@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "柴房里的“烂红毒果”",
+      "scenes": 3,
+      "axis_headers": 4,
+      "shots": 34,
+      "groups": 12,
+      "seam_anchors": 12,
+      "total_sec": 125.0,
+      "asl_sec": 3.68,
+      "active_cam_shots": 7,
+      "active_cam_pct": 20.6,
+      "wide_pct": 2.9,
+      "talk_shots": 11,
+      "vo_shots": 3,
+      "crammed_speech_count": 0,
+      "compound_cam_count": 0
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

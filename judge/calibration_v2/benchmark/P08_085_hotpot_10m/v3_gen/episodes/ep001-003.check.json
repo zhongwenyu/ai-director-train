@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 102.5,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "还差八十八万",
+      "scenes": 2,
+      "actions": 14,
+      "dialogue_lines": 9,
+      "vo_lines": 1,
+      "spoken_chars": 230,
+      "avg_line_chars": 23.0,
+      "est_duration_sec": 76.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "停我的买菜卡？还有这种好事",
+      "scenes": 2,
+      "actions": 14,
+      "dialogue_lines": 11,
+      "vo_lines": 1,
+      "spoken_chars": 386,
+      "avg_line_chars": 32.2,
+      "est_duration_sec": 110.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "泼我披肩？请按专柜折旧赔付",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 12,
+      "vo_lines": 1,
+      "spoken_chars": 427,
+      "avg_line_chars": 32.8,
+      "est_duration_sec": 120.8,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

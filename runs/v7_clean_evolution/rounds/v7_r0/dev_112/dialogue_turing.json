@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听活人感很强，毫无AI端着的公众号金句或双分句电报腔。农村大院撒泼搜身、分家扒袄、酒楼议价都带着浓烈市井烟火气；“刀呢？”“空的？”等短促反应与话咬话顶针反问节奏紧凑，各色人物声纹分明，连OS都在算碎银和热面汤的实在账。",
+  "scores": {
+    "character_voice_distinction": 9.3,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.2,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 93.5,
+  "rhythm_metrics": {
+    "total_lines": 72,
+    "mean_char_len": 17.7,
+    "char_len_stdev": 6.1,
+    "short_reaction_ratio_le7": 0.069,
+    "twin_clause_symmetry_ratio": 0.042
+  }
+}

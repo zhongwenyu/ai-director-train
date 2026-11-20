@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "protagonist_detected": "王氏",
+  "episode_count": 3,
+  "mean_est_duration_sec": 151.9,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "饥寒催芽遭卖",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 503,
+      "avg_line_chars": 20.1,
+      "est_duration_sec": 139.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "冒领翻车验真身",
+      "scenes": 1,
+      "actions": 14,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 577,
+      "avg_line_chars": 23.1,
+      "est_duration_sec": 152.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "饱食化废为宝",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 609,
+      "avg_line_chars": 24.4,
+      "est_duration_sec": 163.3,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['萧穗穗', '王氏', '王宝珠', '人牙子'] 未直接叫出全名（已出现称谓 ['娘', '叔', '爷', '奶', '婆']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['萧景珩', '王氏', '王宝珠', '陈太医'] 未直接叫出全名（已出现称谓 ['娘', '叔', '爷', '奶', '婆', '哥']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['王氏', '陈太医', '萧景珩'] 未直接叫出全名（已出现称谓 ['爹', '娘', '叔', '伯', '爷', '奶']，交由屏幕盲审核验关系清晰度）"
+  ]
+}

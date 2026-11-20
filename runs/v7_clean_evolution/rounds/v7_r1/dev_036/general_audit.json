@@ -1,0 +1,195 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“超售撞座强夺九月龄婴儿致伤”点燃极致护犊愤怒，凭单亲宝妈实为顶尖航空侵权大律的身份反差，用合法铁证链掀翻航司超售黑幕与假贵宾冒卡丑闻。裸看实况人物称谓与关系清晰自然，冲突层层递进，悬念抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "双票撞座",
+      "audible_counts": {
+        "赵坤鹏": 5,
+        "沈知微": 6,
+        "小吴": 3,
+        "刘莉": 7,
+        "商务舱男客": 2,
+        "陆铮": 1
+      },
+      "unintroduced_speakers": [
+        "赵坤鹏",
+        "沈知微",
+        "商务舱男客",
+        "陆铮"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "奶",
+        "姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　天翼航空航班商务舱　日",
+          "audible_counts": {
+            "赵坤鹏": 5,
+            "沈知微": 6,
+            "小吴": 3,
+            "刘莉": 7,
+            "商务舱男客": 2,
+            "陆铮": 1
+          },
+          "vo_counts": {
+            "沈知微": 1
+          },
+          "mute_present_characters": [
+            "朵朵"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "夺婴关舱",
+      "audible_counts": {
+        "小吴": 2,
+        "沈知微": 8,
+        "陆铮": 4,
+        "刘莉": 4,
+        "赵坤鹏": 2,
+        "司机": 4
+      },
+      "unintroduced_speakers": [
+        "沈知微",
+        "赵坤鹏"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "奶",
+        "公",
+        "姐",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　飞机舱门口与连接廊桥　日",
+          "audible_counts": {
+            "小吴": 1,
+            "沈知微": 5,
+            "陆铮": 4,
+            "刘莉": 1
+          },
+          "vo_counts": {
+            "沈知微": 1
+          },
+          "mute_present_characters": [
+            "朵朵"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　天翼航空航班商务舱　日",
+          "audible_counts": {
+            "小吴": 1,
+            "刘莉": 3,
+            "赵坤鹏": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "外　机场航站楼上客车道　日",
+          "audible_counts": {
+            "司机": 4,
+            "沈知微": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "朵朵"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "验伤迎战",
+      "audible_counts": {
+        "儿科主任": 2,
+        "沈知微": 7,
+        "陈姨": 2,
+        "方睿": 5,
+        "赵坤鹏": 2,
+        "郑远航": 3,
+        "公关主管": 2,
+        "酒店保安": 1
+      },
+      "unintroduced_speakers": [
+        "儿科主任",
+        "赵坤鹏",
+        "公关主管"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "姨",
+        "奶",
+        "公",
+        "姐",
+        "总",
+        "主任",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　市儿童医院急诊诊室与走廊　日",
+          "audible_counts": {
+            "儿科主任": 2,
+            "沈知微": 5,
+            "陈姨": 1,
+            "方睿": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "朵朵"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　天翼航空总部副总裁办公室　日",
+          "audible_counts": {
+            "赵坤鹏": 2,
+            "郑远航": 3,
+            "公关主管": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　丽晶酒店发布会大门前　日",
+          "audible_counts": {
+            "方睿": 2,
+            "沈知微": 2,
+            "陈姨": 1,
+            "酒店保安": 1
+          },
+          "vo_counts": {
+            "沈知微": 1
+          },
+          "mute_present_characters": [
+            "朵朵"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "ok": false,
+  "verdict": "SWIPE_AWAY",
+  "blocked_episodes": [
+    2,
+    3
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "understood_plot_one_line": "陈野重生甩掉骗方前任，联手苏晚开店，迎战林家断供抢客。",
+      "scene_barrage": [
+        {
+          "scene_id": "1-1·退婚索方",
+          "barrage": "嫌人家是伙夫，还伸手要秘方？这婚赶紧退！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-1·撕谱亮汇款单",
+          "barrage": "原来大学都是他供的！汇款单拍脸上，这下谁欠谁？",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-1结尾至1-2·撤火合营",
+          "barrage": "这边刚说没人敢要，对门就五五分账接人，打脸够快！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2·断供抢客",
+          "barrage": "人都走了还追过来断油抢生意，这俩真够损的！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2·骑车抢鲜油",
+          "barrage": "不求他们供油，直接自己熬！想看这锅炒出来怎么打他们脸。",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.5,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 2,
+      "understood_plot_one_line": "陈野炼新汤抢回百桌生意，赵凯又举报他加违禁料。",
+      "scene_barrage": [
+        {
+          "scene_id": "2-1前段｜两家同时熬油",
+          "barrage": "昨晚断油，今天直接自己炼！对门还在瞎学，等着翻车吧。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-1后段｜新汤出锅",
+          "barrage": "一个香一个焦，这下看谁离不开谁。就是这旁白有点像卖汤料的。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2前段｜林记砸席",
+          "barrage": "哈哈，抢来的订单接不住了！还拿酸梅汤往下压，真能糊弄。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2中段｜百桌转去苏记",
+          "barrage": "抢回来是爽，可八百人带个凳子就能吃？桌子、锅、菜和端菜的人呢？",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "2-2后段｜开席后遭举报",
+          "barrage": "这就百桌全吃上了？两个人开八百人的席也太省事了，后面举报都没心思看了。",
+          "action": "SWIPE_AWAY"
+        }
+      ],
+      "fatal_dropoffs": [
+        {
+          "category": "unexplained_leap_or_ad_cringe",
+          "quote": "数百名工友……一人拎起两把红塑料凳……转至午后，苏记百桌推杯换盏正热闹。",
+          "viewer_complaint": "刚才还是两个人守一口锅，怎么转个场就能招待八百人了？凳子搬过来了，百张桌子、锅灶、菜和帮工凭空就有？赢回客人我信，立刻开成百桌宴我不信。",
+          "root_fix": "从事件规模和承接条件上调整：要么把首轮抢客缩成苏记现有人手能接住的几桌，先兑现一轮胜利；要么提前用画面建立苏记原本为百桌订单备好的桌席、食材与帮工，再让退单后的闲置准备真正派上用场。不能只靠跳到午后的热闹全景宣布成功。"
+        }
+      ],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 6.5,
+      "verdict": "SWIPE_AWAY"
+    },
+    {
+      "episode": 3,
+      "understood_plot_one_line": "陈野验汤洗清举报，反查林记封店，赵凯又威胁断花椒。",
+      "scene_barrage": [
+        {
+          "scene_id": "3-1① 草本与进货单送检",
+          "barrage": "赶紧验！等着看举报的人怎么打脸。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-1② 阴性洗白，再约盲测",
+          "barrage": "洗清了，爽！但执法的人怎么又给你们主持比赛了？",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "3-2① 食客尝汤举手",
+          "barrage": "上集不就尝过他家难喝了吗？怎么又尝一遍？",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "3-2② 看红油，搜出无标瓶",
+          "barrage": "看一眼颜色就是工业的？没标签的瓶子还能直接认出装了啥？",
+          "action": "SWIPE_AWAY"
+        },
+        {
+          "scene_id": "3-2③ 当场定性封店",
+          "barrage": "查自己要试纸，查对门靠嘴说？这反杀也太随便了。",
+          "action": "SWIPE_AWAY"
+        },
+        {
+          "scene_id": "3-2④ 赵凯打人，再断花椒",
+          "barrage": "又断货？刚断完牛油换花椒，还是同一招。",
+          "action": "SWIPE_AWAY"
+        }
+      ],
+      "fatal_dropoffs": [
+        {
+          "category": "unexplained_leap_or_ad_cringe",
+          "quote": "“倒工业辣椒精才挂这种荧光红！请查他灶底！”随后从砖缝搜出无厂名无批号的红油瓶，执法员直接宣布“查获三无工业辣椒精”。",
+          "viewer_complaint": "验自己家的汤还知道用试纸，轮到对门，一看颜色、搜个没标签的瓶子就全定了？主角说是什么，执法员就认什么，封店爽得太假。",
+          "root_fix": "重建反杀的证据链：让林大富因盲测露怯而主动藏匿或转移添加物，被现场抓住；查获物须有能核实内容的来源或检测依据。陈野的前世记忆只负责引导查找，不能代替证据。处罚建立在查实结果上，必要时用时间跳转兑现封店，取消执法员兼任口味裁判的安排。"
+        }
+      ],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 5,
+      "verdict": "SWIPE_AWAY"
+    }
+  ]
+}

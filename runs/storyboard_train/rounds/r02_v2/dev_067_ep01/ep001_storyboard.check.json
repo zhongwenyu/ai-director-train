@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "柴房里的“烂红毒果”",
+      "scenes": 3,
+      "axis_headers": 6,
+      "shots": 45,
+      "groups": 15,
+      "seam_anchors": 15,
+      "total_sec": 162.0,
+      "asl_sec": 3.6,
+      "active_cam_shots": 8,
+      "active_cam_pct": 17.8,
+      "wide_pct": 6.7,
+      "talk_shots": 13,
+      "vo_shots": 3,
+      "crammed_speech_count": 1,
+      "compound_cam_count": 7
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第1集存在复合运镜：['1-1-15(短促震动＋中速：破木门被王氏一脚踹开撞墙触发；摄)', '1-1-17(横移＋中速：王氏揪领发力往外倒拖触发；摄影机位于)', '1-2-07(摇摄＋中速：果浆破散风起触发；摄影机在泥地旁固定)', '1-2-12(横移＋缓速：张牙婆抖开麻绳迈步触发；摄影机位于小)']",
+    "第1集台词超载塞不进镜长：['1-2-08(39字/6.0s)']"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "拉倒吧！胡大虎那帮人满屯子堵你，我敢把枪给你？转头让你小子拿去抵了赌债咋整？",
+      "quote": "胡家满屯堵你要债，咋信你不是拿枪抵钱？"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "行！只要别停孩子的药，后天晌午我就是砸锅卖铁，也把十五块钱给您拍窗口上！",
+      "quote": "只要不断小草的药，钱我一分不少补齐。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "你还敢登我家的门？！当年偷摸卖我火药耍钱的时候，我咋跟你说的？滚出去！",
+      "quote": "三年前偷卖火药赌钱，我说过别进这院子。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "赵叔，小草掉冰窟窿里烧得快没气儿了！卫生院说后天晌午交不上十五块钱，立马就给孩子拔药啊！",
+      "quote": "小草落水病危，后天晌午差十五块钱就停药！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "这老封山天，也就大青山冰泉口那边还能撞着野猪……只要赵叔肯松口借枪，小草这命就能保住！",
+      "quote": "大青山冰泉口有野猪，借到枪就有救！"
+    },
+    {
+      "defect_type": "era_or_region_register_mismatch",
+      "how_real_person_would_say_it": "算你小子狠！账我给你登上了，顶多宽限你两天，后天晌午见不着钱咱走着瞧！",
+      "quote": "登了账算你狠！就给你四十八个小时！"
+    },
+    {
+      "defect_type": "era_or_region_register_mismatch",
+      "how_real_person_would_say_it": "家里也没剩啥火药，统共就这三颗打大牲口的独弹，你省着点使！",
+      "quote": "开春没配新火药，就剩这三发独头猎弹。"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "哎呀少跟老娘耍横！你们大房欠队里那一屁股工分，到年底拿啥平？还不是得扣俺们二房的口粮！",
+      "quote": "欠队里的工分不平，年底就得扣二房的粮！"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "赵叔，这份恩情我记下了！等打了野猪换上药钱，我立马把枪给您送回来！",
+      "quote": "后天晌午前，我提着肉来还枪！"
+    }
+  ],
+  "ear_test_impression": "一听就是典型的“AI限字数电报腔”。全员被死卡在14～18字双分句里吼叹号，毫无活人口语停顿、碎词与长短呼吸；老猎户、泼辣二婶、公社主任声纹高度同质，还夹杂硬报前史补丁及东北“屯”、西北“娃”、港片“四十八个小时”的语感乱炖。",
+  "scores": {
+    "character_voice_distinction": 3,
+    "conversational_bite_and_rhythm": 2.8,
+    "spoken_naturalness": 3.2,
+    "subtext_and_micro_specificity": 5.5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 36.25,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 15.2,
+    "char_len_stdev": 3.8,
+    "short_reaction_ratio_le7": 0.027,
+    "twin_clause_symmetry_ratio": 0.24
+  }
+}

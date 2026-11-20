@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是活人张嘴的烟火气！恶婆子算计破草席与草沫子、人牙子讨价两升陈米、四岁幼童把灵参叫胡萝卜求少喝半碗水、太子冷峻短促的威压，八个人八副鲜明声纹。话咬话顶针紧密，长短句呼吸错落有致，零总结金句与电报双分句，进棚即录爆款质感。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.3,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.4
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.25,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 19.4,
+    "char_len_stdev": 6.6,
+    "short_reaction_ratio_le7": 0.053,
+    "twin_clause_symmetry_ratio": 0.027
+  }
+}

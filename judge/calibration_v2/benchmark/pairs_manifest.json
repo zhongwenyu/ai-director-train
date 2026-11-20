@@ -1,0 +1,86 @@
+[
+  {
+    "pair_id": "P01_013_antique",
+    "kind": "real_vs_v3_short_seed",
+    "idea": "千禧年汽修学徒被黑心亲叔白使唤一年赖掉三千六工钱，手血意外唤醒听见旧物说话的异能，果断辞工拿抵账破烂捡漏暴富打脸叔婶。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P01_013_antique/real_equal_ep001-003.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P01_013_antique/v3_gen/combined_1-3.md"
+  },
+  {
+    "pair_id": "P02_097_gaokao93",
+    "kind": "real_vs_v3_short_seed",
+    "idea": "老实长子被吸血弟妹榨干惨死，重生回1993年全县高考状元放榜日，面对亲爹逼他把录取通知书让给弟弟去工地搬砖，当场护证断亲逆袭。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P02_097_gaokao93/real_equal_ep001-003.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P02_097_gaokao93/v3_gen/combined_1-3.md"
+  },
+  {
+    "pair_id": "P03_139_autopay87",
+    "kind": "real_vs_v3_short_seed",
+    "idea": "舔狗男友被拜金女友提分手羞辱，平静吃完最后一碗粉，默默在手机上逐一取消替她绑定的房租车贷等87项自动代付，看她瞬间破防。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P03_139_autopay87/real_equal_ep001-003.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P03_139_autopay87/v3_gen/combined_1-3.md"
+  },
+  {
+    "pair_id": "P04_145_bnb_sell",
+    "kind": "real_vs_v3_short_seed",
+    "idea": "姐姐花两百五十万买房装修成民宿免费给失业弟弟一家经营，国庆回家住两晚竟被弟媳按计算器收九百六房费、父母帮腔，姐姐直接全款卖掉民宿。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P04_145_bnb_sell/real_equal_ep001-003.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P04_145_bnb_sell/v3_gen/combined_1-3.md"
+  },
+  {
+    "pair_id": "P05_128_redpacket",
+    "kind": "real_vs_v3_short_seed",
+    "idea": "隐瞒集团掌舵人身份的女婿过年随礼扶持岳家，岳母发压岁红包却唯独当众漏掉他女儿还出言刻薄，女婿彻底寒心转身收回给岳家的一切。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P05_128_redpacket/real_equal_ep001-003.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P05_128_redpacket/v3_gen/combined_1-3.md"
+  },
+  {
+    "pair_id": "P06_049_house_occupy",
+    "kind": "real_vs_v3_short_seed",
+    "idea": "好心把城里新房借给亲戚暂住三年救急，收房办婚事时亲戚竟鸠占鹊巢反咬一口要把房子据为己有，房主不再留情强势清场反击。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P06_049_house_occupy/real_equal_ep001-003.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P06_049_house_occupy/v3_gen/combined_1-3.md"
+  },
+  {
+    "pair_id": "P07_001_poor_marry",
+    "kind": "real_vs_v3_short_seed",
+    "idea": "百亿总裁按爷爷遗愿穿旧衣回村履行娃娃亲试探人心，势利母女当众嫌贫退婚并苛待大姐，总裁转身看中善良受欺的大姐。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P07_001_poor_marry/real_equal_ep001-003.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P07_001_poor_marry/v3_gen/combined_1-3.md"
+  },
+  {
+    "pair_id": "P08_085_hotpot_10m",
+    "kind": "real_vs_v3_short_seed",
+    "idea": "京圈太子爷以为温顺女友爱惨了自己，纵容绿茶女大抢位羞辱她；殊不知女友六年深情全是演戏，正偷偷变卖他闲置奢侈品凑够一千万去自由吃火锅。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P08_085_hotpot_10m/real_equal_ep001-003.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P08_085_hotpot_10m/v3_gen/combined_1-3.md"
+  },
+  {
+    "pair_id": "P09_hotpot_2005",
+    "kind": "poison_pill",
+    "idea": "火锅传人重生回2005年撤回秘方踹掉忘恩女友，联手对门老店用清润红汤当街截流反杀。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P09_hotpot_2005/pos_ep001-002.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P09_hotpot_2005/neg_ep001-002.md"
+  },
+  {
+    "pair_id": "P10_clinic_1999",
+    "kind": "poison_pill",
+    "idea": "中医正骨传人被势利未婚妻与海归院长之子抢走署名赶出医院，转身入驻斜对面被他们恶意断药挤兑的老医馆，一手绝活当场治好省队主力打脸前任。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P10_clinic_1999/pos_ep001-002.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P10_clinic_1999/neg_ep001-002.md"
+  },
+  {
+    "pair_id": "P11_garment_1996",
+    "kind": "poison_pill",
+    "idea": "制版师姐姐累死累活把弟弟服装厂捧大却被弟媳算计赶走，重生回1996年撤回爆款版型图，联手被弟弟退单坑害的布行老板娘三天卖爆批发市场。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P11_garment_1996/pos_ep001-002.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P11_garment_1996/neg_ep001-002.md"
+  },
+  {
+    "pair_id": "P12_baker_2008",
+    "kind": "poison_pill",
+    "idea": "糕点匠人被合伙女友与富二代踢出局，重生回2008年护住古法桃酥秘方，接手被他们联手断供面粉的街口老饼铺，开业当天排队长龙排到前任店门口。",
+    "pos_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P12_baker_2008/pos_ep001-002.md",
+    "neg_path": "/home/zhongwenyu/project/ai-director-train/judge/calibration_v2/benchmark/P12_baker_2008/neg_ep001-002.md"
+  }
+]

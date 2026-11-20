@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 155.4,
+  "episodes": [
+    {
+      "episode": 11,
+      "title": "七十二小时到点，搬空还是清场",
+      "scenes": 1,
+      "actions": 14,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 494,
+      "avg_line_chars": 41.2,
+      "est_duration_sec": 131.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 12,
+      "title": "青石湾抢货局，八年前的旧欠条",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 17,
+      "vo_lines": 0,
+      "spoken_chars": 694,
+      "avg_line_chars": 40.8,
+      "est_duration_sec": 178.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 11 集混入摄影/水印术语：['推镜头']"
+  ]
+}

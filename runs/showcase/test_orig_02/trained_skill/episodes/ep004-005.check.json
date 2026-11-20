@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 153.2,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "八百块存折拍在桌面上",
+      "scenes": 3,
+      "actions": 21,
+      "dialogue_lines": 12,
+      "vo_lines": 2,
+      "spoken_chars": 508,
+      "avg_line_chars": 36.3,
+      "est_duration_sec": 150.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "废品堆里的黄金柜台",
+      "scenes": 3,
+      "actions": 15,
+      "dialogue_lines": 9,
+      "vo_lines": 3,
+      "spoken_chars": 582,
+      "avg_line_chars": 48.5,
+      "est_duration_sec": 156.5,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

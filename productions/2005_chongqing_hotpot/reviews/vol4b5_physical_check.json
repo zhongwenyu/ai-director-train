@@ -1,0 +1,129 @@
+{
+  "ok": true,
+  "episode_count": 10,
+  "mean_est_duration_sec": 74.7,
+  "episodes": [
+    {
+      "episode": 51,
+      "title": "六万八回扣，真凶现形",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 299,
+      "avg_line_chars": 24.9,
+      "est_duration_sec": 83.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 52,
+      "title": "反戈铁证，三罪并罚",
+      "scenes": 2,
+      "actions": 7,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 332,
+      "avg_line_chars": 25.5,
+      "est_duration_sec": 87.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 53,
+      "title": "老铺送别，过会突袭",
+      "scenes": 2,
+      "actions": 6,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 318,
+      "avg_line_chars": 26.5,
+      "est_duration_sec": 82.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 54,
+      "title": "撤单锁喉，雨夜抢运",
+      "scenes": 2,
+      "actions": 5,
+      "dialogue_lines": 11,
+      "vo_lines": 0,
+      "spoken_chars": 303,
+      "avg_line_chars": 27.5,
+      "est_duration_sec": 77.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 55,
+      "title": "开箱验真账，外资砸盘",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 282,
+      "avg_line_chars": 23.5,
+      "est_duration_sec": 79.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 56,
+      "title": "自锁五年仓，超额破围剿",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 8,
+      "vo_lines": 0,
+      "spoken_chars": 217,
+      "avg_line_chars": 27.1,
+      "est_duration_sec": 65.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 57,
+      "title": "一纸旧合伙，露台换布鞋",
+      "scenes": 2,
+      "actions": 5,
+      "dialogue_lines": 9,
+      "vo_lines": 0,
+      "spoken_chars": 232,
+      "avg_line_chars": 25.8,
+      "est_duration_sec": 62.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 58,
+      "title": "深交所交槌，钟台亮铜钥",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 8,
+      "vo_lines": 0,
+      "spoken_chars": 208,
+      "avg_line_chars": 26.0,
+      "est_duration_sec": 63.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 59,
+      "title": "七年藏一钥，金秋定佳期",
+      "scenes": 2,
+      "actions": 7,
+      "dialogue_lines": 9,
+      "vo_lines": 1,
+      "spoken_chars": 273,
+      "avg_line_chars": 27.3,
+      "est_duration_sec": 74.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 60,
+      "title": "十里红妆廊，沸腾共余生",
+      "scenes": 2,
+      "actions": 8,
+      "dialogue_lines": 9,
+      "vo_lines": 0,
+      "spoken_chars": 243,
+      "avg_line_chars": 27.0,
+      "est_duration_sec": 69.6,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

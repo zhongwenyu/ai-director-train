@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听活脱脱就是寒冬农家院里的真吵架！长短句呼吸错落，“热水？想得美”“写！你有屁的片瓦”等话咬话顶针极有脆劲；恶婶算计明早谁挑水劈柴、二叔算五两彩礼窟窿，全在算具体农家细账，人物声纹鲜明，烟火气十足，毫无AI端腔。",
+  "scores": {
+    "character_voice_distinction": 9.1,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.2,
+    "subtext_and_micro_specificity": 9.3
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 92.5,
+  "rhythm_metrics": {
+    "total_lines": 90,
+    "mean_char_len": 15.9,
+    "char_len_stdev": 7.0,
+    "short_reaction_ratio_le7": 0.189,
+    "twin_clause_symmetry_ratio": 0.089
+  }
+}

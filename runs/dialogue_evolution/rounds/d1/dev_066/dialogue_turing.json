@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是爆款短剧里活人当面撕扯的动静！丈母娘撒泼嫌贫、绿茶男以退为进拱火、幼女哭着护画笔、男主短促冷硬的顶针反问，长短句呼吸错落、话咬话极紧，满是“撒开、拾掇、没两个子儿”的鲜活口语，毫无AI端着的书面腔。",
+  "scores": {
+    "character_voice_distinction": 9.3,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.2
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 93.5,
+  "rhythm_metrics": {
+    "total_lines": 88,
+    "mean_char_len": 18.1,
+    "char_len_stdev": 8.5,
+    "short_reaction_ratio_le7": 0.182,
+    "twin_clause_symmetry_ratio": 0.023
+  }
+}

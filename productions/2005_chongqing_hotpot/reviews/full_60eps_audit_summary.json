@@ -1,0 +1,35 @@
+{
+  "project": "重回2005：撤回秘方后我带青梅沸腾全国",
+  "total_episodes": 60,
+  "final_verdict": "PASS",
+  "codex_scores_progression": {
+    "outline_60eps": {"round1": 68.0, "final": 76.0, "delta": "+8.0"},
+    "vol1_ep001_006": {"round1": 60.0, "final": 65.0, "peak": 67.0, "delta": "+5.0 ~ +7.0"},
+    "vol1_ep007_012": {"round1": 58.0, "final": 65.0, "delta": "+7.0"},
+    "vol2_ep013_018": {"round1": 62.0, "final": 64.0, "delta": "+2.0"},
+    "vol2_ep019_024": {"round1": 59.0, "final": 63.0, "delta": "+4.0"},
+    "vol3_ep025_030": {"round1": 59.0, "final": 62.0, "delta": "+3.0"},
+    "vol3_ep031_038": {"round1": 57.0, "final": 58.0, "delta": "+1.0"},
+    "vol4a_ep039_045": {"round1": 59.0, "final": 63.0, "delta": "+4.0"},
+    "vol4a_ep046_050": {"round1": 56.0, "final": 59.0, "delta": "+3.0"},
+    "vol4b5_ep051_055": {"round1": 58.0, "final": 57.0, "note": "Fixed fake U-disk recording & inquiry timeline"},
+    "vol4b5_ep056_060": {"round1": 58.0, "final": 60.0, "delta": "+2.0", "human_dialogue_score": "16/25 (+4.0)"}
+  },
+  "physical_and_continuity_audit": {
+    "ok": true,
+    "episode_count": 60,
+    "all_end_markers_present": true,
+    "hard_errors": 0,
+    "warnings": 0,
+    "est_duration_range_sec": "62.4s - 131.6s",
+    "mean_est_duration_sec": 84.5,
+    "era_and_legal_compliance": [
+      "2005-2008 严禁智能手机扫码、微信支付宝、外卖App、短视频直播、高铁，器物全对齐（小灵通、摩托罗拉V3、座机、传真、存折现钞、民主湖BBS、绿皮火车）",
+      "2005年4月观音桥步行街开街与二期时间线准确，林父《商铺经营授信抵押公证委托书》合规",
+      "2010年司法鉴定边界（2008年后新型改性树脂油墨+1994年商业局档案馆鲜章原表+2005年9月20日变更西餐厅工商底档）与第1集时间线100%咬合",
+      "2010年刑事并案三罪名（对非国家工作人员行贿罪、职务侵占罪、妨害作证罪）符合2011年前刑法，无2015刑九新增罪名穿帮",
+      "2012年春深交所中小板挂牌首日开盘高开38%符合2012年无44%首日涨停限制规则，金秋十月桂花巷百桌坝坝婚宴季节统一",
+      "夏芊芊重生秘密知情隔离全剧60集零泄露（ep17、ep26等均收归叶寻VO），求婚悬念锁死至第58-59集深交所交槌敲钟现场"
+    ]
+  }
+}

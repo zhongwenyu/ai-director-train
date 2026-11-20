@@ -1,0 +1,66 @@
+{
+  "headers": {
+    "X-Task-Id": "3ed5b3134c384e0ba81daf6e44754500",
+    "X-Task-Type": "ref2va",
+    "X-Model": "Pika-H3-Flex",
+    "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "X-Precision": "int8",
+    "X-Pruned": "true",
+    "X-Duration": "10.125",
+    "X-Resolution": "480x832",
+    "X-Steps": "6",
+    "X-Audio-Generated": "true",
+    "X-Queue-Wait-S": "0.0",
+    "X-E2E-S": "70.406",
+    "X-Turbo": "false",
+    "X-Frames": "243",
+    "X-Requested-Duration": "10.0",
+    "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
+    "X-SOL": "false",
+    "X-SOL-Tau": "none",
+    "X-Sampler": "lcm"
+  },
+  "elapsed_s": 70.41,
+  "seed": 1201,
+  "requested_duration": 10,
+  "actual_duration": 10.125,
+  "width": 480,
+  "height": 832,
+  "has_audio": true,
+  "ref_images_1k": [
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/1-2-01_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png"
+  ],
+  "ref_audios": [],
+  "vo_job_applied": {
+    "src": [
+      0.05,
+      7.242
+    ],
+    "dst_start": 2.4,
+    "vo_headers": {
+      "X-Audio-Generated": "true",
+      "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "X-Duration": "7.292",
+      "X-E2e-S": "131.696",
+      "X-Frames": "175",
+      "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
+      "X-Model": "Pika-H3-Flex",
+      "X-Precision": "int8",
+      "X-Pruned": "true",
+      "X-Queue-Wait-S": "0.0",
+      "X-Requested-Duration": "7.0",
+      "X-Resolution": "368x656",
+      "X-Sampler": "lcm",
+      "X-Sol": "false",
+      "X-Sol-Tau": "none",
+      "X-Steps": "6",
+      "X-Task-Id": "116a88b7d14b478690ac1a62bdb1c2d1",
+      "X-Task-Type": "ref2va",
+      "X-Turbo": "false",
+      "seed": 1278,
+      "elapsed": 133,
+      "resolution": "368p"
+    }
+  }
+}

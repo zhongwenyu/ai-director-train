@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 178.2,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "樟木箱上的铁锁",
+      "scenes": 2,
+      "actions": 27,
+      "dialogue_lines": 16,
+      "vo_lines": 0,
+      "spoken_chars": 517,
+      "avg_line_chars": 32.3,
+      "est_duration_sec": 159.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "三年工分账与断户书",
+      "scenes": 2,
+      "actions": 22,
+      "dialogue_lines": 19,
+      "vo_lines": 1,
+      "spoken_chars": 786,
+      "avg_line_chars": 39.3,
+      "est_duration_sec": 210.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "一截油管换来的顺风车",
+      "scenes": 3,
+      "actions": 21,
+      "dialogue_lines": 16,
+      "vo_lines": 1,
+      "spoken_chars": 576,
+      "avg_line_chars": 33.9,
+      "est_duration_sec": 164.8,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 2 集预估时长偏长（210.1s > 190s），注意节奏拖沓"
+  ]
+}

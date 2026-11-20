@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 272.5,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "副卡清零，一号木屋不姓苏",
+      "scenes": 3,
+      "actions": 25,
+      "dialogue_lines": 26,
+      "vo_lines": 0,
+      "spoken_chars": 981,
+      "avg_line_chars": 37.7,
+      "est_duration_sec": 259.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "下午五点的断供函与白月光的“妙计”",
+      "scenes": 4,
+      "actions": 21,
+      "dialogue_lines": 26,
+      "vo_lines": 0,
+      "spoken_chars": 1123,
+      "avg_line_chars": 43.2,
+      "est_duration_sec": 285.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 4 集预估时长偏长（259.3s > 190s），注意节奏拖沓",
+    "第 5 集预估时长偏长（285.7s > 190s），注意节奏拖沓"
+  ]
+}

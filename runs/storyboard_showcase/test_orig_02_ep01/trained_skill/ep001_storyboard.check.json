@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "老算盘半夜见了鬼",
+      "scenes": 1,
+      "axis_headers": 2,
+      "shots": 44,
+      "groups": 15,
+      "seam_anchors": 15,
+      "total_sec": 173.0,
+      "asl_sec": 3.93,
+      "active_cam_shots": 10,
+      "active_cam_pct": 22.7,
+      "wide_pct": 2.3,
+      "talk_shots": 15,
+      "vo_shots": 13,
+      "crammed_speech_count": 0,
+      "compound_cam_count": 9
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第1集存在复合运镜：['1-1-01(短促震动＋中速：铁门撞击门框触发；摄影机从大门内)', '1-1-05(俯仰摇＋缓速：沈秋月手指攥紧蓝布棉袄衣襟触发；摄)', '1-1-06(横移＋中速：刘桂兰双手拨开前排社员前扑触发；摄影)', '1-1-12(推近＋缓速：老算盘点破“棉袄左腋破洞”触发；摄影)']",
+    "第1集疑似改动或漏落少量台词片段：['我的老天爷啊！家', '搜啥搜！昨晚十一']"
+  ]
+}

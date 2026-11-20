@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "陆禾",
+  "episode_count": 3,
+  "mean_est_duration_sec": 125.9,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "风雪行善获古葫，归家撞破夺财局",
+      "scenes": 2,
+      "actions": 16,
+      "dialogue_lines": 22,
+      "vo_lines": 1,
+      "spoken_chars": 420,
+      "avg_line_chars": 18.3,
+      "est_duration_sec": 122.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "毒打滴血开储物，暗藏家底净身出户",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 20,
+      "vo_lines": 2,
+      "spoken_chars": 454,
+      "avg_line_chars": 20.6,
+      "est_duration_sec": 128.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "堂妹雪夜赠麦种，寒窑滴液破冰生芽",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 19,
+      "vo_lines": 2,
+      "spoken_chars": 441,
+      "avg_line_chars": 21.0,
+      "est_duration_sec": 126.0,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

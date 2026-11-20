@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是活人张嘴吵架的烟火气！长短句咬合极紧，“长绿毛了”“刮刮皮不能吃”“没饿死就是恩”全是抓着眼前吃食银钱算细账的真话；四岁幼童、偏心泼妇、贪财村霸与微服太子声纹分明，顶针反问与短促口令鲜活上口，毫无AI端腔。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.2,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.0,
+  "rhythm_metrics": {
+    "total_lines": 93,
+    "mean_char_len": 13.0,
+    "char_len_stdev": 5.9,
+    "short_reaction_ratio_le7": 0.247,
+    "twin_clause_symmetry_ratio": 0.075
+  }
+}

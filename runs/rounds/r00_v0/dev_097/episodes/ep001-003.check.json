@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 152.1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "掀桌撕契拒当黄牛",
+      "scenes": 2,
+      "actions": 22,
+      "dialogue_lines": 16,
+      "vo_lines": 1,
+      "spoken_chars": 515,
+      "avg_line_chars": 30.3,
+      "est_duration_sec": 151.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "当众脱衣立断亲书",
+      "scenes": 1,
+      "actions": 22,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 537,
+      "avg_line_chars": 44.8,
+      "est_duration_sec": 153.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "猎枪护犊搜赃打脸",
+      "scenes": 2,
+      "actions": 21,
+      "dialogue_lines": 15,
+      "vo_lines": 2,
+      "spoken_chars": 522,
+      "avg_line_chars": 30.7,
+      "est_duration_sec": 151.1,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

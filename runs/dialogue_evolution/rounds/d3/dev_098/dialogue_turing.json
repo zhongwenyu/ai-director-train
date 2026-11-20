@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是成熟都市短剧的真人吵架交锋感。全篇零公众号金句，长短句错落有致，充满“私教教到家里？”“一半？！”“省省吧”等短促顶针与本能反应。实业厂长算救命钱与米面账、虚荣妻子急刷礼服尾款、律师谈合规锁账，声纹区分鲜明，紧扣眼前具体钱事。",
+  "scores": {
+    "character_voice_distinction": 8.8,
+    "conversational_bite_and_rhythm": 9.2,
+    "spoken_naturalness": 9,
+    "subtext_and_micro_specificity": 9
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 90.0,
+  "rhythm_metrics": {
+    "total_lines": 94,
+    "mean_char_len": 16.7,
+    "char_len_stdev": 8.7,
+    "short_reaction_ratio_le7": 0.223,
+    "twin_clause_symmetry_ratio": 0.064
+  }
+}

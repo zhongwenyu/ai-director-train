@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "episode_count": 12,
+  "mean_est_duration_sec": 85.2,
+  "episodes": [
+    {
+      "episode": 39,
+      "title": "寒冬断链，城下逼股",
+      "scenes": 2,
+      "actions": 8,
+      "dialogue_lines": 15,
+      "vo_lines": 0,
+      "spoken_chars": 349,
+      "avg_line_chars": 23.3,
+      "est_duration_sec": 92.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 40,
+      "title": "养老底线，壮士断腕",
+      "scenes": 2,
+      "actions": 7,
+      "dialogue_lines": 15,
+      "vo_lines": 0,
+      "spoken_chars": 357,
+      "avg_line_chars": 23.8,
+      "est_duration_sec": 92.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 41,
+      "title": "千里驰援，后厨现打",
+      "scenes": 2,
+      "actions": 6,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 334,
+      "avg_line_chars": 27.8,
+      "est_duration_sec": 86.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 42,
+      "title": "农社取现，死棋盘活",
+      "scenes": 2,
+      "actions": 5,
+      "dialogue_lines": 10,
+      "vo_lines": 0,
+      "spoken_chars": 284,
+      "avg_line_chars": 28.4,
+      "est_duration_sec": 73.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 43,
+      "title": "九万旧债，毒契捆绑",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 353,
+      "avg_line_chars": 27.2,
+      "est_duration_sec": 95.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 44,
+      "title": "六万领条，隔门留刺",
+      "scenes": 2,
+      "actions": 8,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 305,
+      "avg_line_chars": 21.8,
+      "est_duration_sec": 83.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 45,
+      "title": "挪款封口，收费站截账",
+      "scenes": 3,
+      "actions": 7,
+      "dialogue_lines": 10,
+      "vo_lines": 0,
+      "spoken_chars": 241,
+      "avg_line_chars": 24.1,
+      "est_duration_sec": 69.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 46,
+      "title": "秘方入股，六七锁权",
+      "scenes": 2,
+      "actions": 5,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 307,
+      "avg_line_chars": 25.6,
+      "est_duration_sec": 78.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 47,
+      "title": "拒签城下盟，老屋遇残卷",
+      "scenes": 3,
+      "actions": 5,
+      "dialogue_lines": 10,
+      "vo_lines": 0,
+      "spoken_chars": 306,
+      "avg_line_chars": 30.6,
+      "est_duration_sec": 80.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 48,
+      "title": "尘封底档，壳户惊雷",
+      "scenes": 3,
+      "actions": 7,
+      "dialogue_lines": 10,
+      "vo_lines": 0,
+      "spoken_chars": 287,
+      "avg_line_chars": 28.7,
+      "est_duration_sec": 79.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 49,
+      "title": "证人突袭，当庭交锋",
+      "scenes": 2,
+      "actions": 7,
+      "dialogue_lines": 9,
+      "vo_lines": 0,
+      "spoken_chars": 266,
+      "avg_line_chars": 29.6,
+      "est_duration_sec": 73.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 50,
+      "title": "铁证碎谎，经侦临庭",
+      "scenes": 1,
+      "actions": 12,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 441,
+      "avg_line_chars": 31.5,
+      "est_duration_sec": 117.1,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

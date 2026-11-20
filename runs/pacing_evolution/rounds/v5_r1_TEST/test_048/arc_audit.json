@@ -1,0 +1,123 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9.5,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "完全看懂，零理解障碍。字幕与称呼清晰交代孪生大伯穿亡弟旧衣探望侄女，周家误认其为乡下岳父；周家贪占40万陪嫁首付却作践晚晴、巴结陈董欲签800万大单的前情与争点层层剥开，钩子紧扣明晚牡丹厅宴席。",
+  "total_score": 93.75,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "旧衣叩门见凉薄",
+      "audible_counts": {
+        "陈晚晴": 5,
+        "陈建国": 8,
+        "周浩": 4,
+        "刘翠兰": 8
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "伯",
+        "弟"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　周家客厅　日",
+          "audible_counts": {
+            "陈晚晴": 5,
+            "陈建国": 8,
+            "周浩": 4,
+            "刘翠兰": 8
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "四十万首付的真心与狗肺",
+      "audible_counts": {
+        "刘翠兰": 7,
+        "陈建国": 8,
+        "周浩": 8,
+        "陈晚晴": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爹",
+        "妈",
+        "伯",
+        "爷",
+        "弟"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　周家客厅　日",
+          "audible_counts": {
+            "刘翠兰": 7,
+            "陈建国": 8,
+            "周浩": 8,
+            "陈晚晴": 3
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "摘围裙强住客卧立通牒",
+      "audible_counts": {
+        "周莉": 5,
+        "刘翠兰": 4,
+        "陈晚晴": 3,
+        "周浩": 4,
+        "陈建国": 8
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爹",
+        "妈",
+        "伯",
+        "爷",
+        "哥",
+        "弟",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　周家客厅/客卧门口　日",
+          "audible_counts": {
+            "周莉": 5,
+            "刘翠兰": 4,
+            "陈晚晴": 3,
+            "周浩": 4,
+            "陈建国": 8
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

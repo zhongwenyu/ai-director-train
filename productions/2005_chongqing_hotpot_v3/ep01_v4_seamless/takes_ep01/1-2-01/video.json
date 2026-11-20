@@ -1,0 +1,70 @@
+{
+  "headers": {
+    "X-Task-Id": "937494d05a6149f9bdc418e486819d6b",
+    "X-Task-Type": "ref2va",
+    "X-Model": "Pika-H3-Flex",
+    "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "X-Precision": "int8",
+    "X-Pruned": "true",
+    "X-Duration": "13.667",
+    "X-Resolution": "480x832",
+    "X-Steps": "6",
+    "X-Audio-Generated": "true",
+    "X-Queue-Wait-S": "0.0",
+    "X-E2E-S": "114.363",
+    "X-Turbo": "false",
+    "X-Frames": "328",
+    "X-Requested-Duration": "13.0",
+    "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
+    "X-SOL": "false",
+    "X-SOL-Tau": "none",
+    "X-Sampler": "lcm"
+  },
+  "elapsed_s": 114.37,
+  "seed": 41201,
+  "requested_duration": 13,
+  "actual_duration": 13.667,
+  "width": 480,
+  "height": 832,
+  "has_audio": true,
+  "ref_images_1k": [
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_v4_seamless/keyframes_1k/1-2-01_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/yexun_charcoal_no_apron_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+  ],
+  "ref_audios": [
+    "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+  ],
+  "vo_custom_applied": {
+    "src": [
+      0.05,
+      6.534
+    ],
+    "eff_dur": 5.187,
+    "dst_start": 0.25,
+    "vo_headers": {
+      "X-Audio-Generated": "true",
+      "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+      "X-Duration": "6.583333",
+      "X-E2e-S": "125.46",
+      "X-Frames": "158",
+      "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
+      "X-Model": "Pika-H3-Flex",
+      "X-Precision": "int8",
+      "X-Pruned": "true",
+      "X-Queue-Wait-S": "0.0",
+      "X-Requested-Duration": "6.0",
+      "X-Resolution": "368x656",
+      "X-Sampler": "lcm",
+      "X-Sol": "false",
+      "X-Sol-Tau": "none",
+      "X-Steps": "6",
+      "X-Task-Id": "f64efd1f93be4148a09d25facccfa540",
+      "X-Task-Type": "ref2va",
+      "X-Turbo": "false",
+      "seed": 41278,
+      "elapsed": 126,
+      "resolution": "368p"
+    }
+  }
+}

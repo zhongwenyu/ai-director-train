@@ -1,0 +1,227 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“两百块旧红包”的兄妹深情与千亿董事长隐富护短构成强反差引擎，借婆家从鄙夷穷亲戚到脑补软饭男的认知错位层层兑现打脸爽感。前3集裸看人物关系锚定清晰，名流敬酒、拆穿假表与婆家强行圆场环环相扣，情绪张力饱满抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.6,
+    "seed_fidelity_and_hook": 9.8,
+    "serial_pacing_and_clarity": 9.6
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 96.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "两百块礼金的温情与冷眼",
+      "audible_counts": {
+        "韩经理": 1,
+        "沈砚舟": 6,
+        "温舒窈": 3,
+        "沈知夏": 3,
+        "周叙白": 6,
+        "林耀": 2,
+        "林倩": 3,
+        "赵桂芳": 5,
+        "周国栋": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "哥",
+        "姐",
+        "弟",
+        "嫂",
+        "经理",
+        "小姐",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　云顶洲际酒店门廊　日",
+          "audible_counts": {
+            "韩经理": 1,
+            "沈砚舟": 2,
+            "温舒窈": 1
+          },
+          "vo_counts": {
+            "沈砚舟": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　酒店新娘化妆间　日",
+          "audible_counts": {
+            "沈知夏": 2,
+            "沈砚舟": 3,
+            "温舒窈": 1,
+            "周叙白": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-3",
+          "location": "内　酒店宴会厅签到台及末席　日",
+          "audible_counts": {
+            "林耀": 2,
+            "林倩": 3,
+            "赵桂芳": 5,
+            "周国栋": 2,
+            "温舒窈": 1,
+            "沈知夏": 1,
+            "周叙白": 4,
+            "沈砚舟": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "名流敬酒引哗然与婆家强行圆场",
+      "audible_counts": {
+        "周国栋": 3,
+        "周叙鹏": 1,
+        "赵桂芳": 5,
+        "陈泰和": 3,
+        "周叙白": 2,
+        "沈砚舟": 5,
+        "温舒窈": 2,
+        "林耀": 6,
+        "沈知夏": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "伯",
+        "姨",
+        "公",
+        "哥",
+        "姐",
+        "弟",
+        "妹",
+        "嫂",
+        "总",
+        "经理",
+        "夫人",
+        "小姐",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　酒店宴会厅主过道至末席　日",
+          "audible_counts": {
+            "周国栋": 1,
+            "周叙鹏": 1,
+            "赵桂芳": 1,
+            "陈泰和": 3,
+            "周叙白": 1,
+            "沈砚舟": 1,
+            "温舒窈": 1
+          },
+          "vo_counts": {
+            "沈砚舟": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　酒店宴会厅角落末席　日",
+          "audible_counts": {
+            "林耀": 6,
+            "赵桂芳": 4,
+            "周国栋": 2,
+            "沈知夏": 3,
+            "周叙白": 1,
+            "沈砚舟": 4,
+            "温舒窈": 1
+          },
+          "vo_counts": {
+            "温舒窈": 1
+          },
+          "mute_present_characters": [
+            "陈泰和"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "嫂子拆穿假表与婆家固执定性",
+      "audible_counts": {
+        "林耀": 6,
+        "林倩": 3,
+        "温舒窈": 5,
+        "沈知夏": 2,
+        "沈砚舟": 2,
+        "赵桂芳": 6,
+        "周叙白": 4,
+        "周国栋": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "伯",
+        "姨",
+        "公",
+        "哥",
+        "姐",
+        "弟",
+        "妹",
+        "嫂",
+        "总",
+        "经理",
+        "夫人",
+        "小姐",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　酒店宴会厅角落末席　日",
+          "audible_counts": {
+            "林耀": 5,
+            "林倩": 2,
+            "温舒窈": 4,
+            "沈知夏": 1,
+            "沈砚舟": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　酒店宴会厅末席与主桌　日",
+          "audible_counts": {
+            "林倩": 1,
+            "赵桂芳": 6,
+            "周叙白": 4,
+            "周国栋": 2,
+            "温舒窈": 1,
+            "沈知夏": 1,
+            "沈砚舟": 1,
+            "林耀": 1
+          },
+          "vo_counts": {
+            "沈砚舟": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

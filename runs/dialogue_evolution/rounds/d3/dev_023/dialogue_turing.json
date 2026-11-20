@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听烟火气扑面而来，完全是年代农村活人急眼的真实语感。长短句咬合极紧，“五块？”“救她？”“别说了，看路”等短反应干脆利落；全员围绕五块押金、偷铁锅、半块热砖、二两粮票等具体小事交锋，各角色声纹鲜明且自带动作潜台词，零AI总结腔。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.6
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 95.0,
+  "rhythm_metrics": {
+    "total_lines": 91,
+    "mean_char_len": 13.0,
+    "char_len_stdev": 5.7,
+    "short_reaction_ratio_le7": 0.231,
+    "twin_clause_symmetry_ratio": 0.066
+  }
+}

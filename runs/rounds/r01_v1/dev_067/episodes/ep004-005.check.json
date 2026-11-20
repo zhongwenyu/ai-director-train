@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 175.2,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "县衙摆官威？尚方剑下皆蝼蚁",
+      "scenes": 1,
+      "actions": 28,
+      "dialogue_lines": 19,
+      "vo_lines": 1,
+      "spoken_chars": 521,
+      "avg_line_chars": 26.1,
+      "est_duration_sec": 160.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "掌心春风救暗卫，极品亲戚的终极恶果",
+      "scenes": 2,
+      "actions": 21,
+      "dialogue_lines": 19,
+      "vo_lines": 0,
+      "spoken_chars": 703,
+      "avg_line_chars": 37.0,
+      "est_duration_sec": 190.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

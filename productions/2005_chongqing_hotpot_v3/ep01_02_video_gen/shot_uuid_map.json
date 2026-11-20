@@ -1,0 +1,92 @@
+{
+  "1-1-01": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "9a531ce1-be8d-4496-b820-810e8aa3104c",
+    "imageId": "b79f4931-57e9-49d9-ad41-83a2c6f47f0d"
+  },
+  "1-1-02": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "58d609a8-70b0-4a75-b577-a6280f5cc730",
+    "imageId": "8ea9426b-9c50-49d4-b750-b2155483d883"
+  },
+  "1-1-03": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "0c6895eb-227a-4a29-856c-2e0645833c92",
+    "imageId": "42d5d7d6-50de-492a-b5a5-662de6a0b938"
+  },
+  "1-1-04": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "b4944e0f-b187-4056-8892-e2cdc886a41a",
+    "imageId": "b8fe90a3-9080-430c-8dc2-5de302cbf148"
+  },
+  "1-1-05": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "f6e83caf-df03-4254-ac5f-8d51137bc2f8",
+    "imageId": "f9328e5b-a553-419c-8e30-e229ffd1c8a1"
+  },
+  "1-2-01": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "bcb2a151-88a2-45f6-a27d-1be2660a1e9d",
+    "imageId": "30a9de5c-6c60-4554-ada8-b8aa417737d2"
+  },
+  "1-2-02": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "11744166-abaa-4cb1-a375-514553383ca3",
+    "imageId": "4e9da472-92ce-4e2c-902a-fdc0b2e6b6a1"
+  },
+  "1-2-03": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "cdffc296-4ff5-4533-b7cf-333b319f4be1",
+    "imageId": "2bb58204-d38e-4788-b73a-996ca935228b"
+  },
+  "1-2-04": {
+    "episodeId": "ecec609a-31c3-407e-b368-1b598543bca8",
+    "shotId": "e83f3bf0-78a5-4671-a398-ea4bf4fe230d",
+    "imageId": "dfc9b26a-c6a6-43ad-914b-541369c9de2d"
+  },
+  "2-1-01": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "b6ac28ae-dbf4-45dc-89a5-e5db5cd18e9d",
+    "imageId": "0ba6e051-68db-49ef-9906-70680b5cb6b9"
+  },
+  "2-1-02": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "87af4cf2-0ba0-46c5-8600-c8fe57370c95",
+    "imageId": "fbded18e-6370-4633-8af7-ca356fd6cf4c"
+  },
+  "2-1-03": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "86838b6e-a952-4823-b20f-cb8819c3c515",
+    "imageId": "a713cedf-0df0-4dd3-924e-a0cca78edf2b"
+  },
+  "2-2-01": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "65944bf3-ca0c-41f3-9c61-241fa0e8f7d0",
+    "imageId": "10002e05-cff9-417c-a731-db9fadae0c12"
+  },
+  "2-2-02": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "4e4f2e49-34e2-4f44-a4d5-4d19b881dba6",
+    "imageId": "deb0d475-c986-4d92-aae5-c24404055d48"
+  },
+  "2-2-03": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "8aaa2cf6-dd36-4b89-b4ca-5a06e44490bb",
+    "imageId": "035846b1-4641-4f12-8d3f-5607b9e28fd1"
+  },
+  "2-2-04": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "d152e3c3-21ac-4cf5-a70e-126df698609d",
+    "imageId": "3a1d0b43-9aa0-4427-9405-418ed65c0f81"
+  },
+  "2-2-05": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "4100236f-fc2f-4640-81ad-93ac8372a3c4",
+    "imageId": "823f6e97-0245-48ec-8139-2111a7b95bfc"
+  },
+  "2-2-06": {
+    "episodeId": "41d1dd8c-4172-4a26-b985-63fe17e96dce",
+    "shotId": "83b3dcdf-1b94-40dc-887d-eb47cf2ec5e8",
+    "imageId": "43e7f02f-071f-4d3a-b189-5509de65a4ea"
+  }
+}

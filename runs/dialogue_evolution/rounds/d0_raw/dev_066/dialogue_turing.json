@@ -1,0 +1,60 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "（真实短剧无需端着念四字成语OS，或在电话末低声嘱咐）别漏了风声就行。她那人死要面子，知道了心里头别扭。",
+      "quote": "隐去身份护她自尊五年，我只图她们母女平安顺遂。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "（蹲下捡断笔，嗓音发哑对苏晚晴说）五年了，我让着你，连闺女根画笔都留不住是吧？行。",
+      "quote": "隐忍五年护她体面，竟连女儿一支画笔都护不住。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "（冷哼一声跟妈念叨）还想等我低头哄他？做梦去吧，没他我还清静呢。",
+      "quote": "沈砚舟定在等我服软，可惜离了他我只会站得更高。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "好。对了沈总，半山那栋房子下礼拜到期，苏氏那笔账也就剩十天了，您看……",
+      "quote": "是。半山别墅剩七天到期，苏氏免息账期还剩十天。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "哎哟苏总！听说这地方平时有钱都进不来，今儿我可算跟着您开眼了！",
+      "quote": "苏总，刘姨，这庄园非百亿豪门不接，今儿沾你们光了！"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "阿姨阿姨！这间大屋子以后真是我的啦？好亮堂呀！",
+      "quote": "晚晴阿姨，二楼这间向阳大房真归我住啦？"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "爸爸……我不看海豚了，咱们走吧，不住这儿了好不好？",
+      "quote": "爸爸，我不看海豚了，我们捡起画笔去别处住好不好？"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "不就擦破点皮吗？贴个创可贴的事儿，你冲我嚷嚷什么？",
+      "quote": "破点皮贴个创可贴就行，至于小题大做吗？"
+    }
+  ],
+  "ear_test_impression": "典型AI按字数切出来的工整电报腔！全篇75句台词清一色15至24字匀称双分句，零短促本能反应。吵架不咬话茬，全员轮流播报设定补丁与网文宣言OS，连六岁小孩都张嘴“向阳大房”，像机器人排着队念提词器，毫无活人呼吸感。",
+  "scores": {
+    "character_voice_distinction": 3,
+    "conversational_bite_and_rhythm": 2,
+    "spoken_naturalness": 3,
+    "subtext_and_micro_specificity": 3.5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 28.75,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 17.8,
+    "char_len_stdev": 3.1,
+    "short_reaction_ratio_le7": 0.0,
+    "twin_clause_symmetry_ratio": 0.12
+  }
+}

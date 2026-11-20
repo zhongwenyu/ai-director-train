@@ -1,0 +1,24 @@
+# Heavy binary media & video datasets (exceed GitHub 100MB limit)
+videos/
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.mp3
+*.flac
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.tar
+*.gz
+*.zip
+
+# Runtime & Python caches
+__pycache__/
+*.py[cod]
+*.pid
+*.tmp
+.env
+.env.*
+.DS_Store

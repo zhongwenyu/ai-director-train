@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈岚",
+  "episode_count": 3,
+  "mean_est_duration_sec": 124.2,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "婚宴敬茶亮出结扎单",
+      "scenes": 1,
+      "actions": 11,
+      "dialogue_lines": 22,
+      "vo_lines": 2,
+      "spoken_chars": 464,
+      "avg_line_chars": 19.3,
+      "est_duration_sec": 122.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "收回一亿撤掉挂账",
+      "scenes": 3,
+      "actions": 9,
+      "dialogue_lines": 24,
+      "vo_lines": 2,
+      "spoken_chars": 474,
+      "avg_line_chars": 18.2,
+      "est_duration_sec": 125.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "撕碎协议召回八子",
+      "scenes": 1,
+      "actions": 12,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 463,
+      "avg_line_chars": 19.3,
+      "est_duration_sec": 124.1,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

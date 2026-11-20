@@ -1,0 +1,174 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎为“航司超售欺软怕硬、强抱幼女逼下机致伤并买水军甩锅”的切肤痛感，碰撞“航空侵权女合伙人护女固证、借反派发布会锁死伪证硬核反杀”的专业爽点。裸看前3集人物称谓与立场清晰，护女投鼠忌器与大律亮底动机自洽、情绪抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.2,
+    "motivation_and_logic": 9.3,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.3
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "双票抢座，强夺女婴",
+      "audible_counts": {
+        "周耀宗": 5,
+        "沈知意": 8,
+        "赵曼": 8,
+        "男乘客": 1,
+        "陈默": 1,
+        "林珊": 1
+      },
+      "unintroduced_speakers": [
+        "沈知意",
+        "赵曼",
+        "陈默"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "奶",
+        "公",
+        "姐",
+        "总",
+        "经理"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　寰宇航空航班商务舱　日",
+          "audible_counts": {
+            "周耀宗": 5,
+            "沈知意": 8,
+            "赵曼": 8,
+            "男乘客": 1,
+            "陈默": 1,
+            "林珊": 1
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": [
+            "安安"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "弃留致伤，剪辑反咬",
+      "audible_counts": {
+        "沈知意": 13,
+        "林珊": 1,
+        "赵曼": 1,
+        "急诊医生": 2,
+        "女路人": 2,
+        "男路人": 2,
+        "陈默": 2
+      },
+      "unintroduced_speakers": [
+        "沈知意",
+        "赵曼",
+        "陈默"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "奶",
+        "公",
+        "姐",
+        "总",
+        "医生",
+        "经理"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　机场登机廊桥口　日",
+          "audible_counts": {
+            "沈知意": 4,
+            "林珊": 1,
+            "赵曼": 1
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": [
+            "安安"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　三甲医院儿科急诊室　日",
+          "audible_counts": {
+            "急诊医生": 2,
+            "沈知意": 9,
+            "女路人": 2,
+            "男路人": 2,
+            "陈默": 2
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": [
+            "安安",
+            "林珊"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "原片到手，固证设伏",
+      "audible_counts": {
+        "周耀宗": 4,
+        "刘振海": 4,
+        "陈默": 5,
+        "沈知意": 7,
+        "陆川": 4
+      },
+      "unintroduced_speakers": [
+        "刘振海",
+        "沈知意"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "奶",
+        "公",
+        "姐",
+        "总",
+        "医生",
+        "律师",
+        "经理"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　寰宇航空副总办公室　夜",
+          "audible_counts": {
+            "周耀宗": 4,
+            "刘振海": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　医院单人留观病房　夜",
+          "audible_counts": {
+            "陈默": 5,
+            "沈知意": 7,
+            "陆川": 4
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": [
+            "安安"
+          ]
+        }
+      ]
+    }
+  ]
+}

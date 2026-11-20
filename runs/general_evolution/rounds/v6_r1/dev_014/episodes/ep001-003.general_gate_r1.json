@@ -1,0 +1,182 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以厚道老农撤回十年无偿帮衬的清醒止损，对照双标邻家被自身“规矩”反噬破财。裸看前3集人物称谓与恩怨前史交代自然清晰，艾绒护膝、买煤钱扫码认罚、当众卸菜筐断交等细节将情绪张力拉满，连载节奏扎实抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "田间帮衬遭背刺",
+      "audible_counts": {
+        "赵富贵": 4,
+        "周建国": 6,
+        "周磊": 5,
+        "赵倩": 6,
+        "王队长": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "叔",
+        "哥",
+        "姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　两家交界白菜地头　日",
+          "audible_counts": {
+            "赵富贵": 3,
+            "周建国": 3,
+            "周磊": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　周家玉米地角　日",
+          "audible_counts": {
+            "赵倩": 6,
+            "周建国": 3,
+            "王队长": 3,
+            "周磊": 3,
+            "赵富贵": 1
+          },
+          "vo_counts": {
+            "周建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "顶格罚单寒透心",
+      "audible_counts": {
+        "王队长": 2,
+        "刘翠芳": 6,
+        "周磊": 4,
+        "周建国": 2,
+        "赵倩": 4,
+        "赵富贵": 3,
+        "赵老太": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "爷",
+        "奶",
+        "哥",
+        "姐",
+        "弟",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　周家玉米地角　日",
+          "audible_counts": {
+            "王队长": 2,
+            "刘翠芳": 4,
+            "周磊": 2,
+            "周建国": 1,
+            "赵倩": 2,
+            "赵富贵": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　两家交界田埂道口　日",
+          "audible_counts": {
+            "赵老太": 3,
+            "赵倩": 2,
+            "刘翠芳": 2,
+            "周磊": 2,
+            "周建国": 1,
+            "赵富贵": 2
+          },
+          "vo_counts": {
+            "周建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "认罚整改当众断交",
+      "audible_counts": {
+        "周磊": 3,
+        "周建国": 7,
+        "大柱叔": 3,
+        "赵富贵": 6,
+        "赵倩": 3,
+        "刘翠芳": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "爷",
+        "奶",
+        "哥",
+        "姐",
+        "弟",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　周家玉米地角　日",
+          "audible_counts": {
+            "周磊": 3,
+            "周建国": 4,
+            "大柱叔": 1,
+            "赵富贵": 1,
+            "赵倩": 1,
+            "刘翠芳": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "围观村民"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　田间机耕道周家农货车旁　日",
+          "audible_counts": {
+            "赵倩": 2,
+            "赵富贵": 5,
+            "大柱叔": 2,
+            "周建国": 3,
+            "刘翠芳": 1
+          },
+          "vo_counts": {
+            "周建国": 1
+          },
+          "mute_present_characters": [
+            "周磊",
+            "围观村民"
+          ]
+        }
+      ]
+    }
+  ]
+}

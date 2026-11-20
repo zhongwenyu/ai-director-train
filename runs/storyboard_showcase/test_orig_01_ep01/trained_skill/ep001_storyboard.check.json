@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "八桌团圆宴，撤掉的归人座",
+      "scenes": 2,
+      "axis_headers": 3,
+      "shots": 38,
+      "groups": 12,
+      "seam_anchors": 12,
+      "total_sec": 140.0,
+      "asl_sec": 3.68,
+      "active_cam_shots": 6,
+      "active_cam_pct": 15.8,
+      "wide_pct": 13.2,
+      "talk_shots": 10,
+      "vo_shots": 1,
+      "crammed_speech_count": 2,
+      "compound_cam_count": 0
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第1集台词超载塞不进镜长：['1-1-03(45字/6.0s)', '1-2-12(51字/6.0s)']"
+  ]
+}

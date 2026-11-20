@@ -1,0 +1,252 @@
+{
+  "prefix": "ep02",
+  "shots": [
+    {
+      "id": "2-1-01",
+      "studioShotId": "9411819e-618c-4014-9597-9e5beacd4b06",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-1-01/video.mp4",
+      "cues": [
+        {
+          "start": 3.3,
+          "end": 6.5,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "前晚熬的川贝梨膏，别磕碎了。"
+        },
+        {
+          "start": 6.8,
+          "end": 8.9,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "先顾你自家灶台吧。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-04",
+      "studioShotId": "610eac55-7598-4e84-8206-57485e22c74b",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-1-04/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.3,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "刘师傅，外头三桌学生等半钟头了，好歹炒完这三桌再走啊！"
+        },
+        {
+          "start": 4.5,
+          "end": 10.3,
+          "kind": "dialogue",
+          "speaker": "刘大厨",
+          "text": "正街新盘店的大老板开两千二管员工餐，今晚点名到岗。半个月九百块工钱，现结！"
+        },
+        {
+          "start": 10.5,
+          "end": 13.4,
+          "kind": "dialogue",
+          "speaker": "苏晴",
+          "text": "七点半礼堂试麦，连碗面都没下锅，退单吧。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-07",
+      "studioShotId": "1a4ab769-4ccc-40ac-8fb9-be9c3d041be8",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-1-07/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 3.8,
+          "kind": "caption",
+          "text": "夏家小馆存折余额：6,200元"
+        },
+        {
+          "start": 4.1,
+          "end": 6.6,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "九百块点清，不送。"
+        },
+        {
+          "start": 6.9,
+          "end": 10.9,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "账上只剩六千二，楚南挖走厨子就是想逼死夏家。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-10",
+      "studioShotId": "361ae51a-0bef-4426-b99e-9debbf577835",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-1-10/video.mp4",
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 3.3,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "夏叔，早上吊的那锅猪骨老母鸡汤还在火上吧？"
+        },
+        {
+          "start": 3.6,
+          "end": 6.8,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "在火上，可她们赶着试音忌辣……"
+        },
+        {
+          "start": 7.1,
+          "end": 11.2,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "给我十分钟，骨汤微辣烫鲜毛肚——呛一下嗓子，这桌免单。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-13",
+      "studioShotId": "127e2573-701b-4b19-ae4e-08f0f32db4c9",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-1-13/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 3.8,
+          "kind": "dialogue",
+          "speaker": "苏晴",
+          "text": "十分钟？行，耽误试麦我真走人。"
+        }
+      ]
+    },
+    {
+      "id": "2-2-01",
+      "studioShotId": "852f9c7a-166a-41ba-b9cc-39ff0d00cb76",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-2-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.5,
+          "end": 5.6,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "鲜梨汁化牛油，温醪糟退椒燥，辣香入魂却半点不呛嗓。"
+        },
+        {
+          "start": 8.0,
+          "end": 11.8,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "温醪糟退椒燥……这是叶老爷子的绝活！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-04",
+      "studioShotId": "5480604d-aef6-47c1-b843-81ea62a54986",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-2-04/video.mp4",
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 2.6,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "只是骨汤借味救急。芊芊姐，上菜。"
+        },
+        {
+          "start": 5.3,
+          "end": 7.6,
+          "kind": "dialogue",
+          "speaker": "苏晴",
+          "text": "咪——嘛——咪……"
+        },
+        {
+          "start": 7.9,
+          "end": 12.1,
+          "kind": "dialogue",
+          "speaker": "苏晴",
+          "text": "真神了，嗓子清清亮亮的！快动筷，吃完赶得上排练！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-07",
+      "studioShotId": "8a374d17-2b54-405f-aae2-bcb1ec585aab",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-2-07/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 2.8,
+          "kind": "dialogue",
+          "speaker": "苏晴",
+          "text": "老板，明晚还能订这锅吗？"
+        },
+        {
+          "start": 3.1,
+          "end": 8.4,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "今晚只是借味救急。等正经底料焖透退火，后天傍晚开张，给你们留桌。"
+        },
+        {
+          "start": 8.7,
+          "end": 11.3,
+          "kind": "dialogue",
+          "speaker": "苏晴",
+          "text": "一言为定，后天播音社来两桌！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-10",
+      "studioShotId": "9e4d4cb9-c025-4543-9c74-0cdc35d6ad80",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-2-10/video.mp4",
+      "cues": []
+    },
+    {
+      "id": "2-2-13",
+      "studioShotId": "fb88f4fb-7339-48d0-b6ec-4c61fdac4625",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/takes_ep02/2-2-13/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 5.8,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "叶寻，赵主厨明早到店，出来把林家肉菜账交接清楚——我只等你五分钟。"
+        }
+      ]
+    }
+  ],
+  "bgm_segments": [
+    {
+      "label": "罢厨退单困局与接管灶台（沉静复盘 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "2-1-01",
+      "end_shot": "2-1-13",
+      "gain": 0.42,
+      "fade_in": 0.8,
+      "fade_out": 1.0
+    },
+    {
+      "label": "本草退燥绝活与播音生亮嗓爽点（伴你归家 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-350.mp3",
+      "start_shot": "2-2-01",
+      "end_shot": "2-2-07",
+      "src_offset": 14.0,
+      "gain": 0.45,
+      "fade_in": 1.0,
+      "fade_out": 0.6
+    },
+    {
+      "label": "林双双闯门拍钥匙五分钟通牒悬念（深鼓悬疑渐强 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-sfx-682.wav",
+      "start_shot": "2-2-10",
+      "start_delta": 1.5,
+      "end_shot": "2-2-13",
+      "align_end": true,
+      "gain": 0.5,
+      "fade_in": 0.7,
+      "fade_out": 0.25
+    }
+  ]
+}

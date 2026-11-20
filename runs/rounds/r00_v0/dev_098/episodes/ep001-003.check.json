@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 157.6,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "所有律师都劝我认栽",
+      "scenes": 3,
+      "actions": 14,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 477,
+      "avg_line_chars": 34.1,
+      "est_duration_sec": 132.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "深情老公在线发疯",
+      "scenes": 2,
+      "actions": 18,
+      "dialogue_lines": 14,
+      "vo_lines": 2,
+      "spoken_chars": 560,
+      "avg_line_chars": 35.0,
+      "est_duration_sec": 154.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "分家产还是分千万债",
+      "scenes": 1,
+      "actions": 14,
+      "dialogue_lines": 15,
+      "vo_lines": 2,
+      "spoken_chars": 744,
+      "avg_line_chars": 43.8,
+      "est_duration_sec": 186.1,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集在【本集完】之后仍有残留文本（3字）",
+    "第 2 集在【本集完】之后仍有残留文本（3字）"
+  ]
+}

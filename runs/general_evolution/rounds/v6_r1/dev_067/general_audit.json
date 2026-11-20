@@ -1,0 +1,210 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎为“柴房虐娃刺痛对比+皇兄狐裘温粥雷霆护短+萌娃吃饱回春化废为宝”。裸看实况人物关系、异能温饱规则与三里调兵时间差均清晰自洽，恶亲从夺玉冒认到聚众讹诈、抢参撞上铁骑，情绪拉扯饱满，悬念钩子精准抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "柴房草芽与冒名暖玉",
+      "audible_counts": {
+        "赵招娣": 3,
+        "孙氏": 8,
+        "萧穗穗": 4,
+        "秦风": 4,
+        "陆青": 2,
+        "萧景珩": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "婶",
+        "姐",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　赵家灶房至柴房门口　日",
+          "audible_counts": {
+            "赵招娣": 1,
+            "孙氏": 3,
+            "萧穗穗": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　赵家柴房　日",
+          "audible_counts": {
+            "萧穗穗": 1
+          },
+          "vo_counts": {
+            "萧穗穗": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-3",
+          "location": "外/内　赵家院门至院中　日",
+          "audible_counts": {
+            "秦风": 4,
+            "陆青": 2,
+            "萧景珩": 3,
+            "孙氏": 5,
+            "萧穗穗": 1,
+            "赵招娣": 2
+          },
+          "vo_counts": {
+            "孙氏": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "狐裘温粥与五百两养恩",
+      "audible_counts": {
+        "孙氏": 4,
+        "萧景珩": 6,
+        "陆青": 2,
+        "萧穗穗": 3,
+        "赵招娣": 1,
+        "秦风": 1,
+        "赵大柱": 4,
+        "赵二叔": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "爷",
+        "哥",
+        "姐",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　赵家院落与柴房　日",
+          "audible_counts": {
+            "孙氏": 1,
+            "萧景珩": 4,
+            "陆青": 1,
+            "萧穗穗": 2,
+            "赵招娣": 1,
+            "秦风": 1
+          },
+          "vo_counts": {
+            "萧景珩": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内/外　赵家院门处　日",
+          "audible_counts": {
+            "孙氏": 3,
+            "赵大柱": 4,
+            "赵二叔": 3,
+            "陆青": 1,
+            "萧穗穗": 1,
+            "萧景珩": 2
+          },
+          "vo_counts": {
+            "萧景珩": 1
+          },
+          "mute_present_characters": [
+            "众村邻",
+            "秦风",
+            "赵招娣"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "雪泥枯参与铁骑围门",
+      "audible_counts": {
+        "赵大柱": 3,
+        "赵二叔": 4,
+        "萧景珩": 5,
+        "陆青": 3,
+        "孙氏": 4,
+        "萧穗穗": 2,
+        "赵招娣": 1,
+        "秦风": 1,
+        "众玄甲亲卫": 1
+      },
+      "unintroduced_speakers": [
+        "众玄甲亲卫"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "爷",
+        "哥",
+        "姐",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　赵家院内　日",
+          "audible_counts": {
+            "赵大柱": 2,
+            "赵二叔": 2,
+            "萧景珩": 2,
+            "陆青": 2,
+            "孙氏": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "众村邻",
+            "秦风",
+            "萧穗穗",
+            "赵招娣"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内/外　赵家院内至院门雪道　日",
+          "audible_counts": {
+            "萧景珩": 3,
+            "萧穗穗": 2,
+            "赵招娣": 1,
+            "陆青": 1,
+            "赵二叔": 2,
+            "孙氏": 1,
+            "赵大柱": 1,
+            "秦风": 1,
+            "众玄甲亲卫": 1
+          },
+          "vo_counts": {
+            "萧穗穗": 1,
+            "孙氏": 1
+          },
+          "mute_present_characters": [
+            "众村邻"
+          ]
+        }
+      ]
+    }
+  ]
+}

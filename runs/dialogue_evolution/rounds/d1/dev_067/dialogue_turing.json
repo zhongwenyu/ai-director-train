@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听极具红果爆款活人感！泼妇变脸、村汉讹钱、四岁萌宝怯懦讨食与太子沉稳威严声纹极度分明。“想得美”“啥玩意儿”“野猫喘气还带哭腔？”等短促反应和话咬话顶针呼吸错落，句句算计发霉窝头、银两与烂树根等眼前实账，零AI端腔。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.3
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.25,
+  "rhythm_metrics": {
+    "total_lines": 91,
+    "mean_char_len": 14.4,
+    "char_len_stdev": 7.0,
+    "short_reaction_ratio_le7": 0.231,
+    "twin_clause_symmetry_ratio": 0.088
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是活人张嘴的烟火气！泼辣婶娘、横蛮叔父、势利堂弟与怕事伙计声纹极鲜明。吵架句句话咬话顶针，长短句错落有呼吸；撕扯全落在三百文押银、半袋粗粮的具体账上，连修仙金手指也全是农家口语，零金句零AI腔。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.6,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.6
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 95.5,
+  "rhythm_metrics": {
+    "total_lines": 76,
+    "mean_char_len": 20.8,
+    "char_len_stdev": 8.7,
+    "short_reaction_ratio_le7": 0.026,
+    "twin_clause_symmetry_ratio": 0.013
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "left": "TRAINED_SKILL",
+  "right": "NAIVE_ZEROSHOT",
+  "slot_A": "TRAINED_SKILL",
+  "slot_B": "NAIVE_ZEROSHOT",
+  "winner_label": "TRAINED_SKILL",
+  "margin": "decisive",
+  "dimension_winners": {
+    "opening_attraction": "TRAINED_SKILL",
+    "dialogue_humanity": "TRAINED_SKILL",
+    "tension_and_payoff": "TRAINED_SKILL",
+    "ending_cliffhanger": "TRAINED_SKILL"
+  },
+  "why_winner_wins": "A胜在把家庭伤害写成了具体动作：母亲亲手撤椅子，父亲不抬眼，林默把礼物袋重新拉死，比轮番骂穷更扎心。“第一滚捞出来的，没沾他们的剩菜水”让苏晴的关心有生活质感。剧情也有持续变动的筹码：放弃补贴、锁住预付款、取回协议、追查旧章，反派尚有供应链与赠与字据可以反制，适合继续连载。尤其第三集旧章失踪，到第五集出现盖章赠与书，观众会追问：谁偷盖的，林默发现了什么破绽？不过A仍需修订：第二集直报3758万元削弱留白，第三、四集业务解释过密，第五集“停代扣即停电”的因果缺环，末尾勾嘴角也有模板味。它是明显更值得开发的版本，还不是成熟定稿。",
+  "why_loser_loses": "B按题定标准应重判负：撒泡尿照照、全员排队羞辱、全球仅三件工装、跪碎瓷磕头、免提广播董事长、三辆劳斯莱斯与保镖齐喊，廉价套路密集叠加。人物主要负责替观众讲设定：林默独处报十亿，副总跪着复述身份履历，家人集体从辱骂切换求饶。金额又在百亿、十亿间漂移，八年坐牢谣言与持续汇款的矛盾被直接跳过。B第四集认脸摔杯有即时吸引力，但闪回已经解释身份，悬念只剩众人何时下跪；第五集随即清算、断亲、收房、豪车离场，把核心期待近乎结清。作为40—120集开篇，它更像一次性打脸合集，缺少下一轮可信阻力。",
+  "swap_check": {
+    "pass1_winner": "TRAINED_SKILL",
+    "pass2_winner": "TRAINED_SKILL",
+    "consistent": true
+  }
+}

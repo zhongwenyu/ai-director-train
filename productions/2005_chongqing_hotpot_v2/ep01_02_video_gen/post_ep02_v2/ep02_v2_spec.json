@@ -1,0 +1,241 @@
+{
+  "prefix": "ep02_v2",
+  "bgm_segments": [
+    {
+      "label": "恶厨老王趁伤勒索与叶寻跨门立军令状（沉静紧迫博弈 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "2-1-01",
+      "end_shot": "2-1-07",
+      "gain": 0.42,
+      "fade_in": 0.8,
+      "fade_out": 0.8
+    },
+    {
+      "label": "爷爷旧刀猛火颠勺爆炒猪肝鸭杂满堂喝彩（温暖燃情爽点 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-350.mp3",
+      "start_shot": "2-2-01",
+      "end_shot": "2-2-10",
+      "src_offset": 14.0,
+      "gain": 0.45,
+      "fade_in": 0.9,
+      "fade_out": 0.8
+    },
+    {
+      "label": "深夜算账房租缺口与拍存折合伙（怀旧温情铺垫 CC0）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/freesound-845168.mp3",
+      "start_shot": "2-3-01",
+      "end_shot": "2-3-04",
+      "gain": 0.4,
+      "fade_in": 0.8,
+      "fade_out": 0.6
+    },
+    {
+      "label": "夏芊芊按住账本直击灵魂质问悬念卡点（深鼓悬疑渐强 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-sfx-682.wav",
+      "start_shot": "2-3-07",
+      "start_delta": 0.8,
+      "end_shot": "2-3-07",
+      "align_end": true,
+      "gain": 0.5,
+      "fade_in": 0.8,
+      "fade_out": 0.25
+    }
+  ],
+  "shots": [
+    {
+      "id": "2-1-01",
+      "studioShotId": "91128f18-1c8c-4b5a-b576-dafb5d6be89b",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-1-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.3,
+          "end": 7.6,
+          "kind": "dialogue",
+          "speaker": "老王",
+          "text": "老夏，少打感情牌！你五天前颠勺拉裂手腕筋，现在晚市三桌单子都下了，不签三千块长约、预支九千块，老子立马走人！"
+        },
+        {
+          "start": 7.9,
+          "end": 13.4,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "老王！上周说好六十块一天顶班，你趁上客坐地起价，让我上哪儿掏九千块？！"
+        }
+      ]
+    },
+    {
+      "id": "2-1-04",
+      "studioShotId": "b08b6e25-f969-4bf8-9d1b-0b8acbf3118c",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-1-04/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 2.9,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "王师傅，菜都点好了你趁火打劫——"
+        },
+        {
+          "start": 3.0,
+          "end": 7.3,
+          "kind": "dialogue",
+          "speaker": "老王",
+          "text": "没钱就贴红纸关门！各位街坊趁早换别家吃吧，老夏家今晚断灶了！"
+        },
+        {
+          "start": 7.5,
+          "end": 11.9,
+          "kind": "dialogue",
+          "speaker": "中年食客",
+          "text": "老夏，我们专门来捧场，没厨子你早说嘛，饿着肚子干等也不是事啊。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-07",
+      "studioShotId": "5d1de358-4c08-417d-9bb8-1ab866b2e9f0",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-1-07/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "叔，坐下喝口茶。十分钟热菜不上桌，今晚三桌全免单，算我的！"
+        },
+        {
+          "start": 4.8,
+          "end": 6.6,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "寻娃子？你怎么过来了！"
+        },
+        {
+          "start": 6.8,
+          "end": 10.4,
+          "kind": "dialogue",
+          "speaker": "老王",
+          "text": "案板上就剩副腥猪肝和鸭杂，你个穷学生拿嘴炒啊？"
+        },
+        {
+          "start": 10.6,
+          "end": 13.5,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "芊芊姐，结他六十块日工钱，请他腾地方。"
+        }
+      ]
+    },
+    {
+      "id": "2-2-01",
+      "studioShotId": "550a1322-33b3-4233-812b-bebf2fd27de8",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-2-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.7,
+          "end": 6.4,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "十年前你爷爷教我吊高汤留下的刀。叔这一伤老客跑了一半，撑不过这个月了……"
+        },
+        {
+          "start": 6.6,
+          "end": 9.3,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "夏叔，有我在，这口灶凉不了。"
+        }
+      ]
+    },
+    {
+      "id": "2-2-04",
+      "studioShotId": "1f991052-e7fe-4b61-908a-95850182061f",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-2-04/video.mp4",
+      "cues": []
+    },
+    {
+      "id": "2-2-07",
+      "studioShotId": "2e40a9e1-964e-4c53-a80c-492b6accc184",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-2-07/video.mp4",
+      "cues": [
+        {
+          "start": 5.8,
+          "end": 11.2,
+          "kind": "dialogue",
+          "speaker": "中年食客",
+          "text": "半点血腥气没有，又滑又脆！老夏，这小伙子手艺比姓王的强出两条街！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-10",
+      "studioShotId": "c6f5a3f5-a741-407c-ac8d-63d9724422a3",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-2-10/video.mp4",
+      "cues": [
+        {
+          "start": 0.3,
+          "end": 4.9,
+          "kind": "dialogue",
+          "speaker": "邻桌食客",
+          "text": "老夏，我们也加份泡椒猪肝和爆鸭杂，再拿四瓶啤酒！"
+        },
+        {
+          "start": 5.4,
+          "end": 8.3,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "王师傅，好走不送！"
+        }
+      ]
+    },
+    {
+      "id": "2-3-01",
+      "studioShotId": "292c2c36-58c7-4759-a4a6-d4e106bac3ff",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-3-01/video.mp4",
+      "cues": [
+        {
+          "start": 1.2,
+          "end": 11.9,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "今晚净落一百一十块，可账上总共只剩六千二。十月一号要交下季度房租一万八，还差一万一千八……剩二十天靠小炒怎么也填不上。"
+        }
+      ]
+    },
+    {
+      "id": "2-3-04",
+      "studioShotId": "e260c5b9-476a-4e0b-811f-d30622d0c9d9",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-3-04/video.mp4",
+      "cues": [
+        {
+          "start": 0.25,
+          "end": 4.2,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "百平临街熟铺证照齐全，缺的只是高毛利爆品！"
+        },
+        {
+          "start": 4.7,
+          "end": 12.3,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "夏叔，芊芊姐，小炒翻不了身。我拿全部存款和爷爷传下的清润火锅方子入伙，咱们改开老火锅，二十天挣出房租！"
+        }
+      ]
+    },
+    {
+      "id": "2-3-07",
+      "studioShotId": "71ce7222-75a5-40c9-a228-798163117130",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/takes_ep02/2-3-07/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 13.3,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "叶寻，林双双家馆子就在前头一百米，整条街谁不知道你对她百依百顺了两年？你今晚突然拿存折来我家开火锅，到底是真心合伙，还是跟她赌气、拿我爸最后的救命钱当筏子？"
+        }
+      ]
+    }
+  ]
+}

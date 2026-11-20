@@ -1,0 +1,155 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎为“意念藏宝反算计+寒冬灵液育粮奇观+恶亲吸血与兄妹互护”的种田逆袭爽感。裸看前三集人物称谓与善恶关系首场即立住，夺财毒打、滴血藏宝、雪夜赠种与寒窑催麦层层递进，情绪浓度饱满，集尾悬念紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.3,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "风雪行善获古葫，归家撞破夺财局",
+      "audible_counts": {
+        "老乞丐": 3,
+        "陆禾": 9,
+        "陆小满": 2,
+        "陆耀祖": 2,
+        "刘氏": 3,
+        "陆富贵": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "伯",
+        "哥",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　村口风雪山道　日",
+          "audible_counts": {
+            "老乞丐": 3,
+            "陆禾": 5,
+            "陆小满": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　陆家柴房　日",
+          "audible_counts": {
+            "陆耀祖": 2,
+            "刘氏": 3,
+            "陆禾": 4,
+            "陆富贵": 3
+          },
+          "vo_counts": {
+            "陆禾": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "毒打滴血开储物，暗藏家底净身出户",
+      "audible_counts": {
+        "陆富贵": 3,
+        "陆禾": 6,
+        "陆耀祖": 4,
+        "刘氏": 5,
+        "陆小满": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "伯",
+        "哥",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　陆家柴房　夜",
+          "audible_counts": {
+            "陆富贵": 1,
+            "陆禾": 3,
+            "陆耀祖": 1,
+            "刘氏": 2,
+            "陆小满": 2
+          },
+          "vo_counts": {
+            "陆禾": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内/外　陆家柴房至院门外　日",
+          "audible_counts": {
+            "刘氏": 3,
+            "陆耀祖": 3,
+            "陆富贵": 2,
+            "陆禾": 3
+          },
+          "vo_counts": {
+            "陆禾": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "堂妹雪夜赠麦种，寒窑滴液破冰生芽",
+      "audible_counts": {
+        "陆禾": 10,
+        "陆小满": 5,
+        "陆耀祖": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "伯",
+        "哥",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　村尾废弃寒窑　夜",
+          "audible_counts": {
+            "陆禾": 6,
+            "陆小满": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内/外　村尾废弃寒窑　夜",
+          "audible_counts": {
+            "陆禾": 4,
+            "陆耀祖": 4
+          },
+          "vo_counts": {
+            "陆禾": 2
+          },
+          "mute_present_characters": [
+            "陆小满"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "project": "重回2005：撤回秘方后我带青梅沸腾全国",
+  "final_verdict": "PASS",
+  "storyboard_deterministic_check": {
+    "ok": true,
+    "episode_count": 60,
+    "episodes_range": "ep001 - ep060 (100% complete)",
+    "total_shots": 1458,
+    "total_generation_groups": 518,
+    "total_duration_sec": 6006.0,
+    "total_duration_min": 100.1,
+    "overall_asl_sec": 4.12,
+    "active_camera_movement_shots": 315,
+    "active_camera_movement_pct": 21.6,
+    "hard_errors": 0,
+    "warnings": 0
+  },
+  "codex_storyboard_audit_progression": {
+    "ep001_opening": {
+      "round1": 64.0,
+      "round2_polished": 68.0,
+      "delta": "+4.0",
+      "dimensions_round2": {
+        "camera_movement_choreography": "18/25",
+        "narrative_hook_and_payoff_staging": "16/20 (+4)",
+        "shot_scale_axis_and_editing_rhythm": "14/20",
+        "ai_video_executability_and_seam_lock": "10/20",
+        "micro_acting_sound_and_fidelity": "10/15"
+      }
+    },
+    "ep012_paywall_cliffhanger": {
+      "round1": 65.0,
+      "round2_polished": 73.0,
+      "delta": "+8.0",
+      "dimensions_round2": {
+        "camera_movement_choreography": "21/25 (+2)",
+        "narrative_hook_and_payoff_staging": "14/20",
+        "shot_scale_axis_and_editing_rhythm": "15/20",
+        "ai_video_executability_and_seam_lock": "11/20 (+2)",
+        "micro_acting_sound_and_fidelity": "12/15 (+2)"
+      }
+    },
+    "ep060_grand_finale": {
+      "round1": 65.0,
+      "round2_polished": 72.0,
+      "delta": "+7.0",
+      "dimensions_round2": {
+        "camera_movement_choreography": "18/25",
+        "narrative_hook_and_payoff_staging": "15/20",
+        "shot_scale_axis_and_editing_rhythm": "15/20 (+2)",
+        "ai_video_executability_and_seam_lock": "12/20 (+2)",
+        "micro_acting_sound_and_fidelity": "12/15 (+2)"
+      }
+    }
+  }
+}

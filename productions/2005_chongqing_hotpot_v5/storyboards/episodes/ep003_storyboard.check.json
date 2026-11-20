@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 3,
+      "title": "三日军令状与当街炼油",
+      "scenes": 2,
+      "axis_headers": 5,
+      "shots": 36,
+      "groups": 11,
+      "seam_anchors": 11,
+      "total_sec": 144.0,
+      "asl_sec": 4.0,
+      "active_cam_shots": 6,
+      "active_cam_pct": 16.7,
+      "wide_pct": 13.9,
+      "talk_shots": 23,
+      "vo_shots": 3,
+      "crammed_speech_count": 1,
+      "compound_cam_count": 0
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第3集台词超载塞不进镜长：['3-2-07(22字/3.0s)']"
+  ]
+}

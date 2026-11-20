@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是成熟爆款短剧的活人吵架质感！长短句呼吸错落，“就事论事→论什么事”“上纲上线？”等话咬话顶针极脆生。泼辣丈母娘、茶言男配、傲慢妻子与六岁幼女声纹分明，冲突全落在闷黑杂物间、断水彩笔、副卡等具体小事上，零AI说教腔。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.6,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 95.0,
+  "rhythm_metrics": {
+    "total_lines": 97,
+    "mean_char_len": 15.1,
+    "char_len_stdev": 7.6,
+    "short_reaction_ratio_le7": 0.247,
+    "twin_clause_symmetry_ratio": 0.072
+  }
+}

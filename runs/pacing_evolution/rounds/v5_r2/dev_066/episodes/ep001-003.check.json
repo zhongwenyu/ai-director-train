@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈砚",
+  "episode_count": 3,
+  "mean_est_duration_sec": 127.7,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "向阳房被拆",
+      "scenes": 1,
+      "actions": 14,
+      "dialogue_lines": 25,
+      "vo_lines": 0,
+      "spoken_chars": 489,
+      "avg_line_chars": 19.6,
+      "est_duration_sec": 133.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "誓言成灰退礼遇",
+      "scenes": 1,
+      "actions": 11,
+      "dialogue_lines": 23,
+      "vo_lines": 0,
+      "spoken_chars": 468,
+      "avg_line_chars": 20.3,
+      "est_duration_sec": 123.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "亮底牌定三日限",
+      "scenes": 1,
+      "actions": 11,
+      "dialogue_lines": 22,
+      "vo_lines": 0,
+      "spoken_chars": 481,
+      "avg_line_chars": 21.9,
+      "est_duration_sec": 126.5,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 3 集出现网文套话：['嘴角勾起一抹']"
+  ]
+}

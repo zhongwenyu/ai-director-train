@@ -1,0 +1,170 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "裸看完全清晰：沈舟五年前因女儿早产退居家庭隐名托举妻子林婉，如今岳母与林婉竟为初恋宋哲父子拆哮喘女儿房间、夺庆生庄园名额。三集紧咬同一客厅冲突层层推进停卡、亮婚前房本反杀，前情与争点丝丝入扣。",
+  "total_score": 92.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "强拆的儿童房",
+      "audible_counts": {
+        "念念": 4,
+        "沈舟": 8,
+        "周桂芳": 4,
+        "林婉": 4,
+        "宋哲": 2,
+        "宋小宝": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "奶",
+        "弟",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　婚房大平层玄关与客厅　日",
+          "audible_counts": {
+            "念念": 4,
+            "沈舟": 8,
+            "周桂芳": 4,
+            "林婉": 4,
+            "宋哲": 2,
+            "宋小宝": 1
+          },
+          "vo_counts": {
+            "沈舟": 1
+          },
+          "mute_present_characters": [
+            "拆装工人"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "停卡与五年旧账",
+      "audible_counts": {
+        "周桂芳": 3,
+        "沈舟": 9,
+        "林婉": 6,
+        "念念": 1,
+        "宋小宝": 1,
+        "宋哲": 2,
+        "银行客服": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "姨",
+        "奶",
+        "弟",
+        "妹",
+        "老公",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　婚房大平层客厅　日",
+          "audible_counts": {
+            "周桂芳": 1,
+            "沈舟": 3,
+            "林婉": 2,
+            "念念": 1,
+            "宋小宝": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "宋哲"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　医院早产儿病房走廊（闪回）　夜",
+          "audible_counts": {
+            "林婉": 2,
+            "沈舟": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　婚房大平层客厅　日",
+          "audible_counts": {
+            "沈舟": 5,
+            "林婉": 2,
+            "宋哲": 2,
+            "周桂芳": 2,
+            "银行客服": 2
+          },
+          "vo_counts": {
+            "沈舟": 1
+          },
+          "mute_present_characters": [
+            "宋小宝",
+            "念念"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "撕碎协议与清场通牒",
+      "audible_counts": {
+        "周桂芳": 4,
+        "宋哲": 3,
+        "林婉": 6,
+        "沈舟": 9,
+        "念念": 1,
+        "陈伯": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "伯",
+        "姨",
+        "奶",
+        "弟",
+        "妹",
+        "老公",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　婚房大平层客厅与玄关　日",
+          "audible_counts": {
+            "周桂芳": 4,
+            "宋哲": 3,
+            "林婉": 6,
+            "沈舟": 9,
+            "念念": 1,
+            "陈伯": 1
+          },
+          "vo_counts": {
+            "沈舟": 1
+          },
+          "mute_present_characters": [
+            "宋小宝"
+          ]
+        }
+      ]
+    }
+  ]
+}

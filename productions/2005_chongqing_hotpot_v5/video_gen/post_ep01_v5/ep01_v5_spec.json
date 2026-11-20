@@ -1,0 +1,308 @@
+{
+  "prefix": "ep01_v5",
+  "bgm_segments": [
+    {
+      "label": "2015雨夜惨死背叛开场（悲怆冷峻悬疑 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "1-1-01",
+      "end_shot": "1-1-03",
+      "gain": 0.42,
+      "fade_in": 0.6,
+      "fade_out": 0.8
+    },
+    {
+      "label": "2005毕业家宴温情画饼表象（烟火暖调 CC0）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/freesound-845168.mp3",
+      "start_shot": "1-2-01",
+      "end_shot": "1-2-05",
+      "gain": 0.36,
+      "fade_in": 0.8,
+      "fade_out": 0.8
+    },
+    {
+      "label": "推回账本点破八千浪琴金表至全场骤僵悬念切集（暗流逼压 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "1-2-06",
+      "end_shot": "1-2-09",
+      "src_offset": 18.0,
+      "gain": 0.42,
+      "fade_in": 0.8,
+      "fade_out": 0.35
+    }
+  ],
+  "shots": [
+    {
+      "id": "1-1-01",
+      "studioShotId": "6bb18773-2f14-41b1-8d84-7d97067e1ece",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-1-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.15,
+          "end": 3.5,
+          "kind": "caption",
+          "speaker": "",
+          "text": "2015年 · 林氏火锅上市夜"
+        },
+        {
+          "start": 0.25,
+          "end": 4.6,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "林叔，双双！我替林家熬坏了肺，不是说上市就完婚吗？"
+        },
+        {
+          "start": 4.85,
+          "end": 8.7,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "小寻呐，林氏都上市了，哪能招个病痨厨子当女婿？"
+        }
+      ]
+    },
+    {
+      "id": "1-1-02",
+      "studioShotId": "cf9794aa-ac0b-4fe8-a951-3a06c2d7229e",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-1-02/video.mp4",
+      "cues": [
+        {
+          "start": 0.15,
+          "end": 3.5,
+          "kind": "caption",
+          "speaker": "",
+          "text": "楚南｜省城楚氏餐饮少东家"
+        },
+        {
+          "start": 0.25,
+          "end": 4.5,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "阿寻哥，看清这金表没？毕业前楚南哥早送我了。"
+        },
+        {
+          "start": 4.75,
+          "end": 8.7,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "骗全你们叶家红汤秘方，你的用处早到头了。"
+        }
+      ]
+    },
+    {
+      "id": "1-1-03",
+      "studioShotId": "f1b64ab6-2624-4f37-8f30-ab8fe4a7bc11",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-1-03/video.mp4",
+      "cues": [
+        {
+          "start": 0.25,
+          "end": 4.1,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "那是我爸的心血……你们不得好死！"
+        }
+      ]
+    },
+    {
+      "id": "1-2-01",
+      "studioShotId": "790e7bd7-da71-4e98-90de-293257aa1870",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.15,
+          "end": 3.8,
+          "kind": "caption",
+          "speaker": "",
+          "text": "2005年7月 · 重庆沙正街林记火锅"
+        },
+        {
+          "start": 0.7,
+          "end": 5.6,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "二〇〇五年……我回到了双双毕业家宴这天？"
+        }
+      ]
+    },
+    {
+      "id": "1-2-02",
+      "studioShotId": "a0a66eae-43d7-45ba-920c-989fab4cac08",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-02/video.mp4",
+      "cues": [
+        {
+          "start": 0.15,
+          "end": 4.2,
+          "kind": "caption",
+          "speaker": "",
+          "text": "林有才｜林记老板·叶父师弟　林双双｜林有才独女"
+        },
+        {
+          "start": 0.25,
+          "end": 5.1,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "小寻，林叔敬你！你厨校毕业掌勺四年，林记全靠你撑火！"
+        },
+        {
+          "start": 5.4,
+          "end": 9.6,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "是呀阿寻哥，多亏你守灶供我读完省城财大。"
+        }
+      ]
+    },
+    {
+      "id": "1-2-03",
+      "studioShotId": "c15f4cd9-452e-47f5-b460-7cbecbc1642e",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-03/video.mp4",
+      "cues": [
+        {
+          "start": 0.25,
+          "end": 3.0,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "林叔，今天吹什么风，这么客气？"
+        },
+        {
+          "start": 3.3,
+          "end": 9.6,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "你爸走得早，林叔早把你当亲半子疼，下月初八给你们定亲，分你林记三成干股！"
+        }
+      ]
+    },
+    {
+      "id": "1-2-04",
+      "studioShotId": "37d149ee-0feb-4d98-80de-f845fcb32b69",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-04/video.mp4",
+      "cues": [
+        {
+          "start": 0.25,
+          "end": 3.0,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "三成干股，下个月就定亲？"
+        },
+        {
+          "start": 3.3,
+          "end": 8.6,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "那还有假？下周换新执照，想拿招牌红汤报评优。"
+        }
+      ]
+    },
+    {
+      "id": "1-2-05",
+      "studioShotId": "23c96c14-7965-4b0e-b83f-d28c32570c6f",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-05/video.mp4",
+      "cues": [
+        {
+          "start": 0.25,
+          "end": 4.4,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "叶叔那方子还缺最后三味退燥配比，你写全嘛。"
+        },
+        {
+          "start": 4.7,
+          "end": 8.6,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "写全锁柜里，往后这店不都是你们小两口的？"
+        }
+      ]
+    },
+    {
+      "id": "1-2-06",
+      "studioShotId": "c9e17df3-f743-42b3-a3bf-80964de60a1b",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-06/video.mp4",
+      "cues": [
+        {
+          "start": 0.3,
+          "end": 4.4,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "前世刚补全这三味，他们就拿婚约拖死我十年。"
+        },
+        {
+          "start": 4.8,
+          "end": 9.6,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "我爸留我立命的方子，没定亲就交，太早了吧？"
+        }
+      ]
+    },
+    {
+      "id": "1-2-07",
+      "studioShotId": "feb03eed-0bbb-48f9-8c9c-7899d083bd6d",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-07/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 3.5,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "一家人咋还见外？林叔还能亏待自家姑爷？"
+        },
+        {
+          "start": 3.7,
+          "end": 7.0,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "阿寻哥你疑心我？我一毕业就回来守着你呢！"
+        },
+        {
+          "start": 7.2,
+          "end": 10.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "守着我？你腕上这块浪琴金表，专柜得八千多吧？"
+        }
+      ]
+    },
+    {
+      "id": "1-2-08",
+      "studioShotId": "55b4aa6f-bf23-401d-ba89-4691a6cfc2d8",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-08/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 3.5,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "这……省城地摊几十块买的仿表，你看岔了！"
+        },
+        {
+          "start": 3.7,
+          "end": 6.8,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "仿表有原厂钢印？省城哪位少爷送的定情礼？"
+        },
+        {
+          "start": 7.0,
+          "end": 9.7,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "大喜日子揪着块表盘问啥？快把方子写上！"
+        }
+      ]
+    },
+    {
+      "id": "1-2-09",
+      "studioShotId": "7f7a6371-197f-4cb1-95d7-5c6d88e2bd05",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep01/1-2-09/video.mp4",
+      "cues": [
+        {
+          "start": 0.3,
+          "end": 4.2,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "方子补全，下月进林家门的，真是我吗？"
+        }
+      ]
+    }
+  ]
+}

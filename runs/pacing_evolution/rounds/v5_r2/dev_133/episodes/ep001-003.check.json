@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "protagonist_detected": "林婉华",
+  "episode_count": 3,
+  "mean_est_duration_sec": 125.9,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "亿元改口茶，养子笑报结扎账",
+      "scenes": 1,
+      "actions": 12,
+      "dialogue_lines": 25,
+      "vo_lines": 0,
+      "spoken_chars": 480,
+      "avg_line_chars": 19.2,
+      "est_duration_sec": 127.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "双标逼道歉，支票收回断念想",
+      "scenes": 1,
+      "actions": 9,
+      "dialogue_lines": 25,
+      "vo_lines": 0,
+      "spoken_chars": 481,
+      "avg_line_chars": 19.2,
+      "est_duration_sec": 123.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "独苗梦碎场，三日召回八兄姐",
+      "scenes": 1,
+      "actions": 8,
+      "dialogue_lines": 24,
+      "vo_lines": 0,
+      "spoken_chars": 502,
+      "avg_line_chars": 20.9,
+      "est_duration_sec": 126.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 2 集出现网文套话：['嘴角勾起一抹']"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈向东",
+  "episode_count": 3,
+  "mean_est_duration_sec": 125.7,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "冰河救女，无钱拔针",
+      "scenes": 2,
+      "actions": 12,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 437,
+      "avg_line_chars": 17.5,
+      "est_duration_sec": 120.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "点破私账，催命死线",
+      "scenes": 2,
+      "actions": 13,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 487,
+      "avg_line_chars": 19.5,
+      "est_duration_sec": 133.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "破屋护粮，血印借枪",
+      "scenes": 2,
+      "actions": 12,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 453,
+      "avg_line_chars": 18.1,
+      "est_duration_sec": 123.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['苏婉'] 未直接叫出全名（已出现称谓 ['娘', '公', '主任', '大夫']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['苏婉'] 未直接叫出全名（已出现称谓 ['娘', '公', '主任', '大夫']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['陈老根', '陈向北', '王翠花'] 未直接叫出全名（已出现称谓 ['爹', '娘', '叔', '婶', '婆', '公']，交由屏幕盲审核验关系清晰度）"
+  ]
+}

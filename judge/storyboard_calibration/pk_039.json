@@ -1,0 +1,19 @@
+{
+  "left": "REAL_HIT_VIDEO",
+  "right": "NAIVE_ZEROSHOT",
+  "winner_label": "TIE",
+  "margin": "narrow",
+  "dimension_winners": {
+    "camera_movement_mastery": "NAIVE_ZEROSHOT",
+    "visual_tension_and_hooks": "NAIVE_ZEROSHOT",
+    "editing_flow_and_axis": "REAL_HIT_VIDEO",
+    "ai_video_renderability": "REAL_HIT_VIDEO"
+  },
+  "why_winner_wins": "A险胜，胜在成片可控性。协议揭示、车窗仰俯压迫、受辱反应和母子对视均拆成独立镜头，并提供分组末态与接缝，比B更容易维持人物、空间和剪辑连续性。肢体拉扯采用固定机位，也减少复杂接触动作叠加摄影运动的风险。但A绝非优秀终稿：承重情绪拍几乎全部固定，呼吸偏板；1-4-19→20同景别同机位跨组续话容易跳切；1-4-07将35字温情VO塞进3.5秒，明显牺牲深情表达。两版都必须重排声音时间轴，均未达到零记忆直接投产标准。",
+  "why_loser_loses": "B更有爆款镜头意识：拉人时后撤、反击时猛推、儿子表态前逐步收紧，情绪峰值比A鲜明；但具体执行拖了后腿。1-4-11要求从车内仰拍急拉到车外侧拍，缺少可行路径；1-4-22右摇出窗后又回到母亲，实际包含往返与重新构图；多处把正反打剪辑混写成运镜，容易造成空间和身份漂移。时长也没有因总长约150秒而解决：1-4-12在6秒内安排48字双人对白及抓腕、告状、转向，1-4-20用4秒容纳24字问答和双方反应，呼吸不足。B的抓力值得保留，但以当前文本直接喂模型，风险高于A。",
+  "swap_check": {
+    "pass1_winner": "REAL_HIT_VIDEO",
+    "pass2_winner": "NAIVE_ZEROSHOT",
+    "consistent": false
+  }
+}

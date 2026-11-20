@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "verdict": "PASS",
+  "blocked_episodes": [],
+  "episodes": [
+    {
+      "episode": 1,
+      "understood_plot": "叶寻助林家上市遭过河拆桥出车祸，重生回05年果断护住秘方翻脸走人，偶遇青梅家餐馆急转且遭人砸店。",
+      "viewer_hook_score": 8.9,
+      "unexplained_leaps": [],
+      "timeline_glitches": [],
+      "cringe_or_ad_moments": [],
+      "forced_hooks": [],
+      "verdict": "PASS",
+      "defect_count": 0
+    },
+    {
+      "episode": 2,
+      "understood_plot": "叶寻炒菜救场赶走勒索的厨师，见夏家差房租便拿存折入伙开火锅，却被夏芊芊怀疑是在跟林双双赌气。",
+      "viewer_hook_score": 8.8,
+      "unexplained_leaps": [],
+      "timeline_glitches": [],
+      "cringe_or_ad_moments": [],
+      "forced_hooks": [],
+      "verdict": "PASS",
+      "defect_count": 0
+    },
+    {
+      "episode": 3,
+      "understood_plot": "叶寻熬出无油烟清润红汤，与夏家签下五一控股协议筹备开业；前女友与室友砸半价牛排截客，叶寻亮招迎战。",
+      "viewer_hook_score": 9.0,
+      "unexplained_leaps": [],
+      "timeline_glitches": [],
+      "cringe_or_ad_moments": [],
+      "forced_hooks": [],
+      "verdict": "PASS",
+      "defect_count": 0
+    }
+  ]
+}

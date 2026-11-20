@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是北方年代屯子里的活人急喘吵架声！长短句咬合极紧，“借五块？”“我不松！”“治个屁！”等短促顶针句句带火气，泼辣婶子、隐忍媳妇、势利主任与小护士声纹分明，全在算五块押金、半块热砖、二两粮票的实在账，零说教金句，烟火气十足。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.4
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.5,
+  "rhythm_metrics": {
+    "total_lines": 87,
+    "mean_char_len": 16.2,
+    "char_len_stdev": 7.2,
+    "short_reaction_ratio_le7": 0.184,
+    "twin_clause_symmetry_ratio": 0.057
+  }
+}

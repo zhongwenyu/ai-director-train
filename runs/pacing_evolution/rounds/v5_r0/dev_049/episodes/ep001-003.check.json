@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "林岚",
+  "episode_count": 3,
+  "mean_est_duration_sec": 133.3,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "借房三年，私换门锁",
+      "scenes": 2,
+      "actions": 16,
+      "dialogue_lines": 22,
+      "vo_lines": 2,
+      "spoken_chars": 473,
+      "avg_line_chars": 19.7,
+      "est_duration_sec": 134.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "偷撕借条，断卡停薪",
+      "scenes": 3,
+      "actions": 17,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 440,
+      "avg_line_chars": 18.3,
+      "est_duration_sec": 131.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "红本亮底，拉闸清场",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 478,
+      "avg_line_chars": 19.1,
+      "est_duration_sec": 134.2,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 173.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "被砸碎的星空房",
+      "scenes": 2,
+      "actions": 24,
+      "dialogue_lines": 18,
+      "vo_lines": 0,
+      "spoken_chars": 577,
+      "avg_line_chars": 32.1,
+      "est_duration_sec": 167.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "谁才是云栖谷的主人",
+      "scenes": 3,
+      "actions": 17,
+      "dialogue_lines": 15,
+      "vo_lines": 0,
+      "spoken_chars": 593,
+      "avg_line_chars": 39.5,
+      "est_duration_sec": 162.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "附属卡的真相与第一份离婚书",
+      "scenes": 1,
+      "actions": 15,
+      "dialogue_lines": 15,
+      "vo_lines": 0,
+      "spoken_chars": 750,
+      "avg_line_chars": 50.0,
+      "est_duration_sec": 189.0,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

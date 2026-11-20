@@ -1,0 +1,60 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "我都记着呢。就是我妈这人刀子嘴、爱讲排面，待会儿说话要是冲了点，哥你多担待啊。",
+      "quote": "我记着呢，就是我爸正找远舟集团批融资，待会儿妈说话冲，哥多担待。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "行了你少说两句吧！陈总到了，赶紧过去迎一下！",
+      "quote": "桂芳快住口，商界的大人物进场了！"
+    },
+    {
+      "defect_type": "era_or_region_register_mismatch",
+      "how_real_person_would_say_it": "嘴还挺硬啊？害我周叔热脸贴冷屁股，赶紧的，端杯酒站起来给我周叔道个歉！",
+      "quote": "嘴还挺硬，害周叔白递名片，端起酒站起来赔罪！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "你那表盘里头的针都卡死不动了，再说专柜哪有零零一号往外卖的？一眼假的地摊货还拿出来唬人。",
+      "quote": "里头月相齿轮卡死了，表壳零零一号更是人家展厅非卖的样表号。"
+    },
+    {
+      "defect_type": "essay_thesis_or_psychology_summary",
+      "how_real_person_would_say_it": "他自己戴块假表出来显摆，反倒赖上我说实话了？你们讲不讲理啊？",
+      "quote": "戴假货的不嫌丢人，倒怪看破的人眼尖，真有意思。"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "哎哟，一共就随了两百块钱也好意思上桌？自己买不起好表就在这儿眼红挑刺儿，没见过这么穷酸的亲戚！",
+      "quote": "随两百块跑来现眼，见着好表就眼红搅局，真是穷酸。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "今天先把知夏的婚事顺顺当当办完，你们周家这笔账，咱回头慢慢算。",
+      "quote": "先全知夏婚礼，这笔账慢慢算。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "周叔您消消气，等她进了门还不是赵姨说了算？来，甭理他们，咱喝酒！",
+      "quote": "周叔，她进门还不是任赵姨拿捏？明天我陪您去远舟递融资。"
+    }
+  ],
+  "ear_test_impression": "闭眼听全是端着的AI剧本腔。虽刻意塞了几句四五字短反问凑节奏，但主体仍是零毛边的压缩书面语：婚宴上冒出“商界的大人物进场了”“先全知夏婚礼”，隔空背名表鉴定术语，首尾硬塞“远舟批融资”替大纲报设定，全员腔调同质，毫无活人吵架烟火气。",
+  "scores": {
+    "character_voice_distinction": 3.5,
+    "conversational_bite_and_rhythm": 5,
+    "spoken_naturalness": 3.5,
+    "subtext_and_micro_specificity": 4.8
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 42.0,
+  "rhythm_metrics": {
+    "total_lines": 95,
+    "mean_char_len": 15.6,
+    "char_len_stdev": 7.2,
+    "short_reaction_ratio_le7": 0.221,
+    "twin_clause_symmetry_ratio": 0.095
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 169.9,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "九百六十块亲情价",
+      "scenes": 2,
+      "actions": 20,
+      "dialogue_lines": 16,
+      "vo_lines": 4,
+      "spoken_chars": 517,
+      "avg_line_chars": 25.9,
+      "est_duration_sec": 148.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "谁才是房东",
+      "scenes": 3,
+      "actions": 17,
+      "dialogue_lines": 17,
+      "vo_lines": 0,
+      "spoken_chars": 658,
+      "avg_line_chars": 38.7,
+      "est_duration_sec": 176.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "被出租的姐姐房间",
+      "scenes": 4,
+      "actions": 16,
+      "dialogue_lines": 14,
+      "vo_lines": 1,
+      "spoken_chars": 697,
+      "avg_line_chars": 46.5,
+      "est_duration_sec": 185.1,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

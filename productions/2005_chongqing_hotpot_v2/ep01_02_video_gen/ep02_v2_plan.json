@@ -1,0 +1,254 @@
+[
+  {
+    "id": "2-1-01",
+    "episode": 2,
+    "duration": 13,
+    "seed": 2101,
+    "description": "夏氏小厨前厅满地碎瓷，临时厨师老王把菜刀剁在传菜木台上，趁夏建国手腕受伤勒索三千月薪并预支九千块。",
+    "dialogue": "老王：老夏，少打感情牌！你五天前颠勺拉裂手腕筋，现在晚市三桌单子都下了，不签三千块长约、预支九千块，老子立马走人！\n夏建国：老王！上周说好六十块一天顶班，你趁上客坐地起价，让我上哪儿掏九千块？！",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "夏建国",
+      "老王"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-1-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/d59c2497-3a6e-4af1-9163-7d76d9654411_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/voices/xia_jianguo_clean.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S2): The man with the white wrist bandage leaning on the wooden counter on the left of <Picture 1>, matching <Picture 2>. Voice matches Audio 2.\n- <Subject 2> (S1): The stocky cook gripping the cleaver handle embedded in the pass counter on the right of <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-7.6s) Medium confrontation shot framed from <Picture 1> inside the small eatery.\n- [Shot 2] (7.6s-13.0s) Closer angle on <Subject 1> bracing his uninjured left hand on the counter in indignation.\n[Timeline]\n- [Shot 1] (0s-7.4s): Tapping the upright cleaver handle on the wooden pass counter above scattered porcelain shards, <Subject 2> (S1) glares greedily at <Subject 1> and speaks loudly: <d>[Chinese] 老夏，少打感情牌！你五天前颠勺拉裂手腕筋，现在晚市三桌单子都下了，不签三千块长约、预支九千块，老子立马走人！</d>\n- [Shot 2] (7.7s-12.3s): Breathing heavily and cradling his bandaged right wrist, <Subject 1> (S2) protests angrily: <d>[Chinese] 老王！上周说好六十块一天顶班，你趁上客坐地起价，让我上哪儿掏九千块？！</d>\n- [Shot 2] (12.3s-13.0s): <Subject 2> sneers with zero remorse.\n[Environment]\n- 2005 Chongqing small stir-fry eatery front room under warm incandescent bulbs.\n[Camera & Visuals]\n- High-tension realistic street-eatery confrontation, bandaged right wrist preserved accurately.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Thud of palm on wooden counter, loud raspy extortionate cook voice and indignant fatherly voice, zero music."
+  },
+  {
+    "id": "2-1-04",
+    "episode": 2,
+    "duration": 12,
+    "seed": 2104,
+    "description": "夏芊芊冲进店护住父亲，老王摔下围裙煽动街坊散场，戴眼镜中年食客拎包起身准备离开。",
+    "dialogue": "夏芊芊：王师傅，菜都点好了你趁火打劫——\n老王：没钱就贴红纸关门！各位街坊趁早换别家吃吧，老夏家今晚断灶了！\n中年食客：老夏，我们专门来捧场，没厨子你早说嘛，饿着肚子干等也不是事啊。",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "夏芊芊",
+      "夏建国",
+      "老王",
+      "中年食客"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-1-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/d59c2497-3a6e-4af1-9163-7d76d9654411_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/b88d814a-407f-4063-8e21-7a7b39478909_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d1acfe71-5ed3-4fb8-be3e-01c6a2530359.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young woman shielding her father by the counter in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The man with the bandaged right wrist behind the counter in <Picture 1>, matching <Picture 3>.\n- <Subject 3> (S2): The stocky cook in the center-right of <Picture 1>, matching <Picture 4>. Voice matches Audio 2.\n- <Subject 4> (S3): The diner holding a dark clutch bag rising from the right wooden table in <Picture 1>, matching <Picture 5>. Voice matches Audio 3.\n[Shot]\n- [Shot 1] (0s-7.4s) Medium-wide front room shot framed from <Picture 1>.\n- [Shot 2] (7.4s-12.0s) Medium close-up on <Subject 4> standing beside the square wooden table.\n[Timeline]\n- [Shot 1] (0s-2.6s): Stepping protectively in front of <Subject 2>, <Subject 1> (S1) confronts <Subject 3>: <d>[Chinese] 王师傅，菜都点好了你趁火打劫——</d>\n- [Shot 1] (2.7s-7.3s): Cutting her off, <Subject 3> (S2) slams his dark kitchen cloth onto the counter and shouts toward the dining tables: <d>[Chinese] 没钱就贴红纸关门！各位街坊趁早换别家吃吧，老夏家今晚断灶了！</d>\n- [Shot 2] (7.5s-11.4s): Tucking his clutch bag under his arm, <Subject 4> (S3) sighs helplessly toward the counter: <d>[Chinese] 老夏，我们专门来捧场，没厨子你早说嘛，饿着肚子干等也不是事啊。</d>\n- [Shot 2] (11.4s-12.0s): <Subject 4> turns to step toward the doorway.\n[Environment]\n- Warmly lit 2005 neighborhood stir-fry eatery.\n[Camera & Visuals]\n- Clear spatial blocking across counter and dining table.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Slap of cloth on counter, wooden bench scrape, clear three-speaker dialogue, zero music."
+  },
+  {
+    "id": "2-1-07",
+    "episode": 2,
+    "duration": 13,
+    "seed": 2107,
+    "description": "叶寻跨门拦住食客立下十分钟免单军令状，无视老王嘲讽，让夏芊芊结清六十块日工钱请老王腾地方。",
+    "dialogue": "叶寻：叔，坐下喝口茶。十分钟热菜不上桌，今晚三桌全免单，算我的！\n夏建国：寻娃子？你怎么过来了！\n老王：案板上就剩副腥猪肝和鸭杂，你个穷学生拿嘴炒啊？\n叶寻：芊芊姐，结他六十块日工钱，请他腾地方。",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "叶寻",
+      "中年食客",
+      "夏芊芊",
+      "老王",
+      "夏建国"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-1-07_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/b88d814a-407f-4063-8e21-7a7b39478909_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/d59c2497-3a6e-4af1-9163-7d76d9654411_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4b5ce464-1a4b-4907-8d05-f4bd88dc24c5.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/voices/xia_jianguo_clean.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man stepping in on the left of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The diner by the square table in <Picture 1>, matching <Picture 3>.\n- <Subject 3>: The young woman by the counter in <Picture 1>, matching <Picture 4>.\n- <Subject 4> (S3): The stocky cook crossing his arms on the right of <Picture 1>, matching <Picture 5>. Voice matches Audio 3.\n- <Subject 5> (S2): The man with the bandaged right wrist behind the counter in <Picture 1>, matching <Picture 6>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-6.5s) Medium shot framed from <Picture 1> as <Subject 1> steadies the room.\n- [Shot 2] (6.5s-13.0s) Medium two-shot as <Subject 4> sneers and <Subject 1> calmly dismisses him while <Subject 3> slaps banknotes on the counter.\n[Timeline]\n- [Shot 1] (0s-4.5s): Gesturing warmly toward the table, <Subject 1> (S1) speaks with calm authority: <d>[Chinese] 叔，坐下喝口茶。十分钟热菜不上桌，今晚三桌全免单，算我的！</d>\n- [Shot 1] (4.6s-6.4s): Behind the counter, <Subject 5> (S2) looks up in surprise: <d>[Chinese] 寻娃子？你怎么过来了！</d>\n- [Shot 2] (6.6s-10.1s): Folding his arms, <Subject 4> (S3) scoffs derisively at <Subject 1>: <d>[Chinese] 案板上就剩副腥猪肝和鸭杂，你个穷学生拿嘴炒啊？</d>\n- [Shot 2] (10.2s-12.5s): Without sparing <Subject 4> another glance, <Subject 1> (S1) turns to <Subject 3>: <d>[Chinese] 芊芊姐，结他六十块日工钱，请他腾地方。</d>\n- [Shot 2] (12.5s-13.0s): <Subject 3> slaps six ten-yuan banknotes onto the wooden counter.\n[Environment]\n- 2005 neighborhood eatery front dining hall.\n[Camera & Visuals]\n- Crisp pacing, decisive hero entrance, clear banknote slap.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Crisp four-turn dialogue, slap of paper bills on wood, zero music."
+  },
+  {
+    "id": "2-2-01",
+    "episode": 2,
+    "duration": 11,
+    "seed": 2201,
+    "description": "后厨内叶寻握起爷爷十年前留下的旧厨刀，安慰夏建国这口灶凉不了，行云流水切出柳叶猪肝与十字花刀鸭胗。",
+    "dialogue": "夏建国：十年前你爷爷教我吊高汤留下的刀。叔这一伤老客跑了一半，撑不过这个月了……\n叶寻：夏叔，有我在，这口灶凉不了。",
+    "assetNames": [
+      "夏氏小厨后厨猛火炒灶",
+      "叶寻",
+      "夏建国"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-2-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/voices/xia_jianguo_clean.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4b5ce464-1a4b-4907-8d05-f4bd88dc24c5.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S2): The young man standing at the wooden chopping block holding the traditional cleaver in <Picture 1>, matching <Picture 2>. Voice matches Audio 2.\n- <Subject 2> (S1): The man with the white wrist bandage standing by the kitchen doorway on the right of <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-8.6s) Medium two-shot inside the traditional back kitchen framed from <Picture 1>.\n- [Shot 2] (8.6s-11.0s) Crisp close-up on the wooden chopping block as <Subject 1>'s blade slices paper-thin pork liver and cross-hatched duck gizzards.\n[Timeline]\n- [Shot 1] (0s-5.7s): Looking wistfully at the copper-ferrule cleaver in <Subject 1>'s hand, <Subject 2> (S1) sighs heavily: <d>[Chinese] 十年前你爷爷教我吊高汤留下的刀。叔这一伤老客跑了一半，撑不过这个月了……</d>\n- [Shot 1] (5.9s-8.5s): Testing the weight of the blade with steady confidence, <Subject 1> (S2) smiles reassuringly: <d>[Chinese] 夏叔，有我在，这口灶凉不了。</d>\n- [Shot 2] (8.6s-11.0s): Steel flashes swiftly and rhythmically across the wooden block, slicing fresh pork liver into uniform willow-leaf slices and scoring fine cross-hatch patterns onto duck gizzards.\n[Environment]\n- Warm tungsten-lit 2005 Chongqing small eatery back kitchen with brick wok stove and wooden prep table.\n[Camera & Visuals]\n- Authentic culinary craftsmanship, rapid precise knife work.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Warm emotional dialogue followed by rapid, crisp rhythmic knife-chopping SFX on wood, zero music."
+  },
+  {
+    "id": "2-2-04",
+    "episode": 2,
+    "duration": 8,
+    "seed": 2204,
+    "description": "猛火宽油下泡椒仔姜，叶寻单手托锅连翻三个大勺，灶火窜起半米高，八分钟内泡椒嫩猪肝与仔姜爆鸭杂油亮出锅！",
+    "dialogue": "",
+    "assetNames": [
+      "夏氏小厨后厨猛火炒灶",
+      "叶寻"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-2-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png"
+    ],
+    "ref_audios": [],
+    "prompt": "[Subject]\n- <Subject 1>: The young man tossing the heavy iron wok over roaring flames in <Picture 1>, matching <Picture 2>.\n[Shot]\n- [Shot 1] (0s-4.8s) Dynamic medium close-up framed from <Picture 1> on the roaring brick wok range.\n- [Shot 2] (4.8s-8.0s) Close-up as glossy ruby-red pickled-chili pork liver and stir-fried ginger duck gizzards cascade onto a clean white porcelain plate.\n[Timeline]\n- [Shot 1] (0s-4.8s): Red pickled chilies and golden ginger sizzle violently in the seasoned iron wok; <Subject 1> grips the wooden handle single-handedly and tosses the ingredients three times in mid-air as golden-orange wok flames leap half a meter high, illuminating his focused eyes!\n- [Shot 2] (4.8s-8.0s): With a decisive sweep of the iron ladle, <Subject 1> plates the steaming, glossy, tender pickled-chili pork liver onto a white porcelain dish, rich aromatic steam rising.\n[Environment]\n- Traditional brick commercial wok stove in a 2005 Chongqing kitchen.\n[Camera & Visuals]\n- Mouth-watering high-contrast food cinematography, vibrant roaring wok-hei flames.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Roaring gas burner, explosive sizzling oil and wok-tossing clangs, ladling onto porcelain, zero dialogue, zero music."
+  },
+  {
+    "id": "2-2-07",
+    "episode": 2,
+    "duration": 11,
+    "seed": 2207,
+    "description": "叶寻与夏芊芊端菜上桌，中年食客闻香夹起猪肝入口，眼睛骤亮大赞半点血腥气没有、比老王强出两条街！",
+    "dialogue": "中年食客：半点血腥气没有，又滑又脆！老夏，这小伙子手艺比姓王的强出两条街！",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "中年食客",
+      "叶寻",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-2-07_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/b88d814a-407f-4063-8e21-7a7b39478909_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d1acfe71-5ed3-4fb8-be3e-01c6a2530359.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The diner seated at the foreground wooden table holding chopsticks in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The young man standing beside the table in <Picture 1>, matching <Picture 3>.\n- <Subject 3>: The young woman holding a white plate beside <Subject 2> in <Picture 1>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-4.6s) Medium close-up framed from <Picture 1> as <Subject 1> tastes the steaming dish.\n- [Shot 2] (4.6s-11.0s) Close-up on <Subject 1>'s delighted reaction as <Subject 2> and <Subject 3> smile warmly.\n[Timeline]\n- [Shot 1] (0s-4.6s): Fragrant white steam rises from the freshly served pickled-chili pork liver and ginger duck offal on the flat wooden table. <Subject 1> inhales the rich aroma, lifts a glossy tender slice with bamboo chopsticks, and takes a bite.\n- [Shot 2] (4.7s-10.3s): <Subject 1>'s eyes widen with genuine delight as he chews once, gives a thumbs-up toward the counter, and exclaims enthusiastically: <d>[Chinese] 半点血腥气没有，又滑又脆！老夏，这小伙子手艺比姓王的强出两条街！</d>\n- [Shot 2] (10.3s-11.0s): <Subject 2> and <Subject 3> exchange a relieved smile.\n[Environment]\n- Warmly lit 2005 neighborhood eatery front room with flat wooden tables.\n[Camera & Visuals]\n- Natural authentic diner reaction, appetizing steam on porcelain dishes.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Chopsticks tapping porcelain, natural chewing beat, enthusiastic authentic male praise, zero music."
+  },
+  {
+    "id": "2-2-10",
+    "episode": 2,
+    "duration": 10,
+    "seed": 2210,
+    "description": "邻桌食客纷纷加点泡椒猪肝鸭杂与山城啤酒，老王脸色铁青，夏建国把转租红纸攥成团扔进废纸篓霸气送客！",
+    "dialogue": "邻桌食客（画外）：老夏，我们也加份泡椒猪肝和爆鸭杂，再拿四瓶山城啤酒！\n夏建国：王师傅，好走不送！",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "夏建国",
+      "老王"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-2-10_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/d59c2497-3a6e-4af1-9163-7d76d9654411_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/voices/xia_jianguo_clean.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The man with the bandaged right wrist standing behind the wooden counter on the left of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The stocky cook standing awkwardly by the doorframe on the right of <Picture 1>, matching <Picture 3>.\n[Shot]\n- [Shot 1] (0s-5.2s) Medium two-shot framed from <Picture 1> as <Subject 1> crumples the red transfer flyers.\n- [Shot 2] (5.2s-10.0s) Medium shot as <Subject 1> waves <Subject 2> out and <Subject 2> slinks away.\n[Timeline]\n- [Shot 1] (0s-5.2s): Keeping his lips closed with a proud, beaming smile as lively orders ring out from the dining room, <Subject 1> grabs the stack of red transfer flyers on the counter with his left hand, crumples them into a tight ball, and tosses it straight into the wastebasket!\n- [Shot 2] (5.5s-8.2s): Turning toward the doorway where <Subject 2>'s face flushes dark red with embarrassment, <Subject 1> (S1) waves his left hand briskly and speaks aloud: <d>[Chinese] 王师傅，好走不送！</d>\n- [Shot 2] (8.2s-10.0s): <Subject 2> lowers his head and scurries out the door into the night.\n[Environment]\n- Lively warm 2005 neighborhood eatery front counter.\n[Camera & Visuals]\n- Satisfying paper-crumpling gesture, <Subject 1>'s lips closed from 0s to 5.4s, clear comic-dramatic exit of <Subject 2>.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Crisp paper crumpling, lively restaurant clatter, proud fatherly send-off line at 5.5s, footsteps retreating, zero music.",
+    "vo_job": {
+      "voice": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/fdb623ec-1481-45d2-8447-069d563077f4.wav",
+      "duration": 5,
+      "text": "老夏，我们也加份泡椒猪肝和爆鸭杂，再拿四瓶山城啤酒！",
+      "dst_start": 0.4
+    }
+  },
+  {
+    "id": "2-3-01",
+    "episode": 2,
+    "duration": 12,
+    "seed": 2301,
+    "description": "打烊后卷帘门拉下一半，夏芊芊拨算盘算清账上仅剩六千二，离十月一号一万八季度房租还差一万一千八。",
+    "dialogue": "夏芊芊：今晚净落一百一十块，可账上总共只剩六千二。十月一号要交下季度房租一万八，还差一万一千八……剩二十天靠小炒怎么也填不上。",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "夏芊芊",
+      "夏建国",
+      "叶寻"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-3-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young woman seated by the wooden abacus and ledger on the right of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The man with the bandaged right wrist seated in the center of <Picture 1>, matching <Picture 3>.\n- <Subject 3>: The young man seated attentively on the left of <Picture 1>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-12.0s) Intimate late-night medium three-shot framed from <Picture 1> under the warm incandescent bulb.\n[Timeline]\n- [Shot 1] (0s-0.8s): <Subject 1> clicks the last wooden bead on the abacus and rests her hand on the open ledger with a quiet sigh.\n- [Shot 1] (0.8s-11.2s): Looking up earnestly at <Subject 2> and <Subject 3>, <Subject 1> (S1) speaks in a worried, realistic voice: <d>[Chinese] 今晚净落一百一十块，可账上总共只剩六千二。十月一号要交下季度房租一万八，还差一万一千八……剩二十天靠小炒怎么也填不上。</d>\n- [Shot 1] (11.2s-12.0s): <Subject 2> lowers his head in heavy silence while <Subject 3>'s eyes turn thoughtfully toward the idle iron cauldron in the corner.\n[Environment]\n- Half-shuttered 2005 neighborhood eatery late at night.\n[Camera & Visuals]\n- Grounded emotional realism, warm tungsten lighting.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Crisp click of wooden abacus beads, clear worried young female voice, quiet night room tone, zero music."
+  },
+  {
+    "id": "2-3-04",
+    "episode": 2,
+    "duration": 12,
+    "seed": 2304,
+    "description": "叶寻看中百平临街熟铺与生铁大锅，将两千八存折拍在账本旁，提议入伙改开清润老火锅二十天挣出房租！",
+    "dialogue": "[VO] 叶寻：一百一十平临街熟铺证照齐全，缺的只是一个高毛利爆品！\n叶寻：夏叔，芊芊姐，小炒翻不了身。我拿全部存款和爷爷传下的清润火锅方子入伙，咱们改开老火锅，二十天挣出房租！",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "叶寻",
+      "夏芊芊",
+      "夏建国"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-3-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4b5ce464-1a4b-4907-8d05-f4bd88dc24c5.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man standing on the left slapping the red passbook onto the table in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The young woman seated at the table on the right of <Picture 1>, matching <Picture 3>.\n- <Subject 3>: The man with the bandaged right wrist seated beside <Subject 2> in <Picture 1>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-4.3s) Medium shot as <Subject 1> glances from the idle iron cauldron in the corner to the table and slaps down his red passbook with lips closed.\n- [Shot 2] (4.3s-12.0s) Medium close-up framed from <Picture 1> as <Subject 1> pitches the hotpot partnership.\n[Timeline]\n- [Shot 1] (0s-4.3s): Keeping his lips firmly closed in sharp calculation, <Subject 1> glances at the large cast-iron cauldron leaning in the back corner, pulls his red passbook from his pocket, and slaps it decisively onto the wooden table beside the ledger.\n- [Shot 2] (4.5s-11.3s): Leaning forward with bright, unwavering conviction, <Subject 1> (S1) speaks clearly to <Subject 3> and <Subject 2>: <d>[Chinese] 夏叔，芊芊姐，小炒翻不了身。我拿全部存款和爷爷传下的清润火锅方子入伙，咱们改开老火锅，二十天挣出房租！</d>\n- [Shot 2] (11.3s-12.0s): <Subject 3> looks up in stunned hope.\n[Environment]\n- Late-night eatery interior with the idle cast-iron cauldron visible in the background corner.\n[Camera & Visuals]\n- Lips strictly closed from 0s to 4.4s, crisp passbook slap, strong persuasive presence.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Firm slap of passbook on wooden table at 3.8s, confident young male dialogue starting at 4.5s, zero music.",
+    "vo_job": {
+      "voice": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4b5ce464-1a4b-4907-8d05-f4bd88dc24c5.wav",
+      "duration": 5,
+      "text": "一百一十平临街熟铺证照齐全，缺的只是一个高毛利爆品！",
+      "dst_start": 0.3
+    }
+  },
+  {
+    "id": "2-3-07",
+    "episode": 2,
+    "duration": 13,
+    "seed": 2307,
+    "description": "夏芊芊手指收紧按住账本直视叶寻，犀利质问他是真心合伙还是跟林双双赌气拿父亲救命钱当筏子！",
+    "dialogue": "夏芊芊：叶寻，林双双家馆子就在前头一百米，整条街谁不知道你对她百依百顺了两年？你今晚突然拿存折来我家开火锅，到底是真心合伙，还是跟她赌气、拿我爸最后的救命钱当筏子？",
+    "assetNames": [
+      "夏氏小厨前厅与传菜口",
+      "夏芊芊",
+      "叶寻",
+      "夏建国"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/keyframes_1k/2-3-07_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v2/ep01_02_video_gen/assets_1k/7a8ed53e-3cf0-4fc3-bbe8-20a451f35387_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young woman pressing her hand on the ledger on the right of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The young man standing across the table on the left of <Picture 1>, matching <Picture 3>.\n- <Subject 3>: The man with the bandaged right wrist watching tensely in the center of <Picture 1>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-7.0s) Medium close-up framed from <Picture 1> tightening on <Subject 1>'s clear, probing gaze.\n- [Shot 2] (7.0s-13.0s) Tight two-shot holding the razor-sharp eye lock between <Subject 1> and <Subject 2>.\n[Timeline]\n- [Shot 1] (0s-0.6s): <Subject 1>'s fingers tighten firmly on the edge of the paper ledger instead of reaching for the red passbook.\n- [Shot 1] (0.6s-6.9s): Fixing <Subject 2> straight in the eyes without blinking, <Subject 1> (S1) speaks in a calm, piercing voice: <d>[Chinese] 叶寻，林双双家馆子就在前头一百米，整条街谁不知道你对她百依百顺了两年？</d>\n- [Shot 2] (7.0s-12.2s): Leaning slightly forward under the warm bulb, <Subject 1> (S1) finishes her sharp question: <d>[Chinese] 你今晚突然拿存折来我家开火锅，到底是真心合伙，还是跟她赌气、拿我爸最后的救命钱当筏子？</d>\n- [Shot 2] (12.2s-13.0s): Silence hangs taut in the room as <Subject 2> meets her gaze steadily and <Subject 3> holds his breath!\n[Environment]\n- Quiet late-night eatery under a single warm incandescent lamp.\n[Camera & Visuals]\n- Gripping dramatic cliffhanger close-ups, intelligent clear-headed female lead acting.\n- Clean unsubtitled cinema frame, strictly no on-screen text, captions, or subtitles.\n[Audio]\n- Subtle fingers pressing paper ledger, clear sharp probing female dialogue, tense silent beat at end, zero music."
+  }
+]

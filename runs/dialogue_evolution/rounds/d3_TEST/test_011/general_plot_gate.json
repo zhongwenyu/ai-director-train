@@ -1,0 +1,207 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以八十年代乡村人情冷暖对照与父女绝境赶山逆袭为原生引擎，用藏肉哭穷、赖账封杀对比胞妹寒夜送粥，情绪拉扯饱满扎心；裸看实况人物称谓与前因后果清晰自然，台词贴合年代口语，集尾钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.3,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "寒门捉奸断旧缘",
+      "audible_counts": {
+        "陈小禾": 4,
+        "陈青山": 6,
+        "赵金宝": 3,
+        "刘翠兰": 4,
+        "王桂花": 4,
+        "陈青松": 4
+      },
+      "unintroduced_speakers": [
+        "王桂花",
+        "陈青松"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "伯",
+        "哥",
+        "弟"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内/外　陈青山家小院与卧房　日",
+          "audible_counts": {
+            "陈小禾": 3,
+            "陈青山": 5,
+            "赵金宝": 3,
+            "刘翠兰": 4
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　陈青松家青砖院门外　日",
+          "audible_counts": {
+            "陈小禾": 1,
+            "陈青山": 1,
+            "王桂花": 4,
+            "陈青松": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "讨债连遭白眼狼",
+      "audible_counts": {
+        "王桂花": 3,
+        "陈青山": 10,
+        "陈青松": 4,
+        "周旺": 5,
+        "刘翠兰": 2,
+        "赵金宝": 3,
+        "陈小禾": 1,
+        "孙有财": 3
+      },
+      "unintroduced_speakers": [
+        "王桂花",
+        "陈青松"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "伯",
+        "哥",
+        "弟",
+        "嫂"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　陈青松家堂屋　日",
+          "audible_counts": {
+            "王桂花": 3,
+            "陈青山": 6,
+            "陈青松": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈小禾"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　靠山屯村口大槐树集市街　日",
+          "audible_counts": {
+            "陈青山": 4,
+            "周旺": 5,
+            "刘翠兰": 2,
+            "赵金宝": 1,
+            "陈小禾": 1
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内/外　红旗镇山货铺门前　日",
+          "audible_counts": {
+            "孙有财": 3,
+            "赵金宝": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈小禾",
+            "陈青山"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "寒夜胞妹送暖粥",
+      "audible_counts": {
+        "陈青山": 10,
+        "孙有财": 4,
+        "赵金宝": 3,
+        "陈小禾": 3,
+        "陈青梅": 5,
+        "李铁柱": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "伯",
+        "舅",
+        "姑",
+        "哥",
+        "弟",
+        "嫂",
+        "支书"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　红旗镇山货铺　日",
+          "audible_counts": {
+            "陈青山": 6,
+            "孙有财": 4,
+            "赵金宝": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈小禾"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　靠山屯至山脚村道　黄昏",
+          "audible_counts": {
+            "陈小禾": 2,
+            "陈青山": 4,
+            "陈青梅": 4,
+            "李铁柱": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "屯民甲"
+          ]
+        },
+        {
+          "scene_id": "3-3",
+          "location": "内/外　山脚旧护林屋　夜",
+          "audible_counts": {
+            "陈青梅": 1,
+            "李铁柱": 1,
+            "陈小禾": 1
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": [
+            "陈青山",
+            "黑虎"
+          ]
+        }
+      ]
+    }
+  ]
+}

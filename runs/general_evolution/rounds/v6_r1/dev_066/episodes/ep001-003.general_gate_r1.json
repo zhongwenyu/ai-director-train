@@ -1,0 +1,179 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“隐豪慈父护女止损+分层撤回托举致前妻追悔”为原生爽点引擎，借脏污画纸、踩断画笔等细节刺痛偏心双标之殇。裸看实况人物关系清晰、动机与资产归属自洽，情感拉扯浓郁，集尾闸口冻卡悬念抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.3,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "强拆女儿房与储物间护短",
+      "audible_counts": {
+        "陈默": 2,
+        "沈砚舟": 8,
+        "念念": 3,
+        "刘翠兰": 7,
+        "周子豪": 1,
+        "苏晚晴": 2,
+        "周明轩": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "姨",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外/内　半山壹号别墅庭院至玄关　日",
+          "audible_counts": {
+            "陈默": 2,
+            "沈砚舟": 2,
+            "念念": 1
+          },
+          "vo_counts": {
+            "沈砚舟": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　半山壹号别墅二楼走廊及储物间　日",
+          "audible_counts": {
+            "念念": 2,
+            "刘翠兰": 7,
+            "沈砚舟": 6,
+            "周子豪": 1,
+            "苏晚晴": 2,
+            "周明轩": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "两名装修工"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "夺走度假名额与寒心签离婚",
+      "audible_counts": {
+        "沈砚舟": 6,
+        "苏晚晴": 10,
+        "周明轩": 2,
+        "刘翠兰": 3,
+        "周子豪": 2,
+        "念念": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "姨",
+        "哥",
+        "姐",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　半山壹号别墅客厅　日",
+          "audible_counts": {
+            "沈砚舟": 3,
+            "苏晚晴": 7,
+            "周明轩": 1,
+            "刘翠兰": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周子豪",
+            "念念"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内/外　半山壹号别墅客厅至门廊　日",
+          "audible_counts": {
+            "周子豪": 2,
+            "念念": 1,
+            "苏晚晴": 3,
+            "沈砚舟": 3,
+            "刘翠兰": 2,
+            "周明轩": 1
+          },
+          "vo_counts": {
+            "沈砚舟": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "注销至尊礼遇与闸口悬念",
+      "audible_counts": {
+        "念念": 2,
+        "沈砚舟": 5,
+        "陈默": 4,
+        "王总": 2,
+        "刘翠兰": 3,
+        "周明轩": 1,
+        "苏晚晴": 4,
+        "周子豪": 1,
+        "迎宾主管": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "姨",
+        "爷",
+        "哥",
+        "姐",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　云栖私宅儿童房及书房　夜",
+          "audible_counts": {
+            "念念": 2,
+            "沈砚舟": 5,
+            "陈默": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　云顶海岛庄园跨海迎宾闸口　日",
+          "audible_counts": {
+            "王总": 2,
+            "刘翠兰": 3,
+            "周明轩": 1,
+            "苏晚晴": 4,
+            "周子豪": 1,
+            "迎宾主管": 2
+          },
+          "vo_counts": {
+            "苏晚晴": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

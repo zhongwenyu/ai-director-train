@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是七零年代村口扯皮的活人烟火气！大队长训话、二婶撒泼嚎丧、爷奶护犊子、女主连珠炮反呛，声纹一耳朵就能分清。吵架句句咬死老山参、架子猪、四十块押金等具体账目，短促喝止与顶针反问错落带劲，毫无AI端着的书面腔，可直接进棚录配音。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.5,
+  "rhythm_metrics": {
+    "total_lines": 73,
+    "mean_char_len": 20.7,
+    "char_len_stdev": 9.0,
+    "short_reaction_ratio_le7": 0.11,
+    "twin_clause_symmetry_ratio": 0.027
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "prefix": "ep03_v5",
+  "bgm_segments": [
+    {
+      "label": "夏记谈明同源困局、立三日满座四成分红对赌字据（温暖坚定同盟 CC0）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/freesound-845168.mp3",
+      "start_shot": "3-1-01",
+      "end_shot": "3-1-03",
+      "gain": 0.4,
+      "fade_in": 0.7,
+      "fade_out": 0.7
+    },
+    {
+      "label": "老马退定金断供成品油、林有才门外冷嘲施压（紧迫压迫 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "3-1-04",
+      "end_shot": "3-1-06",
+      "gain": 0.4,
+      "fade_in": 0.6,
+      "fade_out": 0.7
+    },
+    {
+      "label": "当街架铁锅现炼鲜牛板油、醪糟退燥醇香漫街破局迎客（燃爽高潮 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-350.mp3",
+      "start_shot": "3-2-01",
+      "end_shot": "3-2-05",
+      "src_offset": 12.0,
+      "gain": 0.45,
+      "fade_in": 0.8,
+      "fade_out": 0.5
+    }
+  ],
+  "shots": [
+    {
+      "id": "3-1-01",
+      "studioShotId": "addb204a-aed3-4edc-a98f-552bc8144be0",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-1-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 2.8,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "昨晚店里师傅怎么突然跑了？"
+        },
+        {
+          "start": 3.1,
+          "end": 9.6,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "省城那姓楚的开双倍工钱，连夜把人挖走了。当年叶叔救过我爸的急，只要你掌勺，夏记咱五五分！"
+        }
+      ]
+    },
+    {
+      "id": "3-1-02",
+      "studioShotId": "960e8e1c-0c7d-4340-80e7-f3fa80cedba2",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-1-02/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.0,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "交情归交情，我不白拿股，咱们立字据。"
+        },
+        {
+          "start": 4.3,
+          "end": 7.7,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "立啥规矩？我还信不过叶叔的儿子？"
+        }
+      ]
+    },
+    {
+      "id": "3-1-03",
+      "studioShotId": "5d9bc611-ed5e-4b21-b2e6-2304842cf784",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-1-03/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 5.8,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "三天内晚市十二桌满座翻台，我才拿四成分红；要是做不到，我分文不取。"
+        },
+        {
+          "start": 6.1,
+          "end": 9.7,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "痛快！我管账备菜，小寻哥掌勺，咱们这就开火！"
+        }
+      ]
+    },
+    {
+      "id": "3-1-04",
+      "studioShotId": "61ad5ce5-a30a-4ac6-80cc-dfcdec07ca6c",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-1-04/video.mp4",
+      "cues": [
+        {
+          "start": 0.15,
+          "end": 3.8,
+          "kind": "caption",
+          "speaker": "",
+          "text": "老马｜两店共用油料商"
+        },
+        {
+          "start": 0.2,
+          "end": 4.2,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "老马，来得正好！今天送我们夏记的成品老油呢？"
+        },
+        {
+          "start": 4.5,
+          "end": 8.6,
+          "kind": "dialogue",
+          "speaker": "老马",
+          "text": "夏掌柜对不住！二十块定金退你，油我送不了了。"
+        }
+      ]
+    },
+    {
+      "id": "3-1-05",
+      "studioShotId": "93a3e8a0-5f73-4959-8ee8-bb7f900d5928",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-1-05/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 3.1,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "老马，是对门林有才卡我们吧？"
+        },
+        {
+          "start": 3.4,
+          "end": 7.6,
+          "kind": "dialogue",
+          "speaker": "老马",
+          "text": "叶师傅明鉴！林老板拿楚氏大单压我，不准给夏记供油！"
+        }
+      ]
+    },
+    {
+      "id": "3-1-06",
+      "studioShotId": "5d011f71-2a8f-4611-b50e-92f8d05ed4ee",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-1-06/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.1,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "哟，老油断供啦？今晚你们夏记拿白水煮菜嗦！"
+        },
+        {
+          "start": 4.4,
+          "end": 7.1,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "林有才，挖人又断货，你还要不要脸！"
+        },
+        {
+          "start": 7.3,
+          "end": 9.8,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "芊芊，拿两百块钱，我去菜场买鲜牛板油！"
+        }
+      ]
+    },
+    {
+      "id": "3-2-01",
+      "studioShotId": "6f68a507-d4a9-488b-9f47-9c50a541c6bf",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-2-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.15,
+          "end": 3.6,
+          "kind": "caption",
+          "speaker": "",
+          "text": "一小时后 · 晚市前夕"
+        },
+        {
+          "start": 0.2,
+          "end": 4.5,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "叶寻，临上客现买生板油熬？熬出来全是生腥气！"
+        },
+        {
+          "start": 4.8,
+          "end": 8.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "林老板，谁规定老火锅非得靠隔夜陈油撑场面？"
+        }
+      ]
+    },
+    {
+      "id": "3-2-02",
+      "studioShotId": "ac9bf07c-9866-47ba-b26c-14e10665be18",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-2-02/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.2,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "小寻哥，现熬来得及吗？急火催油可容易发苦。"
+        },
+        {
+          "start": 4.5,
+          "end": 8.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "偷学皮毛才怕苦。叶家红汤的根，就在现炼鲜油上。"
+        }
+      ]
+    },
+    {
+      "id": "3-2-03",
+      "studioShotId": "de9121d7-f29b-4b20-b914-6c9c17519b4b",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-2-03/video.mp4",
+      "cues": [
+        {
+          "start": 0.3,
+          "end": 5.2,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "林有才偷看四年，却不知慢火三沸、醪糟退燥才是命门。"
+        },
+        {
+          "start": 5.6,
+          "end": 9.6,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "好香！半点牛腥都没有，闻着还有股清甜劲儿！"
+        }
+      ]
+    },
+    {
+      "id": "3-2-04",
+      "studioShotId": "e679fe44-9f03-409c-a6d3-86175850a6e0",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-2-04/video.mp4",
+      "cues": [
+        {
+          "start": 3.1,
+          "end": 6.7,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "邪门了……生板油现熬，咋没一点焦燥味？"
+        }
+      ]
+    },
+    {
+      "id": "3-2-05",
+      "studioShotId": "b18fe813-e922-42aa-b81a-d977a9ca17a8",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/takes_ep03/3-2-05/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 3.9,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "油成了，开堂迎客！今晚就跟对门比一锅真章！"
+        },
+        {
+          "start": 4.1,
+          "end": 7.1,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "好嘞！夏记清润老火锅，现熬头锅红汤开灶喽！"
+        }
+      ]
+    }
+  ]
+}

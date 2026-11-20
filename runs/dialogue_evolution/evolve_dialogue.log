@@ -1,0 +1,83 @@
+[22:09:01] === Step 1: Auditing Unpolished `d0_raw` (`v6_r1` before Stage 2.5) on Pure-Dialogue Turing Arena ===
+[22:12:06]   [d0_raw] dev_066 (都市情感): turing=REJECT_AI_STAGEY (score=28.75, short=0.0, twin=0.12) | vs_REAL_GT=REAL_GT 
+[22:12:15]   [d0_raw] dev_014 (年代乡村): turing=REJECT_AI_STAGEY (score=30.0, short=0.013, twin=0.118) | vs_REAL_GT=REAL_GT 
+[22:13:24]   [d0_raw] dev_023 (年代乡村): turing=REJECT_AI_STAGEY (score=35.0, short=0.013, twin=0.027) | vs_REAL_GT=REAL_GT 
+[22:16:20]   [d0_raw] dev_098 (都市情感): turing=REJECT_AI_STAGEY (score=31.25, short=0.013, twin=0.107) | vs_REAL_GT=REAL_GT 
+[22:16:26]   [d0_raw] dev_067 (古装穿越): turing=REJECT_AI_STAGEY (score=29.5, short=0.051, twin=0.103) | vs_REAL_GT=REAL_GT 
+[22:17:00]   [d0_raw] dev_112 (玄幻修仙): turing=REJECT_AI_STAGEY (score=38.5, short=0.038, twin=0.218) | vs_REAL_GT=REAL_GT 
+[22:17:00] Unpolished `d0_raw` DEV Dialogue: pass=0/6, mean=32.17, short_ratio=0.021, twin_ratio=0.115, vs_REAL_GT={'total': 6, 'wins': 0, 'ties': 0, 'losses': 6, 'points': 0}, composite=32.17
+[22:17:00] === Step 2: Evaluating Stage 2.5 Dialogue Doctor `d1` on DEV Pure-Dialogue Turing Arena ===
+[22:17:00]   [d1] Polishing dialogue for dev_066 (都市情感)...
+[22:17:00]   [d1] Polishing dialogue for dev_014 (年代乡村)...
+[22:17:00]   [d1] Polishing dialogue for dev_023 (年代乡村)...
+[22:27:40]   [d1] dev_066 (都市情感): turing=PASS_HUMAN_NATURAL (score=93.5, short=0.182, twin=0.023) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[22:27:40]   [d1] Polishing dialogue for dev_067 (古装穿越)...
+[22:28:15]   [d1] dev_023 (年代乡村): turing=PASS_HUMAN_NATURAL (score=94.5, short=0.184, twin=0.057) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[22:28:15]   [d1] Polishing dialogue for dev_098 (都市情感)...
+[22:30:43]   [d1] dev_014 (年代乡村): turing=PASS_HUMAN_NATURAL (score=94.5, short=0.172, twin=0.023) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[22:30:43]   [d1] Polishing dialogue for dev_112 (玄幻修仙)...
+[22:40:01]   [d1] dev_067 (古装穿越): turing=PASS_HUMAN_NATURAL (score=94.25, short=0.231, twin=0.088) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[22:41:04]   [d1] dev_112 (玄幻修仙): turing=PASS_HUMAN_NATURAL (score=92.5, short=0.189, twin=0.089) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[22:48:25]   [d1] dev_098 (都市情感): turing=PASS_HUMAN_NATURAL (score=93.75, short=0.178, twin=0.011) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[22:48:25] Candidate `d1` DEV Dialogue: pass=6/6, mean=93.83, vs_d0_raw={'total': 6, 'wins': 6, 'ties': 0, 'losses': 0}, vs_REAL_GT={'total': 6, 'wins': 0, 'ties': 0, 'losses': 6, 'points': 0}, composite=108.83
+[22:48:25] Invoking isolated Dialogue Meta-Optimizer (agy gemini-4-carbon-medium) `d1` -> `d2`...
+[22:54:22]   Applied 3 dialogue mutations for `d2`: ['prompts/stage2_5_dialogue_polish.md', 'references/dialogue-voice.md', 'prompts/stage2_episodes.md']
+[22:54:22] === Evaluating Mutated Dialogue Doctor `d2` on Stratified Multi-Genre DEV ===
+[22:54:22]   [d2] Polishing dialogue for dev_066 (都市情感)...
+[22:54:22]   [d2] Polishing dialogue for dev_023 (年代乡村)...
+[22:54:22]   [d2] Polishing dialogue for dev_014 (年代乡村)...
+[23:06:46]   [d2] dev_023 (年代乡村): turing=PASS_HUMAN_NATURAL (score=95.0, short=0.229, twin=0.048) | vs_REAL_GT=TIE | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[23:06:46]   [d2] Polishing dialogue for dev_067 (古装穿越)...
+[23:07:57]   [d2] dev_014 (年代乡村): turing=PASS_HUMAN_NATURAL (score=95.25, short=0.253, twin=0.048) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[23:07:57]   [d2] Polishing dialogue for dev_098 (都市情感)...
+[23:09:17]   [d2] dev_066 (都市情感): turing=PASS_HUMAN_NATURAL (score=95.0, short=0.247, twin=0.072) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[23:09:17]   [d2] Polishing dialogue for dev_112 (玄幻修仙)...
+[23:20:35]   [d2] dev_067 (古装穿越): turing=REJECT_AI_STAGEY (score=40.0, short=0.247, twin=0.071) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CHAMP 
+[23:24:23]   [d2] dev_098 (都市情感): turing=PASS_HUMAN_NATURAL (score=91.5, short=0.227, twin=0.091) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[23:30:50]   [d2] dev_112 (玄幻修仙): turing=PASS_HUMAN_NATURAL (score=94.75, short=0.23, twin=0.13) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CHAMP 
+[23:30:50] REJECTED `d2` (vs_champ={'wins': 4, 'ties': 0, 'losses': 2}, composite 101.5 vs 108.83); keeping `d1`.
+[23:30:50] Invoking isolated Dialogue Meta-Optimizer (agy gemini-4-carbon-medium) `d1` -> `d3`...
+[23:38:44]   Applied 3 dialogue mutations for `d3`: ['prompts/stage2_5_dialogue_polish.md', 'references/dialogue-voice.md', 'prompts/stage2_episodes.md']
+[23:38:44] === Evaluating Mutated Dialogue Doctor `d3` on Stratified Multi-Genre DEV ===
+[23:38:44]   [d3] Polishing dialogue for dev_014 (年代乡村)...
+[23:38:44]   [d3] Polishing dialogue for dev_023 (年代乡村)...
+[23:38:44]   [d3] Polishing dialogue for dev_066 (都市情感)...
+[23:59:39] === Step 1: Auditing Unpolished `d0_raw` (`v6_r1` before Stage 2.5) on Pure-Dialogue Turing Arena ===
+[23:59:39]   [d0_raw] dev_014 (年代乡村): turing=REJECT_AI_STAGEY (score=30.0, short=0.013, twin=0.118) | vs_REAL_GT=REAL_GT 
+[23:59:39]   [d0_raw] dev_066 (都市情感): turing=REJECT_AI_STAGEY (score=28.75, short=0.0, twin=0.12) | vs_REAL_GT=REAL_GT 
+[23:59:39]   [d0_raw] dev_023 (年代乡村): turing=REJECT_AI_STAGEY (score=35.0, short=0.013, twin=0.027) | vs_REAL_GT=REAL_GT 
+[23:59:39]   [d0_raw] dev_067 (古装穿越): turing=REJECT_AI_STAGEY (score=29.5, short=0.051, twin=0.103) | vs_REAL_GT=REAL_GT 
+[23:59:39]   [d0_raw] dev_098 (都市情感): turing=REJECT_AI_STAGEY (score=31.25, short=0.013, twin=0.107) | vs_REAL_GT=REAL_GT 
+[23:59:39]   [d0_raw] dev_112 (玄幻修仙): turing=REJECT_AI_STAGEY (score=38.5, short=0.038, twin=0.218) | vs_REAL_GT=REAL_GT 
+[23:59:39] Unpolished `d0_raw` DEV Dialogue: pass=0/6, mean=32.17, short_ratio=0.021, twin_ratio=0.115, vs_REAL_GT={'total': 6, 'wins': 0, 'ties': 0, 'losses': 6, 'points': 0}, composite=32.17
+[23:59:39] === Step 2: Evaluating Stage 2.5 Dialogue Doctor `d1` on DEV Pure-Dialogue Turing Arena ===
+[23:59:39]   [d1] dev_066 (都市情感): turing=PASS_HUMAN_NATURAL (score=93.5, short=0.182, twin=0.023) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[23:59:39]   [d1] dev_014 (年代乡村): turing=PASS_HUMAN_NATURAL (score=94.5, short=0.172, twin=0.023) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[23:59:39]   [d1] dev_067 (古装穿越): turing=PASS_HUMAN_NATURAL (score=94.25, short=0.231, twin=0.088) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[23:59:39]   [d1] dev_023 (年代乡村): turing=PASS_HUMAN_NATURAL (score=94.5, short=0.184, twin=0.057) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[23:59:39]   [d1] dev_098 (都市情感): turing=PASS_HUMAN_NATURAL (score=93.75, short=0.178, twin=0.011) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[23:59:39]   [d1] dev_112 (玄幻修仙): turing=PASS_HUMAN_NATURAL (score=92.5, short=0.189, twin=0.089) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED 
+[23:59:39] Candidate `d1` DEV Dialogue: pass=6/6, mean=93.83, vs_d0_raw={'total': 6, 'wins': 6, 'ties': 0, 'losses': 0}, vs_REAL_GT={'total': 6, 'wins': 0, 'ties': 0, 'losses': 6, 'points': 0}, composite=108.83
+[23:59:39] === Evaluating Mutated Dialogue Doctor `d2` on Stratified Multi-Genre DEV ===
+[23:59:39]   [d2] dev_014 (年代乡村): turing=PASS_HUMAN_NATURAL (score=95.25, short=0.253, twin=0.048) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[23:59:39]   [d2] dev_066 (都市情感): turing=PASS_HUMAN_NATURAL (score=95.0, short=0.247, twin=0.072) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[23:59:39]   [d2] dev_023 (年代乡村): turing=PASS_HUMAN_NATURAL (score=95.0, short=0.229, twin=0.048) | vs_REAL_GT=TIE | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[23:59:39]   [d2] dev_098 (都市情感): turing=PASS_HUMAN_NATURAL (score=91.5, short=0.227, twin=0.091) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[23:59:39]   [d2] dev_067 (古装穿越): turing=REJECT_AI_STAGEY (score=40.0, short=0.247, twin=0.071) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CHAMP 
+[23:59:39]   [d2] dev_112 (玄幻修仙): turing=PASS_HUMAN_NATURAL (score=94.75, short=0.23, twin=0.13) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CHAMP 
+[23:59:39] REJECTED `d2` (vs_champ={'wins': 4, 'ties': 0, 'losses': 2}, composite 101.5 vs 108.83); keeping `d1`.
+[23:59:39] === Evaluating Mutated Dialogue Doctor `d3` on Stratified Multi-Genre DEV ===
+[00:03:31]   [d3] dev_023 (年代乡村): turing=PASS_HUMAN_NATURAL (score=95.0, short=0.231, twin=0.066) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[00:03:31]   [d3] Polishing dialogue for dev_067 (古装穿越)...
+[00:03:57]   [d3] dev_066 (都市情感): turing=PASS_HUMAN_NATURAL (score=92.25, short=0.219, twin=0.083) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[00:03:57]   [d3] Polishing dialogue for dev_098 (都市情感)...
+[00:04:35]   [d3] dev_014 (年代乡村): turing=PASS_HUMAN_NATURAL (score=94.25, short=0.263, twin=0.063) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[00:04:35]   [d3] Polishing dialogue for dev_112 (玄幻修仙)...
+[00:19:49]   [d3] dev_098 (都市情感): turing=PASS_HUMAN_NATURAL (score=90.0, short=0.223, twin=0.064) | vs_REAL_GT=TIE | vs_RAW=POLISHED | vs_CHAMP=CAND 
+[00:21:27]   [d3] dev_067 (古装穿越): turing=PASS_HUMAN_NATURAL (score=94.0, short=0.247, twin=0.075) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=TIE 
+[00:22:26]   [d3] dev_112 (玄幻修仙): turing=PASS_HUMAN_NATURAL (score=93.5, short=0.226, twin=0.161) | vs_REAL_GT=REAL_GT | vs_RAW=POLISHED | vs_CHAMP=TIE 
+[00:22:26] PROMOTED `d3` -> NEW DIALOGUE CHAMPION! (vs_champ={'wins': 4, 'ties': 2, 'losses': 0}, composite 108.83 -> 111.92)
+[00:22:26] === Running LOCKED UNSEEN TEST + OOD Pure-Dialogue + Plot-Safety Evaluation (7 cases) on `d3` ===
+[00:22:26]   [d3_TEST] Polishing dialogue for test_007 (都市情感)...
+[00:22:26]   [d3_TEST] Polishing dialogue for test_011 (年代乡村)...
+[00:22:26]   [d3_TEST] Polishing dialogue for test_054 (都市情感)...

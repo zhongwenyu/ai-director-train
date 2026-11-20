@@ -1,0 +1,60 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "爷，这兔腿您跟奶分着吃，补补您那老腰！往后有我呢，亏不着咱家嘴。",
+      "quote": "爷养腰伤奶补身子，往后咱家不缺肉吃。"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "丑话说前头啊，没介绍信的生人，谁往家领，谁摁手印担全责！出了事别赖大队！",
+      "quote": "无证伤员谁领走谁立字据担全责！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "大白天翻窗偷我家白面？松手！再拽手给你拧折了！",
+      "quote": "大白天翻窗偷我爷奶二十斤养老白面，手不想要了？"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "这是你堂姐家？嚯，这么敞亮的瓦房！愣着干啥，快抬我进去躺着！",
+      "quote": "这就是你堂姐家？快把我抬进青砖大瓦房去！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "哪是我们吃的呀，隔壁大房关着门炖肉呢，馋得我跟我妈还直咽口水呢！",
+      "quote": "那是隔壁大房炖的野兔，我们娘俩也饿着肚子呢！"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "少了个吸血鬼折腾，这山上啥野味没有？够我把爷奶养得白白胖胖的。",
+      "quote": "甩开那白眼狼，好日子我凭手艺照样挣。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "我看谁敢往我家塞野男人！今儿谁敢硬抬进来，老婆子拿菜刀剁了他！",
+      "quote": "谁逼我孙女往屋里捡野男人，先问过这把刀！"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "咳……拿这种喇嗓子的糠糊糊打发我？没肉没细粮……等我回城，你们一分钱好处也别想捞！",
+      "quote": "见不着肉和白面，往后别指望我家承你们半点情！"
+    }
+  ],
+  "ear_test_impression": "一耳朵就是AI按字数切出来的“双分句电报腔”！虽塞了工分、粗糠等年代词，但全村老少连同高烧伤员，句句锁死在14～20字的两分句模具里，零短促反应与口语碎词，还频频替大纲硬报“二十斤养老白面”“青砖大瓦房”等设定，像排队念快板。",
+  "scores": {
+    "character_voice_distinction": 4,
+    "conversational_bite_and_rhythm": 2.5,
+    "spoken_naturalness": 3.5,
+    "subtext_and_micro_specificity": 5.5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 38.75,
+  "rhythm_metrics": {
+    "total_lines": 78,
+    "mean_char_len": 16.0,
+    "char_len_stdev": 3.3,
+    "short_reaction_ratio_le7": 0.013,
+    "twin_clause_symmetry_ratio": 0.256
+  }
+}

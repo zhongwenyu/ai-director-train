@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈建国",
+  "episode_count": 3,
+  "mean_est_duration_sec": 138.3,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "纪念日的裂盒",
+      "scenes": 2,
+      "actions": 13,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 533,
+      "avg_line_chars": 21.3,
+      "est_duration_sec": 143.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "偏不离婚",
+      "scenes": 3,
+      "actions": 9,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 506,
+      "avg_line_chars": 20.2,
+      "est_duration_sec": 132.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "当众撕碎的美梦",
+      "scenes": 2,
+      "actions": 11,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 528,
+      "avg_line_chars": 21.1,
+      "est_duration_sec": 138.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

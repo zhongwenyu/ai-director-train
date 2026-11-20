@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 183.4,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "三千六百块买断亲情",
+      "scenes": 3,
+      "actions": 27,
+      "dialogue_lines": 19,
+      "vo_lines": 2,
+      "spoken_chars": 772,
+      "avg_line_chars": 36.8,
+      "est_duration_sec": 217.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "报废老车的临终遗言",
+      "scenes": 3,
+      "actions": 18,
+      "dialogue_lines": 14,
+      "vo_lines": 3,
+      "spoken_chars": 576,
+      "avg_line_chars": 33.9,
+      "est_duration_sec": 160.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "当街截胡，现钞两千五！",
+      "scenes": 2,
+      "actions": 19,
+      "dialogue_lines": 17,
+      "vo_lines": 0,
+      "spoken_chars": 638,
+      "avg_line_chars": 37.5,
+      "est_duration_sec": 173.1,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集预估时长偏长（217.0s > 190s），注意节奏拖沓"
+  ]
+}

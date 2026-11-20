@@ -1,0 +1,16 @@
+{
+  "eval_id": "test_085_ep01",
+  "genre": "都市清醒搞钱",
+  "trained_score": 71.0,
+  "naive_score": 49.0,
+  "claude_s4_score": 60.0,
+  "trained_cam_score": 20,
+  "naive_cam_score": 6,
+  "claude_s4_cam_score": 16,
+  "pk_vs_naive": "HIT_STORYBOARD",
+  "pk_vs_claude_s4": "HIT_STORYBOARD",
+  "active_cam_pct": 15.9,
+  "shots": 44,
+  "groups": 15,
+  "why_beats_claude_s4": "A胜在关键戏有镜头承重，且给表演留出了时间，而非表格更长。①运镜：扔外套横移、随蹲下摇、结尾逼问推近，分别承接地位羞辱、注意力反转和开价施压，路径与停止位置比B明确；但剪裙时的震动属于多余装饰，建议删除。②视觉钩子：贺卡归属揭晓→管家隐忍→男主试探落空→报出价格后的双人反应→悬笔与女主欲言，信息与情绪逐级兑现；长对白通过反应切镜继续施压。③接缝：跨组补写持物、人物位置和画外状态，尤其裙摆抽回、剪刀落桌、贺卡取出，明显降低道具瞬移风险。④声音：长句安排连续声音窗口，明确同步、L"
+}

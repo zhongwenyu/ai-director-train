@@ -1,0 +1,40 @@
+{
+  "headers": {
+    "X-Task-Id": "cfd6142b81014358ba94be0f55eb7d14",
+    "X-Task-Type": "ref2va",
+    "X-Model": "Pika-H3-Flex",
+    "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "X-Precision": "int8",
+    "X-Pruned": "true",
+    "X-Duration": "9.417",
+    "X-Resolution": "480x832",
+    "X-Steps": "6",
+    "X-Audio-Generated": "true",
+    "X-Queue-Wait-S": "0.0",
+    "X-E2E-S": "90.252",
+    "X-Turbo": "false",
+    "X-Frames": "226",
+    "X-Requested-Duration": "9.0",
+    "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
+    "X-SOL": "false",
+    "X-SOL-Tau": "none",
+    "X-Sampler": "lcm"
+  },
+  "elapsed_s": 90.26,
+  "seed": 9101,
+  "requested_duration": 9,
+  "actual_duration": 9.417,
+  "width": 480,
+  "height": 832,
+  "has_audio": true,
+  "ref_images_1k": [
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/keyframes_1k/1-1-01_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/7cf4b125-052f-40b5-b910-2e757657d808_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/e7103299-3c66-4f69-ace0-156e25de97df_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/a4cc731c-eb3d-4784-a8db-5cc124fe8b07_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/8f051edf-6fbe-433a-8d45-e0a226c0e283_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/8ca8c8f1-1435-4a95-9a7e-8251980a2638_main_1k.png"
+  ],
+  "ref_audios": []
+}

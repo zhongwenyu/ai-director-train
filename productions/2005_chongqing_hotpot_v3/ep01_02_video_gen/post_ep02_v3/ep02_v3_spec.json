@@ -1,0 +1,212 @@
+{
+  "prefix": "ep02_v3",
+  "bgm_segments": [
+    {
+      "label": "清晨现炼头刀鲜牛板油 vs 对门干炸焦苦废汤（紧凑烟火博弈 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "2-1-01",
+      "end_shot": "2-2-01",
+      "gain": 0.4,
+      "fade_in": 0.8,
+      "fade_out": 0.8
+    },
+    {
+      "label": "当街端出清润红汤试吃惊艳、十二桌工友满席过街（燃爽逆袭高潮 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-350.mp3",
+      "start_shot": "2-2-02",
+      "end_shot": "2-2-04",
+      "src_offset": 14.0,
+      "gain": 0.45,
+      "fade_in": 0.8,
+      "fade_out": 0.8
+    },
+    {
+      "label": "恶意实名举报违禁药壳封样快检与叶寻从容关火迎战（悬疑钩子卡点 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-sfx-682.wav",
+      "start_shot": "2-2-05",
+      "start_delta": 4.5,
+      "end_shot": "2-2-06",
+      "align_end": true,
+      "gain": 0.5,
+      "fade_in": 0.8,
+      "fade_out": 0.25
+    }
+  ],
+  "shots": [
+    {
+      "id": "2-1-01",
+      "studioShotId": "b6ac28ae-dbf4-45dc-89a5-e5db5cd18e9d",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-1-01/video.mp4",
+      "cues": [
+        {
+          "start": 0.3,
+          "end": 4.2,
+          "kind": "caption",
+          "speaker": "",
+          "text": "次日清晨 · 距机械厂十二桌开席还有五小时"
+        }
+      ]
+    },
+    {
+      "id": "2-1-02",
+      "studioShotId": "87af4cf2-0ba0-46c5-8600-c8fe57370c95",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-1-02/video.mp4",
+      "cues": [
+        {
+          "start": 1.7,
+          "end": 4.8,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "爸，工友们快入席了，这油味怎么发苦？"
+        },
+        {
+          "start": 6.8,
+          "end": 11.5,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "我偷瞄过十来回，药材下油锅炸准没错！多搁两勺糖压压！"
+        }
+      ]
+    },
+    {
+      "id": "2-1-03",
+      "studioShotId": "86838b6e-a952-4823-b20f-cb8819c3c515",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-1-03/video.mp4",
+      "cues": [
+        {
+          "start": 0.25,
+          "end": 5.4,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "干药材下高温老油必炸成苦炭。林有才，这十二桌席你咽不下去。"
+        },
+        {
+          "start": 8.6,
+          "end": 13.3,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "太香了！鲜毛肚和配菜全冰镇备齐，随时开席！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-01",
+      "studioShotId": "65944bf3-ca0c-41f3-9c61-241fa0e8f7d0",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-2-01/video.mp4",
+      "cues": [
+        {
+          "start": 6.1,
+          "end": 11.3,
+          "kind": "dialogue",
+          "speaker": "周有福",
+          "text": "林老板，又焦又苦还呛嗓子，这就是你吹的清润红汤？"
+        }
+      ]
+    },
+    {
+      "id": "2-2-02",
+      "studioShotId": "4e4f2e49-34e2-4f44-a4d5-4d19b881dba6",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-2-02/video.mp4",
+      "cues": [
+        {
+          "start": 0.2,
+          "end": 4.8,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "周厂长，草本入汤难免带苦，喝口酸梅汤压压就顺了！"
+        },
+        {
+          "start": 10.1,
+          "end": 13.5,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "正宗清润红汤，可不用酸梅汤硬压！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-03",
+      "studioShotId": "8aaa2cf6-dd36-4b89-b4ca-5a06e44490bb",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-2-03/video.mp4",
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 4.2,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "别信！夏记连牛油都被断了，拿什么接十二桌大席？"
+        },
+        {
+          "start": 4.6,
+          "end": 9.6,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "我用头刀鲜板油现熬。林记前四年的招牌汤，本就是我炒的。"
+        },
+        {
+          "start": 10.1,
+          "end": 14.8,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "桌灶鲜菜早备齐了！周厂长尝一口，有一丝苦味分文不收！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-04",
+      "studioShotId": "d152e3c3-21ac-4cf5-a70e-126df698609d",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-2-04/video.mp4",
+      "cues": [
+        {
+          "start": 4.8,
+          "end": 8.8,
+          "kind": "dialogue",
+          "speaker": "周有福",
+          "text": "醇香生津，脆嫩化渣！这才是真手艺！"
+        },
+        {
+          "start": 9.9,
+          "end": 13.3,
+          "kind": "dialogue",
+          "speaker": "周有福",
+          "text": "林记退单！工友们，过街坐夏记！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-05",
+      "studioShotId": "4100236f-fc2f-4640-81ad-93ac8372a3c4",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-2-05/video.mp4",
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 4.6,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "陈科长！我实名举报夏记往汤里偷加违禁药壳提香！"
+        },
+        {
+          "start": 5.0,
+          "end": 9.1,
+          "kind": "dialogue",
+          "speaker": "陈科长",
+          "text": "接到实名举报，请立刻熄火封样，配合现场快检！"
+        }
+      ]
+    },
+    {
+      "id": "2-2-06",
+      "studioShotId": "83b3dcdf-1b94-40dc-887d-eb47cf2ec5e8",
+      "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/takes_ep02/2-2-06/video.mp4",
+      "cues": [
+        {
+          "start": 0.1,
+          "end": 5.9,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "吃着黑心锅还不跑？楚氏总店刚送来招牌红汤，对门全场免单！"
+        }
+      ]
+    }
+  ]
+}

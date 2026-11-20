@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 125.8,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "惊雷劈开黄金窝",
+      "scenes": 3,
+      "actions": 19,
+      "dialogue_lines": 13,
+      "vo_lines": 2,
+      "spoken_chars": 370,
+      "avg_line_chars": 24.7,
+      "est_duration_sec": 116.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "借刀压匪狂赚三千八",
+      "scenes": 3,
+      "actions": 19,
+      "dialogue_lines": 13,
+      "vo_lines": 1,
+      "spoken_chars": 453,
+      "avg_line_chars": 32.4,
+      "est_duration_sec": 134.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 5 集混入摄影/水印术语：['水印']"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "毕业家宴的笑脸毒饼",
+      "scenes": 2,
+      "axis_headers": 2,
+      "shots": 39,
+      "groups": 13,
+      "seam_anchors": 13,
+      "total_sec": 153.0,
+      "asl_sec": 3.92,
+      "active_cam_shots": 6,
+      "active_cam_pct": 15.4,
+      "wide_pct": 5.1,
+      "talk_shots": 22,
+      "vo_shots": 2,
+      "crammed_speech_count": 0,
+      "compound_cam_count": 0
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

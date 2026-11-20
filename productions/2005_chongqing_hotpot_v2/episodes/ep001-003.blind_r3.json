@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "verdict": "PASS",
+  "blocked_episodes": [],
+  "episodes": [
+    {
+      "episode": 1,
+      "understood_plot": "叶寻帮林家上市却遭卸磨杀驴，重生回05年果断收回火锅秘方翻脸，出门正撞见学姐家的餐馆被人砸店。",
+      "viewer_hook_score": 9.0,
+      "unexplained_leaps": [],
+      "timeline_glitches": [],
+      "cringe_or_ad_moments": [],
+      "forced_hooks": [],
+      "verdict": "PASS",
+      "defect_count": 0
+    },
+    {
+      "episode": 2,
+      "understood_plot": "叶寻快炒救场赶走坐地起价的厨师，想拿存款和方子入伙改开火锅，却被夏芊芊质疑是跟林双双赌气。",
+      "viewer_hook_score": 9.0,
+      "unexplained_leaps": [],
+      "timeline_glitches": [],
+      "cringe_or_ad_moments": [],
+      "forced_hooks": [],
+      "verdict": "PASS",
+      "defect_count": 0
+    },
+    {
+      "episode": 3,
+      "understood_plot": "叶寻熬出不呛嗓的清润火锅征服夏家父女并签约入股；开业前夕遭楚南五折牛排抢客，他决定支锅上街反击。",
+      "viewer_hook_score": 9.1,
+      "unexplained_leaps": [],
+      "timeline_glitches": [],
+      "cringe_or_ad_moments": [],
+      "forced_hooks": [],
+      "verdict": "PASS",
+      "defect_count": 0
+    }
+  ]
+}

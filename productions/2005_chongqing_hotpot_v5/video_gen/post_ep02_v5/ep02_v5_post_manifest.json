@@ -1,0 +1,490 @@
+{
+  "total_duration": 110.848,
+  "vtt_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/post_ep02_v5/ep02_v5_subtitles.vtt",
+  "bgm_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/post_ep02_v5/ep02_v5_bgm.mp3",
+  "bgm_segments": [
+    {
+      "label": "原桌拆穿四年吸血旧账与楚南私情对峙（冷冽交锋 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "2-1-01",
+      "end_shot": "2-1-06",
+      "gain": 0.4,
+      "fade_in": 0.6,
+      "fade_out": 0.8,
+      "start": 0.0,
+      "end": 64.876
+    },
+    {
+      "label": "茶碗毁稿、拧死燃气总阀摘下亡父老铁勺断恩出门（燃爽决断 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-350.mp3",
+      "start_shot": "2-1-07",
+      "end_shot": "2-2-03",
+      "src_offset": 8.0,
+      "gain": 0.43,
+      "fade_in": 0.6,
+      "fade_out": 0.5,
+      "start": 64.876,
+      "end": 110.848
+    }
+  ],
+  "shots": [
+    {
+      "id": "2-1-01",
+      "studioShotId": "bf25d390-43aa-4bad-be1c-ecb1fdd3328a",
+      "duration": 9.417,
+      "bgmOffset": 0.0,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 4.0,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "阿寻哥，你胡说啥，什么进门不进门的！"
+        },
+        {
+          "start": 4.3,
+          "end": 8.6,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "小寻，林叔看你长大，一家人你说啥子怪话？"
+        }
+      ]
+    },
+    {
+      "id": "2-1-02",
+      "studioShotId": "c3ff771c-e696-4799-8f63-cd662e395f8f",
+      "duration": 10.125,
+      "bgmOffset": 9.417,
+      "subtitles": [
+        {
+          "start": 1.15,
+          "end": 4.6,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "一家人？熟练大厨月薪两千二，林叔给我发多少？"
+        },
+        {
+          "start": 4.9,
+          "end": 9.6,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "每月四百零花还少？余钱不是替你攒着娶双双吗！"
+        }
+      ]
+    },
+    {
+      "id": "2-1-03",
+      "studioShotId": "31d5bb72-7c7f-4f0c-8bba-77a0f04f1384",
+      "duration": 10.125,
+      "bgmOffset": 19.542,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 3.5,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "攒彩礼，还是拿我的手艺钱供她读完四年大学？"
+        },
+        {
+          "start": 3.7,
+          "end": 6.5,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "当年是你甘愿供我的，现在翻什么旧账！"
+        },
+        {
+          "start": 6.7,
+          "end": 9.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "我是供未婚妻，不是替省城楚少楚南养女人。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-04",
+      "studioShotId": "0c220326-6b9a-411a-be2e-71354ad14dbe",
+      "duration": 14.959,
+      "bgmOffset": 29.667,
+      "subtitles": [
+        {
+          "start": 0.75,
+          "end": 2.65,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "你……你怎么知道楚南哥？"
+        },
+        {
+          "start": 4.9,
+          "end": 11.35,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "大四实习你就跟了他，等三天后他来验汤，好拿全方献宝吧？"
+        },
+        {
+          "start": 11.48,
+          "end": 14.8,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "前世直到死前，我才知楚南一直在幕后等摘桃子。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-05",
+      "studioShotId": "3010fc71-e7ff-436c-bbc2-0d1fb7ea0dcc",
+      "duration": 10.125,
+      "bgmOffset": 44.626,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 3.5,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "行，既然看穿了，林叔也不跟你装糊涂。"
+        },
+        {
+          "start": 3.7,
+          "end": 6.9,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "人往高处走！楚少肯注资二十万，你给得起吗？"
+        },
+        {
+          "start": 7.1,
+          "end": 9.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "二十万买我叶家祖传锅底，算盘打得真响。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-06",
+      "studioShotId": "780936e7-5b4a-4846-85b1-9a4d77df6aab",
+      "duration": 10.125,
+      "bgmOffset": 54.751,
+      "subtitles": [
+        {
+          "start": 0.3,
+          "end": 9.5,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "少拿乔！你炒料四年，二十多味香料顺序我早看熟了！有楚少二十万撑腰，离了我林记，你连口铁锅都支不起！"
+        }
+      ]
+    },
+    {
+      "id": "2-1-07",
+      "studioShotId": "69c6a0bf-fdca-46dc-b68d-8a1c6e2e7a92",
+      "duration": 7.292,
+      "bgmOffset": 64.876,
+      "subtitles": [
+        {
+          "start": 3.1,
+          "end": 6.6,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "你干啥！把试配单捞出来！"
+        }
+      ]
+    },
+    {
+      "id": "2-1-08",
+      "studioShotId": "9208c6bb-9c81-4090-8b0a-af6077304038",
+      "duration": 5.25,
+      "bgmOffset": 72.168,
+      "subtitles": [
+        {
+          "start": 0.25,
+          "end": 5.05,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "灶火我替林家烧了四年，今天撤勺熄火，两清了。"
+        }
+      ]
+    },
+    {
+      "id": "2-1-09",
+      "studioShotId": "7502cd03-187f-499a-be90-04ec40576403",
+      "duration": 8.0,
+      "bgmOffset": 77.418,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 4.4,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "你身无分文出门，不出三天就得回来求我爸！"
+        },
+        {
+          "start": 4.7,
+          "end": 7.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "三天后谁求谁，走着瞧。"
+        }
+      ]
+    },
+    {
+      "id": "2-2-01",
+      "studioShotId": "cf75370e-b89b-4dd5-9e4e-ba506bcea32f",
+      "duration": 9.417,
+      "bgmOffset": 85.418,
+      "subtitles": [
+        {
+          "start": 0.15,
+          "end": 3.8,
+          "kind": "caption",
+          "speaker": "",
+          "text": "夏芊芊｜对门夏记少掌柜 · 叶家世交"
+        },
+        {
+          "start": 0.3,
+          "end": 3.9,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "小寻哥！真跟林有才断干净了？"
+        },
+        {
+          "start": 4.2,
+          "end": 8.6,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "芊芊？嗯，火熄了，往后跟林记再无瓜葛。"
+        }
+      ]
+    },
+    {
+      "id": "2-2-02",
+      "studioShotId": "1db323e2-4717-49c1-bac9-aafef327e286",
+      "duration": 9.417,
+      "bgmOffset": 94.835,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 4.3,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "夏丫头，你店里昨晚刚跑了师傅，自身都难保喽！"
+        },
+        {
+          "start": 4.6,
+          "end": 8.7,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "林老板还是先操心今晚自己的锅底能不能熬响吧。"
+        }
+      ]
+    },
+    {
+      "id": "2-2-03",
+      "studioShotId": "7614c76d-4f17-46c2-baef-1e7bb19118bd",
+      "duration": 6.596,
+      "bgmOffset": 104.252,
+      "subtitles": [
+        {
+          "start": 0.15,
+          "end": 4.85,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "说得好！叶叔的老铁勺还在，小寻哥，来我夏记掌勺敢不敢？"
+        }
+      ]
+    }
+  ],
+  "episode_subtitles": [
+    {
+      "start": 0.2,
+      "end": 4.0,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "阿寻哥，你胡说啥，什么进门不进门的！",
+      "shotId": "2-1-01"
+    },
+    {
+      "start": 4.3,
+      "end": 8.6,
+      "kind": "dialogue",
+      "speaker": "林有才",
+      "text": "小寻，林叔看你长大，一家人你说啥子怪话？",
+      "shotId": "2-1-01"
+    },
+    {
+      "start": 10.567,
+      "end": 14.017,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "一家人？熟练大厨月薪两千二，林叔给我发多少？",
+      "shotId": "2-1-02"
+    },
+    {
+      "start": 14.317,
+      "end": 19.017,
+      "kind": "dialogue",
+      "speaker": "林有才",
+      "text": "每月四百零花还少？余钱不是替你攒着娶双双吗！",
+      "shotId": "2-1-02"
+    },
+    {
+      "start": 19.742,
+      "end": 23.042,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "攒彩礼，还是拿我的手艺钱供她读完四年大学？",
+      "shotId": "2-1-03"
+    },
+    {
+      "start": 23.242,
+      "end": 26.042,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "当年是你甘愿供我的，现在翻什么旧账！",
+      "shotId": "2-1-03"
+    },
+    {
+      "start": 26.242,
+      "end": 29.242,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "我是供未婚妻，不是替省城楚少楚南养女人。",
+      "shotId": "2-1-03"
+    },
+    {
+      "start": 30.417,
+      "end": 32.317,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "你……你怎么知道楚南哥？",
+      "shotId": "2-1-04"
+    },
+    {
+      "start": 34.567,
+      "end": 41.017,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "大四实习你就跟了他，等三天后他来验汤，好拿全方献宝吧？",
+      "shotId": "2-1-04"
+    },
+    {
+      "start": 41.147,
+      "end": 44.467,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "前世直到死前，我才知楚南一直在幕后等摘桃子。",
+      "shotId": "2-1-04"
+    },
+    {
+      "start": 44.826,
+      "end": 48.126,
+      "kind": "dialogue",
+      "speaker": "林有才",
+      "text": "行，既然看穿了，林叔也不跟你装糊涂。",
+      "shotId": "2-1-05"
+    },
+    {
+      "start": 48.326,
+      "end": 51.526,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "人往高处走！楚少肯注资二十万，你给得起吗？",
+      "shotId": "2-1-05"
+    },
+    {
+      "start": 51.726,
+      "end": 54.326,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "二十万买我叶家祖传锅底，算盘打得真响。",
+      "shotId": "2-1-05"
+    },
+    {
+      "start": 55.051,
+      "end": 64.251,
+      "kind": "dialogue",
+      "speaker": "林有才",
+      "text": "少拿乔！你炒料四年，二十多味香料顺序我早看熟了！有楚少二十万撑腰，离了我林记，你连口铁锅都支不起！",
+      "shotId": "2-1-06"
+    },
+    {
+      "start": 67.976,
+      "end": 71.476,
+      "kind": "dialogue",
+      "speaker": "林有才",
+      "text": "你干啥！把试配单捞出来！",
+      "shotId": "2-1-07"
+    },
+    {
+      "start": 72.418,
+      "end": 77.218,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "灶火我替林家烧了四年，今天撤勺熄火，两清了。",
+      "shotId": "2-1-08"
+    },
+    {
+      "start": 77.618,
+      "end": 81.818,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "你身无分文出门，不出三天就得回来求我爸！",
+      "shotId": "2-1-09"
+    },
+    {
+      "start": 82.118,
+      "end": 85.118,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "三天后谁求谁，走着瞧。",
+      "shotId": "2-1-09"
+    },
+    {
+      "start": 85.568,
+      "end": 89.218,
+      "kind": "caption",
+      "speaker": "",
+      "text": "夏芊芊｜对门夏记少掌柜 · 叶家世交",
+      "shotId": "2-2-01"
+    },
+    {
+      "start": 85.718,
+      "end": 89.318,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "小寻哥！真跟林有才断干净了？",
+      "shotId": "2-2-01"
+    },
+    {
+      "start": 89.618,
+      "end": 94.018,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "芊芊？嗯，火熄了，往后跟林记再无瓜葛。",
+      "shotId": "2-2-01"
+    },
+    {
+      "start": 95.035,
+      "end": 99.135,
+      "kind": "dialogue",
+      "speaker": "林有才",
+      "text": "夏丫头，你店里昨晚刚跑了师傅，自身都难保喽！",
+      "shotId": "2-2-02"
+    },
+    {
+      "start": 99.435,
+      "end": 103.535,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "林老板还是先操心今晚自己的锅底能不能熬响吧。",
+      "shotId": "2-2-02"
+    },
+    {
+      "start": 104.402,
+      "end": 109.102,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "说得好！叶叔的老铁勺还在，小寻哥，来我夏记掌勺敢不敢？",
+      "shotId": "2-2-03"
+    }
+  ]
+}

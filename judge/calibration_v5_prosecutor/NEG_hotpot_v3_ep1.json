@@ -1,0 +1,214 @@
+{
+  "ok": false,
+  "verdict": "CONVICT_REWRITE",
+  "blocked_episodes": [
+    1
+  ],
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "四年熬油今撤火",
+      "audible_counts": {
+        "林双双": 3,
+        "楚南": 3,
+        "林有才": 2,
+        "叶寻": 3,
+        "夏芊芊": 4
+      },
+      "unintroduced_speakers": [
+        "楚南",
+        "林有才"
+      ],
+      "kinship_or_titles_heard": [
+        "爷",
+        "厂长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　林记火锅大堂　夜",
+          "audible_counts": {
+            "林双双": 2,
+            "楚南": 1,
+            "林有才": 2,
+            "叶寻": 2
+          },
+          "vo_counts": {
+            "叶寻": 1
+          },
+          "mute_present_characters": [
+            "夏芊芊"
+          ]
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外/内　青石板老街及夏记老火锅　夜",
+          "audible_counts": {
+            "夏芊芊": 4,
+            "楚南": 2,
+            "林双双": 1,
+            "叶寻": 1
+          },
+          "vo_counts": {
+            "叶寻": 1
+          },
+          "mute_present_characters": [
+            "林有才"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "现炼红汤满席过街",
+      "audible_counts": {
+        "林双双": 4,
+        "林有才": 2,
+        "夏芊芊": 3,
+        "周有福": 3,
+        "叶寻": 1,
+        "陈科长": 1,
+        "楚南": 1
+      },
+      "unintroduced_speakers": [
+        "楚南"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爷",
+        "总",
+        "厂长",
+        "科长",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外/内　青石板老街两铺门前及林记后厨　日",
+          "audible_counts": {
+            "林双双": 1,
+            "林有才": 1,
+            "夏芊芊": 1
+          },
+          "vo_counts": {
+            "叶寻": 1
+          },
+          "mute_present_characters": [
+            "叶寻"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外/内　林记门前坝子及夏记小院　日",
+          "audible_counts": {
+            "周有福": 3,
+            "林双双": 3,
+            "夏芊芊": 2,
+            "林有才": 1,
+            "叶寻": 1,
+            "陈科长": 1,
+            "楚南": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "当街盲测反杀封神",
+      "audible_counts": {
+        "林双双": 2,
+        "陈科长": 1,
+        "楚南": 5,
+        "叶寻": 2,
+        "夏芊芊": 2,
+        "周有福": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "叔",
+        "爷",
+        "总",
+        "厂长",
+        "科长",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　夏记与林记门前青石板街　日",
+          "audible_counts": {
+            "林双双": 1,
+            "陈科长": 1,
+            "楚南": 2,
+            "叶寻": 1,
+            "夏芊芊": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周有福",
+            "林有才"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　青石板街心及夏记小院　日",
+          "audible_counts": {
+            "周有福": 2,
+            "楚南": 3,
+            "叶寻": 1,
+            "林双双": 1,
+            "夏芊芊": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "林有才",
+            "陈科长"
+          ]
+        }
+      ]
+    }
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "reconstructed_timeline_and_motives": "前世叶寻交方后遭榨干；今生林家先逼交方退婚，叶寻撕方辞工改变选择，夏家收留合营，林楚报复。",
+      "convictions": [
+        {
+          "article": "telepathy_or_unintroduced_role",
+          "quote": "未报姓名角色#3：“白吃我家四年，留张方子抵恩，是你的本分！”",
+          "indictment": "两个核心施压者整集没有姓名或明确关系称谓。“我楚氏餐饮”只能交代公司关联，“我家”不能交代他与林双双的具体关系。观众只能猜谁是父亲、谁是男友。夏芊芊在对门看见冲突则有信息来源，不另判读心术。",
+          "structural_remedy": "首次冲突就用人物之间的实际交流落实关系：让林双双向父亲求援、向同行男子表达亲密或合作关系，替换现有重复羞辱台词。"
+        },
+        {
+          "article": "irrational_charity_or_self_sabotage",
+          "quote": "“夏记迎你掌勺！”随后立契，字幕：“叶夏合营·五五分账”。",
+          "indictment": "认识叶家手艺可以支持聘请，却不能替代合作交易。叶寻没有提出投入、责任或承诺，夏芊芊便自行完成分账方案与签约。这里写的是五五分账，并非明确赠送一半股权，但利益交换仍被跳过。",
+          "structural_remedy": "把正式合营延后：先以一场经营试合作检验叶寻的能力，由他承担明确交付责任，夏芊芊投入场地食材，成功后再触发分账。"
+        },
+        {
+          "article": "magic_pocket_prop_or_instant_bureaucracy",
+          "quote": "“叶寻摸出掉漆铁盒”，倒出“邮政汇款存根（共48张）”。",
+          "indictment": "叶寻刚在端底料，随后才确认重生；此前没有取物动作或存放位置。装着四年汇款凭据的铁盒突然随身出现，完全服务于当场打脸，缺少可见的道具来源。",
+          "structural_remedy": "本场删除铁盒晒单，保留撕方辞工；把凭据安排在之后回住处收拾行李时发现，承担后续追账或证据功能。"
+        },
+        {
+          "article": "crammed_telegram_outline",
+          "quote": "逼交方退婚→撕方→晒单→辞工→过街→签约→断油→抢席→骑车采购。",
+          "indictment": "两场戏连续完成九项重大变化，合营和经营危机都只靠宣布立即成立，人物没有谈判、核实与消化后果的空间。虽未提供实际秒数，不能断言115秒，但文本已经把多集推进压成结果清单。",
+          "structural_remedy": "第一集集中拍透逼交方、撕方辞工，以迈向夏记结束；第二集处理试合作与订单压力；断油和采购另作后续因果链，删除重复危机。"
+        },
+        {
+          "article": "mute_passive_protagonist",
+          "quote": "夏芊芊提笔立契、宣布五五分账；叶寻只有摁印，直到最后才说“上车，去屠宰场”。",
+          "indictment": "叶寻在辞工场次有主动性，但决定新事业的结盟场次完全没有表达合作诉求、条件或承担的风险。女方替他决定职业和分账，最后的采购口号补不上签约时缺失的主体选择。",
+          "structural_remedy": "将合营转折交给叶寻发动：让他提出可执行的经营交易，夏芊芊以现实风险提出限制，双方通过行动验证后成交。"
+        }
+      ],
+      "logic_score": 4,
+      "verdict": "CONVICT_REWRITE"
+    }
+  ]
+}

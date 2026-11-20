@@ -1,0 +1,41 @@
+[10:14:30] === Starting Storyboard Round r00 (v0) on 4 tracks ===
+[10:23:14]   [v0] dev_067_ep01 (古装奇幻萌宝): Score=69.0 | Cam=19/25 | ActiveCam=20.6% | Shots=34 | PK=-
+[10:24:30]   [v0] dev_098_ep01 (都市律政交锋): Score=63.0 | Cam=18/25 | ActiveCam=19.6% | Shots=46 | PK=-
+[10:24:59]   [v0] dev_097_ep01 (九零年代逆袭): Score=63.0 | Cam=17/25 | ActiveCam=20.8% | Shots=48 | PK=-
+[10:25:37]   [v0] dev_066_ep01 (都市商业情感): Score=66.0 | Cam=19/25 | ActiveCam=17.8% | Shots=45 | PK=-
+[10:25:37] === Finished r00 (v0): Mean=65.25 (Cam=18.25/25), Flaws=60, Arena W/L/T=0/0/0 ===
+[10:25:37] Invoking Meta-Optimizer (codex gpt-6.1-sol / medium) to evolve `v0` -> `v1`...
+[10:32:21] Meta-Optimizer diagnosis: v0将比例、动作三态和组内加总误当作可拍性证明，缺少完整声音时间线、逐镜持物状态与空间路径核验。
+[10:32:21]   [updated] references/camera-choreography.md (1420 chars): 补足运动路径、信息落点、假固定识别与高潮节奏决策。
+[10:32:21]   [updated] references/grouping-and-continuity.md (1876 chars): 先排完整声音，再划组；增加持物账本、真实空间轴与正文反算规则。
+[10:32:21]   [updated] references/storyboard-anti-patterns.md (1696 chars): 用本轮脱敏反例建立塞字、动作过载、道具失踪和伪接缝的修正对照。
+[10:32:21]   [updated] prompts/generate_storyboard.md (1766 chars): 明确执行顺序与最终核验，保留两个占位符、14列表头及标题和接缝契约。
+[10:32:21] === Starting Storyboard Round r01 (v1) on 4 tracks ===
+[10:42:05]   [v1] dev_067_ep01 (古装奇幻萌宝): Score=72.0 | Cam=19/25 | ActiveCam=20.0% | Shots=35 | PK=CANDIDATE
+[10:49:28]   [v1] dev_097_ep01 (九零年代逆袭): Score=56.0 | Cam=17/25 | ActiveCam=20.0% | Shots=55 | PK=CHAMPION
+[11:00:30]   [v1] dev_066_ep01 (都市商业情感): Score=63.0 | Cam=17/25 | ActiveCam=13.4% | Shots=67 | PK=TIE
+[11:25:26]   [v1] dev_098_ep01 (都市律政交锋): Score=44.0 | Cam=13/25 | ActiveCam=14.3% | Shots=42 | PK=CHAMPION
+[11:25:26] === Finished r01 (v1): Mean=58.75 (Cam=16.5/25), Flaws=58, Arena W/L/T=1/2/1 ===
+[11:25:26] Promotion check `v1` vs `v0`: Mean 58.75 vs 65.25, Arena {'wins': 1, 'losses': 2, 'ties': 1} -> PROMOTED=False
+[11:25:26] Invoking Meta-Optimizer (codex gpt-6.1-sol / medium) to evolve `v0` -> `v2`...
+[11:29:54] Meta-Optimizer diagnosis: v0把运镜比例、组内加和与动作三态当成可拍性的代理指标，缺少声音实际窗口、动作依赖、持物状态和摄影机空间路径的逐项验证。
+[11:29:54]   [updated] references/camera-choreography.md (1441 chars): 消除比例导向，补齐路径、震动参数、假固定与信息落点判断。
+[11:29:54]   [updated] references/grouping-and-continuity.md (1771 chars): 建立声音窗口与跨组母轨规则，修复轴线、动作依赖、持物和冻结锚点。
+[11:29:54]   [updated] references/storyboard-anti-patterns.md (1695 chars): 用脱敏实测反例替换泛化警告，使修复动作可直接执行。
+[11:29:54]   [updated] prompts/generate_storyboard.md (1696 chars): 将生成顺序改为声音先行、状态接续、正文反算，保留占位符和14列解析契约。
+[11:29:54] === Starting Storyboard Round r02 (v2) on 4 tracks ===
+[11:40:28]   [v2] dev_067_ep01 (古装奇幻萌宝): Score=70.0 | Cam=20/25 | ActiveCam=17.8% | Shots=45 | PK=CANDIDATE
+[11:51:01]   [v2] dev_098_ep01 (都市律政交锋): Score=61.0 | Cam=17/25 | ActiveCam=20.0% | Shots=55 | PK=TIE
+[12:05:07]   [v2] dev_066_ep01 (都市商业情感): Score=67.0 | Cam=19/25 | ActiveCam=15.3% | Shots=59 | PK=CANDIDATE
+[12:19:53]   [v2] dev_097_ep01 (九零年代逆袭): Score=69.0 | Cam=19/25 | ActiveCam=16.4% | Shots=55 | PK=CANDIDATE
+[12:19:53] === Finished r02 (v2): Mean=66.75 (Cam=18.75/25), Flaws=58, Arena W/L/T=3/0/1 ===
+[12:19:53] Promotion check `v2` vs `v0`: Mean 66.75 vs 65.25, Arena {'wins': 3, 'losses': 0, 'ties': 1} -> PROMOTED=True
+[12:19:53] Synced new Storyboard Champion `v2` to /home/zhongwenyu/project/ai-director-train/.agents/skills/hit-storyboard!
+[12:19:53] Invoking Meta-Optimizer (codex gpt-6.1-sol / medium) to evolve `v2` -> `v3`...
+[12:24:59] Meta-Optimizer diagnosis: v2把四要素齐全、三态标题、整数容器和运动比例误当成可拍证据，缺少对声音实际窗口、接触依赖、空间投影和动作阶段的逐项核验。
+[12:24:59]   [updated] references/camera-choreography.md (1703 chars): 加入几何验算、震动因果及信息落点判据，区分运镜语法与动作负载。
+[12:24:59]   [updated] references/grouping-and-continuity.md (2130 chars): 落实连续声音账、接触状态链、空间投影及生成边界，修复断句、动作回退和统计失真。
+[12:24:59]   [updated] references/storyboard-anti-patterns.md (1855 chars): 用本轮匿名真实反例明确误报边界、失败原因及可执行修复。
+[12:24:59]   [updated] prompts/generate_storyboard.md (1967 chars): 保留格式占位符和14列契约，以紧凑流程落实声音、空间、状态与据实校核。
+[12:24:59] === Starting Storyboard Round r03 (v3) on 4 tracks ===
+[13:19:49]   [v3] dev_066_ep01 (都市商业情感): Score=46.0 | Cam=16/25 | ActiveCam=17.0% | Shots=53 | PK=CHAMPION

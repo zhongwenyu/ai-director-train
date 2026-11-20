@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈禾",
+  "episode_count": 3,
+  "mean_est_duration_sec": 132.6,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "半块冻饼换青葫",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 25,
+      "vo_lines": 1,
+      "spoken_chars": 483,
+      "avg_line_chars": 18.6,
+      "est_duration_sec": 135.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "血染青葫逼断亲",
+      "scenes": 2,
+      "actions": 12,
+      "dialogue_lines": 24,
+      "vo_lines": 2,
+      "spoken_chars": 475,
+      "avg_line_chars": 18.3,
+      "est_duration_sec": 128.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "泣血立户醒灵液",
+      "scenes": 3,
+      "actions": 14,
+      "dialogue_lines": 25,
+      "vo_lines": 1,
+      "spoken_chars": 474,
+      "avg_line_chars": 18.2,
+      "est_duration_sec": 133.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

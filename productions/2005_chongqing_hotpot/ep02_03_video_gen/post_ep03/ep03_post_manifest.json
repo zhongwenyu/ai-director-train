@@ -1,0 +1,466 @@
+{
+  "total_duration": 111.704,
+  "vtt_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/post_ep03/ep03_subtitles.vtt",
+  "bgm_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/post_ep03/ep03_bgm.mp3",
+  "bgm_segments": [
+    {
+      "label": "退钥匙两清与夏芊芊护短逐客（沉静复盘 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "3-1-01",
+      "end_shot": "3-1-09",
+      "src_offset": 19.5,
+      "gain": 0.44,
+      "fade_in": 0.8,
+      "fade_out": 1.0,
+      "start": 0.0,
+      "end": 42.626
+    },
+    {
+      "label": "倾囊凑本与五一控股护秘方立约（长久的温柔 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-38.mp3",
+      "start_shot": "3-2-01",
+      "end_shot": "3-2-10",
+      "end_delta": -7.8,
+      "src_offset": 30.0,
+      "gain": 0.48,
+      "fade_in": 1.2,
+      "fade_out": 0.3,
+      "start": 42.626,
+      "end": 89.529
+    },
+    {
+      "label": "周有福拎铁管钳断水逼宫与叶寻横身挡门（深鼓悬疑渐强 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-sfx-682.wav",
+      "start_shot": "3-2-10",
+      "start_delta": 3.3,
+      "end_shot": "3-2-13",
+      "align_end": true,
+      "gain": 0.52,
+      "fade_in": 0.5,
+      "fade_out": 0.25,
+      "start": 89.077,
+      "end": 111.704
+    }
+  ],
+  "shots": [
+    {
+      "id": "3-1-01",
+      "studioShotId": "f7190d7e-6664-46f1-bd34-889d475e648f",
+      "duration": 11.542,
+      "bgmOffset": 0.0,
+      "subtitles": [
+        {
+          "start": 2.2,
+          "end": 5.1,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "赌气跑来给人打杂，有意思吗？"
+        },
+        {
+          "start": 5.3,
+          "end": 10.2,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "赵主厨不干粗洗采买，你明天回来管后厨杂务，我给你开八百一个月。"
+        }
+      ]
+    },
+    {
+      "id": "3-1-04",
+      "studioShotId": "758a58c6-6684-4332-8ffb-574ec8a919ce",
+      "duration": 11.542,
+      "bgmOffset": 11.542,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 3.8,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "林家上月肉菜账在第三页，没有欠款。"
+        },
+        {
+          "start": 4.1,
+          "end": 6.1,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "你什么意思？"
+        },
+        {
+          "start": 6.4,
+          "end": 10.2,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "下午走出林家店门起，咱们就两清了。钥匙收好。"
+        }
+      ]
+    },
+    {
+      "id": "3-1-07",
+      "studioShotId": "5fb4623b-bfd5-4fc5-a243-4d34ce3375fe",
+      "duration": 10.125,
+      "bgmOffset": 23.084,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 4.3,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "你宁肯拿爷爷的方子填夏家这快封门的破院子？"
+        },
+        {
+          "start": 4.6,
+          "end": 9.2,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "小寻跟我们合伙做正经买卖，不打零工。林同学慢走。"
+        }
+      ]
+    },
+    {
+      "id": "3-1-09",
+      "studioShotId": "e6be8392-1017-4af0-9227-7dbe8ca3ff2c",
+      "duration": 9.417,
+      "bgmOffset": 33.209,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 4.6,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "行，我倒要看看十月八号你们拿什么交房租！"
+        }
+      ]
+    },
+    {
+      "id": "3-2-01",
+      "studioShotId": "2df168b6-32f5-43f6-9900-5661c0d097bd",
+      "duration": 15.084,
+      "bgmOffset": 42.626,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 4.3,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "小寻，夏叔手打着夹板颠不动勺，不能把你也拖下水。"
+        },
+        {
+          "start": 4.6,
+          "end": 9.6,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "夏叔，小炒全停，咱们改名“渝清记”，专做不用颠勺的子母锅清润火锅。"
+        },
+        {
+          "start": 9.8,
+          "end": 13.5,
+          "kind": "caption",
+          "speaker": "",
+          "text": "叶寻存折余额：1,800元（奖学金及勤工俭学）"
+        },
+        {
+          "start": 9.9,
+          "end": 13.4,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "加上店里六千二凑齐八千本钱，十九天挣房租，来得及。"
+        }
+      ]
+    },
+    {
+      "id": "3-2-04",
+      "studioShotId": "008d6db1-9b24-4b81-9908-b18df21f4321",
+      "duration": 14.4,
+      "bgmOffset": 57.71,
+      "subtitles": [
+        {
+          "start": 3.2,
+          "end": 9.0,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "合伙就按规矩立字据。我家出铺面家伙占四成九，你出手艺占五成一当家。"
+        },
+        {
+          "start": 9.3,
+          "end": 13.8,
+          "kind": "caption",
+          "speaker": "",
+          "text": "特别约定：《叶氏清润底料配方》所有权归叶寻个人独有"
+        },
+        {
+          "start": 9.35,
+          "end": 13.8,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "上一世林双双哄我签走秘方，这一世，芊芊却逼我把方子攥在自己手里。"
+        }
+      ]
+    },
+    {
+      "id": "3-2-07",
+      "studioShotId": "80d704cc-c429-4099-b834-9963f422ebff",
+      "duration": 13.667,
+      "bgmOffset": 72.11,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 3.2,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "你把方子单独列出来了？"
+        },
+        {
+          "start": 3.4,
+          "end": 7.8,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "叶爷爷留给你的家底，少写这一条，这字我不签。"
+        },
+        {
+          "start": 8.1,
+          "end": 11.8,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "听芊芊的！来，摁手印！"
+        }
+      ]
+    },
+    {
+      "id": "3-2-10",
+      "studioShotId": "885ca145-8034-4956-be0b-79aebf31a484",
+      "duration": 11.552,
+      "bgmOffset": 85.777,
+      "subtitles": [
+        {
+          "start": 0.25,
+          "end": 3.1,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "五一控股落印，渝清记今晚正式立字！"
+        },
+        {
+          "start": 7.1,
+          "end": 10.3,
+          "kind": "dialogue",
+          "speaker": "周有福",
+          "text": "老夏，正街改西餐厅的楚老板刚交两千定金，"
+        }
+      ]
+    },
+    {
+      "id": "3-2-13",
+      "studioShotId": "9033aa5f-296f-4cc9-abbb-73873ace1737",
+      "duration": 14.375,
+      "bgmOffset": 97.329,
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 2.5,
+          "kind": "dialogue",
+          "speaker": "周有福",
+          "text": "要租你这院子堆酒水杂物！"
+        },
+        {
+          "start": 2.7,
+          "end": 6.4,
+          "kind": "dialogue",
+          "speaker": "夏建国",
+          "text": "老周，十月八号才到期，你拎管钳干啥？"
+        },
+        {
+          "start": 6.6,
+          "end": 10.7,
+          "kind": "dialogue",
+          "speaker": "周有福",
+          "text": "人家怕你们到期赖着不搬，让我今晚先把后院副水表拧了！"
+        }
+      ]
+    }
+  ],
+  "episode_subtitles": [
+    {
+      "start": 2.2,
+      "end": 5.1,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "赌气跑来给人打杂，有意思吗？",
+      "shotId": "3-1-01"
+    },
+    {
+      "start": 5.3,
+      "end": 10.2,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "赵主厨不干粗洗采买，你明天回来管后厨杂务，我给你开八百一个月。",
+      "shotId": "3-1-01"
+    },
+    {
+      "start": 11.742,
+      "end": 15.342,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "林家上月肉菜账在第三页，没有欠款。",
+      "shotId": "3-1-04"
+    },
+    {
+      "start": 15.642,
+      "end": 17.642,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "你什么意思？",
+      "shotId": "3-1-04"
+    },
+    {
+      "start": 17.942,
+      "end": 21.742,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "下午走出林家店门起，咱们就两清了。钥匙收好。",
+      "shotId": "3-1-04"
+    },
+    {
+      "start": 23.284,
+      "end": 27.384,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "你宁肯拿爷爷的方子填夏家这快封门的破院子？",
+      "shotId": "3-1-07"
+    },
+    {
+      "start": 27.684,
+      "end": 32.284,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "小寻跟我们合伙做正经买卖，不打零工。林同学慢走。",
+      "shotId": "3-1-07"
+    },
+    {
+      "start": 33.409,
+      "end": 37.809,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "行，我倒要看看十月八号你们拿什么交房租！",
+      "shotId": "3-1-09"
+    },
+    {
+      "start": 42.826,
+      "end": 46.926,
+      "kind": "dialogue",
+      "speaker": "夏建国",
+      "text": "小寻，夏叔手打着夹板颠不动勺，不能把你也拖下水。",
+      "shotId": "3-2-01"
+    },
+    {
+      "start": 47.226,
+      "end": 52.226,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "夏叔，小炒全停，咱们改名“渝清记”，专做不用颠勺的子母锅清润火锅。",
+      "shotId": "3-2-01"
+    },
+    {
+      "start": 52.426,
+      "end": 56.126,
+      "kind": "caption",
+      "speaker": "",
+      "text": "叶寻存折余额：1,800元（奖学金及勤工俭学）",
+      "shotId": "3-2-01"
+    },
+    {
+      "start": 52.526,
+      "end": 56.026,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "加上店里六千二凑齐八千本钱，十九天挣房租，来得及。",
+      "shotId": "3-2-01"
+    },
+    {
+      "start": 60.91,
+      "end": 66.71,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "合伙就按规矩立字据。我家出铺面家伙占四成九，你出手艺占五成一当家。",
+      "shotId": "3-2-04"
+    },
+    {
+      "start": 67.01,
+      "end": 71.51,
+      "kind": "caption",
+      "speaker": "",
+      "text": "特别约定：《叶氏清润底料配方》所有权归叶寻个人独有",
+      "shotId": "3-2-04"
+    },
+    {
+      "start": 67.06,
+      "end": 71.51,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "上一世林双双哄我签走秘方，这一世，芊芊却逼我把方子攥在自己手里。",
+      "shotId": "3-2-04"
+    },
+    {
+      "start": 72.31,
+      "end": 75.31,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "你把方子单独列出来了？",
+      "shotId": "3-2-07"
+    },
+    {
+      "start": 75.51,
+      "end": 79.91,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "叶爷爷留给你的家底，少写这一条，这字我不签。",
+      "shotId": "3-2-07"
+    },
+    {
+      "start": 80.21,
+      "end": 83.91,
+      "kind": "dialogue",
+      "speaker": "夏建国",
+      "text": "听芊芊的！来，摁手印！",
+      "shotId": "3-2-07"
+    },
+    {
+      "start": 86.027,
+      "end": 88.877,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "五一控股落印，渝清记今晚正式立字！",
+      "shotId": "3-2-10"
+    },
+    {
+      "start": 92.877,
+      "end": 96.077,
+      "kind": "dialogue",
+      "speaker": "周有福",
+      "text": "老夏，正街改西餐厅的楚老板刚交两千定金，",
+      "shotId": "3-2-10"
+    },
+    {
+      "start": 97.429,
+      "end": 99.829,
+      "kind": "dialogue",
+      "speaker": "周有福",
+      "text": "要租你这院子堆酒水杂物！",
+      "shotId": "3-2-13"
+    },
+    {
+      "start": 100.029,
+      "end": 103.729,
+      "kind": "dialogue",
+      "speaker": "夏建国",
+      "text": "老周，十月八号才到期，你拎管钳干啥？",
+      "shotId": "3-2-13"
+    },
+    {
+      "start": 103.929,
+      "end": 108.029,
+      "kind": "dialogue",
+      "speaker": "周有福",
+      "text": "人家怕你们到期赖着不搬，让我今晚先把后院副水表拧了！",
+      "shotId": "3-2-13"
+    }
+  ]
+}

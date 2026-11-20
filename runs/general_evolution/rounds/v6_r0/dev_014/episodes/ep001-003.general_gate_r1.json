@@ -1,0 +1,176 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎为“十年过命厚恩遭学法邻女顶格罚单背刺，老农认罚断交撤回善意，双标邻居在规则回旋镖下步步破财崩盘”。裸看实况人物关系清晰、VO无越界，焊锹捎药铺垫扎实，罚单逼迫与锁车拒载张力拉满，悬念抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.3,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "十年热心换冷眼",
+      "audible_counts": {
+        "赵德柱": 2,
+        "陈建国": 9,
+        "赵老爷子": 1,
+        "赵佳琪": 5,
+        "王桂花": 3,
+        "陈阳": 1,
+        "孙队长": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "爷",
+        "哥"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　陈赵两家相邻院口　日",
+          "audible_counts": {
+            "赵德柱": 2,
+            "陈建国": 5,
+            "赵老爷子": 1,
+            "赵佳琪": 1,
+            "王桂花": 3,
+            "陈阳": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　陈家村头菜地　日",
+          "audible_counts": {
+            "赵佳琪": 4,
+            "陈建国": 4,
+            "孙队长": 2
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "讲规矩不谈旧恩",
+      "audible_counts": {
+        "赵佳琪": 3,
+        "孙队长": 2,
+        "陈建国": 2,
+        "王桂花": 6,
+        "陈阳": 3,
+        "刘翠兰": 2,
+        "赵德柱": 3,
+        "赵老爷子": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "婶",
+        "爷",
+        "哥",
+        "姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　陈家村头菜地　日",
+          "audible_counts": {
+            "赵佳琪": 3,
+            "孙队长": 2,
+            "陈建国": 2,
+            "王桂花": 6,
+            "陈阳": 3,
+            "刘翠兰": 2,
+            "赵德柱": 3,
+            "赵老爷子": 1
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "一锹埋恩断来往",
+      "audible_counts": {
+        "陈建国": 6,
+        "陈阳": 2,
+        "孙队长": 1,
+        "赵德柱": 7,
+        "王桂花": 2,
+        "刘翠兰": 1,
+        "赵佳琪": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "婶",
+        "爷",
+        "哥",
+        "姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　陈家村头菜地　日",
+          "audible_counts": {
+            "陈建国": 4,
+            "陈阳": 1,
+            "孙队长": 1,
+            "赵德柱": 3,
+            "王桂花": 1
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": [
+            "刘翠兰",
+            "赵佳琪"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　赵家堂屋　夜",
+          "audible_counts": {
+            "刘翠兰": 1,
+            "赵德柱": 1,
+            "赵佳琪": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　陈家院门前村道　日",
+          "audible_counts": {
+            "王桂花": 1,
+            "陈阳": 1,
+            "赵德柱": 3,
+            "赵佳琪": 2,
+            "陈建国": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

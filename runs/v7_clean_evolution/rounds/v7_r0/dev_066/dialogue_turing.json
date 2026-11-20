@@ -1,0 +1,65 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "刷这张卡，不用输密码。",
+      "quote": "刷这张黑卡，走云顶商圈的免审通道。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "什么副卡？你们搞错了吧！这张卡我自己办的，刷多少回了都没事！",
+      "quote": "怎么可能是副卡？这明明是三年前银行批给我的总裁授信卡！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "小秦，把沈清澜手里的副卡停了，集团那边给她的绿灯也全撤了，再拟份离婚协议送过来。",
+      "quote": "秦特助，把沈清澜名下的附属权限全停了，拟一份离婚协议。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "我是清澜集团的沈清澜！耽误了我们跟云鼎三亿的合同，你担得起吗？",
+      "quote": "我是清澜集团的沈清澜！耽误了三亿焕新续约，你担得起责任吗？"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "不用叫人了。上面今早刚发话，跟你们清澜的合作全停了，正查你们呢。",
+      "quote": "不用核实了。集团今早刚下通知，清澜的免审合作资格已经停牌待查了。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "哎你看那小姑娘穿的，是不是山庄老板专门给自家孩子订的那身啊？",
+      "quote": "那小姑娘身上穿的……不会是山庄独一份的星辰小主人礼服吧？"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "发卡还给你！我不要妈妈了，我跟爸爸走！",
+      "quote": "妈妈给的旧发卡还给你，我只要爸爸。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "行，这可是你说的。离了我，我看你拿什么撑这个家。",
+      "quote": "这些年我给你的东西，我会一样一样收回来。"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "妈的，最后十万额度全搭进去了……明儿非从她身上连本带利抠出来不可。",
+      "quote": "最后十万透支额度全垫进去了，明天必须从她身上翻倍捞回来。"
+    }
+  ],
+  "ear_test_impression": "典型的AI高仿短剧腔。虽塞了几个短反问起头，但全篇几乎清一色是二十字左右的工整说明句，结尾三人排队同句式惊叹；且满嘴“免审通道、总裁授信卡、停牌待查、星辰小主人礼服”等AI生造设定词，拗口假大空。",
+  "scores": {
+    "character_voice_distinction": 5.2,
+    "conversational_bite_and_rhythm": 4.5,
+    "spoken_naturalness": 3.8,
+    "subtext_and_micro_specificity": 5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 46.25,
+  "rhythm_metrics": {
+    "total_lines": 74,
+    "mean_char_len": 20.0,
+    "char_len_stdev": 5.8,
+    "short_reaction_ratio_le7": 0.027,
+    "twin_clause_symmetry_ratio": 0.095
+  }
+}

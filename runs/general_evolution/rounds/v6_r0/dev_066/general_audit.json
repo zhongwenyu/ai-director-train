@@ -1,0 +1,154 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“隐退创始人慈父护女抽梯 vs 傲慢前妻携初恋膨胀硬撑”为核心引擎，借强拆儿童房、踩碎八音盒、抢生日名额层层击穿底线引爆共情与撤权爽感。裸看实况称谓与字幕锚定及时，人物关系、利益错位与次日庄园打脸悬念清晰抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.6
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "撞破强拆女儿房",
+      "audible_counts": {
+        "小念": 3,
+        "沈宴州": 5,
+        "周琴": 9,
+        "王师傅": 1,
+        "苏清妍": 3,
+        "顾明轩": 1,
+        "顾子睿": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "姨",
+        "姐",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　半山云栖别墅客厅及楼梯口　傍晚",
+          "audible_counts": {
+            "小念": 3,
+            "沈宴州": 5,
+            "周琴": 9,
+            "王师傅": 1,
+            "苏清妍": 3,
+            "顾明轩": 1,
+            "顾子睿": 1
+          },
+          "vo_counts": {
+            "沈宴州": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "抢走女儿的度假名额",
+      "audible_counts": {
+        "沈宴州": 6,
+        "顾明轩": 3,
+        "周琴": 3,
+        "顾子睿": 2,
+        "小念": 2,
+        "苏清妍": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "姨",
+        "哥",
+        "姐",
+        "妹",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　半山云栖别墅客厅　夜",
+          "audible_counts": {
+            "沈宴州": 6,
+            "顾明轩": 3,
+            "周琴": 3,
+            "顾子睿": 2,
+            "小念": 2,
+            "苏清妍": 7
+          },
+          "vo_counts": {
+            "沈宴州": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "寒心带女撤回礼遇",
+      "audible_counts": {
+        "周琴": 3,
+        "顾明轩": 3,
+        "苏清妍": 5,
+        "小念": 1,
+        "沈宴州": 9,
+        "林铮": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "姨",
+        "哥",
+        "姐",
+        "妹",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　半山云栖别墅储物间口与餐厅　夜",
+          "audible_counts": {
+            "周琴": 3,
+            "顾明轩": 3,
+            "苏清妍": 5,
+            "小念": 1,
+            "沈宴州": 6
+          },
+          "vo_counts": {
+            "沈宴州": 1
+          },
+          "mute_present_characters": [
+            "顾子睿"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　半山云栖别墅外街角专车内　夜",
+          "audible_counts": {
+            "林铮": 2,
+            "沈宴州": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "小念"
+          ]
+        }
+      ]
+    }
+  ]
+}

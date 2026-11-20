@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 107.1,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "酸菜缸里的炸雷",
+      "scenes": 2,
+      "actions": 20,
+      "dialogue_lines": 8,
+      "vo_lines": 3,
+      "spoken_chars": 314,
+      "avg_line_chars": 28.5,
+      "est_duration_sec": 104.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "冒牌货与内鬼钦差",
+      "scenes": 1,
+      "actions": 20,
+      "dialogue_lines": 10,
+      "vo_lines": 1,
+      "spoken_chars": 349,
+      "avg_line_chars": 31.7,
+      "est_duration_sec": 109.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 4 集在【本集完】之后仍有残留文本（3字）"
+  ]
+}

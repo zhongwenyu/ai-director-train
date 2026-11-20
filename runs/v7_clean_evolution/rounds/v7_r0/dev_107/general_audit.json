@@ -1,0 +1,201 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“清醒拒捡白眼狼+捧杀贪婪二房接盘反噬+全员护短打猎兴家”为核心爽点引擎。裸看实况中堂姐、爷奶、二房母女及大队长等关系皆借自然称谓清晰落位，无读心越界；名表诱惑下的贪心接盘与割肉反悔逻辑严密，口语鲜活，集尾钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "这白眼狼谁爱捡谁捡",
+      "audible_counts": {
+        "林柔柔": 12,
+        "林穗穗": 7,
+        "顾泽成": 1,
+        "大队长": 2,
+        "社员甲": 1,
+        "社员乙": 1
+      },
+      "unintroduced_speakers": [
+        "顾泽成",
+        "社员甲",
+        "社员乙"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "爷",
+        "奶",
+        "公",
+        "姐",
+        "总",
+        "队长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　靠山大队后山半坡　日",
+          "audible_counts": {
+            "林柔柔": 12,
+            "林穗穗": 7,
+            "顾泽成": 1,
+            "大队长": 2,
+            "社员甲": 1,
+            "社员乙": 1
+          },
+          "vo_counts": {
+            "林穗穗": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "活菩萨你自己当",
+      "audible_counts": {
+        "林柔柔": 7,
+        "林穗穗": 3,
+        "社员甲": 1,
+        "周桂兰": 1,
+        "林铁山": 2,
+        "大队长": 2,
+        "刘翠花": 5,
+        "孙大夫": 4
+      },
+      "unintroduced_speakers": [
+        "社员甲",
+        "周桂兰",
+        "林铁山",
+        "刘翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "爷",
+        "奶",
+        "公",
+        "姐",
+        "妹",
+        "总",
+        "队长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　靠山大队后山半坡　日",
+          "audible_counts": {
+            "林柔柔": 5,
+            "林穗穗": 3,
+            "社员甲": 1,
+            "周桂兰": 1,
+            "林铁山": 2,
+            "大队长": 2,
+            "刘翠花": 2
+          },
+          "vo_counts": {
+            "林穗穗": 1
+          },
+          "mute_present_characters": [
+            "顾泽成"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　林家二房西屋　夜",
+          "audible_counts": {
+            "林柔柔": 2,
+            "孙大夫": 4,
+            "刘翠花": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "顾泽成"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "炖肉香与摔碎碗",
+      "audible_counts": {
+        "刘翠花": 4,
+        "林柔柔": 7,
+        "林穗穗": 6,
+        "周桂兰": 1,
+        "大队长": 2,
+        "顾泽成": 4,
+        "林铁山": 1
+      },
+      "unintroduced_speakers": [
+        "刘翠花",
+        "周桂兰",
+        "顾泽成",
+        "林铁山"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "爷",
+        "奶",
+        "公",
+        "姐",
+        "妹",
+        "总",
+        "队长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　林家大房小院　日",
+          "audible_counts": {
+            "刘翠花": 1,
+            "林柔柔": 3,
+            "林穗穗": 4,
+            "周桂兰": 1,
+            "大队长": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　林家二房西屋　日",
+          "audible_counts": {
+            "林柔柔": 3,
+            "顾泽成": 3,
+            "刘翠花": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　林家大房小院及门前　日",
+          "audible_counts": {
+            "林铁山": 1,
+            "林穗穗": 2,
+            "刘翠花": 1,
+            "林柔柔": 1,
+            "顾泽成": 1
+          },
+          "vo_counts": {
+            "林穗穗": 1
+          },
+          "mute_present_characters": [
+            "周桂兰"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以豪门清汤规训与市井红油自由强反差为核心引擎，借“温顺演戏攒钱撤离”粉碎阔少深情滤镜。裸看前3集人物称谓与关系开场即明，假泪查账、衣帽间借刀录音、食谱障眼法到寄卖行一门之隔，前因后果严丝合缝，情绪拉扯与悬念钩子极抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.6
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "六周年清汤与九百二十万",
+      "audible_counts": {
+        "贺铭": 2,
+        "周京泽": 4,
+        "沈知意": 10,
+        "林楚楚": 8
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "姐",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　顶奢会所VIP包厢　夜",
+          "audible_counts": {
+            "贺铭": 2,
+            "周京泽": 4,
+            "沈知意": 6,
+            "林楚楚": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　会所一楼电梯厅　夜",
+          "audible_counts": {
+            "沈知意": 4,
+            "林楚楚": 5
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "衣帽间借刀敛财",
+      "audible_counts": {
+        "林楚楚": 12,
+        "沈知意": 9,
+        "周京泽": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　周家半山别墅衣帽间　夜",
+          "audible_counts": {
+            "林楚楚": 9,
+            "沈知意": 5
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　周家半山别墅一楼玄关大厅　夜",
+          "audible_counts": {
+            "林楚楚": 3,
+            "沈知意": 4,
+            "周京泽": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "手写食谱障眼法",
+      "audible_counts": {
+        "林楚楚": 4,
+        "周京泽": 6,
+        "沈知意": 8,
+        "苏曼": 6
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　周家半山别墅一楼玄关大厅　夜",
+          "audible_counts": {
+            "林楚楚": 4,
+            "周京泽": 6,
+            "沈知意": 4
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　苏曼顶奢寄卖行鉴定区　日",
+          "audible_counts": {
+            "沈知意": 4,
+            "苏曼": 6
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周京泽",
+            "林楚楚"
+          ]
+        }
+      ]
+    }
+  ]
+}

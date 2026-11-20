@@ -1,0 +1,162 @@
+{
+  "distinct_major_events_counted": 2,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9.5,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9.2,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "裸看完全清晰：前世被骗方抛弃的前情、林家父女画饼骗配方的虚伪、叶寻借金表识破断交并立字据入驻对门夏记现熬鲜油破局，人物关系与因果争点丝丝入扣，毫无理解障碍。",
+  "total_score": 94.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "毕业家宴的笑脸毒饼",
+      "audible_counts": {
+        "叶寻": 8,
+        "林有才": 7,
+        "林双双": 6,
+        "楚南": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "叔",
+        "爷",
+        "哥",
+        "弟",
+        "女婿",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　林氏集团酒会后巷　夜",
+          "audible_counts": {
+            "叶寻": 2,
+            "林有才": 1,
+            "林双双": 1,
+            "楚南": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　沙正街林记火锅堂厅　日",
+          "audible_counts": {
+            "林有才": 6,
+            "林双双": 5,
+            "叶寻": 6
+          },
+          "vo_counts": {
+            "叶寻": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "熄火撤勺，恩断沙正街",
+      "audible_counts": {
+        "林双双": 5,
+        "林有才": 7,
+        "叶寻": 9,
+        "夏芊芊": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "叔",
+        "爷",
+        "哥",
+        "弟",
+        "女婿",
+        "未婚妻",
+        "老板",
+        "掌柜",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　沙正街林记火锅堂厅　日",
+          "audible_counts": {
+            "林双双": 5,
+            "林有才": 6,
+            "叶寻": 7
+          },
+          "vo_counts": {
+            "叶寻": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　沙正街林记与夏记门前　日",
+          "audible_counts": {
+            "夏芊芊": 2,
+            "叶寻": 2,
+            "林有才": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "三日军令状与当街炼油",
+      "audible_counts": {
+        "叶寻": 9,
+        "夏芊芊": 9,
+        "老马": 2,
+        "林有才": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "叔",
+        "爷",
+        "哥",
+        "弟",
+        "女婿",
+        "未婚妻",
+        "老板",
+        "掌柜",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　沙正街夏记老火锅堂厅　日",
+          "audible_counts": {
+            "叶寻": 6,
+            "夏芊芊": 6,
+            "老马": 2,
+            "林有才": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　沙正街夏记门前　傍晚",
+          "audible_counts": {
+            "林有才": 2,
+            "叶寻": 3,
+            "夏芊芊": 3
+          },
+          "vo_counts": {
+            "叶寻": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

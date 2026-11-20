@@ -1,0 +1,60 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "宝根！去把匣子里那张断亲纸拿出来，看他敢不敢按！",
+      "quote": "宝根，把桌匣里那张吓唬他的断亲纸和印泥拿来！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "德寿叔！您来得正好，给侄儿做个见证！",
+      "quote": "德寿叔，您是一村里正，正好请您做个见证！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "都在……爹留的钱，还有这包谷种，全在里头！",
+      "quote": "五百文铜板，还有耐寒老谷种，一粒都没少！"
+    },
+    {
+      "defect_type": "essay_thesis_or_psychology_summary",
+      "how_real_person_would_say_it": "喏，这破葫芦揣怀里捂手……后生心善，冻不坏。",
+      "quote": "这旧葫芦塞怀里挡寒气，心热的人，冻不死。"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "没事，我回村交了柴还能讨口汤喝。雪大了老伯，您快往山下走。",
+      "quote": "交了柴总能混口热汤，老伯快下山避风吧。"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "滚！滚外头冻着去，看你能硬气到半夜不！",
+      "quote": "离了咱家热灶台，看你熬得过今夜三更！"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "霸了我爹两亩地还不算完，现在连穗儿的主意都敢打……",
+      "quote": "占尽我家薄田不够，连唯一拿我当人看的妹妹都要卖！"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "哥，给……这半块饼我一直揣怀里捂着呢，还热乎，还有火折子你也拿好……",
+      "quote": "半块糠饼我揣怀里捂热的，火折子留着点柴取暖。"
+    }
+  ],
+  "ear_test_impression": "一耳朵典型的AI按字数切出来的工整话剧腔！全篇78句几乎句句锁死在15到20字的双分句，挨打见血都没一句短促抽气或口语碎词，一人一句匀速打乒乓；还频频替大纲硬报设定（如“那张吓唬他的断亲纸”“您是一村里正”“耐寒老谷种”），完全不像活人吵架。",
+  "scores": {
+    "character_voice_distinction": 3.8,
+    "conversational_bite_and_rhythm": 2.8,
+    "spoken_naturalness": 3.8,
+    "subtext_and_micro_specificity": 5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 38.5,
+  "rhythm_metrics": {
+    "total_lines": 78,
+    "mean_char_len": 15.7,
+    "char_len_stdev": 3.5,
+    "short_reaction_ratio_le7": 0.038,
+    "twin_clause_symmetry_ratio": 0.218
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是北方农村地头真人在唠嗑、拌嘴。长短句咬合极紧，“顶格？”“多少？！”“谁求着你缝了？”全是活人本能反应；吵架只算一亩白菜、八千学费、闯红灯丢棉鞋的实账，老实汉子、滑头邻居、护犊老太与拿官腔侄女声纹分明，烟火气十足。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.3,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.25,
+  "rhythm_metrics": {
+    "total_lines": 95,
+    "mean_char_len": 14.3,
+    "char_len_stdev": 7.8,
+    "short_reaction_ratio_le7": 0.263,
+    "twin_clause_symmetry_ratio": 0.063
+  }
+}

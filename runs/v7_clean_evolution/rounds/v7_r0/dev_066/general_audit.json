@@ -1,0 +1,180 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以隐身创始人护女断舍离、阶梯式撤回托举特权与前妻认知崩塌为核心爽点引擎。裸看实况人物称谓（如外婆/妈、沈阿姨等）与前因后果交代清晰，假贵人垫资圆谎与前妻认知盲区自洽，父女细节动人，钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "强拆星空房逼女入暗间",
+      "audible_counts": {
+        "周淑芬": 4,
+        "顾念念": 3,
+        "顾沉舟": 6,
+        "林小轩": 2,
+        "沈清澜": 7,
+        "林耀阳": 2
+      },
+      "unintroduced_speakers": [
+        "周淑芬"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "姨",
+        "婆",
+        "公"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　澜山壹号别墅二楼走廊　日",
+          "audible_counts": {
+            "周淑芬": 4,
+            "顾念念": 3,
+            "顾沉舟": 6,
+            "林小轩": 2,
+            "沈清澜": 7,
+            "林耀阳": 2
+          },
+          "vo_counts": {
+            "顾沉舟": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "签字离场副卡即冻",
+      "audible_counts": {
+        "顾沉舟": 3,
+        "秦特助": 1,
+        "林耀阳": 2,
+        "周淑芬": 4,
+        "沈清澜": 6,
+        "顾念念": 1,
+        "店长": 4,
+        "林小轩": 1
+      },
+      "unintroduced_speakers": [
+        "周淑芬",
+        "店长"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "姨",
+        "婆",
+        "公",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　澜山壹号别墅客厅　日",
+          "audible_counts": {
+            "顾沉舟": 3,
+            "秦特助": 1,
+            "林耀阳": 2,
+            "周淑芬": 2,
+            "沈清澜": 3,
+            "顾念念": 1
+          },
+          "vo_counts": {
+            "顾沉舟": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　恒隆广场高定礼服旗舰店　日",
+          "audible_counts": {
+            "店长": 4,
+            "沈清澜": 3,
+            "周淑芬": 2,
+            "林小轩": 1
+          },
+          "vo_counts": {
+            "沈清澜": 1
+          },
+          "mute_present_characters": [
+            "林耀阳"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "硬闯山庄撞见真身",
+      "audible_counts": {
+        "林耀阳": 7,
+        "店长": 1,
+        "周淑芬": 3,
+        "沈清澜": 5,
+        "大总管": 3,
+        "林小轩": 2,
+        "顾念念": 1,
+        "顾沉舟": 1,
+        "女宾客": 1
+      },
+      "unintroduced_speakers": [
+        "店长",
+        "周淑芬",
+        "大总管"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "姨",
+        "姑",
+        "婆",
+        "公",
+        "女婿",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　恒隆广场高定礼服旗舰店　日",
+          "audible_counts": {
+            "林耀阳": 3,
+            "店长": 1,
+            "周淑芬": 1,
+            "沈清澜": 1
+          },
+          "vo_counts": {
+            "林耀阳": 1
+          },
+          "mute_present_characters": [
+            "林小轩"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　云顶山庄迎宾大堂闸机前　日",
+          "audible_counts": {
+            "林耀阳": 4,
+            "大总管": 3,
+            "周淑芬": 2,
+            "沈清澜": 4,
+            "林小轩": 2,
+            "顾念念": 1,
+            "顾沉舟": 1,
+            "女宾客": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

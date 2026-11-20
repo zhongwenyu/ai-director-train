@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 173.4,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "最后一碗酸辣粉",
+      "scenes": 2,
+      "actions": 20,
+      "dialogue_lines": 15,
+      "vo_lines": 0,
+      "spoken_chars": 427,
+      "avg_line_chars": 28.5,
+      "est_duration_sec": 128.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "四千八的干洗单",
+      "scenes": 3,
+      "actions": 17,
+      "dialogue_lines": 17,
+      "vo_lines": 0,
+      "spoken_chars": 607,
+      "avg_line_chars": 35.7,
+      "est_duration_sec": 165.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "扔进垃圾桶的收房函",
+      "scenes": 3,
+      "actions": 12,
+      "dialogue_lines": 16,
+      "vo_lines": 0,
+      "spoken_chars": 925,
+      "avg_line_chars": 57.8,
+      "est_duration_sec": 226.3,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 3 集预估时长偏长（226.3s > 190s），注意节奏拖沓"
+  ]
+}

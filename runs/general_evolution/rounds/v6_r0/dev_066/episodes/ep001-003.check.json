@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈宴州",
+  "episode_count": 3,
+  "mean_est_duration_sec": 125.8,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "撞破强拆女儿房",
+      "scenes": 1,
+      "actions": 13,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 466,
+      "avg_line_chars": 19.4,
+      "est_duration_sec": 126.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "抢走女儿的度假名额",
+      "scenes": 1,
+      "actions": 9,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 480,
+      "avg_line_chars": 20.0,
+      "est_duration_sec": 123.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "寒心带女撤回礼遇",
+      "scenes": 2,
+      "actions": 10,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 486,
+      "avg_line_chars": 20.2,
+      "est_duration_sec": 128.0,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 146.8,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "一纸法规镇恶亲",
+      "scenes": 2,
+      "actions": 20,
+      "dialogue_lines": 19,
+      "vo_lines": 0,
+      "spoken_chars": 654,
+      "avg_line_chars": 34.4,
+      "est_duration_sec": 178.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "弃水登岸闯站台",
+      "scenes": 3,
+      "actions": 15,
+      "dialogue_lines": 10,
+      "vo_lines": 1,
+      "spoken_chars": 393,
+      "avg_line_chars": 35.7,
+      "est_duration_sec": 115.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

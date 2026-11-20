@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈知意",
+  "episode_count": 3,
+  "mean_est_duration_sec": 138.1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "六周年清汤与九百二十万",
+      "scenes": 2,
+      "actions": 18,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 488,
+      "avg_line_chars": 19.5,
+      "est_duration_sec": 141.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "衣帽间借刀敛财",
+      "scenes": 2,
+      "actions": 16,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 499,
+      "avg_line_chars": 20.0,
+      "est_duration_sec": 140.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "手写食谱障眼法",
+      "scenes": 2,
+      "actions": 13,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 485,
+      "avg_line_chars": 19.4,
+      "est_duration_sec": 132.6,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

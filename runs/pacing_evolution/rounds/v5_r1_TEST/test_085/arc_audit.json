@@ -1,0 +1,121 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "裸看完全清晰！四人关系（六年替身女友、胃病豪门男主、白月光脸绿茶、起哄发小）、六年护胃攒钱抽身的前情，以及同一晚饭桌上毁汤摔遗物、逼道歉分手到亮出赠卡寄卖单打脸离开的争点层层剥笋，毫无跳跃感。",
+  "total_score": 92.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "煲了四小时的汤，配不上一勺红油",
+      "audible_counts": {
+        "周铭": 4,
+        "林晚": 8,
+        "顾泽宇": 4,
+        "苏柔": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "哥",
+        "姐",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　顾家半山别墅餐厅　夜",
+          "audible_counts": {
+            "周铭": 4,
+            "林晚": 8,
+            "顾泽宇": 4,
+            "苏柔": 7
+          },
+          "vo_counts": {
+            "林晚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "六年戒辣换一句斤斤计较，钥匙还你",
+      "audible_counts": {
+        "苏柔": 4,
+        "顾泽宇": 7,
+        "周铭": 3,
+        "林晚": 8,
+        "陈叔": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "叔",
+        "哥",
+        "姐",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　顾家半山别墅餐厅　夜",
+          "audible_counts": {
+            "苏柔": 4,
+            "顾泽宇": 7,
+            "周铭": 3,
+            "林晚": 8,
+            "陈叔": 2
+          },
+          "vo_counts": {
+            "林晚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "一千万寄卖回执摊上桌，散伙去涮九宫格",
+      "audible_counts": {
+        "周铭": 5,
+        "苏柔": 6,
+        "林晚": 8,
+        "顾泽宇": 5
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "叔",
+        "奶",
+        "哥",
+        "姐",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　顾家半山别墅餐厅至玄关　夜",
+          "audible_counts": {
+            "周铭": 5,
+            "苏柔": 6,
+            "林晚": 8,
+            "顾泽宇": 5
+          },
+          "vo_counts": {
+            "林晚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

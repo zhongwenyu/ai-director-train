@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "episode_count": 12,
+  "mean_est_duration_sec": 86.2,
+  "episodes": [
+    {
+      "episode": 13,
+      "title": "弃二保一，退费碰壁",
+      "scenes": 4,
+      "actions": 10,
+      "dialogue_lines": 21,
+      "vo_lines": 0,
+      "spoken_chars": 455,
+      "avg_line_chars": 21.7,
+      "est_duration_sec": 122.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 14,
+      "title": "林父斩摊，冒雨求保",
+      "scenes": 3,
+      "actions": 8,
+      "dialogue_lines": 19,
+      "vo_lines": 0,
+      "spoken_chars": 433,
+      "avg_line_chars": 22.8,
+      "est_duration_sec": 112.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 15,
+      "title": "周叔押证，背债立总店",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 257,
+      "avg_line_chars": 21.4,
+      "est_duration_sec": 79.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 16,
+      "title": "冰断人走，凿冰救急",
+      "scenes": 3,
+      "actions": 10,
+      "dialogue_lines": 11,
+      "vo_lines": 0,
+      "spoken_chars": 256,
+      "avg_line_chars": 23.3,
+      "est_duration_sec": 77.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 17,
+      "title": "熟人埋雷，插钎扣椒",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 11,
+      "vo_lines": 1,
+      "spoken_chars": 258,
+      "avg_line_chars": 21.5,
+      "est_duration_sec": 74.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 18,
+      "title": "九块九截流，烘椒破困",
+      "scenes": 3,
+      "actions": 8,
+      "dialogue_lines": 11,
+      "vo_lines": 0,
+      "spoken_chars": 267,
+      "avg_line_chars": 24.3,
+      "est_duration_sec": 76.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 19,
+      "title": "明档打虾，现钞锁心",
+      "scenes": 3,
+      "actions": 10,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 282,
+      "avg_line_chars": 20.1,
+      "est_duration_sec": 83.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 20,
+      "title": "寒雨送餐，夜半买油",
+      "scenes": 3,
+      "actions": 8,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 284,
+      "avg_line_chars": 21.8,
+      "est_duration_sec": 80.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 21,
+      "title": "当街化皂，暗巷惊变",
+      "scenes": 3,
+      "actions": 9,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 259,
+      "avg_line_chars": 21.6,
+      "est_duration_sec": 76.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 22,
+      "title": "截井抓脏，双线锁冰",
+      "scenes": 3,
+      "actions": 8,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 304,
+      "avg_line_chars": 23.4,
+      "est_duration_sec": 84.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 23,
+      "title": "凝脂破漏，截标生变",
+      "scenes": 3,
+      "actions": 7,
+      "dialogue_lines": 11,
+      "vo_lines": 0,
+      "spoken_chars": 254,
+      "avg_line_chars": 23.1,
+      "est_duration_sec": 72.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 24,
+      "title": "八万落子，沪上暗礁",
+      "scenes": 3,
+      "actions": 9,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 332,
+      "avg_line_chars": 23.7,
+      "est_duration_sec": 92.6,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

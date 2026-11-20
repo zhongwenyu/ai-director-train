@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈岚",
+  "episode_count": 3,
+  "mean_est_duration_sec": 122.2,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "一亿贺礼换来结扎羞辱",
+      "scenes": 1,
+      "actions": 8,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 483,
+      "avg_line_chars": 19.3,
+      "est_duration_sec": 122.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "双标逼敬茶与撤回婚房",
+      "scenes": 1,
+      "actions": 8,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 488,
+      "avg_line_chars": 19.5,
+      "est_duration_sec": 123.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "召回八子重选继承人",
+      "scenes": 1,
+      "actions": 7,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 487,
+      "avg_line_chars": 19.5,
+      "est_duration_sec": 121.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

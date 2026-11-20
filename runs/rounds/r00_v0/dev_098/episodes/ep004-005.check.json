@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 146.4,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "喜提月薪两千八保安岗",
+      "scenes": 3,
+      "actions": 14,
+      "dialogue_lines": 13,
+      "vo_lines": 2,
+      "spoken_chars": 620,
+      "avg_line_chars": 41.3,
+      "est_duration_sec": 163.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "全屋八个高清机位伺候",
+      "scenes": 2,
+      "actions": 21,
+      "dialogue_lines": 9,
+      "vo_lines": 3,
+      "spoken_chars": 423,
+      "avg_line_chars": 35.2,
+      "est_duration_sec": 129.6,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 4 集在【本集完】之后仍有残留文本（3字）"
+  ]
+}

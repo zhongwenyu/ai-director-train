@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 149.6,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "老算盘半夜见了鬼",
+      "scenes": 1,
+      "actions": 18,
+      "dialogue_lines": 11,
+      "vo_lines": 4,
+      "spoken_chars": 524,
+      "avg_line_chars": 34.9,
+      "est_duration_sec": 144.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "没有压痕的复写单",
+      "scenes": 2,
+      "actions": 16,
+      "dialogue_lines": 13,
+      "vo_lines": 1,
+      "spoken_chars": 616,
+      "avg_line_chars": 44.0,
+      "est_duration_sec": 163.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "这门军婚我亲自嫁",
+      "scenes": 2,
+      "actions": 19,
+      "dialogue_lines": 11,
+      "vo_lines": 2,
+      "spoken_chars": 489,
+      "avg_line_chars": 37.6,
+      "est_duration_sec": 140.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "叶寻",
+  "episode_count": 3,
+  "mean_est_duration_sec": 128.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "毕业家宴的笑脸毒饼",
+      "scenes": 2,
+      "actions": 13,
+      "dialogue_lines": 22,
+      "vo_lines": 2,
+      "spoken_chars": 478,
+      "avg_line_chars": 19.9,
+      "est_duration_sec": 131.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "熄火撤勺，恩断沙正街",
+      "scenes": 2,
+      "actions": 11,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 478,
+      "avg_line_chars": 19.9,
+      "est_duration_sec": 127.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "三日军令状与当街炼油",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 480,
+      "avg_line_chars": 20.0,
+      "est_duration_sec": 125.1,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

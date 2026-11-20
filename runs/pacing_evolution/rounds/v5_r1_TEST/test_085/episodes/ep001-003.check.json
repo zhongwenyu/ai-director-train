@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "林晚",
+  "episode_count": 3,
+  "mean_est_duration_sec": 129.8,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "煲了四小时的汤，配不上一勺红油",
+      "scenes": 1,
+      "actions": 13,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 491,
+      "avg_line_chars": 20.5,
+      "est_duration_sec": 131.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "六年戒辣换一句斤斤计较，钥匙还你",
+      "scenes": 1,
+      "actions": 7,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 512,
+      "avg_line_chars": 20.5,
+      "est_duration_sec": 127.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "一千万寄卖回执摊上桌，散伙去涮九宫格",
+      "scenes": 1,
+      "actions": 8,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 520,
+      "avg_line_chars": 20.8,
+      "est_duration_sec": 130.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

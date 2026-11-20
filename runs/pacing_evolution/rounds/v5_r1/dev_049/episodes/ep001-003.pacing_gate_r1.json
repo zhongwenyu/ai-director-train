@@ -1,0 +1,129 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "完全看懂，毫无障碍。苏瑾借给小姑子的亡母学区房三年期满，收房发现换锁毁遗物，丈夫竟偷撕字据伙同妹妹、婆婆逼她过户给外甥读书；苏瑾停副卡、亮居委会备案反制并提离婚，人物关系、前情与争点一清二楚。",
+  "total_score": 92.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "被撬开的亡母遗物间",
+      "audible_counts": {
+        "苏瑾": 9,
+        "周明远": 3,
+        "周莉": 6,
+        "赵强": 3,
+        "赵子轩": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "舅",
+        "哥",
+        "妹",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　亡母学区房走廊及客厅　日",
+          "audible_counts": {
+            "苏瑾": 9,
+            "周明远": 3,
+            "周莉": 6,
+            "赵强": 3,
+            "赵子轩": 1
+          },
+          "vo_counts": {
+            "苏瑾": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "偷撕借据？先停你买菜副卡",
+      "audible_counts": {
+        "周莉": 9,
+        "苏瑾": 8,
+        "赵强": 3,
+        "周明远": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "舅",
+        "哥",
+        "妹",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　亡母学区房客厅　日",
+          "audible_counts": {
+            "周莉": 9,
+            "苏瑾": 8,
+            "赵强": 3,
+            "周明远": 3
+          },
+          "vo_counts": {
+            "苏瑾": 1
+          },
+          "mute_present_characters": [
+            "赵子轩"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "亮备案立下七十二小时通牒",
+      "audible_counts": {
+        "王桂芳": 5,
+        "周莉": 3,
+        "苏瑾": 8,
+        "赵子轩": 1,
+        "赵强": 1,
+        "周明远": 5
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "舅",
+        "哥",
+        "妹",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　亡母学区房客厅　日",
+          "audible_counts": {
+            "王桂芳": 5,
+            "周莉": 3,
+            "苏瑾": 8,
+            "赵子轩": 1,
+            "赵强": 1,
+            "周明远": 5
+          },
+          "vo_counts": {
+            "苏瑾": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "bench_id": "test_085",
+    "drama_id": "085",
+    "split": "test",
+    "genre": "都市情感",
+    "seed": "豪门阔少以为温顺女友爱惨了自己而纵容绿茶女大当众羞辱她，殊不知女友六年深情全是演戏，正默默变卖他闲置奢侈品凑够一千万远走高飞自由吃火锅。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/pacing_bench/test/test_085_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "test_048",
+    "drama_id": "048",
+    "split": "test",
+    "genre": "都市情感",
+    "seed": "权贵大佬受绝症孪生弟弟托孤，假扮穷岳父探望侄女，却见势利婆家一边办宴巴结自己，一边掌掴逼跪侄女还不许上桌，他愤而住进婆家铁腕护短，只待接风宴亮明真身清算。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/pacing_bench/test/test_048_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "test_075",
+    "drama_id": "075",
+    "split": "test",
+    "genre": "都市情感",
+    "seed": "医武通神的真千金穿破衣泥鞋下山归家，遭伪善假千金与主母当众羞辱驱赶，她以脏鞋试出身遭暗算的三个哥哥捧鞋洗脚的真心后，霸气救治兄长并打脸恶人化解豪门死劫。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/pacing_bench/test/test_075_gt_ep001-003.md"
+  }
+]

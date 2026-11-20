@@ -1,0 +1,26 @@
+[
+  {
+    "bench_id": "dev_049",
+    "drama_id": "049",
+    "split": "dev",
+    "genre": "都市情感",
+    "seed": "隐退女董事长把亡母留下的学区房借给小姑子一家白住三年救急，期满收房时小姑子私自换锁毁坏遗物，偏心丈夫还偷撕协议逼她把房过户给外甥，女主彻底寒心强势收房清算。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/pacing_bench/dev/dev_049_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "dev_066",
+    "drama_id": "066",
+    "split": "dev",
+    "genre": "都市情感",
+    "seed": "隐瞒集团创始人身份托举总裁妻子的丈夫被骂废物，妻子与丈母娘竟为初恋父子强拆女儿房间逼住储物间、抢走度假名额，丈夫寒心带女离婚，撤回至尊礼遇并收回一切资产。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/pacing_bench/dev/dev_066_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "dev_133",
+    "drama_id": "133",
+    "split": "dev",
+    "genre": "都市情感",
+    "seed": "不孕的百亿女董事长在养子婚宴许诺巨额生育奖，养子夫妻却自恃独苗稳吞家产，当众宣布结扎、揭她伤疤逼她道歉，女董事长寒心弃子，召回另外八个孩子重选继承人。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/pacing_bench/dev/dev_133_gt_ep001-003.md"
+  }
+]

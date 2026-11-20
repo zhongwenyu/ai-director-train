@@ -1,0 +1,227 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“拒捡白眼狼+谁行善谁买单”为核心引擎，女主顺水推舟立据将救命恩人与医药巨债焊死在贪慕高干的绿茶堂妹头上，促成白莲与傲慢男主锁死互耗，配合全员护短家人利落立威。裸看实况称谓明确、因果自洽、口语鲜活，集尾钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.2,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.75,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "后山拒捡白眼狼",
+      "audible_counts": {
+        "沈砚": 1,
+        "林柔": 6,
+        "林穗": 7,
+        "周桂兰": 3,
+        "赵翠花": 2,
+        "林守山": 1,
+        "林建业": 1
+      },
+      "unintroduced_speakers": [
+        "林柔",
+        "林穗",
+        "周桂兰",
+        "赵翠花",
+        "林守山",
+        "林建业"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "娘",
+        "叔",
+        "爷",
+        "奶",
+        "姐",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　红旗大队后山坡底　日",
+          "audible_counts": {
+            "沈砚": 1,
+            "林柔": 4,
+            "林穗": 3
+          },
+          "vo_counts": {
+            "林穗": 3
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　林家老宅院门　日",
+          "audible_counts": {
+            "周桂兰": 3,
+            "林穗": 4,
+            "林柔": 2,
+            "赵翠花": 2,
+            "林守山": 1,
+            "林建业": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "村民",
+            "沈砚"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "恩人账单焊二房",
+      "audible_counts": {
+        "赵翠花": 4,
+        "林向东": 1,
+        "林建国": 1,
+        "大队长": 2,
+        "林柔": 6,
+        "林穗": 5,
+        "林建业": 1,
+        "护士": 2,
+        "沈砚": 2
+      },
+      "unintroduced_speakers": [
+        "赵翠花",
+        "林向东",
+        "林建国",
+        "林建业"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "姑",
+        "爷",
+        "奶",
+        "婆",
+        "公",
+        "姐",
+        "妹",
+        "总",
+        "队长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内/外　林家老宅堂屋及院门　日",
+          "audible_counts": {
+            "赵翠花": 3,
+            "林向东": 1,
+            "林建国": 1,
+            "大队长": 2,
+            "林柔": 4,
+            "林穗": 5,
+            "林建业": 1
+          },
+          "vo_counts": {
+            "林柔": 1
+          },
+          "mute_present_characters": [
+            "周桂兰",
+            "林守山",
+            "沈砚"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　公社卫生院病房　傍晚",
+          "audible_counts": {
+            "护士": 2,
+            "赵翠花": 1,
+            "林柔": 2,
+            "沈砚": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "夜捉偷参正面刚",
+      "audible_counts": {
+        "林柔": 5,
+        "沈砚": 8,
+        "赵翠花": 1,
+        "许秀兰": 1,
+        "周桂兰": 1,
+        "林守山": 3,
+        "林穗": 4
+      },
+      "unintroduced_speakers": [
+        "赵翠花",
+        "许秀兰",
+        "周桂兰",
+        "林守山"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "姑",
+        "爷",
+        "奶",
+        "婆",
+        "公",
+        "哥",
+        "姐",
+        "妹",
+        "总",
+        "队长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　公社卫生院病房　日",
+          "audible_counts": {
+            "林柔": 2,
+            "沈砚": 3,
+            "赵翠花": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　林家老宅堂屋　傍晚",
+          "audible_counts": {
+            "许秀兰": 1,
+            "周桂兰": 1,
+            "林守山": 1,
+            "林穗": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "林向东"
+          ]
+        },
+        {
+          "scene_id": "3-3",
+          "location": "内　林家老宅院内墙根　夜",
+          "audible_counts": {
+            "林柔": 3,
+            "林穗": 3,
+            "林守山": 2,
+            "沈砚": 5
+          },
+          "vo_counts": {
+            "林穗": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

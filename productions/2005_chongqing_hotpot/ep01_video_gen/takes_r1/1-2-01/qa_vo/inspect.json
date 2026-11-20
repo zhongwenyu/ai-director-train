@@ -1,0 +1,24 @@
+{
+  "video": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/takes_r1/1-2-01/vo_368p.mp4",
+  "width": 368,
+  "height": 656,
+  "duration_s": 9.417,
+  "nb_frames": "226",
+  "has_audio": true,
+  "audio_sample_rate": "32000",
+  "mean_volume": "-15.0 dB",
+  "max_volume": "-0.0 dB",
+  "sampled_timestamps": [
+    0.0,
+    1.0,
+    2.0,
+    3.0,
+    4.0,
+    5.0,
+    6.0,
+    7.0,
+    8.0
+  ],
+  "contact_sheet": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/takes_r1/1-2-01/qa_vo/contact_sheet.jpg",
+  "audio_wav": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/takes_r1/1-2-01/qa_vo/audio_16k.wav"
+}

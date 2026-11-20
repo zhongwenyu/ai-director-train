@@ -1,0 +1,21 @@
+{
+  "left": "REAL_HIT",
+  "right": "LEGACY_R27",
+  "slot_A": "REAL_HIT",
+  "slot_B": "LEGACY_R27",
+  "winner_label": "TIE",
+  "margin": "narrow",
+  "dimension_winners": {
+    "opening_attraction": "REAL_HIT",
+    "dialogue_humanity": "LEGACY_R27",
+    "tension_and_payoff": "REAL_HIT",
+    "ending_cliffhanger": "TIE"
+  },
+  "why_winner_wins": "A险胜，主要赢在节奏与反差喜剧的兑现效率。巨石救人直接展示怪力，紧接着提出应聘谋士，再用“手无缚鸡之力”制造笑点，最后以另投明主改变谈判筹码，推进更集中。这是怪力谋士喜剧，不能因没有寿面、旧鞋等现实题材细节判负；两版也都没有集中堆砌炫富羞辱套路。A仍有夸张表情、围观吐槽和系统重复播报的问题，远未达到优秀短剧标准。",
+  "why_loser_loses": "B有“那堵墙可不觉得偶然”“你这张嘴，比城墙还难攻”等更有活人感的对白，但新增篇幅主要用于重复拒绝与坚持。李昊已经说求文职、殿下已经拒绝，随后再次揭晓“谋士？你？”，信息推进近乎重来；“来求个谋士位置”“求职归求职”等内心旁白又替可见行动作解释。武职兼参谋算一次有效加码，却不足以抵消前面的绕圈。两版集尾均已解决入职和惩罚危机，只剩泛泛的“奖励发放中”，没有具体异常或新难题支撑追看，因此结尾同判偏弱。",
+  "swap_check": {
+    "pass1_winner": "REAL_HIT",
+    "pass2_winner": "LEGACY_R27",
+    "consistent": false
+  }
+}

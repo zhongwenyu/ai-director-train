@@ -1,0 +1,287 @@
+[
+  {
+    "id": "2-1-01",
+    "episode": 2,
+    "duration": 9,
+    "seed": 52101,
+    "description": "紧接上集原桌死寂，林双双心虚捂表抵赖，林有才沉脸重重墩下酒杯拿一家人道德绑架。",
+    "dialogue": "林双双：阿寻哥，你胡说啥，什么进门不进门的！\n林有才：小寻，林叔看你长大，一家人你说啥子怪话？",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻 · 渝清记围裙掌勺",
+      "林有才",
+      "林双双"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The man seated calmly on the left of <Picture 1>, matching <Picture 2>.\n- <Subject 2> (S2): The man seated in the center of <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3> (S1): The woman seated on the right of <Picture 1>, matching <Picture 4>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-4.2s) Medium three-shot framed from <Picture 1> in the silent hotpot hall.\n- [Shot 2] (4.2s-9.0s) Medium close-up on <Subject 2> slamming his beer glass down onto the wooden table.\n[Timeline]\n- [Shot 1] (0.2s-4.0s): Covering her left wrist nervously, <Subject 3> (S1) protests sharply: <d>[Chinese] 阿寻哥，你胡说啥，什么进门不进门的。</d>\n- [Shot 2] (4.3s-8.6s): Dropping his smile and slamming the beer glass down with a thud, <Subject 2> (S2) scowls: <d>[Chinese] 小寻，林叔看你长大，一家人你说啥子怪话。</d>\n[Environment]\n- Sunlit 2005 wooden hotpot hall under spinning ceiling fan.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Flustered female voice, heavy thud of glass on wood, stern older male voice, zero music."
+  },
+  {
+    "id": "2-1-02",
+    "episode": 2,
+    "duration": 10,
+    "seed": 52102,
+    "description": "叶寻摊开满是烫疤的双手质问月薪两千二只发四百，林有才强辩余钱替他攒着娶林双双。",
+    "dialogue": "叶寻：一家人？熟练大厨月薪两千二，林叔给我发多少？\n林有才：每月四百零花还少？余钱不是替你攒着娶双双吗！",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻 · 渝清记围裙掌勺",
+      "林有才"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-02_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The man on the left of <Picture 1> spreading his scarred hands on the table, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The man in the center of <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-4.6s) Medium close-up framed from <Picture 1> showing <Subject 1>'s hands flat beside the ledger.\n- [Shot 2] (4.6s-10.0s) Reverse medium close-up on <Subject 2> retorting defensively.\n[Timeline]\n- [Shot 1] (0.2s-4.4s): Spreading both scarred palms flat beside the ledger and staring straight at <Subject 2>, <Subject 1> (S1) asks coldly: <d>[Chinese] 一家人，熟练大厨月薪两千二，林叔给我发多少。</d>\n- [Shot 2] (4.8s-9.5s): Pointing at the table defensively, <Subject 2> (S2) blusters: <d>[Chinese] 每月四百零花还少，余钱不是替你攒着娶双双吗。</d>\n[Environment]\n- Sunlit 2005 wooden hotpot hall.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Palms placed on wood, cold steady male voice, defensive older male bluster, zero music."
+  },
+  {
+    "id": "2-1-03",
+    "episode": 2,
+    "duration": 10,
+    "seed": 52103,
+    "description": "叶寻戳破林家拿他手艺钱供林双双读完四年大学，更一针见血点出省城楚少楚南的名字。",
+    "dialogue": "叶寻：攒彩礼，还是拿我的手艺钱供她读完四年大学？\n林双双：当年是你甘愿供我的，现在翻什么旧账！\n叶寻：我是供未婚妻，不是替省城楚少楚南养女人。",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻 · 渝清记围裙掌勺",
+      "林双双"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-03_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The man on the left of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The woman on the right of <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n[Shot]\n- [Shot 1] (0s-6.6s) Medium two-shot framed from <Picture 1> across the wooden table.\n- [Shot 2] (6.6s-10.0s) Tight close-up on <Subject 1> delivering the decisive blow.\n[Timeline]\n- [Shot 1] (0.2s-3.5s): Looking straight at her, <Subject 1> (S1) says: <d>[Chinese] 攒彩礼，还是拿我的手艺钱供她读完四年大学。</d>\n- [Shot 1] (3.7s-6.5s): Flushing with annoyance, <Subject 2> (S2) snaps back: <d>[Chinese] 当年是你甘愿供我的，现在翻什么旧账。</d>\n- [Shot 2] (6.7s-9.7s): Unflinching, <Subject 1> (S1) replies in an ice-cold voice: <d>[Chinese] 我是供未婚妻，不是替省城楚少楚南养女人。</d>\n[Environment]\n- Sunlit 2005 wooden hotpot hall.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Sharp rapid confrontation between young man and woman, zero music."
+  },
+  {
+    "id": "2-1-04",
+    "episode": 2,
+    "duration": 11,
+    "seed": 52104,
+    "description": "林双双惊骇起身撞歪竹椅追问怎知楚南，叶寻揭穿三天后楚南来验汤摘桃子的算计。",
+    "dialogue": "林双双：你……你怎么知道楚南哥？\n叶寻：大四实习你就跟了他，等三天后他来验汤，好拿全方献宝吧？\n[VO] 叶寻：前世直到死前，我才知楚南一直在幕后等摘桃子。",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻 · 渝清记围裙掌勺",
+      "林有才",
+      "林双双"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S2): The man seated steadily on the left of <Picture 1>, matching <Picture 2>. Voice matches Audio 2.\n- <Subject 2>: The dark-faced man in the center of <Picture 1>, matching <Picture 3>.\n- <Subject 3> (S1): The startled woman standing on the right of <Picture 1>, matching <Picture 4>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-2.7s) Medium three-shot framed from <Picture 1> as <Subject 3> stands in shock.\n- [Shot 2] (2.7s-11.0s) Close-up on <Subject 1> speaking coldly from 2.8s to 6.8s, then holding a silent, piercing stare with lips strictly closed from 6.8s to 11.0s.\n[Timeline]\n- [Shot 1] (0.2s-2.5s): Standing rigid beside her tilted bamboo chair, <Subject 3> (S1) gasps: <d>[Chinese] 你，你怎么知道楚南哥。</d>\n- [Shot 2] (2.8s-6.7s): Looking up at her calmly, <Subject 1> (S2) says: <d>[Chinese] 大四实习你就跟了他，等三天后他来验汤，好拿全方献宝吧。</d>\n- [Shot 2] (6.8s-11.0s): Keeping his lips completely closed, <Subject 1> holds an ice-cold, knowing gaze across the table.\n[Environment]\n- Sunlit 2005 wooden hotpot hall.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, <Subject 1>'s lips strictly closed from 6.8s to 11.0s.\n[Audio]\n- Shocked female gasp, cold male revelation ending at 6.7s, quiet room tone from 6.8s to 11.0s, zero music.",
+    "vo_custom": {
+      "face_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "voice": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav",
+      "text": "前世直到死前，我才知楚南一直在幕后等摘桃子。",
+      "duration": 5,
+      "dst_start": 6.9,
+      "max_len": 3.9
+    }
+  },
+  {
+    "id": "2-1-05",
+    "episode": 2,
+    "duration": 10,
+    "seed": 52105,
+    "description": "林有才索性撕破伪善摊牌，林双双炫耀楚少注资二十万，叶寻冷嘲二十万买叶家祖传锅底。",
+    "dialogue": "林有才：行，既然看穿了，林叔也不跟你装糊涂。\n林双双：人往高处走！楚少肯注资二十万，你给得起吗？\n叶寻：二十万买我叶家祖传锅底，算盘打得真响。",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "林有才",
+      "林双双",
+      "叶寻 · 渝清记围裙掌勺"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-05_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The man seated and leaning back coldly on the right of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The woman standing beside him on the left of <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3> (S3): The young man opposite them, matching <Picture 4>. Voice matches Audio 3.\n[Shot]\n- [Shot 1] (0s-7.0s) Medium two-shot framed from <Picture 1> on <Subject 1> and <Subject 2> dropping all pretense.\n- [Shot 2] (7.0s-10.0s) Reverse close-up on <Subject 3> sneering quietly.\n[Timeline]\n- [Shot 1] (0.2s-3.5s): Leaning back with a brazen sneer, <Subject 1> (S1) says: <d>[Chinese] 行，既然看穿了，林叔也不跟你装糊涂。</d>\n- [Shot 1] (3.7s-6.9s): Lifting her chin arrogantly, <Subject 2> (S2) says: <d>[Chinese] 人往高处走，楚少肯注资二十万，你给得起吗。</d>\n- [Shot 2] (7.1s-9.7s): <Subject 3> (S3) replies coolly: <d>[Chinese] 二十万买我叶家祖传锅底，算盘打得真响。</d>\n[Environment]\n- Sunlit 2005 wooden hotpot hall.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Brazen older male voice, haughty female voice, dry incisive young male reply, zero music."
+  },
+  {
+    "id": "2-1-06",
+    "episode": 2,
+    "duration": 10,
+    "seed": 52106,
+    "description": "林有才狂妄宣称叶寻炒料四年二十多味香料顺序他早看熟了，离了林记叶寻连铁锅都支不起。",
+    "dialogue": "林有才：少拿乔！你炒料四年，二十多味香料顺序我早看熟了！\n林有才：有楚少二十万撑腰，离了我林记，你连口铁锅都支不起！",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "林有才"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-06_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The arrogant boss in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-10.0s) Medium close-up framed from <Picture 1> with the kitchen pass behind him.\n[Timeline]\n- [Shot 1] (0.3s-9.5s): Pointing his thumb cockily toward the kitchen behind him and jabbing a finger forward, <Subject 1> (S1) boasts loudly: <d>[Chinese] 少拿乔，你炒料四年，二十多味香料顺序我早看熟了，有楚少二十万撑腰，离了我林记，你连口铁锅都支不起。</d>\n[Environment]\n- Sunlit 2005 wooden hotpot hall.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Arrogant booming male boast, subtle restaurant ambience, zero music."
+  },
+  {
+    "id": "2-1-07",
+    "episode": 2,
+    "duration": 7,
+    "seed": 52107,
+    "description": "叶寻一言不发将半页试配单按进冷茶碗搓成烂纸泥，林有才惊怒伸手大喊捞出来。",
+    "dialogue": "林有才：你干啥！把试配单捞出来！",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻 · 渝清记围裙掌勺",
+      "林有才"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-07_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The young man standing on the left of <Picture 1>, matching <Picture 2>.\n- <Subject 2> (S1): The older man reaching out in alarm on the right of <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-3.1s) Medium two-shot framed from <Picture 1> as <Subject 1>'s hand plunges the half-sheet handwritten draft into the porcelain bowl of dark cold tea and crushes it into wet pulp.\n- [Shot 2] (3.1s-7.0s) Instant hard cut to medium close-up on <Subject 2> lunging toward the bowl in panic.\n[Timeline]\n- [Shot 1] (0s-3.0s): Without a word, <Subject 1> presses the half-sheet paper deep into the bowl of dark tea and rubs it into shredded wet pulp.\n- [Shot 2] (3.2s-6.6s): Lunging toward the table in panic, <Subject 2> (S1) shouts: <d>[Chinese] 你干啥，把试配单捞出来。</d>\n[Environment]\n- Sunlit 2005 wooden hotpot hall.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Splash of tea and wet paper tearing, frantic older male shout, zero music."
+  },
+  {
+    "id": "2-1-08",
+    "episode": 2,
+    "duration": 8,
+    "seed": 52108,
+    "description": "已解下围裙的叶寻拧死后厨母锅燃气总阀熄火，摘下亡父留下的老熟铁炒勺宣告四年两清。",
+    "dialogue": "叶寻：灶火我替林家烧了四年，今天撤勺熄火，两清了。",
+    "assetNames": [
+      "夏氏小厨后厨猛火炒灶",
+      "叶寻"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-08_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/yexun_charcoal_no_apron_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young man standing beside the stove in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-8.0s) Medium shot framed from <Picture 1> at the kitchen stove pass.\n[Timeline]\n- [Shot 1] (0.2s-2.2s): <Subject 1> twists the brass main gas valve firmly shut with a sharp metallic click and lifts the long-handled wrought-iron ladle off the wall hook.\n- [Shot 1] (2.4s-7.6s): Holding the wrought-iron ladle steadily, <Subject 1> (S1) speaks with calm finality: <d>[Chinese] 灶火我替林家烧了四年，今天撤勺熄火，两清了。</d>\n[Environment]\n- Sunlit 2005 Chongqing restaurant kitchen pass with unlit iron wok.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Crisp metallic valve click, iron ladle lifted from hook, resolute male voice, zero music."
+  },
+  {
+    "id": "2-1-09",
+    "episode": 2,
+    "duration": 8,
+    "seed": 52109,
+    "description": "叶寻提着亡父老铁勺跨向店门，林双双在身后叫嚣不出三天必回来求她爸，叶寻冷声回应走着瞧。",
+    "dialogue": "林双双：你身无分文出门，不出三天就得回来求我爸！\n叶寻：三天后谁求谁，走着瞧。",
+    "assetNames": [
+      "沙正街林家食府老店大堂",
+      "叶寻",
+      "林双双"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-1-09_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/yexun_charcoal_no_apron_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S2): The young man at the sunlit doorway on the left of <Picture 1> holding the long iron ladle, matching <Picture 2>. Voice matches Audio 2.\n- <Subject 2> (S1): The woman inside the hall on the right of <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-4.6s) Medium shot framed from <Picture 1> as <Subject 2> shouts at <Subject 1>'s back.\n- [Shot 2] (4.6s-8.0s) Medium close-up on <Subject 1> glancing half-back at the threshold before stepping out.\n[Timeline]\n- [Shot 1] (0.2s-4.4s): Glaring after him, <Subject 2> (S1) shouts spitefully: <d>[Chinese] 你身无分文出门，不出三天就得回来求我爸。</d>\n- [Shot 2] (4.7s-7.7s): Glancing over his shoulder at the bright doorway, <Subject 1> (S2) replies coolly: <d>[Chinese] 三天后谁求谁，走着瞧。</d>\n[Environment]\n- Sunlit wooden doorway opening onto a Chongqing bluestone street.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Sharp spiteful female shout, calm confident male reply, footsteps on threshold, zero music."
+  },
+  {
+    "id": "2-2-01",
+    "episode": 2,
+    "duration": 9,
+    "seed": 52201,
+    "description": "叶寻拎老铁勺跨出林记，对门夏记少掌柜夏芊芊穿过青石板街迎上前确认他与林家彻底断清。",
+    "dialogue": "夏芊芊：小寻哥！真跟林有才断干净了？\n叶寻：芊芊？嗯，火熄了，往后跟林记再无瓜葛。",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "叶寻",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-2-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/yexun_charcoal_no_apron_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S2): The young man on the right of <Picture 1> holding the wrought-iron ladle, matching <Picture 2>. Voice matches Audio 2.\n- <Subject 2> (S1): The young woman on the left of <Picture 1> stepping up to meet him, matching <Picture 3>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-9.0s) Sunlit street medium two-shot framed from <Picture 1> between the two facing hotpot shops.\n[Timeline]\n- [Shot 1] (0.3s-3.9s): Stopping right in front of <Subject 1> with bright, earnest eyes, <Subject 2> (S1) asks briskly: <d>[Chinese] 小寻哥，真跟林有才断干净了。</d>\n- [Shot 1] (4.2s-8.6s): Nodding firmly with the iron ladle in hand, <Subject 1> (S2) answers: <d>[Chinese] 芊芊，嗯，火熄了，往后跟林记再无瓜葛。</d>\n[Environment]\n- Daytime sunlit 2005 Chongqing bluestone street between two traditional hotpot storefronts.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Footsteps on bluestone, crisp female question, steady male answer, daytime street air, zero music."
+  },
+  {
+    "id": "2-2-02",
+    "episode": 2,
+    "duration": 9,
+    "seed": 52202,
+    "description": "林有才追到门口幸灾乐祸嘲笑夏记昨晚刚跑了师傅，叶寻反唇相讥让他先操心今晚自家锅底。",
+    "dialogue": "林有才：夏丫头，你店里昨晚刚跑了师傅，自身都难保喽！\n叶寻：林老板还是先操心今晚自己的锅底能不能熬响吧。",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "夏芊芊",
+      "叶寻",
+      "林有才"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-2-02_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/yexun_charcoal_no_apron_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/yexun_pure_ref.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The young woman standing on the left of <Picture 1>, matching <Picture 2>.\n- <Subject 2> (S2): The young man standing center-left in <Picture 1> holding the iron ladle, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3> (S1): The older boss leaning in the doorway on the right of <Picture 1>, matching <Picture 4>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-4.5s) Medium shot framed from <Picture 1> favoring <Subject 3> jeering from the right doorway.\n- [Shot 2] (4.5s-9.0s) Instant hard cut to medium two-shot on <Subject 2> and <Subject 1> in the sunlit street as <Subject 2> replies coolly.\n[Timeline]\n- [Shot 1] (0.2s-4.3s): Leaning against the wooden doorframe with folded arms, <Subject 3> (S1) jeers loudly: <d>[Chinese] 夏丫头，你店里昨晚刚跑了师傅，自身都难保喽。</d>\n- [Shot 2] (4.6s-8.7s): Glancing calmly toward <Subject 3>, <Subject 2> (S2) replies evenly: <d>[Chinese] 林老板还是先操心今晚自己的锅底能不能熬响吧。</d>\n[Environment]\n- Sunlit 2005 Chongqing bluestone street.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Mocking older male jeer, cool composed young male retort, subtle street ambience, zero music."
+  },
+  {
+    "id": "2-2-03",
+    "episode": 2,
+    "duration": 7,
+    "seed": 52203,
+    "description": "夏芊芊目光灼灼盯住叶寻手中的叶叔老铁勺，盛邀叶寻入主夏记掌勺，两人四目相对定下战局。",
+    "dialogue": "夏芊芊：说得好！叶叔的老铁勺还在，小寻哥，来我夏记掌勺敢不敢？",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "夏芊芊",
+      "叶寻"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/keyframes_1k/2-2-03_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v5/video_gen/assets_1k/yexun_charcoal_no_apron_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The young woman on the left of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The young man on the right of <Picture 1> gripping the wrought-iron ladle, matching <Picture 3>.\n[Shot]\n- [Shot 1] (0s-7.0s) Tight sunlit two-shot framed from <Picture 1> in the middle of the bluestone street.\n[Timeline]\n- [Shot 1] (0.2s-5.2s): Looking straight at the wrought-iron ladle and up into <Subject 2>'s eyes with fiery spirit, <Subject 1> (S1) speaks crisply: <d>[Chinese] 说得好，叶叔的老铁勺还在，小寻哥，来我夏记掌勺敢不敢。</d>\n- [Shot 1] (5.2s-7.0s): <Subject 2> tightens his grip on the iron ladle handle, locking determined eyes with <Subject 1>.\n[Environment]\n- Warm sunlit Chongqing old street.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, natural eye lines and lip-sync.\n[Audio]\n- Spirited clear female challenge, subtle metallic grip on iron ladle, zero music."
+  }
+]

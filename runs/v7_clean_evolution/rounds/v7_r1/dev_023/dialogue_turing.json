@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听全是活人张嘴的烟火气与急促呼吸感。长短句错落极佳，“烫手！”“起开！”“十八块？！”等短促反应与话咬话顶针极紧；吵架全落到八毛纱布钱、三块酒钱、两副兽夹等具体烂账上；北方年代屯子词地道，人物声纹鲜明，毫无AI端腔。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.6,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.6
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 95.25,
+  "rhythm_metrics": {
+    "total_lines": 87,
+    "mean_char_len": 18.8,
+    "char_len_stdev": 6.6,
+    "short_reaction_ratio_le7": 0.046,
+    "twin_clause_symmetry_ratio": 0.0
+  }
+}

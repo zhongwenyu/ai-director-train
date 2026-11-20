@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈砚舟",
+  "episode_count": 3,
+  "mean_est_duration_sec": 131.1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "两百块礼金的温情与冷眼",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 494,
+      "avg_line_chars": 19.8,
+      "est_duration_sec": 133.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "名流敬酒引哗然与婆家强行圆场",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 495,
+      "avg_line_chars": 19.8,
+      "est_duration_sec": 128.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "嫂子拆穿假表与婆家固执定性",
+      "scenes": 2,
+      "actions": 11,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 495,
+      "avg_line_chars": 19.8,
+      "est_duration_sec": 131.6,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,377 @@
+{
+  "train_drama_count": 105,
+  "dramas_with_summary_stages": 36,
+  "episodes_per_complete_event_stage": {
+    "p25": 5.0,
+    "median": 5.56,
+    "mean": 5.62,
+    "p75": 6.25,
+    "p90": 6.25
+  },
+  "stages_per_50ep_window": {
+    "p25": 8.0,
+    "median": 9.0,
+    "p75": 10.0
+  },
+  "foreshadow_plant_to_payoff_span_eps": {
+    "count": 0,
+    "p25": 0.0,
+    "median": 0.0,
+    "mean": 0.0,
+    "p75": 0.0
+  },
+  "ep1_promise_resolved_at_episode": {
+    "count": 0,
+    "p25": 0.0,
+    "median": 0.0,
+    "p75": 0.0
+  },
+  "ep1_flashforward_or_pastlife_hook_rate": 0.203,
+  "cross_episode_same_scene_or_cast_continuation_rate": {
+    "ep1->ep2": 0.622,
+    "ep2->ep3": 0.595,
+    "ep3->ep4": 0.459,
+    "ep4->ep5": 0.608
+  },
+  "ep1_to_5_profile": {
+    "ep1": {
+      "top_functions": [
+        [
+          "setup",
+          64
+        ],
+        [
+          "conflict",
+          4
+        ],
+        [
+          "reversal",
+          3
+        ],
+        [
+          "payoff",
+          2
+        ]
+      ],
+      "top_ending_hooks": [
+        [
+          "setup_question",
+          29
+        ],
+        [
+          "threat",
+          15
+        ],
+        [
+          "cliffhanger",
+          10
+        ],
+        [
+          "payoff_tease",
+          9
+        ]
+      ],
+      "median_active_characters": 5.0,
+      "median_micro_beats": 9.0,
+      "median_payoffs": 1.0
+    },
+    "ep2": {
+      "top_functions": [
+        [
+          "escalation",
+          21
+        ],
+        [
+          "conflict",
+          16
+        ],
+        [
+          "reversal",
+          15
+        ],
+        [
+          "payoff",
+          9
+        ]
+      ],
+      "top_ending_hooks": [
+        [
+          "setup_question",
+          25
+        ],
+        [
+          "payoff_tease",
+          14
+        ],
+        [
+          "cliffhanger",
+          12
+        ],
+        [
+          "threat",
+          8
+        ]
+      ],
+      "median_active_characters": 5.0,
+      "median_micro_beats": 9.0,
+      "median_payoffs": 1.0
+    },
+    "ep3": {
+      "top_functions": [
+        [
+          "escalation",
+          24
+        ],
+        [
+          "reversal",
+          14
+        ],
+        [
+          "payoff",
+          13
+        ],
+        [
+          "emotional",
+          10
+        ]
+      ],
+      "top_ending_hooks": [
+        [
+          "emotional_pull",
+          19
+        ],
+        [
+          "setup_question",
+          15
+        ],
+        [
+          "payoff_tease",
+          13
+        ],
+        [
+          "cliffhanger",
+          12
+        ]
+      ],
+      "median_active_characters": 5.0,
+      "median_micro_beats": 9.0,
+      "median_payoffs": 2.0
+    },
+    "ep4": {
+      "top_functions": [
+        [
+          "escalation",
+          22
+        ],
+        [
+          "reversal",
+          15
+        ],
+        [
+          "emotional",
+          12
+        ],
+        [
+          "payoff",
+          11
+        ]
+      ],
+      "top_ending_hooks": [
+        [
+          "setup_question",
+          18
+        ],
+        [
+          "emotional_pull",
+          16
+        ],
+        [
+          "cliffhanger",
+          13
+        ],
+        [
+          "payoff_tease",
+          12
+        ]
+      ],
+      "median_active_characters": 5.0,
+      "median_micro_beats": 9.0,
+      "median_payoffs": 1.0
+    },
+    "ep5": {
+      "top_functions": [
+        [
+          "escalation",
+          23
+        ],
+        [
+          "reversal",
+          16
+        ],
+        [
+          "payoff",
+          14
+        ],
+        [
+          "emotional",
+          10
+        ]
+      ],
+      "top_ending_hooks": [
+        [
+          "payoff_tease",
+          21
+        ],
+        [
+          "setup_question",
+          20
+        ],
+        [
+          "emotional_pull",
+          12
+        ],
+        [
+          "cliffhanger",
+          12
+        ]
+      ],
+      "median_active_characters": 5.0,
+      "median_micro_beats": 9.0,
+      "median_payoffs": 2.0
+    }
+  },
+  "stage_span_examples": [
+    {
+      "drama": "001_装穷提亲，娶到全家嫌弃的她",
+      "genre": "年代乡村",
+      "chapters": 50,
+      "num_stages": 11,
+      "episodes_per_stage": 4.55,
+      "first_2_stages": [
+        "- 阶段1｜顾承川装穷求退婚，林家逼小满替嫁；她愿卖遗镯助其还债，他收起退意重新求婚，两人自主选择成家。",
+        "- 阶段2｜林家以破屋、伙食费和衣着羞辱新人；两人互让被褥、赠衫庆生，感情渐深，并定下初六婚期。"
+      ]
+    },
+    {
+      "drama": "002_大唐憨婿之我姐姐是太子妃第五季",
+      "genre": "古装穿越",
+      "chapters": 50,
+      "num_stages": 9,
+      "episodes_per_stage": 5.56,
+      "first_2_stages": [
+        "- 阶段1｜苏昊闯吐蕃驿馆替姐姐出头，对手解释时暴露和亲与夺坊图谋，被迫撤回要求，仍遭追杀至皇宫。",
+        "- 阶段2｜补揭苏昊因传话未完而越狱的起因；皇帝私下认可解围结果，请能约束他的太子妃出面谈判。"
+      ]
+    },
+    {
+      "drama": "005_退役归来，这个保镖不好惹",
+      "genre": "都市情感",
+      "chapters": 50,
+      "num_stages": 8,
+      "episodes_per_stage": 6.25,
+      "first_2_stages": [
+        "- 阶段1｜陈云东打拳筹得救母钱，途中救下张雨涵又遭追堵，到院仍痛失母亲；妹妹制止其失控，李欣准他先办后事。",
+        "- 阶段2｜陈云东立誓守护妹妹，却面临欠租与退学困境；张连生解决燃眉之急，他谈妥条件接受保护工作，妹妹重返校园。"
+      ]
+    },
+    {
+      "drama": "006_持械入宋：第一季",
+      "genre": "古装穿越",
+      "chapters": 50,
+      "num_stages": 10,
+      "episodes_per_stage": 5.0,
+      "first_2_stages": [
+        "- 阶段1｜小队坠车后外貌年轻化、通信失效，与猎户对峙后交换信息，确认身处北宋宣和四年。",
+        "- 阶段2｜小队与猎户同行，开枪救人建立信任；发现清河村遇袭后协同作战，以有限火力击退西夏兵。"
+      ]
+    },
+    {
+      "drama": "008_搬空家底去下乡，大队长是我亲爹！",
+      "genre": "年代乡村",
+      "chapters": 50,
+      "num_stages": 11,
+      "episodes_per_stage": 4.55,
+      "first_2_stages": [
+        "- 阶段1｜娇娇穿越后带伤苏醒，发现住宅空间，取走下乡手续，搬空虐待自己的旧家。",
+        "- 阶段2｜黑市遭稽查追赶，她借转角遮挡进入空间脱身，放弃购物赶往车站。"
+      ]
+    },
+    {
+      "drama": "009_备用联系人（完）",
+      "genre": "都市情感",
+      "chapters": 50,
+      "num_stages": 10,
+      "episodes_per_stage": 5.0,
+      "first_2_stages": [
+        "- 阶段1｜分手后的亲密意外引发躲避，买房与赴美争执揭示十年关系为何破裂。",
+        "- 阶段2｜宋淮聿追到怀城并持续靠近，池茉从拒绝纠缠转为重新认识他。"
+      ]
+    },
+    {
+      "drama": "010_要送我联姻，那我就换个继承人",
+      "genre": "都市情感",
+      "chapters": 50,
+      "num_stages": 10,
+      "episodes_per_stage": 5.0,
+      "first_2_stages": [
+        "- 阶段1｜宁宁渴望姐姐却遭准嫂子施暴，大哥返回仍纵容未婚妻，她启动SOS求救。",
+        "- 阶段2｜毁容危机中父亲赶到，控制施暴者；张姨、小翠先后作证，沈锦瑶推诿失败。"
+      ]
+    },
+    {
+      "drama": "012_退休老头再就业",
+      "genre": "都市情感",
+      "chapters": 50,
+      "num_stages": 8,
+      "episodes_per_stage": 6.25,
+      "first_2_stages": [
+        "- 阶段1｜退休创始人秘密返岗，遭未来亲家母指控偷耳环，拒绝以羞辱方式自证。",
+        "- 阶段2｜投标U盘失踪，冒签单据、柜中空盘和衣内耳环形成连续栽赃。"
+      ]
+    },
+    {
+      "drama": "013_千禧年收破烂，我能听见古董说话",
+      "genre": "都市情感",
+      "chapters": 50,
+      "num_stages": 7,
+      "episodes_per_stage": 7.14,
+      "first_2_stages": [
+        "- 阶段1｜讨薪受辱时觉醒听物能力，修好抵债电机变现，拒绝亲族索钱并摆脱依附。",
+        "- 阶段2｜修复旧表、经营维修与收购生意，发现老铜炉，实现收入增长与家庭生活改善。"
+      ]
+    },
+    {
+      "drama": "016_天医下山：不爽一脚直接踹飞",
+      "genre": "都市情感",
+      "chapters": 50,
+      "num_stages": 10,
+      "episodes_per_stage": 5.0,
+      "first_2_stages": [
+        "- 阶段1｜叶家驱逐母子，叶振山携妻儿离开；叶天入山求医，五年后带着本领下山。",
+        "- 阶段2｜飞机救治苏宏云，诊金误会形成喜剧反差，赠卡与网友关系埋下后续伏笔。"
+      ]
+    },
+    {
+      "drama": "018_黄昏之恋，陆总幸遇真爱",
+      "genre": "都市情感",
+      "chapters": 50,
+      "num_stages": 12,
+      "episodes_per_stage": 4.17,
+      "first_2_stages": [
+        "- 阶段1｜保胎钱被养子挪走，苏云流血倒地；院长发现她佩戴父亲失去的手表，引出身世悬念。",
+        "- 阶段2｜回溯临时保姆误入相亲安排，陆震霆误解苏云，发生关系后以手表打发她离开。"
+      ]
+    },
+    {
+      "drama": "019_婚后娇养，偏执大佬的掌心宠",
+      "genre": "都市情感",
+      "chapters": 50,
+      "num_stages": 8,
+      "episodes_per_stage": 6.25,
+      "first_2_stages": [
+        "- 阶段1｜穿书女主从会所脱身遇阻，误闯丈夫包厢，转以装乖争取安全。",
+        "- 阶段2｜适应庄园生活并收敛恶习，从死亡传闻和过敏线索追查谋害。"
+      ]
+    }
+  ]
+}

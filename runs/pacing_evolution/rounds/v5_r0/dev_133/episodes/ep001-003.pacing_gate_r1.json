@@ -1,0 +1,163 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "完全看懂。前三集紧扣同一场婚宴层层推进：养母沈岚赐礼盼孙，养子周耀祖与林家亮结扎单逼宫夺权；沈岚收回礼金、停卡撤单，撕协议并召回其余八名养子女。人物关系、前情与争点皆清晰自洽，无莫名其妙之处。",
+  "total_score": 92.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "婚宴敬茶亮出结扎单",
+      "audible_counts": {
+        "司仪": 1,
+        "周耀祖": 3,
+        "林娇娇": 5,
+        "沈岚": 10,
+        "张翠花": 2,
+        "林强": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "娘",
+        "妹",
+        "媳妇",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　五星酒店婚宴主厅　日",
+          "audible_counts": {
+            "司仪": 1,
+            "周耀祖": 3,
+            "林娇娇": 5,
+            "沈岚": 10,
+            "张翠花": 2,
+            "林强": 1
+          },
+          "vo_counts": {
+            "沈岚": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "收回一亿撤掉挂账",
+      "audible_counts": {
+        "周耀祖": 7,
+        "沈岚": 9,
+        "张翠花": 2,
+        "林强": 1,
+        "林娇娇": 2,
+        "王行长": 1,
+        "李经理": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "娘",
+        "妹",
+        "媳妇",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　五星酒店婚宴主厅　日",
+          "audible_counts": {
+            "周耀祖": 1,
+            "沈岚": 1
+          },
+          "vo_counts": {
+            "沈岚": 1
+          },
+          "mute_present_characters": [
+            "张翠花",
+            "林娇娇",
+            "林强"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　沈宅书房（闪回）　夜",
+          "audible_counts": {
+            "周耀祖": 1,
+            "沈岚": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　五星酒店婚宴主厅　日",
+          "audible_counts": {
+            "周耀祖": 5,
+            "沈岚": 7,
+            "张翠花": 2,
+            "林强": 1,
+            "林娇娇": 2,
+            "王行长": 1,
+            "李经理": 2
+          },
+          "vo_counts": {
+            "沈岚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "撕碎协议召回八子",
+      "audible_counts": {
+        "周耀祖": 7,
+        "李经理": 1,
+        "张翠花": 2,
+        "沈岚": 9,
+        "林强": 1,
+        "林娇娇": 2,
+        "沈知夏": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "娘",
+        "弟",
+        "妹",
+        "老公",
+        "媳妇",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　五星酒店婚宴主厅　日",
+          "audible_counts": {
+            "周耀祖": 7,
+            "李经理": 1,
+            "张翠花": 2,
+            "沈岚": 9,
+            "林强": 1,
+            "林娇娇": 2,
+            "沈知夏": 1
+          },
+          "vo_counts": {
+            "沈岚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

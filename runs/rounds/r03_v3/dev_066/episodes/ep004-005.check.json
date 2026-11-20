@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 226.4,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "这栋别墅，不姓苏",
+      "scenes": 2,
+      "actions": 12,
+      "dialogue_lines": 21,
+      "vo_lines": 0,
+      "spoken_chars": 951,
+      "avg_line_chars": 45.3,
+      "est_duration_sec": 229.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "自毁长城的人事令",
+      "scenes": 3,
+      "actions": 8,
+      "dialogue_lines": 18,
+      "vo_lines": 0,
+      "spoken_chars": 939,
+      "avg_line_chars": 52.2,
+      "est_duration_sec": 222.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 4 集预估时长偏长（229.9s > 190s），注意节奏拖沓",
+    "第 5 集预估时长偏长（222.9s > 190s），注意节奏拖沓"
+  ]
+}

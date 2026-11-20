@@ -1,0 +1,39 @@
+{
+  "1-1-01": [
+    {"start": 0.2, "end": 3.4, "kind": "caption", "speaker": "", "text": "2005年夏 · 重庆老街 林记火锅"},
+    {"start": 3.8, "end": 8.4, "kind": "dialogue", "speaker": "林双双", "text": "把你叶家清润汤剩下几味草本补全，咱俩婚约算完了。"}
+  ],
+  "1-1-02": [
+    {"start": 0.25, "end": 5.3, "kind": "vo", "speaker": "叶寻", "text": "重回2005年？前世我交出祖传秘方，反被他们榨干赶出老街！"},
+    {"start": 5.8, "end": 10.6, "kind": "dialogue", "speaker": "楚南", "text": "双双马上进我楚氏餐饮当主管，能嫁你个满身牛油味的伙夫？"}
+  ],
+  "1-1-03": [
+    {"start": 0.1, "end": 3.9, "kind": "dialogue", "speaker": "林有才", "text": "白吃我家四年，留张方子抵恩，是你的本分！"},
+    {"start": 8.8, "end": 11.7, "kind": "dialogue", "speaker": "林双双", "text": "叶寻你疯了！敢撕我家的方子？"}
+  ],
+  "1-1-04": [
+    {"start": 0.3, "end": 2.9, "kind": "caption", "speaker": "", "text": "邮政汇款存根（共48张 · 四年大学学费生活费）"},
+    {"start": 3.1, "end": 7.9, "kind": "dialogue", "speaker": "叶寻", "text": "我辍学熬四年牛油，四十八张汇款单供你读完大学，两清了！"}
+  ],
+  "1-1-05": [
+    {"start": 1.3, "end": 4.2, "kind": "dialogue", "speaker": "叶寻", "text": "今晚起火我撤了，看你们拿什么端上桌！"},
+    {"start": 5.6, "end": 9.6, "kind": "dialogue", "speaker": "林有才", "text": "忘恩负义的东西！离了林记，这条街谁敢要你？"}
+  ],
+  "1-2-01": [
+    {"start": 0.25, "end": 5.3, "kind": "vo", "speaker": "叶寻", "text": "前世只有世交芊芊护我到底，这辈子换我撑起夏记！"},
+    {"start": 6.8, "end": 12.1, "kind": "dialogue", "speaker": "夏芊芊", "text": "叶爷爷熬汤真传我从小看着！林家瞎了眼，夏记迎你掌勺！"}
+  ],
+  "1-2-02": [
+    {"start": 0.3, "end": 5.0, "kind": "caption", "speaker": "", "text": "合营契书：叶夏合营 · 五五分账"},
+    {"start": 5.8, "end": 9.3, "kind": "dialogue", "speaker": "夏芊芊", "text": "五五分账，往后咱俩一口锅里搅马勺！"}
+  ],
+  "1-2-03": [
+    {"start": 0.5, "end": 6.1, "kind": "dialogue", "speaker": "楚南", "text": "夏芊芊，敢收他？明早断你夏记全部成品牛油，看你拿什么交房租！"},
+    {"start": 7.1, "end": 10.6, "kind": "dialogue", "speaker": "林双双", "text": "你们备好菜的机械厂十二桌席，周厂长刚改签给林记了！"}
+  ],
+  "1-2-04": [
+    {"start": 0.1, "end": 2.8, "kind": "dialogue", "speaker": "夏芊芊", "text": "成品牛油全断了，明早拿什么开火？"},
+    {"start": 4.4, "end": 8.2, "kind": "dialogue", "speaker": "叶寻", "text": "不用陈年老油！上车，去屠宰场抢今晚头刀鲜牛板油！"},
+    {"start": 8.4, "end": 10.2, "kind": "dialogue", "speaker": "夏芊芊", "text": "走！我跟你去！"}
+  ]
+}

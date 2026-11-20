@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 120.6,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "哥哥，我不是败家小妖怪",
+      "scenes": 2,
+      "actions": 22,
+      "dialogue_lines": 15,
+      "vo_lines": 0,
+      "spoken_chars": 389,
+      "avg_line_chars": 25.9,
+      "est_duration_sec": 123.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "铠甲是冷的，怀里是热的",
+      "scenes": 3,
+      "actions": 23,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 343,
+      "avg_line_chars": 26.4,
+      "est_duration_sec": 117.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

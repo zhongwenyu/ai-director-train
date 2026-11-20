@@ -1,0 +1,55 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "手写贴条？呵，一张座卖两回，撞我枪口上了。",
+      "quote": "手贴条？干八年民航诉讼，倒撞上超售重发了。"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "方睿，朵朵在机场让人拽伤了，我现在在急诊！天翼超售还硬抢孩子把我们轰下来了！",
+      "quote": "天翼超售撞座，硬抢朵朵清场，孩子伤了。"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "这两周千万别拽孩子这只手。诊断书给您盖好章了，留着后面走手续用。",
+      "quote": "两周别碰伤手。诊断书盖章了，报警理赔都认。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "明白！我现在就揣着公章过去调，赶在他们动手脚前把底档扣下来！",
+      "quote": "明白！监控七十二小时覆盖，我拎章就走！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "带了带了！证我也拿上了，咱们直接从侧门混进去。",
+      "quote": "揣着呢！凭这张民航法务通行证，直接进内场。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "陈姨，您把车门锁死，千万看好朵朵。里头的事我有数，他们欺负不着我。",
+      "quote": "落锁看好朵朵。办八年航空侵权，没人捂得住我。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "把朵朵伤成这样还敢倒打一耙？行，今天当着记者面咱们好好算这笔账。",
+      "quote": "伤我女儿还敢开会泼脏水？这台子，我拆。"
+    }
+  ],
+  "ear_test_impression": "一耳朵就是AI按字数卡尺硬压出来的“电报腔爽文稿”。全篇七十多句几乎清一色焊死在16～22字的短促双三分句，妈妈救伤娃、医生看诊全像念新闻标题，还对着保姆和下属硬报八年履历与通行证设定，毫无活人吵架救急的真实呼吸。",
+  "scores": {
+    "character_voice_distinction": 4,
+    "conversational_bite_and_rhythm": 3,
+    "spoken_naturalness": 3.5,
+    "subtext_and_micro_specificity": 5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 38.75,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 15.2,
+    "char_len_stdev": 3.6,
+    "short_reaction_ratio_le7": 0.053,
+    "twin_clause_symmetry_ratio": 0.053
+  }
+}

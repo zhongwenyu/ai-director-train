@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈正宏",
+  "episode_count": 3,
+  "mean_est_duration_sec": 139.3,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "不离，一分都别想拿",
+      "scenes": 1,
+      "actions": 9,
+      "dialogue_lines": 22,
+      "vo_lines": 2,
+      "spoken_chars": 497,
+      "avg_line_chars": 20.7,
+      "est_duration_sec": 126.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "断卡收车，一分现钱别想动",
+      "scenes": 3,
+      "actions": 9,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 552,
+      "avg_line_chars": 22.1,
+      "est_duration_sec": 143.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "请君入瓮，按印坐牢",
+      "scenes": 1,
+      "actions": 7,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 606,
+      "avg_line_chars": 24.2,
+      "est_duration_sec": 147.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['赵凯'] 未直接叫出全名（已出现称谓 ['总', '主任', '律师']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['赵凯'] 未直接叫出全名（已出现称谓 ['公', '姐', '总', '主任', '律师']，交由屏幕盲审核验关系清晰度）"
+  ]
+}

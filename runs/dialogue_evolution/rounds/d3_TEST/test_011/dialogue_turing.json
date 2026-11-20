@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听很有年代农村短剧的活人烟火气。吵架全抓冷窝头、炕柜藏肉、买驴看院墙等实在小账，零总结金句与空洞口号；“什么借不借”“赔六百？”“拿着！”等短促顶针咬得很紧，孩童、势利哥嫂与憨厚妹夫声纹分明，自然上口。",
+  "scores": {
+    "character_voice_distinction": 8.6,
+    "conversational_bite_and_rhythm": 8.7,
+    "spoken_naturalness": 9,
+    "subtext_and_micro_specificity": 9.1
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 88.5,
+  "rhythm_metrics": {
+    "total_lines": 88,
+    "mean_char_len": 14.2,
+    "char_len_stdev": 6.4,
+    "short_reaction_ratio_le7": 0.239,
+    "twin_clause_symmetry_ratio": 0.125
+  }
+}

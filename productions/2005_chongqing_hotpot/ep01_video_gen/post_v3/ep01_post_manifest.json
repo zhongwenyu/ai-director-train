@@ -1,0 +1,608 @@
+{
+  "total_duration": 147.109,
+  "vtt_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/post_v3/ep01_subtitles.vtt",
+  "bgm_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/post_v3/ep01_bgm.mp3",
+  "bgm_segments": [
+    {
+      "label": "2015背叛与雨夜悲鸣（低回钢琴和弦 CC0）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/freesound-807111.mp3",
+      "start_shot": "1-1-01",
+      "end_shot": "1-2-01",
+      "end_delta": -4.2,
+      "gain": 0.5,
+      "fade_in": 0.9,
+      "fade_out": 0.5,
+      "start": 0.0,
+      "end": 52.843
+    },
+    {
+      "label": "2005重生觉醒与冷面退场（沉静复盘 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "1-3-01",
+      "start_delta": 0.6,
+      "end_shot": "1-3-13",
+      "end_delta": -0.3,
+      "src_offset": 1.5,
+      "gain": 0.44,
+      "fade_in": 1.2,
+      "fade_out": 1.2,
+      "start": 57.643,
+      "end": 118.742
+    },
+    {
+      "label": "梧桐坡道重逢青梅（梦幻怀旧吉他短曲 CC0）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/freesound-845168.mp3",
+      "start_shot": "1-4-01",
+      "end_shot": "1-4-01",
+      "end_delta": -4.85,
+      "gain": 0.48,
+      "fade_in": 0.8,
+      "fade_out": 0.6,
+      "start": 119.042,
+      "end": 128.592
+    },
+    {
+      "label": "封门危机与罢厨悬念卡点（深鼓悬疑渐强 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-sfx-682.wav",
+      "start_shot": "1-4-01",
+      "start_delta": 9.55,
+      "end_shot": "1-4-04",
+      "align_end": true,
+      "gain": 0.52,
+      "fade_in": 0.7,
+      "fade_out": 0.25,
+      "start": 128.592,
+      "end": 147.109
+    }
+  ],
+  "shots": [
+    {
+      "id": "1-1-01",
+      "studioShotId": "3b4184e5-d230-4074-bc88-1295e6094efc",
+      "duration": 9.44,
+      "bgmOffset": 0.0,
+      "subtitles": [
+        {
+          "start": 0.0,
+          "end": 2.3,
+          "kind": "caption",
+          "speaker": "",
+          "text": "2015年 · 双林轩火锅上市路演前夜"
+        },
+        {
+          "start": 0.2,
+          "end": 2.4,
+          "kind": "caption",
+          "speaker": "",
+          "text": "《叶氏清润底料配方无偿归属集团确认书》"
+        },
+        {
+          "start": 2.0,
+          "end": 5.9,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "十年，我熬废右手把林双双托上顶峰。"
+        }
+      ]
+    },
+    {
+      "id": "1-1-04",
+      "studioShotId": "5ecd45cb-7d81-439c-9bbf-c380dbb92028",
+      "duration": 13.667,
+      "bgmOffset": 9.44,
+      "subtitles": [
+        {
+          "start": 4.2,
+          "end": 7.2,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "谁让你往母汤里倒奶油的？草本回甘全毁了！"
+        },
+        {
+          "start": 10.1,
+          "end": 13.6,
+          "kind": "dialogue",
+          "speaker": "赵帆",
+          "text": "明早路演主桌改上法式浓汤锅，原版红汤撤掉。"
+        }
+      ]
+    },
+    {
+      "id": "1-1-07",
+      "studioShotId": "6b290632-ae1d-4a2b-a97e-d58561419a04",
+      "duration": 10.125,
+      "bgmOffset": 23.107,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 2.2,
+          "kind": "caption",
+          "speaker": "",
+          "text": "调岗通知：江津老仓原料管理员"
+        },
+        {
+          "start": 2.0,
+          "end": 6.1,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "叶师傅，外资投行认海归履历，赵主厨比你体面。"
+        },
+        {
+          "start": 6.6,
+          "end": 9.9,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "双双，方子墨迹还没干，你就撤我的灶？"
+        }
+      ]
+    },
+    {
+      "id": "1-1-10",
+      "studioShotId": "20030f78-4a35-48cf-a1a8-ed6e521154d7",
+      "duration": 13.667,
+      "bgmOffset": 33.232,
+      "subtitles": [
+        {
+          "start": 1.0,
+          "end": 3.2,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "方子已经归档入库，谁看火都一样。"
+        },
+        {
+          "start": 4.0,
+          "end": 7.8,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "十年心血我全给了公司，连明早路演都不让我露面？"
+        },
+        {
+          "start": 8.5,
+          "end": 10.4,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "见机构要注意团队形象。"
+        },
+        {
+          "start": 10.7,
+          "end": 13.6,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "老仓清静，工资照发，你别让我为难。"
+        }
+      ]
+    },
+    {
+      "id": "1-2-01",
+      "studioShotId": "d439d47a-731e-48b0-8163-3cfeaf49fa88",
+      "duration": 10.144,
+      "bgmOffset": 46.899,
+      "subtitles": [
+        {
+          "start": 1.6,
+          "end": 5.6,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "十年托举，最后连爷爷留下的根都亲手送了人……"
+        }
+      ]
+    },
+    {
+      "id": "1-3-01",
+      "studioShotId": "af98b38e-dd06-4b4d-94ce-25bc7df045ec",
+      "duration": 11.552,
+      "bgmOffset": 57.043,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 3.5,
+          "kind": "caption",
+          "speaker": "",
+          "text": "2005年9月19日 · 重庆大学沙坪坝老校区外"
+        },
+        {
+          "start": 1.9,
+          "end": 6.3,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "2005年？手还没废，食单还在！"
+        },
+        {
+          "start": 7.5,
+          "end": 11.4,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "双双，你真打算听叶寻的，把馆子改成老火锅？"
+        }
+      ]
+    },
+    {
+      "id": "1-3-04",
+      "studioShotId": "0b9504b7-95a6-4014-9849-e78d6d469d89",
+      "duration": 11.542,
+      "bgmOffset": 68.595,
+      "subtitles": [
+        {
+          "start": 2.4,
+          "end": 4.9,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "外语系女生谁爱熏一身牛油味？"
+        },
+        {
+          "start": 6.9,
+          "end": 11.0,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "改成法式西餐厅，我把上海星级西厨赵帆请来给你镇场！"
+        }
+      ]
+    },
+    {
+      "id": "1-3-07",
+      "studioShotId": "73e83559-beb1-4956-9378-58dfbf59c9f1",
+      "duration": 13.696,
+      "bgmOffset": 80.137,
+      "subtitles": [
+        {
+          "start": 1.0,
+          "end": 6.2,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "叶寻，你昨天答应拿爷爷方子帮我家救店，可楚南说火锅上不了台面……"
+        },
+        {
+          "start": 6.8,
+          "end": 8.0,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "你怎么不吭声？"
+        },
+        {
+          "start": 8.7,
+          "end": 13.2,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "掏心掏肺换来卸磨杀驴，这一世，这火坑你们自己跳吧。"
+        }
+      ]
+    },
+    {
+      "id": "1-3-10",
+      "studioShotId": "8c2518b3-eb6e-4c0e-afce-e12b19fadd73",
+      "duration": 10.125,
+      "bgmOffset": 93.833,
+      "subtitles": [
+        {
+          "start": 1.0,
+          "end": 2.2,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "楚少说得对。"
+        },
+        {
+          "start": 2.8,
+          "end": 3.9,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "你说什么？"
+        },
+        {
+          "start": 6.0,
+          "end": 9.8,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "西餐体面，我这老方子就不耽误你们发财了。"
+        }
+      ]
+    },
+    {
+      "id": "1-3-13",
+      "studioShotId": "b12d0904-fbe0-4d8c-b3d4-192ad8e1761a",
+      "duration": 15.084,
+      "bgmOffset": 103.958,
+      "subtitles": [
+        {
+          "start": 3.9,
+          "end": 8.2,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "叶寻你站住！出了这扇门，以后你求着把方子送来我都不要！"
+        }
+      ]
+    },
+    {
+      "id": "1-4-01",
+      "studioShotId": "2936556f-1a1a-4d99-9665-7e6f8fbfecfc",
+      "duration": 14.4,
+      "bgmOffset": 119.042,
+      "subtitles": [
+        {
+          "start": 5.6,
+          "end": 9.4,
+          "kind": "caption",
+          "speaker": "",
+          "text": "夏芊芊 · 重大会计系大四 · 青梅竹马"
+        },
+        {
+          "start": 7.4,
+          "end": 9.4,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "谢谢同……小寻？！"
+        },
+        {
+          "start": 9.6,
+          "end": 14.2,
+          "kind": "caption",
+          "speaker": "",
+          "text": "最后通牒：桂花巷18号欠半年房租壹万捌仟元，10月8日封门"
+        },
+        {
+          "start": 9.55,
+          "end": 13.95,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "十月八号封门？上辈子夏家就是这关被逼垮的，这一世换我来护！"
+        }
+      ]
+    },
+    {
+      "id": "1-4-04",
+      "studioShotId": "11084527-633a-4fac-9fed-3efb95540ff8",
+      "duration": 13.667,
+      "bgmOffset": 133.442,
+      "subtitles": [
+        {
+          "start": 4.1,
+          "end": 8.9,
+          "kind": "dialogue",
+          "speaker": "小石头",
+          "text": "芊芊姐快回店！刘师傅关火背刀包要走，堂里三桌客人都拍桌子了！"
+        }
+      ]
+    }
+  ],
+  "episode_subtitles": [
+    {
+      "start": 0.0,
+      "end": 2.3,
+      "kind": "caption",
+      "speaker": "",
+      "text": "2015年 · 双林轩火锅上市路演前夜",
+      "shotId": "1-1-01"
+    },
+    {
+      "start": 0.2,
+      "end": 2.4,
+      "kind": "caption",
+      "speaker": "",
+      "text": "《叶氏清润底料配方无偿归属集团确认书》",
+      "shotId": "1-1-01"
+    },
+    {
+      "start": 2.0,
+      "end": 5.9,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "十年，我熬废右手把林双双托上顶峰。",
+      "shotId": "1-1-01"
+    },
+    {
+      "start": 13.64,
+      "end": 16.64,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "谁让你往母汤里倒奶油的？草本回甘全毁了！",
+      "shotId": "1-1-04"
+    },
+    {
+      "start": 19.54,
+      "end": 23.04,
+      "kind": "dialogue",
+      "speaker": "赵帆",
+      "text": "明早路演主桌改上法式浓汤锅，原版红汤撤掉。",
+      "shotId": "1-1-04"
+    },
+    {
+      "start": 23.307,
+      "end": 25.307,
+      "kind": "caption",
+      "speaker": "",
+      "text": "调岗通知：江津老仓原料管理员",
+      "shotId": "1-1-07"
+    },
+    {
+      "start": 25.107,
+      "end": 29.207,
+      "kind": "dialogue",
+      "speaker": "楚南",
+      "text": "叶师傅，外资投行认海归履历，赵主厨比你体面。",
+      "shotId": "1-1-07"
+    },
+    {
+      "start": 29.707,
+      "end": 33.007,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "双双，方子墨迹还没干，你就撤我的灶？",
+      "shotId": "1-1-07"
+    },
+    {
+      "start": 34.232,
+      "end": 36.432,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "方子已经归档入库，谁看火都一样。",
+      "shotId": "1-1-10"
+    },
+    {
+      "start": 37.232,
+      "end": 41.032,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "十年心血我全给了公司，连明早路演都不让我露面？",
+      "shotId": "1-1-10"
+    },
+    {
+      "start": 41.732,
+      "end": 43.632,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "见机构要注意团队形象。",
+      "shotId": "1-1-10"
+    },
+    {
+      "start": 43.932,
+      "end": 46.832,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "老仓清静，工资照发，你别让我为难。",
+      "shotId": "1-1-10"
+    },
+    {
+      "start": 48.499,
+      "end": 52.499,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "十年托举，最后连爷爷留下的根都亲手送了人……",
+      "shotId": "1-2-01"
+    },
+    {
+      "start": 57.243,
+      "end": 60.543,
+      "kind": "caption",
+      "speaker": "",
+      "text": "2005年9月19日 · 重庆大学沙坪坝老校区外",
+      "shotId": "1-3-01"
+    },
+    {
+      "start": 58.943,
+      "end": 63.343,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "2005年？手还没废，食单还在！",
+      "shotId": "1-3-01"
+    },
+    {
+      "start": 64.543,
+      "end": 68.443,
+      "kind": "dialogue",
+      "speaker": "楚南",
+      "text": "双双，你真打算听叶寻的，把馆子改成老火锅？",
+      "shotId": "1-3-01"
+    },
+    {
+      "start": 70.995,
+      "end": 73.495,
+      "kind": "dialogue",
+      "speaker": "楚南",
+      "text": "外语系女生谁爱熏一身牛油味？",
+      "shotId": "1-3-04"
+    },
+    {
+      "start": 75.495,
+      "end": 79.595,
+      "kind": "dialogue",
+      "speaker": "楚南",
+      "text": "改成法式西餐厅，我把上海星级西厨赵帆请来给你镇场！",
+      "shotId": "1-3-04"
+    },
+    {
+      "start": 81.137,
+      "end": 86.337,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "叶寻，你昨天答应拿爷爷方子帮我家救店，可楚南说火锅上不了台面……",
+      "shotId": "1-3-07"
+    },
+    {
+      "start": 86.937,
+      "end": 88.137,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "你怎么不吭声？",
+      "shotId": "1-3-07"
+    },
+    {
+      "start": 88.837,
+      "end": 93.337,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "掏心掏肺换来卸磨杀驴，这一世，这火坑你们自己跳吧。",
+      "shotId": "1-3-07"
+    },
+    {
+      "start": 94.833,
+      "end": 96.033,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "楚少说得对。",
+      "shotId": "1-3-10"
+    },
+    {
+      "start": 96.633,
+      "end": 97.733,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "你说什么？",
+      "shotId": "1-3-10"
+    },
+    {
+      "start": 99.833,
+      "end": 103.633,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "西餐体面，我这老方子就不耽误你们发财了。",
+      "shotId": "1-3-10"
+    },
+    {
+      "start": 107.858,
+      "end": 112.158,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "叶寻你站住！出了这扇门，以后你求着把方子送来我都不要！",
+      "shotId": "1-3-13"
+    },
+    {
+      "start": 124.642,
+      "end": 128.442,
+      "kind": "caption",
+      "speaker": "",
+      "text": "夏芊芊 · 重大会计系大四 · 青梅竹马",
+      "shotId": "1-4-01"
+    },
+    {
+      "start": 126.442,
+      "end": 128.442,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "谢谢同……小寻？！",
+      "shotId": "1-4-01"
+    },
+    {
+      "start": 128.642,
+      "end": 133.242,
+      "kind": "caption",
+      "speaker": "",
+      "text": "最后通牒：桂花巷18号欠半年房租壹万捌仟元，10月8日封门",
+      "shotId": "1-4-01"
+    },
+    {
+      "start": 128.592,
+      "end": 132.992,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "十月八号封门？上辈子夏家就是这关被逼垮的，这一世换我来护！",
+      "shotId": "1-4-01"
+    },
+    {
+      "start": 137.542,
+      "end": 142.342,
+      "kind": "dialogue",
+      "speaker": "小石头",
+      "text": "芊芊姐快回店！刘师傅关火背刀包要走，堂里三桌客人都拍桌子了！",
+      "shotId": "1-4-04"
+    }
+  ]
+}

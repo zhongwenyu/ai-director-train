@@ -1,0 +1,55 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "小梅！赶紧烧锅热水给你二嫂暖暖！秀禾你等着，我这就出去借钱！",
+      "quote": "小梅，烧热水照顾你二嫂。秀禾，等我去借救命钱！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "借钱？拉倒吧！你老子那条腿咋断的你没数啊？又上我这儿编瞎话骗酒喝！",
+      "quote": "陈卫东，你爹陈大山断条腿都填不满你，上我这骗酒钱？"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "别说话了，省点劲儿！把孩子捂严实了，翻过这道梁就到了！",
+      "quote": "秀禾，别信我的嘴，看我肩上这根绳往哪儿拉！"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "起来！秀禾你给我起来！求他干啥，快起来！",
+      "quote": "秀禾，地上凉，有我在，往后不准给任何人下跪！"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "赵干事您快搭把手啊，他死攥着我手不放，针根本拔不下来！",
+      "quote": "赵干事，他死死护着输液针头不撒手！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "慢着……姓刘的？我想起来了，这小子跟孙寡妇倒腾西药那档子烂事，不就这两天漏的底吗！",
+      "quote": "腊月十二，刘明？三天后他伙同孙寡妇倒卖西药的事就炸了！"
+    },
+    {
+      "defect_type": "era_or_region_register_mismatch",
+      "how_real_person_would_say_it": "你……你瞎白话啥！少在这儿血口喷人！",
+      "quote": "你……你胡吣什么！"
+    }
+  ],
+  "ear_test_impression": "一耳朵就是AI按字数切出来的年代网文广播剧腔！全篇75句几乎句句卡在17字上下、句尾清一色感叹号，全员按“喊称呼+匀称分句”的电报模板端着吼，救命关头连句两三字的本能短反应都没有，还夹杂硬报人物设定、男频口号与违和古白话“胡吣”。",
+  "scores": {
+    "character_voice_distinction": 3.5,
+    "conversational_bite_and_rhythm": 2,
+    "spoken_naturalness": 3.5,
+    "subtext_and_micro_specificity": 5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 35.0,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 16.9,
+    "char_len_stdev": 3.1,
+    "short_reaction_ratio_le7": 0.013,
+    "twin_clause_symmetry_ratio": 0.027
+  }
+}

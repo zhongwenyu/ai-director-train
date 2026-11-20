@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈建国",
+  "episode_count": 3,
+  "mean_est_duration_sec": 126.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "十年热心换冷眼",
+      "scenes": 2,
+      "actions": 10,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 482,
+      "avg_line_chars": 20.1,
+      "est_duration_sec": 127.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "讲规矩不谈旧恩",
+      "scenes": 1,
+      "actions": 10,
+      "dialogue_lines": 22,
+      "vo_lines": 1,
+      "spoken_chars": 457,
+      "avg_line_chars": 19.9,
+      "est_duration_sec": 119.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "一锹埋恩断来往",
+      "scenes": 3,
+      "actions": 12,
+      "dialogue_lines": 22,
+      "vo_lines": 1,
+      "spoken_chars": 477,
+      "avg_line_chars": 20.7,
+      "est_duration_sec": 131.2,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

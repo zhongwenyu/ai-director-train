@@ -1,0 +1,165 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎为实业老板遭出轨妻子与赌徒私教拿大单把柄逼离分产，腹黑律师反常规以“拒不离婚”合规锁产追赠、步步倒逼狗男女敲诈自毁入狱。裸看前3集人物关系与前因后果清晰，裂盒、浓茶、撕协议停副卡等交锋张力饱满，钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.3,
+    "motivation_and_logic": 9.2,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "纪念日的裂盒",
+      "audible_counts": {
+        "陈建国": 8,
+        "林芳": 8,
+        "赵凯": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　旧别克轿车内　夜",
+          "audible_counts": {
+            "陈建国": 1
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　陈家别墅玄关至客厅　夜",
+          "audible_counts": {
+            "林芳": 8,
+            "赵凯": 7,
+            "陈建国": 7
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "偏不离婚",
+      "audible_counts": {
+        "吴律师": 4,
+        "陈建国": 10,
+        "沈默": 7,
+        "林芳": 2,
+        "赵凯": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　正达律所夜间接待室　夜",
+          "audible_counts": {
+            "吴律师": 4,
+            "陈建国": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　静心老茶室包间　夜",
+          "audible_counts": {
+            "陈建国": 7,
+            "沈默": 7
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　恒盛厨具厂走廊至厂长办公室　日",
+          "audible_counts": {
+            "林芳": 2,
+            "赵凯": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "沈默",
+            "陈建国"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "当众撕碎的美梦",
+      "audible_counts": {
+        "陈姐": 2,
+        "老周": 2,
+        "陈建国": 5,
+        "林芳": 6,
+        "赵凯": 5,
+        "沈默": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "娘",
+        "哥",
+        "姐",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　恒盛厨具厂走廊至厂长室门口　日",
+          "audible_counts": {
+            "陈姐": 1,
+            "老周": 1,
+            "陈建国": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "林芳",
+            "沈默",
+            "赵凯"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　恒盛厨具厂厂长办公室　日",
+          "audible_counts": {
+            "林芳": 6,
+            "赵凯": 5,
+            "陈建国": 4,
+            "沈默": 4,
+            "陈姐": 1,
+            "老周": 1
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

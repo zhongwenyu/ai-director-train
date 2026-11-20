@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 173.3,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "婚房变喜堂",
+      "scenes": 1,
+      "actions": 19,
+      "dialogue_lines": 18,
+      "vo_lines": 1,
+      "spoken_chars": 607,
+      "avg_line_chars": 31.9,
+      "est_duration_sec": 164.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "拉闸逼出屋中客",
+      "scenes": 1,
+      "actions": 13,
+      "dialogue_lines": 17,
+      "vo_lines": 1,
+      "spoken_chars": 685,
+      "avg_line_chars": 38.1,
+      "est_duration_sec": 171.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "大锤砸碎摇钱树",
+      "scenes": 2,
+      "actions": 16,
+      "dialogue_lines": 18,
+      "vo_lines": 0,
+      "spoken_chars": 709,
+      "avg_line_chars": 39.4,
+      "est_duration_sec": 183.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

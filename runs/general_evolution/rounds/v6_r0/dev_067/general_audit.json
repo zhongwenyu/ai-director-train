@@ -1,0 +1,169 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎为“受虐萌娃生机异能化废为宝+铁血皇兄雷霆护短团宠+恶亲失福反噬”。裸看前3集人物称谓与关系清晰，徒手接荆条、藏糕备荒等细节催泪抓人，恶亲误判微服肥羊层层坐地起价动机自洽，枯树开花救场爽感与悬念拉满。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "柴房催芽与皇兄踹门",
+      "audible_counts": {
+        "萧穗穗": 6,
+        "王耀祖": 3,
+        "刘翠花": 6,
+        "陆执": 2,
+        "萧景珩": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "娘",
+        "哥",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　王家柴房　日",
+          "audible_counts": {
+            "萧穗穗": 3,
+            "王耀祖": 2,
+            "刘翠花": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　王家小院　日",
+          "audible_counts": {
+            "萧穗穗": 3,
+            "刘翠花": 5,
+            "王耀祖": 1,
+            "陆执": 2,
+            "萧景珩": 4
+          },
+          "vo_counts": {
+            "萧穗穗": 1,
+            "萧景珩": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "锦氅裹崽与恶亲讹银",
+      "audible_counts": {
+        "刘翠花": 5,
+        "萧景珩": 8,
+        "陆执": 2,
+        "萧穗穗": 4,
+        "王大柱": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "爷",
+        "哥",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　王家小院　日",
+          "audible_counts": {
+            "刘翠花": 1,
+            "萧景珩": 5,
+            "陆执": 1,
+            "萧穗穗": 3
+          },
+          "vo_counts": {
+            "萧穗穗": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　王家院门口　日",
+          "audible_counts": {
+            "刘翠花": 4,
+            "王大柱": 3,
+            "陆执": 1,
+            "萧穗穗": 1,
+            "萧景珩": 3
+          },
+          "vo_counts": {
+            "刘翠花": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "私吞暖玉与枯木破芽",
+      "audible_counts": {
+        "王耀祖": 2,
+        "刘翠花": 5,
+        "萧穗穗": 3,
+        "萧景珩": 3,
+        "王大柱": 4,
+        "陆执": 2,
+        "刘二虎": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "爷",
+        "哥",
+        "姐",
+        "弟",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　王家小院　日",
+          "audible_counts": {
+            "王耀祖": 1,
+            "刘翠花": 4,
+            "萧穗穗": 1,
+            "萧景珩": 2,
+            "王大柱": 1,
+            "陆执": 1,
+            "刘二虎": 1
+          },
+          "vo_counts": {
+            "萧景珩": 1,
+            "刘翠花": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　王家院角枯枣树下　日",
+          "audible_counts": {
+            "刘二虎": 2,
+            "陆执": 1,
+            "王大柱": 3,
+            "萧穗穗": 2,
+            "萧景珩": 1,
+            "刘翠花": 1,
+            "王耀祖": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "headers": {
+    "X-Task-Id": "fbf31ae03ee04b67aacfa4a9e6d31219",
+    "X-Task-Type": "ref2va",
+    "X-Model": "Pika-H3-Flex",
+    "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "X-Precision": "int8",
+    "X-Pruned": "true",
+    "X-Duration": "10.125",
+    "X-Resolution": "480x832",
+    "X-Steps": "6",
+    "X-Audio-Generated": "true",
+    "X-Queue-Wait-S": "0.0",
+    "X-E2E-S": "91.528",
+    "X-Turbo": "false",
+    "X-Frames": "243",
+    "X-Requested-Duration": "10.0",
+    "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
+    "X-SOL": "false",
+    "X-SOL-Tau": "none",
+    "X-Sampler": "lcm"
+  },
+  "elapsed_s": 91.55,
+  "seed": 2111,
+  "requested_duration": 10,
+  "actual_duration": 10.125,
+  "width": 480,
+  "height": 832,
+  "has_audio": true,
+  "ref_images_1k": [
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/keyframes_1k/2-1-01_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/assets_1k/82ae8325-ffec-494e-9a91-9951523f1a14_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/assets_1k/7d3fa2f9-4f47-4518-87ee-a7bf1635bc9e_main_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep02_03_video_gen/assets_1k/d3b07726-024b-4e4d-baad-fabf1eda2e56_main_1k.png"
+  ],
+  "ref_audios": [
+    "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav",
+    "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4b5ce464-1a4b-4907-8d05-f4bd88dc24c5.wav"
+  ]
+}

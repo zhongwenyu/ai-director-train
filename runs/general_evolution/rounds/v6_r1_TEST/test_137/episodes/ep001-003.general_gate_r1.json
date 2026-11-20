@@ -1,0 +1,149 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎为“末日读秒百倍囤货升级+撤回供养隔门诛心对照”。前3集裸看人物关系（老实供养者、拜金双标女、外强中干富二代）、空间规则与30分钟倒计时紧迫感一目了然，折返拿伞周旋、空屋破防与火锅账单暴击层层递进，张力极强。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "重生灾前30分钟",
+      "audible_counts": {
+        "林薇薇": 9,
+        "陈默": 9,
+        "赵凯": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　802林薇薇家客厅及门外走廊　日",
+          "audible_counts": {
+            "林薇薇": 7,
+            "陈默": 5,
+            "赵凯": 4
+          },
+          "vo_counts": {
+            "陈默": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　802林薇薇家厨房与客厅　日",
+          "audible_counts": {
+            "陈默": 4,
+            "林薇薇": 2
+          },
+          "vo_counts": {
+            "陈默": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "寸粮不留升级安全屋",
+      "audible_counts": {
+        "林薇薇": 6,
+        "陈默": 12,
+        "收音机播音员": 2,
+        "赵凯": 3
+      },
+      "unintroduced_speakers": [
+        "收音机播音员"
+      ],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内/外　802与801相邻阳台及八楼走廊　日",
+          "audible_counts": {
+            "林薇薇": 4,
+            "陈默": 6
+          },
+          "vo_counts": {
+            "陈默": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　801陈默家客厅与阳台　黄昏",
+          "audible_counts": {
+            "陈默": 4,
+            "收音机播音员": 2
+          },
+          "vo_counts": {
+            "陈默": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内/外　801窗前与小区楼下街面　傍晚",
+          "audible_counts": {
+            "陈默": 2,
+            "赵凯": 3,
+            "林薇薇": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "空屋破防与隔门火锅",
+      "audible_counts": {
+        "赵凯": 7,
+        "林薇薇": 11,
+        "陈默": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　一楼单元门厅至802林薇薇家　夜",
+          "audible_counts": {
+            "赵凯": 4,
+            "林薇薇": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内/外　801陈默家与八楼门外走廊　夜",
+          "audible_counts": {
+            "林薇薇": 7,
+            "陈默": 7,
+            "赵凯": 3
+          },
+          "vo_counts": {
+            "陈默": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

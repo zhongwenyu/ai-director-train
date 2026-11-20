@@ -1,0 +1,402 @@
+{
+  "total_duration": 108.889,
+  "vtt_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/post_ep01_v3/ep01_v3_subtitles.vtt",
+  "bgm_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/post_ep01_v3/ep01_v3_bgm.mp3",
+  "bgm_segments": [
+    {
+      "label": "庆功宴逼交秘方与撕方拍48张汇款单撤火反击（沉静紧迫逆袭 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-374.mp3",
+      "start_shot": "1-1-01",
+      "end_shot": "1-1-05",
+      "gain": 0.42,
+      "fade_in": 0.8,
+      "fade_out": 0.8,
+      "start": 0.0,
+      "end": 57.734
+    },
+    {
+      "label": "跨街入伙夏记立五五契书摁红手印（温暖烟火同盟 CC0）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/freesound-845168.mp3",
+      "start_shot": "1-2-01",
+      "end_shot": "1-2-02",
+      "gain": 0.42,
+      "fade_in": 0.8,
+      "fade_out": 0.7,
+      "start": 57.734,
+      "end": 81.555
+    },
+    {
+      "label": "反派堵门断油抢席与连夜蹬三轮抢鲜牛板油（燃情破局出发 Mixkit Free）",
+      "file": "/home/zhongwenyu/project/audio-library/_files/mixkit-music-350.mp3",
+      "start_shot": "1-2-03",
+      "end_shot": "1-2-04",
+      "src_offset": 12.0,
+      "gain": 0.44,
+      "fade_in": 0.8,
+      "fade_out": 0.6,
+      "start": 81.555,
+      "end": 108.889
+    }
+  ],
+  "shots": [
+    {
+      "id": "1-1-01",
+      "studioShotId": "9a531ce1-be8d-4496-b820-810e8aa3104c",
+      "duration": 10.125,
+      "bgmOffset": 0.0,
+      "subtitles": [
+        {
+          "start": 0.2,
+          "end": 3.0,
+          "kind": "caption",
+          "speaker": "",
+          "text": "2005年夏 · 重庆老街 林记火锅"
+        },
+        {
+          "start": 3.0,
+          "end": 7.6,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "把你叶家清润汤剩下几味草本补全，咱俩婚约算完了。"
+        }
+      ]
+    },
+    {
+      "id": "1-1-02",
+      "studioShotId": "58d609a8-70b0-4a75-b577-a6280f5cc730",
+      "duration": 12.256,
+      "bgmOffset": 10.125,
+      "subtitles": [
+        {
+          "start": 0.25,
+          "end": 5.4,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "重回2005年？前世我交出祖传秘方，反被他们榨干赶出老街！"
+        },
+        {
+          "start": 7.1,
+          "end": 11.4,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "双双马上进我楚氏餐饮当主管，能嫁你个满身牛油味的伙夫？"
+        }
+      ]
+    },
+    {
+      "id": "1-1-03",
+      "studioShotId": "0c6895eb-227a-4a29-856c-2e0645833c92",
+      "duration": 13.667,
+      "bgmOffset": 22.381,
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 4.0,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "白吃我家四年，留张方子抵恩，是你的本分！"
+        },
+        {
+          "start": 10.2,
+          "end": 13.3,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "叶寻你疯了！敢撕我家的方子？"
+        }
+      ]
+    },
+    {
+      "id": "1-1-04",
+      "studioShotId": "b4944e0f-b187-4056-8892-e2cdc886a41a",
+      "duration": 10.144,
+      "bgmOffset": 36.048,
+      "subtitles": [
+        {
+          "start": 0.3,
+          "end": 4.2,
+          "kind": "caption",
+          "speaker": "",
+          "text": "邮政汇款存根（共48张 · 四年大学学费生活费）"
+        },
+        {
+          "start": 4.5,
+          "end": 9.1,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "我辍学熬四年牛油，四十八张汇款单供你读完大学，两清了！"
+        }
+      ]
+    },
+    {
+      "id": "1-1-05",
+      "studioShotId": "f6e83caf-df03-4254-ac5f-8d51137bc2f8",
+      "duration": 11.542,
+      "bgmOffset": 46.192,
+      "subtitles": [
+        {
+          "start": 1.0,
+          "end": 4.3,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "今晚起火我撤了，看你们拿什么端上桌！"
+        },
+        {
+          "start": 4.5,
+          "end": 8.2,
+          "kind": "dialogue",
+          "speaker": "林有才",
+          "text": "忘恩负义的东西！离了林记，这条街谁敢要你？"
+        }
+      ]
+    },
+    {
+      "id": "1-2-01",
+      "studioShotId": "bcb2a151-88a2-45f6-a27d-1be2660a1e9d",
+      "duration": 13.696,
+      "bgmOffset": 57.734,
+      "subtitles": [
+        {
+          "start": 0.25,
+          "end": 5.4,
+          "kind": "vo",
+          "speaker": "叶寻",
+          "text": "前世只有世交芊芊护我到底，这辈子换我撑起夏记！"
+        },
+        {
+          "start": 7.6,
+          "end": 12.9,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "叶爷爷熬汤真传我从小看着！林家瞎了眼，夏记迎你掌勺！"
+        }
+      ]
+    },
+    {
+      "id": "1-2-02",
+      "studioShotId": "11744166-abaa-4cb1-a375-514553383ca3",
+      "duration": 10.125,
+      "bgmOffset": 71.43,
+      "subtitles": [
+        {
+          "start": 0.3,
+          "end": 3.8,
+          "kind": "caption",
+          "speaker": "",
+          "text": "合营契书：叶夏合营 · 五五分账"
+        },
+        {
+          "start": 4.6,
+          "end": 8.6,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "五五分账，往后咱俩一口锅里搅马勺！"
+        }
+      ]
+    },
+    {
+      "id": "1-2-03",
+      "studioShotId": "cdffc296-4ff5-4533-b7cf-333b319f4be1",
+      "duration": 15.084,
+      "bgmOffset": 81.555,
+      "subtitles": [
+        {
+          "start": 0.5,
+          "end": 6.2,
+          "kind": "dialogue",
+          "speaker": "楚南",
+          "text": "夏芊芊，敢收他？明早断你夏记全部成品牛油，看你拿什么交房租！"
+        },
+        {
+          "start": 9.3,
+          "end": 13.6,
+          "kind": "dialogue",
+          "speaker": "林双双",
+          "text": "你们备好菜的机械厂十二桌席，周厂长刚改签给林记了！"
+        }
+      ]
+    },
+    {
+      "id": "1-2-04",
+      "studioShotId": "e83f3bf0-78a5-4671-a398-ea4bf4fe230d",
+      "duration": 12.25,
+      "bgmOffset": 96.639,
+      "subtitles": [
+        {
+          "start": 0.1,
+          "end": 3.3,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "成品牛油全断了，明早拿什么开火？"
+        },
+        {
+          "start": 3.6,
+          "end": 7.9,
+          "kind": "dialogue",
+          "speaker": "叶寻",
+          "text": "不用陈年老油！坐稳，去屠宰场抢今晚头刀鲜牛板油！"
+        },
+        {
+          "start": 8.1,
+          "end": 9.9,
+          "kind": "dialogue",
+          "speaker": "夏芊芊",
+          "text": "走！我跟你去！"
+        }
+      ]
+    }
+  ],
+  "episode_subtitles": [
+    {
+      "start": 0.2,
+      "end": 3.0,
+      "kind": "caption",
+      "speaker": "",
+      "text": "2005年夏 · 重庆老街 林记火锅",
+      "shotId": "1-1-01"
+    },
+    {
+      "start": 3.0,
+      "end": 7.6,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "把你叶家清润汤剩下几味草本补全，咱俩婚约算完了。",
+      "shotId": "1-1-01"
+    },
+    {
+      "start": 10.375,
+      "end": 15.525,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "重回2005年？前世我交出祖传秘方，反被他们榨干赶出老街！",
+      "shotId": "1-1-02"
+    },
+    {
+      "start": 17.225,
+      "end": 21.525,
+      "kind": "dialogue",
+      "speaker": "楚南",
+      "text": "双双马上进我楚氏餐饮当主管，能嫁你个满身牛油味的伙夫？",
+      "shotId": "1-1-02"
+    },
+    {
+      "start": 22.481,
+      "end": 26.381,
+      "kind": "dialogue",
+      "speaker": "林有才",
+      "text": "白吃我家四年，留张方子抵恩，是你的本分！",
+      "shotId": "1-1-03"
+    },
+    {
+      "start": 32.581,
+      "end": 35.681,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "叶寻你疯了！敢撕我家的方子？",
+      "shotId": "1-1-03"
+    },
+    {
+      "start": 36.348,
+      "end": 40.248,
+      "kind": "caption",
+      "speaker": "",
+      "text": "邮政汇款存根（共48张 · 四年大学学费生活费）",
+      "shotId": "1-1-04"
+    },
+    {
+      "start": 40.548,
+      "end": 45.148,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "我辍学熬四年牛油，四十八张汇款单供你读完大学，两清了！",
+      "shotId": "1-1-04"
+    },
+    {
+      "start": 47.192,
+      "end": 50.492,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "今晚起火我撤了，看你们拿什么端上桌！",
+      "shotId": "1-1-05"
+    },
+    {
+      "start": 50.692,
+      "end": 54.392,
+      "kind": "dialogue",
+      "speaker": "林有才",
+      "text": "忘恩负义的东西！离了林记，这条街谁敢要你？",
+      "shotId": "1-1-05"
+    },
+    {
+      "start": 57.984,
+      "end": 63.134,
+      "kind": "vo",
+      "speaker": "叶寻",
+      "text": "前世只有世交芊芊护我到底，这辈子换我撑起夏记！",
+      "shotId": "1-2-01"
+    },
+    {
+      "start": 65.334,
+      "end": 70.634,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "叶爷爷熬汤真传我从小看着！林家瞎了眼，夏记迎你掌勺！",
+      "shotId": "1-2-01"
+    },
+    {
+      "start": 71.73,
+      "end": 75.23,
+      "kind": "caption",
+      "speaker": "",
+      "text": "合营契书：叶夏合营 · 五五分账",
+      "shotId": "1-2-02"
+    },
+    {
+      "start": 76.03,
+      "end": 80.03,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "五五分账，往后咱俩一口锅里搅马勺！",
+      "shotId": "1-2-02"
+    },
+    {
+      "start": 82.055,
+      "end": 87.755,
+      "kind": "dialogue",
+      "speaker": "楚南",
+      "text": "夏芊芊，敢收他？明早断你夏记全部成品牛油，看你拿什么交房租！",
+      "shotId": "1-2-03"
+    },
+    {
+      "start": 90.855,
+      "end": 95.155,
+      "kind": "dialogue",
+      "speaker": "林双双",
+      "text": "你们备好菜的机械厂十二桌席，周厂长刚改签给林记了！",
+      "shotId": "1-2-03"
+    },
+    {
+      "start": 96.739,
+      "end": 99.939,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "成品牛油全断了，明早拿什么开火？",
+      "shotId": "1-2-04"
+    },
+    {
+      "start": 100.239,
+      "end": 104.539,
+      "kind": "dialogue",
+      "speaker": "叶寻",
+      "text": "不用陈年老油！坐稳，去屠宰场抢今晚头刀鲜牛板油！",
+      "shotId": "1-2-04"
+    },
+    {
+      "start": 104.739,
+      "end": 106.539,
+      "kind": "dialogue",
+      "speaker": "夏芊芊",
+      "text": "走！我跟你去！",
+      "shotId": "1-2-04"
+    }
+  ]
+}

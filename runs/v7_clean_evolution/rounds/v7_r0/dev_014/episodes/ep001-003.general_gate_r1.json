@@ -1,0 +1,219 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以北方厚道菜农十年救命助学旧恩撞上邻家学法女两千顶格罚单与双标背刺为核心引擎，靠认罚断交、锁车抽梯、合规自证反噬白眼狼兑现爽感。裸看实况称谓自然、人物关系与农事算账清晰抓人，前因后果严密，集尾悬念紧绷。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "两千罚单寒透十年心",
+      "audible_counts": {
+        "周大成": 8,
+        "赵德柱": 4,
+        "赵倩倩": 5,
+        "李秀兰": 2,
+        "周明宇": 3,
+        "巡查员": 1,
+        "赵刘氏": 1
+      },
+      "unintroduced_speakers": [
+        "李秀兰",
+        "巡查员",
+        "赵刘氏"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "叔",
+        "婆",
+        "哥",
+        "姐",
+        "老婆"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　周家院门口　日",
+          "audible_counts": {
+            "周大成": 3,
+            "赵德柱": 1,
+            "赵倩倩": 1,
+            "李秀兰": 2,
+            "周明宇": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　两家交界菜地头　日",
+          "audible_counts": {
+            "赵倩倩": 4,
+            "巡查员": 1,
+            "周明宇": 2,
+            "周大成": 5,
+            "赵德柱": 3,
+            "赵刘氏": 1
+          },
+          "vo_counts": {
+            "周大成": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "认罚交款当众断邻情",
+      "audible_counts": {
+        "李秀兰": 1,
+        "周大成": 7,
+        "周明宇": 2,
+        "赵刘氏": 1,
+        "刘二牛": 2,
+        "赵倩倩": 4,
+        "陈建国": 1,
+        "赵德柱": 5,
+        "孙翠花": 1
+      },
+      "unintroduced_speakers": [
+        "李秀兰",
+        "孙翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爹",
+        "叔",
+        "婶",
+        "婆",
+        "公",
+        "哥",
+        "姐",
+        "老婆",
+        "支书"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　周家堂屋　日",
+          "audible_counts": {
+            "李秀兰": 1,
+            "周大成": 2,
+            "周明宇": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　村口大槐树公开栏前　黄昏",
+          "audible_counts": {
+            "赵刘氏": 1,
+            "刘二牛": 2,
+            "赵倩倩": 2,
+            "陈建国": 1,
+            "周大成": 4,
+            "赵德柱": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周明宇"
+          ]
+        },
+        {
+          "scene_id": "2-3",
+          "location": "外　周家院门外　日",
+          "audible_counts": {
+            "孙翠花": 1,
+            "赵德柱": 3,
+            "赵倩倩": 2,
+            "周明宇": 1,
+            "周大成": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "锁车拒载遭全村孤立",
+      "audible_counts": {
+        "赵德柱": 7,
+        "赵倩倩": 6,
+        "周大成": 4,
+        "孙翠花": 2,
+        "刘二牛": 1,
+        "散车司机": 1,
+        "张老汉": 2,
+        "周明宇": 1
+      },
+      "unintroduced_speakers": [
+        "孙翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爹",
+        "叔",
+        "婶",
+        "婆",
+        "公",
+        "哥",
+        "姐",
+        "老婆",
+        "支书"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　周家院门外至村口大道　日",
+          "audible_counts": {
+            "赵德柱": 3,
+            "赵倩倩": 1,
+            "周大成": 2,
+            "孙翠花": 1,
+            "刘二牛": 1
+          },
+          "vo_counts": {
+            "赵倩倩": 1
+          },
+          "mute_present_characters": [
+            "周明宇"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　村口路边　日",
+          "audible_counts": {
+            "散车司机": 1,
+            "孙翠花": 1,
+            "赵德柱": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　村民张老汉院门口　黄昏",
+          "audible_counts": {
+            "张老汉": 2,
+            "周大成": 2,
+            "周明宇": 1,
+            "赵德柱": 3,
+            "赵倩倩": 5
+          },
+          "vo_counts": {
+            "赵倩倩": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

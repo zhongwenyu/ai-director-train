@@ -1,0 +1,186 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以寒门孤儿陈禾凭储物灵液宝葫逆季育粮、筹银护堂妹对抗吸血二叔一家为核心引擎，借冻饼、热汤、血印断亲书与温糠饼将兄妹羁绊与恶亲贪婪拉满。裸看人物关系与前因后果清晰自洽，搜身藏宝、泣血立户与寒窑催芽层层递进，情绪浓烈抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "半块冻饼换青葫",
+      "audible_counts": {
+        "陈禾": 9,
+        "老伯": 3,
+        "陈宝根": 2,
+        "刘氏": 5,
+        "陈穗儿": 3,
+        "陈满仓": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "哥",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　陈家村外破山神庙雪道　日",
+          "audible_counts": {
+            "陈禾": 4,
+            "老伯": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　陈家堂屋与灶间　夜",
+          "audible_counts": {
+            "陈宝根": 2,
+            "陈禾": 5,
+            "刘氏": 5,
+            "陈穗儿": 3,
+            "陈满仓": 3
+          },
+          "vo_counts": {
+            "陈禾": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "血染青葫逼断亲",
+      "audible_counts": {
+        "陈宝根": 4,
+        "刘氏": 6,
+        "陈禾": 3,
+        "陈穗儿": 2,
+        "陈满仓": 8,
+        "张婶": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "哥",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　陈家堂屋与院落　夜",
+          "audible_counts": {
+            "陈宝根": 2,
+            "刘氏": 4,
+            "陈禾": 2,
+            "陈穗儿": 1,
+            "陈满仓": 3
+          },
+          "vo_counts": {
+            "陈禾": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　陈家院门外雪巷　夜",
+          "audible_counts": {
+            "刘氏": 2,
+            "张婶": 1,
+            "陈满仓": 5,
+            "陈穗儿": 1,
+            "陈宝根": 2,
+            "陈禾": 1
+          },
+          "vo_counts": {
+            "陈禾": 1
+          },
+          "mute_present_characters": [
+            "众村邻"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "泣血立户醒灵液",
+      "audible_counts": {
+        "陈德寿": 2,
+        "陈禾": 11,
+        "刘氏": 3,
+        "陈满仓": 4,
+        "陈穗儿": 5
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "哥",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　陈家院门外雪巷　夜",
+          "audible_counts": {
+            "陈德寿": 2,
+            "陈禾": 4,
+            "刘氏": 2,
+            "陈满仓": 3,
+            "陈穗儿": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "众村邻",
+            "陈宝根"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　村口老槐树雪地　夜",
+          "audible_counts": {
+            "陈穗儿": 4,
+            "陈禾": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "内　村尾废弃砖窑与陈家堂屋　夜",
+          "audible_counts": {
+            "陈禾": 4,
+            "刘氏": 1,
+            "陈满仓": 1
+          },
+          "vo_counts": {
+            "陈禾": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

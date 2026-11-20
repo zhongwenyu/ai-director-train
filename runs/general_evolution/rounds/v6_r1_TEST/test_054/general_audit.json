@@ -1,0 +1,164 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“婚礼前夜当众拥吻女兄弟+偷穿主嫁衣逼道歉”引爆七年隐形托举者彻底抽梯止损的追悔爽感。裸看实况人物关系与称谓首集即清晰落定，渣男自负护短的心理惯性真实，剪裙、换锁、改宴层层递进，情绪张力与悬念钩子极其抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "纪念夜的双标拥吻",
+      "audible_counts": {
+        "周叙白": 10,
+        "沈知意": 7,
+        "林飒": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐",
+        "弟",
+        "老公"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　江景婚房·恒温衣帽间　夜",
+          "audible_counts": {
+            "周叙白": 1,
+            "沈知意": 1
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　体育馆演唱会内场与通道　夜",
+          "audible_counts": {
+            "周叙白": 9,
+            "沈知意": 6,
+            "林飒": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-3",
+          "location": "内　医院急诊走廊　夜",
+          "audible_counts": {
+            "林飒": 2
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": [
+            "沈知意"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "主嫁衣上的红酒与剪刀",
+      "audible_counts": {
+        "林飒": 10,
+        "沈知意": 8,
+        "周叙白": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐",
+        "弟",
+        "老公"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　江景婚房·玄关与客厅　夜",
+          "audible_counts": {
+            "林飒": 3,
+            "沈知意": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　江景婚房·恒温衣帽间　夜",
+          "audible_counts": {
+            "林飒": 7,
+            "沈知意": 6,
+            "周叙白": 7
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "彻夜清空的七年与锁死的大门",
+      "audible_counts": {
+        "周叙白": 9,
+        "沈知意": 6,
+        "林飒": 5,
+        "苏棠": 4,
+        "陈杰": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐",
+        "弟",
+        "老公"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　江景婚房·衣帽间与客厅　夜",
+          "audible_counts": {
+            "周叙白": 3,
+            "沈知意": 2,
+            "林飒": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　江景婚房·客厅　夜",
+          "audible_counts": {
+            "沈知意": 4,
+            "苏棠": 4
+          },
+          "vo_counts": {
+            "沈知意": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　江景婚房·门外电梯厅　晨",
+          "audible_counts": {
+            "周叙白": 6,
+            "林飒": 3,
+            "陈杰": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

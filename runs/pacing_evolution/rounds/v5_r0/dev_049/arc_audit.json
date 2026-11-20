@@ -1,0 +1,171 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "裸看完全看懂：林岚免租借学区房给小姑子周敏满三年上门收房，见亡母遗物被毁、丈夫周建国偷撕借条并伙同婆婆王桂芳逼签赠与书，遂停副卡津贴、亮房本、拉闸断水电反击。关系称谓、前情与争点全程清晰自洽。",
+  "total_score": 90.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "借房三年，私换门锁",
+      "audible_counts": {
+        "周建国": 4,
+        "林岚": 11,
+        "周敏": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "哥",
+        "妹",
+        "老婆",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　老屋楼道　日",
+          "audible_counts": {
+            "周建国": 2,
+            "林岚": 3,
+            "周敏": 1
+          },
+          "vo_counts": {
+            "林岚": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　老屋客厅　日",
+          "audible_counts": {
+            "林岚": 8,
+            "周敏": 6,
+            "周建国": 2
+          },
+          "vo_counts": {
+            "林岚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "偷撕借条，断卡停薪",
+      "audible_counts": {
+        "林岚": 9,
+        "周敏": 6,
+        "周建国": 5,
+        "银行客服": 1,
+        "刘总监": 1,
+        "王桂芳": 1
+      },
+      "unintroduced_speakers": [
+        "王桂芳"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "哥",
+        "妹",
+        "老婆",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　老屋客厅　日",
+          "audible_counts": {
+            "林岚": 2,
+            "周敏": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周建国"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　老屋客厅（闪回）　日",
+          "audible_counts": {
+            "周敏": 1,
+            "周建国": 1,
+            "林岚": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　老屋客厅　日",
+          "audible_counts": {
+            "周建国": 4,
+            "周敏": 4,
+            "林岚": 6,
+            "银行客服": 1,
+            "刘总监": 1,
+            "王桂芳": 1
+          },
+          "vo_counts": {
+            "林岚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "红本亮底，拉闸清场",
+      "audible_counts": {
+        "王桂芳": 5,
+        "林岚": 12,
+        "周敏": 3,
+        "周建国": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "哥",
+        "妹",
+        "老婆",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　老屋客厅　日",
+          "audible_counts": {
+            "王桂芳": 5,
+            "林岚": 10,
+            "周敏": 2,
+            "周建国": 3
+          },
+          "vo_counts": {
+            "林岚": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　老屋楼道　日",
+          "audible_counts": {
+            "周建国": 1,
+            "林岚": 2,
+            "周敏": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "王桂芳"
+          ]
+        }
+      ]
+    }
+  ]
+}

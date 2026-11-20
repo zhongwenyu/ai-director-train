@@ -1,0 +1,47 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 129.6,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "四年熬油今撤火",
+      "scenes": 2,
+      "actions": 19,
+      "dialogue_lines": 15,
+      "vo_lines": 2,
+      "spoken_chars": 370,
+      "avg_line_chars": 21.8,
+      "est_duration_sec": 114.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "现炼红汤百桌过街",
+      "scenes": 2,
+      "actions": 18,
+      "dialogue_lines": 15,
+      "vo_lines": 1,
+      "spoken_chars": 347,
+      "avg_line_chars": 21.7,
+      "est_duration_sec": 108.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "盲测验汤反杀封神",
+      "scenes": 2,
+      "actions": 22,
+      "dialogue_lines": 25,
+      "vo_lines": 1,
+      "spoken_chars": 582,
+      "avg_line_chars": 22.4,
+      "est_duration_sec": 165.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 3 集预估时长偏长（165.7s > 155s），注意保持紧凑"
+  ]
+}

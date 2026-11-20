@@ -1,0 +1,225 @@
+[
+  {
+    "id": "2-1-01",
+    "episode": 2,
+    "duration": 9,
+    "seed": 32101,
+    "description": "次日清晨老街晨光中，叶寻在夏记门前两口生铁大锅内慢熬雪白鲜牛板油，夏芊芊用细纱布滤出淡竹叶与山栀子清液。",
+    "dialogue": "",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "叶寻 · 渝清记围裙掌勺",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-1-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [],
+    "prompt": "[Subject]\n- <Subject 1>: The man stirring the iron cauldron with a long copper ladle on the left of <Picture 1>, matching <Picture 2>.\n- <Subject 2>: The woman filtering clear herbal liquid through white gauze on the right of <Picture 1>, matching <Picture 3>.\n[Shot]\n- [Shot 1] (0s-4.8s) Medium two-shot framed from <Picture 1> in crisp early-morning sunlight outside the hotpot shop.\n- [Shot 2] (4.8s-9.0s) Appetizing close-up on snowy fresh beef leaf-fat rendering into crystal-golden tallow in the iron cauldron, then tilting up to <Subject 1> and <Subject 2> exchanging a confident nod.\n[Timeline]\n- [Shot 1] (0s-4.8s): Morning mist drifts over the bluestone street. <Subject 1> steadily stirs blocks of snowy-white fresh beef fat sizzling gently in the big iron cauldron while <Subject 2> squeezes fine white gauze, filtering pale golden herbal infusion into a ceramic basin.\n- [Shot 2] (4.8s-9.0s): Clear golden tallow bubbles cleanly around the copper ladle; <Subject 1> and <Subject 2> exchange a silent, assured smile with lips closed.\n[Environment]\n- Fresh morning light on a 2005 Chongqing bluestone street outside the shop's brick cauldrons.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, rich culinary texture and rising steam.\n[Audio]\n- Rich gentle sizzle of rendering fresh tallow, copper ladle scraping iron pot, soft trickle of filtered liquid, morning birdsong, zero dialogue, zero music."
+  },
+  {
+    "id": "2-1-02",
+    "episode": 2,
+    "duration": 13,
+    "seed": 32102,
+    "description": "对门林记后厨内，林有才照着偷瞄来的半截纸条将干药壳直接丢进发黑高温老油，炸出呛人焦苦黑烟，还嘴硬加糖硬压。",
+    "dialogue": "林双双：爸，工友们快入席了，这油味怎么发苦？\n林有才：我偷瞄过十来回，药材下油锅炸准没错！多搁两勺糖压压！",
+    "assetNames": [
+      "夏氏小厨后厨猛火炒灶",
+      "林有才",
+      "林双双"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-1-02_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S2): The older man holding the crumpled paper note beside the smoking iron wok on the right of <Picture 1>, matching <Picture 2>. Voice matches Audio 2.\n- <Subject 2> (S1): The woman fanning smoke away from her face on the left of <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-4.5s) Medium two-shot framed from <Picture 1> inside the smoky kitchen.\n- [Shot 2] (4.5s-13.0s) Medium close-up on <Subject 1> stubbornly stirring the darkened oil and scooping white sugar into the wok.\n[Timeline]\n- [Shot 1] (0s-4.3s): Greyish-black smoke curls up from the blackened herbs in the hot wok. Coughing slightly and fanning her hand in front of her nose, <Subject 2> (S1) asks anxiously: <d>[Chinese] 爸，工友们快入席了，这油味怎么发苦。</d>\n- [Shot 2] (4.6s-11.0s): Glancing at his crumpled note, <Subject 1> (S2) waves his ladle stubbornly and replies loudly: <d>[Chinese] 我偷瞄过十来回，药材下油锅炸准没错，多搁两勺糖压压。</d>\n- [Shot 2] (11.0s-13.0s): <Subject 2> frowns dubiously at the murky dark pot.\n[Environment]\n- Dim, smoky 2005 back kitchen with a red-brick iron wok stove.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, realistic burnt smoke and natural lip-sync.\n[Audio]\n- Harsh crackle of overheated oil, anxious female voice, stubborn raspy older male voice, clang of iron ladle, zero music."
+  },
+  {
+    "id": "2-1-03",
+    "episode": 2,
+    "duration": 13,
+    "seed": 32103,
+    "description": "正午夏记门前鲜牛油红汤翻滚，叶寻淋入草本清液激起满街奇香，断定林有才干炸药材必成苦炭，夏芊芊备齐冰镇鲜毛肚。",
+    "dialogue": "[VO] 叶寻：干药材下高温老油必炸成苦炭。林有才，这十二桌席你咽不下去。\n夏芊芊：太香了！鲜毛肚和配菜全冰镇备齐，随时开席！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "叶寻 · 渝清记围裙掌勺",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-1-03_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1>: The man ladling clear herbal liquid into the bubbling red cauldron on the left of <Picture 1>, matching <Picture 2>.\n- <Subject 2> (S1): The woman holding the tray of ice-chilled fresh tripe on the right of <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-5.5s) Medium close-up framed from <Picture 1> as fragrant white steam billows from the ruby-red cauldron.\n- [Shot 2] (5.5s-13.0s) Medium two-shot favoring <Subject 2> smiling brightly with the chilled tripe tray beside <Subject 1>.\n[Timeline]\n- [Shot 1] (0s-5.5s): Keeping his lips firmly closed in calm mastery, <Subject 1> pours the pale-gold herbal infusion into the bubbling ruby chili tallow, skims the surface smoothly with his copper ladle, and casts a knowing glance across the street.\n- [Shot 2] (5.8s-11.0s): Inhaling the rich, clean aroma with delight, <Subject 2> (S1) lifts the chilled tripe tray slightly and speaks cheerfully: <d>[Chinese] 太香了，鲜毛肚和配菜全冰镇备齐，随时开席。</d>\n- [Shot 2] (11.0s-13.0s): <Subject 1> nods confidently.\n[Environment]\n- Sunlit noon 2005 Chongqing bluestone street beside two steaming iron cauldrons.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, <Subject 1>'s lips strictly closed throughout.\n[Audio]\n- Crisp sizzle of liquid hitting bubbling red oil from 0s to 5.5s, bright enthusiastic female Mandarin voice starting at 5.8s, zero music.",
+    "vo_custom": {
+      "face_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/yexun_charcoal_no_apron_1k.png",
+      "voice": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4b5ce464-1a4b-4907-8d05-f4bd88dc24c5.wav",
+      "duration": 6,
+      "text": "干药材下高温老油必炸成苦炭，林有才，这十二桌席你咽不下去。",
+      "dst_start": 0.25,
+      "max_len": 5.1
+    }
+  },
+  {
+    "id": "2-2-01",
+    "episode": 2,
+    "duration": 11,
+    "seed": 32201,
+    "description": "周有福率机械厂工友在林记入席，红锅内黑褐焦渣翻涌，周有福尝了一口当场呛咳吐出质问。",
+    "dialogue": "周有福：林老板，又焦又苦还呛嗓子，这就是你吹的清润红汤？",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "周有福"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-2-01_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/acb81c92-4ff8-4814-9938-016c8ee69e7c_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/voices/zhou_director_clean.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The authoritative man seated at the center of the round wooden table in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n[Shot]\n- [Shot 1] (0s-3.4s) Medium close-up framed from <Picture 1> at the outdoor banquet table beside the murky dark-dreg hotpot.\n- [Shot 2] (3.4s-11.0s) Close-up on <Subject 1> slamming down his spoon and questioning indignantly as workers behind him set down their chopsticks.\n[Timeline]\n- [Shot 1] (0s-3.4s): Dark burnt dregs churn in the pot. <Subject 1> takes half a spoonful of the murky broth, immediately coughs sharply into a paper napkin in disgust, and sets the porcelain spoon down hard on the table.\n- [Shot 2] (3.6s-9.6s): Frowning heavily in displeasure, <Subject 1> (S1) speaks in a booming, dissatisfied voice: <d>[Chinese] 林老板，又焦又苦还呛嗓子，这就是你吹的清润红汤。</d>\n- [Shot 2] (9.6s-11.0s): Fellow workers in the background shake their heads and push their bowls away.\n[Environment]\n- Daytime 2005 Chongqing bluestone street banquet tables outside Lin's hotpot shop.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, authentic reaction acting and lip-sync.\n[Audio]\n- Sharp cough, porcelain spoon clinking hard on wood, booming displeased male voice, murmurs of discontent, zero music."
+  },
+  {
+    "id": "2-2-02",
+    "episode": 2,
+    "duration": 13,
+    "seed": 32202,
+    "description": "林双双慌忙端酸梅汤赔笑硬圆，夏芊芊端着透亮红汤铜锅与执铜勺的叶寻大步走到街心当众叫板。",
+    "dialogue": "林双双：周厂长，草本入汤难免带苦，喝口酸梅汤压压就顺了！\n夏芊芊：正宗清润红汤，可不用酸梅汤硬压！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "林双双",
+      "夏芊芊",
+      "叶寻 · 渝清记围裙掌勺",
+      "周有福"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-2-02_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/acb81c92-4ff8-4814-9938-016c8ee69e7c_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The woman holding the pitcher of dark plum juice on the right of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The woman carrying the gleaming two-ear brass pot of bright ruby broth on the left of <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3>: The man holding the long copper ladle beside <Subject 2> in <Picture 1>, matching <Picture 4>.\n- <Subject 4>: The man seated at the table on the far right of <Picture 1>, matching <Picture 5>.\n[Shot]\n- [Shot 1] (0s-6.0s) Medium shot favoring <Subject 1> offering the plum juice pitcher awkwardly beside <Subject 4>.\n- [Shot 2] (6.0s-13.0s) Medium two-shot on <Subject 2> and <Subject 3> stepping into the center of the bluestone street with the steaming ruby brass pot.\n[Timeline]\n- [Shot 1] (0s-5.8s): Wearing a flustered forced smile, <Subject 1> (S1) leans in with the glass pitcher and speaks hurriedly: <d>[Chinese] 周厂长，草本入汤难免带苦，喝口酸梅汤压压就顺了。</d>\n- [Shot 2] (6.2s-11.0s): Stepping confidently forward with the steaming pot of crystal-clear ruby broth beside <Subject 3>, <Subject 2> (S2) speaks out loud and clear: <d>[Chinese] 正宗清润红汤，可不用酸梅汤硬压。</d>\n- [Shot 2] (11.0s-13.0s): <Subject 4> turns his head toward the fragrant ruby pot with immediate curiosity.\n[Environment]\n- Bright daytime 2005 Chongqing bluestone street between the two facing hotpot shops.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, crisp staging and lip-sync.\n[Audio]\n- Flustered female voice, firm footsteps on stone, clear confident female voice, subtle bubbling broth, zero music."
+  },
+  {
+    "id": "2-2-03",
+    "episode": 2,
+    "duration": 15,
+    "seed": 322038,
+    "description": "林有才嘴硬污蔑夏记没油接席，叶寻当众揭穿林记前四年招牌汤皆出自他手，夏芊芊敞开院门承诺有一丝苦味分文不收。",
+    "dialogue": "林有才：别信！夏记连牛油都被断了，拿什么接十二桌大席？\n叶寻：我用头刀鲜板油现熬。林记前四年的招牌汤，本就是我炒的。\n夏芊芊：桌灶鲜菜昨晚就备齐了！周厂长尝一口，有一丝苦味分文不收！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "林有才",
+      "叶寻 · 渝清记围裙掌勺",
+      "夏芊芊"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-2-03_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/806c6ccf-8b08-4619-a0e1-5142bb7f8d49_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d7b6d049-8fbc-4f8c-9855-2445a9d4d7a0.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4b5ce464-1a4b-4907-8d05-f4bd88dc24c5.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The older man pointing anxiously on the right of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2> (S2): The man holding the copper ladle on the left-center of <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n- <Subject 3> (S3): The woman standing beside <Subject 2> in front of the open courtyard gate in <Picture 1>, matching <Picture 4>. Voice matches Audio 3.\n[Shot]\n- [Shot 1] (0s-15.0s) Continuous medium three-shot framed directly from <Picture 1> camera angle with a subtle steady push-in toward <Subject 2> and <Subject 3> (keeping the exact <Picture 1> background architecture unchanged).\n[Timeline]\n- [Shot 1] (0s-3.8s): Pointing in flustered panic on the right, <Subject 1> (S1) shouts briskly: <d>[Chinese] 别信，夏记连牛油都被断了，拿什么接十二桌大席。</d>\n- [Shot 1] (4.0s-8.6s): Standing calm and upright on the left with his copper ladle, <Subject 2> (S2) answers briskly with rock-solid authority: <d>[Chinese] 我用头刀鲜板油现熬，林记前四年的招牌汤，本就是我炒的。</d>\n- [Shot 1] (8.8s-13.2s): Beside him, <Subject 3> (S3) gestures openly with her hand and declares briskly and clearly: <d>[Chinese] 桌灶鲜菜早备齐了，周厂长尝一口，有一丝苦味分文不收。</d>\n- [Shot 1] (13.2s-15.0s): <Subject 1> lowers his pointing hand, speechless.\n[Environment]\n- Daytime 2005 Chongqing bluestone street between both facing shops.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, crisp three-speaker exchange.\n[Audio]\n- Panicked older male shout, steady authoritative young male voice, crisp confident young female voice, street ambiance, zero music."
+  },
+  {
+    "id": "2-2-04",
+    "episode": 2,
+    "duration": 13,
+    "seed": 32204,
+    "description": "周有福当街试喝红汤再涮鲜毛肚惊艳叫绝，大手一挥当场宣布林记退单，率十二桌工友哄然跨街坐满夏记。",
+    "dialogue": "周有福：醇香生津，脆嫩化渣！这才是真手艺！林记退单！工友们，过街坐夏记！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "周有福",
+      "夏芊芊",
+      "叶寻 · 渝清记围裙掌勺"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-2-04_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/acb81c92-4ff8-4814-9938-016c8ee69e7c_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/voices/zhou_director_clean.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The man holding the small white tasting bowl in the center of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The woman holding the brass pot on the left of <Picture 1>, matching <Picture 3>.\n- <Subject 3>: The man standing beside <Subject 2> in <Picture 1>, matching <Picture 4>.\n[Shot]\n- [Shot 1] (0s-6.8s) Medium close-up framed from <Picture 1> as <Subject 1> tastes a slice of fresh tripe and sips the bright ruby broth.\n- [Shot 2] (6.8s-13.0s) Medium shot as <Subject 1> waves his arm grandly and workers cheer and stream across the street toward <Subject 2> and <Subject 3>'s courtyard.\n[Timeline]\n- [Shot 1] (0s-2.2s): <Subject 1> chews a crisp slice of tripe from the small white bowl, his eyes lighting up in sheer delight.\n- [Shot 1] (2.3s-6.6s): Giving a hearty thumbs-up toward <Subject 2> and <Subject 3>, <Subject 1> (S1) praises loudly: <d>[Chinese] 醇香生津，脆嫩化渣，这才是真手艺。</d>\n- [Shot 2] (6.9s-11.2s): Turning back toward the tables behind him, <Subject 1> (S1) waves his right arm commandingly and announces: <d>[Chinese] 林记退单，工友们，过街坐夏记。</d>\n- [Shot 2] (11.2s-13.0s): Cheering workers rise eagerly in the background and walk toward the open courtyard as <Subject 2> and <Subject 3> smile warmly.\n[Environment]\n- Lively sunlit 2005 Chongqing bluestone street outside Xia's courtyard.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, triumphant crowd energy and crisp lip-sync.\n[Audio]\n- Booming enthusiastic factory director voice, cheerful crowd applause and footsteps on bluestone, zero music."
+  },
+  {
+    "id": "2-2-05",
+    "episode": 2,
+    "duration": 13,
+    "seed": 322058,
+    "description": "楚南与林双双带卫生科陈科长冲到夏记铁锅前恶人先告状，实名举报夏记偷加违禁药壳，陈科长亮证要求熄火快检。",
+    "dialogue": "林双双：陈科长！我实名举报夏记往汤里偷加违禁药壳提香！\n陈科长：接到实名举报，请立刻熄火封样，配合现场快检！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "陈科长",
+      "林双双",
+      "楚南",
+      "叶寻 · 渝清记围裙掌勺"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-2-05_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/3a887eb6-d852-4ab6-af93-5c3b3f947066_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/27f32224-c82e-42a8-ba36-6f093bc31bba.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S2): The uniformed inspector holding up the blue credential wallet in the center-right of <Picture 1>, matching <Picture 2>. Voice matches Audio 2.\n- <Subject 2> (S1): The woman pointing accusingly behind <Subject 1> in <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n- <Subject 3>: The man standing beside <Subject 2> with a cold smirk in <Picture 1>, matching <Picture 4>.\n- <Subject 4>: The man standing calmly beside the iron cauldron on the left of <Picture 1>, matching <Picture 5>.\n[Shot]\n- [Shot 1] (0s-5.4s) Medium confrontation shot framed from <Picture 1> beside the steaming iron cauldrons.\n- [Shot 2] (5.4s-13.0s) Tight solo close-up on <Subject 1> holding up his blue credential wallet toward <Subject 4> (with <Subject 2> out of frame).\n[Timeline]\n- [Shot 1] (0s-5.2s): Pointing straight at the steaming iron cauldron beside <Subject 4>, <Subject 2> (S1) speaks sharply once and then closes her lips: <d>[Chinese] 陈科长，我实名举报夏记往汤里偷加违禁药壳提香。</d>\n- [Shot 2] (5.6s-11.0s): In a tight close-up, <Subject 1> (S2) holds up his official blue credential wallet seriously and speaks in a crisp, impartial official tone: <d>[Chinese] 接到实名举报，请立刻熄火封样，配合现场快检。</d>\n- [Shot 2] (11.0s-13.0s): <Subject 1> lowers the credential wallet seriously.\n[Environment]\n- Daytime 2005 Chongqing bluestone street beside Xia's iron cauldrons.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, sharp dramatic tension and lip-sync.\n[Audio]\n- Sharp accusing female voice, crisp authoritative male inspector voice, sudden hush over street crowd, zero music."
+  },
+  {
+    "id": "2-2-06",
+    "episode": 2,
+    "duration": 12,
+    "seed": 32206,
+    "description": "楚南趁机煽动食客去对门免单吃楚氏招牌红汤，满院惊疑停筷，叶寻沉稳按住夏芊芊手背，从容关火迎检。",
+    "dialogue": "楚南：吃着黑心锅还不跑？楚氏总店刚送来招牌红汤，对门全场免单！",
+    "assetNames": [
+      "重庆老街对门双火锅铺街景",
+      "楚南",
+      "叶寻 · 渝清记围裙掌勺",
+      "夏芊芊",
+      "陈科长"
+    ],
+    "ref_images": [
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/keyframes_1k/2-2-06_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/11d0769a-9ddb-472b-b155-cf9045694851_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+      "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v3/ep01_02_video_gen/assets_1k/3a887eb6-d852-4ab6-af93-5c3b3f947066_front_1k.png"
+    ],
+    "ref_audios": [
+      "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav"
+    ],
+    "prompt": "[Subject]\n- <Subject 1> (S1): The man gesturing smugly on the right of <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n- <Subject 2>: The man resting a reassuring hand over <Subject 3>'s wrist beside the cauldron on the left of <Picture 1>, matching <Picture 3>.\n- <Subject 3>: The woman standing tense beside the cauldron on the left of <Picture 1>, matching <Picture 4>.\n- <Subject 4>: The uniformed inspector standing in the mid-ground of <Picture 1>, matching <Picture 5>.\n[Shot]\n- [Shot 1] (0s-6.8s) Medium shot favoring <Subject 1> gloating loudly and gesturing back across the street.\n- [Shot 2] (6.8s-12.0s) High-tension medium close-up on <Subject 2> gently patting <Subject 3>'s hand, turning off the stove valve with a crisp click, and locking fearless eyes onto <Subject 4> and <Subject 1>.\n[Timeline]\n- [Shot 1] (0s-6.6s): Gesturing grandly across the street with a triumphant sneer, <Subject 1> (S1) calls out loudly to the diners: <d>[Chinese] 吃着黑心锅还不跑，楚氏总店刚送来招牌红汤，对门全场免单。</d>\n- [Shot 2] (6.8s-12.0s): Keeping his lips closed with rock-steady composure, <Subject 2> presses <Subject 3>'s tense hand reassuringly, clicks off the iron stove valve so the flame dies down, and steps half a pace forward facing <Subject 4> and <Subject 1> with fearless confidence.\n[Environment]\n- Daytime 2005 Chongqing bluestone street at Xia's hotpot cauldrons.\n[Camera & Visuals]\n- Pure 35mm theatrical cinema photography with completely clean unobstructed lower frame, gripping cliffhanger eye-contact.\n[Audio]\n- Loud gloating male voice, metallic click of stove valve shutting off, quiet simmering pot, tense hush, zero music."
+  }
+]

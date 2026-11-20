@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 341.6,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "欢迎入住集体宿舍，包水不包电",
+      "scenes": 3,
+      "actions": 23,
+      "dialogue_lines": 26,
+      "vo_lines": 0,
+      "spoken_chars": 1168,
+      "avg_line_chars": 44.9,
+      "est_duration_sec": 296.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "师徒初交锋，把危机卖成投名状",
+      "scenes": 3,
+      "actions": 18,
+      "dialogue_lines": 26,
+      "vo_lines": 0,
+      "spoken_chars": 1618,
+      "avg_line_chars": 62.2,
+      "est_duration_sec": 386.5,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 4 集预估时长偏长（296.7s > 190s），注意节奏拖沓",
+    "第 5 集预估时长偏长（386.5s > 190s），注意节奏拖沓"
+  ]
+}

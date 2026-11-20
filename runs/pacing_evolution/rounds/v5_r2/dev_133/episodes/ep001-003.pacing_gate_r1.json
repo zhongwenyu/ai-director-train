@@ -1,0 +1,113 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "完全看懂，无莫名其妙处。开场敬茶寒暄即交代清养母林婉华、养子顾明轩、新娘沈娇娇与亲家王翠兰的关系及救火不孕前情；三集紧扣婚宴主桌，从瞒着结扎拒改口、吃绝户逼宫演到亮出八位养兄姐反制，丝丝入扣。",
+  "total_score": 92.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "亿元改口茶，养子笑报结扎账",
+      "audible_counts": {
+        "王翠兰": 6,
+        "顾明轩": 5,
+        "林婉华": 11,
+        "沈娇娇": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "姨",
+        "姐",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　云顶酒店宴会厅主桌　日",
+          "audible_counts": {
+            "王翠兰": 6,
+            "顾明轩": 5,
+            "林婉华": 11,
+            "沈娇娇": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "双标逼道歉，支票收回断念想",
+      "audible_counts": {
+        "顾明轩": 8,
+        "林婉华": 9,
+        "沈娇娇": 4,
+        "王翠兰": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "姨",
+        "姐",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　云顶酒店宴会厅主桌　日",
+          "audible_counts": {
+            "顾明轩": 8,
+            "林婉华": 9,
+            "沈娇娇": 4,
+            "王翠兰": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "独苗梦碎场，三日召回八兄姐",
+      "audible_counts": {
+        "王翠兰": 3,
+        "沈娇娇": 3,
+        "顾明轩": 6,
+        "林婉华": 12
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "姨",
+        "哥",
+        "姐",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　云顶酒店宴会厅主桌　日",
+          "audible_counts": {
+            "王翠兰": 3,
+            "沈娇娇": 3,
+            "顾明轩": 6,
+            "林婉华": 12
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

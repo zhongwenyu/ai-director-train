@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听全是活人张嘴吵架的烟火气！长短句呼吸错落极佳，既有两三字的冷硬短促反应，又有话咬话的顶针反问与心虚结巴。泼辣长辈、伪善海归、受惊幼童与熊孩子声纹分明，句句抓铁闩、船票钱、洒橙汁等眼前具体小事交锋，零AI端着的书面金句感。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.3
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.25,
+  "rhythm_metrics": {
+    "total_lines": 76,
+    "mean_char_len": 21.3,
+    "char_len_stdev": 7.4,
+    "short_reaction_ratio_le7": 0.053,
+    "twin_clause_symmetry_ratio": 0.013
+  }
+}

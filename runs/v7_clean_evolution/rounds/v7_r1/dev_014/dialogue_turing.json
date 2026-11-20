@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是北方大棚菜农的活人烟火气！长短句呼吸极自然，既有“去呗”“交！”“嚎啥嚎”等本能短反应，又有话咬话的顶针反击；吵架句句不离二十袋肥、磨露线的后胎、早市收秤的头茬黄瓜等具体账，各角色声纹鲜明，毫无AI端着的金句或电报腔。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.6,
+    "subtext_and_micro_specificity": 9.6
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 95.25,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 22.3,
+    "char_len_stdev": 6.7,
+    "short_reaction_ratio_le7": 0.013,
+    "twin_clause_symmetry_ratio": 0.0
+  }
+}

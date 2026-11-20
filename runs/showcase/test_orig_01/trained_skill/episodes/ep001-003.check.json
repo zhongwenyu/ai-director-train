@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 129.9,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "八桌团圆宴，撤掉的归人座",
+      "scenes": 2,
+      "actions": 19,
+      "dialogue_lines": 10,
+      "vo_lines": 1,
+      "spoken_chars": 313,
+      "avg_line_chars": 28.5,
+      "est_duration_sec": 102.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "坐牢的脏水，四十二万买断书",
+      "scenes": 1,
+      "actions": 16,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 469,
+      "avg_line_chars": 33.5,
+      "est_duration_sec": 129.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "柴房一碗热饺，深夜一通电话",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 16,
+      "vo_lines": 0,
+      "spoken_chars": 596,
+      "avg_line_chars": 37.2,
+      "est_duration_sec": 157.6,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

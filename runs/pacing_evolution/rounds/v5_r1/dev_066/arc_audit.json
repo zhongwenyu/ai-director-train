@@ -1,0 +1,169 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "观众完全看得懂。字幕与称呼清晰交代顾沉舟隐退带早产女儿五年，妻子与丈母娘偏袒初恋父子、强占女儿卧室与生日庄园名额；五年隐忍缘由、婚前房产隐情及离婚清退争点均层层递进、逻辑自洽，无莫名其妙之处。",
+  "total_score": 92.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "拆房见偏心",
+      "audible_counts": {
+        "陈婶": 2,
+        "顾沉舟": 8,
+        "顾暖暖": 3,
+        "赵翠花": 3,
+        "周明轩": 2,
+        "周浩浩": 2,
+        "林晚晴": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "婶",
+        "姨",
+        "奶",
+        "哥",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　江湾壹号门外走廊及客厅　夜",
+          "audible_counts": {
+            "陈婶": 2,
+            "顾沉舟": 8,
+            "顾暖暖": 3,
+            "赵翠花": 3,
+            "周明轩": 2,
+            "周浩浩": 2,
+            "林晚晴": 4
+          },
+          "vo_counts": {
+            "顾沉舟": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "双标撤预约",
+      "audible_counts": {
+        "林晚晴": 7,
+        "顾沉舟": 8,
+        "顾暖暖": 1,
+        "周浩浩": 1,
+        "周明轩": 2,
+        "陈管家": 1,
+        "赵翠花": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "婶",
+        "姨",
+        "奶",
+        "哥",
+        "老公",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　江湾壹号客厅　夜",
+          "audible_counts": {
+            "林晚晴": 4,
+            "顾沉舟": 4,
+            "顾暖暖": 1,
+            "周浩浩": 1,
+            "周明轩": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "赵翠花"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　医院新生儿科走廊（闪回）　夜",
+          "audible_counts": {
+            "林晚晴": 1,
+            "顾沉舟": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　江湾壹号客厅　夜",
+          "audible_counts": {
+            "顾沉舟": 3,
+            "陈管家": 1,
+            "周明轩": 1,
+            "赵翠花": 2,
+            "林晚晴": 2
+          },
+          "vo_counts": {
+            "顾沉舟": 1
+          },
+          "mute_present_characters": [
+            "周浩浩",
+            "顾暖暖"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "亮房本定通牒",
+      "audible_counts": {
+        "赵翠花": 6,
+        "周明轩": 3,
+        "林晚晴": 5,
+        "顾沉舟": 10,
+        "顾暖暖": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "婶",
+        "姨",
+        "奶",
+        "哥",
+        "老公",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　江湾壹号客厅及书房　夜",
+          "audible_counts": {
+            "赵翠花": 6,
+            "周明轩": 3,
+            "林晚晴": 5,
+            "顾沉舟": 10,
+            "顾暖暖": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周浩浩"
+          ]
+        }
+      ]
+    }
+  ]
+}

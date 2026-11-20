@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "叶寻",
+  "episode_count": 3,
+  "mean_est_duration_sec": 140.7,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "撤回我的祖传火锅方",
+      "scenes": 3,
+      "actions": 16,
+      "dialogue_lines": 24,
+      "vo_lines": 2,
+      "spoken_chars": 498,
+      "avg_line_chars": 19.2,
+      "est_duration_sec": 142.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "你的机会我不稀罕",
+      "scenes": 3,
+      "actions": 14,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 499,
+      "avg_line_chars": 20.0,
+      "est_duration_sec": 139.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "借一口铁锅见真章",
+      "scenes": 2,
+      "actions": 14,
+      "dialogue_lines": 25,
+      "vo_lines": 1,
+      "spoken_chars": 514,
+      "avg_line_chars": 19.8,
+      "est_duration_sec": 140.6,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

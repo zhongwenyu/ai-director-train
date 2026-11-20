@@ -1,0 +1,172 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "本剧以“七零混账浪子重生赎罪护家+赶山猎户硬核反杀立威”为双轮爽点引擎，借冰河救母女、破除全家惊惧心防与拿捏势利庸医拉满酸涩温情与爽感。裸看前3集人物称谓清晰、前世今生信息差严密，因果与悬念钩子抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "冰河搏命救妻女",
+      "audible_counts": {
+        "苏晚晴": 6,
+        "陈向东": 6,
+        "陈向北": 3,
+        "陈老根": 3,
+        "陈秀儿": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "哥",
+        "弟",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　村外葫芦河冰面　日",
+          "audible_counts": {
+            "苏晚晴": 2,
+            "陈向东": 2
+          },
+          "vo_counts": {
+            "陈向东": 1
+          },
+          "mute_present_characters": [
+            "妞妞"
+          ]
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　陈家土坯房堂屋　日",
+          "audible_counts": {
+            "陈向东": 4,
+            "陈向北": 3,
+            "陈老根": 3,
+            "陈秀儿": 3,
+            "苏晚晴": 4
+          },
+          "vo_counts": {
+            "陈向东": 1
+          },
+          "mute_present_characters": [
+            "妞妞"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "风雪拉车立血誓",
+      "audible_counts": {
+        "陈向东": 9,
+        "苏晚晴": 5,
+        "陈向北": 2,
+        "陈老根": 3,
+        "王翠花": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "哥",
+        "弟",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　陈家院落与巷口　日",
+          "audible_counts": {
+            "陈向东": 7,
+            "苏晚晴": 3,
+            "陈向北": 2,
+            "陈老根": 3,
+            "王翠花": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "妞妞"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　半山腰风雪冰坡　日",
+          "audible_counts": {
+            "苏晚晴": 2,
+            "陈向东": 2
+          },
+          "vo_counts": {
+            "陈向东": 1
+          },
+          "mute_present_characters": [
+            "妞妞"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "绝境亮剑捏把柄",
+      "audible_counts": {
+        "苏晚晴": 5,
+        "陈向东": 7,
+        "孙医生": 7,
+        "刘护士": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "哥",
+        "弟",
+        "妹",
+        "主任",
+        "医生",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　半山腰风雪冰坡　日",
+          "audible_counts": {
+            "苏晚晴": 2,
+            "陈向东": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "妞妞"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　公社镇卫生院急诊室　日",
+          "audible_counts": {
+            "苏晚晴": 3,
+            "孙医生": 7,
+            "刘护士": 3,
+            "陈向东": 5
+          },
+          "vo_counts": {
+            "陈向东": 1
+          },
+          "mute_present_characters": [
+            "妞妞"
+          ]
+        }
+      ]
+    }
+  ]
+}

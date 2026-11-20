@@ -1,0 +1,206 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "原生引擎为七零浪子重生赎罪护妻女与硬汉打猎立威的双线交织。裸看前3集人物关系与前史伤痕清晰自然，从冰河救女、家人防贼拦车、雪路拉车渗血到医院护妻拿捏恶医把柄，前因后果严密，情绪拉扯揪心且悬念钩子极抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.6
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "破冰救女遭戒备",
+      "audible_counts": {
+        "林秀禾": 4,
+        "陈卫东": 8,
+        "陈大山": 4,
+        "陈卫国": 3,
+        "陈小梅": 3,
+        "王翠花": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "婶",
+        "爷",
+        "哥",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　靠山屯冰河边　日",
+          "audible_counts": {
+            "林秀禾": 2,
+            "陈卫东": 1
+          },
+          "vo_counts": {
+            "陈卫东": 1
+          },
+          "mute_present_characters": [
+            "陈小满"
+          ]
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　陈家东屋　黄昏",
+          "audible_counts": {
+            "陈大山": 2,
+            "陈卫东": 2,
+            "陈卫国": 1,
+            "陈小梅": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "林秀禾",
+            "陈小满"
+          ]
+        },
+        {
+          "scene_id": "1-3",
+          "location": "外　隔院王翠花家门口至陈家小院　夜",
+          "audible_counts": {
+            "陈卫东": 5,
+            "王翠花": 2,
+            "陈小梅": 2,
+            "林秀禾": 2,
+            "陈卫国": 2,
+            "陈大山": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈小满"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "风雪拉车遭拒诊",
+      "audible_counts": {
+        "陈卫东": 10,
+        "陈卫国": 1,
+        "陈大山": 1,
+        "林秀禾": 4,
+        "小张": 3,
+        "刘明": 5
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "婶",
+        "爷",
+        "哥",
+        "妹",
+        "主任",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　陈家小院门口　夜",
+          "audible_counts": {
+            "陈卫东": 4,
+            "陈卫国": 1,
+            "陈大山": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "林秀禾",
+            "陈小满"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　暴雪盘山路　夜",
+          "audible_counts": {
+            "林秀禾": 2,
+            "陈卫东": 3
+          },
+          "vo_counts": {
+            "林秀禾": 1
+          },
+          "mute_present_characters": [
+            "陈小满"
+          ]
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　公社卫生院急诊室　夜",
+          "audible_counts": {
+            "陈卫东": 3,
+            "小张": 3,
+            "刘明": 5,
+            "林秀禾": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈小满"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "护妻拦针握把柄",
+      "audible_counts": {
+        "林秀禾": 5,
+        "刘明": 7,
+        "陈卫东": 5,
+        "小张": 3,
+        "赵干事": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "婶",
+        "爷",
+        "哥",
+        "妹",
+        "主任",
+        "院长",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　公社卫生院急诊观察室　夜",
+          "audible_counts": {
+            "林秀禾": 4,
+            "刘明": 4,
+            "陈卫东": 2,
+            "小张": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈小满"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　急诊观察室门口至病床旁　夜",
+          "audible_counts": {
+            "赵干事": 4,
+            "刘明": 3,
+            "小张": 2,
+            "林秀禾": 1,
+            "陈卫东": 3
+          },
+          "vo_counts": {
+            "陈卫东": 1
+          },
+          "mute_present_characters": [
+            "陈小满"
+          ]
+        }
+      ]
+    }
+  ]
+}

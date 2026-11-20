@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听全是活人吵架的烟火气。二叔一家算计彩礼、扒袄搜钱、逼按手印，句句踩在半碗热汤、十四文钱、两亩薄田的具体账上；话咬话的顶针反问与短促反应呼吸错落，泼辣二婶、阴狠二叔与心疼哥哥的幼妹声纹鲜明，零金句零端腔。",
+  "scores": {
+    "character_voice_distinction": 9.2,
+    "conversational_bite_and_rhythm": 9.3,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 93.5,
+  "rhythm_metrics": {
+    "total_lines": 93,
+    "mean_char_len": 12.6,
+    "char_len_stdev": 5.4,
+    "short_reaction_ratio_le7": 0.226,
+    "twin_clause_symmetry_ratio": 0.161
+  }
+}

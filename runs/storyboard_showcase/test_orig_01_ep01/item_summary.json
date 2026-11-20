@@ -1,0 +1,16 @@
+{
+  "eval_id": "test_orig_01_ep01",
+  "genre": "都市除夕家庭切割",
+  "trained_score": 68.0,
+  "naive_score": 49.0,
+  "claude_s4_score": 61.0,
+  "trained_cam_score": 18,
+  "naive_cam_score": 5,
+  "claude_s4_cam_score": 18,
+  "pk_vs_naive": "HIT_STORYBOARD",
+  "pk_vs_claude_s4": "HIT_STORYBOARD",
+  "active_cam_pct": 15.8,
+  "shots": 38,
+  "groups": 12,
+  "why_beats_claude_s4": "裁决：A明显胜出，但需要修订后投产。胜因不是表格更长，而是关键羞辱、主角反应和物证之间，建立了更可执行的声画链。\n\n①视觉与情绪：A用母亲训斥→林默眼神降温、周莉驱赶→林默越人群找父亲、父亲默认→拉死纸袋，逐步拍出归家期待如何变成收回厚礼。1-2-19至20让“代扣费”尾句压在周莉僵脸上，信息与反应同时命中，比说完再切反应更有穿透力。结尾把担保函纸袋与逼签印泥形成视觉对照，利益冲突更具体。\n\n②声音与节奏是决定性优势：核对去标点字数，母亲27字、弟弟30字、代扣费33字。A分"
+}

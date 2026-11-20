@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 121.7,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "垫桌脚的救命仙药",
+      "scenes": 3,
+      "actions": 25,
+      "dialogue_lines": 11,
+      "vo_lines": 2,
+      "spoken_chars": 307,
+      "avg_line_chars": 23.6,
+      "est_duration_sec": 112.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "黑心舅母的顶替毒计",
+      "scenes": 3,
+      "actions": 20,
+      "dialogue_lines": 12,
+      "vo_lines": 1,
+      "spoken_chars": 380,
+      "avg_line_chars": 29.2,
+      "est_duration_sec": 120.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "哥哥凶巴巴，果果甜滋滋",
+      "scenes": 2,
+      "actions": 21,
+      "dialogue_lines": 13,
+      "vo_lines": 2,
+      "spoken_chars": 433,
+      "avg_line_chars": 28.9,
+      "est_duration_sec": 131.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集在【本集完】之后仍有残留文本（3字）",
+    "第 2 集在【本集完】之后仍有残留文本（3字）"
+  ]
+}

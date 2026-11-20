@@ -1,0 +1,209 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“十年乡邻厚道帮衬撞上双标法条背刺”为核心引擎，靠老农守规割席、切断白嫖农事链反制双标邻居兑现爽感。裸看前3集人物称谓自然落地、关系与旧恩前史交代清晰，情绪拉扯饱满，集尾钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "十年旧恩撞上顶格罚单",
+      "audible_counts": {
+        "赵守财": 4,
+        "周建国": 3,
+        "赵思琪": 6,
+        "执法员老王": 2,
+        "李桂兰": 3,
+        "刘翠花": 3,
+        "周阳": 2
+      },
+      "unintroduced_speakers": [
+        "执法员老王"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "奶",
+        "哥",
+        "嫂"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　周家与赵家毗邻大棚地头　日",
+          "audible_counts": {
+            "赵守财": 4,
+            "周建国": 3,
+            "赵思琪": 6,
+            "执法员老王": 2,
+            "李桂兰": 3,
+            "刘翠花": 3,
+            "周阳": 2
+          },
+          "vo_counts": {
+            "周建国": 2
+          },
+          "mute_present_characters": [
+            "陈支书"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "坦荡认罚与当众割席",
+      "audible_counts": {
+        "周建国": 8,
+        "李桂兰": 2,
+        "执法员老王": 1,
+        "赵守财": 4,
+        "陈支书": 1,
+        "刘翠花": 3,
+        "孙二虎": 1,
+        "赵思琪": 2,
+        "周阳": 1
+      },
+      "unintroduced_speakers": [
+        "执法员老王"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爹",
+        "妈",
+        "叔",
+        "奶",
+        "哥",
+        "嫂",
+        "支书",
+        "夫人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　周家与赵家毗邻大棚地头　日",
+          "audible_counts": {
+            "周建国": 7,
+            "李桂兰": 1,
+            "执法员老王": 1,
+            "赵守财": 2,
+            "陈支书": 1,
+            "刘翠花": 1,
+            "孙二虎": 1,
+            "赵思琪": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周阳"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　两家院门前　傍晚",
+          "audible_counts": {
+            "周阳": 1,
+            "周建国": 1,
+            "刘翠花": 1,
+            "赵守财": 1
+          },
+          "vo_counts": {
+            "周建国": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "外　周家院门前　晨",
+          "audible_counts": {
+            "赵思琪": 1,
+            "刘翠花": 1,
+            "赵守财": 1,
+            "李桂兰": 1
+          },
+          "vo_counts": {
+            "周建国": 1
+          },
+          "mute_present_characters": [
+            "周建国"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "早市拒载与乡邻避嫌",
+      "audible_counts": {
+        "赵思琪": 7,
+        "周建国": 3,
+        "刘翠花": 4,
+        "赵守财": 7,
+        "孙二虎": 2,
+        "老孙": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爹",
+        "妈",
+        "叔",
+        "爷",
+        "奶",
+        "哥",
+        "嫂",
+        "支书",
+        "夫人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　周家院门前　晨",
+          "audible_counts": {
+            "赵思琪": 2,
+            "周建国": 2,
+            "刘翠花": 2,
+            "赵守财": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周阳",
+            "李桂兰"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　孙二虎家院门前　晨",
+          "audible_counts": {
+            "赵守财": 2,
+            "孙二虎": 2,
+            "赵思琪": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "刘大奎"
+          ]
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　赵家院口至村口路边　日",
+          "audible_counts": {
+            "刘翠花": 2,
+            "赵守财": 3,
+            "赵思琪": 4,
+            "老孙": 1,
+            "周建国": 1
+          },
+          "vo_counts": {
+            "赵思琪": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

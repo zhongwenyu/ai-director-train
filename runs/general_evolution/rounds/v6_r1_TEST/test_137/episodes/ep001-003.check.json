@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈默",
+  "episode_count": 3,
+  "mean_est_duration_sec": 139.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "重生灾前30分钟",
+      "scenes": 2,
+      "actions": 17,
+      "dialogue_lines": 22,
+      "vo_lines": 2,
+      "spoken_chars": 485,
+      "avg_line_chars": 20.2,
+      "est_duration_sec": 139.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "寸粮不留升级安全屋",
+      "scenes": 3,
+      "actions": 15,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 507,
+      "avg_line_chars": 20.3,
+      "est_duration_sec": 142.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "空屋破防与隔门火锅",
+      "scenes": 2,
+      "actions": 12,
+      "dialogue_lines": 25,
+      "vo_lines": 1,
+      "spoken_chars": 505,
+      "avg_line_chars": 19.4,
+      "est_duration_sec": 135.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 2 集角色 ['收音机播音员'] 未直接叫出全名（已出现称谓 ['哥', '姐']，交由屏幕盲审核验关系清晰度）"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是年代北方农村活人急眼的喘气声。受气媳妇、严父、刻薄婶子、势利主任声纹极贴脸；“借钱？”“不收。”“治个屁！”等短促顶针咬得很紧，句句围着五块钱、半块热砖、扣奖金、搭葡萄糖算眼前具体账，毫无AI总结腔或工整对偶。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.6
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 95.0,
+  "rhythm_metrics": {
+    "total_lines": 83,
+    "mean_char_len": 14.2,
+    "char_len_stdev": 6.9,
+    "short_reaction_ratio_le7": 0.229,
+    "twin_clause_symmetry_ratio": 0.048
+  }
+}

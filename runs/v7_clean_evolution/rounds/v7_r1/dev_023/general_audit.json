@@ -1,0 +1,195 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“满身前科的重生丈夫靠血肉实绩一点点融化至亲刻骨防备”为核心引擎，融合寒冬救女倒计时与硬核反击爽感。裸看实况人物称谓与关系清晰，妻女与父兄的戒备心理渐变真实可信，口语地道，钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.3,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.3
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.75,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "冰河砸窟救母女，分文皆无遭停药",
+      "audible_counts": {
+        "栓柱": 5,
+        "苏秀禾": 6,
+        "陈向北": 6,
+        "小周": 3,
+        "刘振华": 6
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "娘",
+        "公",
+        "哥",
+        "主任",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　靠山屯冰河岸　日",
+          "audible_counts": {
+            "栓柱": 5,
+            "苏秀禾": 3,
+            "陈向北": 3
+          },
+          "vo_counts": {
+            "陈向北": 2
+          },
+          "mute_present_characters": [
+            "妞妞"
+          ]
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　公社卫生院急诊走廊　傍晚",
+          "audible_counts": {
+            "陈向北": 3,
+            "小周": 3,
+            "刘振华": 6,
+            "苏秀禾": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "妞妞"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "暗格把柄逼施救，廿四小时压死限",
+      "audible_counts": {
+        "陈向北": 10,
+        "刘振华": 10,
+        "苏秀禾": 6,
+        "妞妞": 1,
+        "陈向南": 1
+      },
+      "unintroduced_speakers": [
+        "陈向南"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "婆",
+        "公",
+        "哥",
+        "总",
+        "主任",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　公社卫生院走廊及急诊室　傍晚",
+          "audible_counts": {
+            "陈向北": 6,
+            "刘振华": 8,
+            "苏秀禾": 2
+          },
+          "vo_counts": {
+            "陈向北": 1
+          },
+          "mute_present_characters": [
+            "妞妞",
+            "小周"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　卫生院观察病房及走廊　夜",
+          "audible_counts": {
+            "妞妞": 1,
+            "苏秀禾": 4,
+            "陈向北": 4,
+            "刘振华": 2
+          },
+          "vo_counts": {
+            "陈向北": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "外　陈家小院门口　夜",
+          "audible_counts": {
+            "陈向南": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈向北"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "摔碗硬顶贪婶娘，借枪遭拒遇恶霸",
+      "audible_counts": {
+        "陈向北": 9,
+        "陈向南": 2,
+        "陈老根": 3,
+        "王桂花": 6,
+        "陈小梅": 1,
+        "赵铁山": 2,
+        "胡二虎": 1,
+        "胡大虎": 3
+      },
+      "unintroduced_speakers": [
+        "陈向南",
+        "陈老根",
+        "王桂花",
+        "胡二虎",
+        "胡大虎"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "婆",
+        "公",
+        "哥",
+        "总",
+        "主任",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外/内　陈家小院　晨",
+          "audible_counts": {
+            "陈向北": 6,
+            "陈向南": 2,
+            "陈老根": 3,
+            "王桂花": 6,
+            "陈小梅": 1
+          },
+          "vo_counts": {
+            "陈向北": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　老猎户赵铁山家院门外　日",
+          "audible_counts": {
+            "陈向北": 3,
+            "赵铁山": 2,
+            "胡二虎": 1,
+            "胡大虎": 3
+          },
+          "vo_counts": {
+            "陈向北": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

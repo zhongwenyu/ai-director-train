@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "episode_count": 12,
+  "mean_est_duration_sec": 117.5,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "重生2005，我不伺候了",
+      "scenes": 4,
+      "actions": 20,
+      "dialogue_lines": 19,
+      "vo_lines": 2,
+      "spoken_chars": 575,
+      "avg_line_chars": 27.4,
+      "est_duration_sec": 165.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "桂花巷的一锅救急汤",
+      "scenes": 3,
+      "actions": 12,
+      "dialogue_lines": 18,
+      "vo_lines": 0,
+      "spoken_chars": 431,
+      "avg_line_chars": 23.9,
+      "est_duration_sec": 118.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "技术入股，绝不白送",
+      "scenes": 2,
+      "actions": 12,
+      "dialogue_lines": 16,
+      "vo_lines": 0,
+      "spoken_chars": 495,
+      "avg_line_chars": 30.9,
+      "est_duration_sec": 130.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 4,
+      "title": "盘溪识破合成肉",
+      "scenes": 3,
+      "actions": 13,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 445,
+      "avg_line_chars": 34.2,
+      "est_duration_sec": 123.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "十米酒香破深巷",
+      "scenes": 3,
+      "actions": 13,
+      "dialogue_lines": 10,
+      "vo_lines": 0,
+      "spoken_chars": 390,
+      "avg_line_chars": 39.0,
+      "est_duration_sec": 111.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 6,
+      "title": "屠宰场直供与恶意举报",
+      "scenes": 3,
+      "actions": 10,
+      "dialogue_lines": 9,
+      "vo_lines": 0,
+      "spoken_chars": 345,
+      "avg_line_chars": 38.3,
+      "est_duration_sec": 97.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 7,
+      "title": "药食同源，当众洗冤",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 11,
+      "vo_lines": 0,
+      "spoken_chars": 419,
+      "avg_line_chars": 38.1,
+      "est_duration_sec": 114.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 8,
+      "title": "小院扩桌与温柔护短",
+      "scenes": 3,
+      "actions": 10,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 394,
+      "avg_line_chars": 30.3,
+      "est_duration_sec": 107.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 9,
+      "title": "空手套股，开业前夜",
+      "scenes": 3,
+      "actions": 8,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 450,
+      "avg_line_chars": 34.6,
+      "est_duration_sec": 116.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 10,
+      "title": "五折假象，骑脸反被揭底",
+      "scenes": 2,
+      "actions": 10,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 443,
+      "avg_line_chars": 36.9,
+      "est_duration_sec": 116.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 11,
+      "title": "口碑雪崩与清润爆棚",
+      "scenes": 3,
+      "actions": 9,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 374,
+      "avg_line_chars": 31.2,
+      "est_duration_sec": 101.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 12,
+      "title": "三十万毒饵，深渊签字",
+      "scenes": 3,
+      "actions": 14,
+      "dialogue_lines": 11,
+      "vo_lines": 0,
+      "spoken_chars": 360,
+      "avg_line_chars": 32.7,
+      "est_duration_sec": 106.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

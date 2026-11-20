@@ -1,0 +1,162 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“拒不离婚合规断供+步步设局送进监狱”为核心爽点引擎，将憋屈割肉翻转为阳谋锁产与刑民反杀。裸看前3集人物关系（夫妻、奸夫、法律顾问）交代清晰，停卡收车、专柜社死与茶楼套取敲诈铁证层层咬合，悬念钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.2,
+    "motivation_and_logic": 9.3,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "逼宫割肉与笔尖急刹",
+      "audible_counts": {
+        "陈建国": 9,
+        "苏曼": 7,
+        "赵磊": 6,
+        "沈确": 3
+      },
+      "unintroduced_speakers": [
+        "沈确"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "婆",
+        "公",
+        "哥",
+        "老婆",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　建国精密机械厂·董事长办公室　日",
+          "audible_counts": {
+            "陈建国": 9,
+            "苏曼": 7,
+            "赵磊": 6,
+            "沈确": 3
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "撕约拒离与当场断供",
+      "audible_counts": {
+        "赵磊": 7,
+        "苏曼": 5,
+        "沈确": 3,
+        "陈建国": 6,
+        "客服": 2,
+        "老郑": 1
+      },
+      "unintroduced_speakers": [
+        "沈确"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "婆",
+        "公",
+        "哥",
+        "老婆",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　建国精密机械厂·董事长办公室　日",
+          "audible_counts": {
+            "赵磊": 3,
+            "苏曼": 4,
+            "沈确": 3,
+            "陈建国": 5,
+            "客服": 2,
+            "老郑": 1
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　建国精密机械厂大门外　日",
+          "audible_counts": {
+            "苏曼": 1,
+            "赵磊": 4,
+            "陈建国": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "沈确",
+            "老郑"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "专柜社死与诱敌留痕",
+      "audible_counts": {
+        "苏曼": 5,
+        "赵磊": 7,
+        "店员": 3,
+        "林太": 1,
+        "沈确": 2,
+        "陈建国": 5
+      },
+      "unintroduced_speakers": [
+        "林太",
+        "沈确"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "婆",
+        "公",
+        "哥",
+        "弟",
+        "老婆",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　商场奢侈品专柜　日",
+          "audible_counts": {
+            "苏曼": 4,
+            "赵磊": 2,
+            "店员": 3,
+            "林太": 1
+          },
+          "vo_counts": {
+            "苏曼": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　茶楼包厢　日",
+          "audible_counts": {
+            "沈确": 2,
+            "陈建国": 5,
+            "赵磊": 5,
+            "苏曼": 1
+          },
+          "vo_counts": {
+            "陈建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

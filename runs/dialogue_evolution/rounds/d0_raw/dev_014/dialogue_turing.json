@@ -1,0 +1,55 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "瞎看两眼呗，看看明年能不能考出去。",
+      "quote": "嗯，明年想考政法大学，趁歇晌多看两页。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "离西边林子才多远？万一火星子蹿过去谁担得起？按规矩就得顶格罚！",
+      "quote": "毗邻林木点烟，有引燃隐患，按规矩得顶格重罚！"
+    },
+    {
+      "defect_type": "essay_thesis_or_psychology_summary",
+      "how_real_person_would_say_it": "倩倩，你刚进队里想在领导跟前表现，也不能拿叔开刀啊……",
+      "quote": "[心声OS] 周建国：刚进镇队实习，这是拿我这老实叔辈给领导立威呢。"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "那年腊月是谁背你上的医院？啊？棉鞋都跑丢了一只，驾照分全扣光，我们要过你家一分钱没有？！",
+      "quote": "扣十二分跑丢一只棉鞋，图过你家一分钱吗？"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "两千？！建国你疯啦！那是咱起早贪黑卖蒜留着买煤的钱，真就这么白扔了？！",
+      "quote": "卖早蒜刚攒这两千三，真就这么交了？"
+    },
+    {
+      "defect_type": "era_or_region_register_mismatch",
+      "how_real_person_would_say_it": "单子收好，半个月内去镇上把罚款交了，赶紧拿土把灰埋严实！",
+      "quote": "十五天内扫码交清，把灰埋平拍张照。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "行，两千块钱我交了！打今儿起，你家的菜爱找谁拉找谁拉，咱两家谁也别沾谁！",
+      "quote": "街坊们都在，十年情分就着这张罚单两清，往后咱两家只认规矩，彻底断交！"
+    }
+  ],
+  "ear_test_impression": "一耳朵端着的典型AI工整电报腔！全篇76句像用尺子量着切出来的16～18字匀称双分句，农村叔婶急眼吵架连一句“两千？！”“凭啥！”的短促本能反应都没有，全员轮流按大纲报设定账单、喊话剧断交口号，年代乡村还乱入扫码拍照，毫无活人呼吸感。",
+  "scores": {
+    "character_voice_distinction": 3,
+    "conversational_bite_and_rhythm": 2,
+    "spoken_naturalness": 3,
+    "subtext_and_micro_specificity": 4
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 30.0,
+  "rhythm_metrics": {
+    "total_lines": 76,
+    "mean_char_len": 17.0,
+    "char_len_stdev": 3.8,
+    "short_reaction_ratio_le7": 0.013,
+    "twin_clause_symmetry_ratio": 0.118
+  }
+}

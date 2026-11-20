@@ -1,0 +1,143 @@
+{
+  "ok": false,
+  "verdict": "SWIPE_AWAY",
+  "blocked_episodes": [
+    3
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "understood_plot_one_line": "陈野重生甩掉忘恩未婚妻，联手苏晚开店，遭前任断油抢单。",
+      "scene_barrage": [
+        {
+          "scene_id": "1-1／退婚索方",
+          "barrage": "毕业就踹供她读书的人，还想拿走秘方？真够不要脸的。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-1／撕方亮汇款单",
+          "barrage": "四十八张汇款单拍脸！到底谁养谁啊，撕得好！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-1／撤火离店",
+          "barrage": "别光嘴硬，真走！让这家人自己炒底料去。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2／苏晚合营",
+          "barrage": "对门直接给五成！这姑娘识货，赶紧一起干。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2／断油抢单",
+          "barrage": "退婚了还追过来赶尽杀绝？快让这俩吃瘪！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2／骑车抢鲜油",
+          "barrage": "断成品油就自己炼！姑娘也不磨叽，想看这锅怎么翻盘。",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.5,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 2,
+      "understood_plot_one_line": "陈野现炼牛油抢回百桌生意，林家输急眼又举报他。",
+      "scene_barrage": [
+        {
+          "scene_id": "2-1① 鲜油下锅",
+          "barrage": "昨晚说找鲜油，今天真炼上了！看你断供还有啥用。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-1② 两家对锅",
+          "barrage": "偷方子还炒糊了，加糖能救回来？等着当众翻车吧。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2① 林记砸席",
+          "barrage": "难吃还让客人喝酸梅汤压？老板娘这嘴真硬。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2② 百桌过街",
+          "barrage": "退单！全去对门！这才叫打脸，苏晚也是真敢替他撑场子。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2③ 举报封样",
+          "barrage": "抢不过就举报，真够损的！陈野这么稳，是有办法当场打脸？",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.5,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 3,
+      "understood_plot_one_line": "陈野洗清举报、揭穿林记毒汤，赵凯又买铺逼他们走。",
+      "scene_barrage": [
+        {
+          "scene_id": "3-1①：苏记快检过关",
+          "barrage": "查了没问题吧！举报的人这下打脸了，赶紧让大家接着吃。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-1②：陈野提出盲尝",
+          "barrage": "你都闻出是化工香精了，还叫街坊喝？这不是拿人试毒吗？",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "3-2①：盲尝揭晓",
+          "barrage": "赢是赢了，可人家都喝到干呕了，你事先知道还不拦着？",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "3-2②：抓获林大富毁证",
+          "barrage": "桶上直接写着严禁食用，还抱出来当街跑？这坏人也太配合抓现行了。",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "3-2③：林记被封、反派互撕",
+          "barrage": "封店、赔钱、狗咬狗，这段解气！陈野撤火的账总算讨回来了。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-2④：买铺限三日",
+          "barrage": "刚挣够房租，又突然必须三天买房？买了铺就能立刻赶租客？没完没了了。",
+          "action": "SWIPE_AWAY"
+        }
+      ],
+      "fatal_dropoffs": [
+        {
+          "category": "identity_action_dissonance",
+          "quote": "“分明是拿劣质香精强压早上的苦废汤！”随后提出“让街坊盲尝甲乙两碗”。",
+          "viewer_complaint": "你是懂行的好厨子，都认出汤有问题了，还主动叫街坊喝来帮你赢？别人喝吐了，你倒封神了？",
+          "root_fix": "改变反杀行动：陈野察觉异常后立即阻止试吃，通过保全问题汤、追查后厨实际用料揭露对手。口味比试只能使用没有安全疑点的汤，不能让无辜食客承担主角已经识别的风险。"
+        },
+        {
+          "category": "unexplained_leap_or_ad_cringe",
+          "quote": "“工业级香精辣椒精（化工原料·严禁食用）”；“非食用化学添加剂快检：强阳性”。",
+          "viewer_complaint": "坏人抱着写明罪证的大桶跑出来，检查的人又刚好一滴就验出来，证据全自己送上门了。感觉主角不用斗，等他们犯傻就行。",
+          "root_fix": "重建证据取得过程：让林大富为挽回苦汤而采取的补救行为留下可追查线索，由陈野主动发现并促成查验。现场先控制问题汤与原料，处罚结论随证据确认推进，取消靠醒目标签和万能变色结果一次包办反杀。"
+        },
+        {
+          "category": "contrived_coincidence_crisis",
+          "quote": "“赵少爷刚签意向书，出全款买我这间铺子”；“限三日内同等全款付清”。",
+          "viewer_complaint": "前面说交上房租就能保住店，钱刚挣到，规则马上变成全款买铺。三天是谁定的？不买为什么就得滚？这不是专门不让主角过关吗？",
+          "root_fix": "从第一集建立铺面待售、租约到期或续租受阻的实际处境，让赵凯买铺成为已有夺店计划的升级。分别建立购铺机会与继续经营的条件，使三日期限有可见来源；保留百桌收入确实解决欠租的胜利，避免用突然出现的新规则抹掉兑现。"
+        }
+      ],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 5,
+      "verdict": "SWIPE_AWAY"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "cand_name": "d0_raw",
+  "pass_human_natural_rate": "0/6",
+  "pass_cnt": 0,
+  "mean_turing_score": 32.17,
+  "mean_short_reaction_ratio": 0.021,
+  "mean_twin_clause_ratio": 0.115,
+  "plot_gate_pass_rate": null,
+  "vs_real_gt_dialogue": {
+    "total": 6,
+    "wins": 0,
+    "ties": 0,
+    "losses": 6,
+    "points": 0
+  },
+  "vs_d0_raw_dialogue": null,
+  "vs_champion_dialogue": null,
+  "composite_metric": 32.17,
+  "seeds": [
+    {
+      "bench_id": "dev_066",
+      "genre": "都市情感",
+      "script_check_ok": true,
+      "turing_verdict": "REJECT_AI_STAGEY",
+      "turing_score": 28.75,
+      "turing_pillars": {
+        "character_voice_distinction": 3,
+        "conversational_bite_and_rhythm": 2,
+        "spoken_naturalness": 3,
+        "subtext_and_micro_specificity": 3.5
+      },
+      "rhythm_metrics": {
+        "total_lines": 75,
+        "mean_char_len": 17.8,
+        "char_len_stdev": 3.1,
+        "short_reaction_ratio_le7": 0.0,
+        "twin_clause_symmetry_ratio": 0.12
+      },
+      "ai_voice_defects": [
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "（真实短剧无需端着念四字成语OS，或在电话末低声嘱咐）别漏了风声就行。她那人死要面子，知道了心里头别扭。",
+          "quote": "隐去身份护她自尊五年，我只图她们母女平安顺遂。"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "（蹲下捡断笔，嗓音发哑对苏晚晴说）五年了，我让着你，连闺女根画笔都留不住是吧？行。",
+          "quote": "隐忍五年护她体面，竟连女儿一支画笔都护不住。"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "（冷哼一声跟妈念叨）还想等我低头哄他？做梦去吧，没他我还清静呢。",
+          "quote": "沈砚舟定在等我服软，可惜离了他我只会站得更高。"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "好。对了沈总，半山那栋房子下礼拜到期，苏氏那笔账也就剩十天了，您看……",
+          "quote": "是。半山别墅剩七天到期，苏氏免息账期还剩十天。"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "哎哟苏总！听说这地方平时有钱都进不来，今儿我可算跟着您开眼了！",
+          "quote": "苏总，刘姨，这庄园非百亿豪门不接，今儿沾你们光了！"
+        },
+        {
+          "defect_type": "homogenized_character_voices",
+          "how_real_person_would_say_it": "阿姨阿姨！这间大屋子以后真是我的啦？好亮堂呀！",
+          "quote": "晚晴阿姨，二楼这间向阳大房真归我住啦？"
+        },
+        {
+          "defect_type": "homogenized_character_voices",
+          "how_real_person_would_say_it": "爸爸……我不看海豚了，咱们走吧，不住这儿了好不好？",
+          "quote": "爸爸，我不看海豚了，我们捡起画笔去别处住好不好？"
+        },
+        {
+          "defect_type": "monotonous_twin_clause_cadence",
+          "how_real_person_would_say_it": "不就擦破点皮吗？贴个创可贴的事儿，你冲我嚷嚷什么？",
+          "quote": "破点皮贴个创可贴就行，至于小题大做吗？"
+        }
+      ],
+      "ear_impression": "典型AI按字数切出来的工整电报腔！全篇75句台词清一色15至24字匀称双分句，零短促本能反应。吵架不咬话茬，全员轮流播报设定补丁与网文宣言OS，连六岁小孩都张嘴“向阳大房”，像机器人排着队念提词器，毫无活人呼吸感。",
+      "plot_gate_verdict": null,
+      "plot_gate_score": null,
+      "vs_real_gt_winner": "REAL_GT",
+      "vs_real_gt_points": 0,
+      "vs_real_gt_examples": "1. **【六岁小孩的台词声纹对比】**\n- **候选 A**：“海豚归我看喽！住杂物间的爱哭鬼不配去海边！” / “爸爸，我不看海豚了，我们捡起画笔去别处住好不好？”\n- **候选 B**：“这个灯好好看。” / “妈妈，储物间没有窗户。” / “可我已经等了三个月了。”\n- **盲听判词**：A组小孩满嘴定语从句式的标签词（“住杂物间的爱哭鬼”）和文艺腔动作（“捡起画笔去别处住”），一听就是AI按情绪公式硬凑的台词；B组小孩只盯眼前最具体的“灯好看”“没窗户”“等了三个月”，句式简单直白，完完全全是真小孩委屈时的原声。\n\n2. **【拆房冲突的“话咬话”呼吸感对比】**\n- **候选 A**：沈砚舟：“把念念赶进储物间，真是你亲口答应的？” 苏晚晴：“子豪要练琴参赛，念念才六岁，让出房间怎么了？”\n- **候选 B**：顾沉：“谁让你们拆可可房间的？” 苏晚晴：“我让的。” …… 周明远：“晚晴，别让顾先生搬书房，他虽然不工作，总要……” 苏晚晴：“对，家里到处都是电脑，把你的破电脑搬进储物间！正好你跟可可一起过去。”\n- **盲听判词**：A组夫妻吵架依然保持十几个字工整对答，四平八稳像辩论赛；B组一句三字硬顶“我让的”瞬间立住强势人设，紧接着男小三欲言又止递刀子、女方顺嘴抓起“破电脑”借题发挥，把真实家庭吵架里“话赶话、顺嘴损人”的烟火气还原得淋漓尽致。\n\n3. **【男主收回权限与心声对比】**\n- **候选 A**：“实名绑在我名下。清零她的随行权，套房留给念念。” / “[心声OS] 隐忍五年护她体面，竟连女儿一支画笔都护不住。”\n- **候选 B**：助理：“……都是您安排的。这个也要收回吗？” 顾董：“收。” / 顾沉：“可可受委屈，你看不见，周明远父子排个队，就成了受罪？”\n- **盲听判词**：A组充斥着“清零随行权”这种生硬机器词和对称古风感慨句，端着架子念口号；B组上位者发话只有一个“收”字，正面质问也是抓着“女儿受委屈 vs 外人排个队”的具体反差打脸，字字落地有声。",
+      "vs_real_gt_cand_notes": "典型的AI“定长模具台词”，一上麦就露怯，完全没法配出真人呼吸感：\n1. **全员等长书面句，毫无短促反应与呼吸起伏**：75句台词字数死死卡在15～22字之间（标准差仅3.1，7字以下短句为0%）。哪怕是吵架、护女、下达指令，角色也必须把主谓宾和因果修饰塞满一整行（如“借你手托了她五年，她既觉得全凭本事，就自己走走看”），听感像全员在朗读精修过字数的字幕条。\n2. **浓重的AI总结腔与生造设定词**：心声动辄工整对仗感慨（“隐去身份护她自尊五年，我只图她们母女平安顺遂”“隐忍五年护她体面，竟连女儿一支画笔都护不住”）；日常对话里频频蹦出“幕后托底”“五年免息账期”“清零她的随行权”“非百亿豪门不接”这类悬浮网文/商业黑话，毫无家庭吵架的烟火气。\n3. **人物声纹严重失真，尤其儿童台词极假**：六岁小孩说话像带着任务念大纲——反派小孩喊“海豚归我看喽！住杂物间的爱哭鬼不配去海边！”，女儿说“我们捡起画笔去别处住好不好？”，全是成年编剧强塞的书面修饰词和煽情意象，现实里根本没有小孩这么张嘴说话。",
+      "vs_raw_winner": null,
+      "vs_champ_winner": null
+    },
+    {
+      "bench_id": "dev_014",
+      "genre": "年代乡村",
+      "script_check_ok": true,
+      "turing_verdict": "REJECT_AI_STAGEY",
+      "turing_score": 30.0,
+      "turing_pillars": {
+        "character_voice_distinction": 3,
+        "conversational_bite_and_rhythm": 2,
+        "spoken_naturalness": 3,
+        "subtext_and_micro_specificity": 4
+      },
+      "rhythm_metrics": {
+        "total_lines": 76,
+        "mean_char_len": 17.0,
+        "char_len_stdev": 3.8,
+        "short_reaction_ratio_le7": 0.013,
+        "twin_clause_symmetry_ratio": 0.118
+      },
+      "ai_voice_defects": [
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "瞎看两眼呗，看看明年能不能考出去。",
+          "quote": "嗯，明年想考政法大学，趁歇晌多看两页。"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "离西边林子才多远？万一火星子蹿过去谁担得起？按规矩就得顶格罚！",
+          "quote": "毗邻林木点烟，有引燃隐患，按规矩得顶格重罚！"
+        },
+        {
+          "defect_type": "essay_thesis_or_psychology_summary",
+          "how_real_person_would_say_it": "倩倩，你刚进队里想在领导跟前表现，也不能拿叔开刀啊……",
+          "quote": "[心声OS] 周建国：刚进镇队实习，这是拿我这老实叔辈给领导立威呢。"
+        },
+        {
+          "defect_type": "monotonous_twin_clause_cadence",
+          "how_real_person_would_say_it": "那年腊月是谁背你上的医院？啊？棉鞋都跑丢了一只，驾照分全扣光，我们要过你家一分钱没有？！",
+          "quote": "扣十二分跑丢一只棉鞋，图过你家一分钱吗？"
+        },
+        {
+          "defect_type": "homogenized_character_voices",
+          "how_real_person_would_say_it": "两千？！建国你疯啦！那是咱起早贪黑卖蒜留着买煤的钱，真就这么白扔了？！",
+          "quote": "卖早蒜刚攒这两千三，真就这么交了？"
+        },
+        {
+          "defect_type": "era_or_region_register_mismatch",
+          "how_real_person_would_say_it": "单子收好，半个月内去镇上把罚款交了，赶紧拿土把灰埋严实！",
+          "quote": "十五天内扫码交清，把灰埋平拍张照。"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "行，两千块钱我交了！打今儿起，你家的菜爱找谁拉找谁拉，咱两家谁也别沾谁！",
+          "quote": "街坊们都在，十年情分就着这张罚单两清，往后咱两家只认规矩，彻底断交！"
+        }
+      ],
+      "ear_impression": "一耳朵端着的典型AI工整电报腔！全篇76句像用尺子量着切出来的16～18字匀称双分句，农村叔婶急眼吵架连一句“两千？！”“凭啥！”的短促本能反应都没有，全员轮流按大纲报设定账单、喊话剧断交口号，年代乡村还乱入扫码拍照，毫无活人呼吸感。",
+      "plot_gate_verdict": null,
+      "plot_gate_score": null,
+      "vs_real_gt_winner": "REAL_GT",
+      "vs_real_gt_points": 0,
+      "vs_real_gt_examples": "【对比一：翻救命旧账时的当面交锋】\n- 候选 B（活人话咬话追问+理亏结巴）：\n  柳巧：“婶子，那是两码事。”\n  张桂芝：“两码事？那你爷半夜犯病，是谁家大半夜开着车，闯着红灯送去的医院？是你满昌叔！他到现在还背着一个闯红灯的违章没消呢！”\n  柳巧：“那是紧急情况，不一样！”\n  张桂芝：“紧急情况？紧急情况法律就不管了？你学法学的，你告诉我，紧急情况能不能闯红灯？”\n  柳巧：“那、那是特殊情况，当时情况紧急。”\n- 候选 A（AI 排排坐工整报数据）：\n  周磊：“两年前腊月您心梗，是我爸闯红灯背您上的急诊！”\n  刘翠芳：“扣十二分跑丢一只棉鞋，图过你家一分钱吗？”\n→ 胜负立判：B 是农村大婶揪住对方话茬不放、越问越急，把对方逼到结巴车轱辘话；A 是母子俩按 18 字标准句式轮流背诵人物小传和苦情KPI，整齐得像诗朗诵。\n\n【对比二：老实庄稼汉认罚憋闷的反应】\n- 候选 B（活人一字千钧的闷气）：\n  村长：“满昌，你就不生气？”\n  满昌：“气。”\n  满昌：“但事已经定了，罚单开了我认，就当花钱买个教训。”\n- 候选 A（AI 书面文艺总结腔）：\n  [心声OS] 周建国：“十年热心喂了冷石头，他还当我周建国是随叫随到的软柿子。”\n  [心声OS] 周建国：“念了十年街坊情分，今天这情分，我自己亲手掐断。”\n→ 胜负立判：B 里老实农民受了委屈嘴笨，一个“气”字接一句大白话认栽，接地气到骨子里；A 直接让农民在脑子里念散文金句，端着架子替观众做阅读理解。\n\n【对比三：拒绝帮忙拉白菜时的街坊嘴脸】\n- 候选 B（活人顺嘴甩锅逻辑）：\n  李满昌：“今儿不方便。” / 满堂：“啥不方便？” …… 满堂：“凭什么？不就是去年欠了你们1000块钱没还吗？至于吗？”\n  李满昌：“你们家有个学法律的大学生，上回他举报了俺们家，俺家也赔了钱，认了错。俺们家赔不起第二回了。”\n- 候选 A（AI 舞台宣誓腔）：\n  周建国：“富贵哥，我这车斗小，装不下你家的菜了。” …… “街坊们都在，十年情分就着这张罚单两清，往后咱两家只认规矩，彻底断交！”\n→ 胜负立判：B 里老赖邻居顺嘴把原因赖到“欠一千块钱没还”上，老实人一句“俺们家赔不起第二回了”全是庄稼人的窝囊与决绝；A 里“十年情分就着这张罚单两清”完全是话剧舞台上的宣言台词。",
+      "vs_real_gt_cand_notes": "候选 A 是典型的「披着乡土词汇外衣的 AI 节拍器台词」。表面上塞满了“电三轮、歇晌、钻心虫、机耕道、早蒜”等农村道具词，但一进录音棚用耳朵听，立刻暴露出三大致命 AI 假感：\n1. **全员 17 字均长双分句，毫无活人呼吸起伏**：从老实农夫、农村妇女到高三学生、老太太，所有人张嘴几乎都是 15～19 字逗号对半开的工整句式（全文标准差仅 3.8，7 字以下短反应几乎为零）。哪怕在田埂上急赤白脸吵架，也没有半句打断、结巴、追问或单字短促反应，全员像按着节拍器轮流念快板。\n2. **排排坐“精准报账式”吵架与公文掉书袋**：母子俩翻旧账时，一人一句工整对仗报数据——“四年前赵倩姐差八千学费，还是我爸取卖蒜钱凑的！”“借条压箱底四年，我跟你叔催过半句没有？”“两年前腊月您心梗，是我爸闯红灯背您上的急诊！”“扣十二分跑丢一只棉鞋，图过你家一分钱吗？”——真人在气头上吵架绝不会像新闻通稿一样排好时间线、精确列举数字而不重复不顶嘴；地头吵架还冒出“毗邻林木点烟，有引燃隐患”“处罚也得讲过罚相当”这种生硬书面语。\n3. **重度文艺腔心声 OS 强行总结升华**：一个种白菜的农村中年汉子，心里冒出来的 OS 竟然是“十年热心喂了冷石头，他还当我周建国是随叫随到的软柿子”“念了十年街坊情分，今天这情分，我自己亲手掐断”，完全是网文/公众号作者替角色端着架子写金句，毫无庄稼汉真实的闷气感。",
+      "vs_raw_winner": null,
+      "vs_champ_winner": null
+    },
+    {
+      "bench_id": "dev_023",
+      "genre": "年代乡村",
+      "script_check_ok": true,
+      "turing_verdict": "REJECT_AI_STAGEY",
+      "turing_score": 35.0,
+      "turing_pillars": {
+        "character_voice_distinction": 3.5,
+        "conversational_bite_and_rhythm": 2,
+        "spoken_naturalness": 3.5,
+        "subtext_and_micro_specificity": 5
+      },
+      "rhythm_metrics": {
+        "total_lines": 75,
+        "mean_char_len": 16.9,
+        "char_len_stdev": 3.1,
+        "short_reaction_ratio_le7": 0.013,
+        "twin_clause_symmetry_ratio": 0.027
+      },
+      "ai_voice_defects": [
+        {
+          "defect_type": "monotonous_twin_clause_cadence",
+          "how_real_person_would_say_it": "小梅！赶紧烧锅热水给你二嫂暖暖！秀禾你等着，我这就出去借钱！",
+          "quote": "小梅，烧热水照顾你二嫂。秀禾，等我去借救命钱！"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "借钱？拉倒吧！你老子那条腿咋断的你没数啊？又上我这儿编瞎话骗酒喝！",
+          "quote": "陈卫东，你爹陈大山断条腿都填不满你，上我这骗酒钱？"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "别说话了，省点劲儿！把孩子捂严实了，翻过这道梁就到了！",
+          "quote": "秀禾，别信我的嘴，看我肩上这根绳往哪儿拉！"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "起来！秀禾你给我起来！求他干啥，快起来！",
+          "quote": "秀禾，地上凉，有我在，往后不准给任何人下跪！"
+        },
+        {
+          "defect_type": "homogenized_character_voices",
+          "how_real_person_would_say_it": "赵干事您快搭把手啊，他死攥着我手不放，针根本拔不下来！",
+          "quote": "赵干事，他死死护着输液针头不撒手！"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "慢着……姓刘的？我想起来了，这小子跟孙寡妇倒腾西药那档子烂事，不就这两天漏的底吗！",
+          "quote": "腊月十二，刘明？三天后他伙同孙寡妇倒卖西药的事就炸了！"
+        },
+        {
+          "defect_type": "era_or_region_register_mismatch",
+          "how_real_person_would_say_it": "你……你瞎白话啥！少在这儿血口喷人！",
+          "quote": "你……你胡吣什么！"
+        }
+      ],
+      "ear_impression": "一耳朵就是AI按字数切出来的年代网文广播剧腔！全篇75句几乎句句卡在17字上下、句尾清一色感叹号，全员按“喊称呼+匀称分句”的电报模板端着吼，救命关头连句两三字的本能短反应都没有，还夹杂硬报人物设定、男频口号与违和古白话“胡吣”。",
+      "plot_gate_verdict": null,
+      "plot_gate_score": null,
+      "vs_real_gt_winner": "REAL_GT",
+      "vs_real_gt_points": 0,
+      "vs_real_gt_examples": "1. **夫妻认错交锋对比**：\n- **候选 B（真人口语咬字）**：江若影骂「狗改不了吃屎。」李自强顺嘴接茬：「狗改不了，我能改，你再信我一回。」江若影立刻翻具体旧账：「你昨天才打我两回！那两块钱是我给人洗十天衣服挣的，想给乐乐买口吃的，你抢去赌牌输了回来又打我！」——顶针回嘴+洗十天衣服两块钱的具体痛感，完全是活人吵架。\n- **候选 A（AI端腔金句）**：林秀禾问「小满爹，你肩上出血了……从前你最嫌丫头，今儿图啥？」陈卫东答：「秀禾，别信我的嘴，看我肩上这根绳往哪儿拉！」——边拉车边播报“肩上出血”，还对答出一句高度凝练的文艺比喻口号，浓重AI编剧味。\n\n2. **乡邻借东西对比**：\n- **候选 B（市井冷幽默）**：借板车救人，邻居李铁柱只回七个字：「拿去，别卖了就行。」——极简、精准、带刺又接地气，真人街坊张嘴就是这味儿。\n- **候选 A（脸谱化报设定）**：借五块钱，王翠花回：「陈卫东，你爹陈大山断条腿都填不满你，上我这骗酒钱？」「丫头片子烧死还省口粮！少沾我家晦气，赶紧滚！」——连名带姓报户口式台词，纯靠恶毒词汇堆砌冲突。\n\n3. **医院拿捏医生把柄对比**：\n- **候选 B（短促博弈）**：「周医生，你跟张寡妇那点事，要我说出来吗？」「你，你胡说什么？」「不懂？那我去问张寡妇。」「你想怎样？」「先给他们用药，这事就烂在我肚子里。」「药我先用，钱你自己交。」——全是3～10字短句过招，连医生妥协都留着“钱你自己交”的现实底线。\n- **候选 A（AI报坐标+旁白解说）**：「刘主任，药房后库第三排樟木箱，昨晚刚添新货吧？」「你办公桌夹层那本红皮私账，真等院长年底盘库查吗？」紧接着护士补刀：「刘主任，您手怎么抖成这样，这针还拔不拔？」——精准报库存坐标+工具人现场解说“手抖”，典型AI生成剧本套路。",
+      "vs_real_gt_cand_notes": "典型的「AI端着写年代剧」重灾区，全员患上“17字定长话剧腔”与“旁白式台词症”。\n1. **机械定长、毫无呼吸感**：75句台词平均16.9字，标准差仅3.1，7字以下短反应占比仅1.3%。无论落水求救、借钱挨骂还是急诊夺针，所有人在高危急促情境下依然字正腔圆地吐出“前句7～8字+逗号+后句8～9字”的工整长句，听感像全员背诵广播剧台本，毫无真人吵架的短促换气与打断。\n2. **角色沦为“人肉摄像机”与“设定播报员”**：因为剥离了动作提示，AI强行让角色用嘴播报画面动作与背景设定——如“二嫂手都冻紫了”“小满翻白眼咬住牙了”“啊！你攥疼我手腕了，快松开！”“刘主任，您手怎么抖成这样”，正常活人在推搡急眼时根本不会替观众做实况解说；同时开局“你爹陈大山断条腿都填不满你”“五年前他救我落水，我断了娘家嫁他”全是生硬塞入的人物小传。\n3. **脸谱化口号与悬浮恶人腔**：男主开口闭口“别信我的嘴，看我肩上这根绳往哪儿拉”“有我在，往后不准给任何人下跪”纯属AI鸡汤金句；公社医院主任张嘴就是“就你这饿死鬼样，抽干了也不值二两粮票”“嫁赌鬼生赔钱货，活该等死”，用力过猛如样板戏反派；最后威胁主任连报“药房后库第三排樟木箱”“办公桌夹层那本红皮私账”，满满的AI网文金手指精准报点味。",
+      "vs_raw_winner": null,
+      "vs_champ_winner": null
+    },
+    {
+      "bench_id": "dev_067",
+      "genre": "古装穿越",
+      "script_check_ok": true,
+      "turing_verdict": "REJECT_AI_STAGEY",
+      "turing_score": 29.5,
+      "turing_pillars": {
+        "character_voice_distinction": 3,
+        "conversational_bite_and_rhythm": 2.2,
+        "spoken_naturalness": 2.8,
+        "subtext_and_micro_specificity": 3.8
+      },
+      "rhythm_metrics": {
+        "total_lines": 78,
+        "mean_char_len": 15.7,
+        "char_len_stdev": 3.8,
+        "short_reaction_ratio_le7": 0.051,
+        "twin_clause_symmetry_ratio": 0.103
+      },
+      "ai_voice_defects": [
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "萧景珩：待会儿进了门都改口叫公子，别露了行藏。敲门吧。",
+          "quote": "萧景珩：父皇寒毒撑不过半月，秦风，进村先称公子，务必要寻回幼妹。"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "（不会站在农户院门口凭空向主子汇报前情；真要提也是翻药匣时叹气）陆青：啧，这北境带出来的参还是冻坏了，须子全枯了……",
+          "quote": "陆青：殿下，北境寻来的老山参没扛住严寒，须根冻枯了。"
+        },
+        {
+          "defect_type": "monotonous_twin_clause_cadence",
+          "how_real_person_would_say_it": "秦风：只要人跟玉对得上，这十两银子先拿着买茶吃，回头再奉上一百两！",
+          "quote": "秦风：核验无误，这十两纹银是看赏，另有百两重谢。"
+        },
+        {
+          "defect_type": "homogenized_character_voices",
+          "how_real_person_would_say_it": "萧穗穗：婶娘……水缸挑满了，给口热汤喝吧，手冻得直疼……",
+          "quote": "萧穗穗：婶娘，穗穗挑满两缸水了，能讨口热汤暖手吗？"
+        },
+        {
+          "defect_type": "homogenized_character_voices",
+          "how_real_person_would_say_it": "孙氏：哟，几位爷找谁啊？这大雪天的……俺就是大柱媳妇！",
+          "quote": "孙氏：正是民妇孙氏，几位贵人顶风冒雪找谁？"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "（不会在心里喊工整口号，更不会刚嘱咐改称公子就当众自称“孤”，而是直接挡在妹妹身前冷冷盯住对方）萧景珩：你动她一下试试。",
+          "quote": "[心声OS] 萧景珩：铁骑一盏茶即至，谁敢碰穗穗一下，孤先废他双手！"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "赵大柱：哎哟娘哎——我的手！松手、快松手！疼死老子了！",
+          "quote": "赵大柱：啊！我的手腕断了！"
+        },
+        {
+          "defect_type": "monotonous_twin_clause_cadence",
+          "how_real_person_would_say_it": "陆青：公子您看，孩子饿得皮包骨头，冻疮全烂了，手腕子上这儿还是刚掐出来的青印子！",
+          "quote": "陆青：公子，小小姐脾胃亏空，冻疮溃破，腕上还有新掐痕！"
+        }
+      ],
+      "ear_impression": "一耳朵就是典型的AI按大纲逐句生成的“电报体木偶戏”：全篇78句几乎句句卡在15字上下，一人一句轮流报设定、喊口号，毫无短促反应、抢话或呼吸停顿；四岁幼童、农村泼妇、太子全是一个工整腔调，闭眼听全是端着念提示词的假人味。",
+      "plot_gate_verdict": null,
+      "plot_gate_score": null,
+      "vs_real_gt_winner": "REAL_GT",
+      "vs_real_gt_points": 0,
+      "vs_real_gt_examples": "1. 【贵人上门寻人时的村民反应对比】\n- 候选 A（AI 端着写书面词）：“正是民妇孙氏，几位贵人顶风冒雪找谁？” / “五年前你家可曾捡过襁褓女婴，如今四岁半，带凤纹暖玉？”——双方像在按户口本核对任务清单，村妇半点不怵，说话工整得像背台词。\n- 候选 B（活人条件反射甩锅）：“谁是陆小禾？” → “贵人明鉴，陆小禾只是借住在这我们家，她要是犯了错，跟我们可没关系啊！” → “对对对，贵人只管抓她去砍头，千万别连累我们！”——真人见大官上门点名，第一反应就是怕惹祸上身、抢着撇清关系，那句“对对对”的叠词抢白活灵活现。\n\n2. 【哥哥认回受虐幼妹时的对话交锋对比】\n- 候选 A（工整汇报式抒情）：“粥好甜……你是来接穗穗的哥哥吗？” → “是，哥哥来迟了，慢些喝，全是穗穗的。” → “哥哥，招娣姐脖子上的小凤玉是我的，被婶娘抢走了。”——每句都在精准推进剧情道具（粥、认亲、抢玉），四岁半孩子说话滴水不漏。\n- 候选 B（真实孩童心理的话咬话）：“跟二哥哥回家好不好？” → “家是哪呀？” → “有爹爹有哥哥的地方，就是你的家。” → “家里有饭饭吃吗？” / “会把小禾，关到黑黑的屋子吗？” / “好，那我和你走。”——挨饿受冻的小孩不懂什么皇室富贵，只盯“有饭吃吗、关小黑屋吗”，一问一答短促真切，直戳观众心窝。\n\n3. 【危机/冲突现场的台词质感对比】\n- 候选 A（AI 报设定+话剧说明腔）：“父皇寒毒撑不过半月，秦风，进村先称公子，务必要寻回幼妹。” / “啊！我的手腕断了！” / “死参抽芽，须生百脉……公子，这成了百年活灵参！”——不是在村口硬背大纲背景，就是在用台词替画面做解说。\n- 候选 B（日常落地气口）：“饿了？” → “肚肚别叫呀。” → “给你的，拿着吃吧。” → “哥哥先吃。” / “伯伯，多少钱钱呀？” → “不多不多，一百文。”——没有一句废话口号，全是活人在具体场景里张嘴就来的大白话。",
+      "vs_real_gt_cand_notes": "候选 A 是典型的「AI 端着写剧本」腔调，一上麦就能听出浓重的书面拼贴感与全员同质化问题：\n1. **机械锁死的“16字双分句”呼吸感**：全篇 78 句台词平均字数 15.7 字、标准差仅 3.8，几乎人人每句话都是“前半句铺垫+逗号+后半句推进”的整齐句式（如“爱吃不吃，饿两顿肠子就干净了！”“核验无误，这十两纹银是看赏，另有百两重谢”），极度缺乏真人交谈中 2～6 字的短促反应、追问与口语碎词，配音演员根本喘不出自然的气口。\n2. **生硬“报大纲设定”与舞台剧式自报动作**：第 1 集院门口三个人物站在雪地里轮流背诵背景设定（“三十玄甲卫已驻村外三里官道候命”“北境寻来的老山参没扛住严寒，须根冻枯了”“父皇寒毒撑不过半月……务必要寻回幼妹”），完全是为了给观众塞设定而开口；甚至出现“啊！我的手腕断了！”“死参抽芽，须生百脉……公子，这成了百年活灵参！”这种把画面动作和旁白解说硬塞进角色嘴里的话剧腔。\n3. **人物声纹失真，幼童说大人话**：四岁半的萧穗穗张嘴就是“婶娘，穗穗挑满两缸水了，能讨口热汤暖手吗？”“哥哥别急，救爹爹的药，根还没死透呢！”，逻辑严密、句式工整；村妇孙氏开口“正是民妇孙氏，几位贵人顶风冒雪找谁？”，文绉绉得像古装正剧里的知书管事，毫无农妇的粗粝与条件反射。",
+      "vs_raw_winner": null,
+      "vs_champ_winner": null
+    },
+    {
+      "bench_id": "dev_098",
+      "genre": "都市情感",
+      "script_check_ok": true,
+      "turing_verdict": "REJECT_AI_STAGEY",
+      "turing_score": 31.25,
+      "turing_pillars": {
+        "character_voice_distinction": 3,
+        "conversational_bite_and_rhythm": 2,
+        "spoken_naturalness": 3,
+        "subtext_and_micro_specificity": 4.5
+      },
+      "rhythm_metrics": {
+        "total_lines": 75,
+        "mean_char_len": 18.1,
+        "char_len_stdev": 3.6,
+        "short_reaction_ratio_le7": 0.013,
+        "twin_clause_symmetry_ratio": 0.107
+      },
+      "ai_voice_defects": [
+        {
+          "defect_type": "monotonous_twin_clause_cadence",
+          "how_real_person_would_say_it": "签了字，厂子账上就空了；可不签，下周百味轩那单子咋交货啊……真就没别的活路了？",
+          "quote": "签字抽干厂子，不签大单全毁……真只能任他们宰割吗？"
+        },
+        {
+          "defect_type": "era_or_region_register_mismatch",
+          "how_real_person_would_say_it": "沈律师，老张让我来找您救命，您咋上来先把我起诉书撕了？",
+          "quote": "沈律师，老友荐我来求救，您怎么把诉状撕了？"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "一分不少都能要回来。对了，你刚说的那个什么阀，厂里库房现在一点替补件都没有？",
+          "quote": "连本带利！至于温控阀，你库里有国产备用阀吧？"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "先把她的卡和车停了。那小子急着用钱肯定上门闹，只要他敢动手要挟，直接报警抓人。",
+          "quote": "先断供锁财，等赌徒狗急跳墙勒索，再送他们进铁窗。"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "行，十年夫妻算我瞎了眼。既然你们把事做绝，这钱你们一分也别想拿到。",
+          "quote": "十年情分喂了狗，既然你们找死，就别怪我关门落锁！"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "老周，你快来看看！老板娘带了个生面孔进去拍桌子要钱呢，这可咋整啊？",
+          "quote": "周班长，老板娘带人逼陈总分家产，抽走钱厂子咋办！"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "你把财务室门锁好！别慌，有咱们在门口堵着，看谁敢乱来！",
+          "quote": "陈姐护好账！我老周焊了十二年灶，谁也别想砸厂子！"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "喂，你好，帮我把我名下那张副卡停了——对，本人陈建国，现在就停。",
+          "quote": "我是主卡持卡人陈建国，立刻注销名下所有附属卡。"
+        },
+        {
+          "defect_type": "homogenized_character_voices",
+          "how_real_person_would_say_it": "不是——卡怎么刷不过去了？！陈建国你真敢停我的卡？店里还等着扣礼服钱呢！",
+          "quote": "副卡真停了！礼服扣款失败，今晚庆功宴我怎么见人！"
+        }
+      ],
+      "ear_impression": "一耳朵典型的AI电报腔！全篇句句卡在18～24字上下，毫无真人吵架的短促惊愕、停顿重复与语气碎词。厨具厂老板、私教、车间工人全员端着说工整分句，还夹杂“老友荐我”“送进铁窗”等书面口号和硬报设定的工具人台词，完全不像活人张嘴说话。",
+      "plot_gate_verdict": null,
+      "plot_gate_score": null,
+      "vs_real_gt_winner": "REAL_GT",
+      "vs_real_gt_points": 0,
+      "vs_real_gt_examples": "【对比一：同样讲“不离婚锁死财产”的核心计策】\n- **候选 A**：「沈默：只要婚不离，厂子和公账全由你合规锁死，她一分带不走！」/「沈默：先断供锁财，等赌徒狗急跳墙勒索，再送他们进铁窗。」\n- **候选 B**：「律师：但是您如果不离婚呢？ / 张先生：什么不离婚？」「年轻律师：您可以给自己降薪到月入一千，甚至是月收入一块钱。不过，我不建议月入一块钱。 / 因为太过于嚣张。」\n- **听感高下**：A是AI把剧情大纲浓缩成“合规锁死”“断供锁财”的书面总结词往嘴里硬塞；B是真人一问一答的顶针追问，顺着“一块钱太嚣张”抖出冷幽默包袱，活灵活现。\n\n【对比二：同样处理“引导情夫敲诈勒索送进监狱”】\n- **候选 A**：「沈默：先断供锁财，等赌徒狗急跳墙勒索，再送他们进铁窗。」\n- **候选 B**：「徐律师：您给了吗？ / 张先生：当然没给。他刚开口我就挂了。 / 徐律师：还好没给。 / 张先生：什么意思？ / 徐律师：您要是没挂电话，对方狮子大开口，用视频威胁您，要价几百万。这时候您要是被迫答应就糟了，这样对方就会构成敲诈勒索，法院至少会判十年，足足十年，会毁了对方一辈子。万幸您挂断了电话。」\n- **听感高下**：A直接把计谋像喊擂台口号一样明牌念出来，干瘪刻意；B先用一连串3～5字短句“话咬话”铺垫，再借律师一脸惋惜地“正话反说”点拨敲诈勒索判十年，潜台词与真人表演空间完胜。\n\n【对比三：配角日常反应】\n- **候选 A**：「老周：陈姐护好账！我老周焊了十二年灶，谁也别想砸厂子！」\n- **候选 B**：「张先生：怎么才700？ / 我要追加2万。 / 我自愿的。 / 徐律师：不合规矩，满意的话加几百就行。 / 张先生：那就999吧。」\n- **听感高下**：A里连车间工人都端着话剧腔自我介绍“我老周焊了十二年灶”；B在财务结算时随口讨价还价凑个“999”，全是真实活人张嘴说话的松弛烟火气。",
+      "vs_real_gt_cand_notes": "典型的「AI工整定制短剧腔」，一耳朵就能听出强烈的机器生成痕迹：\n1. **极端机械的句长与对仗强迫症**：全篇75句台词字数标准差仅3.6，几乎句句卡在16～22字之间、中间一个逗号对半劈开，完全没有真人在捉奸、慌乱、争吵时应有的短促呼吸、结巴或抢白，全员像在按节拍器朗诵。\n2. **高度浓缩的口号腔与设定报幕**：角色张嘴不是正常吵架，而是硬塞大纲背景和总结陈词。例如捉奸现场还在精准报数据“百味轩一千万的大单下周交付”“温控阀延误草稿”，律师出招直接喊四字总结口号“先断供锁财，等赌徒狗急跳墙勒索，再送他们进铁窗”，心声OS更是标准AI爽文模板“十年情分喂了狗，既然你们找死，就别怪我关门落锁”。\n3. **千人一面话剧腔**：无论是出轨妻子、健身私教、精英律师还是车间焊工，说话句式高度同质化。尤其是工人配角（“陈姐护好账！我老周焊了十二年灶，谁也别想砸厂子！”），完全是样板戏式的工具人表忠心，毫无活人烟火气。",
+      "vs_raw_winner": null,
+      "vs_champ_winner": null
+    },
+    {
+      "bench_id": "dev_112",
+      "genre": "玄幻修仙",
+      "script_check_ok": true,
+      "turing_verdict": "REJECT_AI_STAGEY",
+      "turing_score": 38.5,
+      "turing_pillars": {
+        "character_voice_distinction": 3.8,
+        "conversational_bite_and_rhythm": 2.8,
+        "spoken_naturalness": 3.8,
+        "subtext_and_micro_specificity": 5
+      },
+      "rhythm_metrics": {
+        "total_lines": 78,
+        "mean_char_len": 15.7,
+        "char_len_stdev": 3.5,
+        "short_reaction_ratio_le7": 0.038,
+        "twin_clause_symmetry_ratio": 0.218
+      },
+      "ai_voice_defects": [
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "宝根！去把匣子里那张断亲纸拿出来，看他敢不敢按！",
+          "quote": "宝根，把桌匣里那张吓唬他的断亲纸和印泥拿来！"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "德寿叔！您来得正好，给侄儿做个见证！",
+          "quote": "德寿叔，您是一村里正，正好请您做个见证！"
+        },
+        {
+          "defect_type": "pedantic_jargon_or_outline_patch",
+          "how_real_person_would_say_it": "都在……爹留的钱，还有这包谷种，全在里头！",
+          "quote": "五百文铜板，还有耐寒老谷种，一粒都没少！"
+        },
+        {
+          "defect_type": "essay_thesis_or_psychology_summary",
+          "how_real_person_would_say_it": "喏，这破葫芦揣怀里捂手……后生心善，冻不坏。",
+          "quote": "这旧葫芦塞怀里挡寒气，心热的人，冻不死。"
+        },
+        {
+          "defect_type": "monotonous_twin_clause_cadence",
+          "how_real_person_would_say_it": "没事，我回村交了柴还能讨口汤喝。雪大了老伯，您快往山下走。",
+          "quote": "交了柴总能混口热汤，老伯快下山避风吧。"
+        },
+        {
+          "defect_type": "monotonous_twin_clause_cadence",
+          "how_real_person_would_say_it": "滚！滚外头冻着去，看你能硬气到半夜不！",
+          "quote": "离了咱家热灶台，看你熬得过今夜三更！"
+        },
+        {
+          "defect_type": "stagey_slogan_or_wuxia_boast",
+          "how_real_person_would_say_it": "霸了我爹两亩地还不算完，现在连穗儿的主意都敢打……",
+          "quote": "占尽我家薄田不够，连唯一拿我当人看的妹妹都要卖！"
+        },
+        {
+          "defect_type": "homogenized_character_voices",
+          "how_real_person_would_say_it": "哥，给……这半块饼我一直揣怀里捂着呢，还热乎，还有火折子你也拿好……",
+          "quote": "半块糠饼我揣怀里捂热的，火折子留着点柴取暖。"
+        }
+      ],
+      "ear_impression": "一耳朵典型的AI按字数切出来的工整话剧腔！全篇78句几乎句句锁死在15到20字的双分句，挨打见血都没一句短促抽气或口语碎词，一人一句匀速打乒乓；还频频替大纲硬报设定（如“那张吓唬他的断亲纸”“您是一村里正”“耐寒老谷种”），完全不像活人吵架。",
+      "plot_gate_verdict": null,
+      "plot_gate_score": null,
+      "vs_real_gt_winner": "REAL_GT",
+      "vs_real_gt_points": 0,
+      "vs_real_gt_examples": "1. 【日常受气与“话咬话”交锋对比】\n- 候选 B（活人顺嘴接茬、抠细节）：\n  张二狗：“跟老鼠，让它别咬我的草鞋。” → 张有信：“你跟老鼠倒像一家人，明早记得给我烧水。” → 张二狗：“记住了。”\n  以及灶房讨肉：张有信：“娘，我要瘦肉，肥肉吃腻了。” → 张二狗：“瘦肉也好吃，我不挑。” → 婶娘：“这有你说话的份？” → 张二狗：“婶娘，骨头也没有了吗？我啃完还能给狗吃。”\n  （顺着“老鼠”“瘦肉”“骨头”一句咬一句往下滚，卑微讨好与刻薄羞辱全在具体小事里，配音演员张嘴就能搭上戏。）\n- 候选 A（AI 对称句报设定）：\n  陈满仓：“差五两窟窿，月底让孙屠户拿五两银领穗儿续弦。” → 陈穗儿：“爹！孙屠户前头婆娘就是被打死的，我不嫁！” → 陈禾：“二叔！穗儿才十三，您拿亲闺女填火坑换彩礼？”\n  （句句十五六个字工整对仗，全家老小像在念故事梗概给观众科普背景，毫无活人吵架的急促与凌乱。）\n\n2. 【挨打抢夺冲突对比】\n- 候选 B（底层活人护食本能）：\n  婶娘：“肉在你嘴里还敢狡辩，给我吐出来！” → 狗子：“进了我嘴，就是我的！”“你打吧，我挨一顿打，总不能连肉也没吃着！”\n  （短促、蛮横、真实得让人心酸又好笑，完全是饿极了的半大小子挨揍时的第一生理反应。）\n- 候选 A（话剧擂台口号腔）：\n  陈满仓：“红泥摆这儿了，你是按，还是跪？” → 陈禾：“今日起大房陈禾单独立户，二房永不得沾我寸草片瓦！”“用不着二叔的红泥，我拿自己的血按！”\n  （典型的 AI 爽文端架子台词，拿书面语当狠话，悬浮感极重。）\n\n3. 【绝境求生与得宝心理对比】\n- 候选 B（接地气的小农算盘）：\n  “卖粮，卖了粮，买肥肉。我不是怕死，我是还没吃够。现在，太亏了。” / “第一把给肚子，第二把给今天干活，第三把，第三把也给肚子！啊？败家！”\n  （有停顿、有口语重复、有自己跟自己耍赖的活人小九九。）\n- 候选 A（AI 总结式独白）：\n  “老伯给的竟是宝物！不知这绿液能不能催活谷种？” / “留在陈家只会被榨干骨髓，月底更救不了穗儿……”\n  （像旁白解说词一样工整平直，缺乏真实人物的呼吸与性格毛边。）",
+      "vs_real_gt_cand_notes": "典型的「AI 工整端腔剧本」。全篇几乎陷入“全员16字对称双分句”的机械节拍（均长15.7字，标准差仅3.5，7字以下短句占比不到4%），无论风雪救人、灶间讨水还是雪夜断亲，所有角色张嘴都是前半句铺垫、后半句表态的书面整句。台词严重承担“报大纲设定”任务，人物在紧急冲突中还要抽空交代背景信息（如“孙屠户前头婆娘就是被打死的”“穗儿才十三”“德寿叔，您是一村里正”），情绪高潮则全靠话剧式口号硬顶（“今日起大房陈禾单独立户，二房永不得沾我寸草片瓦”“你是按，还是跪”）。反派只会脸谱化喊狠话，主角只会端着苦情正气腔，进录音棚配音时演员根本找不到换气口和生活支点，一耳朵假。",
+      "vs_raw_winner": null,
+      "vs_champ_winner": null
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "ok": true,
+  "verdict": "BINGE_NEXT",
+  "blocked_episodes": [],
+  "episodes": [
+    {
+      "episode": 1,
+      "understood_plot_one_line": "重生厨子甩掉骗秘方的未婚妻，投奔夏记，联手应对断油抢单。",
+      "scene_barrage": [
+        {
+          "scene_id": "1-1·逼交秘方",
+          "barrage": "要跟别人跑，还想拿走人家祖传秘方？千万别给！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-1·撕谱亮汇款单",
+          "barrage": "原来是他辍学供你读大学！还敢说人家白吃四年？这脸打得好。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-1·撤火离店",
+          "barrage": "围裙一脱就走，痛快！等着看你家没了他怎么开张。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2·夏记接人合营",
+          "barrage": "这姑娘爽快，直接给股份！终于不用看男主低声下气求人了。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2·断油抢单与出发",
+          "barrage": "这俩还追过来砸饭碗，够缺德！买鲜油自己熬是吧，想看明天谁打谁的脸。",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.3,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 2,
+      "understood_plot_one_line": "叶寻靠真手艺夺回十二桌客人，林家输不起又举报他。",
+      "scene_barrage": [
+        {
+          "scene_id": "2-1前段",
+          "barrage": "鲜牛油弄回来了！对门偷学还炒糊了，等着看你丢人。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-1后段",
+          "barrage": "一个锅香一个锅臭，赶紧让客人尝尝！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2前段",
+          "barrage": "难吃还让客人喝酸梅汤硬压？这老板真能嘴硬。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2中段",
+          "barrage": "十二桌全过街了哈哈哈！抢来的生意凭本事抢回来，解气！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2尾段",
+          "barrage": "输不起就举报，还免单抢人？快查，等着看谁锅里真有问题！",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.5,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 3,
+      "understood_plot_one_line": "叶寻赢下盲测，拿钱逼林记摘牌，楚南转头抢租夏记。",
+      "scene_barrage": [
+        {
+          "scene_id": "3-1-A｜快检洗清举报",
+          "barrage": "没问题吧！还想扣黑锅，这下当众打脸了。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-1-B｜免单挑衅、押钱赌招牌",
+          "barrage": "五千块加摘牌？行，别输了又不认！芊芊站自己人这边，看着痛快。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-2-A｜盲尝揭底、按手收钱",
+          "barrage": "哈哈哈全选夏记！手都伸过去抢钱了，输不起啊！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-2-B｜林记摘牌、楚南甩开双双",
+          "barrage": "真摘了！不是光嘴上赢。双双，你挑的靠山这就不要你了？",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-2-C｜赢款解围、楚南抢租",
+          "barrage": "刚赢就来抢铺子，这人够损！房东会不会答应？再看一集。",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.5,
+      "verdict": "BINGE_NEXT"
+    }
+  ]
+}

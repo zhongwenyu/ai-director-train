@@ -1,0 +1,21 @@
+{
+  "left": "REAL_HIT",
+  "right": "NAIVE_ZEROSHOT",
+  "slot_A": "REAL_HIT",
+  "slot_B": "NAIVE_ZEROSHOT",
+  "winner_label": "REAL_HIT",
+  "margin": "clear",
+  "dimension_winners": {
+    "opening_attraction": "REAL_HIT",
+    "dialogue_humanity": "REAL_HIT",
+    "tension_and_payoff": "REAL_HIT",
+    "ending_cliffhanger": "REAL_HIT"
+  },
+  "why_winner_wins": "A胜在有具体的情感伤口：妹妹只说几句祝寿话就得到五千元，姐姐亲手擀的寿面却被父亲赶走。钱、面和荷包蛋把偏心拍出来，比反复骂人更容易让观众心疼小满。旧包打开露出金条，也比豪车加头衔广播更有视觉反差。父亲先承认救命恩情，再沉默、挣扎、喊停，行动有铺垫；结尾停在“等一下”，留下他为什么阻拦、婚事将如何变化的追看空间。不过A仍需修改：开头逐项报彩礼拖慢入戏，“都是他的女儿”属于重复解释，末尾钩子也偏通用。它是相对明显胜出，尚非成熟爆款稿。",
+  "why_loser_loses": "B密集踩中廉价套路：劳斯莱斯幻影、特助当面广播百亿董事长身份、玩味冷笑、钓富二代、脚滑溅裙、撒泡尿照照，以及全场哗然和死寂。母女与村民轮流复读嫌贫爱富，羞辱加码却缺少新的筹码；男主“搞定收工”的OS又把刚演完的意思解释一遍。结尾确实提供了更明确的婚约反转，但“晴晴还没出生”的关键依据直到揭底才突然出现，与前面指认雪晴的说法缺少解释；随后又把婚约对象、小满身份和众人反应全部交代完。仍有“男主接不接受”的悬念，却提前兑现了更有价值的身份谜底。按本次重判套路堆砌、重视长线断章的标准，B判负。",
+  "swap_check": {
+    "pass1_winner": "REAL_HIT",
+    "pass2_winner": "REAL_HIT",
+    "consistent": true
+  }
+}

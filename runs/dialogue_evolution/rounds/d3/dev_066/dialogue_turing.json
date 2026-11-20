@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是活生生的人在吵架过招！长短句呼吸极自然，“我闹？”“借题发挥？”“副卡？”等本能顶针反问咬得很紧。丈母娘的泼辣势利、绿茶男的以退为进、六岁幼女盯住裙子污渍与画笔的童言，声纹区分鲜明，零说教金句，极具短剧烟火气。",
+  "scores": {
+    "character_voice_distinction": 9.2,
+    "conversational_bite_and_rhythm": 9.4,
+    "spoken_naturalness": 9.2,
+    "subtext_and_micro_specificity": 9.1
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 92.25,
+  "rhythm_metrics": {
+    "total_lines": 96,
+    "mean_char_len": 15.6,
+    "char_len_stdev": 7.4,
+    "short_reaction_ratio_le7": 0.219,
+    "twin_clause_symmetry_ratio": 0.083
+  }
+}

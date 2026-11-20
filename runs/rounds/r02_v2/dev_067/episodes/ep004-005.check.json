@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 130.1,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "灶膛里的半块暖玉锁",
+      "scenes": 2,
+      "actions": 18,
+      "dialogue_lines": 10,
+      "vo_lines": 0,
+      "spoken_chars": 430,
+      "avg_line_chars": 43.0,
+      "est_duration_sec": 126.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "谁敢动本王马车里的零嘴",
+      "scenes": 2,
+      "actions": 15,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 487,
+      "avg_line_chars": 40.6,
+      "est_duration_sec": 133.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "bench_id": "dev_066",
+    "drama_id": "066",
+    "split": "dev",
+    "genre": "都市情感",
+    "title_ref": "离婚后我收回一切，前妻悔疯了",
+    "seed_mode": "concise_1s",
+    "seed": "隐瞒集团创始人身份托举总裁妻子的丈夫被骂废物，妻子与丈母娘竟为初恋父子强拆女儿房间逼住储物间、抢走度假名额，丈夫寒心带女离婚，撤回至尊礼遇并收回一切资产。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/general_bench/dev/dev_066_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "dev_014",
+    "drama_id": "014",
+    "split": "dev",
+    "genre": "年代乡村",
+    "title_ref": "一张罚单断十年情",
+    "seed_mode": "rich_brief",
+    "seed": "男主是个厚道实在的北方老农，十年无偿帮衬邻家，不仅常年免费帮着运菜、凑钱供邻家女儿上大学，还曾半夜闯红灯送他家老人急救，连对方欠钱也从没催过。谁知这个学法的邻家女儿回村后，竟举报男主烧秸秆并施压促成两千元顶格罚款，邻家老小还理直气壮地说讲规矩就不谈旧恩。男主彻底寒心，认罚整改并当众宣布断交。邻家起初不以为意，误以为还能照旧白占便宜，上门要求免费运菜、搭车全被男主干脆回绝，村里乡亲怕惹祸也纷纷疏远他们。邻家女儿恼羞成怒，接连举报男主收费拉货、水管越界，男主坦荡配合核查自证清白、按规整改；反倒是邻家自己超载受阻、菜地缺水时求借无门，只能掏钱雇车租泵，处处自食恶果。最后邻家父亲搬石堵路，逼男主赔钱并免费运菜，男主一家不再退让，支持立志学法的儿子当场录像留证、提出维权，用规则正面反击这群双标邻居。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/general_bench/dev/dev_014_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "dev_023",
+    "drama_id": "023",
+    "split": "dev",
+    "genre": "年代乡村",
+    "title_ref": "猎王的养家路",
+    "seed_mode": "rich_brief",
+    "seed": "故事发生在七十年代寒冬的贫困山村。女主当年感念男主相救、违背娘家意愿下嫁，苦熬着拉扯幼女，可男主前世却因重男轻女、酗酒赌博和家暴导致家破人亡，还连累断腿老父与兄妹受苦。男主带着悔恨重生回到妻女意外落水当天，跳冰河救起母女，冒雪拉车送高烧的女儿去医院。但家里分文皆无，势利医生拒诊停药，女主和家人也因旧伤认定他本性难移、满心戒备。贪婪婶娘、黑市买家和村霸兄弟更拿他当窝囊败家子，接连持枪压价、上门强抢猎肉，甚至在深山遇狼获救后弃他先逃，回村恶意造谣他葬身兽口。面对困局，男主先捏住医生隐私把柄逼其救人，接着借枪进山打猎、夺枪震慑买家打通销路，并带着兄长和老猎户组队致富。他硬气赶走索肉亲戚，买衣囤粮兑现养家承诺，最终从风雪险境带队平安归来、当众揭穿村霸谎言，彻底化解妻女心结，急奔回家护着全家人过上安稳红火的日子。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/general_bench/dev/dev_023_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "dev_067",
+    "drama_id": "067",
+    "split": "dev",
+    "genre": "古装穿越",
+    "title_ref": "靠种地，我成了皇室香饽饽",
+    "seed_mode": "concise_1s",
+    "seed": "身怀催生植物异能的小公主流落农家饱受苛待挨饿，终被皇兄寻回接往京城面见病危父皇；面对恶亲欺凌与市井算计，皇兄雷霆护短打脸，软糯萌娃凭生机异能化废为宝开启团宠救赎。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/general_bench/dev/dev_067_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "dev_098",
+    "drama_id": "098",
+    "split": "dev",
+    "genre": "都市情感",
+    "title_ref": "这个律师很风骚",
+    "seed_mode": "concise_1s",
+    "seed": "中年老板遭出轨妻子逼离分产与奸夫威胁，陷入被迫割肉的憋屈困局。深谙规则漏洞的腹黑律师反常规支招，教他拒不离婚合规锁死全部家产，更顺势设局将勒索的狗男女送进监狱。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/general_bench/dev/dev_098_gt_ep001-003.md"
+  },
+  {
+    "bench_id": "dev_112",
+    "drama_id": "112",
+    "split": "dev",
+    "genre": "玄幻修仙",
+    "title_ref": "灵葫仙缘：葫中藏尽世间粮",
+    "seed_mode": "concise_1s",
+    "seed": "受恶亲奴役虐待的寒门孤儿，因善举获赐能随心储物、寒冬催生作物的宝葫，在遭毒打夺财、逐出家门的绝境下藏宝自立，凭灵液逆季育粮致富，打脸吸血亲族并护住唯一善待他的堂妹。",
+    "gt_path": "/home/zhongwenyu/project/ai-director-train/corpus/general_bench/dev/dev_112_gt_ep001-003.md"
+  }
+]

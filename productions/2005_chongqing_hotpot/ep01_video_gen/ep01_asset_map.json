@@ -1,0 +1,150 @@
+{
+  "双林轩总部顶层试菜厅": {
+    "name": "双林轩总部顶层试菜厅",
+    "id": "8f051edf-6fbe-433a-8d45-e0a226c0e283",
+    "type": "scene",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/cdbf3300-1f09-4838-9253-c2ddcab5e32d.png",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/8f051edf-6fbe-433a-8d45-e0a226c0e283_main_1k.png"
+  },
+  "集团大厦旋转门雨夜街口": {
+    "name": "集团大厦旋转门雨夜街口",
+    "id": "4ff0ec8f-8d89-48dc-a86c-5774278534ad",
+    "type": "scene",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/f8216fcf-c1d2-4d7f-b461-e24454e7f16c.png",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/4ff0ec8f-8d89-48dc-a86c-5774278534ad_main_1k.png"
+  },
+  "沙正街林家食府老店大堂": {
+    "name": "沙正街林家食府老店大堂",
+    "id": "31f8723d-8c9e-4d0b-936e-3ac9faf25432",
+    "type": "scene",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/69c12ca6-8119-4ba7-bac1-c67c6b9d0810.png",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/31f8723d-8c9e-4d0b-936e-3ac9faf25432_main_1k.png"
+  },
+  "重庆大学A区校门梧桐坡道": {
+    "name": "重庆大学A区校门梧桐坡道",
+    "id": "98162aae-0b91-4ec1-8742-7be8f1ba159e",
+    "type": "scene",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/ce5960d0-9894-40ad-9305-5a79c48e5ac7.png",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/98162aae-0b91-4ec1-8742-7be8f1ba159e_main_1k.png"
+  },
+  "配方无偿归属确认书与调岗单": {
+    "name": "配方无偿归属确认书与调岗单",
+    "id": "8ca8c8f1-1435-4a95-9a7e-8251980a2638",
+    "type": "prop",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/65f204ee-0520-481f-aff6-be9780eb0ff5.png",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/8ca8c8f1-1435-4a95-9a7e-8251980a2638_main_1k.png"
+  },
+  "《叶氏本草食单》蓝布线装册": {
+    "name": "《叶氏本草食单》蓝布线装册",
+    "id": "205cd1d9-8715-4034-a8d3-882b0d819fb2",
+    "type": "prop",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/97578329-5104-488e-b7e3-75a0ad8d7edb.png",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/205cd1d9-8715-4034-a8d3-882b0d819fb2_main_1k.png"
+  },
+  "桂花巷18000元房租催缴单": {
+    "name": "桂花巷18000元房租催缴单",
+    "id": "b43bb9f0-f67c-4ffd-ab82-5d8d350fb795",
+    "type": "prop",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/cc56fce5-9162-43f9-b776-d457d189d65b.png",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/b43bb9f0-f67c-4ffd-ab82-5d8d350fb795_main_1k.png"
+  },
+  "叶寻 · 2015行政总厨": {
+    "name": "叶寻 · 2015行政总厨",
+    "id": "7cf4b125-052f-40b5-b910-2e757657d808",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/bad825cd-58fc-4021-8e6e-88f88c4fb7cc.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/7cf4b125-052f-40b5-b910-2e757657d808_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/2d7a2a8c-34aa-4ee3-b8b9-727658a384c6.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/7cf4b125-052f-40b5-b910-2e757657d808_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b73021cf-5bf2-4a93-b3f6-b8139ec4771b.wav",
+    "voice_media_id": "b73021cf-5bf2-4a93-b3f6-b8139ec4771b"
+  },
+  "林双双 · 2015女董事长": {
+    "name": "林双双 · 2015女董事长",
+    "id": "a4cc731c-eb3d-4784-a8db-5cc124fe8b07",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/327a07e7-e36c-4c94-833a-8a8e285effa4.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/a4cc731c-eb3d-4784-a8db-5cc124fe8b07_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/00dfab05-7111-4f9e-8550-3d29be24ee96.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/a4cc731c-eb3d-4784-a8db-5cc124fe8b07_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/6a05c7f4-9d5c-4b74-894e-26bc02b12300.wav",
+    "voice_media_id": "6a05c7f4-9d5c-4b74-894e-26bc02b12300"
+  },
+  "楚南 · 海归并购总监西装": {
+    "name": "楚南 · 海归并购总监西装",
+    "id": "e7103299-3c66-4f69-ace0-156e25de97df",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/5e4054bc-d7d7-43b5-b98c-9af093c13879.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/e7103299-3c66-4f69-ace0-156e25de97df_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/d690a2a4-48d1-4667-9186-a083febe8ac4.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/e7103299-3c66-4f69-ace0-156e25de97df_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/da071e44-f4c4-4566-8ac9-d990fdf785fd.wav",
+    "voice_media_id": "da071e44-f4c4-4566-8ac9-d990fdf785fd"
+  },
+  "赵帆": {
+    "name": "赵帆",
+    "id": "b77cdc5a-1125-4e5c-9d52-a49d85cd21a8",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/f669ee60-d0ea-4ea2-96e5-418184f4cbda.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/36ac39c3-4f75-4d7f-9993-73a955b74eb5.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/b77cdc5a-1125-4e5c-9d52-a49d85cd21a8_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/ffa8d320-912f-4a57-b98a-d319ecda15fd.wav",
+    "voice_media_id": "ffa8d320-912f-4a57-b98a-d319ecda15fd"
+  },
+  "叶寻": {
+    "name": "叶寻",
+    "id": "ad5aa9a9-3d3f-4201-baf7-e6908e38ec71",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/6d749e27-7d9b-4ce0-bfa5-c96f5b059178.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b9d69e94-0146-4ce9-a37c-4a01f7ce15a0.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4b5ce464-1a4b-4907-8d05-f4bd88dc24c5.wav",
+    "voice_media_id": "4b5ce464-1a4b-4907-8d05-f4bd88dc24c5"
+  },
+  "林双双": {
+    "name": "林双双",
+    "id": "a548b547-5051-4d6e-9a99-99fd5c5e6168",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/378b1d89-f3ca-4ec8-9a27-cd6bf6f8f9ff.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/e3d5b5a6-e01d-4f87-bf8b-910ee0776050.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/96a46867-7a8e-4ce2-93c0-eb4e756314a4.wav",
+    "voice_media_id": "96a46867-7a8e-4ce2-93c0-eb4e756314a4"
+  },
+  "楚南": {
+    "name": "楚南",
+    "id": "2cb3701e-c132-45f3-b6c7-f2a188cfb449",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/165e9dc1-cffe-459f-9b53-cd23ede28eec.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/4f05ad4b-a1c1-4065-b72b-a9546cf5361f.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/2cb3701e-c132-45f3-b6c7-f2a188cfb449_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/54023c20-f479-4099-b85e-7b15e2446613.wav",
+    "voice_media_id": "54023c20-f479-4099-b85e-7b15e2446613"
+  },
+  "夏芊芊": {
+    "name": "夏芊芊",
+    "id": "6a250d00-356f-4d47-bf7d-935314755542",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/3bbfd103-f2db-4c80-af29-aca76764a3af.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/f012ef4f-6c87-4d8d-88b8-63947a6d608c.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/6a250d00-356f-4d47-bf7d-935314755542_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/b861b410-946f-4101-b16a-500d2504052e.wav",
+    "voice_media_id": "b861b410-946f-4101-b16a-500d2504052e"
+  },
+  "小石头": {
+    "name": "小石头",
+    "id": "b51548b5-d601-4382-9706-343c2384346d",
+    "type": "character",
+    "main_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/f701bb08-4933-4e6c-92b7-f025d5632d90.jpg",
+    "main_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/b51548b5-d601-4382-9706-343c2384346d_main_1k.png",
+    "front_2k": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/94d835f9-3948-4c44-ad8e-b97f025e001d.jpg",
+    "front_1k": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot/ep01_video_gen/assets_1k/b51548b5-d601-4382-9706-343c2384346d_front_1k.png",
+    "voice_wav": "/home/zhongwenyu/project/playlets-studio/playlets/playlet-mwj57ecn-9658ad48/media/c15a832b-00a9-4edd-919e-bf4ae501b510.wav",
+    "voice_media_id": "c15a832b-00a9-4edd-919e-bf4ae501b510"
+  }
+}

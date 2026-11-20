@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 128.1,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "误认贵人与断权清退",
+      "scenes": 2,
+      "actions": 17,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 434,
+      "avg_line_chars": 31.0,
+      "est_duration_sec": 125.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "住进星空顶前妻断了粮",
+      "scenes": 3,
+      "actions": 15,
+      "dialogue_lines": 12,
+      "vo_lines": 0,
+      "spoken_chars": 463,
+      "avg_line_chars": 38.6,
+      "est_duration_sec": 130.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,65 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "签了字，厂子账上就空了；可不签，下周百味轩那单子咋交货啊……真就没别的活路了？",
+      "quote": "签字抽干厂子，不签大单全毁……真只能任他们宰割吗？"
+    },
+    {
+      "defect_type": "era_or_region_register_mismatch",
+      "how_real_person_would_say_it": "沈律师，老张让我来找您救命，您咋上来先把我起诉书撕了？",
+      "quote": "沈律师，老友荐我来求救，您怎么把诉状撕了？"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "一分不少都能要回来。对了，你刚说的那个什么阀，厂里库房现在一点替补件都没有？",
+      "quote": "连本带利！至于温控阀，你库里有国产备用阀吧？"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "先把她的卡和车停了。那小子急着用钱肯定上门闹，只要他敢动手要挟，直接报警抓人。",
+      "quote": "先断供锁财，等赌徒狗急跳墙勒索，再送他们进铁窗。"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "行，十年夫妻算我瞎了眼。既然你们把事做绝，这钱你们一分也别想拿到。",
+      "quote": "十年情分喂了狗，既然你们找死，就别怪我关门落锁！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "老周，你快来看看！老板娘带了个生面孔进去拍桌子要钱呢，这可咋整啊？",
+      "quote": "周班长，老板娘带人逼陈总分家产，抽走钱厂子咋办！"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "你把财务室门锁好！别慌，有咱们在门口堵着，看谁敢乱来！",
+      "quote": "陈姐护好账！我老周焊了十二年灶，谁也别想砸厂子！"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "喂，你好，帮我把我名下那张副卡停了——对，本人陈建国，现在就停。",
+      "quote": "我是主卡持卡人陈建国，立刻注销名下所有附属卡。"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "不是——卡怎么刷不过去了？！陈建国你真敢停我的卡？店里还等着扣礼服钱呢！",
+      "quote": "副卡真停了！礼服扣款失败，今晚庆功宴我怎么见人！"
+    }
+  ],
+  "ear_test_impression": "一耳朵典型的AI电报腔！全篇句句卡在18～24字上下，毫无真人吵架的短促惊愕、停顿重复与语气碎词。厨具厂老板、私教、车间工人全员端着说工整分句，还夹杂“老友荐我”“送进铁窗”等书面口号和硬报设定的工具人台词，完全不像活人张嘴说话。",
+  "scores": {
+    "character_voice_distinction": 3,
+    "conversational_bite_and_rhythm": 2,
+    "spoken_naturalness": 3,
+    "subtext_and_micro_specificity": 4.5
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 31.25,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 18.1,
+    "char_len_stdev": 3.6,
+    "short_reaction_ratio_le7": 0.013,
+    "twin_clause_symmetry_ratio": 0.107
+  }
+}

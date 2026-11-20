@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是爆款短剧活人原声！长短句错落有致，“开价”“在哪儿”“多少？一千两？”等短促反应与顶针反问咬得很紧。四岁幼童的具象奶音、农妇的市井泼辣、太子的冷峻短句声纹分明，连路人药客都在算手里药包有没有被宰，活人烟火气十足。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.3,
+    "spoken_naturalness": 9.2,
+    "subtext_and_micro_specificity": 9.2
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 92.75,
+  "rhythm_metrics": {
+    "total_lines": 83,
+    "mean_char_len": 19.9,
+    "char_len_stdev": 7.3,
+    "short_reaction_ratio_le7": 0.024,
+    "twin_clause_symmetry_ratio": 0.06
+  }
+}

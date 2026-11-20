@@ -1,0 +1,149 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“拒不离婚合规锁产＋剥离家事诱敌入刑”为原生爽点引擎，精准还原并放大种子精髓。裸看前3集人物关系（八年夫妻、出轨奸夫、法务顾问、催债恶霸）、续贷倒计时危机与高利贷死线交代清晰，从逼签绝境到撕约断供再到诱签敲诈函层层咬合，悬念抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.3,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "不离，一分都别想拿",
+      "audible_counts": {
+        "林曼": 6,
+        "陈正宏": 4,
+        "赵凯": 5,
+        "老周": 2,
+        "顾言": 5
+      },
+      "unintroduced_speakers": [
+        "赵凯"
+      ],
+      "kinship_or_titles_heard": [
+        "总",
+        "主任",
+        "律师"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　宏达精密制造厂·厂长办公室　日",
+          "audible_counts": {
+            "林曼": 6,
+            "陈正宏": 4,
+            "赵凯": 5,
+            "老周": 2,
+            "顾言": 5
+          },
+          "vo_counts": {
+            "陈正宏": 1,
+            "顾言": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "断卡收车，一分现钱别想动",
+      "audible_counts": {
+        "林曼": 9,
+        "陈正宏": 4,
+        "顾言": 3,
+        "刘敏": 1,
+        "赵凯": 4,
+        "会所经理": 1,
+        "胡彪": 1
+      },
+      "unintroduced_speakers": [
+        "赵凯"
+      ],
+      "kinship_or_titles_heard": [
+        "公",
+        "姐",
+        "总",
+        "主任",
+        "律师"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　宏达精密制造厂·厂长办公室　日",
+          "audible_counts": {
+            "林曼": 4,
+            "陈正宏": 4,
+            "顾言": 3,
+            "刘敏": 1,
+            "赵凯": 1
+          },
+          "vo_counts": {
+            "陈正宏": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　高奢美容会所·前台　傍晚",
+          "audible_counts": {
+            "会所经理": 1,
+            "林曼": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　赵凯公寓·客厅　夜",
+          "audible_counts": {
+            "胡彪": 1,
+            "林曼": 4,
+            "赵凯": 3
+          },
+          "vo_counts": {
+            "赵凯": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "请君入瓮，按印坐牢",
+      "audible_counts": {
+        "顾言": 3,
+        "陈正宏": 9,
+        "赵凯": 10,
+        "林曼": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "公",
+        "姐",
+        "总",
+        "主任",
+        "律师"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　宏达精密制造厂·厂长办公室及隔壁会议室　日",
+          "audible_counts": {
+            "顾言": 3,
+            "陈正宏": 9,
+            "赵凯": 10,
+            "林曼": 2
+          },
+          "vo_counts": {
+            "陈正宏": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

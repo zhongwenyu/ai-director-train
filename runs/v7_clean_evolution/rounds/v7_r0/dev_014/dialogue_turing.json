@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听完全是鲜活的北方农村街坊吵架与算账声。长短句呼吸错落，既有“爸，锁”“走”等短促反应，也有“讲规矩”的话咬话顶针；厚道老农、油滑邻居、拿法条压人的大学生、泼辣老太声纹分明，全程盯死菜筐、黄瓜、运费等具体小事交锋，烟火气十足。",
+  "scores": {
+    "character_voice_distinction": 9.3,
+    "conversational_bite_and_rhythm": 9.2,
+    "spoken_naturalness": 9,
+    "subtext_and_micro_specificity": 9.2
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 91.75,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 21.7,
+    "char_len_stdev": 6.9,
+    "short_reaction_ratio_le7": 0.027,
+    "twin_clause_symmetry_ratio": 0.04
+  }
+}

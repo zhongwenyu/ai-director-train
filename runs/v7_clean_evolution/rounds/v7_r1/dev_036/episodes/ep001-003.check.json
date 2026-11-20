@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈知微",
+  "episode_count": 3,
+  "mean_est_duration_sec": 119.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "双票撞座",
+      "scenes": 1,
+      "actions": 9,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 467,
+      "avg_line_chars": 18.7,
+      "est_duration_sec": 120.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "夺婴关舱",
+      "scenes": 3,
+      "actions": 8,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 444,
+      "avg_line_chars": 17.8,
+      "est_duration_sec": 117.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "验伤迎战",
+      "scenes": 3,
+      "actions": 7,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 460,
+      "avg_line_chars": 18.4,
+      "est_duration_sec": 119.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['赵坤鹏', '沈知微', '商务舱男客'] 未直接叫出全名（已出现称谓 ['妈', '奶', '姐']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['沈知微', '赵坤鹏'] 未直接叫出全名（已出现称谓 ['妈', '奶', '公', '姐', '总', '师傅']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['儿科主任', '赵坤鹏', '公关主管'] 未直接叫出全名（已出现称谓 ['妈', '姨', '奶', '公', '姐', '总']，交由屏幕盲审核验关系清晰度）"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 156.7,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "六年未拆的密码条",
+      "scenes": 3,
+      "actions": 13,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 527,
+      "avg_line_chars": 37.6,
+      "est_duration_sec": 141.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "四千七百万的账单",
+      "scenes": 2,
+      "actions": 10,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 699,
+      "avg_line_chars": 53.8,
+      "est_duration_sec": 172.0,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 198.4,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "谁才是卷子上的主人",
+      "scenes": 3,
+      "actions": 22,
+      "dialogue_lines": 22,
+      "vo_lines": 0,
+      "spoken_chars": 826,
+      "avg_line_chars": 37.5,
+      "est_duration_sec": 220.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "村口大槐树下的两杆秤",
+      "scenes": 2,
+      "actions": 23,
+      "dialogue_lines": 16,
+      "vo_lines": 0,
+      "spoken_chars": 622,
+      "avg_line_chars": 38.9,
+      "est_duration_sec": 176.0,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 4 集预估时长偏长（220.8s > 190s），注意节奏拖沓"
+  ]
+}

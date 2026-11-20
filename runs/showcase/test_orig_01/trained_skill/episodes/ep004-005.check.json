@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 140.1,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "扣押的三方协议，当场作废的公章",
+      "scenes": 2,
+      "actions": 19,
+      "dialogue_lines": 16,
+      "vo_lines": 0,
+      "spoken_chars": 528,
+      "avg_line_chars": 33.0,
+      "est_duration_sec": 149.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "被拦截的三百万，初一清晨的断电声",
+      "scenes": 2,
+      "actions": 13,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 488,
+      "avg_line_chars": 37.5,
+      "est_duration_sec": 130.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "episode_count": 12,
+  "mean_est_duration_sec": 92.5,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "重生2005，我不伺候了",
+      "scenes": 4,
+      "actions": 15,
+      "dialogue_lines": 16,
+      "vo_lines": 1,
+      "spoken_chars": 366,
+      "avg_line_chars": 21.5,
+      "est_duration_sec": 111.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "桂花巷的一锅救急汤",
+      "scenes": 2,
+      "actions": 11,
+      "dialogue_lines": 17,
+      "vo_lines": 0,
+      "spoken_chars": 343,
+      "avg_line_chars": 20.2,
+      "est_duration_sec": 96.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "立字控股，绝不白送",
+      "scenes": 2,
+      "actions": 8,
+      "dialogue_lines": 17,
+      "vo_lines": 0,
+      "spoken_chars": 389,
+      "avg_line_chars": 22.9,
+      "est_duration_sec": 101.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 4,
+      "title": "盘溪买样留铁证",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 264,
+      "avg_line_chars": 20.3,
+      "est_duration_sec": 81.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "闻香破巷，断供突袭",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 18,
+      "vo_lines": 0,
+      "spoken_chars": 330,
+      "avg_line_chars": 18.3,
+      "est_duration_sec": 95.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 6,
+      "title": "凌晨闯屠场，满座突迎检",
+      "scenes": 2,
+      "actions": 7,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 246,
+      "avg_line_chars": 17.6,
+      "est_duration_sec": 68.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 7,
+      "title": "过秤验皂，黄油露馅",
+      "scenes": 3,
+      "actions": 10,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 284,
+      "avg_line_chars": 20.3,
+      "est_duration_sec": 83.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 8,
+      "title": "烟道开院，灯下挑泡",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 256,
+      "avg_line_chars": 19.7,
+      "est_duration_sec": 79.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 9,
+      "title": "借钱碰壁，回扣套股",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 288,
+      "avg_line_chars": 20.6,
+      "est_duration_sec": 86.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 10,
+      "title": "买样示警，切肉翻车",
+      "scenes": 2,
+      "actions": 13,
+      "dialogue_lines": 14,
+      "vo_lines": 0,
+      "spoken_chars": 342,
+      "avg_line_chars": 24.4,
+      "est_duration_sec": 99.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 11,
+      "title": "恢复原价雪崩，盖章押铺豪赌",
+      "scenes": 3,
+      "actions": 10,
+      "dialogue_lines": 17,
+      "vo_lines": 0,
+      "spoken_chars": 350,
+      "avg_line_chars": 20.6,
+      "est_duration_sec": 98.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 12,
+      "title": "空箱暴雷，过道生死局",
+      "scenes": 3,
+      "actions": 14,
+      "dialogue_lines": 15,
+      "vo_lines": 0,
+      "spoken_chars": 375,
+      "avg_line_chars": 25.0,
+      "est_duration_sec": 109.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

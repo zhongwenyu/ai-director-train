@@ -1,0 +1,132 @@
+{
+  "ok": false,
+  "verdict": "SWIPE_AWAY",
+  "blocked_episodes": [
+    3
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "understood_plot_one_line": "陈野重生甩掉骗方前任，联手苏晚开店，遭林家断油抢单。",
+      "scene_barrage": [
+        {
+          "scene_id": "1-1-A",
+          "barrage": "供她毕业还得交祖传秘方才能退婚？这家人够不要脸的！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-1-B",
+          "barrage": "四十八张汇款单直接拍脸！围裙甩了，赶紧走！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2-A",
+          "barrage": "这姑娘痛快，直接给一半分账！终于不用看男主受气了。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2-B",
+          "barrage": "断油、抢单还想买铺？够狠！就是租约欠租这几句有点绕。",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "1-2-C",
+          "barrage": "不求他们，自己买鲜油！倒要看看明早这锅怎么开起来。",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.3,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 2,
+      "understood_plot_one_line": "陈野现炼好汤抢回百桌生意，林家输急了又举报使坏。",
+      "scene_barrage": [
+        {
+          "scene_id": "2-1前段（约0—25秒）",
+          "barrage": "昨晚抢的鲜油用上了！对门偷师还炒糊，等着看他们砸招牌。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-1后段（约25—45秒）",
+          "barrage": "一个香一个焦，这回看谁还敢说陈野是白吃饭的！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2试吃（约45—70秒）",
+          "barrage": "难吃还让客人喝饮料硬压？苏晚直接端汤来比，痛快！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2转单（约70—95秒）",
+          "barrage": "百桌真过街了！刚抢走的生意当面丢回来，这段解气。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2举报（约95—120秒）",
+          "barrage": "输不起就举报，还免单抢人？赶紧查，想看这帮人怎么被打脸！",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.5,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 3,
+      "understood_plot_one_line": "陈野验汤翻盘、揭穿林记造假，清了欠租又得筹钱保铺。",
+      "scene_barrage": [
+        {
+          "scene_id": "3-1① 举报被驳",
+          "barrage": "查了没问题！这回看你们怎么赖。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-1② 当街盲尝",
+          "barrage": "免费都抢不走客，这脸打得舒服！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-1③ 拦下免单汤",
+          "barrage": "这老头还敢端苦汤？等着看他露馅。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-2① 查出塑料桶",
+          "barrage": "袖口一个油点，就知道东西藏哪个柜？主角开透视了？",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "3-2② 林记被封、反派互撕",
+          "barrage": "前面查案太神，不过这俩当场狗咬狗，解气！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-2③ 清租后再谈买铺",
+          "barrage": "欠租、定金、全款、优先权……怎么都开始念规则了。",
+          "action": "SWIPE_AWAY"
+        }
+      ],
+      "fatal_dropoffs": [
+        {
+          "category": "unexplained_leap_or_ad_cringe",
+          "quote": "陈野：同志，看他袖口新溅的红油点，查案板底柜！",
+          "viewer_complaint": "闻着不对、捞出糊渣，我都信。一个袖口油点就能精准找到藏桶的柜子？这不是手艺好，是编剧直接告诉他答案。",
+          "root_fix": "重写发现证据的动作链：让林大富转移或遮挡原料时实际暴露桶的位置，陈野顺着可见动作阻止他；不要让气味和油点直接提供藏物地点及全部造假结论。"
+        },
+        {
+          "category": "wordy_essay_dialogue",
+          "quote": "陈野：桶底全是炸糊的黑药渣！真牛油遇冷凝脂，这汤散红水，掺了劣质香精！",
+          "viewer_complaint": "刚要看你抓现行，你先讲一串验油原理；结尾房东又连着讲租约和买铺规则，陈野再复述一遍。吵架的人怎么都变成讲解员了？",
+          "root_fix": "把揭假交给可见的藏料、抢桶和搜获动作，让交锋围绕阻拦与揭穿展开。结尾用清租凭据、购铺通知和赵凯的实际动作完成筹码转换，删除房东与陈野重复解释规则的整段结构。"
+        }
+      ],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 6,
+      "verdict": "SWIPE_AWAY"
+    }
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“出轨妻携奸夫逼离分产”极致憋屈开局，借腹黑律师“拒不离婚、婚内合规投产锁钱断供”反套路破局，逼断粮恶人升级踩中敲诈刑责。前3集裸看人物关系秒立、动机闭环、口语交锋张力拉满，民政局捧花拒离反转极抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.3,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "十周年逼宫",
+      "audible_counts": {
+        "周明远": 8,
+        "林曼": 7,
+        "赵凯": 6
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "老婆",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　周家别墅餐厅　夜",
+          "audible_counts": {
+            "周明远": 8,
+            "林曼": 7,
+            "赵凯": 6
+          },
+          "vo_counts": {
+            "周明远": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "绝境遇奇招",
+      "audible_counts": {
+        "周明远": 8,
+        "赵凯": 2,
+        "林曼": 2,
+        "老律师": 2,
+        "沈砚": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "娘",
+        "老婆",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　周家别墅餐厅　夜",
+          "audible_counts": {
+            "周明远": 1,
+            "赵凯": 1,
+            "林曼": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　正统律所接待室　日",
+          "audible_counts": {
+            "老律师": 2,
+            "周明远": 1,
+            "林曼": 1,
+            "赵凯": 1
+          },
+          "vo_counts": {
+            "周明远": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　沈砚律所办公室　日",
+          "audible_counts": {
+            "周明远": 6,
+            "沈砚": 7
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "民政局翻牌",
+      "audible_counts": {
+        "沈砚": 6,
+        "周明远": 8,
+        "林曼": 5,
+        "赵凯": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "娘",
+        "老婆",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　沈砚律所办公室　夜",
+          "audible_counts": {
+            "沈砚": 5,
+            "周明远": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　民政局大门口　日",
+          "audible_counts": {
+            "林曼": 5,
+            "赵凯": 3,
+            "周明远": 5,
+            "沈砚": 1
+          },
+          "vo_counts": {
+            "周明远": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

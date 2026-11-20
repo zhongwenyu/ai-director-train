@@ -1,0 +1,213 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“便装太子雷霆护短”与“受虐萌娃生机异能催活废药”构成双向救赎爽点引擎。裸看实况中，兄妹、恶亲、里正、黑店掌柜等关系均由自然称谓与动作清晰立住，无读心抢答；护食喂粥的温情拉扯与枯参抽芽打脸层层递进，悬念抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.2,
+    "motivation_and_logic": 9.1,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.3
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 92.75,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "绝境护苗与破门救妹",
+      "audible_counts": {
+        "穗穗": 7,
+        "王翠花": 6,
+        "刘大柱": 4,
+        "萧景珩": 4,
+        "沈墨": 1,
+        "泼皮甲": 2
+      },
+      "unintroduced_speakers": [
+        "穗穗",
+        "王翠花",
+        "刘大柱",
+        "萧景珩",
+        "沈墨",
+        "泼皮甲"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "婶",
+        "爷",
+        "公",
+        "哥",
+        "妹",
+        "嫂",
+        "公子"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　清河村刘家柴房　日",
+          "audible_counts": {
+            "穗穗": 4,
+            "王翠花": 3,
+            "刘大柱": 1
+          },
+          "vo_counts": {
+            "穗穗": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　清河村刘家小院　日",
+          "audible_counts": {
+            "王翠花": 3,
+            "刘大柱": 3,
+            "穗穗": 3,
+            "萧景珩": 4,
+            "沈墨": 1,
+            "泼皮甲": 2
+          },
+          "vo_counts": {
+            "萧景珩": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "热粥护短与伪契设局",
+      "audible_counts": {
+        "泼皮甲": 1,
+        "刘大柱": 2,
+        "穗穗": 2,
+        "萧景珩": 7,
+        "沈墨": 3,
+        "赵德禄": 4,
+        "王翠花": 6,
+        "钱万贯": 3
+      },
+      "unintroduced_speakers": [
+        "泼皮甲",
+        "刘大柱",
+        "萧景珩",
+        "沈墨",
+        "赵德禄",
+        "王翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "爷",
+        "公",
+        "哥",
+        "妹",
+        "嫂",
+        "掌柜",
+        "公子"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　清河村刘家小院　日",
+          "audible_counts": {
+            "泼皮甲": 1,
+            "刘大柱": 2,
+            "穗穗": 2,
+            "萧景珩": 7,
+            "沈墨": 3,
+            "赵德禄": 4,
+            "王翠花": 3
+          },
+          "vo_counts": {
+            "穗穗": 1,
+            "萧景珩": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　青石镇济世堂后堂　日",
+          "audible_counts": {
+            "王翠花": 3,
+            "钱万贯": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "穗穗",
+            "萧景珩"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "废参抬价与小手生紫芽",
+      "audible_counts": {
+        "钱万贯": 6,
+        "萧景珩": 5,
+        "老药客": 3,
+        "王翠花": 4,
+        "沈墨": 2,
+        "刘大柱": 2,
+        "穗穗": 3
+      },
+      "unintroduced_speakers": [
+        "萧景珩",
+        "王翠花",
+        "沈墨",
+        "刘大柱"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "爷",
+        "公",
+        "哥",
+        "妹",
+        "嫂",
+        "掌柜",
+        "公子"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　青石镇济世堂前堂　日",
+          "audible_counts": {
+            "钱万贯": 4,
+            "萧景珩": 3,
+            "老药客": 2,
+            "王翠花": 2,
+            "沈墨": 2,
+            "刘大柱": 1,
+            "穗穗": 2
+          },
+          "vo_counts": {
+            "穗穗": 1,
+            "萧景珩": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内/外　青石镇济世堂门内外　日",
+          "audible_counts": {
+            "老药客": 1,
+            "萧景珩": 2,
+            "王翠花": 2,
+            "刘大柱": 1,
+            "钱万贯": 2,
+            "穗穗": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "沈墨"
+          ]
+        }
+      ]
+    }
+  ]
+}

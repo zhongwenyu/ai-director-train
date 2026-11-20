@@ -1,0 +1,110 @@
+[
+  {
+    "key": "001_装穷提亲，娶到全家嫌弃的她",
+    "id": "001",
+    "title": "装穷提亲，娶到全家嫌弃的她",
+    "genre": "年代乡村",
+    "split": "train",
+    "episode": 1,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_001_ep001.md"
+  },
+  {
+    "key": "001_装穷提亲，娶到全家嫌弃的她",
+    "id": "001",
+    "title": "装穷提亲，娶到全家嫌弃的她",
+    "genre": "年代乡村",
+    "split": "train",
+    "episode": 2,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_001_ep002.md"
+  },
+  {
+    "key": "039_被赶下车后我收回一切",
+    "id": "039",
+    "title": "被赶下车后我收回一切",
+    "genre": "都市情感",
+    "split": "train",
+    "episode": 1,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_039_ep001.md"
+  },
+  {
+    "key": "039_被赶下车后我收回一切",
+    "id": "039",
+    "title": "被赶下车后我收回一切",
+    "genre": "都市情感",
+    "split": "train",
+    "episode": 2,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_039_ep002.md"
+  },
+  {
+    "key": "070_前妻追悔前夫已登云巅",
+    "id": "070",
+    "title": "前妻追悔前夫已登云巅",
+    "genre": "都市情感",
+    "split": "train",
+    "episode": 1,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_070_ep001.md"
+  },
+  {
+    "key": "070_前妻追悔前夫已登云巅",
+    "id": "070",
+    "title": "前妻追悔前夫已登云巅",
+    "genre": "都市情感",
+    "split": "train",
+    "episode": 2,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_070_ep002.md"
+  },
+  {
+    "key": "068_婆婆装瘫七年，我高调离婚！",
+    "id": "068",
+    "title": "婆婆装瘫七年，我高调离婚！",
+    "genre": "都市情感",
+    "split": "train",
+    "episode": 1,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_068_ep001.md"
+  },
+  {
+    "key": "040_救下奶萌小龙崽整片大海听我差遣",
+    "id": "040",
+    "title": "救下奶萌小龙崽整片大海听我差遣",
+    "genre": "年代乡村",
+    "split": "train",
+    "episode": 1,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_040_ep001.md"
+  },
+  {
+    "key": "030_持斧赶山救母，我靠宝莲灯肉满仓",
+    "id": "030",
+    "title": "持斧赶山救母，我靠宝莲灯肉满仓",
+    "genre": "年代乡村",
+    "split": "train",
+    "episode": 1,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_030_ep001.md"
+  },
+  {
+    "key": "092_一身腱子肉，乱世做谋臣",
+    "id": "092",
+    "title": "一身腱子肉，乱世做谋臣",
+    "genre": "古装穿越",
+    "split": "train",
+    "episode": 1,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_092_ep001.md"
+  },
+  {
+    "key": "092_一身腱子肉，乱世做谋臣",
+    "id": "092",
+    "title": "一身腱子肉，乱世做谋臣",
+    "genre": "古装穿越",
+    "split": "train",
+    "episode": 2,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_092_ep002.md"
+  },
+  {
+    "key": "042_激活空间，三天后重生1958",
+    "id": "042",
+    "title": "激活空间，三天后重生1958",
+    "genre": "年代乡村",
+    "split": "train",
+    "episode": 1,
+    "path": "/home/zhongwenyu/project/ai-director-train/corpus/gold_slices/train_042_ep001.md"
+  }
+]

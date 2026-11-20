@@ -1,0 +1,192 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“隐瞒创始人身份护女托举vs妻母盲信竹马拆房虐女”构成强情绪反差，凭“零秒签字切割→注销001至尊副席→特权逐级崩塌”驱动爽感。裸看人物关系在首集迅速落定，信息差闭环严密，口语鲜活，护女温情与当众拉黑的戏剧张力清晰抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "拆房夺名额",
+      "audible_counts": {
+        "沈修远": 9,
+        "周桂兰": 3,
+        "顾子豪": 2,
+        "沈念念": 2,
+        "林晚晴": 6,
+        "顾明轩": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爷",
+        "奶",
+        "公",
+        "总",
+        "师傅"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　云顶半山8号别墅·一楼客厅与储物间　傍晚",
+          "audible_counts": {
+            "沈修远": 9,
+            "周桂兰": 3,
+            "顾子豪": 2,
+            "沈念念": 2,
+            "林晚晴": 6,
+            "顾明轩": 2
+          },
+          "vo_counts": {
+            "沈修远": 1
+          },
+          "mute_present_characters": [
+            "装修工"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "净身切割撤礼遇",
+      "audible_counts": {
+        "林晚晴": 6,
+        "周桂兰": 3,
+        "顾明轩": 2,
+        "沈修远": 6,
+        "沈念念": 1,
+        "唐琳": 3,
+        "礼宾司机": 1,
+        "顾子豪": 2
+      },
+      "unintroduced_speakers": [
+        "唐琳"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "姨",
+        "爷",
+        "奶",
+        "公",
+        "姐",
+        "总",
+        "师傅",
+        "小姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　云顶半山8号别墅·客厅　傍晚",
+          "audible_counts": {
+            "林晚晴": 4,
+            "周桂兰": 2,
+            "顾明轩": 1,
+            "沈修远": 1
+          },
+          "vo_counts": {
+            "沈修远": 1
+          },
+          "mute_present_characters": [
+            "沈念念",
+            "顾子豪"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　云顶半山8号别墅大门外至街角　夜",
+          "audible_counts": {
+            "沈念念": 1,
+            "沈修远": 5,
+            "唐琳": 3,
+            "礼宾司机": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　云顶半山8号别墅·餐厅　夜",
+          "audible_counts": {
+            "林晚晴": 2,
+            "顾明轩": 1,
+            "周桂兰": 1,
+            "顾子豪": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "至尊副卡当众拉黑",
+      "audible_counts": {
+        "随行女医": 1,
+        "庄园总管": 1,
+        "沈修远": 2,
+        "沈念念": 2,
+        "检票专员": 4,
+        "周桂兰": 4,
+        "排队女客": 2,
+        "林晚晴": 5,
+        "顾明轩": 3,
+        "顾子豪": 1
+      },
+      "unintroduced_speakers": [
+        "随行女医",
+        "庄园总管",
+        "检票专员",
+        "排队女客"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "姨",
+        "爷",
+        "奶",
+        "公",
+        "姐",
+        "总",
+        "老板",
+        "师傅",
+        "经理",
+        "小姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　沧澜海岛度假村·至尊主庄园无尘套房　日",
+          "audible_counts": {
+            "随行女医": 1,
+            "庄园总管": 1,
+            "沈修远": 2,
+            "沈念念": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　沧澜海岛度假村·公众检票大厅VIP通道　日",
+          "audible_counts": {
+            "检票专员": 4,
+            "周桂兰": 4,
+            "排队女客": 2,
+            "林晚晴": 5,
+            "顾明轩": 3,
+            "顾子豪": 1
+          },
+          "vo_counts": {
+            "顾明轩": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

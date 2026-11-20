@@ -1,0 +1,129 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "裸看完全清晰：沈砚为照顾早产哮喘女儿朵朵居家五年，妻子林晚晴与丈母娘周桂兰却将女儿救命无尘房和海岛冬疗名额让给初恋顾泽父子。人物关系、护女前情、退订拉扯与庄园打脸钩子均清楚自洽，无莫名其妙之处。",
+  "total_score": 91.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "向阳房被拆",
+      "audible_counts": {
+        "沈砚": 8,
+        "周桂兰": 6,
+        "沈朵朵": 3,
+        "顾子轩": 1,
+        "顾泽": 3,
+        "林晚晴": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "姨",
+        "哥",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　沈砚家客厅及走廊　夜",
+          "audible_counts": {
+            "沈砚": 8,
+            "周桂兰": 6,
+            "沈朵朵": 3,
+            "顾子轩": 1,
+            "顾泽": 3,
+            "林晚晴": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "誓言成灰退礼遇",
+      "audible_counts": {
+        "林晚晴": 7,
+        "沈砚": 8,
+        "周桂兰": 4,
+        "顾泽": 4
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "姨",
+        "哥",
+        "姐",
+        "妹",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　沈砚家客厅　夜",
+          "audible_counts": {
+            "林晚晴": 7,
+            "沈砚": 8,
+            "周桂兰": 4,
+            "顾泽": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "沈朵朵"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "亮底牌定三日限",
+      "audible_counts": {
+        "周桂兰": 6,
+        "顾泽": 4,
+        "林晚晴": 4,
+        "沈朵朵": 1,
+        "沈砚": 7
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "姨",
+        "哥",
+        "姐",
+        "妹",
+        "女婿",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　沈砚家客厅及玄关　夜",
+          "audible_counts": {
+            "周桂兰": 6,
+            "顾泽": 4,
+            "林晚晴": 4,
+            "沈朵朵": 1,
+            "沈砚": 7
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

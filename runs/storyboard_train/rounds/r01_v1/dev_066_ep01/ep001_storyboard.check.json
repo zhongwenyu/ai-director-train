@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "被砸碎的星空房",
+      "scenes": 2,
+      "axis_headers": 3,
+      "shots": 67,
+      "groups": 20,
+      "seam_anchors": 20,
+      "total_sec": 236.0,
+      "asl_sec": 3.52,
+      "active_cam_shots": 9,
+      "active_cam_pct": 13.4,
+      "wide_pct": 1.5,
+      "talk_shots": 27,
+      "vo_shots": 10,
+      "crammed_speech_count": 0,
+      "compound_cam_count": 9
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第1集存在复合运镜：['1-1-04(摇摄＋中速：蒋玉梅扬手撇枕头触发；机位在房门内侧)', '1-1-07(受撞震动＋中速：房门撞击门吸巨响触发；机位在房内)', '1-1-25(前推＋缓速：顾沉双臂用力收紧触发；机位自距顾沉1)', '1-1-39(跟拍＋缓速：顾沉弯腰抱起可可迈步触发；机位在儿童)']"
+  ]
+}

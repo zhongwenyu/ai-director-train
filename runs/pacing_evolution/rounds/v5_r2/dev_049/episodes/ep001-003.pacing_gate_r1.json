@@ -1,0 +1,120 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "裸看完全清晰：三集紧扣“收回借住满三年的亡母学区房”同一场景层层推进。夫妻、婆媳、姑嫂妹夫关系及借房前情交代自然；从换锁毁遗物、撕条逼迁户到亮出婚前产权与面签规矩反杀，全程丝丝入扣无跳戏。",
+  "total_score": 92.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "暖房家宴见越界",
+      "audible_counts": {
+        "周倩": 6,
+        "沈清澜": 8,
+        "赵桂兰": 4,
+        "刘浩": 1,
+        "周明远": 3,
+        "刘强": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "舅",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内/外　学区老宅门外至餐厅　傍晚",
+          "audible_counts": {
+            "周倩": 6,
+            "沈清澜": 8,
+            "赵桂兰": 4,
+            "刘浩": 1,
+            "周明远": 3,
+            "刘强": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "撕条双标彻底寒心",
+      "audible_counts": {
+        "赵桂兰": 3,
+        "周明远": 5,
+        "沈清澜": 9,
+        "周倩": 4,
+        "刘强": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "舅",
+        "妹"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　学区老宅餐厅　傍晚",
+          "audible_counts": {
+            "赵桂兰": 3,
+            "周明远": 5,
+            "沈清澜": 9,
+            "周倩": 4,
+            "刘强": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "刘浩"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "亮真底牌定下通牒",
+      "audible_counts": {
+        "赵桂兰": 3,
+        "周倩": 4,
+        "刘强": 3,
+        "沈清澜": 9,
+        "周明远": 5
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "舅",
+        "哥",
+        "姐",
+        "弟",
+        "妹",
+        "媳妇"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　学区老宅餐厅至玄关　傍晚",
+          "audible_counts": {
+            "赵桂兰": 3,
+            "周倩": 4,
+            "刘强": 3,
+            "沈清澜": 9,
+            "周明远": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

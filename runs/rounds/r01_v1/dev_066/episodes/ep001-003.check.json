@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 262.7,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "被拆掉的星空房",
+      "scenes": 3,
+      "actions": 22,
+      "dialogue_lines": 28,
+      "vo_lines": 0,
+      "spoken_chars": 1037,
+      "avg_line_chars": 37.0,
+      "est_duration_sec": 266.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "这屋里只有你们是外人",
+      "scenes": 3,
+      "actions": 16,
+      "dialogue_lines": 26,
+      "vo_lines": 0,
+      "spoken_chars": 990,
+      "avg_line_chars": 38.1,
+      "est_duration_sec": 246.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "最后四十八小时的免息输血管",
+      "scenes": 2,
+      "actions": 14,
+      "dialogue_lines": 19,
+      "vo_lines": 0,
+      "spoken_chars": 1142,
+      "avg_line_chars": 60.1,
+      "est_duration_sec": 274.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集预估时长偏长（266.6s > 190s），注意节奏拖沓",
+    "第 2 集预估时长偏长（246.8s > 190s），注意节奏拖沓",
+    "第 3 集预估时长偏长（274.7s > 190s），注意节奏拖沓",
+    "第 3 集出现网文套话：['嘴角勾起一抹']"
+  ]
+}

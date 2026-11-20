@@ -1,0 +1,26 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "樟木箱上的铁锁",
+      "scenes": 2,
+      "axis_headers": 2,
+      "shots": 48,
+      "groups": 14,
+      "seam_anchors": 14,
+      "total_sec": 168.0,
+      "asl_sec": 3.5,
+      "active_cam_shots": 10,
+      "active_cam_pct": 20.8,
+      "wide_pct": 2.1,
+      "talk_shots": 19,
+      "vo_shots": 6,
+      "crammed_speech_count": 0,
+      "compound_cam_count": 0
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,16 @@
+{
+  "eval_id": "test_orig_02_ep01",
+  "genre": "八零年代供销社轻喜",
+  "trained_score": 64.0,
+  "naive_score": 45.0,
+  "claude_s4_score": 60.0,
+  "trained_cam_score": 18,
+  "naive_cam_score": 4,
+  "claude_s4_cam_score": 19,
+  "pk_vs_naive": "HIT_STORYBOARD",
+  "pk_vs_claude_s4": "HIT_STORYBOARD",
+  "active_cam_pct": 22.7,
+  "shots": 44,
+  "groups": 15,
+  "why_beats_claude_s4": "A明显胜出，优势在有效分拍，而非篇幅。①运镜：06跟移抓扯、30推进紫渍、41摇摄拉腕，均有动作触发和信息落点；固定镜承担蓄力，形成稳—动—稳的呼吸。②视觉叙事：16切女主听见“顶替”的冷笑，18由钱箱转焦围裙兜，31—33串起质问、权威起疑和藏指，情绪与证据彼此推动。③剪辑连续性：交代柜台豁口、跨组末态，以及36钞票换左手、39放钞腾手，比B更能防止穿柜、持物消失和动作重做。④声画：长对白分镜延续，以听者反应承接画外声，较能保住表演和口型窗口。但A仍须修订：实际总长173秒"
+}

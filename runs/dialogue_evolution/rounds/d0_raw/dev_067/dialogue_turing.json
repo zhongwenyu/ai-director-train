@@ -1,0 +1,60 @@
+{
+  "ai_voice_defects": [
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "萧景珩：待会儿进了门都改口叫公子，别露了行藏。敲门吧。",
+      "quote": "萧景珩：父皇寒毒撑不过半月，秦风，进村先称公子，务必要寻回幼妹。"
+    },
+    {
+      "defect_type": "pedantic_jargon_or_outline_patch",
+      "how_real_person_would_say_it": "（不会站在农户院门口凭空向主子汇报前情；真要提也是翻药匣时叹气）陆青：啧，这北境带出来的参还是冻坏了，须子全枯了……",
+      "quote": "陆青：殿下，北境寻来的老山参没扛住严寒，须根冻枯了。"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "秦风：只要人跟玉对得上，这十两银子先拿着买茶吃，回头再奉上一百两！",
+      "quote": "秦风：核验无误，这十两纹银是看赏，另有百两重谢。"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "萧穗穗：婶娘……水缸挑满了，给口热汤喝吧，手冻得直疼……",
+      "quote": "萧穗穗：婶娘，穗穗挑满两缸水了，能讨口热汤暖手吗？"
+    },
+    {
+      "defect_type": "homogenized_character_voices",
+      "how_real_person_would_say_it": "孙氏：哟，几位爷找谁啊？这大雪天的……俺就是大柱媳妇！",
+      "quote": "孙氏：正是民妇孙氏，几位贵人顶风冒雪找谁？"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "（不会在心里喊工整口号，更不会刚嘱咐改称公子就当众自称“孤”，而是直接挡在妹妹身前冷冷盯住对方）萧景珩：你动她一下试试。",
+      "quote": "[心声OS] 萧景珩：铁骑一盏茶即至，谁敢碰穗穗一下，孤先废他双手！"
+    },
+    {
+      "defect_type": "stagey_slogan_or_wuxia_boast",
+      "how_real_person_would_say_it": "赵大柱：哎哟娘哎——我的手！松手、快松手！疼死老子了！",
+      "quote": "赵大柱：啊！我的手腕断了！"
+    },
+    {
+      "defect_type": "monotonous_twin_clause_cadence",
+      "how_real_person_would_say_it": "陆青：公子您看，孩子饿得皮包骨头，冻疮全烂了，手腕子上这儿还是刚掐出来的青印子！",
+      "quote": "陆青：公子，小小姐脾胃亏空，冻疮溃破，腕上还有新掐痕！"
+    }
+  ],
+  "ear_test_impression": "一耳朵就是典型的AI按大纲逐句生成的“电报体木偶戏”：全篇78句几乎句句卡在15字上下，一人一句轮流报设定、喊口号，毫无短促反应、抢话或呼吸停顿；四岁幼童、农村泼妇、太子全是一个工整腔调，闭眼听全是端着念提示词的假人味。",
+  "scores": {
+    "character_voice_distinction": 3,
+    "conversational_bite_and_rhythm": 2.2,
+    "spoken_naturalness": 2.8,
+    "subtext_and_micro_specificity": 3.8
+  },
+  "verdict": "REJECT_AI_STAGEY",
+  "total_score": 29.5,
+  "rhythm_metrics": {
+    "total_lines": 78,
+    "mean_char_len": 15.7,
+    "char_len_stdev": 3.8,
+    "short_reaction_ratio_le7": 0.051,
+    "twin_clause_symmetry_ratio": 0.103
+  }
+}

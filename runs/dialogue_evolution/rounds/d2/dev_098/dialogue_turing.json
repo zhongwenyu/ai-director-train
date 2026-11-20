@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是活人吵架算账的真实呼吸！全篇零说教金句、零中二口号，交锋全落在十八万名表、三万六尾款、四十号工友饭碗与家里米面等具体账目上。“撵我走？”“冻公账？”“退什么退？”等短促顶针话咬话极紧，厂长、虚荣妻、油滑私教与律师声纹分明，上口自然。",
+  "scores": {
+    "character_voice_distinction": 9,
+    "conversational_bite_and_rhythm": 9.2,
+    "spoken_naturalness": 9.1,
+    "subtext_and_micro_specificity": 9.3
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 91.5,
+  "rhythm_metrics": {
+    "total_lines": 88,
+    "mean_char_len": 14.5,
+    "char_len_stdev": 7.3,
+    "short_reaction_ratio_le7": 0.227,
+    "twin_clause_symmetry_ratio": 0.091
+  }
+}

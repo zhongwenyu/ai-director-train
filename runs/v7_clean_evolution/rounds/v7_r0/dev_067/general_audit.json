@@ -1,0 +1,188 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“流落萌娃挨饿受虐vs储君皇兄雷霆护短+吃饱催生灵药化废为宝”为双轮爽点引擎。裸看实况中，王家婆孙、人牙子、皇兄与太医等人物关系借称谓与动作自然落位，铁骑留镇外避耳目亦提前铺垫，因果闭环且情绪张力饱满抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.2,
+    "motivation_and_logic": 9.1,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.3
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 92.75,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "饥寒催芽遭卖",
+      "audible_counts": {
+        "萧穗穗": 5,
+        "王氏": 7,
+        "王宝珠": 3,
+        "王大柱": 3,
+        "人牙子": 4,
+        "萧景珩": 1
+      },
+      "unintroduced_speakers": [
+        "萧穗穗",
+        "王氏",
+        "王宝珠",
+        "人牙子",
+        "萧景珩"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "叔",
+        "爷",
+        "奶",
+        "婆"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　王家柴房　日",
+          "audible_counts": {
+            "萧穗穗": 3,
+            "王氏": 4,
+            "王宝珠": 2,
+            "王大柱": 1
+          },
+          "vo_counts": {
+            "萧穗穗": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　王家农院　日",
+          "audible_counts": {
+            "人牙子": 4,
+            "王大柱": 2,
+            "王氏": 3,
+            "萧穗穗": 2,
+            "王宝珠": 1,
+            "萧景珩": 1
+          },
+          "vo_counts": {
+            "萧景珩": 1
+          },
+          "mute_present_characters": [
+            "东宫铁骑"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "冒领翻车验真身",
+      "audible_counts": {
+        "萧景珩": 7,
+        "王氏": 7,
+        "王大柱": 2,
+        "王宝珠": 2,
+        "萧穗穗": 3,
+        "陈太医": 2
+      },
+      "unintroduced_speakers": [
+        "萧景珩",
+        "王氏",
+        "王宝珠",
+        "陈太医"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "叔",
+        "爷",
+        "奶",
+        "婆",
+        "哥",
+        "妹",
+        "老婆"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　王家农院　日",
+          "audible_counts": {
+            "萧景珩": 7,
+            "王氏": 7,
+            "王大柱": 2,
+            "王宝珠": 2,
+            "萧穗穗": 3,
+            "陈太医": 2
+          },
+          "vo_counts": {
+            "王氏": 1,
+            "萧景珩": 1
+          },
+          "mute_present_characters": [
+            "东宫铁骑",
+            "人牙子"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "饱食化废为宝",
+      "audible_counts": {
+        "王氏": 4,
+        "陈太医": 5,
+        "萧穗穗": 3,
+        "萧景珩": 7,
+        "钱万贯": 4
+      },
+      "unintroduced_speakers": [
+        "王氏",
+        "陈太医",
+        "萧景珩"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "伯",
+        "爷",
+        "奶",
+        "婆",
+        "哥",
+        "妹",
+        "老婆",
+        "掌柜"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　王家农院　日",
+          "audible_counts": {
+            "王氏": 4,
+            "陈太医": 4,
+            "萧穗穗": 2,
+            "萧景珩": 4
+          },
+          "vo_counts": {
+            "萧穗穗": 1
+          },
+          "mute_present_characters": [
+            "东宫铁骑"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　青石驿镇·百草堂门前　日",
+          "audible_counts": {
+            "陈太医": 1,
+            "萧景珩": 3,
+            "钱万贯": 4,
+            "萧穗穗": 1
+          },
+          "vo_counts": {
+            "钱万贯": 1
+          },
+          "mute_present_characters": [
+            "打手"
+          ]
+        }
+      ]
+    }
+  ]
+}

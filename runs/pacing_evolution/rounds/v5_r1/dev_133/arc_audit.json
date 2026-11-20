@@ -1,0 +1,143 @@
+{
+  "distinct_major_events_counted": 1,
+  "flaws": [],
+  "pacing_diagnosis": "UNHURRIED_IMMERSIVE_SERIAL",
+  "scores": {
+    "causal_and_human_logic": 9,
+    "context_and_relation_clarity": 9.5,
+    "natural_dialogue_and_hooks": 9,
+    "unhurried_event_depth": 9.5
+  },
+  "verdict": "PASS_IMMERSIVE",
+  "viewer_comprehension_summary": "完全看懂，无莫名其妙处。三集紧扣婚宴同一场景层层推进：养母沈岚遭儿媳自曝结扎羞辱，养子沈耀吃定独苗逼敬茶、索房夺权；沈岚撤回过户预约、召回其余八名养子女重选继承人，关系与争点皆清晰。",
+  "total_score": 92.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "一亿贺礼换来结扎羞辱",
+      "audible_counts": {
+        "林默": 3,
+        "沈岚": 10,
+        "李翠兰": 3,
+        "林强": 1,
+        "沈耀": 2,
+        "林娇娇": 5
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "娘",
+        "舅",
+        "姐",
+        "弟",
+        "媳妇",
+        "女婿",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　五星酒店婚宴大厅　日",
+          "audible_counts": {
+            "林默": 3,
+            "沈岚": 10,
+            "李翠兰": 3,
+            "林强": 1,
+            "沈耀": 2,
+            "林娇娇": 5
+          },
+          "vo_counts": {
+            "沈岚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "双标逼敬茶与撤回婚房",
+      "audible_counts": {
+        "沈耀": 7,
+        "沈岚": 8,
+        "林娇娇": 3,
+        "林默": 3,
+        "李翠兰": 2,
+        "林强": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "娘",
+        "舅",
+        "姐",
+        "弟",
+        "媳妇",
+        "女婿",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　五星酒店婚宴大厅礼台　日",
+          "audible_counts": {
+            "沈耀": 7,
+            "沈岚": 8,
+            "林娇娇": 3,
+            "林默": 3,
+            "李翠兰": 2,
+            "林强": 1
+          },
+          "vo_counts": {
+            "沈岚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "召回八子重选继承人",
+      "audible_counts": {
+        "李翠兰": 1,
+        "林强": 1,
+        "沈岚": 9,
+        "沈耀": 7,
+        "林娇娇": 3,
+        "林默": 1,
+        "沈昭": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "妈",
+        "娘",
+        "舅",
+        "姐",
+        "弟",
+        "妹",
+        "媳妇",
+        "女婿",
+        "总",
+        "老板"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　五星酒店婚宴大厅礼台　日",
+          "audible_counts": {
+            "李翠兰": 1,
+            "林强": 1,
+            "沈岚": 9,
+            "沈耀": 7,
+            "林娇娇": 3,
+            "林默": 1,
+            "沈昭": 2
+          },
+          "vo_counts": {
+            "沈岚": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈建国",
+  "episode_count": 3,
+  "mean_est_duration_sec": 138.6,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "逼宫割肉与笔尖急刹",
+      "scenes": 1,
+      "actions": 11,
+      "dialogue_lines": 25,
+      "vo_lines": 1,
+      "spoken_chars": 506,
+      "avg_line_chars": 19.5,
+      "est_duration_sec": 132.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "撕约拒离与当场断供",
+      "scenes": 2,
+      "actions": 10,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 497,
+      "avg_line_chars": 19.9,
+      "est_duration_sec": 130.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "专柜社死与诱敌留痕",
+      "scenes": 2,
+      "actions": 8,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 615,
+      "avg_line_chars": 24.6,
+      "est_duration_sec": 153.5,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['沈确'] 未直接叫出全名（已出现称谓 ['妈', '婆', '公', '哥', '老婆', '总']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['沈确'] 未直接叫出全名（已出现称谓 ['妈', '婆', '公', '哥', '老婆', '总']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['沈确'] 未直接叫出全名（已出现称谓 ['妈', '婆', '公', '哥', '弟', '老婆']，交由屏幕盲审核验关系清晰度）"
+  ]
+}

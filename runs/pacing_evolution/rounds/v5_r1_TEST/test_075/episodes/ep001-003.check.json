@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈惊鸿",
+  "episode_count": 3,
+  "mean_est_duration_sec": 128.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "泥鞋入厅见鸠占",
+      "scenes": 1,
+      "actions": 11,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 478,
+      "avg_line_chars": 19.1,
+      "est_duration_sec": 125.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "脏鞋试心断毒汤",
+      "scenes": 1,
+      "actions": 13,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 484,
+      "avg_line_chars": 19.4,
+      "est_duration_sec": 130.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "一针动趾立通牒",
+      "scenes": 1,
+      "actions": 13,
+      "dialogue_lines": 22,
+      "vo_lines": 1,
+      "spoken_chars": 473,
+      "avg_line_chars": 20.6,
+      "est_duration_sec": 127.9,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

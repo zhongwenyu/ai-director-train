@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "episode_count": 2,
+  "mean_est_duration_sec": 180.0,
+  "episodes": [
+    {
+      "episode": 4,
+      "title": "三十块定金撬动全村背篓",
+      "scenes": 3,
+      "actions": 16,
+      "dialogue_lines": 11,
+      "vo_lines": 1,
+      "spoken_chars": 678,
+      "avg_line_chars": 56.5,
+      "est_duration_sec": 179.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 5,
+      "title": "桥头抢货？当众替母还孽债！",
+      "scenes": 3,
+      "actions": 19,
+      "dialogue_lines": 12,
+      "vo_lines": 1,
+      "spoken_chars": 665,
+      "avg_line_chars": 51.2,
+      "est_duration_sec": 181.0,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

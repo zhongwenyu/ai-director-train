@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 175.2,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "楼梯下的储物间",
+      "scenes": 2,
+      "actions": 22,
+      "dialogue_lines": 21,
+      "vo_lines": 1,
+      "spoken_chars": 622,
+      "avg_line_chars": 28.3,
+      "est_duration_sec": 174.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "停掉的“软饭卡”",
+      "scenes": 4,
+      "actions": 16,
+      "dialogue_lines": 13,
+      "vo_lines": 0,
+      "spoken_chars": 614,
+      "avg_line_chars": 47.2,
+      "est_duration_sec": 167.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "谁是谁的附属品",
+      "scenes": 2,
+      "actions": 17,
+      "dialogue_lines": 19,
+      "vo_lines": 0,
+      "spoken_chars": 704,
+      "avg_line_chars": 37.1,
+      "est_duration_sec": 184.2,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

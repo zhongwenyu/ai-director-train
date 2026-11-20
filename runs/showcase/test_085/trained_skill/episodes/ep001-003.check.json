@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 149.8,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "还差八十五万就能吃火锅了",
+      "scenes": 2,
+      "actions": 18,
+      "dialogue_lines": 16,
+      "vo_lines": 1,
+      "spoken_chars": 446,
+      "avg_line_chars": 26.2,
+      "est_duration_sec": 129.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "羞辱可以，折现麻烦走私账",
+      "scenes": 3,
+      "actions": 18,
+      "dialogue_lines": 16,
+      "vo_lines": 1,
+      "spoken_chars": 592,
+      "avg_line_chars": 34.8,
+      "est_duration_sec": 163.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "扔我的包？那里面有周总的命门",
+      "scenes": 2,
+      "actions": 20,
+      "dialogue_lines": 15,
+      "vo_lines": 1,
+      "spoken_chars": 552,
+      "avg_line_chars": 34.5,
+      "est_duration_sec": 156.0,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

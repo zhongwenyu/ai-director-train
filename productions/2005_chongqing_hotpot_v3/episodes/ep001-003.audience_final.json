@@ -1,0 +1,127 @@
+{
+  "ok": false,
+  "verdict": "SWIPE_AWAY",
+  "blocked_episodes": [
+    3
+  ],
+  "episodes": [
+    {
+      "episode": 1,
+      "understood_plot_one_line": "重生厨子甩掉骗秘方的未婚妻，联手青梅对抗林楚两家。",
+      "scene_barrage": [
+        {
+          "scene_id": "1-1前段：逼交秘方",
+          "barrage": "供她毕业还被嫌弃？方子千万别给！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-1后段：撕方甩单",
+          "barrage": "撕得好！四年汇款单甩脸上，还敢说人家白吃？",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2前段：夏记合伙",
+          "barrage": "这姑娘痛快，直接给一半！就爱看这种自己人。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "1-2中段：断油抢单",
+          "barrage": "订单房租这句有点绕，反正就是这俩坏种抢生意还想抢店。",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "1-2末段：蹬车找油",
+          "barrage": "不求他们，自己熬！就想看明天林家没他怎么开锅。",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 2,
+      "understood_plot_one_line": "叶寻现熬好汤抢回十二桌生意，前任和楚南又举报砸场。",
+      "scene_barrage": [
+        {
+          "scene_id": "2-1·鲜油对老油",
+          "barrage": "断牛油没断住吧！对面还偷学炒糊了，等着看你怎么端上桌。",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-1·红汤出锅",
+          "barrage": "他这锅成了，对面那锅冒焦烟，赶紧让客人尝尝！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2·林记翻车",
+          "barrage": "又苦又呛还让客人喝酸梅汤压？自己做砸了还嘴硬！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2·十二桌过街",
+          "barrage": "好！抢走的十二桌自己又送回来了，前任这下傻眼了吧！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "2-2·举报封锅",
+          "barrage": "抢不过就举报，还备着免单挖客，够损！看叶寻怎么破。",
+          "action": "KEEP_WATCHING"
+        }
+      ],
+      "fatal_dropoffs": [],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 8.5,
+      "verdict": "BINGE_NEXT"
+    },
+    {
+      "episode": 3,
+      "understood_plot_one_line": "叶寻洗清举报、盲测赢楚氏，林记被封，楚南又要开店挤他。",
+      "scene_barrage": [
+        {
+          "scene_id": "3-1① 举报洗清",
+          "barrage": "查完没问题，赶紧打脸这俩使坏的！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-1② 盲尝押招牌",
+          "barrage": "免费也没人选你，这脸打得响！输了真摘牌啊！",
+          "action": "KEEP_WATCHING"
+        },
+        {
+          "scene_id": "3-2① 踢筐露油桶",
+          "barrage": "刚好踢翻，刚好露出坏料，检查的人还刚好没走？这也太配合了。",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "3-2② 封店赔钱、反派互撕",
+          "barrage": "这家人终于遭报应了！但赢他们怎么全靠自己把证据踢出来？",
+          "action": "FROWN_DOUBT"
+        },
+        {
+          "scene_id": "3-2③ 收钱与隔壁宣战",
+          "barrage": "又是一长串开店免单威胁，主角就站着看？先划了。",
+          "action": "SWIPE_AWAY"
+        }
+      ],
+      "fatal_dropoffs": [
+        {
+          "category": "contrived_coincidence_crisis",
+          "quote": "脚跟却慌乱踢翻门边竹筐，露出一只未盖紧的无标红油塑料桶！",
+          "viewer_complaint": "第二集只看见他把汤炒苦了，现在突然冒出劣质香精，还靠自己一脚踢出来送给检查员。封店这个大爽点，是编剧临时送证据啊！",
+          "root_fix": "从第二集失败后的补救行动建立因果：让观众提前看见林有才拿可疑油料救苦汤；第三集由叶寻发现异常、主动阻止上桌并促成检查。封店来自反派自己的选择和主角追查，取消踢筐碰巧曝光。"
+        },
+        {
+          "category": "wordy_essay_dialogue",
+          "quote": "林记那蠢货废了，本少爷亲自把楚氏旗舰店开在你隔壁！下周开业全场免单三天，看我怎么挤死你们！",
+          "viewer_complaint": "一句话把甩锅、开店、开业时间、促销和威胁全念完了。像在报下一集提纲，狠劲反而没了。",
+          "root_fix": "重构结尾交锋：让搬运工卸锅、隔壁挂招牌等行动承担开店信息，楚南只抛一个直接威胁，并让叶寻当场做出改变双方筹码的回应。删掉集中播报后续安排的长段宣言。"
+        }
+      ],
+      "dopamine_flow": "CRISP_ESCALATING",
+      "immersion_score": 6,
+      "verdict": "SWIPE_AWAY"
+    }
+  ]
+}

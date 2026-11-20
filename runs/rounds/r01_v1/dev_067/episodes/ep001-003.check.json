@@ -1,0 +1,45 @@
+{
+  "ok": true,
+  "episode_count": 3,
+  "mean_est_duration_sec": 153.8,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "踩烂的仙果与破门的活阎王",
+      "scenes": 3,
+      "actions": 28,
+      "dialogue_lines": 18,
+      "vo_lines": 0,
+      "spoken_chars": 475,
+      "avg_line_chars": 26.4,
+      "est_duration_sec": 154.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "这一荆条，二哥替你讨十倍",
+      "scenes": 1,
+      "actions": 18,
+      "dialogue_lines": 15,
+      "vo_lines": 0,
+      "spoken_chars": 433,
+      "avg_line_chars": 28.9,
+      "est_duration_sec": 124.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "随手种的零嘴，竟是千金难求的仙药",
+      "scenes": 3,
+      "actions": 21,
+      "dialogue_lines": 18,
+      "vo_lines": 0,
+      "spoken_chars": 657,
+      "avg_line_chars": 36.5,
+      "est_duration_sec": 182.4,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

@@ -1,0 +1,195 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "核心引擎为八零肥妻清醒抽梯断缠、凭控卡卤味搞钱瘦身，反打脸厌弃她的报恩丈夫与绿茶女邻。裸看前3集人物称谓与关系交代自然清晰，从水房反撕、分伙立据、逼债立约到纠察掀锅因果咬合紧密，年代烟火气与情绪拉扯饱满抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "水房收手撕茶艺",
+      "audible_counts": {
+        "苏柔": 7,
+        "王嫂": 3,
+        "陆振庭": 6,
+        "林晚晴": 7
+      },
+      "unintroduced_speakers": [
+        "苏柔",
+        "王嫂"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "婶",
+        "公",
+        "哥",
+        "嫂"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　筒子楼二楼公共水房　日",
+          "audible_counts": {
+            "苏柔": 5,
+            "王嫂": 2,
+            "陆振庭": 5,
+            "林晚晴": 7
+          },
+          "vo_counts": {
+            "林晚晴": 2
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　筒子楼二楼走廊　日",
+          "audible_counts": {
+            "苏柔": 2,
+            "陆振庭": 1,
+            "王嫂": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "林晚晴"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "一纸分伙债堵门",
+      "audible_counts": {
+        "陆振庭": 7,
+        "林晚晴": 9,
+        "张婶": 4,
+        "王嫂": 1,
+        "苏柔": 2
+      },
+      "unintroduced_speakers": [
+        "王嫂",
+        "苏柔"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "爷",
+        "公",
+        "哥",
+        "嫂"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　陆家单间　日",
+          "audible_counts": {
+            "陆振庭": 6,
+            "林晚晴": 8
+          },
+          "vo_counts": {
+            "林晚晴": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　陆家单间门口走廊　日",
+          "audible_counts": {
+            "张婶": 4,
+            "王嫂": 1,
+            "苏柔": 2,
+            "陆振庭": 1,
+            "林晚晴": 1
+          },
+          "vo_counts": {
+            "林晚晴": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "立状烹卤招暗箭",
+      "audible_counts": {
+        "苏柔": 4,
+        "陆振庭": 3,
+        "林晚晴": 9,
+        "张婶": 2,
+        "王嫂": 1,
+        "陈师傅": 3,
+        "赵富贵": 2
+      },
+      "unintroduced_speakers": [
+        "苏柔",
+        "王嫂",
+        "陈师傅"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "舅",
+        "爷",
+        "婆",
+        "公",
+        "哥",
+        "嫂",
+        "媳妇",
+        "队长"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　陆家单间门口走廊　日",
+          "audible_counts": {
+            "苏柔": 2,
+            "陆振庭": 2,
+            "林晚晴": 4,
+            "张婶": 2,
+            "王嫂": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　筒子楼一楼公共煤炉区　傍晚",
+          "audible_counts": {
+            "陈师傅": 3,
+            "林晚晴": 3,
+            "陆振庭": 1
+          },
+          "vo_counts": {
+            "林晚晴": 1
+          },
+          "mute_present_characters": [
+            "苏柔"
+          ]
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　三号筒子楼大门口　晨",
+          "audible_counts": {
+            "苏柔": 2,
+            "赵富贵": 2,
+            "林晚晴": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "纠察队员"
+          ]
+        }
+      ]
+    }
+  ]
+}

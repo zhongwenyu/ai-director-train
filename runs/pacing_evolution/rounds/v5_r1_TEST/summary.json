@@ -1,0 +1,72 @@
+{
+  "cand_name": "v5_r1_TEST",
+  "pass_immersive_rate": "3/3",
+  "pass_cnt": 3,
+  "mean_arc_score": 93.33,
+  "mean_distinct_events": 1,
+  "vs_real_gt": {
+    "wins": 2,
+    "ties": 1,
+    "losses": 0,
+    "points": 5
+  },
+  "vs_champion": null,
+  "composite_metric": 148.33,
+  "seeds": [
+    {
+      "bench_id": "test_085",
+      "genre": "都市情感",
+      "script_check_ok": true,
+      "arc_verdict": "PASS_IMMERSIVE",
+      "arc_score": 92.5,
+      "distinct_events": 1,
+      "arc_flaws": [],
+      "arc_comprehension": "裸看完全清晰！四人关系（六年替身女友、胃病豪门男主、白月光脸绿茶、起哄发小）、六年护胃攒钱抽身的前情，以及同一晚饭桌上毁汤摔遗物、逼道歉分手到亮出赠卡寄卖单打脸离开的争点层层剥笋，毫无跳跃感。",
+      "vs_real_gt_winner": "TIE",
+      "vs_real_gt_points": 1,
+      "vs_real_gt_fwd_flaws": [
+        "第3集晒单自证时，“经持牌二奢店完税寄卖”“税后实收940万加60万劳务结余凑整一千万”等台词略带合规说明书式的刻意工整感。",
+        "周铭赌五万、苏柔瞥见包口单据污蔑偷表等桥段工具人助攻痕迹略明显，且前3集完全局限在别墅餐厅单一室内空间。"
+      ],
+      "vs_real_gt_reason": "A用3集无缝连载讲透同一晚宴决裂事件，人物关系清朗、活人短句交锋层层递进且逻辑自洽；B塞入13场碎片戏，靠OS代替对白，更犯下赶人下车却质问为何先回、万元打车费等严重硬伤。",
+      "vs_champ_winner": null
+    },
+    {
+      "bench_id": "test_048",
+      "genre": "都市情感",
+      "script_check_ok": true,
+      "arc_verdict": "PASS_IMMERSIVE",
+      "arc_score": 93.75,
+      "distinct_events": 1,
+      "arc_flaws": [],
+      "arc_comprehension": "完全看懂，零理解障碍。字幕与称呼清晰交代孪生大伯穿亡弟旧衣探望侄女，周家误认其为乡下岳父；周家贪占40万陪嫁首付却作践晚晴、巴结陈董欲签800万大单的前情与争点层层剥开，钩子紧扣明晚牡丹厅宴席。",
+      "vs_real_gt_winner": "GEN",
+      "vs_real_gt_points": 2,
+      "vs_real_gt_fwd_flaws": [
+        "每集各有1句陈建国的内心独白VO直接点明动机，略显直白，其实仅靠眼神与发短信动作已足够让观众看懂。",
+        "周家婆媳母子三人组恶得较为典型脸谱化，第3集结尾三人前仰后合哄堂大笑的反应略带传统短剧套路感。"
+      ],
+      "vs_real_gt_reason": "A用3集无缝连载讲透客厅护女同一事件，账目关系清晰，家常短句鲜活自洽；B拼凑7场戏却未说清隐忍缘由，且犯下小叔子亲眼见程先生认亲次集却失忆、穿西装带保镖装穷爹的致命逻辑崩塌。",
+      "vs_champ_winner": null
+    },
+    {
+      "bench_id": "test_075",
+      "genre": "都市情感",
+      "script_check_ok": true,
+      "arc_verdict": "PASS_IMMERSIVE",
+      "arc_score": 93.75,
+      "distinct_events": 1,
+      "arc_flaws": [],
+      "arc_comprehension": "裸看完全清晰：真千金沈惊鸿被继母哄进山十年且两头扣信，归家遭继母与假千金逼住佣人房、跪擦白毯；她揭穿瞒骗获三位残病兄长护短洗脚，继而打翻毒药、施针唤醒大哥知觉并夺权，因果与争点丝丝入扣。",
+      "vs_real_gt_winner": "GEN",
+      "vs_real_gt_points": 2,
+      "vs_real_gt_fwd_flaws": [
+        "三哥沈烈态度反转略快：第1集仍怨恨妹妹十年无信，第2集仅凭妹妹口述与二哥闻出参茶便毫无芥蒂跪地洗脚。",
+        "医学见效略显夸张：大哥腿废十年且寒毒封髓三年，仅凭足三里与阳陵泉两针便当场弹动脚趾恢复知觉。",
+        "第3集护院人数细节前后微瑕（统计写四名护院，正文动作仅写两名壮汉上前即被震退）。"
+      ],
+      "vs_real_gt_reason": "A用3集连载讲透正厅归家一事，人物关系与瞒骗下毒前因清晰，短句交锋带感；B硬塞定雨坠崖等多段割裂戏，角色跨集丢名、二十年时间线与捂鼻假逃逻辑崩坏，尽显AI分镜拼接感。",
+      "vs_champ_winner": null
+    }
+  ]
+}

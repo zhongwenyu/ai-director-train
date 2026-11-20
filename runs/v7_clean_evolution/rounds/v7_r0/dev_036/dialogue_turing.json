@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听像真实活人交锋，进棚张嘴就能顺下来。吵架全算眼前具体账（婴儿摇篮、两百里程券、报工号、接诊时间），零说教金句；顶针反问、护崽急眼重复与小空乘心虚结巴呼吸错落，各角色声纹分明，仅助理电话亮身份半句略带短剧交代感，整体自然鲜活。",
+  "scores": {
+    "character_voice_distinction": 9.2,
+    "conversational_bite_and_rhythm": 9,
+    "spoken_naturalness": 8.8,
+    "subtext_and_micro_specificity": 9.3
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 90.75,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 19.7,
+    "char_len_stdev": 6.4,
+    "short_reaction_ratio_le7": 0.027,
+    "twin_clause_symmetry_ratio": 0.04
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "left": "CANDIDATE",
+  "right": "CHAMPION",
+  "slot_A": "CANDIDATE",
+  "slot_B": "CHAMPION",
+  "winner_label": "CANDIDATE",
+  "margin": "decisive",
+  "dimension_winners": {
+    "opening_attraction": "CANDIDATE",
+    "dialogue_humanity": "CANDIDATE",
+    "tension_and_payoff": "CANDIDATE",
+    "ending_cliffhanger": "CANDIDATE"
+  },
+  "why_winner_wins": "A胜在爽点更多由具体处境和筹码变化产生：加卤蛋的招聘餐、9.9元康乃馨、喂食器意外留证、婚房门开后先扑出的酸菜味，都比身份广播更有画面和喜剧效果。“一千万太多了”接“一分钱不给”，也比提前宣读整套反杀路线更能留人。融资危机让对手真正扳回一局，主角需要付出估值让利，博弈因此有阻力。集尾以第1集问猫、第3集开门最出色：线索出现，答案未揭，观众有明确的下一集需求。但A只是明显优胜，尚非精品：第5集章程方案被写成万能护盾，解释过长；反派自曝藏款、律师主动教藏账，同样损伤可信度。",
+  "why_loser_loses": "B按题设必须重判负：毒蛇袖扣、瑞士银行保险箱、王牌律师、微笑补刀、瞳孔骤缩，以及八机位同步派出所并广播“自残碰瓷”，形成连续的古早网文奇观。排骨、馒头只是装饰，没能建立生活痛感。人物频繁用内心独白替观众宣布“合同无懈可击”“反杀铁证到手”，反派则反复尖叫、扑打，缺少有效应对。时间线还让刚接案的主角凭空完成昨天甚至更早的布局，胜利依赖作者授予全知能力。集尾虽响，却常把答案喊完：第1集已公开资产归零路线，第3集直接亮出降薪结果，第5集更一口气交代袖扣、母亲死亡和旧案关联，消耗了本可支撑长线追看的悬念。",
+  "swap_check": {
+    "pass1_winner": "CANDIDATE",
+    "pass2_winner": "CANDIDATE",
+    "consistent": true
+  }
+}

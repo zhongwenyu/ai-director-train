@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "episode_count": 1,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "樟木箱上的铁锁",
+      "scenes": 2,
+      "axis_headers": 2,
+      "shots": 55,
+      "groups": 17,
+      "seam_anchors": 17,
+      "total_sec": 183.0,
+      "asl_sec": 3.33,
+      "active_cam_shots": 9,
+      "active_cam_pct": 16.4,
+      "wide_pct": 10.9,
+      "talk_shots": 20,
+      "vo_shots": 8,
+      "crammed_speech_count": 8,
+      "compound_cam_count": 8
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第1集存在复合运镜：['1-1-03(推近＋中速：王鹏视线猛晃身体微震触发；摄影机从桌)', '1-1-15(摇摄＋中速：瓜子皮落定王鹏鞋尖旁且王鹏抬眼触发；)', '1-1-24(推近＋快速：王鹏右手扬碗反扣触发；摄影机从含王鹏)', '1-1-35(推近＋中速：王鹏向王建国摊开右手索要触发；摄影机)']",
+    "第1集台词超载塞不进镜长：['1-1-08(30字/5.0s)', '1-1-11(33字/5.0s)', '1-1-14(39字/5.5s)', '1-1-26(42字/6.0s)']"
+  ]
+}

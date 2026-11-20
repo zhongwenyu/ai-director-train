@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈卫东",
+  "episode_count": 3,
+  "mean_est_duration_sec": 139.8,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "破冰救女遭戒备",
+      "scenes": 3,
+      "actions": 17,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 511,
+      "avg_line_chars": 20.4,
+      "est_duration_sec": 146.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "风雪拉车遭拒诊",
+      "scenes": 3,
+      "actions": 13,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 502,
+      "avg_line_chars": 20.1,
+      "est_duration_sec": 138.4,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "护妻拦针握把柄",
+      "scenes": 2,
+      "actions": 13,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 492,
+      "avg_line_chars": 19.7,
+      "est_duration_sec": 134.1,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

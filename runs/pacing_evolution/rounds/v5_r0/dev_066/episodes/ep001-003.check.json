@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "protagonist_detected": "沈舟",
+  "episode_count": 3,
+  "mean_est_duration_sec": 122.2,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "强拆的儿童房",
+      "scenes": 1,
+      "actions": 11,
+      "dialogue_lines": 23,
+      "vo_lines": 1,
+      "spoken_chars": 451,
+      "avg_line_chars": 18.8,
+      "est_duration_sec": 119.8,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "停卡与五年旧账",
+      "scenes": 3,
+      "actions": 10,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 445,
+      "avg_line_chars": 17.8,
+      "est_duration_sec": 120.9,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "撕碎协议与清场通牒",
+      "scenes": 1,
+      "actions": 10,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 486,
+      "avg_line_chars": 19.4,
+      "est_duration_sec": 126.0,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": []
+}

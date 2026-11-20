@@ -1,0 +1,173 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以七零寒冬“搏命赎罪护妻女+硬核筹码反杀恶人”为原生引擎，借家庭信任赤字与48小时停药死线拉满张力。裸看实况中，夫妻、父兄、二婶与赵叔等关系均借自然口语称谓与动作清晰落位，逼医复药、护粮拒婶、血印借枪因果严密抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.6
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 95.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "冰河救女，无钱拔针",
+      "audible_counts": {
+        "苏婉": 7,
+        "陈向东": 8,
+        "小草": 1,
+        "护士": 3,
+        "刘德旺": 5
+      },
+      "unintroduced_speakers": [
+        "苏婉"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "公",
+        "主任",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　靠山屯村口冰河及山道　日",
+          "audible_counts": {
+            "苏婉": 5,
+            "陈向东": 4,
+            "小草": 1
+          },
+          "vo_counts": {
+            "陈向东": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　公社卫生院急诊室　日",
+          "audible_counts": {
+            "陈向东": 4,
+            "护士": 3,
+            "刘德旺": 5,
+            "苏婉": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "小草"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "点破私账，催命死线",
+      "audible_counts": {
+        "陈向东": 10,
+        "刘德旺": 9,
+        "苏婉": 3,
+        "护士": 1
+      },
+      "unintroduced_speakers": [
+        "苏婉"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "公",
+        "主任",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　公社卫生院急诊室及走廊　日",
+          "audible_counts": {
+            "陈向东": 5,
+            "刘德旺": 6,
+            "苏婉": 1,
+            "护士": 1
+          },
+          "vo_counts": {
+            "陈向东": 1
+          },
+          "mute_present_characters": [
+            "小草"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　公社卫生院暖病房及门外　夜",
+          "audible_counts": {
+            "苏婉": 2,
+            "陈向东": 5,
+            "刘德旺": 3
+          },
+          "vo_counts": {
+            "苏婉": 1
+          },
+          "mute_present_characters": [
+            "小草"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "破屋护粮，血印借枪",
+      "audible_counts": {
+        "陈老根": 3,
+        "陈向北": 2,
+        "陈向东": 9,
+        "陈秀兰": 1,
+        "王翠花": 4,
+        "赵铁山": 5
+      },
+      "unintroduced_speakers": [
+        "陈老根",
+        "陈向北",
+        "王翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "婆",
+        "公",
+        "哥",
+        "嫂",
+        "老婆",
+        "主任",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　陈家土坯老屋　日",
+          "audible_counts": {
+            "陈老根": 3,
+            "陈向北": 2,
+            "陈向东": 4,
+            "陈秀兰": 1,
+            "王翠花": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　村西赵铁山家院门及大青山山口　日",
+          "audible_counts": {
+            "赵铁山": 5,
+            "陈向东": 5
+          },
+          "vo_counts": {
+            "陈向东": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

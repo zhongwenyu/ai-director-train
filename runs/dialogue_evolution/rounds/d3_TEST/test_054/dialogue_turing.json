@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听很有真实短剧活人吵架的交锋感。长短句错落，顶针反问密实（“那我的面子呢？”“你的婚礼？”），林飒的汉子茶尾音、周叙白的敷衍爹味与女主的冷脆声纹区分鲜明，句句扣住换座、泼纱等眼前具体账，零说教金句，上口自然。",
+  "scores": {
+    "character_voice_distinction": 9.2,
+    "conversational_bite_and_rhythm": 9.3,
+    "spoken_naturalness": 9,
+    "subtext_and_micro_specificity": 9.1
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 91.5,
+  "rhythm_metrics": {
+    "total_lines": 86,
+    "mean_char_len": 15.0,
+    "char_len_stdev": 6.5,
+    "short_reaction_ratio_le7": 0.233,
+    "twin_clause_symmetry_ratio": 0.186
+  }
+}

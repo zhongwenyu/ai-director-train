@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听完全是真实短剧里活人掐架的动静。全员围着续贷、副卡、保时捷、高利贷和U盾算实账，话咬话顶针极紧，短促反应自然。连最易掉书袋的刑民交叉法理也被拆成大白话，厂长、急眼赌徒、阔太与车间老员工声纹分明，毫无AI端着的书面腔。",
+  "scores": {
+    "character_voice_distinction": 9.3,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.5
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.25,
+  "rhythm_metrics": {
+    "total_lines": 74,
+    "mean_char_len": 19.0,
+    "char_len_stdev": 6.5,
+    "short_reaction_ratio_le7": 0.041,
+    "twin_clause_symmetry_ratio": 0.027
+  }
+}

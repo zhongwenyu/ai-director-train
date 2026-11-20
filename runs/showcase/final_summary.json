@@ -1,0 +1,53 @@
+[
+  {
+    "seed_id": "test_085",
+    "title_hint": "男人哪有火锅香，我吃火锅不烧心",
+    "genre": "都市情感",
+    "planned_total_episodes": 60,
+    "outline_score": 65.0,
+    "trained_episode_score": 60.0,
+    "naive_episode_score": 53.0,
+    "score_gain_over_naive": 7.0,
+    "pk_vs_naive_winner": "TRAINED_SKILL",
+    "mean_duration_sec": 151.2,
+    "trained_ai_smells": 13,
+    "naive_ai_smells": 16,
+    "vs_claude_r28": {
+      "our_ep1_score": 62.0,
+      "claude_r28_ep1_score": 48.0,
+      "our_dialogue_score": 11,
+      "claude_dialogue_score": 10,
+      "debiased_pk_winner": "TRAINED_SKILL",
+      "why_winner_wins": "A更能让我点开下一集。①开场“红眼捧名表”先诱导观众以为她伤情，再用放大镜检查磕痕、回收扣三万揭示她心疼钱，反差由动作完成，比直接介绍人设更抓人。②同一件礼服，对男主是感情试探，对女主是可变现财产，信息差实际参与了冲突。她托出贺卡、借“丢周总的脸”索赔，温顺表面下有争取利益的策略。③集尾笔尖停在空白支票上，把羞辱转成了女主接近退休目标的机会：她会报多少？会不会暴露真实目的？答案尚未给出，下一集有明确兑现期待。但A并非优秀定稿：拿剪刀故意剪坏高定仍是降智绿茶套路，“比我还重四斤”和精确报出付款详情也有明显编剧腔。它赢在戏剧组织，不能因此免除套路扣分。",
+      "why_loser_loses": "B重判负，主要败在广播式表达和重复羞辱。①女主已经打开交易页、记账软件，仍独处念出“一次到账八十万元”“千万目标就齐了”，把观众能看的信息又播报一遍。②谢逢舟连续解释“女大学生占位置”“六年女友干看着”“那是六周年项链”“要失态翻脸了”，完全成了剧情解说员。③抢包、抢座、送店铺、抢项链连续堆叠，同一种羞辱反复发生，女主始终退让，没有形成新的筹码或主动收益。④“挡酒胃出血三次”突然拉入苦情受害叙事，削弱清醒搞钱的轻喜承诺。最后她说完“不在乎”，众人停手、男主怔住，只完成了预期中的反应；没有未决交易、行动或迫近后果，追看动力明显弱于A的空白支票。"
+    }
+  },
+  {
+    "seed_id": "test_orig_01",
+    "title_hint": "年夜饭桌上的百亿拆迁款",
+    "genre": "都市情感",
+    "planned_total_episodes": 60,
+    "outline_score": 66.0,
+    "trained_episode_score": 59.0,
+    "naive_episode_score": 48.0,
+    "score_gain_over_naive": 11.0,
+    "pk_vs_naive_winner": "TRAINED_SKILL",
+    "mean_duration_sec": 140.1,
+    "trained_ai_smells": 12,
+    "naive_ai_smells": 15
+  },
+  {
+    "seed_id": "test_orig_02",
+    "title_hint": "听懂万物心声后，我在八零供销社躺赢",
+    "genre": "年代乡村",
+    "planned_total_episodes": 80,
+    "outline_score": 62.0,
+    "trained_episode_score": 60.0,
+    "naive_episode_score": 51.0,
+    "score_gain_over_naive": 9.0,
+    "pk_vs_naive_winner": "TRAINED_SKILL",
+    "mean_duration_sec": 151.1,
+    "trained_ai_smells": 12,
+    "naive_ai_smells": 15
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是北方农村地头的活人烟火气！长短句呼吸极自然，“罚两千？！”“扫。”“你还往上搬呐？”等短促反应干脆利落，吵架只翻卖蒜凑学费、缝护膝、丢棉鞋的具体旧账，“车斗小装不下”潜台词拉满，八个人物声纹分明，毫无AI端腔。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.6,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.6
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 95.25,
+  "rhythm_metrics": {
+    "total_lines": 83,
+    "mean_char_len": 16.8,
+    "char_len_stdev": 9.6,
+    "short_reaction_ratio_le7": 0.253,
+    "twin_clause_symmetry_ratio": 0.048
+  }
+}
