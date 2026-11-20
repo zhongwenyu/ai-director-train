@@ -217,3 +217,4 @@ RuntimeError: Isolated agy sub-agent (gemini-4-carbon-medium) failed: timeout 60
 [12:45:39]   [v7_r2] dev_098 (都市情感/concise_1s): ten=PASS_HIT_READY(95.25) dlg=REJECT_AI_STAGEY(33.75) | vs_GT[ten=GEN, dlg=REAL_GT] | vs_CHAMP[ten=CAND, dlg=CHAMP]
 [stage0] Premise Lock PASSED on round 1: 穿成农家团宠，拒捡白眼狼男主
 [stage2.5] Polishing colloquial dialogue for batch [1, 2, 3]...
+  [stage2.5 script_check reject] 第 2 集句均字数过长（30.9字 > 28.5字），须用 14~24 字通俗活人短句把事说清；第 3 集预估时长超标（233.8s > 205s），戏量过载，须控制在 100~165s（约20~28句对白）内；第 3 集句均字数过长（36.7字 > 28.5字），须用 14~24 字通俗活人短句把事说清
