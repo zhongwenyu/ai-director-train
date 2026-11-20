@@ -2,7 +2,7 @@
   "ok": true,
   "protagonist_detected": "陈青山",
   "episode_count": 3,
-  "mean_est_duration_sec": 140.6,
+  "mean_est_duration_sec": 155.4,
   "episodes": [
     {
       "episode": 1,
@@ -11,9 +11,9 @@
       "actions": 17,
       "dialogue_lines": 22,
       "vo_lines": 2,
-      "spoken_chars": 434,
-      "avg_line_chars": 18.1,
-      "est_duration_sec": 127.6,
+      "spoken_chars": 451,
+      "avg_line_chars": 18.8,
+      "est_duration_sec": 131.4,
       "has_end_marker": true
     },
     {
@@ -23,9 +23,9 @@
       "actions": 11,
       "dialogue_lines": 23,
       "vo_lines": 2,
-      "spoken_chars": 562,
-      "avg_line_chars": 22.5,
-      "est_duration_sec": 148.5,
+      "spoken_chars": 686,
+      "avg_line_chars": 27.4,
+      "est_duration_sec": 176.0,
       "has_end_marker": true
     },
     {
@@ -35,14 +35,14 @@
       "actions": 16,
       "dialogue_lines": 24,
       "vo_lines": 2,
-      "spoken_chars": 513,
-      "avg_line_chars": 19.7,
-      "est_duration_sec": 145.6,
+      "spoken_chars": 573,
+      "avg_line_chars": 22.0,
+      "est_duration_sec": 158.9,
       "has_end_marker": true
     }
   ],
   "hard_errors": [],
   "warnings": [
-    "第 2 集角色 ['王桂花'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '伯', '爷']，交由屏幕盲审核验关系清晰度）"
+    "第 2 集角色 ['王桂花'] 未直接叫出全名（已出现称谓 ['爸', '爹', '妈', '娘', '叔', '伯']，交由屏幕盲审核验关系清晰度）"
   ]
 }

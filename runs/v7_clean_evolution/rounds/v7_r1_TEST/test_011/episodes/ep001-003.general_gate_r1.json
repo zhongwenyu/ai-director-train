@@ -1,0 +1,213 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以80年代林区“宗族赖账封杀网vs父女携犬神瞳赶山破局”为原生引擎，施恩反遭噬的委屈与妹妹雪中送炭、父女相依的温情形成强烈情绪张力。裸看前3集人物称谓与利害关系交代自然清晰，口语鲜活贴脸，集尾悬念紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.5,
+    "motivation_and_logic": 9.5,
+    "seed_fidelity_and_hook": 9.8,
+    "serial_pacing_and_clarity": 9.6
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 96.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "断亲护女",
+      "audible_counts": {
+        "陈小禾": 4,
+        "赵玉芬": 5,
+        "陈青山": 8,
+        "马彪": 4,
+        "刘三旺": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "叔",
+        "伯",
+        "爷",
+        "哥",
+        "弟"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　陈青山家堂屋　夜",
+          "audible_counts": {
+            "陈小禾": 2,
+            "赵玉芬": 5,
+            "陈青山": 6,
+            "马彪": 4
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "外　青林镇口老街　夜",
+          "audible_counts": {
+            "陈小禾": 2,
+            "陈青山": 2,
+            "刘三旺": 1
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "寒夜送炭",
+      "audible_counts": {
+        "陈青山": 6,
+        "刘三旺": 2,
+        "王桂花": 2,
+        "陈建国": 1,
+        "孙二宝": 1,
+        "陈小禾": 3,
+        "陈守业": 1,
+        "陈秀兰": 4,
+        "周铁柱": 3
+      },
+      "unintroduced_speakers": [
+        "王桂花",
+        "陈建国",
+        "陈守业"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爹",
+        "妈",
+        "娘",
+        "叔",
+        "伯",
+        "爷",
+        "哥",
+        "弟",
+        "嫂",
+        "大娘",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　刘三旺山货铺　夜",
+          "audible_counts": {
+            "陈青山": 4,
+            "刘三旺": 2,
+            "王桂花": 2,
+            "陈建国": 1,
+            "孙二宝": 1,
+            "陈小禾": 1,
+            "陈守业": 1
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　镇外破山神庙　夜",
+          "audible_counts": {
+            "陈秀兰": 3,
+            "周铁柱": 2,
+            "陈小禾": 1,
+            "陈青山": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　山脚废旧护林屋　夜",
+          "audible_counts": {
+            "陈秀兰": 1,
+            "陈青山": 1,
+            "周铁柱": 1,
+            "陈小禾": 1
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "神瞳灵犬",
+      "audible_counts": {
+        "陈小禾": 7,
+        "陈青山": 10,
+        "刘三旺": 4,
+        "马彪": 2,
+        "壮汉甲": 1
+      },
+      "unintroduced_speakers": [
+        "壮汉甲"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "爹",
+        "妈",
+        "娘",
+        "叔",
+        "伯",
+        "爷",
+        "奶",
+        "哥",
+        "弟",
+        "嫂",
+        "老板",
+        "大娘",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　山脚废旧护林屋　夜",
+          "audible_counts": {
+            "陈小禾": 4,
+            "陈青山": 4
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　西沟浅山老桦林　日",
+          "audible_counts": {
+            "陈小禾": 2,
+            "陈青山": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　青林镇口老街　傍晚",
+          "audible_counts": {
+            "刘三旺": 4,
+            "陈青山": 4,
+            "马彪": 2,
+            "陈小禾": 1,
+            "壮汉甲": 1
+          },
+          "vo_counts": {
+            "陈青山": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
