@@ -278,3 +278,4 @@ RuntimeError: Isolated agy sub-agent (gemini-4-carbon-medium) failed: timeout 60
 [general-gate] PASS_HIT_READY on batch [1, 2, 3] (round 1, score=94.25, events=2)!
   [script_check reject] 第 1 集预估时长超标（222.1s > 205s），戏量过载，须控制在 100~165s（约20~28句对白）内；第 1 集句均字数过长（36.6字 > 28.5字），须用 14~24 字通俗活人短句把事说清；第 1 集存在超长单句台词（68字 > 60字），请拆为有来有回的真实对话；第 2 集预估时长超标（233.2s > 205s），戏量过载，须控制在 100~165s（约20~28句对白）内；第 2 集句均字数过长（35.7字 > 28.5字），须用 14~24 字通俗活人短句把事说清；第 2 集存在超长单句台词（70字 > 60字），请拆为有来有回的真实对话；第 3 集预估时长超标（296.1s > 205s），戏量过载，须控制在 100~165s（约20~28句对白）内；第 3 集句均字数过长（41.8字 > 28.5字），须用 14~24 字通俗活人短句把事说清；第 3 集存在超长单句台词（79字 > 60字），请拆为有来有回的真实对话
 [14:38:08]   [v7_r1_TEST] test_085 (都市情感/concise_1s): ten=PASS_HIT_READY(93.0) dlg=PASS_HUMAN_NATURAL(94.25) | vs_GT[ten=GEN, dlg=TIE] 
+[stage2.5] Polishing colloquial dialogue for batch [1, 2, 3]...
