@@ -2,18 +2,18 @@
   "ok": true,
   "protagonist_detected": "林默",
   "episode_count": 3,
-  "mean_est_duration_sec": 159.2,
+  "mean_est_duration_sec": 162.5,
   "episodes": [
     {
       "episode": 1,
       "title": "灾前半小时",
       "scenes": 3,
       "actions": 17,
-      "dialogue_lines": 19,
+      "dialogue_lines": 18,
       "vo_lines": 7,
-      "spoken_chars": 502,
-      "avg_line_chars": 19.3,
-      "est_duration_sec": 144.8,
+      "spoken_chars": 475,
+      "avg_line_chars": 19.0,
+      "est_duration_sec": 138.8,
       "has_end_marker": true
     },
     {
@@ -23,9 +23,9 @@
       "actions": 17,
       "dialogue_lines": 26,
       "vo_lines": 3,
-      "spoken_chars": 594,
-      "avg_line_chars": 20.5,
-      "est_duration_sec": 165.2,
+      "spoken_chars": 604,
+      "avg_line_chars": 20.8,
+      "est_duration_sec": 167.4,
       "has_end_marker": true
     },
     {
@@ -35,12 +35,16 @@
       "actions": 20,
       "dialogue_lines": 27,
       "vo_lines": 3,
-      "spoken_chars": 592,
-      "avg_line_chars": 19.7,
-      "est_duration_sec": 167.6,
+      "spoken_chars": 654,
+      "avg_line_chars": 21.8,
+      "est_duration_sec": 181.3,
       "has_end_marker": true
     }
   ],
   "hard_errors": [],
-  "warnings": []
+  "warnings": [
+    "第 1 集角色 ['赵坤'] 未直接叫出全名（已出现称谓 ['哥']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['赵坤'] 未直接叫出全名（已出现称谓 ['妈', '哥']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['赵坤'] 未直接叫出全名（已出现称谓 ['妈', '公', '哥', '姐', '小姐']，交由屏幕盲审核验关系清晰度）"
+  ]
 }
