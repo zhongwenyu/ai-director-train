@@ -1,0 +1,168 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "灾前30分钟读秒搬空恶毒女友住处、百倍增幅升级顶层堡垒，以门外酸雨断粮内讧与门内煎牛排享乐构成极致生存反差爽感。裸看实况人物关系（林默、恶女苏倩、姘头坤哥）、空间规则与前因后果清晰抓人，集尾钩子紧绷。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.3,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "灾前半小时",
+      "audible_counts": {
+        "林默": 7,
+        "苏倩": 8,
+        "赵坤": 3
+      },
+      "unintroduced_speakers": [
+        "赵坤"
+      ],
+      "kinship_or_titles_heard": [
+        "哥"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　临江苑积水街面（闪回）　日",
+          "audible_counts": {
+            "林默": 1,
+            "苏倩": 2,
+            "赵坤": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　602室客厅及各房间　日",
+          "audible_counts": {
+            "林默": 6,
+            "苏倩": 3,
+            "赵坤": 1
+          },
+          "vo_counts": {
+            "林默": 5
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-3",
+          "location": "内　602室玄关　日",
+          "audible_counts": {
+            "苏倩": 3,
+            "赵坤": 1
+          },
+          "vo_counts": {
+            "林默": 2
+          },
+          "mute_present_characters": [
+            "林默"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "净身出户与空仓",
+      "audible_counts": {
+        "苏倩": 11,
+        "林默": 7,
+        "赵坤": 7,
+        "路人": 1
+      },
+      "unintroduced_speakers": [
+        "赵坤"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "哥"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　602室玄关　日",
+          "audible_counts": {
+            "苏倩": 6,
+            "林默": 4,
+            "赵坤": 3
+          },
+          "vo_counts": {
+            "林默": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　1201室顶层阁楼　日",
+          "audible_counts": {
+            "林默": 3,
+            "路人": 1
+          },
+          "vo_counts": {
+            "林默": 2
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　602室客厅及厨房　日",
+          "audible_counts": {
+            "赵坤": 4,
+            "苏倩": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "热煎牛排与反震门",
+      "audible_counts": {
+        "苏倩": 12,
+        "赵坤": 10,
+        "林默": 5
+      },
+      "unintroduced_speakers": [
+        "赵坤"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "公",
+        "哥",
+        "姐",
+        "小姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　602室厨房及走廊　日",
+          "audible_counts": {
+            "苏倩": 5,
+            "赵坤": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内/外　1201室安全屋与顶层门廊　日",
+          "audible_counts": {
+            "林默": 5,
+            "苏倩": 7,
+            "赵坤": 5
+          },
+          "vo_counts": {
+            "林默": 3
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
