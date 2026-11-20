@@ -1,0 +1,394 @@
+{
+  "episode": 3,
+  "cross_episode_prev_shot": {
+    "id": "2-3-11",
+    "video_path": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-3-11/video.mp4",
+    "end_state_summary": "夏氏小厨前厅（内景，传菜口在后左，蓝布门帘与楼梯在后右，深色木柜台在前景右侧，餐桌长凳在左侧）。叶寻立于右侧木柜台旁，右手拎军绿色帆布背包、左手按住柜台上的粗布草本包，左手腕戴银表；夏芊芊穿灰T恤配黑围裙立于中左；夏建国（右腕缠白绷带）左手持铁炒勺、右手捂喉立于左侧餐桌后。"
+  },
+  "final_entity_ledger": [
+    {
+      "entity": "夏建国_右手腕白绷带",
+      "state": "右手腕持续缠绕白色绷带（3-1-01/04/14/18/24、3-2-01/11/14/17/20全片可见处均保持一致）",
+      "scope": "episode_3_all",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "夏建国_嗓音与喉部状态",
+      "state": "3-1-01急火攻心干咳沙哑 -> 3-1-14饮下原汤嚼完毛肚 -> 3-1-18起嗓音恢复洪亮清透",
+      "scope": "episode_3_all",
+      "since_shot": "3-1-01"
+    },
+    {
+      "entity": "夏建国_铁炒勺",
+      "state": "2-3-11持于左手 -> 3-1-01换持于右手（小幅换手）-> 3-1-04 [Shot 3]在桌面上突变为大黑铁锅旁的金属圆球状异物，随后离手消失",
+      "scope": "ep03_scene01",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "叶寻_军绿色帆布背包",
+      "state": "2-3-11拎于右手 -> 3-1-01缺失 -> 3-1-04重现于前景柜台 -> 3-2-01/08/11/14[Shot 1]斜挎于左肩（3-2-11将白纸字据塞入背包袋）-> 3-2-14[Shot 3]、3-2-17、3-2-20连续三镜丢失 -> 3-2-23重现于左肩",
+      "scope": "episode_3_all",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "粗布草本药包",
+      "state": "2-3-11至3-1-04置于前厅木柜台 -> 3-1-04末由叶寻捧入后厨 -> 3-1-08 [Shot 1]解开倒入铁锅温油，[Shot 2]药材形态突变为绿色针叶且油锅凭空出现大量整颗红辣椒，牛油方块呈亮黄方片",
+      "scope": "ep03_scene01",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "紫铜子母鸳鸯锅",
+      "state": "标准资产为内外双层子母铜锅（内白汤外红汤，双铜耳）。3-1-08 [Shot 3]及3-1-11 [Shot 3]均丢失内胆变成单腔锅；3-1-14 [Shot 1]恢复正确子母锅；3-1-21 [Shot 3]突变为老北京高烟囱铜锅；3-1-24 [Shot 1]-[Shot 3]正确但[Shot 4]内胆再度消失",
+      "scope": "ep03_scene01",
+      "since_shot": "3-1-08"
+    },
+    {
+      "entity": "试汤瓷碗",
+      "state": "3-1-11 [Shot 3]为青花碗（且桌面另多出一只已盛汤的复制碗）-> 3-1-14变为纯白瓷碗 -> 3-1-14饮尽并留空碗于3-1-18桌面",
+      "scope": "ep03_scene01",
+      "since_shot": "3-1-11"
+    },
+    {
+      "entity": "夏氏小厨前厅_空间拓扑与时代陈设",
+      "state": "2-3-11柜台在右、传菜口在后左、楼梯蓝帘在后右。3-1-01保持后墙不变却将柜台与叶寻水平翻转至左、夏建国翻转至右，并凭空长出高大银色现代冰箱；3-1-04 [Shot 3]后墙突变为塑料帘门+白色分体空调；3-1-14挂钟指针物理错乱；3-1-24 [Shot 2]-[Shot 3]左上墙突现白色分体空调",
+      "scope": "ep03_scene01",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "陈伯_蒲扇与二十元钞票",
+      "state": "3-1-11持蒲扇趴厨房窗；3-1-21 [Shot 1]-[Shot 2]持蒲扇与20元纸币拍在窗台后收回；3-1-21 [Shot 3]过肩剪影蒲扇消失且衬衫由米黄变为浅灰",
+      "scope": "ep03_scene01",
+      "since_shot": "3-1-11"
+    },
+    {
+      "entity": "合伙字据（白纸）与签字黑笔",
+      "state": "3-1-24 [Shot 2]从柜台拿来空白白纸与合盖黑笔 -> [Shot 3]叶寻已拔帽持笔 -> [Shot 4]切反打后黑笔重置回未拔帽状态且空白纸瞬变为已印满文字的成文 -> 3-2-01叶寻右手持折叠白纸 -> 3-2-11 [Shot 2]塞入军绿背包袋",
+      "scope": "ep03_scene01_to_02",
+      "since_shot": "3-1-24"
+    },
+    {
+      "entity": "林记旧木匾",
+      "state": "3-2-01 [Shot 2]位于东侧石板路面鞭炮屑中，[Shot 3]被赵帆右脚踩断为两截",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-01"
+    },
+    {
+      "entity": "红皮金角聘书",
+      "state": "3-2-04由林双双交予赵帆 -> 3-2-17赵帆手持 -> 3-2-20赵帆夹于左腋下 -> 3-2-23在赵帆身上丢失",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-04"
+    },
+    {
+      "entity": "红白扩音小喇叭",
+      "state": "3-2-04楚南左手持 -> 3-2-08楚南右手举起喊话 -> 3-2-11及3-2-23 [Shot 1]楚南右手垂持于身侧",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-04"
+    },
+    {
+      "entity": "夏记棕色硬皮账本",
+      "state": "3-2-01夏芊芊怀抱 -> 3-2-11 [Shot 2]抱于胸前，[Shot 3]被叶寻翻开时变形为薄米色软面册 -> 3-2-14展开核账后合上 -> 3-2-17紧张抱于胸前 -> 3-2-20 [Shot 2]在冲突现场突变为摊开阅读态",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-01"
+    },
+    {
+      "entity": "夏记门口长柄铁锹与门脸招牌",
+      "state": "3-2-01靠于西侧木门框内左侧（门头无牌匾）-> 3-2-20 [Shot 2]移至门框右侧且门头上空凭空多出AI乱码红匾“林炜塔/环炜塔”，夏建国抓起铁锹被叶寻接手 -> 3-2-23叶寻提锹踏上沙石堆顶",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-01"
+    },
+    {
+      "entity": "夏记门口水泥沙石堆",
+      "state": "3-2-17由两名工人推铁皮斗车倾倒堵门（但[Shot 2]-[Shot 3]误将背景切至石阶巷道而非木店门台阶）-> 3-2-20及3-2-23高堆堵在西侧夏记门口台阶",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-17"
+    }
+  ],
+  "shots": [
+    {
+      "id": "3-1-01",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.0-00:03.2",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "HIGH",
+          "description": "跨集类型A零时差连续切（2-3-11 -> 3-1-01）发生空间刚体布局左右镜像翻转：2-3-11末帧面对同一后墙（传菜口在后左、蓝布帘楼梯在后右）时，木柜台与叶寻在右、夏建国在左；3-1-01_1k.png后墙未转（楼梯蓝帘仍在后右），却将木柜台与叶寻硬翻至左、夏建国翻至右，同时叶寻右手拎的军绿背包消失，夏建国铁炒勺由左手换至右手。"
+        },
+        {
+          "timestamp": "00:02.0-00:08.5",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 1]后半段至[Shot 2]夏芊芊身后凭空生成一台高大银色现代双门冰箱（2-3-11及3-1-01_1k.png均无此现代家电），且[Shot 2]叶寻全句对白“夏叔，急火攻心，嗓子眼疼得像吞刀片吧”（04.48s-08.51s）在叶寻完全出画状态下播完（仅07.8s顶边露出一丝头发），缺失说话口型在画锚定。（注：00.42s-00.80s VAD提示声实为剧本指定的干咳动作，非杂音）"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "先用Spark H3 Image以2-3-11空间布局（后墙传菜口在左、蓝帘楼梯在右、木柜台与叶寻在右、夏建国与餐桌在左，叶寻身旁保留军绿背包）重绘3-1-01_1k.png首帧；再重写[Shot 2]运镜与时间窗，严禁在后墙生成银色现代冰箱，并让叶寻肩部与侧脸入画说出诊断台词。"
+    },
+    {
+      "id": "3-1-04",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:05.8-00:14.4",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "[Shot 2]（05.8s-09.5s）起前厅木餐桌上凭空出现一口大黑炒锅；[Shot 3]（09.8s-14.4s）更进一步失控：餐桌上大黑锅旁出现一个畸形银色圆球物体，夏建国未按剧本“搁下铁炒勺”，而是手握并歪斜那个银色圆球；同时后墙Spatial Epoch几何彻底漂移——传菜口消失，变成挂塑料门帘的门洞且门框上方凭空冒出一台白色分体空调，前柜台上的军绿背包也随之消失。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-1-04_1k.png首帧基本可用；重写[Shot 2]与[Shot 3]提示词，强制[Shot 3]挂载前厅Spatial Epoch母图锁死后墙传菜口、门帘与无空调布局，明确清除餐桌上的黑锅与银色圆球异物，令夏建国将手中铁炒勺平放桌面，叶寻捧草本包（可保留背包于柜台）走向传菜口旁后厨门。"
+    },
+    {
+      "id": "3-1-08",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:03.5-00:06.5",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 2]锅内物质逻辑断裂：[Shot 1]（00.0s-03.3s）铁锅中仅为清亮黄油与核桃/菌菇类干料；切入[Shot 2]俯拍后油面瞬间变红且环绕大量整颗鲜红辣椒，漏勺中滤出的草药也变为翠绿迷迭香状针叶，投入的白色牛油方块紧接着变成一块亮黄色芝士片状方形物。"
+        },
+        {
+          "timestamp": "00:06.5-00:09.4",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "[Shot 3]厨房空间与核心道具资产双双穿帮：[Shot 1]原本是红砖炒灶+带铁栏杆的高窗+木货架后厨；[Shot 3]摇镜时整个厨房突变为现代亮面不锈钢燃气灶台+紧贴灶台的对开玻璃窗，窗外出现不符重庆老街风貌的北方灰砖红门四合院，且紫铜子母鸳鸯锅丢失中心白汤内胆，变成了单腔普通铜锅。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-1-08_1k.png首帧与红砖灶后厨一致，无需重绘首帧；重写[Shot 2]-[Shot 3]并挂载后厨砖灶环境与紫铜子母鸳鸯锅（dffa9e8a_main_1k.png）作为参考，禁止生成整颗红椒与绿针叶，保持红砖灶台结构、双层子母铜锅造型及与3-1-11一致的重庆老巷窗景。"
+    },
+    {
+      "id": "3-1-11",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:07.2-00:11.5",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "MEDIUM",
+          "description": "[Shot 3]锚点图3-1-13_aux_1k.png未匹配标准资产“紫铜子母鸳鸯锅”（缺失中心白汤内胆，变成单腔红汤铜锅），且碗具画成青花瓷碗（与剧本及3-1-14的纯白瓷碗不符），桌面左侧已预先放着一碗盛好红汤的重复碗。"
+        },
+        {
+          "timestamp": "00:08.5-00:11.5",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "08.0s时叶寻左手持金属汤勺，08.8s切近景时左手汤勺瞬间跳切消失并凭空变成一只已盛半碗汤的青花碗；随后仅夹入1大片毛肚（剧本要求两片鲜毛肚），与左侧桌上另一碗红汤构成道具复制感。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "参考dffa9e8a_main_1k.png重绘3-1-13_aux_1k.png，确保灶上为正宗内外双格紫铜子母鸳鸯锅、桌旁仅放一只空纯白瓷碗（移除多余青花汤碗）；重写[Shot 3]动作顺序，连贯表现先舀汤入白碗再以竹筷涮两片鲜毛肚入碗，杜绝汤勺瞬变汤碗的跳切。"
+    },
+    {
+      "id": "3-1-14",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:07.46-00:07.71",
+          "category": "AUDIO_ONLY_DEFECT",
+          "severity": "MEDIUM",
+          "description": "Silero-VAD及原生音轨核查检出[Shot 3]非对白吃播区间（07.46s-07.71s，peak_vad=0.91）存在计划外人声哼鸣/喉音杂音，09.1s伴随略显生硬的吞咽喘气音。"
+        },
+        {
+          "timestamp": "00:10.0-00:12.2",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 4]墙上挂钟走时逻辑错误：[Shot 1]与[Shot 4]起点挂钟均为10:10，但[Shot 4]未体现分针顺走10分钟至10:20，反而分针仅微动至10:11左右，时针却从10点反常跳越至11点半位置。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-1-14_1k.png首帧完美；重写[Shot 3]-[Shot 4]提示词，明确要求夏建国全程闭口咀嚼严禁发出任何哼声/喉音，并精确指令挂钟在10:10起点上时针固定于10点区、分针平滑顺时针从数字2走至数字4（10:20）。"
+    },
+    {
+      "id": "3-1-18",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:11.5-00:12.26",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "[Shot 3]尾句台词硬截断：夏芊芊台词“爸，你听你说话，嗓子不劈也不哑了”因[Shot 3]起句过晚（09.18s才开说），至12.06s-12.26s片尾时直接在“哑”字上截断，丢失尾字“了”（且缺乏句尾闭口余量）。"
+        },
+        {
+          "timestamp": "00:08.0-00:12.26",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "LOW",
+          "description": "[Shot 3]视线轴线偏差：夏芊芊全程直视正前方摄像机镜头欢呼，未按剧本朝向画面下方/右方坐着的父亲夏建国。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-1-18_1k.png首帧正常；压缩[Shot 1]推镜至0.1s-1.8s，将夏建国对白提前至2.0s-7.0s，使夏芊芊[Shot 3]于7.5s准时开口并在11.0s前说完整句（留足>=1.0s句尾闭口缓冲），同时指令夏芊芊视线略向右下角低看父亲。"
+    },
+    {
+      "id": "3-1-21",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:11.8-00:12.26",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "[Shot 3]尾句台词严重截断（Silero-VAD报告SPEECH_TRUNCATED，12.26s处tail_vad_prob=0.47）：叶寻台词“头一顿请您白吃”在12.1s刚刚说到“白”字即遭片尾硬切断，完全丢失“吃”字。"
+        },
+        {
+          "timestamp": "00:07.5-00:12.26",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 3]核心道具资产突变与人物连戏瑕疵：桌上的紫铜子母鸳鸯锅突变为带高耸锥形金属烟囱的老北京铜火锅；前景过肩陈伯背影失去了蒲扇且POLO衫颜色由米黄变为浅灰。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-1-21_1k.png首帧可用；收紧[Shot 1]-[Shot 2]使陈伯于6.3s前结束，[Shot 3]叶寻于6.8s开讲并在11.0s前收口（留>=1.0s余量）；并在[Shot 3]显式绑定<Picture 4>紫铜子母鸳鸯锅（无烟囱、双格铜锅），保持前景陈伯米黄上衣与手持蒲扇。"
+    },
+    {
+      "id": "3-1-24",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:03.5-00:14.8",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "多处连戏与空间穿帮：（1）[Shot 2]-[Shot 3]（03.5s-11.5s）后墙左上方凭空出现白色分体空调，传菜口形态亦漂移；（2）[Shot 3]（06.0s-11.5s）叶寻右手已经拔开黑笔笔帽悬于空白白纸上方，切至[Shot 4]（12.0s）反打时黑笔又重置回带帽状态由叶寻重新拔帽，且桌上原本空白的白纸瞬间变成已密密麻麻印满文字的成文；（3）[Shot 4]桌角紫铜子母锅突跳至左下角且内胆消失。"
+        },
+        {
+          "timestamp": "00:00.22-00:00.77",
+          "category": "AUDIO_ONLY_DEFECT",
+          "severity": "LOW",
+          "description": "Silero-VAD检出片头拍大腿动作伴随轻微计划外人声闷哼/吸气声（00.22s-00.77s，peak_vad=0.81）。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-1-24_1k.png首帧正常；重写[Shot 1]-[Shot 4]指令：确保[Shot 1]只保留纯粹清脆拍腿声无哼声；[Shot 2]-[Shot 4]锚定前厅母图严禁左上角长出空调；[Shot 3]纸张保持空白、黑笔仅在[Shot 4]拔帽或保持已拔帽状态且纸面保持空白待写，锁定左下/桌中紫铜子母锅双格造型。"
+    },
+    {
+      "id": "3-2-01",
+      "cut_type_from_prev": "C",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-04",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-08",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.05-00:10.26",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "成片时长严重缩水（计划14s，实际仅10.261s）导致两项致命故障：（1）楚南举喇叭台词“对门冷锅冷灶的趁早关张吧”在10.05s刚念完“关张”即遭硬切断，彻底丢失尾字“吧”（Silero-VAD因尾帧恰余0.21s空白而漏报）；（2）整个[Shot 3]（11.8s-14.0s，西侧台阶三人紧张对峙反应镜头）完全缺失。（注：[Shot 1]叶寻心声vo_custom双轨隔离清晰无误）"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-2-08_1k.png与3-2-09_aux_1k.png锚点清晰；必须以完整14s规格重跑并调整时间轴：[Shot 1]压缩至0s-4.0s（兼容4.0s内VO），[Shot 2]楚南于4.3s-10.2s念完含“关张吧”在内的全句，留10.8s-14.0s完整呈现[Shot 3]夏氏小厨台阶三人反应镜头。"
+    },
+    {
+      "id": "3-2-11",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:09.2-00:13.69",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 3]存在道具形态突变与突兀音效：（1）05.0s-10.0s夏芊芊怀抱厚实的深棕色硬皮账本，11.0s-13.6s叶寻上手翻开瞬间，账本突变为薄薄的浅米黄色软面小册子；（2）09.2s-09.8s叶寻仅轻抬左臂拦在夏建国胸前，音轨却发出两声极度突兀的清脆抽打/拍掌音效；（3）3-2-12_aux_1k.png站位由3-2-01的门口石阶微移至街边平地砖灶旁（与前后镜头石阶位置略不一致）。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-2-11_1k.png正常；重写[Shot 3]（09.5s-13.0s），明确保持同一本厚实深棕色硬皮账本被翻开（禁用薄浅色册子变形），删除[Shot 3]手臂拦截时的多余拍打音效，仅保留安静的书页翻动声。"
+    },
+    {
+      "id": "3-2-14",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.0-00:15.10",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "[Shot 3]发生严重场景几何跳切、AI乱码牌匾及随身背包丢失：（1）[Shot 1]-[Shot 2]机位沿老街纵深拍摄，切入[Shot 3]时摄像机平转面向店铺正门，却将3-2-01中质朴无字牌的夏记木门面完全替换为另一家陌生木门面，且门头上空赫然悬着一块清晰可见的AI乱码金字黑匾（“詹固脏档”等错乱汉字），严重违反无文字画面与场景刚体守恒；（2）叶寻左肩的军绿帆布背包（[Shot 1]尚在、且内藏字据）在[Shot 3]完全消失。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-2-14_1k.png首帧可用；重写[Shot 3]使其锚定老街Spatial Epoch母图与3-2-01店门石阶结构，保持三人顺着台阶与老街斜向构图，严禁门头出现任何文字牌匾，并明确保留叶寻左肩的军绿帆布背包。"
+    },
+    {
+      "id": "3-2-17",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.0-00:03.0",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "MEDIUM",
+          "description": "3-2-17_1k.png首帧丢失叶寻左肩的军绿色帆布背包（与3-2-01/08/11/14[Shot 1]及3-2-23冲突）；同时[Shot 1]（00.0s-03.0s）人工手推铁皮斗车竟配成了突突作响的拖拉机/摩托车发动机马达声。"
+        },
+        {
+          "timestamp": "00:03.0-00:11.55",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 2]-[Shot 3]空间拓扑脱离夏记门面：工人倒沙及夏芊芊怒斥时的背景不再是3-2-17_1k.png的木质铺面门前横向三步石阶，而是变成了带石栏杆的巷道纵向爬坡石梯；另夏芊芊台词收尾于11.36s（总长11.55s），句尾闭口缓冲略紧。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "重绘3-2-17_1k.png为叶寻左肩补回军绿帆布背包；重写[Shot 1]-[Shot 3]提示词，指定纯粹铁轮滚石板声与砂石倾泻声（严禁发动机马达声），强制[Shot 2]-[Shot 3]锁定夏记木店门前台阶及门柱旁长柄铁锹，并将夏芊芊台词提前至5.6s-10.2s留出>=1.0s句尾缓冲。"
+    },
+    {
+      "id": "3-2-20",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:06.2-00:12.26",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "音画时序严重错位并导致尾句腰斩（对应Silero-VAD报告MISSING_SCHEDULED_SPEECH及两段UNSCHEDULED_VOCAL_NOISE）：计划[6.2s-9.4s]夏建国怒吼窗口全程静默无声，拖延至10.08s切入[Shot 3]叶寻夺锹特写后夏建国才突然开口吼叫，结果12.03s刚刚吼到“蹬鼻子上脸是吧，我跟你们拼——”即被片尾硬切断，丢失“了”字。"
+        },
+        {
+          "timestamp": "00:05.0-00:12.26",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "[Shot 2]-[Shot 3]多重画面穿帮：（1）门头上空再次凭空生成一块AI乱码红底黑字匾额（形似“林炜塔/环炜塔”）；（2）长柄铁锹从3-2-01的左门柱移至右门柱，且在门口刚被沙堆堵死、父亲暴怒抢铁锹的危机下，夏芊芊竟站在门边悠闲地把厚账本摊开低头阅读；（3）叶寻左肩军绿帆布背包再度缺失。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "3-2-20_1k.png（[Shot 1]赵帆）完美；重写[Shot 2]-[Shot 3]并挂载3-2-01干净门面作为空间参考：严禁门头生成任何文字牌匾；令夏芊芊紧抱合拢的棕色账本神色焦急；保持叶寻左肩军绿帆布背包；要求夏建国于6.0s抓锹同时立即吼出完整台词并在9.5s前说完，10.0s-12.5s由叶寻静默稳稳接过铁锹。"
+    },
+    {
+      "id": "3-2-23",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:05.0-00:13.50",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "时间轴严重滞后与画外抢拍串镜（对应Silero-VAD 11.74s-13.50s UNSCHEDULED_VOCAL_NOISE）：[Shot 1]狂笑占到3.2s（原计划2.0s），导致[Shot 3]赵帆台词（原计划5.0s-10.3s）被推迟至8.54s-13.50s；当10.5s画面早已切入[Shot 4]叶寻抿嘴蓄势的静默特写时，画外仍持续传来赵帆“来，往这儿拍，动一下赔十万”的台词直到13.50s（距片尾仅0.19s），彻底毁掉集尾无声悬念定格。（注：01.44s-02.46s VAD提示实为[Shot 1]剧本要求的嘲讽大笑，非杂音）"
+        },
+        {
+          "timestamp": "00:05.0-00:10.5",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "LOW",
+          "description": "跨镜道具状态丢失：自3-2-04起一直随身携带且在紧邻前镜3-2-20仍夹在赵帆左腋下的红皮金角聘书，在3-2-24_aux_1k.png及本镜中完全消失。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "更新3-2-24_aux_1k.png在赵帆左腋下补回红皮聘书（或左手夹持）；重写时间轴：严格限制[Shot 1]嘲笑在0s-2.0s内结束，[Shot 2]叶寻踏上沙堆插锹在2.0s-4.0s完成，[Shot 3]赵帆于4.2s立即拍胸开讲并在10.0s前说完整句“动一下赔十万”，留10.2s-13.0s给[Shot 4]叶寻纯静默压迫特写与木柄吱呀声。"
+    }
+  ]
+}

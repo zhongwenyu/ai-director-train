@@ -1,0 +1,411 @@
+{
+  "episode": 2,
+  "audit_model": "gemini-4-hydrogen-high",
+  "cross_episode_prev_shot": {
+    "shot_id": "1-3-21",
+    "video_path": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep01/1-3-21/video.mp4",
+    "end_state_summary": "叶寻站在门外下级石阶（画面左侧，面朝右），深蓝外套+白T+黑裤+黑白板鞋，右肩背军绿色帆布书包，左腕戴一块黑色塑料电子表；林双双站在上级石阶（画面右侧，面朝左），米白西装短裙套装+高跟鞋，左腕戴金色细表/手链，右手紧攥叶寻右肩军绿色书包带；身后左侧为敞开的木格栅火锅店门（可见室内红砖灶台与木桌），右侧为上坡青石阶巷道。",
+    "initial_entity_ledger": [
+      {
+        "entity": "ye_xun_army_green_backpack",
+        "state": "worn_on_right_shoulder_strap_clutched_by_lin_shuangshuang_right_hand",
+        "scope": "scene_2_1_exterior",
+        "since_shot": "1-3-21"
+      },
+      {
+        "entity": "ye_xun_black_digital_watch",
+        "state": "worn_on_ye_xun_left_wrist",
+        "scope": "global_episode_2",
+        "since_shot": "1-3-21"
+      },
+      {
+        "entity": "lin_shuangshuang_gold_wrist_watch",
+        "state": "worn_on_lin_shuangshuang_left_wrist",
+        "scope": "scene_2_1_exterior",
+        "since_shot": "1-3-21"
+      },
+      {
+        "entity": "lin_shop_wooden_doors_and_alley_layout",
+        "state": "open_doorway_on_screen_left_brick_stove_inside_uphill_alley_on_screen_right",
+        "scope": "scene_2_1_exterior",
+        "since_shot": "1-3-21"
+      }
+    ]
+  },
+  "summary": {
+    "total_shots": 12,
+    "passed": 1,
+    "failed": 11,
+    "pass_ids": [
+      "2-2-07"
+    ],
+    "fail_ids": [
+      "2-1-01",
+      "2-1-04",
+      "2-1-08",
+      "2-1-11",
+      "2-1-14",
+      "2-2-01",
+      "2-2-04",
+      "2-3-01",
+      "2-3-05",
+      "2-3-08",
+      "2-3-11"
+    ],
+    "cross_shot_systemic_root_causes": [
+      "手表不可逆状态跃迁失守：2-1-04 叶寻解下左腕唯一黑色电子表交还林双双后，(1) 2-1_post_watch_master_1k.png 导致林双双在 2-1-08/2-1-11/2-1-14 出现“手中攥一块黑表 + 左腕再戴一块黑表”的双表复制穿帮；(2) 叶寻人物正面资产图左腕带表未抹除，导致 2-1-14 尾镜、2-2-04（变异为银色腕表）、2-3-01、2-3-05、2-3-08、2-3-11 全链条锚点图把手表重新画回叶寻左腕。",
+      "书包带松手时序矛盾：2-1-08 末镜林双双已松开书包带，2-1-11 尾镜又重新抓回并在画面内自行松手，2-1-14 首镜又再次抓回待叶寻抽离。",
+      "招工纸去向跨镜矛盾：2-2-01 夏芊芊撕下招工纸后直接掉落石阶地面，但 2-2-04 左手捏纸、2-2-07 右手捏纸藏身后。",
+      "后半段多镜尾音压线截断：2-1-04(0.160s)、2-1-08(0.192s)、2-3-05(0.192s，实听'帮双双吗'尾字被硬切)、2-3-08(0.192s，口型仍张开于'野路子'尾音被硬切) 均跌破 0.22s 安全尾留阈值。",
+      "现代家电穿帮：2-3-05 00:10-00:14 夏芊芊身后凭空出现现代发光玻璃门饮料冰柜与铝合金推拉玻璃门，违反 2005 年代设定。"
+    ]
+  },
+  "shots": [
+    {
+      "id": "2-1-01",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:03-00:08",
+          "category": "ACTION_CONTINUITY_DRIFT",
+          "severity": "MEDIUM",
+          "description": "Shot 1 (00:00-00:03) 林双双右手紧攥叶寻胸前肩带的书包带，但切入 Shot 2 (00:03-00:08) 近景过肩时，她右手下移改为抓着叶寻的袖口/手腕，与前后镜攥书包带动作不连贯。"
+        },
+        {
+          "timestamp": "00:08-00:13",
+          "category": "SPATIAL_MIRROR_FLIP",
+          "severity": "MEDIUM",
+          "description": "Shot 3 (00:08-00:13) 楚南倚靠门框时，店面与巷道左右拓扑发生镜像翻转：Shot 1 显示店铺敞开大门在画左、上坡青石巷在画右，而 Shot 3 变成红漆木门框在画左、店铺室内在画右、上坡巷道在画左中（且 00:08-00:10 左下角边缘残留一截虚焦米白衣袖遮挡）。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "保留干净的 2-1-01_1k.png 作为首帧，修改视频 Prompt：1) 在 [Shot 2] 明确指定林双双右手始终在胸口高度紧攥叶寻的军绿色帆布书包带并轻拽，严禁下移抓手腕；2) 在 [Shot 3] 明确锁定楚南倚靠店铺右侧红木门柱、其身后左侧为店铺室内而右侧为上坡青石台阶（与 <Picture 1> 空间左右关系一致），去掉左下角无关前景衣袖遮挡。"
+    },
+    {
+      "id": "2-1-04",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00-00:03",
+          "category": "ANCHOR_BACKGROUND_STATE_DRIFT",
+          "severity": "HIGH",
+          "description": "Shot 1 及首帧 2-1-04_1k.png 中，林双双身后的木门是完全关闭的深色双扇木门；而上一镜 2-1-01 及本镜 Shot 3 (00:07-00:10) 中该店铺大门均处于完全敞开状态（可见室内桌椅与砖灶），同场零时差连续切出现门扇开关突变。"
+        },
+        {
+          "timestamp": "00:07-00:14",
+          "category": "ENTITY_CONSERVATION_FAULT",
+          "severity": "HIGH",
+          "description": "双份手表复制穿帮：Shot 2 (00:04-00:06) 叶寻从左腕解下黑塑料电子表，但切回 Shot 3 (00:08-00:10) 后叶寻用左手拍击林双双左掌，且 00:09-00:10 叶寻左腕上依然戴着一块黑色手表；紧接着 Shot 4 (00:11-00:14) 林双双左掌中也拿着一块黑色手表（同时左腕保留金色手表），同一块表在交接后分裂为两块。"
+        },
+        {
+          "timestamp": "00:11-00:15",
+          "category": "PROP_COLOR_DRIFT_AND_TIGHT_TAIL",
+          "severity": "MEDIUM",
+          "description": "Shot 4 (00:11-00:14) 左前景叶寻肩上的书包带偏色为棕褐色（应为军绿色帆布带）；且林双双尾句“你敢提分手”于 14.944s 结束（总长 15.104s，尾部仅余 0.160s 静默，紧压截断红线）。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) REBUILD_ANCHOR_IMAGE：以 2-1-01_1k.png 的敞开店铺木门为背景重绘 2-1-04_1k.png（保持大门敞开、室内桌椅砖灶与石阶一致，林双双右手攥书包带、左手摊掌，不得出现关闭木门）；2) REWRITE_PROMPT_TIMELINE：在 [Shot 3] (7.3s-11.0s) 明确描写叶寻左腕完全光裸无表，右手将已摘下的黑塑料表拍入林双双左掌，同时将 [Shot 4] 台词窗口前移至 11.2s-14.1s（留足 >= 0.9s 闭口余量）并锁定前景书包带为军绿色。"
+    },
+    {
+      "id": "2-1-08",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00-00:03",
+          "category": "PROP_DRIFT_IN_ANCHOR",
+          "severity": "MEDIUM",
+          "description": "Shot 1 及首帧 2-1-08_1k.png 中叶寻书包带从军绿色帆布变成土黄色带凸点织带，且 2-1-08_1k.png 右下角边缘仍露出黑色表缘。"
+        },
+        {
+          "timestamp": "00:04-00:13",
+          "category": "ENTITY_CONSERVATION_FAULT",
+          "severity": "HIGH",
+          "description": "严重双表复制与持物左右手跳变：受共用母图 2-1_post_watch_master_1k.png 污染，林双双在 Shot 2 (00:04-00:06) 与 Shot 3 (00:07-00:13) 中左腕赫然戴着第二块大号黑色运动表（顶替了原有的金色细表），同时手中还另攥着一块黑色手表；且 Shot 2 她用右手把黑表攥在胸前，切到 Shot 3 瞬间变成左手在领口举着黑表、右手先向前伸出再放下。"
+        },
+        {
+          "timestamp": "00:12-00:13",
+          "category": "SPEECH_TRUNCATED",
+          "severity": "HIGH",
+          "description": "尾句余量不足：叶寻尾句“赶紧给人请来啊”持续至 13.504s（视频总长 13.696s），片尾仅余 0.192s（低于 0.22s VAD 门禁阈值且远小于 0.8s 安全余量），尾音结束极仓促。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) REBUILD_ANCHOR_IMAGE：重建共用母图 2-1_post_watch_master_1k.png 与 2-1-08_1k.png：彻底擦除林双双左腕多余的黑色手表（恢复她原本的金色细腕表），仅保留她右手/左手单手紧攥叶寻还回的那唯一一块黑塑料表，叶寻左腕保持完全光裸，且 2-1-08_1k.png 书包带改回军绿色帆布；并与后续 2-1-14 统一书包带抓握状态（建议此处至 2-1-11 全程保持她左手攥唯一黑表、右手仍死拽书包带直到 2-1-14 抽回，或统一全部松开并改写 2-1-14）；2) REWRITE_PROMPT_TIMELINE：锁定 Shot 2 与 Shot 3 持表手一致，并将 Shot 3 台词窗前移收紧至 6.8s-12.0s，留出 >= 1.0s 静默尾余。"
+    },
+    {
+      "id": "2-1-11",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00-00:03, 00:10-00:14",
+          "category": "ENTITY_CONSERVATION_FAULT",
+          "severity": "HIGH",
+          "description": "双黑表穿帮持续：Inherited from 2-1_post_watch_master_1k.png 与 2-1-11_1k.png，林双双在 Shot 1 (00:00-00:03) 右手攥一块黑表、左腕戴另一块黑表；Shot 3 (00:10-00:14) 左手攥一块黑表、左腕仍戴另一块黑表。"
+        },
+        {
+          "timestamp": "00:03-00:09",
+          "category": "AXIS_FLIP_180_AND_ACTION_DESYNC",
+          "severity": "HIGH",
+          "description": "Shot 2 越轴翻转与动作时序脱节：在 Shot 1 及全景中叶寻在左、林双双居中、楚南在林双双右后方，但 Shot 2 (00:04-00:09) 过肩镜头将林双双置于右下前景面向左、楚南置于画面左侧面向右，180度视线轴线完全颠倒；且楚南于 8.48s 说完台词后，直到 00:08.6-00:09.2 才无声拍了两下胸口，动作与台词“拍响胸口大包大揽”脱节。"
+        },
+        {
+          "timestamp": "00:10-00:13",
+          "category": "STATE_TELEPORTATION",
+          "severity": "HIGH",
+          "description": "书包带抓握状态反复跳变：2-1-08 末镜林双双已松开叶寻书包带，但 2-1-11 Shot 3 00:10 开头林双双右手又重新死拽着叶寻的书包带（因参考了 2-1_post_watch_master_1k.png），随后 00:11-00:12 她右手在无人抽离的情况下自行松手垂下。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) REBUILD_ANCHOR_IMAGE：在清理后的 2-1_post_watch_master_1k.png 基础上重建 2-1-11_1k.png（擦除林双双左腕多余黑表、保持唯一黑表握于单手，并按全集统一后的书包带抓握状态锁定姿势）；2) REWRITE_PROMPT_TIMELINE：重编 [Shot 2] 过肩机位为“林双双居左前景背影面朝右、楚南居画面右侧门框旁面朝左”以守住 180 度轴线，并让拍胸动作发生在台词中段 (5.5s-6.5s)；重编 [Shot 3] 禁止出现莫名自行松手。"
+    },
+    {
+      "id": "2-1-14",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00-00:08",
+          "category": "ENTITY_CONSERVATION_FAULT",
+          "severity": "HIGH",
+          "description": "双黑表穿帮与跨镜抓握矛盾：林双双在 Shot 1 (00:00-00:02) 与 Shot 2 (00:03-00:08) 依然左腕戴一块黑表同时左手攥另一块黑表（Shot 2 右下角可见左手指间黑物及左腕黑表）；且 Shot 1 她又抓着叶寻书包带，与 2-1-11 尾镜已松手垂臂矛盾。"
+        },
+        {
+          "timestamp": "00:09-00:13",
+          "category": "ENTITY_RESURRECTION_PHANTOM_WATCH",
+          "severity": "HIGH",
+          "description": "已交还的手表在叶寻腕上复活：在 2-1-14_street_aux_1k.png 及 Shot 3 (00:09-00:13) 远去背影中，叶寻右腕上赫然重新出现一块黑色手表（2-1-04 他已将唯一手表交还林双双），且书包从右肩单肩背 (00:02) 在切镜后瞬移成双肩正背 (00:09-00:13)。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) REBUILD_ANCHOR_IMAGE：基于干净的 2-1_post_watch_master_1k.png 重建 2-1-14_1k.png（林双双仅单手攥唯一黑表、左腕为细金表，且保证 2-1-08/2-1-11/2-1-14 书包带抓握状态一脉相承）；同时重绘 2-1-14_street_aux_1k.png，彻底抹除叶寻腕上的黑色手表并保持书包单挎右肩；2) REWRITE_PROMPT_TIMELINE：在 [Shot 3] 明确锁定叶寻双腕光裸无表、单肩背军绿色书包跨过青石街。"
+    },
+    {
+      "id": "2-2-01",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:01-00:02",
+          "category": "PROP_DISCONTINUITY",
+          "severity": "HIGH",
+          "description": "撕下的旧招工纸脱手掉落地面：Shot 1 (00:01-00:02) 夏芊芊从木柱撕下招工纸后松手让其直接掉落在石阶地面上，与后续 2-2-04（她手里仍紧攥着该纸条）及 2-2-07（她手里拿着揉皱的招工纸并慌忙藏到身后）直接冲突。"
+        },
+        {
+          "timestamp": "00:10-00:12",
+          "category": "ACTION_BLOCKING_MISS",
+          "severity": "MEDIUM",
+          "description": "Shot 3 结尾 (00:10-00:11) 混混伸出右手去抓夏芊芊左小臂时，手掌实际越过她手臂抓在了身后的木门柱上而非精准扣住她左小臂，导致与 2-2-04 叶寻凌空扣住混混手腕的起势衔接略显别扭。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "保留 2-2-01_1k.png，修改视频 Prompt：1) 在 [Shot 1] (0.1s-2.3s) 明确要求夏芊芊撕下旧招工纸后立刻用右手攥紧留在掌心并自然垂于身侧，严禁松手掉在地面上（确保与 2-2-04、2-2-07 手持招工纸闭环）；2) 在 [Shot 3] (10.2s-12.0s) 明确描写混混右手从正前方伸出直接扣向夏芊芊左前臂中段，不要绕后抓门柱。"
+    },
+    {
+      "id": "2-2-04",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:02-00:13",
+          "category": "ENTITY_RESURRECTION_PHANTOM_WATCH",
+          "severity": "HIGH",
+          "description": "幻影银表穿帮：2-2-04_1k.png 及视频 Shot 2 (00:02-00:07)、Shot 3 (00:08-00:13) 中，叶寻左腕凭空多出一块银色金属腕表/腕带（他在 2-1-04 已将唯一的塑料电子表送还林双双，此后应双手腕光裸）。"
+        },
+        {
+          "timestamp": "00:00-00:13",
+          "category": "HAND_CONTINUITY_FLIP",
+          "severity": "HIGH",
+          "description": "扣腕左右手三段跳变：Shot 1 (00:00-00:01) 叶寻用右手抓混混右臂；切入 Shot 2 (00:02-00:07) 突然变成叶寻用左手死死扣住混混右手腕；切入 Shot 3 (00:08-00:13) 又瞬间切换回叶寻用右手拎着混混右手指/手腕。"
+        },
+        {
+          "timestamp": "00:00-00:13",
+          "category": "PROP_HAND_AND_ACTION_TIMING",
+          "severity": "MEDIUM",
+          "description": "1) 夏芊芊全程用左手把折叠纸条举在胸/颈侧（与 2-2-01 掉落及 2-2-07 右手捏纸不统一）；2) Shot 3 (00:08-00:11) 混混说完整句狠话“少管闲事，守着这冷灶台等关张吧”期间仍被叶寻捏着手，直到 00:11 话毕才甩开溜走，未按计划在 8.2s 先甩脱腕部。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) REBUILD_ANCHOR_IMAGE：重绘 2-2-04_1k.png，彻底抹除叶寻左腕上的银色腕表/手环，并明确由叶寻左手扣住混混右手腕，同时将夏芊芊手中的招工纸统一挪至她垂于身侧的右手（对接 2-2-01 与 2-2-07）；2) REWRITE_PROMPT_TIMELINE：锁定 Shot 1/2 全程统一用左手扣腕（如在 Shot 1 0.1s-2.4s 完成左手跨步扣腕），并在 [Shot 3] 8.0s-8.5s 让混混先挣脱手腕退下台阶再喊出威胁台词。"
+    },
+    {
+      "id": "2-2-07",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": "NONE",
+      "fix_recipe": "无须修改。音画对齐极佳：Shot 1 (00:00-00:07) 夏芊芊右手拿着揉皱招工纸并自然藏到身后，完整念完“小寻，今天没课啊，怎么跑这儿来了”后于 7.5s 干净切入 Shot 2；Shot 2 (00:08-00:13) 叶寻全程闭口凝视、无嘴型错位或多余人声，独立 VO（上辈子林双双搞垮夏家逼你们远走，这回有我在）于 12.576s 完整收束，尾部留余 1.12s，左右视线轴线与服装均一致。"
+    },
+    {
+      "id": "2-3-01",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:04-00:07",
+          "category": "ENTITY_RESURRECTION_PHANTOM_WATCH",
+          "severity": "HIGH",
+          "description": "幻影黑表穿帮：2-3-01_1k.png 左袖口隐约露表带，导致 Shot 2 (00:04-00:07) 叶寻左腕搭在柜台旁时清晰戴着一块黑色手表，违反 2-1-04 摘表后双手腕光裸状态。"
+        },
+        {
+          "timestamp": "00:13-00:15",
+          "category": "PROP_TELEPORTATION",
+          "severity": "MEDIUM",
+          "description": "Shot 4 (00:13-00:14) 翻开的账本中缝上原本压着一支红色圆珠笔，夏芊芊右手从右向左合上账本的瞬间，红笔凭空消失不见（既未先拿开也未掉出/夹出笔尾）。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) REBUILD_ANCHOR_IMAGE：修图清理 2-3-01_1k.png，抹除叶寻左袖口露出的黑色表带；2) REWRITE_PROMPT_TIMELINE：在 [Shot 2] 强调叶寻双腕光裸无表，在 [Shot 4] (13.3s-15.0s) 明确描写夏芊芊先用左手把红色圆珠笔抽离放到账本旁桌面上，再用右手合上账本，消除红笔瞬移消失穿帮。"
+    },
+    {
+      "id": "2-3-05",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00-00:09",
+          "category": "ENTITY_RESURRECTION_PHANTOM_WATCH",
+          "severity": "HIGH",
+          "description": "幻影手表高光特写穿帮：2-3-05_1k.png、2-3-08_1k.png（本镜 Picture 2）及视频 Shot 1 (00:00-00:02)、Shot 2 (00:03-00:09) 均在叶寻左腕醒目画出一块黑带银盘大表，严重违背 2-1-04 已解表交还的状态。"
+        },
+        {
+          "timestamp": "00:09-00:14",
+          "category": "ANACHRONISM_MODERN_APPLIANCE",
+          "severity": "HIGH",
+          "description": "年代穿帮物乱入：Shot 3 (00:10-00:14) 夏芊芊左后方墙壁旁凭空出现一台高大的现代发光玻璃门商用饮料冷藏柜及铝合金玻璃门，严重违背 2005 年小饭馆年代设定，且与 2-3-01、2-3-08、6fb5ec74 母图均冲突。"
+        },
+        {
+          "timestamp": "00:12-00:14",
+          "category": "SPEECH_TRUNCATED",
+          "severity": "HIGH",
+          "description": "尾句硬截断：实听原生音轨 00:13-00:14 夏芊芊台词“这哪行啊，你爷爷留的方子，不是说好拿去帮双双吗”在最后“帮双——”处被视频结尾硬切截断，末字“双吗”未说完即戛然而止（VAD 末段 12.8s-14.208s，距 14.4s 结尾仅 0.192s < 0.22s 门禁）。"
+        },
+        {
+          "timestamp": "00:00-00:14",
+          "category": "PROP_AND_ACTION_DRIFT",
+          "severity": "MEDIUM",
+          "description": "1) 柜台左侧账本由 2-3-01 结尾的一本棕色皮面账本变为叠放的两本深色书本，且 00:02 刚掏出的开口麻布袋在 00:03 切镜后形态突变为系紧的扁平麻布包；2) Shot 3 (00:10-00:13) 夏芊芊双臂全程僵直下垂，未执行“急忙抬左手推辞”的动作指令。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) REBUILD_ANCHOR_IMAGE：重建 2-3-05_1k.png 与 2-3-08_1k.png，彻底擦除叶寻左腕黑色银盘手表并统一柜台仅放一本棕色账本；同时利用 Spark H3 Image 基于 6fb5ec74 母图专门生成一张 2-3-05 Shot 3 反向锚点图（纯白灰墙+木桌椅+深蓝布门帘，零玻璃冰柜与现代电器）；2) REWRITE_PROMPT_TIMELINE：将整条时长增至 15s 或压缩 Shot 1/2 时长，把夏芊芊台词窗前移至 7.8s-13.6s（确保“帮双双吗”完整念完且留出 >= 0.8s 静默余量），并要求她左手抬起急切推辞。"
+    },
+    {
+      "id": "2-3-08",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00-00:03",
+          "category": "ENTITY_RESURRECTION_PHANTOM_WATCH",
+          "severity": "HIGH",
+          "description": "幻影手表穿帮：Inherited from 2-3-08_1k.png，Shot 1 (00:00-00:03) 叶寻按在香料包上的左腕仍佩戴着黑带银盘手表。"
+        },
+        {
+          "timestamp": "00:04-00:07",
+          "category": "ACTION_OMISSION_CURTAIN_TELEPORT",
+          "severity": "MEDIUM",
+          "description": "Shot 2 (00:04-00:06) 未出现“后厨蓝布门帘被猛地掀开、夏建国冲出”的动作，整个 Shot 2 期间蓝布门帘始终静止紧闭，直到 00:07 硬切 Shot 3 后夏建国才直接站在掀开的门帘前。"
+        },
+        {
+          "timestamp": "00:12-00:13",
+          "category": "SPEECH_TRUNCATED",
+          "severity": "HIGH",
+          "description": "尾句压线截断：夏建国台词“改什么野路子”于 13.504s 才结束（总长 13.696s，仅余 0.192s < 0.22s 门禁），画面 00:13 末尾他嘴巴仍处于张开收音瞬间即被硬切。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) REBUILD_ANCHOR_IMAGE：同步使用已擦除叶寻左腕手表的 2-3-08_1k.png；2) REWRITE_PROMPT_TIMELINE：在 [Shot 2] (4.2s-7.0s) 强制让夏建国于 4.8s 推开蓝布门帘跨出前厅引发两人回头，缩短空等；在 [Shot 3] 将夏建国台词窗前移至 7.1s-12.1s 并加句尾闭口锁（留足 >= 1.0s 静默尾余）。"
+    },
+    {
+      "id": "2-3-11",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00-00:03, 00:10-00:14",
+          "category": "ENTITY_RESURRECTION_PHANTOM_WATCH",
+          "severity": "HIGH",
+          "description": "幻影手表特写穿帮：Inherited from 2-3-11_1k.png 与 2-3-13_aux_1k.png，Shot 1 (00:00-00:03) 与 Shot 3 (00:10-00:14) 右前景叶寻按在草本香料包上的左腕赫然戴着黑带银盘手表，与 2-1-04 已还表状态严重矛盾。"
+        },
+        {
+          "timestamp": "00:00-00:14",
+          "category": "SET_AND_COUNTER_PROP_DRIFT",
+          "severity": "MEDIUM",
+          "description": "1) 2-3-11_1k.png 与 2-3-13_aux_1k.png 柜台右侧边缘凭空多出两只装满干料香料的大玻璃罐（前序 2-3-01/05/08 柜台均无此物）；2) 后厨蓝布门帘从 2-3-08 传菜窗左侧的平地门口，漂移到传菜窗右侧一段向上的台阶顶端。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE",
+      "fix_recipe": "本镜台词节奏、人物情绪、视线轴线与静默尾音（10.08s/14.4s）均合格，根因全在两张锚点图。REBUILD_ANCHOR_IMAGE：使用 Spark H3 Image 基于 2-3-08 / 6fb5ec74 空间拓扑重绘 2-3-11_1k.png 与 2-3-13_aux_1k.png——彻底抹除叶寻左腕手表，移除柜台前沿多余的两只玻璃香料罐，并使传菜窗与蓝布门帘相对位置与 2-3-08 保持一致后，原 Prompt 直接重生成。"
+    }
+  ],
+  "final_entity_ledger": [
+    {
+      "entity": "ye_xun_army_green_backpack",
+      "state": "held_on_ye_xun_left_arm_zipped_closed_after_removing_herb_bundle",
+      "scope": "global_episode_2",
+      "since_shot": "2-3-05",
+      "audit_note": "2-1-08_1k.png 与 2-2-07 出现肩带偏土黄色，2-1-14 切镜后单肩瞬移双肩；2-3-05 起挎于左臂。"
+    },
+    {
+      "entity": "ye_xun_black_digital_watch",
+      "state": "removed_by_ye_xun_and_handed_to_lin_shuangshuang_ye_xun_wrists_must_be_bare",
+      "scope": "global_episode_2",
+      "since_shot": "2-1-04",
+      "audit_note": "系统性穿帮重灾区：2-1-04 交还后，2-1-08/11/14 在林双双身上复制成“手中一块+左腕一块”；且 2-1-14 尾镜、2-2-04（变异银表）、2-3-01、2-3-05、2-3-08、2-3-11 在叶寻腕部反复复活。"
+    },
+    {
+      "entity": "lin_shuangshuang_watch_inventory",
+      "state": "gold_wrist_watch_on_left_wrist_plus_single_returned_black_watch_in_hand",
+      "scope": "scene_2_1_exterior",
+      "since_shot": "2-1-04",
+      "audit_note": "2-1_post_watch_master_1k.png 错误将她左腕金表替换并复制为第二块黑表。"
+    },
+    {
+      "entity": "lin_shop_wooden_doors",
+      "state": "wide_open_exposing_interior_tables_and_brick_stove",
+      "scope": "scene_2_1_exterior",
+      "since_shot": "1-3-21",
+      "audit_note": "2-1-04 Shot 1/锚点图错误闭合双扇木门。"
+    },
+    {
+      "entity": "xia_qianqian_torn_recruitment_paper",
+      "state": "torn_from_door_pillar_tucked_behind_back_then_discarded_before_entering_hall",
+      "scope": "scene_2_2_exterior",
+      "since_shot": "2-2-01",
+      "audit_note": "2-2-01 误掉落地面，2-2-04 误持于左手，2-2-07 持于右手并藏于身后。"
+    },
+    {
+      "entity": "xia_eatery_red_ledger_and_pen",
+      "state": "closed_brown_leather_ledger_on_wooden_counter_left_side",
+      "scope": "scene_2_3_interior",
+      "since_shot": "2-3-01",
+      "audit_note": "2-3-01 关本瞬间红笔凭空消失；2-3-05 账本莫名变成两本叠放深色书。"
+    },
+    {
+      "entity": "ye_xun_herb_bundle",
+      "state": "single_twine_tied_coarse_cloth_bundle_resting_on_wooden_counter_under_ye_xun_right_hand",
+      "scope": "scene_2_3_interior",
+      "since_shot": "2-3-05",
+      "audit_note": "全程应保持唯一单包及麻绳束口形态。"
+    },
+    {
+      "entity": "xia_eatery_back_wall_and_appliances",
+      "state": "2005_period_plaster_wall_wooden_tables_pass_through_window_and_dark_blue_curtain_zero_modern_glass_fridge",
+      "scope": "scene_2_3_interior",
+      "since_shot": "2-3-01",
+      "audit_note": "2-3-05 Shot 3 凭空刷出大型现代发光玻璃饮料冰柜；2-3-11 蓝布门帘漂移至楼梯顶且柜台多出两只玻璃罐。"
+    },
+    {
+      "entity": "xia_jianguo_chef_state",
+      "state": "dark_blue_chef_shirt_white_bandage_on_right_wrist_holding_iron_wok_ladle_in_right_hand_left_hand_clutching_swollen_neck",
+      "scope": "scene_2_3_interior",
+      "since_shot": "2-3-08",
+      "audit_note": "实体与服饰在 2-3-08 与 2-3-11 间守恒一致。"
+    }
+  ]
+}

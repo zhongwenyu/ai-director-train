@@ -1,0 +1,313 @@
+{
+  "episode": 1,
+  "cross_episode_prev_shot": null,
+  "summary": {
+    "total_shots": 14,
+    "pass_count": 6,
+    "fail_count": 8,
+    "dispatch_breakdown": {
+      "REWRITE_PROMPT_TIMELINE": 2,
+      "REBUILD_ANCHOR_IMAGE": 1,
+      "PATCH_AUDIO_ONLY": 2,
+      "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE": 3
+    }
+  },
+  "final_entity_ledger": [
+    {
+      "entity": "ceremonial_chef_cap",
+      "state": "Handed from Lin Shuangshuang to Zhao Fan in 1-1-01 and held by Zhao Fan; erroneously duplicated onto silver tray on round table in 1-1-10 Shot 2 (via 1-1_master_4p_1k.png).",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-01"
+    },
+    {
+      "entity": "signed_agreement_paper",
+      "state": "Picked up by Lin Shuangshuang and tucked into her folder under her left arm.",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-01"
+    },
+    {
+      "entity": "ye_xun_chest_badge",
+      "state": "Absent in 1-1-01; black lanyard + gold square badge in 1-1-04, 1-1-07, and 1-1-10 Shot 1; vanished in 1-1-10 Shot 2; mutated to wide blue lanyard + white photo ID in 1-1-13 Shot 2-3 before being ripped off and slammed onto table (then wiped from table in 1-1-13 Shot 4).",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-04"
+    },
+    {
+      "entity": "faded_work_cloth",
+      "state": "Pinched off chair back by Chu Nan in 1-1-04 but erroneously dropped/left lying on the round marble table instead of inside the floor trash bin; appears inside the floor trash bin in 1-1-13 Shot 1 (bin then vanishes in 1-1-13 Shot 4).",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-04"
+    },
+    {
+      "entity": "transfer_slip_paper",
+      "state": "Pulled from Lin Shuangshuang's black folder in 1-1-07; slapped onto Ye Xun's chest and dropped onto round marble table in 1-1-10 Shot 1; vanished in 1-1-10 Shot 2; reappeared on table in 1-1-13 Shot 3; wiped from bare table in 1-1-13 Shot 4.",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-07"
+    },
+    {
+      "entity": "grandpa_wooden_plaque",
+      "state": "Pulled from drenched pocket and dropped onto wet asphalt street in 2020 car crash blackout.",
+      "scope": "ep01_2020_rain_street",
+      "since_shot": "1-2-01"
+    },
+    {
+      "entity": "ye_xun_canvas_backpack_and_herbs",
+      "state": "Zipper-top army-green canvas backpack on wooden bench with twine-tied herb bundle inside (pulled completely out in 1-3-01 Shot 2, zipped shut on bench in 1-3-11 Shot 1); mutated to flap-buckle rucksack on lap in 1-3-15 Shot 1; reverted to zipper-top on bench and slung onto right shoulder in 1-3-18 and 1-3-21 Shot 1; mutated back to flap-buckle in 1-3-21 Shot 4 (via 2-1-01_1k.png) with strap gripped by Lin Shuangshuang.",
+      "scope": "ep01_2005_eatery_and_doorway",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "chu_nan_cola_can",
+      "state": "Red aluminum cola can held by Chu Nan in 1-3-01 & 1-3-04; slammed onto table, tipped on side, vanished and popped back upright on bottom-left corner in 1-3-06; upright on table and held in 1-3-09; missing from table in 1-3-11 Shot 2.",
+      "scope": "ep01_2005_eatery_hall",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "renovation_sketch_paper",
+      "state": "On wooden table from 1-3-01 to 1-3-09; torn in half by Ye Xun and both halves dropped into blue-and-white ceramic floor spittoon in 1-3-11.",
+      "scope": "ep01_2005_eatery_hall",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "ye_xun_wristwatch",
+      "state": "Silver round analog wristwatch with dark leather strap on left wrist (1-3-01 to 1-3-21 Shot 1); mutated to black square digital watch in 1-3-21 Shot 4 (via 2-1-01_1k.png).",
+      "scope": "ep01_2005_eatery_and_doorway",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "eatery_doorway_and_exterior_lane",
+      "state": "Glass-paned double wooden doors opening onto a flat bluestone lane across from dark-wood courtyard houses (1-3-18); mutated to steep upward stone staircase outside door in 1-3-21 Shot 1 (1-3-21_1k.png), then mutated to open-front timber stall with intrusive outdoor brick stove + wok and red lantern in 1-3-21 Shot 4 (2-1-01_1k.png).",
+      "scope": "ep01_2005_eatery_and_doorway",
+      "since_shot": "1-3-18"
+    }
+  ],
+  "shots": [
+    {
+      "id": "1-1-01",
+      "cut_type_from_prev": "START",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-04",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:01.0-00:08.0",
+          "category": "ACTION_AND_PROP_STATE_FAULT",
+          "severity": "HIGH",
+          "description": "In [Shot 1], Chu Nan lifts the faded work cloth off the chair back, but at 00:02 leaves a folded copy of the cloth lying flat on top of the round marble table (clearly visible on the table throughout [Shot 2] 00:03-00:08) instead of dropping it cleanly into the floor trash bin, contradicting both the script and 1-1-13 where the cloth is inside the trash bin."
+        },
+        {
+          "timestamp": "00:00.0-00:03.0",
+          "category": "PROP_CONTINUITY",
+          "severity": "LOW",
+          "description": "Ye Xun wears a black lanyard with a gold square chest badge introduced in 1-1-04_1k.png (not worn in 1-1-01; acceptable across Cut B if preserved downstream, though broken in 1-1-10 and 1-1-13)."
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "Regenerate 1-1-04 from clean static anchor images (do NOT pass the defective video) with widened [Shot 1] timing (0.0s-3.0s) explicitly instructing Chu Nan to carry the cloth horizontally away from the marble table and drop it straight down inside the cylindrical floor trash bin, and explicitly specifying in [Shot 2] that the round marble table surface is completely clear of any cloth."
+    },
+    {
+      "id": "1-1-07",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-10",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:03.0-00:08.4",
+          "category": "PROP_DUPLICATION",
+          "severity": "HIGH",
+          "description": "In [Shot 2] (anchored by <Picture 2> 1-1_master_4p_1k.png), a ceremonial chef cap sits on the silver tray on the round marble table while Zhao Fan simultaneously holds a second ceremonial chef cap at his chest on screen-right."
+        },
+        {
+          "timestamp": "00:03.0-00:08.4",
+          "category": "PROP_DISAPPEARANCE",
+          "severity": "HIGH",
+          "description": "Ye Xun's black lanyard and gold square chest badge (present in [Shot 1] 00:00-00:02.4, 1-1-04, and 1-1-07) disappear completely from his white chef coat in [Shot 2]."
+        },
+        {
+          "timestamp": "00:03.0-00:08.4",
+          "category": "PROP_DISAPPEARANCE",
+          "severity": "MEDIUM",
+          "description": "The printed white transfer slip slapped onto Ye Xun's chest and dropped onto the round marble table edge in [Shot 1] vanishes from the marble table in [Shot 2]."
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) Rebuild 1-1_master_4p_1k.png via Spark H3 Image to remove the duplicated ceremonial chef cap from the silver tray on the round table (keeping only the single cap held by Zhao Fan) and place the white transfer slip on the marble table edge while preserving Ye Xun's black lanyard + gold square badge. 2) Regenerate 1-1-10 from the rebuilt master plate with [Shot 2] explicitly preserving Ye Xun's chest badge and table transfer slip and tightening Lin Shuangshuang's dialogue entry."
+    },
+    {
+      "id": "1-1-13",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.99-00:01.38",
+          "category": "UNSCHEDULED_VOCAL_NOISE",
+          "severity": "HIGH",
+          "description": "Audible unscheduled male vocal grunt/exhale during the silent fist-clench in [Shot 1] (Silero-VAD peak_vad=0.86)."
+        },
+        {
+          "timestamp": "00:02.3-00:07.0",
+          "category": "PROP_MUTATION_AND_VISUAL_ARTIFACT",
+          "severity": "HIGH",
+          "description": "In [Shot 2]-[Shot 3], Ye Xun's established thin black lanyard + gold square metal badge mutates into a wide blue lanyard with a black-framed vertical white photo ID card; additionally at 00:02-00:03, Ye Xun's sclera unnaturally flashes solid blood-red."
+        },
+        {
+          "timestamp": "00:07.0-00:10.14",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "HIGH",
+          "description": "In [Shot 4] (anchored by <Picture 2> 1-1-13_aux_1k.png), the round marble table is wiped completely bare: the slammed badge, transfer slip, champagne flute, and floor trash bin all vanish, and Zhao Fan disappears from the room without exiting."
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) Rebuild 1-1-13_aux_1k.png via Spark H3 Image so the round marble table retains the white transfer slip, the slammed black-lanyard gold square badge, the champagne flute, and the floor trash bin beside the table. 2) Regenerate 1-1-13 from clean static anchors locking the black lanyard + gold square badge across [Shot 2]-[Shot 3], removing 'reddened eyes' wording that triggers blood-red sclera glow, and enforcing zero vocalizations in [Shot 1]."
+    },
+    {
+      "id": "1-2-01",
+      "cut_type_from_prev": "C",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-01",
+      "cut_type_from_prev": "C",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.72-00:12.26",
+          "category": "SPEECH_TRUNCATED",
+          "severity": "HIGH",
+          "description": "Lin Shuangshuang's line in [Shot 3] ('叶寻，发什么呆呢，赶紧把你爷爷那方子拿出来呀') starts too late (~8.64s) and gets hard-cut mid-ending at 12.256s (Silero-VAD tail_vad_prob=0.64 at 12.26s)."
+        },
+        {
+          "timestamp": "00:05.0-00:08.0",
+          "category": "ACTION_AND_PROP_STATE_FAULT",
+          "severity": "MEDIUM",
+          "description": "In [Shot 2], Ye Xun pulls the twine-tied herb bundle completely out of the unzipped backpack into mid-air instead of squeezing/checking it inside the bag as scripted, leaving it unexplained how it returns inside before 1-3-11."
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "Regenerate 1-3-01 from 1-3-01_1k.png (without reference video): shorten [Shot 1] (0s-3.2s) and [Shot 2] (3.2s-5.8s) so [Shot 3] begins by 5.8s, start Lin Shuangshuang's dialogue promptly at 6.0s with >= 0.8s closed-lip trailing buffer before 12.0s, and instruct <Subject 1> in [Shot 2] to feel/squeeze the herb bundle inside the half-open backpack without removing it."
+    },
+    {
+      "id": "1-3-04",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-06",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.38-00:00.90",
+          "category": "UNSCHEDULED_VOCAL_NOISE",
+          "severity": "HIGH",
+          "description": "Audible unscheduled male vocal grunt/groan (Silero-VAD peak_vad=0.95) overlapping the hollow thump of the cola can onto the wooden table in [Shot 1]."
+        },
+        {
+          "timestamp": "00:01.0-00:08.0",
+          "category": "PROP_CONTINUITY",
+          "severity": "LOW",
+          "description": "The red cola can tips onto its side at 00:01, disappears during 00:02-00:06, and pops back upright at the bottom-left table corner at 00:07 (ending upright for 1-3-09)."
+        }
+      ],
+      "dispatch_action": "PATCH_AUDIO_ONLY",
+      "fix_recipe": "Minimal-disruption fix: retain the clean 14.4s video stream (-c:v copy) and replace/clean the [00:00.30-00:01.10] audio segment with a pure aluminum-can-on-wood Foley thud + quiet room tone to eliminate the unscheduled vocal grunt while preserving all downstream lip-sync."
+    },
+    {
+      "id": "1-3-09",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-11",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.51-00:00.86",
+          "category": "UNSCHEDULED_VOCAL_NOISE",
+          "severity": "HIGH",
+          "description": "Short unscheduled vocal grunt/cough (Silero-VAD peak_vad=0.81) mixed into the canvas backpack zipper pull in [Shot 1]."
+        },
+        {
+          "timestamp": "00:03.0-00:05.6",
+          "category": "PROP_DISAPPEARANCE",
+          "severity": "MEDIUM",
+          "description": "Chu Nan's red aluminum cola can (held on table in 1-3-09 and present on master plate 1-3_post_tear_master_1k.png) is omitted from the wooden table in [Shot 2] (inherited from 1-3-12_aux_1k.png)."
+        }
+      ],
+      "dispatch_action": "PATCH_AUDIO_ONLY",
+      "fix_recipe": "Minimal-disruption fix: keep the video stream (-c:v copy) since zipper pull, paper tear, spittoon drop, and Lin Shuangshuang's table-slam performance are all intact, and patch [00:00.40-00:01.00] audio with pure metallic zipper Foley to remove the vocal grunt. (Optional secondary polish: add the red cola can onto 1-3-12_aux_1k.png if strict tabletop prop persistence is enforced)."
+    },
+    {
+      "id": "1-3-15",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.0-00:04.7",
+          "category": "PROP_MUTATION_AND_K_HOP_CONTINUITY",
+          "severity": "MEDIUM",
+          "description": "In [Shot 1] (from 1-3-15_1k.png and 1-3_post_tear_master_1k.png), Ye Xun's army-green canvas backpack jumps from the wooden bench beside him (where he just zipped it in 1-3-11) onto his lap and mutates from a zipper-top backpack into a flap-cover buckled rucksack, before reverting back to the zipper-top backpack on the bench in 1-3-18."
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE",
+      "fix_recipe": "Rebuild 1-3-15_1k.png and 1-3_post_tear_master_1k.png via Spark H3 Image keeping the exact zipper-top army-green canvas backpack sitting zipped on the wooden bench beside Ye Xun (and eliminating the ghosted forearm/table clipping in 1-3_post_tear_master_1k.png), then regenerate 1-3-15 with the exact same prompt and audio."
+    },
+    {
+      "id": "1-3-18",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-21",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:05.0-00:15.0",
+          "category": "ANCHOR_OR_STATE_DRIFT_AND_INTRUSIVE_SET_ELEMENT",
+          "severity": "HIGH",
+          "description": "Anchored by 2-1-01_1k.png, an intrusive outdoor brick stove with wok/pot and a red lantern appear at the doorway, and the glass-paned double wooden doors + square-table eatery hall (1-3-18 and [Shot 1]) mutate into a wide open-front timber stall with round stools and pottery jars. (1-3-21_1k.png in [Shot 1] also changed 1-3-18's flat bluestone lane into a steep upward stone staircase outside the door)."
+        },
+        {
+          "timestamp": "00:07.0-00:15.0",
+          "category": "AXIS_BLOCKING_TELEPORT_AND_PROP_MUTATION",
+          "severity": "HIGH",
+          "description": "In [Shot 3] (00:05-00:06), Ye Xun walks away down the steps while Lin Shuangshuang chases from behind inside; at 00:07-00:08 ([Shot 4] / 2-1-01_1k.png), Ye Xun rotates facing screen-right with his back to the doorway while Lin Shuangshuang teleports in front of him onto screen-right (street side) grabbing his front strap. Simultaneously his zipper-top backpack mutates into a flap-buckle bag and his silver analog watch mutates into a black square digital watch."
+        },
+        {
+          "timestamp": "00:14.21-00:15.10",
+          "category": "TIGHT_TRAILING_AUDIO",
+          "severity": "MEDIUM",
+          "description": "Lin Shuangshuang's final line ('谁准你反悔的') finishes at 14.944s of 15.104s (only 0.16s trailing margin, below the >= 0.8s buffer rule)."
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "1) Rebuild 1-3-21_1k.png and 2-1-01_1k.png via Spark H3 Image matching 1-3_doorway_master_1k.png's glass-paned double wooden doors, square-table eatery interior, and quiet bluestone lane with ZERO outdoor brick stove; preserve the zipper-top army-green backpack and silver round analog watch; fix chase blocking so Ye Xun is halted on the street side with Lin Shuangshuang emerging from the doorway behind him grabbing his right shoulder strap. 2) Tighten [Shot 1]-[Shot 4] timeline so her final line finishes by ~14.0s with >= 0.8s silent standoff hold."
+    }
+  ]
+}
