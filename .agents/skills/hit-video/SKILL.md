@@ -45,6 +45,15 @@ description: 短剧多模态音视频一体生成技能（MiniMax H3 Pika / Pika
      2) **类型 B｜邻接空间动线切 / 同场微省略切（Adjacent-Space Motion Cut or Micro-Ellipsis，`Δt ≈ 1–30s`）**：空间转移时（如走出林记大门 → 跨过 6 米老街进对门夏记），首帧不继承上一镜室内陈设，只守恒**人物服装/手持物状态与运动方向矢量**，并用 `[Shot 1]` 拍出地理方位桥；同场微省略时（如迎客后切到桌前“字已写完、正沾印泥准备摁红手印”以跳过枯燥写字过程），允许省略冗余中间过程，只需保留“摁手印”这一核心戏剧动作本身的前态。
      3) **类型 C｜异场平行切 / 跨时空省略切（Cross-Scene Parallel Cut or Time Ellipsis，`Δt = 数分钟～次日`，如夜里骑三轮出发 → 次日清晨大锅已在熬油，或夏记门前 → 平行切入林记后厨）**：**严禁机械套用上一镜末态或强迫从零铺垫动作**！此类转场应遵循短剧快节奏叙事，在 `t = 0.0s` **直接切入新场景已展开的戏剧态势（In-Medias-Res）**，靠昼夜光线、门头/环境特征或顶部 `[画面文字]` 字幕条快速定向，仅需保证**该新镜头内部自身**不发生“未说先做”的因果倒置即可。
    - **整集连播切点审查硬关卡（Full-Episode Stitched Transition Audit）**：整集合成后运行 `scripts/check_transitions.py` 生成切点对照拼板，并将合成后的**完整整集 MP4** 输入多模态审片连播核验：对类型 A 查动作/道具跳切与因果倒置，对类型 B 查空间方位可理解度，对类型 C 查时空转换是否干脆利落。
+8. **同场定场母图（Scene Master Plate）中心辐射法、Spark `MiniMax H3 Image` 首帧编辑契约与三维控制边界**
+   - **严禁盲目用“上一镜 480p 尾帧”链式生成下一镜首帧**：当上一镜停在单人特写或局部过肩镜（背景已被浅景深裁掉），把 `480p` 尾帧喂给生图模型猜下一镜中全景时，模型丢失全局三维房间坐标，极易发生 **180° 越轴翻转、方桌变圆桌、吧台左右颠倒** 以及分辨率与肤质逐镜劣化（链式误差累积）。仅当相邻两镜机位高度重合且上一镜尾帧完整包含全局空间刚体时，尾帧才可作为辅助状态参考。
+   - **标准架构：「2K 同场定场母图中心辐射（Hub-and-Spoke）+ 离散状态增量编辑 + `<Picture 2>` 组内锁空间」**：
+     1) **建立同场定场母图（Scene Master Plate）**：每个连续场次（及重大刚体状态切换点，如撕毁图纸后、交接核心信物后）先在 **Spark `MiniMax H3 Image`**（`scripts/spark_h3_image.py`）生成 1 张高分辨率全景/中全景定场母图，一次性锁死房间建筑结构、核心家具几何（圆桌 vs 方桌、吧台在左 vs 在右、门框朝向）、光影方向与在场人物 180° 轴线坐标；
+     2) **母图中心辐射派生各组首帧（Spark `MiniMax H3 Image` 三段式编辑提示词）**：同场所有分镜组的 `t = 0.0s` 首帧关键帧，一律以**定场母图作为 `<Picture 1>`**、人物 `#front` 单人正面图作为 `<Picture 2..K>`，遵循官方三段式连续英文提示词——① `<Subject N>` 自然绑定 `<Picture K>`；② `The target image shows ...` 加上显式守恒子句（`<Subject 1> is partially preserved; keep the exact table geometry, wall layout, and lighting...`）；③ 仅描述新机位景别与离散增量状态（如背包位于长凳上、某道具已被移除），不冗余复述已守恒背景；
+     3) **视频生成组内双图锁死空间（`<Picture 1>` 首帧 + `<Picture 2>` 定场母图）**：当单条生成组内含 `[Shot 2..4]` 切镜（尤其 `[Shot 1]` 是人物特写、`[Shot 2]` 拉回多人同框或走廊/门口全景）时，必须在 `ref_images` 中将 **`<Picture 1>` 设为本组首帧**、**`<Picture 2>` 设为同场定场母图（或目标切镜空间母图，`≤1K`）**，防止组内切镜时模型凭空捏造陌生走廊、餐桌变形或站姿变坐姿。
+   - **3D 预演（Blender）与视频控制的客观工程边界**：
+     - **严禁将 Blender 灰白泥模/白模渲染视频直接塞入 `Ref2VA` 的 `reference_video`（`<Video k>`）**：`MiniMaxH3ReferenceToVideo` 的 `<Video k>` 走 Video VAE 全注意力语义/外观参考而非像素级空间网格锁，喂入灰白无纹理白模会导致严重的**灰塑料材质贴皮污染**且无法逐帧硬锁机位。
+     - **何时启用 `Fun ControlNet Union`（Tier-2 重武器兜底）**：90% 的短剧室内外对手戏与动作交接靠「定场母图 + `<Picture 2>` 双图锚定」即可高保真锁死空间并保留细腻真人微表情与手指交互；仅当遇到 **360° 复杂环绕长镜头或 5 人以上高难度武打/走位调度** 时，才用 3D/Blender 导出标准 **`Z-Depth` 深度序列或 `OpenPose` 彩骨序列**（绝非灰白模渲染图），接入 `MiniMaxH3FunControlNetApply`（控制强度 `0.6–0.8` 并在末段适度释放以兼顾 `Ref2VA` 面部微表情与原生口型）。
 
 ---
 
@@ -133,6 +142,7 @@ N/A
 | 脚本 | 功能 |
 |---|---|
 | `scripts/compress_1k.py` | 将任意 2K 图片或目录批量等比压缩至 `max(w, h) <= 1024`（Lanczos），输出尺寸核验清单，绝不改动原图 |
+| `scripts/spark_h3_image.py` | 调用 Spark `MiniMax H3 Image`（`MiniMaxH3ImageConditioning` 多图参考编辑）生成同场定场母图与各分镜增量首帧关键帧，并自动导出 `≤1K` 副本 |
 | `scripts/pika_runner.py` | 读取结构化分镜视频 JSON，自动校验“零人物外貌词禁令”与“`≤1K` 尺寸禁令”，调用本机 `Pika-H3-Flex` (`480p`) 并发/顺序执行视频生成及 `vo_split` 双轨混音，校核 `ffprobe` 与回执头 |
 | `scripts/inspect_video.py` | 对生成的每条 MP4 自动抽取高密度带秒点采样帧拼板（Contact Sheet）与音频波形/时长诊断，供多模态审片 Agent 与 `agy-video-understand` 逐镜核验 |
 | `scripts/post_bgm_subtitles.py` | 基于各分镜实测时长与 `audio-library` 选曲编译独立分离式配乐轨（自动人声闪避 + 悬念卡点对齐）与三态双层字幕（`caption`/`dialogue`/`vo` `.vtt` + JSON），保持原片零烧录可直接超分 |
