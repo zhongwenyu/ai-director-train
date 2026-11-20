@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "protagonist_detected": "赵建国",
+  "episode_count": 3,
+  "mean_est_duration_sec": 136.5,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "两千罚单碎旧恩",
+      "scenes": 1,
+      "actions": 12,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 548,
+      "avg_line_chars": 21.9,
+      "est_duration_sec": 143.0,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "当众断交锁车门",
+      "scenes": 2,
+      "actions": 9,
+      "dialogue_lines": 26,
+      "vo_lines": 0,
+      "spoken_chars": 476,
+      "avg_line_chars": 18.3,
+      "est_duration_sec": 124.2,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "断供孤立起祸心",
+      "scenes": 3,
+      "actions": 10,
+      "dialogue_lines": 25,
+      "vo_lines": 0,
+      "spoken_chars": 541,
+      "avg_line_chars": 21.6,
+      "est_duration_sec": 142.2,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['孙有才', '刘翠花'] 未直接叫出全名（已出现称谓 ['娘', '叔', '婶', '哥', '支书', '队长']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['刘翠花'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '哥']，交由屏幕盲审核验关系清晰度）"
+  ]
+}
