@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是活人吵架的烟火气！抢炕底碎银、扒棉袄、讹白面、后厨卖鲜菜，句句咬着具体铜板粮种过招。长短句错落有致，顶针反问与短促喝骂极上口；贪婪大伯、泼辣婶娘、蠢坏堂弟与精明掌柜声纹分明，毫无AI端腔与说教金句。",
+  "scores": {
+    "character_voice_distinction": 9.2,
+    "conversational_bite_and_rhythm": 9.1,
+    "spoken_naturalness": 9.3,
+    "subtext_and_micro_specificity": 9.4
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 92.5,
+  "rhythm_metrics": {
+    "total_lines": 76,
+    "mean_char_len": 19.6,
+    "char_len_stdev": 6.7,
+    "short_reaction_ratio_le7": 0.066,
+    "twin_clause_symmetry_ratio": 0.066
+  }
+}
