@@ -2,7 +2,7 @@
   "ok": true,
   "protagonist_detected": "林致远",
   "episode_count": 3,
-  "mean_est_duration_sec": 137.0,
+  "mean_est_duration_sec": 146.4,
   "episodes": [
     {
       "episode": 1,
@@ -11,9 +11,9 @@
       "actions": 12,
       "dialogue_lines": 24,
       "vo_lines": 2,
-      "spoken_chars": 535,
-      "avg_line_chars": 20.6,
-      "est_duration_sec": 142.1,
+      "spoken_chars": 551,
+      "avg_line_chars": 21.2,
+      "est_duration_sec": 145.6,
       "has_end_marker": true
     },
     {
@@ -23,9 +23,9 @@
       "actions": 12,
       "dialogue_lines": 23,
       "vo_lines": 2,
-      "spoken_chars": 509,
-      "avg_line_chars": 20.4,
-      "est_duration_sec": 136.3,
+      "spoken_chars": 561,
+      "avg_line_chars": 22.4,
+      "est_duration_sec": 147.9,
       "has_end_marker": true
     },
     {
@@ -35,9 +35,9 @@
       "actions": 11,
       "dialogue_lines": 24,
       "vo_lines": 1,
-      "spoken_chars": 499,
-      "avg_line_chars": 20.0,
-      "est_duration_sec": 132.5,
+      "spoken_chars": 558,
+      "avg_line_chars": 22.3,
+      "est_duration_sec": 145.6,
       "has_end_marker": true
     }
   ],

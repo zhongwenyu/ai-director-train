@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听全是北方年代农村活人张嘴的烟火气！上炕、拢把火、冰溜子、苞米面等土话贴脸顺耳；讨债赖账全抓盖房、拉煤、压秤等眼前细账，零说教金句。长短句咬合极紧，短促顶牛与口语碎词交错，孩童、泼妇、奸商与庄稼硬汉声纹分明。",
+  "scores": {
+    "character_voice_distinction": 9.5,
+    "conversational_bite_and_rhythm": 9.3,
+    "spoken_naturalness": 9.4,
+    "subtext_and_micro_specificity": 9.4
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.0,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 19.1,
+    "char_len_stdev": 8.9,
+    "short_reaction_ratio_le7": 0.133,
+    "twin_clause_symmetry_ratio": 0.027
+  }
+}
