@@ -1,0 +1,168 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“阔少绿茶拿旧奢品当众羞辱打赏＝清醒女主演卑微暗中变现凑千万吃火锅”的认知错位为核心爽点引擎。裸看前3集人物关系由自然称谓秒速立住，搜包、顺保卡、深夜踹门索表环环相扣，口语鲜活且集尾悬念紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.2,
+    "motivation_and_logic": 9.1,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "受辱收表与搜包危机",
+      "audible_counts": {
+        "顾妄": 5,
+        "姜眠": 6,
+        "周叙": 3,
+        "白薇": 9
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "哥",
+        "姐",
+        "嫂",
+        "小姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　云顶私宴厅包厢　夜",
+          "audible_counts": {
+            "顾妄": 5,
+            "姜眠": 6,
+            "周叙": 3,
+            "白薇": 9
+          },
+          "vo_counts": {
+            "姜眠": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "演卑微揽下清场权与缺卡卡点",
+      "audible_counts": {
+        "周叙": 1,
+        "白薇": 5,
+        "姜眠": 9,
+        "顾妄": 4,
+        "周叔": 1,
+        "老陈": 3
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "叔",
+        "哥",
+        "姐",
+        "嫂",
+        "小姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　云顶私宴厅包厢　夜",
+          "audible_counts": {
+            "周叙": 1,
+            "白薇": 3,
+            "姜眠": 3,
+            "顾妄": 3
+          },
+          "vo_counts": {
+            "姜眠": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　顾宅后门巷口　夜",
+          "audible_counts": {
+            "周叔": 1,
+            "姜眠": 5,
+            "老陈": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　顾宅一楼玄关　夜",
+          "audible_counts": {
+            "白薇": 2,
+            "顾妄": 1,
+            "姜眠": 1
+          },
+          "vo_counts": {
+            "姜眠": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "眼皮下顺走保卡与索表惊魂",
+      "audible_counts": {
+        "白薇": 5,
+        "顾妄": 6,
+        "姜眠": 7,
+        "老陈": 4,
+        "许晴": 1
+      },
+      "unintroduced_speakers": [
+        "许晴"
+      ],
+      "kinship_or_titles_heard": [
+        "叔",
+        "哥",
+        "姐",
+        "嫂",
+        "小姐"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　顾宅玄关及二楼书房　夜",
+          "audible_counts": {
+            "白薇": 2,
+            "顾妄": 3,
+            "姜眠": 3
+          },
+          "vo_counts": {
+            "姜眠": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　顾宅区外林荫路口　夜",
+          "audible_counts": {
+            "老陈": 4,
+            "姜眠": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "内　顾宅主卧及二楼客房门外　夜",
+          "audible_counts": {
+            "许晴": 1,
+            "白薇": 3,
+            "顾妄": 3,
+            "姜眠": 1
+          },
+          "vo_counts": {
+            "姜眠": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
