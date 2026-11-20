@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是八十年代北方家属院的活人烟火气！长短句咬合极紧，“热乎菜？刚出锅的？”“谁躲外头了？”句句话赶话带刺。胖婶的市井热心肠、林娇娇的软刀子、陆铮的冷硬互不串味，交锋全围着五斤白面、三块现钱、油票猪下水打转，零说教金句，可直接进棚录。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.5,
+    "subtext_and_micro_specificity": 9.6
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 95.0,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 21.4,
+    "char_len_stdev": 8.3,
+    "short_reaction_ratio_le7": 0.067,
+    "twin_clause_symmetry_ratio": 0.067
+  }
+}
