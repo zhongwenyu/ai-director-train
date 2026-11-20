@@ -1,0 +1,170 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以重生赌鬼绝境搏命救女、寸寸赎回至亲信任为核心引擎，融合捏柄逼医与借枪深山猎杀硬核爽感。裸看实况下全员称谓清晰（爹、哥、二婶、铁山叔），旧伤防备与悔恨护家拉扯抓人，前因后果与危机钩子紧绷通透。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.2,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "冰河救女",
+      "audible_counts": {
+        "苏晚晴": 7,
+        "陈小草": 1,
+        "陈向东": 9,
+        "孙德才": 6,
+        "马大壮": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "娘",
+        "公",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　靠山屯村口冰河岸　日",
+          "audible_counts": {
+            "苏晚晴": 4,
+            "陈小草": 1,
+            "陈向东": 3
+          },
+          "vo_counts": {
+            "陈向东": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　公社卫生院内科诊室　夜",
+          "audible_counts": {
+            "陈向东": 6,
+            "孙德才": 6,
+            "苏晚晴": 3,
+            "马大壮": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈小草"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "捏柄逼医",
+      "audible_counts": {
+        "孙德才": 8,
+        "马大壮": 1,
+        "陈向东": 10,
+        "苏晚晴": 3,
+        "陈向北": 4
+      },
+      "unintroduced_speakers": [
+        "陈向北"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "公",
+        "哥",
+        "院长",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　公社卫生院内科诊室　夜",
+          "audible_counts": {
+            "孙德才": 6,
+            "马大壮": 1,
+            "陈向东": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "苏晚晴",
+            "陈小草"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　公社卫生院观察病房　夜",
+          "audible_counts": {
+            "陈向东": 5,
+            "苏晚晴": 3,
+            "陈向北": 4,
+            "孙德才": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "陈小草"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "借枪立誓",
+      "audible_counts": {
+        "陈老根": 4,
+        "陈小梅": 1,
+        "陈向东": 12,
+        "赵铁山": 4,
+        "王翠花": 5
+      },
+      "unintroduced_speakers": [
+        "陈老根",
+        "王翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "公",
+        "哥",
+        "院长",
+        "大夫"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　靠山屯陈家老宅堂屋　夜",
+          "audible_counts": {
+            "陈老根": 4,
+            "陈小梅": 1,
+            "陈向东": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内/外　赵铁山家堂屋及门外雪巷　夜",
+          "audible_counts": {
+            "赵铁山": 4,
+            "陈向东": 7,
+            "王翠花": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　野猪岭深山坳口　日",
+          "audible_counts": {
+            "陈向东": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
