@@ -215,3 +215,4 @@ RuntimeError: Isolated agy sub-agent (gemini-4-carbon-medium) failed: timeout 60
 [12:45:34]   [v7_r2] dev_112 (玄幻修仙/concise_1s): ten=PASS_HIT_READY(94.0) dlg=PASS_HUMAN_NATURAL(92.5) | vs_GT[ten=GEN, dlg=REAL_GT] | vs_CHAMP[ten=CHAMP, dlg=CHAMP]
 [12:45:34]   [v7_r2] End-to-End Generating dev_107 (年代乡村 | concise_1s)...
 [12:45:39]   [v7_r2] dev_098 (都市情感/concise_1s): ten=PASS_HIT_READY(95.25) dlg=REJECT_AI_STAGEY(33.75) | vs_GT[ten=GEN, dlg=REAL_GT] | vs_CHAMP[ten=CAND, dlg=CHAMP]
+[stage0] Premise Lock PASSED on round 1: 穿成农家团宠，拒捡白眼狼男主
