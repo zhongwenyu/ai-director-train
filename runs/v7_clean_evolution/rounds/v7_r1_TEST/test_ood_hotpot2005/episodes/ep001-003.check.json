@@ -2,7 +2,7 @@
   "ok": true,
   "protagonist_detected": "叶寻",
   "episode_count": 3,
-  "mean_est_duration_sec": 135.9,
+  "mean_est_duration_sec": 138.4,
   "episodes": [
     {
       "episode": 1,
@@ -11,9 +11,9 @@
       "actions": 9,
       "dialogue_lines": 23,
       "vo_lines": 2,
-      "spoken_chars": 487,
-      "avg_line_chars": 19.5,
-      "est_duration_sec": 128.6,
+      "spoken_chars": 492,
+      "avg_line_chars": 19.7,
+      "est_duration_sec": 129.7,
       "has_end_marker": true
     },
     {
@@ -23,9 +23,9 @@
       "actions": 10,
       "dialogue_lines": 24,
       "vo_lines": 1,
-      "spoken_chars": 512,
-      "avg_line_chars": 20.5,
-      "est_duration_sec": 135.8,
+      "spoken_chars": 522,
+      "avg_line_chars": 20.9,
+      "est_duration_sec": 138.0,
       "has_end_marker": true
     },
     {
@@ -35,9 +35,9 @@
       "actions": 12,
       "dialogue_lines": 25,
       "vo_lines": 1,
-      "spoken_chars": 541,
-      "avg_line_chars": 20.8,
-      "est_duration_sec": 143.4,
+      "spoken_chars": 560,
+      "avg_line_chars": 21.5,
+      "est_duration_sec": 147.6,
       "has_end_marker": true
     }
   ],
