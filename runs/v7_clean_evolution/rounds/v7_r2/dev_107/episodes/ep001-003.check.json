@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "protagonist_detected": "林娇娇",
+  "episode_count": 3,
+  "mean_est_duration_sec": 136.4,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "雪坡拒当冤大头",
+      "scenes": 1,
+      "actions": 13,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 485,
+      "avg_line_chars": 19.4,
+      "est_duration_sec": 130.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "拧腕立威定铁契",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 25,
+      "vo_lines": 0,
+      "spoken_chars": 518,
+      "avg_line_chars": 20.7,
+      "est_duration_sec": 138.7,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "瓮中擒贼封院门",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 25,
+      "vo_lines": 0,
+      "spoken_chars": 523,
+      "avg_line_chars": 20.9,
+      "est_duration_sec": 139.8,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['王翠花'] 未直接叫出全名（已出现称谓 ['妈', '娘', '叔', '婶', '伯', '爷']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['王翠花', '周桂兰', '林建业'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '伯']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['王翠花', '周桂兰', '林老根', '沈砚舟'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '伯']，交由屏幕盲审核验关系清晰度）"
+  ]
+}
