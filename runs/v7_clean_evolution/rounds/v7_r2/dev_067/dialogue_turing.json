@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼盲听极具古装短剧的活人烟火气！恶婆子满嘴“馊糠、擦猪油、嚼用、死须子”等乡野泼辣俗语，幼童奶声怯懦，人牙子油滑压价，太子外冷内柔，声纹区分极鲜明。全篇长短句错落、话咬话顶针自然，交锋全围着碎银、核桃、烂草根算具体细账，零端架子金句。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.1,
+    "spoken_naturalness": 9.2,
+    "subtext_and_micro_specificity": 9.2
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 92.25,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 18.2,
+    "char_len_stdev": 8.7,
+    "short_reaction_ratio_le7": 0.08,
+    "twin_clause_symmetry_ratio": 0.093
+  }
+}
