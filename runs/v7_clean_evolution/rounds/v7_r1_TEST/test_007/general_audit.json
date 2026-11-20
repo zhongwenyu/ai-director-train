@@ -1,0 +1,223 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“两百元礼金”撬动千亿长兄隐富护妹与势利婆家攀附嫌贫的双重错位，兄妹双向体恤与婆家层层脑补、搬石砸脚形成强反差爽感。裸看实况人物称谓交待清晰、认知滤镜合理自洽，情绪拉扯与钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.2,
+    "motivation_and_logic": 9.3,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "两百礼金与主桌驱逐",
+      "audible_counts": {
+        "陈总经理": 2,
+        "林致远": 6,
+        "苏清晏": 2,
+        "林知夏": 5,
+        "周建国": 3,
+        "王秀琴": 4,
+        "张鹏": 1,
+        "张莉": 1
+      },
+      "unintroduced_speakers": [
+        "苏清晏",
+        "张莉"
+      ],
+      "kinship_or_titles_heard": [
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "哥",
+        "弟",
+        "妹",
+        "嫂",
+        "娘子"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　云顶国际大酒店·一楼大厅专梯口　日",
+          "audible_counts": {
+            "陈总经理": 2,
+            "林致远": 3,
+            "苏清晏": 2,
+            "林知夏": 3
+          },
+          "vo_counts": {
+            "林致远": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　云顶国际大酒店·顶层云端厅迎宾台　日",
+          "audible_counts": {
+            "周建国": 3,
+            "王秀琴": 4,
+            "林致远": 3,
+            "张鹏": 1,
+            "林知夏": 2,
+            "张莉": 1
+          },
+          "vo_counts": {
+            "林致远": 1
+          },
+          "mute_present_characters": [
+            "苏清晏"
+          ]
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "假表实锤与席位易势",
+      "audible_counts": {
+        "周明轩": 4,
+        "周建国": 3,
+        "林致远": 4,
+        "王秀琴": 2,
+        "林知夏": 2,
+        "张莉": 2,
+        "张鹏": 3,
+        "苏清晏": 3,
+        "懂行宾客": 1
+      },
+      "unintroduced_speakers": [
+        "张莉",
+        "苏清晏"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "舅",
+        "哥",
+        "弟",
+        "妹",
+        "嫂",
+        "娘子"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　云顶国际大酒店·顶层云端厅迎宾台前　日",
+          "audible_counts": {
+            "周明轩": 3,
+            "周建国": 1,
+            "林致远": 2,
+            "王秀琴": 1,
+            "林知夏": 1,
+            "张莉": 1,
+            "张鹏": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "苏清晏"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　云顶国际大酒店·顶层云端厅主宾席区　日",
+          "audible_counts": {
+            "苏清晏": 3,
+            "张鹏": 1,
+            "懂行宾客": 1,
+            "张莉": 1,
+            "林致远": 2,
+            "王秀琴": 1,
+            "周建国": 2,
+            "林知夏": 1,
+            "周明轩": 1
+          },
+          "vo_counts": {
+            "苏清晏": 1,
+            "林致远": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "名流折腰与强行曲解",
+      "audible_counts": {
+        "周建国": 3,
+        "赵会长": 3,
+        "林致远": 4,
+        "周明轩": 2,
+        "林知夏": 3,
+        "张鹏": 1,
+        "张莉": 2,
+        "王秀琴": 3,
+        "苏清晏": 2,
+        "司仪": 1
+      },
+      "unintroduced_speakers": [
+        "张莉",
+        "苏清晏"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "舅",
+        "婆",
+        "公",
+        "哥",
+        "弟",
+        "妹",
+        "嫂",
+        "娘子",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　云顶国际大酒店·顶层云端厅主宾席过道　日",
+          "audible_counts": {
+            "周建国": 2,
+            "赵会长": 3,
+            "林致远": 2,
+            "周明轩": 1,
+            "林知夏": 2,
+            "张鹏": 1,
+            "张莉": 1,
+            "王秀琴": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "苏清晏"
+          ]
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　云顶国际大酒店·顶层云端厅主桌及仪式台前　日",
+          "audible_counts": {
+            "苏清晏": 2,
+            "林致远": 2,
+            "张莉": 1,
+            "王秀琴": 2,
+            "周建国": 1,
+            "司仪": 1,
+            "林知夏": 1,
+            "周明轩": 1
+          },
+          "vo_counts": {
+            "林致远": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
