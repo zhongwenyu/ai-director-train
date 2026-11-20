@@ -1,0 +1,179 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以隐退百亿创始人护女底线被击穿为引爆点，借前妻错把托举当本事、偏私初恋父子虐女夺名额，驱动撤回至尊礼遇与逐级抽梯清算的爽感引擎。裸看实况字幕与称谓锚定清晰，VO无穿帮，口语鲜活，三集聚焦首阶段冲突层层蓄压，悬念抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.4,
+    "motivation_and_logic": 9.2,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.5
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "强拆公主房锁女入暗室",
+      "audible_counts": {
+        "顾念念": 2,
+        "顾沉舟": 7,
+        "周翠兰": 4,
+        "宋小宝": 2,
+        "林晚晴": 8,
+        "宋明宇": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "姨",
+        "爷",
+        "婆",
+        "公",
+        "哥",
+        "妹",
+        "总",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　澜山壹号别墅客厅及楼梯间　日",
+          "audible_counts": {
+            "顾念念": 2,
+            "顾沉舟": 7,
+            "周翠兰": 4,
+            "宋小宝": 2,
+            "林晚晴": 8,
+            "宋明宇": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "签字携女撤回至尊卡",
+      "audible_counts": {
+        "顾沉舟": 5,
+        "林晚晴": 7,
+        "周翠兰": 3,
+        "宋明宇": 2,
+        "宋小宝": 2,
+        "陈默": 4,
+        "顾念念": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "姨",
+        "爷",
+        "婆",
+        "公",
+        "哥",
+        "姐",
+        "妹",
+        "总",
+        "主任",
+        "老板",
+        "小姐",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　澜山壹号别墅客厅　日",
+          "audible_counts": {
+            "顾沉舟": 2,
+            "林晚晴": 4,
+            "周翠兰": 1,
+            "宋明宇": 1,
+            "宋小宝": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "顾念念"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外/内　别墅区外街角及医疗专车　日",
+          "audible_counts": {
+            "陈默": 4,
+            "顾念念": 1,
+            "顾沉舟": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-3",
+          "location": "外　云顶庄园跨海大桥VIP闸口　傍晚",
+          "audible_counts": {
+            "周翠兰": 2,
+            "林晚晴": 3,
+            "宋明宇": 1,
+            "宋小宝": 1
+          },
+          "vo_counts": {
+            "林晚晴": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "闸口红警总管迎真主",
+      "audible_counts": {
+        "周翠兰": 4,
+        "林晚晴": 9,
+        "宋明宇": 3,
+        "宋小宝": 1,
+        "赵敬": 3,
+        "顾沉舟": 4,
+        "陈默": 1
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "姨",
+        "爷",
+        "婆",
+        "公",
+        "哥",
+        "姐",
+        "妹",
+        "总",
+        "主任",
+        "老板",
+        "小姐",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　云顶庄园跨海大桥VIP闸口　傍晚",
+          "audible_counts": {
+            "周翠兰": 4,
+            "林晚晴": 9,
+            "宋明宇": 3,
+            "宋小宝": 1,
+            "赵敬": 3,
+            "顾沉舟": 4,
+            "陈默": 1
+          },
+          "vo_counts": {
+            "宋明宇": 1
+          },
+          "mute_present_characters": [
+            "顾念念"
+          ]
+        }
+      ]
+    }
+  ]
+}

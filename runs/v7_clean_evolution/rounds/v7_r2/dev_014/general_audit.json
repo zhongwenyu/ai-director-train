@@ -1,0 +1,184 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以“你拿规矩碎十年旧恩，我守死规矩断你全部白嫖”为核心爽点引擎，紧扣农村运力与水源展开双标回旋镖博弈。前3集裸看人物关系与称谓锚定清晰，北方乡土口语鲜活贴脸，情绪拉扯层层递进，集尾悬念钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.3,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.6,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.25,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "两千罚单碎旧恩",
+      "audible_counts": {
+        "孙有才": 4,
+        "赵建国": 4,
+        "孙倩": 5,
+        "陈正平": 2,
+        "周大伟": 3,
+        "林淑芬": 4,
+        "刘翠花": 2
+      },
+      "unintroduced_speakers": [
+        "孙有才",
+        "陈正平",
+        "刘翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "叔",
+        "婶",
+        "哥",
+        "总",
+        "支书",
+        "大娘"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　赵孙两家交界菜棚地头　傍晚",
+          "audible_counts": {
+            "孙有才": 4,
+            "赵建国": 4,
+            "孙倩": 5,
+            "陈正平": 2,
+            "周大伟": 3,
+            "林淑芬": 4,
+            "刘翠花": 2
+          },
+          "vo_counts": {
+            "赵建国": 1
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "当众断交锁车门",
+      "audible_counts": {
+        "赵建国": 9,
+        "赵磊": 3,
+        "陈正平": 1,
+        "孙有才": 7,
+        "刘翠花": 2,
+        "林淑芬": 3,
+        "孙倩": 1
+      },
+      "unintroduced_speakers": [
+        "陈正平",
+        "刘翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "哥",
+        "嫂",
+        "总",
+        "支书",
+        "大娘",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "外　赵孙两家交界菜棚地头　傍晚",
+          "audible_counts": {
+            "赵建国": 6,
+            "赵磊": 1,
+            "陈正平": 1,
+            "孙有才": 2,
+            "刘翠花": 2,
+            "林淑芬": 1,
+            "孙倩": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "周大伟"
+          ]
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　赵家院门前机耕道　清晨",
+          "audible_counts": {
+            "林淑芬": 2,
+            "赵磊": 2,
+            "赵建国": 3,
+            "孙有才": 5
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "断供孤立起祸心",
+      "audible_counts": {
+        "孙有才": 7,
+        "赵建国": 5,
+        "孙倩": 6,
+        "林淑芬": 1,
+        "赵磊": 1,
+        "马老四": 5
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爸",
+        "妈",
+        "娘",
+        "叔",
+        "婶",
+        "哥",
+        "嫂",
+        "总",
+        "支书",
+        "大娘",
+        "大人"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "外　赵家院门前机耕道　清晨",
+          "audible_counts": {
+            "孙有才": 3,
+            "赵建国": 3,
+            "孙倩": 4,
+            "林淑芬": 1,
+            "赵磊": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "外　村东马老四家院门外　上午",
+          "audible_counts": {
+            "孙有才": 4,
+            "马老四": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "外　村口老槐树下　傍晚",
+          "audible_counts": {
+            "孙倩": 2,
+            "马老四": 2,
+            "赵建国": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "ok": true,
   "protagonist_detected": "林晚晴",
   "episode_count": 3,
-  "mean_est_duration_sec": 150.2,
+  "mean_est_duration_sec": 172.4,
   "episodes": [
     {
       "episode": 1,
@@ -11,9 +11,9 @@
       "actions": 17,
       "dialogue_lines": 25,
       "vo_lines": 0,
-      "spoken_chars": 555,
-      "avg_line_chars": 22.2,
-      "est_duration_sec": 152.5,
+      "spoken_chars": 639,
+      "avg_line_chars": 25.6,
+      "est_duration_sec": 171.2,
       "has_end_marker": true
     },
     {
@@ -23,9 +23,9 @@
       "actions": 15,
       "dialogue_lines": 24,
       "vo_lines": 1,
-      "spoken_chars": 507,
-      "avg_line_chars": 20.3,
-      "est_duration_sec": 142.7,
+      "spoken_chars": 586,
+      "avg_line_chars": 23.4,
+      "est_duration_sec": 160.2,
       "has_end_marker": true
     },
     {
@@ -35,9 +35,9 @@
       "actions": 16,
       "dialogue_lines": 25,
       "vo_lines": 1,
-      "spoken_chars": 575,
-      "avg_line_chars": 22.1,
-      "est_duration_sec": 155.4,
+      "spoken_chars": 712,
+      "avg_line_chars": 27.4,
+      "est_duration_sec": 185.8,
       "has_end_marker": true
     }
   ],
