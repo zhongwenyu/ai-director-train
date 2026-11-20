@@ -1,0 +1,261 @@
+{
+  "episode": 1,
+  "round": 2,
+  "cross_episode_prev_shot": null,
+  "reviewed_updated_shots": [
+    "1-1-04",
+    "1-1-07",
+    "1-1-10",
+    "1-1-13",
+    "1-3-01",
+    "1-3-06",
+    "1-3-11",
+    "1-3-21"
+  ],
+  "summary": {
+    "total_shots": 14,
+    "pass_count": 10,
+    "fail_count": 4,
+    "updated_shots_pass": 5,
+    "updated_shots_fail": 3,
+    "unchanged_shots_fail": 1
+  },
+  "final_entity_ledger": [
+    {
+      "entity": "ceremonial_chef_cap",
+      "state": "Handed from Lin Shuangshuang to Zhao Fan in 1-1-01 and held by Zhao Fan; duplication resolved in 1-1-10 Shot 2 (silver tray on round table is now empty).",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-01"
+    },
+    {
+      "entity": "signed_agreement_paper",
+      "state": "Picked up by Lin Shuangshuang and tucked into her folder under her left arm.",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-01"
+    },
+    {
+      "entity": "ye_xun_chest_badge",
+      "state": "Absent in 1-1-01; black lanyard + gold square badge preserved in 1-1-04, 1-1-07, and 1-1-10 (Shot 1 & Shot 2); in 1-1-13 Shot 2-3 badge is now gold square, though lanyard still drifts to navy-blue before being ripped off and slammed onto the round marble table (now preserved in 1-1-13 Shot 4).",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-04"
+    },
+    {
+      "entity": "faded_work_cloth",
+      "state": "Cleanly dropped into cylindrical floor trash bin by Chu Nan in 1-1-04 Shot 1 (marble table clear); remains inside trash bin in 1-1-13 Shot 1 and Shot 4.",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-04"
+    },
+    {
+      "entity": "transfer_slip_paper",
+      "state": "Pulled from black folder in 1-1-07; slapped onto Ye Xun's chest and preserved on round marble table across 1-1-10 (Shot 1 & Shot 2) and 1-1-13 (Shot 3 & Shot 4).",
+      "scope": "ep01_2020_banquet_hall",
+      "since_shot": "1-1-07"
+    },
+    {
+      "entity": "grandpa_wooden_plaque",
+      "state": "Pulled from drenched pocket and dropped onto wet asphalt street in 2020 car crash blackout.",
+      "scope": "ep01_2020_rain_street",
+      "since_shot": "1-2-01"
+    },
+    {
+      "entity": "ye_xun_canvas_backpack_and_herbs",
+      "state": "Zipper-top army-green canvas backpack on wooden bench with herb bundle squeezed inside in 1-3-01 Shot 2 and zipped shut in 1-3-11 Shot 1; unchanged 1-3-15 still mutates to flap-buckle rucksack on lap before reverting to zipper-top on bench in 1-3-18; cleanly slung on right shoulder and grabbed by Lin Shuangshuang from behind in 1-3-21.",
+      "scope": "ep01_2005_eatery_and_doorway",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "chu_nan_cola_can",
+      "state": "Red aluminum cola can held by Chu Nan in 1-3-01 & 1-3-04; tips on side at 00:01 and pops upright bottom-left at 00:07 in 1-3-06; held in 1-3-09; omitted from table in 1-3-11 Shot 2 (1-3-12_aux_1k.png).",
+      "scope": "ep01_2005_eatery_hall",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "renovation_sketch_paper",
+      "state": "On wooden table from 1-3-01 to 1-3-09; torn in half by Ye Xun and dropped into ceramic floor spittoon in 1-3-11.",
+      "scope": "ep01_2005_eatery_hall",
+      "since_shot": "1-3-01"
+    },
+    {
+      "entity": "eatery_doorway_and_exterior_lane",
+      "state": "Glass-paned double wooden doors opening onto sunlit old Chongqing street (1-3-18 & 1-3-21); intrusive brick stove eliminated in rebuilt 1-3-21.",
+      "scope": "ep01_2005_eatery_and_doorway",
+      "since_shot": "1-3-18"
+    }
+  ],
+  "shots": [
+    {
+      "id": "1-1-01",
+      "round2_reviewed": false,
+      "cut_type_from_prev": "START",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-04",
+      "round2_reviewed": true,
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.21-00:13.70",
+          "category": "SPEECH_TRUNCATED",
+          "severity": "MEDIUM",
+          "description": "Visual cloth-in-trash-bin fix succeeded cleanly (marble table is clear). However, [Shot 3] begins too late (~9.2s), Zhao Fan pauses mid-sentence (12.19s-12.80s), and finishes '只接高档客' right into the hard clip end at 13.536s/13.696s (0.16s margin, 2.24s past scheduled window 11.3s) with his mouth still open on the final frame."
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "Regenerate 1-1-04 from clean static anchors: tighten [Shot 1] (0s-2.6s) and [Shot 2] (2.6s-8.2s) so [Shot 3] starts by 8.2s, cue Zhao Fan to speak immediately at 8.3s without mid-sentence pause so the full line finishes by ~12.3s with >= 0.8s closed-lip trailing hold."
+    },
+    {
+      "id": "1-1-07",
+      "round2_reviewed": true,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-10",
+      "round2_reviewed": true,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-1-13",
+      "round2_reviewed": true,
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:03.0-00:05.0",
+          "category": "VISUAL_ARTIFACT_AND_PROP_DRIFT",
+          "severity": "HIGH",
+          "description": "[Shot 4] table/trash-bin/Zhao-Fan continuity and [Shot 1] unscheduled vocal grunt are all fixed, and [Shot 3] badge is now gold square. However, in [Shot 2] (00:03-00:05), Ye Xun's eyes still glow unnaturally solid neon-red (supernatural demon-eye artifact) and his lanyard still mutates to navy-blue instead of black."
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "Keep 1-1-13_1k.png and rebuilt 1-1-13_aux_1k.png; regenerate 1-1-13 replacing any 'reddened eyes' phrasing in [Shot 2] with 'natural dark pupils, slightly moist rims, icy cold glare' and explicitly specifying 'thin black lanyard with gold square metal badge' matching 1-1-04..1-1-10."
+    },
+    {
+      "id": "1-2-01",
+      "round2_reviewed": false,
+      "cut_type_from_prev": "C",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-01",
+      "round2_reviewed": true,
+      "cut_type_from_prev": "C",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.75-00:14.40",
+          "category": "SPEECH_TRUNCATED",
+          "severity": "HIGH",
+          "description": "In [Shot 3], Chu Nan drinks cola for ~2s before Lin Shuangshuang starts speaking at 10.75s, causing '叶寻，发什么呆呢，赶紧把你爷爷那方子拿出来呀' to run to 14.24s/14.40s (2.84s past 11.4s scheduled window) and hard-cut the trailing '呀' mid-ending."
+        },
+        {
+          "timestamp": "00:07.0-00:08.5",
+          "category": "ACTION_CONTINUITY_FAULT",
+          "severity": "MEDIUM",
+          "description": "Herb-bundle squeeze inside bag in [Shot 2] succeeded, but at 00:07-00:08 Ye Xun unexpectedly drops his head back face-down onto his folded arms on the table before cutting to [Shot 3] where he is sitting upright."
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "Regenerate 1-3-01 from 1-3-01_1k.png: keep [Shot 1] (0s-3.0s) and [Shot 2] (3.0s-5.6s, squeezing herb bundle inside bag without returning face-down to the table), cut directly at 5.6s to [Shot 3] with Lin Shuangshuang speaking immediately at 5.8s while Chu Nan drinks in parallel, finishing by ~11.0s with >= 1.0s clean hold."
+    },
+    {
+      "id": "1-3-04",
+      "round2_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-06",
+      "round2_reviewed": true,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [
+        {
+          "timestamp": "00:01.0-00:07.5",
+          "category": "PROP_CONTINUITY",
+          "severity": "LOW",
+          "description": "Non-blocking residual from -c:v copy: cola can tips onto its side at 00:01 and pops upright bottom-left at 00:07. Audio grunt [0.38s-0.90s] is completely eliminated and final line '上哪儿请西餐师傅去' finishes cleanly at 14.18s/14.40s with closed lips and zero garbled tail noise."
+        }
+      ],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-09",
+      "round2_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-11",
+      "round2_reviewed": true,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [
+        {
+          "timestamp": "00:03.0-00:05.6",
+          "category": "PROP_DISAPPEARANCE",
+          "severity": "LOW",
+          "description": "Non-blocking residual from -c:v copy: red cola can is absent from table in [Shot 2] (1-3-12_aux_1k.png). Audio grunt [0.51s-0.86s] is completely eliminated and final line '好端端撕它干嘛' finishes cleanly at 12.10s/12.27s with closed lips and zero garbled tail noise."
+        }
+      ],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-15",
+      "round2_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.0-00:04.7",
+          "category": "PROP_MUTATION_AND_K_HOP_CONTINUITY",
+          "severity": "MEDIUM",
+          "description": "Unchanged from Round 1: in [Shot 1] (from 1-3-15_1k.png / 1-3_post_tear_master_1k.png), Ye Xun's army-green canvas backpack jumps from the wooden bench (1-3-11) onto his lap and mutates from a zipper-top backpack into a flap-cover buckled rucksack before reverting to zipper-top on the bench in 1-3-18. (Audio ends cleanly at 14.94s/15.10s on '丢人' with zero garbled tail noise)."
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE",
+      "fix_recipe": "Rebuild 1-3-15_1k.png and 1-3_post_tear_master_1k.png via Spark H3 Image keeping the zipper-top army-green canvas backpack zipped on the wooden bench beside Ye Xun (and fixing forearm/table clipping in 1-3_post_tear_master_1k.png), then regenerate 1-3-15."
+    },
+    {
+      "id": "1-3-18",
+      "round2_reviewed": false,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    },
+    {
+      "id": "1-3-21",
+      "round2_reviewed": true,
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": null
+    }
+  ]
+}

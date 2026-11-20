@@ -1,0 +1,278 @@
+{
+  "episode": 3,
+  "audit_round": 2,
+  "cross_episode_prev_shot": {
+    "id": "2-3-11",
+    "video_path": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/takes_ep02/2-3-11/video.mp4",
+    "end_state_summary": "已核查新版2-3-11末帧：夏氏小厨前厅（传菜口在后左，蓝布门帘与楼梯在后右）。木柜台在前景右侧，叶寻立于右侧柜台旁、肩背军绿帆布背包、左手按粗布草本包且左腕已无手表；夏芊芊立于中左；夏建国（右腕缠白绷带）左手持铁炒勺、右手捂喉立于左侧餐桌后。"
+  },
+  "final_entity_ledger": [
+    {
+      "entity": "叶寻_左手腕手表（跨集状态）",
+      "state": "新版2-3-11、3-1-01、3-1-04、3-2-11、3-2-14、3-2-20已无表；但3-1-08、3-1-11、3-1-14、3-1-24、3-2-01、3-2-23[Shot 4]仍可见黑色或银色手表复活",
+      "scope": "episode_3_all",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "叶寻_军绿色帆布背包",
+      "state": "2-3-11、3-1-01、3-1-04在身旁/柜台；3-2-01/08/11/14/20/23稳定背于左肩（仅未重修的3-2-17首帧仍缺失）",
+      "scope": "episode_3_all",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "夏氏小厨前厅_空间拓扑与现代家电",
+      "state": "3-1-01已按2-3-11修复柜台在右、传菜口在后左、楼梯在后右；但3-1-01[Shot 2]楼梯旁仍刷出高大现代冰箱，3-1-04[Shot 3]与3-1-24[Shot 2]-[Shot 3]仍冒出白色分体空调与墙面菜单贴纸",
+      "scope": "ep03_scene01",
+      "since_shot": "2-3-11"
+    },
+    {
+      "entity": "紫铜子母鸳鸯锅",
+      "state": "3-1-08[Shot 3]与3-1-21[Shot 3]已修复为内外双格紫铜子母锅；未重修的3-1-11[Shot 3]与仅修音频的3-1-24[Shot 4]仍缺内胆",
+      "scope": "ep03_scene01",
+      "since_shot": "3-1-08"
+    },
+    {
+      "entity": "夏记棕色硬皮账本",
+      "state": "3-2-01/14/20保持单本连续（3-2-20已修复危机中摊开闲读）；3-2-11[Shot 3]出现叶寻手多出一本同款棕色账本的严重双份克隆",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-01"
+    },
+    {
+      "entity": "夏记门口长柄铁锹与沙石堆",
+      "state": "3-2-01靠于左门框；3-2-20门口红匾乱码已清除，但05.1s-07.5s无沙石堆、08.5s突现沙堆且铁锹在叶寻插沙后又跳回夏建国手中；3-2-23沙堆顶对峙与交锋定格连贯",
+      "scope": "ep03_scene02",
+      "since_shot": "3-2-01"
+    },
+    {
+      "entity": "合伙字据（折叠白纸）",
+      "state": "3-1-24[Shot 4]仍存在空白瞬变满页成文；3-2-11[Shot 2]叶寻已将白纸塞入军绿背包袋，但3-2-14[Shot 3]与3-2-20[Shot 2]因复用带纸首帧导致白纸再度出现在叶寻右手",
+      "scope": "ep03_scene01_to_02",
+      "since_shot": "3-1-24"
+    }
+  ],
+  "shots": [
+    {
+      "id": "3-1-01",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:12.80-00:14.14",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "尾句台词严重截断：夏建国台词“可不是，再闻见那股燥辣红油味，我这嗓子彻底交代了”在12.80s-14.14s念至“我这嗓子彻底交——”时被硬切截断，彻底丢失“代了”二字（对应vad_audit_ep03_after 12.80s-14.14s告警）。"
+        },
+        {
+          "timestamp": "00:04.0-00:08.5",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "跨集空间布局虽已按2-3-11修复（柜台在右、叶寻入画），但[Shot 2]夏芊芊身后楼梯旁仍凭空出现一台高大米银色现代冰箱（2-3-11与3-1-01_1k.png均无此设备）。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "首帧空间已与新版2-3-11对齐；重写[Shot 1]-[Shot 3]时间轴：压缩[Shot 1]干咳至0.1s-2.2s，[Shot 2]叶寻于2.4s-6.2s说完，[Shot 3]夏建国于6.5s开讲并在12.8s前念完“彻底交代了”留足>=1.0s闭口余量；在[Shot 2]提示词中锚定后墙楼梯空无一物，严禁生成冰箱。"
+    },
+    {
+      "id": "3-1-04",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.0-00:14.4",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 2]-[Shot 3]桌面黑锅与畸形银球已修复（夏建国正确放下铁炒勺），但[Shot 3]后墙刚体几何仍发生漂移：门洞上方凭空出现一台白色分体空调，传菜口上方墙面新增两张印刷菜单贴纸（2-3-11及3-1-04_1k.png均无），且叶寻走入通往楼上的蓝帘楼梯而非后厨。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "在[Shot 3]挂载前厅Spatial Epoch洁净后墙母图，明确禁止门洞上方出现分体空调及传菜口上方墙面贴纸。"
+    },
+    {
+      "id": "3-1-08",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:01.0-00:09.44",
+          "category": "AUDIO_ONLY_DEFECT",
+          "severity": "MEDIUM",
+          "description": "画面已全面达标（[Shot 2]药材形态正常，[Shot 3]已正确切回红砖灶台+内外双格紫铜子母鸳鸯锅+重庆老街窗景），但原生音轨中从01.0s至09.44s全程混入了轻音乐钢琴/弦乐BGM（违反零音乐硬规范与分离配乐铁律，并直接引发vad_audit_ep03_after三段误报）。"
+        }
+      ],
+      "dispatch_action": "PATCH_AUDIO_ONLY",
+      "fix_recipe": "保留完整合格视频流（-c:v copy），剥离原带BGM音轨，重混纯后厨猛火灶声、草本入温油滋啦声、漏勺轻碰声与清亮红汤沸腾声，确保零音乐、零人声。"
+    },
+    {
+      "id": "3-1-11",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:07.2-00:11.5",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "MEDIUM",
+          "description": "（本轮未重修，沿用轮一核查结果）[Shot 3]锚点图3-1-13_aux_1k.png仍为单腔红汤铜锅（缺白汤内胆）、青花瓷碗且桌面另有重复满汤碗；08.0s->08.8s汤勺跳切变碗且仅涮1片毛肚。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "重绘3-1-13_aux_1k.png为双格紫铜子母鸳鸯锅与单只空纯白瓷碗，重写[Shot 3]连贯舀汤涮两片毛肚动作。"
+    },
+    {
+      "id": "3-1-14",
+      "cut_type_from_prev": "B",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:10.0-00:12.2",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "（本轮仅执行音频修补，07.46s人声杂音已清零）但[Shot 4]画面挂钟走时物理错乱未重修：10:10起点上分针仅微动至10:11，时针却反常跳至11点半位置。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "保留本镜已净化的音轨设计，重写[Shot 4]明确锁定挂钟时针在10点位、分针由2顺时针扫至4（10:10->10:20）。"
+    },
+    {
+      "id": "3-1-18",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-1-21",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-1-24",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:03.5-00:14.8",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "（本轮仅执行音频修补，00.22s闷哼杂音已清零）但[Shot 2]-[Shot 4]既有画面穿帮未重修：左上后墙冒出白色分体空调；[Shot 3]已拔笔帽，切至[Shot 4]（12.0s）黑笔重置为带帽重新拔帽且空白白纸瞬变满页成文，同时铜锅跳至左下角并丢失白汤内胆。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "锚定前厅母图消除左上墙空调，统一仅在[Shot 4]拔笔帽且保持纸面空白待写，锁定紫铜子母锅双格位置。"
+    },
+    {
+      "id": "3-2-01",
+      "cut_type_from_prev": "C",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-04",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    },
+    {
+      "id": "3-2-08",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:02.0-00:04.2",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "双男声严重叠词撞车：[Shot 1]仅持续2.0s即提前切入[Shot 2]，导致叶寻画外心声vo_custom（00.9s-04.2s“……摆盘吃回扣的混子”）与楚南举喇叭大喊（02.0s起“喂，半个月后我们塞纳河畔……”）在02.0s-04.2s正面撞车，“喂，半个月后”被严重掩盖。"
+        },
+        {
+          "timestamp": "00:07.0-00:14.4",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "（1）07.0s-08.5s多出一段东侧三人站街过场镜头，并在08.0s响起两声突兀拍掌/抽打音效；（2）08.0s-14.4s全程混入钢琴弦乐鼓点BGM（违反零音乐规范）；（3）[Shot 3]09.0s-10.0s夏芊芊手中棕色账本从垂在右胯瞬间跳回抱于胸前。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "硬性锁定[Shot 1]时长为0.0s-4.6s让叶寻VO在静音环境下完整播完再切[Shot 2]（4.6s-10.5s）；删除东侧过场多余镜头，严禁任何BGM与拍打音效，[Shot 3]（10.5s-14.0s）夏芊芊双手稳定抱紧账本无跳帧。"
+    },
+    {
+      "id": "3-2-11",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:09.0-00:13.7",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "[Shot 3]发生严重的双份账本道具复制与多余音效：09.0s切镜后，叶寻右手腰侧凭空多持一本同款棕色老花硬皮账本，与此同时夏芊芊胸前也抱着同一本棕色账本；10.0s-13.0s两人各自同时翻开一本账本（画面出现两本账本）；且09.2s-10.0s叶寻抬臂拦人时伴随三声刺耳清脆拍打音效。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "重写[Shot 3]指令：明确叶寻双手空置，绝不能生成第二本账本，只由叶寻伸手去翻开夏芊芊胸前唯一的那本深棕色账本；删除拦人时的拍打音效，仅留书页翻动声。"
+    },
+    {
+      "id": "3-2-14",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:13.0-00:15.1",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 3]（门面与乱码牌匾已彻底修复，军绿背包已在肩）但在13.0s-15.1s片尾：一辆侧面印有AI乱码字母的空铁皮斗车直接从前景台阶前由右向左穿过画面（与剧本“画外骤传”及下镜3-2-17从对门推来两车满载沙石矛盾），且配音仍是突突作响的机动发动机马达声；另叶寻右手复现了3-2-11已收入背包的折叠白纸。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "重写[Shot 3]13.5s-15.0s：严禁斗车实体穿入前景画面（保持画外音提示，三人齐刷刷转头向右看即可），仅使用纯手动铁轮滚青石板沉重摩擦声（严禁发动机马达声），并令叶寻右手空置不持白纸。"
+    },
+    {
+      "id": "3-2-17",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:00.0-00:11.55",
+          "category": "ANCHOR_OR_STATE_DRIFT",
+          "severity": "MEDIUM",
+          "description": "（本轮未重修，沿用轮一核查结果）3-2-17_1k.png缺叶寻军绿背包；[Shot 1]推斗车配发动机马达声；[Shot 2]-[Shot 3]倒沙背景漂移至带石栏杆的巷道石梯；vad_audit_ep03_after报11.36s/11.55s尾音余量仅0.19s。"
+        }
+      ],
+      "dispatch_action": "REBUILD_ANCHOR_IMAGE+REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "补全3-2-17_1k.png叶寻左肩背包，锁定夏记门口木门台阶与铁轮声，将夏芊芊台词提前至5.6s-10.2s留足句尾余量。"
+    },
+    {
+      "id": "3-2-20",
+      "cut_type_from_prev": "A",
+      "verdict": "FAIL",
+      "defects": [
+        {
+          "timestamp": "00:09.89-00:10.66",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "HIGH",
+          "description": "动作倒置且末尾出现张嘴乱码胡话：门头乱码牌匾与夏芊芊账本状态已修复，夏建国原台词也于07.26s完整说完；但07.5s叶寻就已经抢先从左门柱拿起铁锹并在08.5s插进右下角突然凭空冒出的沙堆里，紧接着09.89s-10.66s铁锹又跳回夏建国手中且夏建国张嘴喊出一句剧本外乱码胡话（“救出将去了”），11.0s切[Shot 3]叶寻才再次拿住铁锹。"
+        },
+        {
+          "timestamp": "00:05.1-00:09.0",
+          "category": "ACTION_OR_TIMELINE_FAULT",
+          "severity": "MEDIUM",
+          "description": "[Shot 2]05.1s-07.5s门口台阶完全没有沙石堆（与3-2-17刚堵门矛盾），直到08.5s才在右下角突现沙堆；且05.1s-09.5s叶寻右手仍持有已收入背包的折叠白纸。"
+        }
+      ],
+      "dispatch_action": "REWRITE_PROMPT_TIMELINE",
+      "fix_recipe": "严格理顺[Shot 2]-[Shot 3]动作顺序与道具存在：05.1s起前景右下角即必须稳固存在沙石堆，叶寻右手空置；先由夏建国抓起铁锹怒吼完整原台词（05.5s-08.8s），吼完立即闭口不再多嘴，09.0s-14.0s切[Shot 3]由叶寻单向拦截并稳稳接过铁锹。"
+    },
+    {
+      "id": "3-2-23",
+      "cut_type_from_prev": "A",
+      "verdict": "PASS",
+      "defects": [],
+      "dispatch_action": null,
+      "fix_recipe": ""
+    }
+  ]
+}
