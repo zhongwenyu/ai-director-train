@@ -193,3 +193,4 @@ RuntimeError: Isolated agy sub-agent (gemini-4-carbon-medium) failed: timeout 60
 [stage0] Premise Lock PASSED on round 1: 死不离婚：锁死家产送她入狱
 [11:56:03]   [v7_r2] dev_023 (年代乡村/rich_brief): ten=PASS_HIT_READY(94.0) dlg=PASS_HUMAN_NATURAL(90.0) | vs_GT[ten=GEN, dlg=REAL_GT] | vs_CHAMP[ten=CHAMP, dlg=CHAMP]
 [11:56:03]   [v7_r2] End-to-End Generating dev_112 (玄幻修仙 | concise_1s)...
+[stage0] Premise Lock PASSED on round 1: 寒门宝葫：断亲后我逆季粮满仓
