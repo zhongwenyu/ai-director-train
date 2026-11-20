@@ -1,0 +1,19 @@
+{
+  "ai_voice_defects": [],
+  "ear_test_impression": "闭眼听全是活人张嘴吵架的呼吸感。长短句错落极佳，充满“起开”“她舍得？”等短促本能反应与“勾两针……”“清出去？”的顶针咬话；汉子茶的撒娇尾音、渣男的敷衍傲慢、女主的冷硬决断声纹分明，冲突全落具体物件与眼前账目，零说教金句。",
+  "scores": {
+    "character_voice_distinction": 9.4,
+    "conversational_bite_and_rhythm": 9.5,
+    "spoken_naturalness": 9.3,
+    "subtext_and_micro_specificity": 9.4
+  },
+  "verdict": "PASS_HUMAN_NATURAL",
+  "total_score": 94.0,
+  "rhythm_metrics": {
+    "total_lines": 75,
+    "mean_char_len": 19.0,
+    "char_len_stdev": 6.7,
+    "short_reaction_ratio_le7": 0.04,
+    "twin_clause_symmetry_ratio": 0.08
+  }
+}

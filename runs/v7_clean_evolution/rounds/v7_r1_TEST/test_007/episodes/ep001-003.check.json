@@ -1,0 +1,50 @@
+{
+  "ok": true,
+  "protagonist_detected": "林致远",
+  "episode_count": 3,
+  "mean_est_duration_sec": 137.0,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "两百礼金与主桌驱逐",
+      "scenes": 2,
+      "actions": 12,
+      "dialogue_lines": 24,
+      "vo_lines": 2,
+      "spoken_chars": 535,
+      "avg_line_chars": 20.6,
+      "est_duration_sec": 142.1,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "假表实锤与席位易势",
+      "scenes": 2,
+      "actions": 12,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 509,
+      "avg_line_chars": 20.4,
+      "est_duration_sec": 136.3,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "名流折腰与强行曲解",
+      "scenes": 2,
+      "actions": 11,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 499,
+      "avg_line_chars": 20.0,
+      "est_duration_sec": 132.5,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['苏清晏', '王秀琴'] 未直接叫出全名（已出现称谓 ['妈', '娘', '叔', '婶', '哥', '妹']，交由屏幕盲审核验关系清晰度）",
+    "第 2 集角色 ['王秀琴', '张鹏', '苏清晏'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '爷']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['张莉', '王秀琴', '苏清晏'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '婶', '姑']，交由屏幕盲审核验关系清晰度）"
+  ]
+}
