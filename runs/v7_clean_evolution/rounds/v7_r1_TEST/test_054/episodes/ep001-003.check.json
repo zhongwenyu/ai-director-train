@@ -2,7 +2,7 @@
   "ok": true,
   "protagonist_detected": "温知意",
   "episode_count": 3,
-  "mean_est_duration_sec": 125.3,
+  "mean_est_duration_sec": 140.7,
   "episodes": [
     {
       "episode": 1,
@@ -11,9 +11,9 @@
       "actions": 9,
       "dialogue_lines": 23,
       "vo_lines": 2,
-      "spoken_chars": 481,
-      "avg_line_chars": 19.2,
-      "est_duration_sec": 123.3,
+      "spoken_chars": 523,
+      "avg_line_chars": 20.9,
+      "est_duration_sec": 132.6,
       "has_end_marker": true
     },
     {
@@ -23,9 +23,9 @@
       "actions": 7,
       "dialogue_lines": 23,
       "vo_lines": 2,
-      "spoken_chars": 454,
-      "avg_line_chars": 18.2,
-      "est_duration_sec": 116.1,
+      "spoken_chars": 518,
+      "avg_line_chars": 20.7,
+      "est_duration_sec": 130.3,
       "has_end_marker": true
     },
     {
@@ -35,16 +35,16 @@
       "actions": 9,
       "dialogue_lines": 24,
       "vo_lines": 1,
-      "spoken_chars": 522,
-      "avg_line_chars": 20.9,
-      "est_duration_sec": 136.4,
+      "spoken_chars": 624,
+      "avg_line_chars": 25.0,
+      "est_duration_sec": 159.1,
       "has_end_marker": true
     }
   ],
   "hard_errors": [],
   "warnings": [
-    "第 1 集角色 ['秦朗'] 未直接叫出全名（已出现称谓 ['哥', '嫂', '总']，交由屏幕盲审核验关系清晰度）",
+    "第 1 集角色 ['秦朗'] 未直接叫出全名（已出现称谓 ['哥', '弟', '嫂', '总']，交由屏幕盲审核验关系清晰度）",
     "第 1 集混入摄影/水印术语：['镜头切']",
-    "第 3 集角色 ['唐棠'] 未直接叫出全名（已出现称谓 ['娘', '叔', '伯', '婆', '公', '哥']，交由屏幕盲审核验关系清晰度）"
+    "第 3 集角色 ['唐棠'] 未直接叫出全名（已出现称谓 ['娘', '叔', '伯', '公', '哥', '弟']，交由屏幕盲审核验关系清晰度）"
   ]
 }
