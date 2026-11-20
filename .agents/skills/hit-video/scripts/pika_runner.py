@@ -23,14 +23,16 @@ import vo_split  # noqa: E402
 API_5090_URL = os.environ.get("PIKA_5090_URL", "http://127.0.0.1:8090/v2/video_generation")
 API_5090_KEY_FILE = Path(os.environ.get("PIKA_5090_KEY_FILE", "/home/zhongwenyu/project/h3-uncensored-20261011/api-key"))
 
-# Forbidden character appearance / garment tokens in video prompts (Zero-Appearance Rule)
+# Forbidden character appearance / garment / age tokens in video prompts (Universal Cross-Genre Zero-Appearance Rule)
 FORBIDDEN_APPEARANCE_RE = re.compile(
     r"\b("
     r"shirt|t-shirt|tee|blouse|suit|blazer|jacket|coat|hoodie|sweater|cardigan|"
-    r"dress|skirt|trousers|pants|jeans|shorts|apron|vest|tie|neckerchief|scarf|"
-    r"chef\s+hat|toque|glasses|spectacles|sneakers|heels|loafers|boots|"
+    r"dress|skirt|trousers|pants|jeans|shorts|apron|vest|robe|gown|hanfu|armor|tunic|uniform|cloak|"
+    r"tie|neckerchief|scarf|toque|helmet|crown|hairpin|veil|"
+    r"glasses|spectacles|sneakers|heels|loafers|boots|sandals|"
     r"ponytail|twintails|braid|bun|bangs|fringe|curly\s+hair|short\s+hair|long\s+hair|"
-    r"middle-aged|elderly|teenage|twenty-one-year-old|21-year-old|26-year-old"
+    r"teenage|adolescent|twenties|thirties|forties|fifties|sixties|middle-aged|elderly|"
+    r"\d+\s*-?\s*year\s*-?\s*old"
     r")\b",
     re.IGNORECASE,
 )
