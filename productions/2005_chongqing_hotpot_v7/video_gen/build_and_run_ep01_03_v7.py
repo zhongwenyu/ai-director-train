@@ -169,22 +169,22 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "楚南两指嫌弃地拈起叶寻洗得发白的旧围布丢进垃圾桶羞辱土锅底，赵帆捧着总厨礼帽得意宣告改做法式鹅肝融火锅。",
             "dialogue": "楚南：老叶，上市得讲门面。你那套土锅底，早该翻篇了。\n赵帆：往后店里主打法式鹅肝融火锅，只接高档客。",
             "assetNames": ["双林轩总部顶层试菜厅", "叶寻 · 2020研发总厨白服", "楚南 · 海归并购总监西装", "赵帆"],
-            "ref_images": [kf("1-1-04"), f_ye_2020, f_chu_exec, f_zhao],
+            "ref_images": [kf("1-1-04"), kf("1-1_master_4p"), f_ye_2020, f_chu_exec, f_zhao],
             "ref_audios": [v_chu, v_zhao],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1>: The man standing silently on screen-left in <Picture 1>, matching <Picture 2>.\n"
-                "- <Subject 2> (S1): The executive man on screen-right in <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n"
-                "- <Subject 3> (S2): The Western-style chef matching <Picture 4>. Voice matches Audio 2.\n"
+                "- <Subject 1>: The man standing silently on screen-left beside the round marble table in <Picture 1> and <Picture 2>, matching <Picture 3>.\n"
+                "- <Subject 2> (S1): The executive man on screen-right in <Picture 1> and <Picture 2>, matching <Picture 4>. Voice matches Audio 1.\n"
+                "- <Subject 3> (S2): The Western-style chef holding the white gold-trimmed ceremonial cap on the far right in <Picture 2>, matching <Picture 5>. Voice matches Audio 2.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-2.4s) Medium shot framed from <Picture 1> beside the dining chair and open floor trash bin.\n"
-                "- [Shot 2] (2.4s-7.4s) Slightly high-angle medium close-up favoring <Subject 2> on screen-right above the floor trash bin.\n"
-                "- [Shot 3] (7.4s-12.0s) Close-up on <Subject 3> on screen-right holding the gold-trimmed ceremonial cap proudly.\n"
+                "- [Shot 1] (0s-2.4s) Medium shot framed from <Picture 1> beside the round marble table, dining chair, and cylindrical floor trash bin.\n"
+                "- [Shot 2] (2.4s-7.4s) Slightly high-angle medium close-up inside the exact night-window VIP room of <Picture 2> favoring <Subject 2> on screen-right beside the round marble table.\n"
+                "- [Shot 3] (7.4s-12.0s) Close-up inside <Picture 2> on <Subject 3> on screen-right holding the white gold-trimmed ceremonial cap proudly at his chest.\n"
                 "[Timeline]\n"
-                "- [Shot 1] (0.1s-2.3s): Wrinkling his nose in disgust, <Subject 2> pinches a corner of the faded old work cloth off the chair back with two fingers and holds it over the trash bin while <Subject 1> glares with closed lips.\n"
+                "- [Shot 1] (0.1s-2.3s): Wrinkling his nose in disgust, <Subject 2> pinches a corner of the faded old work cloth off the chair back with two fingers and holds it over the floor trash bin while <Subject 1> glares with closed lips.\n"
                 "- [Shot 2] (2.5s-7.2s): Dropping the faded cloth into the trash bin and dusting his fingertips together, <Subject 2> (S1) looks toward screen-left and sneers: <d>[Chinese] 老叶，上市得讲门面，你那套土锅底，早该翻篇了。</d>\n"
-                "- [Shot 3] (7.6s-11.6s): Resting both hands smugly on the gold-trimmed ceremonial cap at his chest, <Subject 3> (S2) tilts his chin up toward screen-left and boasts: <d>[Chinese] 往后店里主打法式鹅肝融火锅，只接高档客。</d>\n"
-                "[Environment]\n- Luxury corporate banquet VIP room at night.\n"
+                "- [Shot 3] (7.6s-11.6s): Resting both hands smugly on the white gold-trimmed ceremonial cap from <Picture 2> at his chest, <Subject 3> (S2) tilts his chin up toward screen-left and boasts: <d>[Chinese] 往后店里主打法式鹅肝融火锅，只接高档客。</d>\n"
+                "[Environment]\n- Luxury corporate banquet VIP room at night (<Picture 2>) with round grey marble table and floor-to-ceiling city skyline window.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
                 "[Audio]\n- Cloth thudding into bin, arrogant male sneer, pretentious male boast, zero music."
             ),
@@ -218,23 +218,23 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "林双双将郊区仓库调岗单重重拍在叶寻胸口并亲昵挽住楚南胳膊，楚南扇着鼻子嫌弃草药味撵叶寻腾地方。",
             "dialogue": "林双双：看在以前的分上，郊区仓库给你留了个位置。去不去随你。\n楚南：行了叶师傅，腾地方吧，这一身草药味儿怪冲的。",
             "assetNames": ["双林轩总部顶层试菜厅", "叶寻 · 2020研发总厨白服", "林双双 · 塞纳左岸酒红礼服", "楚南 · 海归并购总监西装", "赵帆"],
-            "ref_images": [kf("1-1-10"), f_ye_2020, f_lin_banq, f_chu_exec, f_zhao],
+            "ref_images": [kf("1-1-10"), kf("1-1_master_4p"), f_ye_2020, f_lin_banq, f_chu_exec, f_zhao],
             "ref_audios": [v_lin, v_chu],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1>: The man standing on screen-left in <Picture 1>, matching <Picture 2>.\n"
-                "- <Subject 2> (S1): The woman on screen-right in <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n"
-                "- <Subject 3> (S2): The executive man standing to the right of <Subject 2>, matching <Picture 4>. Voice matches Audio 2.\n"
-                "- <Subject 4>: The chef standing on the far right, matching <Picture 5>.\n"
+                "- <Subject 1>: The man standing on screen-left in <Picture 1> and <Picture 2>, matching <Picture 3>.\n"
+                "- <Subject 2> (S1): The woman on screen-right in <Picture 1> and <Picture 2>, matching <Picture 4>. Voice matches Audio 1.\n"
+                "- <Subject 3> (S2): The executive man standing to the right of <Subject 2> in <Picture 2>, matching <Picture 5>. Voice matches Audio 2.\n"
+                "- <Subject 4>: The chef standing on the far right in <Picture 2>, matching <Picture 6>.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-2.4s) Profile medium close-up framed from <Picture 1> beside the table edge.\n"
-                "- [Shot 2] (2.4s-8.4s) Over-the-shoulder shot past <Subject 1>'s right shoulder pulling back smoothly 0.5m as <Subject 2> links arms with <Subject 3> beside <Subject 4>.\n"
-                "- [Shot 3] (8.4s-13.0s) Close-up two-shot favoring <Subject 3> with <Subject 2> holding his left arm.\n"
+                "- [Shot 1] (0s-2.4s) Profile medium close-up framed from <Picture 1> beside the round grey marble table edge.\n"
+                "- [Shot 2] (2.4s-8.4s) Over-the-shoulder shot past <Subject 1>'s right shoulder inside the exact night-skyline window VIP room of <Picture 2> (strictly keeping the round grey marble table and night floor-to-ceiling window behind them, never cutting to a windowless corridor) as <Subject 2> links arms with <Subject 3> beside <Subject 4>.\n"
+                "- [Shot 3] (8.4s-13.0s) Close-up two-shot inside <Picture 2> in front of the night city skyline window favoring <Subject 3> with <Subject 2> holding his left arm.\n"
                 "[Timeline]\n"
-                "- [Shot 1] (0.1s-2.3s): <Subject 2> slaps the printed transfer slip hard against <Subject 1>'s left chest and withdraws her hand; the paper slides down onto the table edge while <Subject 1> stands motionless.\n"
-                "- [Shot 2] (2.5s-8.2s): Stepping back half a pace to link both hands affectionately around <Subject 3>'s left arm, <Subject 2> (S1) speaks condescendingly toward screen-left: <d>[Chinese] 看在以前的分上，郊区仓库给你留了个位置，去不去随你。</d>\n"
+                "- [Shot 1] (0.1s-2.3s): <Subject 2> slaps the printed transfer slip hard against <Subject 1>'s left chest and withdraws her hand; the paper slides down onto the round marble table edge while <Subject 1> stands motionless.\n"
+                "- [Shot 2] (2.5s-8.2s): Stepping back half a pace beside the round marble table in <Picture 2> to link both hands affectionately around <Subject 3>'s left arm, <Subject 2> (S1) speaks condescendingly toward screen-left: <d>[Chinese] 看在以前的分上，郊区仓库给你留了个位置，去不去随你。</d>\n"
                 "- [Shot 3] (8.5s-12.6s): Waving his right hand dismissively twice in front of his nose, <Subject 3> (S2) smirks at screen-left and says: <d>[Chinese] 行了叶师傅，腾地方吧，这一身草药味儿怪冲的。</d>\n"
-                "[Environment]\n- Upscale banquet VIP room at night.\n"
+                "[Environment]\n- Upscale banquet VIP room at night (<Picture 2>) with round grey marble table and floor-to-ceiling city skyline window.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
                 "[Audio]\n- Crisp slap of paper on chest, condescending female voice, mocking male dismissal, zero music."
             ),
@@ -244,26 +244,26 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "叶寻盯着垃圾桶里的旧围布攥拳绷白，一把扯断胸前总厨工牌重重砸在桌面调岗单旁，转身推开包厢门决绝离场。",
             "dialogue": "",
             "assetNames": ["双林轩总部顶层试菜厅", "叶寻 · 2020研发总厨白服", "林双双 · 塞纳左岸酒红礼服", "楚南 · 海归并购总监西装"],
-            "ref_images": [kf("1-1-13"), f_ye_2020, f_lin_banq, f_chu_exec, sc_banquet],
+            "ref_images": [kf("1-1-13"), kf("1-1-13_aux"), f_ye_2020, f_lin_banq, f_chu_exec],
             "ref_audios": [],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1>: The man whose left hand appears in <Picture 1>, matching <Picture 2>.\n"
-                "- <Subject 2>: The woman by the table, matching <Picture 3>.\n"
-                "- <Subject 3>: The executive man beside <Subject 2>, matching <Picture 4>.\n"
+                "- <Subject 1>: The man whose left hand appears in <Picture 1> and who exits toward the wooden doors in <Picture 2>, matching <Picture 3>.\n"
+                "- <Subject 2>: The woman standing behind the round grey marble table in <Picture 2>, matching <Picture 4>.\n"
+                "- <Subject 3>: The executive man standing beside <Subject 2> behind the round grey marble table in <Picture 2>, matching <Picture 5>.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-2.3s) High-angle close-up framed from <Picture 1> showing <Subject 1>'s left hand in the foreground and the faded cloth inside the floor trash bin.\n"
-                "- [Shot 2] (2.3s-5.0s) Fast push-in close-up on <Subject 1>'s upper chest and face inside <Picture 5>.\n"
-                "- [Shot 3] (5.0s-7.0s) Tabletop close-up beside a champagne flute and the white transfer slip.\n"
-                "- [Shot 4] (7.0s-10.0s) Wide interior shot toward the dark double wooden doors at right-rear of <Picture 5> (camera stays strictly inside the room).\n"
+                "- [Shot 1] (0s-2.3s) High-angle close-up framed from <Picture 1> showing <Subject 1>'s left hand in the foreground and the faded cloth inside the cylindrical floor trash bin beside the round marble table.\n"
+                "- [Shot 2] (2.3s-5.0s) Fast push-in close-up on <Subject 1>'s upper chest and face in front of the night skyline window of <Picture 2>.\n"
+                "- [Shot 3] (5.0s-7.0s) Tabletop close-up on the round grey marble table surface beside a champagne flute and the white transfer slip.\n"
+                "- [Shot 4] (7.0s-10.0s) Wide interior shot framed directly from <Picture 2> across the round grey marble table (both <Subject 2> and <Subject 3> remain standing behind the round table, nobody seated) toward the dark double wooden doors at right-rear.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.1s-2.2s): <Subject 1>'s left fingers clench into a rock-hard fist with white knuckles.\n"
                 "- [Shot 2] (2.4s-4.9s): With reddened, razor-cold eyes and closed lips, <Subject 1> grabs the metal badge at his chest with his right hand and rips the lanyard cord clean off.\n"
-                "- [Shot 3] (5.1s-6.9s): <Subject 1>'s right hand slams the metal badge and snapped cord sharply down onto the table beside the transfer slip, making the champagne in the glass tremble.\n"
-                "- [Shot 4] (7.1s-10.0s): Turning sharply away from <Subject 2> and <Subject 3> by the table, <Subject 1> strides briskly to the right-rear wooden door, pushes it open, and exits into the corridor.\n"
-                "[Environment]\n- Luxury banquet room interior with dark wooden doors.\n"
+                "- [Shot 3] (5.1s-6.9s): <Subject 1>'s right hand slams the metal badge and snapped cord sharply down onto the round grey marble table beside the transfer slip, making the champagne in the glass tremble.\n"
+                "- [Shot 4] (7.1s-10.0s): Leaving <Subject 2> and <Subject 3> standing behind the round grey marble table on screen-left (<Picture 2>), <Subject 1> strides briskly to the right-rear wooden door, pushes it open, and exits.\n"
+                "[Environment]\n- Luxury banquet VIP room (<Picture 2>) with round grey marble table, night city window, and dark wooden doors.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
-                "[Audio]\n- Snapping lanyard cord, sharp metallic slam of badge on table, brisk footsteps, heavy wooden door pushed open, distant thunder rumble, zero speech, zero music."
+                "[Audio]\n- Snapping lanyard cord, sharp metallic slam of badge on marble table, brisk footsteps, heavy wooden door pushed open, distant thunder rumble, zero speech, zero music."
             ),
         },
         {
@@ -386,20 +386,20 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "楚南拍胸口包揽介绍星级西餐主厨，林双双惊喜之余仍不甘心放过叶寻，转头与楚南齐齐盯住叶寻催讨秘方。",
             "dialogue": "楚南：找我啊！我认识个星级西餐主厨，打声招呼的事儿。\n林双双：当真？不过叶寻答应今儿试锅了……叶寻，东西呢？",
             "assetNames": ["沙正街林家食府老店大堂", "楚南", "林双双", "叶寻"],
-            "ref_images": [kf("1-3-09"), f_chu, f_lin, f_ye],
+            "ref_images": [kf("1-3-09"), kf("1-3-06"), f_chu, f_lin, f_ye],
             "ref_audios": [v_chu, v_lin],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young man leaning back in his chair in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n"
-                "- <Subject 2> (S2): The young woman standing beside him, matching <Picture 3>. Voice matches Audio 2.\n"
-                "- <Subject 3>: The young man seated on screen-left across the table, matching <Picture 4>.\n"
+                "- <Subject 1> (S1): The young man leaning back in his wooden chair behind the square wooden table in <Picture 1> and <Picture 2>, matching <Picture 3>. Voice matches Audio 1.\n"
+                "- <Subject 2> (S2): The young woman standing beside him in <Picture 2>, matching <Picture 4>. Voice matches Audio 2.\n"
+                "- <Subject 3>: The young man seated on the wooden bench on screen-left in <Picture 2>, matching <Picture 5>.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-5.2s) Low-angle close-up framed from <Picture 1> on <Subject 1> on screen-right.\n"
-                "- [Shot 2] (5.2s-11.0s) Over-the-shoulder medium close-up past <Subject 3>'s blurred left shoulder onto <Subject 2> and <Subject 1> on screen-right.\n"
+                "- [Shot 1] (0s-5.2s) Medium close-up framed from <Picture 1> behind the square wooden table with the sketch paper and red aluminum cola can.\n"
+                "- [Shot 2] (5.2s-11.0s) Over-the-shoulder medium shot framed from the exact room geometry of <Picture 2> past <Subject 3> on screen-left onto <Subject 2> and <Subject 1> on screen-right across the square wooden table.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.2s-5.0s): Patting his own chest smugly with his right hand, <Subject 1> (S1) boasts up to <Subject 2>: <d>[Chinese] 找我啊，我认识个星级西餐主厨，打声招呼的事儿。</d>\n"
-                "- [Shot 2] (5.4s-10.5s): Flashing a delighted smile at <Subject 1> before turning sharply with him to stare at <Subject 3> and holding out her hand again, <Subject 2> (S2) demands: <d>[Chinese] 当真，不过叶寻答应今儿试锅了，叶寻，东西呢。</d>\n"
-                "[Environment]\n- Sunlit old eatery dining hall.\n"
+                "- [Shot 2] (5.4s-10.5s): Flashing a delighted smile at <Subject 1> before turning sharply with him across the square wooden table of <Picture 2> to stare at <Subject 3> and holding out her hand again, <Subject 2> (S2) demands: <d>[Chinese] 当真，不过叶寻答应今儿试锅了，叶寻，东西呢。</d>\n"
+                "[Environment]\n- Sunlit old eatery dining hall (<Picture 2>) with square dark-brown wooden table and green ceiling fan.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
                 "[Audio]\n- Hand patting chest, smug male brag, greedy female demand, creaking ceiling fan, zero music."
             ),
@@ -436,22 +436,22 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "叶寻拿楚南嫌火锅土的原话淡然回敬，林双双翻旧账倒打一耙，楚南抱臂抖腿阴阳怪气激将嘲讽。",
             "dialogue": "叶寻：楚少不是说了吗，火锅太土，别糟蹋你家这地方。\n林双双：说两句你还甩上脸子了？昨晚拍胸脯说帮我家的人是谁？\n楚南：嗨，人家这是有自知之明，不好意思拿土方子出来丢人。",
             "assetNames": ["沙正街林家食府老店大堂", "叶寻", "林双双", "楚南"],
-            "ref_images": [kf("1-3-15"), f_ye, f_lin, f_chu],
+            "ref_images": [kf("1-3-15"), kf("1-3_post_tear_master"), f_ye, f_lin, f_chu],
             "ref_audios": [v_ye, v_lin, v_chu],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young man seated calmly on screen-left in <Picture 1> with his hands resting on the zipped canvas backpack, matching <Picture 2>. Voice matches Audio 1.\n"
-                "- <Subject 2> (S2): The young woman standing on screen-right, matching <Picture 3>. Voice matches Audio 2.\n"
-                "- <Subject 3> (S3): The young man seated on screen-right, matching <Picture 4>. Voice matches Audio 3.\n"
+                "- <Subject 1> (S1): The young man seated calmly on the wooden bench on screen-left in <Picture 1> and <Picture 2> with his hands resting on the zipped canvas backpack on the bench, matching <Picture 3>. Voice matches Audio 1.\n"
+                "- <Subject 2> (S2): The young woman standing beside the square wooden table on right-center in <Picture 2>, matching <Picture 4>. Voice matches Audio 2.\n"
+                "- <Subject 3> (S3): The young man seated in his wooden chair on screen-right in <Picture 2>, matching <Picture 5>. Voice matches Audio 3.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-4.7s) Close-up framed from <Picture 1> on <Subject 1> facing screen-right.\n"
-                "- [Shot 2] (4.7s-10.2s) Over-the-shoulder close-up past <Subject 1>'s left shoulder onto <Subject 2> on screen-right.\n"
-                "- [Shot 3] (10.2s-15.0s) Close-up on <Subject 3> folding his arms smugly in his chair on screen-right.\n"
+                "- [Shot 1] (0s-4.7s) Medium close-up framed from <Picture 1> beside the square wooden table on <Subject 1> facing screen-right.\n"
+                "- [Shot 2] (4.7s-10.2s) Over-the-shoulder close-up inside the exact square-table hall of <Picture 2> past <Subject 1>'s left shoulder onto <Subject 2> on screen-right.\n"
+                "- [Shot 3] (10.2s-15.0s) Close-up inside <Picture 2> on <Subject 3> folding his arms smugly in his wooden chair behind the square wooden table on screen-right.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.2s-4.5s): Unmoved by her anger, <Subject 1> (S1) nods toward screen-right and replies evenly: <d>[Chinese] 楚少不是说了吗，火锅太土，别糟蹋你家这地方。</d>\n"
-                "- [Shot 2] (4.9s-10.0s): Straightening up and pointing an accusing finger at <Subject 1>, <Subject 2> (S2) snaps indignantly: <d>[Chinese] 说两句你还甩上脸子了，昨晚拍胸脯说帮我家的人是谁。</d>\n"
+                "- [Shot 2] (4.9s-10.0s): Straightening up beside the square wooden table and pointing an accusing finger at <Subject 1>, <Subject 2> (S2) snaps indignantly: <d>[Chinese] 说两句你还甩上脸子了，昨晚拍胸脯说帮我家的人是谁。</d>\n"
                 "- [Shot 3] (10.4s-14.6s): Folding his arms and tilting his head in a mocking sneer toward screen-left, <Subject 3> (S3) says sarcastically: <d>[Chinese] 嗨，人家这是有自知之明，不好意思拿土方子出来丢人。</d>\n"
-                "[Environment]\n- Sunlit 2005 Chongqing eatery hall.\n"
+                "[Environment]\n- Sunlit 2005 Chongqing eatery hall (<Picture 2>) with square dark-brown wooden table and green ceiling fan.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
                 "[Audio]\n- Cool unhurried male reply, indignant female accusation, sarcastic male mockery, zero music."
             ),
@@ -461,24 +461,24 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "叶寻毫不在意激将，干脆宣告退出，利落拎起帆布书包甩上右肩转身拉开大堂木门，林双双在身后慌乱急喊。",
             "dialogue": "叶寻：嗯。你们改西餐吧，我不掺和了。\n林双双：一中午连个人影都没有，你现在甩手走人？！",
             "assetNames": ["沙正街林家食府老店大堂", "重庆老街对门双火锅铺街景", "叶寻", "林双双", "楚南"],
-            "ref_images": [kf("1-3-18"), f_ye, f_lin, f_chu, sc_lin],
+            "ref_images": [kf("1-3-18"), kf("1-3_doorway_master"), f_ye, f_lin, f_chu],
             "ref_audios": [v_ye, v_lin],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young man seated on screen-left in <Picture 1>, matching <Picture 2>. Voice matches Audio 1.\n"
-                "- <Subject 2> (S2): The young woman standing at the table on screen-left rear, matching <Picture 3>. Voice matches Audio 2.\n"
-                "- <Subject 3>: The young man seated at the table, matching <Picture 4>.\n"
+                "- <Subject 1> (S1): The young man seated on the wooden bench in <Picture 1> and standing alone at the open doorway threshold in <Picture 2>, matching <Picture 3>. Voice matches Audio 1.\n"
+                "- <Subject 2> (S2): The young woman standing back beside the square wooden table on screen-left in <Picture 2>, matching <Picture 4>. Voice matches Audio 2.\n"
+                "- <Subject 3>: The young man seated at the square wooden table on screen-left in <Picture 2>, matching <Picture 5>.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-3.5s) Close-up framed from <Picture 1> on <Subject 1> gripping the canvas backpack strap.\n"
-                "- [Shot 2] (3.5s-5.8s) Medium shot beside the wooden bench as <Subject 1> stands up and slings the backpack onto his right shoulder.\n"
-                "- [Shot 3] (5.8s-10.0s) Wide tracking shot inside <Picture 5> moving 1.5m rightward parallel to <Subject 1> as he pulls open the wooden front door on screen-right (camera stays strictly inside the doorway).\n"
+                "- [Shot 1] (0s-3.5s) Medium close-up framed from <Picture 1> beside the square wooden table on <Subject 1> gripping the canvas backpack strap on the bench.\n"
+                "- [Shot 2] (3.5s-5.8s) Medium shot beside the wooden bench and square wooden table as <Subject 1> stands up and slings the army-green canvas backpack onto his right shoulder.\n"
+                "- [Shot 3] (5.8s-10.0s) Wide interior doorway shot framed directly from <Picture 2>: <Subject 1> stands alone at the weathered open wooden doorway threshold on screen-right opening onto the quiet sunlit bluestone lane (zero modern cars outside), while <Subject 2> remains standing far back on screen-left beside the square wooden table without running to the door.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.1s-3.3s): Giving a crisp nod, <Subject 1> (S1) says coolly: <d>[Chinese] 嗯，你们改西餐吧，我不掺和了。</d>\n"
-                "- [Shot 2] (3.6s-5.7s): Without sparing the table another glance, <Subject 1> rises briskly, swings the heavy army-green canvas backpack onto his right shoulder, and grips the front strap.\n"
-                "- [Shot 3] (5.9s-9.6s): As <Subject 1> strides to the right wooden door and pulls it wide open onto the bright street, <Subject 2> (S2) lurches half a step forward in the left background shouting anxiously at his back: <d>[Chinese] 一中午连个人影都没有，你现在甩手走人。</d>\n"
-                "[Environment]\n- Old eatery hall opening onto a bright sunlit Chongqing street.\n"
+                "- [Shot 2] (3.6s-5.7s): Without sparing the table another glance, <Subject 1> rises briskly from the wooden bench, swings the army-green canvas backpack onto his right shoulder, and grips the front strap.\n"
+                "- [Shot 3] (5.9s-9.6s): As <Subject 1> reaches the open weathered wooden doorway on screen-right (<Picture 2>), <Subject 2> (S2) stays back beside the square wooden table on screen-left shouting anxiously toward his back: <d>[Chinese] 一中午连个人影都没有，你现在甩手走人。</d>\n"
+                "[Environment]\n- Sunlit 2005 eatery hall opening through weathered dark-brown wooden doors onto a quiet bluestone pedestrian lane (<Picture 2>).\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
-                "[Audio]\n- Crisp male farewell, heavy canvas bag swung onto shoulder, creaking wooden door pulled open, anxious female shout, zero music."
+                "[Audio]\n- Crisp male farewell, heavy canvas bag swung onto shoulder, creaking wooden door pulled open, anxious female shout from back of hall, zero music."
             ),
         },
         {
@@ -486,7 +486,7 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "叶寻在门口冷刺回敬后迈入阳光老街暗下决心，林双双脸色骤变追出门槛一把死死拽住他的帆布书包带厉声喝阻切集。",
             "dialogue": "叶寻：找你的星级主厨去。\n叶寻（心声）：上辈子拿我当血包，这回，如你们的愿。\n林双双：叶寻你给我站住！话没说清楚往哪儿走——谁准你反悔的？！",
             "assetNames": ["沙正街林家食府老店大堂", "重庆老街对门双火锅铺街景", "叶寻", "林双双"],
-            "ref_images": [kf("1-3-21"), f_ye, f_lin, sc_street],
+            "ref_images": [kf("1-3-21"), kf("2-1-01"), f_ye, f_lin],
             "ref_audios": [v_ye, v_lin],
             "vo_custom": {
                 "voice": v_ye,
@@ -499,21 +499,21 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             },
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young man standing alone at the open wooden doorway threshold in <Picture 1> with the canvas backpack on his right shoulder, matching <Picture 2>. Voice matches Audio 1.\n"
-                "- <Subject 2> (S2): The young woman chasing out onto the sunlit street, matching <Picture 3>. Voice matches Audio 2.\n"
+                "- <Subject 1> (S1): The young man standing alone at the open wooden doorway threshold in <Picture 1> and on the lower stone step in <Picture 2> with the army-green canvas backpack on his right shoulder, matching <Picture 3>. Voice matches Audio 1.\n"
+                "- <Subject 2> (S2): The young woman chasing out onto the upper stone step of the weathered wooden doorway in <Picture 2>, matching <Picture 4>. Voice matches Audio 2.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-2.6s) Close-up framed from <Picture 1> on <Subject 1> alone at the sunlit threshold.\n"
-                "- [Shot 2] (2.6s-6.8s) Instant hard cut to a tight close-up on <Subject 1>'s chest and resolute face walking steadily forward toward screen-right down the sunlit bluestone street (<Picture 4>).\n"
-                "- [Shot 3] (6.8s-9.0s) Instant hard cut to a medium street-side shot outside the doorway as <Subject 2> dashes out from screen-left behind <Subject 1> and grabs his backpack strap.\n"
-                "- [Shot 4] (9.0s-15.0s) Tight profile two-shot on the sunlit steps with <Subject 2> on screen-left gripping the taut backpack strap and <Subject 1> on screen-right.\n"
+                "- [Shot 1] (0s-2.6s) Medium close-up framed from <Picture 1> on <Subject 1> alone at the sunlit wooden doorway threshold.\n"
+                "- [Shot 2] (2.6s-6.8s) Instant hard cut to a tight close-up on <Subject 1>'s chest and resolute face stepping down onto the sunlit stone steps outside the doorway.\n"
+                "- [Shot 3] (6.8s-9.0s) Instant hard cut to the exact doorway stone steps of <Picture 2> as <Subject 2> rushes out onto the upper step on screen-right behind <Subject 1> (on the lower step on screen-left) and grabs his right-shoulder green backpack strap.\n"
+                "- [Shot 4] (9.0s-15.0s) Medium two-shot matching the exact doorway steps blocking of <Picture 2>: <Subject 1> on the lower step on screen-left, <Subject 2> on the upper step on screen-right gripping his taut army-green backpack strap.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.1s-2.4s): Half-glancing back over his shoulder without turning around, <Subject 1> (S1) replies coldly: <d>[Chinese] 找你的星级主厨去。</d>\n"
-                "- [Shot 2] (2.7s-6.7s): Walking steadily forward in one continuous direction down the sunlit 2005 bluestone street without looking back, <Subject 1> grips his right backpack strap with sharp, resolute eyes and keeps his lips completely closed and silent.\n"
-                "- [Shot 3] (6.9s-8.9s): <Subject 2> rushes up from screen-left behind <Subject 1> and grabs the rear strap of his canvas backpack with both hands, yanking him sharply to a halt.\n"
-                "- [Shot 4] (9.1s-14.4s): Clutching the taut canvas strap fiercely on screen-left, <Subject 2> (S2) glares at <Subject 1> and barks imperiously: <d>[Chinese] 叶寻你给我站住，话没说清楚往哪儿走，谁准你反悔的。</d> Both freeze in high-tension standoff as <Subject 1> eyes her gripping hands coldly.\n"
-                "[Environment]\n- Bright sunlit 2005 Chongqing bluestone street outside the old eatery doorway.\n"
+                "- [Shot 2] (2.7s-6.7s): Stepping forward down the sunlit stone steps with sharp, resolute eyes, <Subject 1> grips his right backpack strap and keeps his lips completely closed and silent.\n"
+                "- [Shot 3] (6.9s-8.9s): <Subject 2> dashes out through the weathered wooden doorway onto the upper stone step on screen-right (<Picture 2>) and grabs <Subject 1>'s army-green canvas backpack strap firmly with her right hand, yanking him to a halt on the lower step.\n"
+                "- [Shot 4] (9.1s-14.4s): Holding the taut green canvas strap from the upper stone step on screen-right (<Picture 2>), <Subject 2> (S2) glares down at <Subject 1> and barks imperiously: <d>[Chinese] 叶寻你给我站住，话没说清楚往哪儿走，谁准你反悔的。</d> Both freeze in the exact standoff of <Picture 2>.\n"
+                "[Environment]\n- Weathered wooden shop doorway and two grey stone steps in bright midday sunlight (<Picture 2>), zero text signboards.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
-                "[Audio]\n- Cool male retort in [Shot 1], steady footsteps on bluestone in [Shot 2], urgent running steps and taut canvas strap yank in [Shot 3], furious female command in [Shot 4], zero music."
+                "[Audio]\n- Cool male retort in [Shot 1], steady footsteps on stone in [Shot 2], urgent running steps and taut canvas strap yank in [Shot 3], furious female command in [Shot 4], zero music."
             ),
         },
     ]
@@ -550,23 +550,23 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "林双双施舍式勒令叶寻服软交秘方，叶寻咔哒解下左腕廉价塑料电子表直接拍回她掌心当场宣布分手，林双双震惊破防。",
             "dialogue": "林双双：差不多行了。服个软把方子交出来，刚才的事我翻篇。\n叶寻：东西收好。咱俩完了。\n林双双：你说什么？叶寻，你敢提分手？！",
             "assetNames": ["重庆老街对门双火锅铺街景", "林双双", "叶寻"],
-            "ref_images": [kf("2-1-04"), f_lin, f_ye],
+            "ref_images": [kf("2-1-04"), kf("2-1-01"), f_lin, f_ye],
             "ref_audios": [v_lin, v_ye],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young woman standing on screen-right in <Picture 1> holding the backpack strap with her right hand, matching <Picture 2>. Voice matches Audio 1.\n"
-                "- <Subject 2> (S2): The young man standing on screen-left, matching <Picture 3>. Voice matches Audio 2.\n"
+                "- <Subject 1> (S1): The young woman standing on the upper stone step on screen-right in <Picture 1> and <Picture 2> gripping the taut green backpack strap with her right hand, matching <Picture 3>. Voice matches Audio 1.\n"
+                "- <Subject 2> (S2): The young man standing on the lower stone step on screen-left in <Picture 2> wearing the army-green canvas backpack on his right shoulder, matching <Picture 4>. Voice matches Audio 2.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-5.0s) Close-up framed from <Picture 1> on <Subject 1> extending her open left palm at waist height.\n"
-                "- [Shot 2] (5.0s-7.3s) Tight close-up on <Subject 2>'s raised left wrist unclasping a chipped black plastic digital watch.\n"
-                "- [Shot 3] (7.3s-11.2s) Medium close-up two-shot pushing in 0.35m onto <Subject 2>'s icy face on screen-left.\n"
-                "- [Shot 4] (11.2s-15.0s) Over-the-shoulder close-up past <Subject 2>'s left shoulder onto <Subject 1> clutching the plastic watch.\n"
+                "- [Shot 1] (0s-5.0s) Medium close-up framed from <Picture 1> outside the weathered wooden doorway on <Subject 1> extending her open left palm at waist height while her right hand holds the taut shoulder-height green strap.\n"
+                "- [Shot 2] (5.0s-7.3s) Tight close-up on <Subject 2>'s raised left wrist unclasping the small black plastic digital watch.\n"
+                "- [Shot 3] (7.3s-11.2s) Medium close-up two-shot on the exact weathered wooden doorway stone steps of <Picture 2> (strictly keeping <Subject 2>'s army-green canvas backpack on his right shoulder and wooden doorway behind them) pushing in 0.3m onto <Subject 2> on screen-left.\n"
+                "- [Shot 4] (11.2s-15.0s) Over-the-shoulder close-up on the exact wooden doorway steps of <Picture 2> past <Subject 2>'s shoulder onto <Subject 1> clutching the small black plastic watch.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.2s-4.8s): Holding out her open left palm imperiously toward screen-left, <Subject 1> (S1) orders: <d>[Chinese] 差不多行了，服个软把方子交出来，刚才的事我翻篇。</d>\n"
                 "- [Shot 2] (5.1s-7.2s): <Subject 2>'s right fingers unsnap the black plastic watch buckle from his left wrist with a sharp click and pull the watch free.\n"
-                "- [Shot 3] (7.4s-11.0s): Slapping the plastic watch directly into <Subject 1>'s open left palm and looking coldly into her eyes, <Subject 2> (S2) states flatly: <d>[Chinese] 东西收好，咱俩完了。</d>\n"
-                "- [Shot 4] (11.4s-14.6s): Glancing down at the watch in her palm and snapping her wide, stunned eyes up at <Subject 2>, <Subject 1> (S1) gasps sharply: <d>[Chinese] 你说什么，叶寻，你敢提分手。</d>\n"
-                "[Environment]\n- Sunlit 2005 Chongqing street steps.\n"
+                "- [Shot 3] (7.4s-11.0s): Standing on the lower stone step of <Picture 2> with his army-green canvas backpack on his right shoulder, <Subject 2> (S2) slaps the small plastic watch directly into <Subject 1>'s open left palm and states flatly: <d>[Chinese] 东西收好，咱俩完了。</d>\n"
+                "- [Shot 4] (11.4s-14.6s): Glancing down at the small black plastic watch in her palm on the upper stone step of <Picture 2> and snapping her stunned eyes up at <Subject 2>, <Subject 1> (S1) gasps sharply: <d>[Chinese] 你说什么，叶寻，你敢提分手。</d>\n"
+                "[Environment]\n- Weathered wooden shop doorway and two flat stone steps in midday sunlight (<Picture 2>), zero text signboards.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
                 "[Audio]\n- Condescending female command, crisp plastic watch click, slap of watch into palm, flat icy male breakup line, shocked female gasp, zero music."
             ),
@@ -576,22 +576,22 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "叶寻斩钉截铁划清界限，林双双攥着塑料表呆立原地哑口无言，叶寻转头冷讽激将楚南赶紧把吹出去的星级主厨请来。",
             "dialogue": "叶寻：分了。往后你家店是死是活，别来沾边。\n叶寻：楚少，刚吹出去的星级主厨，赶紧给人请来啊。",
             "assetNames": ["重庆老街对门双火锅铺街景", "叶寻", "林双双", "楚南"],
-            "ref_images": [kf("2-1-08"), kf("2-1-01"), f_ye, f_lin, f_chu],
+            "ref_images": [kf("2-1-08"), kf("2-1_post_watch_master"), f_ye, f_lin, f_chu],
             "ref_audios": [v_ye],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young man standing on screen-left in <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n"
-                "- <Subject 2>: The young woman standing on screen-center-right in <Picture 2>, matching <Picture 4>.\n"
-                "- <Subject 3>: The young man leaning against the right wooden doorframe, matching <Picture 5>.\n"
+                "- <Subject 1> (S1): The young man standing on the lower stone step on screen-left in <Picture 1> and <Picture 2> with the army-green canvas backpack on his right shoulder, matching <Picture 3>. Voice matches Audio 1.\n"
+                "- <Subject 2>: The young woman standing on the upper stone step in center-right of <Picture 2> clutching the small black plastic watch to her chest, matching <Picture 4>.\n"
+                "- <Subject 3>: The young man leaning against the right wooden doorframe in <Picture 2>, matching <Picture 5>.\n"
                 "[Shot]\n"
                 "- [Shot 1] (0s-4.8s) Close-up framed from <Picture 1> on <Subject 1> facing screen-right.\n"
-                "- [Shot 2] (4.8s-6.8s) Reverse close-up on <Subject 2> standing on the sunlit concrete steps in front of weathered plain wooden door panels (zero signboards or text).\n"
-                "- [Shot 3] (6.8s-13.0s) Medium three-shot outside the plain weathered wooden doorway showing <Subject 1> on screen-left, <Subject 2> frozen in center, and <Subject 3> by the right doorframe (zero signboards or text).\n"
+                "- [Shot 2] (4.8s-6.8s) Reverse close-up inside the exact wooden doorway steps of <Picture 2> on <Subject 2> clutching the small black plastic watch at her chest.\n"
+                "- [Shot 3] (6.8s-13.0s) Medium three-shot framed directly from <Picture 2> on the two flat stone steps outside the weathered wooden doorway (zero brick stoves, zero plastic bags, zero signboards) showing <Subject 1> on screen-left, <Subject 2> frozen in center-right, and <Subject 3> at the right doorframe.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.2s-4.5s): With cold finality, <Subject 1> (S1) speaks clearly: <d>[Chinese] 分了，往后你家店是死是活，别来沾边。</d>\n"
-                "- [Shot 2] (4.9s-6.7s): Clutching the black plastic watch tightly against her chest with natural skin tone and closed lips, <Subject 2> stands frozen and speechless in stunned disbelief.\n"
-                "- [Shot 3] (7.0s-12.4s): Shifting his gaze past <Subject 2> directly to <Subject 3> at the right doorframe with a cool, ironic look, <Subject 1> (S1) says evenly: <d>[Chinese] 楚少，刚吹出去的星级主厨，赶紧给人请来啊。</d>\n"
-                "[Environment]\n- Sunlit Chongqing old street steps in front of weathered plain wooden doors.\n"
+                "- [Shot 2] (4.9s-6.7s): Clutching the small black plastic watch tightly against her chest with closed lips, <Subject 2> stands frozen and speechless in stunned disbelief.\n"
+                "- [Shot 3] (7.0s-12.4s): Shifting his gaze past <Subject 2> directly to <Subject 3> at the right wooden doorframe of <Picture 2> with a cool, ironic look, <Subject 1> (S1) says evenly: <d>[Chinese] 楚少，刚吹出去的星级主厨，赶紧给人请来啊。</d>\n"
+                "[Environment]\n- Sunlit two flat stone steps in front of weathered wooden shop doors (<Picture 2>), zero text signboards.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
                 "[Audio]\n- Decisive male voice, plastic watch creak in fist, cool challenging male taunt, street cicadas, zero music."
             ),
@@ -601,22 +601,22 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "林双双慌忙扭头向楚南求证西餐主厨准不准，楚南好面子拍响胸口大包大揽说明天就把赵帆连装修队拉来，叶寻冷哂握住书包带。",
             "dialogue": "林双双：楚南，你刚说的那个主厨，到底准不准？\n楚南：什么准不准？就明天！我把星级主厨赵帆连装修队一块儿给你拉来！",
             "assetNames": ["重庆老街对门双火锅铺街景", "林双双", "楚南", "叶寻"],
-            "ref_images": [kf("2-1-11"), f_lin, f_chu, f_ye],
+            "ref_images": [kf("2-1-11"), kf("2-1_post_watch_master"), f_lin, f_chu, f_ye],
             "ref_audios": [v_lin, v_chu],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young woman in <Picture 1> turning toward right-rear, matching <Picture 2>. Voice matches Audio 1.\n"
-                "- <Subject 2> (S2): The young man by the right wooden doorframe, matching <Picture 3>. Voice matches Audio 2.\n"
-                "- <Subject 3>: The young man standing on screen-left, matching <Picture 4>.\n"
+                "- <Subject 1> (S1): The young woman on the upper stone step in <Picture 1> and <Picture 2> clutching the small black plastic watch, matching <Picture 3>. Voice matches Audio 1.\n"
+                "- <Subject 2> (S2): The young man at the right wooden doorframe in <Picture 1> and <Picture 2>, matching <Picture 4>. Voice matches Audio 2.\n"
+                "- <Subject 3>: The young man standing on the lower stone step on screen-left in <Picture 2> wearing the army-green canvas backpack on his right shoulder, matching <Picture 5>.\n"
                 "[Shot]\n"
                 "- [Shot 1] (0s-4.5s) Close-up framed from <Picture 1> on <Subject 1> looking anxiously toward right-rear.\n"
-                "- [Shot 2] (4.5s-11.4s) Over-the-shoulder medium close-up past <Subject 1>'s right shoulder onto <Subject 2> stepping forward from the doorframe.\n"
-                "- [Shot 3] (11.4s-14.0s) Medium close-up two-shot on <Subject 3> on screen-left and <Subject 1> on screen-right.\n"
+                "- [Shot 2] (4.5s-11.4s) Over-the-shoulder medium close-up inside <Picture 2> past <Subject 1>'s right shoulder onto <Subject 2> by the right wooden doorframe.\n"
+                "- [Shot 3] (11.4s-14.0s) Medium two-shot framed from the exact doorway steps blocking of <Picture 2>: <Subject 3> on the lower step on screen-left wearing his army-green canvas backpack (strictly army-green strap, never beige) and <Subject 1> on the upper step on screen-right.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.2s-4.3s): Turning desperately toward <Subject 2> behind her, <Subject 1> (S1) asks urgently: <d>[Chinese] 楚南，你刚说的那个主厨，到底准不准。</d>\n"
                 "- [Shot 2] (4.7s-11.2s): Puffing out his chest and slapping his own chest twice loudly with his open right palm, <Subject 2> (S2) boasts loudly: <d>[Chinese] 什么准不准，就明天，我把星级主厨赵帆连装修队一块儿给你拉来。</d> He closes his mouth smugly right as he finishes.\n"
-                "- [Shot 3] (11.5s-14.0s): As <Subject 1>'s shoulders relax in relief with closed lips, <Subject 3> flashes a cold, knowing smirk with closed lips and grips the upper part of his canvas backpack strap.\n"
-                "[Environment]\n- Sunlit midday street outside the eatery door.\n"
+                "- [Shot 3] (11.5s-14.0s): On the two flat stone steps of <Picture 2>, as <Subject 1>'s shoulders relax in relief with closed lips, <Subject 3> flashes a cold, knowing smirk with closed lips and grips the upper part of his army-green canvas backpack strap.\n"
+                "[Environment]\n- Sunlit two flat stone steps outside the weathered wooden doorway (<Picture 2>), zero text signboards.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
                 "[Audio]\n- Anxious female question, two loud chest slaps, boastful male pledge, canvas strap grip, zero music."
             ),
@@ -626,25 +626,25 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "description": "叶寻淡声祝福发财后猛地从林双双手中抽回书包带，顶着林双双在身后的破防叫骂头也不回走向斜对门夏记食府。",
             "dialogue": "叶寻：行，祝你们发财。\n林双双：滚就滚！离了我家这门面，你那破方子烂手里都没人要！",
             "assetNames": ["重庆老街对门双火锅铺街景", "叶寻", "林双双", "楚南"],
-            "ref_images": [kf("2-1-14"), f_ye, f_lin, f_chu, sc_street],
+            "ref_images": [kf("2-1-14"), kf("2-1_post_watch_master"), kf("2-1-14_street_aux"), f_ye, f_lin, f_chu],
             "ref_audios": [v_ye, v_lin],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young man on screen-left in <Picture 1> gripping the upper backpack strap, matching <Picture 2>. Voice matches Audio 1.\n"
-                "- <Subject 2> (S2): The young woman on screen-right in <Picture 1>, matching <Picture 3>. Voice matches Audio 2.\n"
-                "- <Subject 3>: The young man standing behind <Subject 2>, matching <Picture 4>.\n"
+                "- <Subject 1> (S1): The young man on the lower stone step on screen-left in <Picture 1> and <Picture 2> gripping the upper army-green backpack strap, matching <Picture 4>. Voice matches Audio 1.\n"
+                "- <Subject 2> (S2): The young woman on the upper stone step in center-right in <Picture 1> and <Picture 2>, matching <Picture 5>. Voice matches Audio 2.\n"
+                "- <Subject 3>: The young man standing by the right wooden doorframe behind <Subject 2> in <Picture 1> and <Picture 2>, matching <Picture 6>.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-4.0s) Medium two-shot framed from <Picture 1> on the concrete steps.\n"
-                "- [Shot 2] (4.0s-9.8s) Close-up on <Subject 2> with <Subject 3> behind her on the steps.\n"
-                "- [Shot 3] (9.8s-13.0s) Wide street shot (<Picture 5>) panning gently 12 degrees leftward following <Subject 1>'s resolute back across the sunlit bluestone road toward the facing shopfront.\n"
+                "- [Shot 1] (0s-4.0s) Medium shot framed from <Picture 1> on the two flat stone steps outside the weathered wooden doorway.\n"
+                "- [Shot 2] (4.0s-9.8s) Close-up on <Subject 2> with <Subject 3> behind her on the flat stone steps of <Picture 2>.\n"
+                "- [Shot 3] (9.8s-13.0s) Wide sunlit street shot framed from <Picture 3> (empty clean sidewalks and quiet wooden storefronts, zero outdoor dining tables or signboards) following <Subject 1>'s resolute back across the narrow bluestone road toward the facing shopfront.\n"
                 "[Timeline]\n"
                 "- [Shot 1] (0.2s-2.2s): Looking flatly at <Subject 2>, <Subject 1> (S1) says: <d>[Chinese] 行，祝你们发财。</d>\n"
-                "- [Shot 1] (2.2s-3.9s): <Subject 1> yanks his canvas backpack strap decisively free from <Subject 2>'s right hand, making her stumble slightly empty-handed as he turns away.\n"
-                "- [Shot 2] (4.2s-9.5s): Clenching her empty hand in rage, <Subject 2> (S2) steps to the step edge and shouts spitefully toward screen-left: <d>[Chinese] 滚就滚，离了我家这门面，你那破方子烂手里都没人要。</d> She clamps her jaw shut right after the line.\n"
-                "- [Shot 3] (9.9s-13.0s): Holding his right backpack strap steadily without looking back once, <Subject 1> strides firmly across the sunlit road toward the shop across the street.\n"
-                "[Environment]\n- Sunlit 2005 Chongqing bluestone street between two facing shops.\n"
+                "- [Shot 1] (2.2s-3.9s): <Subject 1> yanks his army-green canvas backpack strap decisively free from <Subject 2>'s right hand, making her stumble slightly empty-handed on the upper stone step as he turns away.\n"
+                "- [Shot 2] (4.2s-9.5s): Clenching her empty right hand in rage on the stone step of <Picture 2>, <Subject 2> (S2) shouts spitefully toward screen-left: <d>[Chinese] 滚就滚，离了我家这门面，你那破方子烂手里都没人要。</d> She clamps her jaw shut right after the line.\n"
+                "- [Shot 3] (9.9s-13.0s): Holding his right army-green backpack strap steadily without looking back once (<Picture 3>), <Subject 1> strides firmly across the clean sunlit bluestone road toward the quiet wooden shopfront across the street.\n"
+                "[Environment]\n- Sunlit 2005 Chongqing bluestone pedestrian street between two quiet wooden shopfronts (<Picture 2>, <Picture 3>), zero outdoor tables, zero text signboards.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
-                "[Audio]\n- Cool male farewell, sharp whoosh of canvas strap yanked free, spiteful female shout, steady footsteps on road, zero music."
+                "[Audio]\n- Cool male farewell, sharp whoosh of canvas strap yanked free, spiteful female shout, steady footsteps on stone road, zero music."
             ),
         },
         {
@@ -812,20 +812,20 @@ def build_plans() -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict
             "ref_audios": [v_qian, v_jian],
             "prompt": (
                 "[Subject]\n"
-                "- <Subject 1> (S1): The young woman stepping half a pace out from the counter on screen-right in <Picture 1>, matching <Picture 3>. Voice matches Audio 1.\n"
-                "- <Subject 2>: The young man standing beside the counter in <Picture 1> keeping his right hand on the herb bundle, matching <Picture 4>.\n"
-                "- <Subject 3> (S2): The master chef standing on screen-left before the blue curtain in <Picture 2>, matching <Picture 5>. Voice matches Audio 2.\n"
+                "- <Subject 1> (S1): The young woman stepping half a pace forward past the wooden counter on screen-right in <Picture 1> and <Picture 2>, matching <Picture 3>. Voice matches Audio 1.\n"
+                "- <Subject 2>: The young man standing beside the dark wooden counter on screen-right in <Picture 1> and <Picture 2> keeping his right hand on the herb bundle and his army-green canvas backpack on his left arm, matching <Picture 4>.\n"
+                "- <Subject 3> (S2): The master chef standing on screen-left before the dark-blue kitchen curtain in <Picture 2>, matching <Picture 5>. Voice matches Audio 2.\n"
                 "[Shot]\n"
-                "- [Shot 1] (0s-5.0s) Medium close-up two-shot framed from <Picture 1> facing screen-left.\n"
-                "- [Shot 2] (5.0s-11.8s) Close-up on <Subject 3> on screen-left clutching his swollen throat with his left hand.\n"
-                "- [Shot 3] (11.8s-14.0s) Three-layer depth medium shot framed from <Picture 2> with the herb bundle and <Subject 2>'s hand in right foreground and <Subject 3> in left background.\n"
+                "- [Shot 1] (0s-5.0s) Medium close-up two-shot framed from <Picture 1> with the dark wooden counter and herb bundle strictly on screen-right, facing screen-left.\n"
+                "- [Shot 2] (5.0s-11.8s) Close-up on <Subject 3> on screen-left in front of the dark-blue cloth curtain (<Picture 2>) clutching his swollen throat with his left hand and facing screen-right.\n"
+                "- [Shot 3] (11.8s-14.0s) Three-layer depth medium shot framed directly from <Picture 2> with the dark wooden counter, coarse burlap herb bundle, and <Subject 2>'s hand in the right foreground and <Subject 3> in the left background.\n"
                 "[Timeline]\n"
-                "- [Shot 1] (0.2s-4.8s): Stepping half a pace forward with worried eyes toward screen-left, <Subject 1> (S1) pleads anxiously: <d>[Chinese] 爸，你扁桃体肿得水都咽不下，快少说两句。</d>\n"
-                "- [Shot 2] (5.2s-11.5s): Waving the iron ladle slightly to stop his daughter and looking straight at <Subject 2>, <Subject 3> (S2) speaks in a hoarse, unyielding voice: <d>[Chinese] 小寻，心意叔领了，但那号上火烂嘴的红油锅，绝不能进咱家门。</d> He clamps his lips shut firmly as the sentence ends.\n"
-                "- [Shot 3] (11.9s-14.0s): In crisp three-layer depth, <Subject 2>'s fingers tighten steadily around the coarse cloth herb bundle on the counter while he locks calm, resolute eyes with <Subject 3> in silent deadlock.\n"
-                "[Environment]\n- Sunlit traditional eatery front hall.\n"
+                "- [Shot 1] (0.2s-4.8s): Stepping half a pace forward beside the right-side wooden counter with worried eyes toward screen-left, <Subject 1> (S1) pleads anxiously: <d>[Chinese] 爸，你扁桃体肿得水都咽不下，快少说两句。</d>\n"
+                "- [Shot 2] (5.2s-11.5s): Waving the iron ladle slightly to stop his daughter and looking straight toward screen-right at <Subject 2>, <Subject 3> (S2) speaks in a hoarse, unyielding voice: <d>[Chinese] 小寻，心意叔领了，但那号上火烂嘴的红油锅，绝不能进咱家门。</d> Immediately upon finishing, he clamps his lips shut firmly without another sound.\n"
+                "- [Shot 3] (11.9s-14.0s): In crisp three-layer depth matching <Picture 2>, <Subject 2>'s fingers tighten steadily around the coarse cloth herb bundle on the right-side wooden counter while both men keep their lips completely closed in silent deadlock.\n"
+                "[Environment]\n- Sunlit traditional eatery front hall (<Picture 2>) with dark wooden counter strictly on screen-right and dark-blue kitchen curtain at left-rear.\n"
                 f"[Camera & Visuals]\n{CLEAN_CAMERA}\n"
-                "[Audio]\n- Worried female plea, hoarse unyielding older male decree, subtle metallic hum of iron ladle, tense room silence, zero music."
+                "[Audio]\n- Worried female plea, hoarse unyielding older male decree, quiet room tone in [Shot 3] with zero trailing speech, zero music."
             ),
         },
     ]

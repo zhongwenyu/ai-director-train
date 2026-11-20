@@ -485,17 +485,31 @@ def build_ep3_post_spec(shot_map: Dict[str, Any]) -> Dict[str, Any]:
     }
 
 
-def upload_videos_and_post(sess: requests.Session, shot_map: Dict[str, Any]) -> Dict[str, Any]:
+def upload_videos_and_post(
+    sess: requests.Session,
+    shot_map: Dict[str, Any],
+    only_episodes: Tuple[int, ...] = (1, 2, 3),
+    refresh_keyframes: Tuple[str, ...] = (),
+) -> Dict[str, Any]:
+    refresh_set = set(refresh_keyframes)
     for ep_num, takes_dir, plan_name in [
         (1, WORK_DIR / "takes_ep01", "ep01_v7_plan.json"),
         (2, WORK_DIR / "takes_ep02", "ep02_v7_plan.json"),
         (3, WORK_DIR / "takes_ep03", "ep03_v7_plan.json"),
     ]:
+        if ep_num not in only_episodes:
+            continue
         plan = json.loads((WORK_DIR / plan_name).read_text(encoding="utf-8"))
         for sp in plan:
             sid = sp["id"]
             mp4 = takes_dir / sid / "video.mp4"
             info = shot_map[sid]
+            if sid in refresh_set:
+                kf_2k = WORK_DIR / "keyframes_2k" / f"{sid}_2k.png"
+                if kf_2k.is_file():
+                    new_img_id = upload_media(sess, kf_2k, f"{sid}_v7_2k.png", info["shotId"], "image", "image/png")
+                    info["imageId"] = new_img_id
+                    print(f"[upload-keyframe] Ep{ep_num} {sid} -> imageId={new_img_id}", flush=True)
             vid_id = upload_media(sess, mp4, f"{sid}_v7_480p.mp4", info["shotId"], "video", "video/mp4")
             dur_int = max(5, min(15, int(round(post_bgm_subtitles.probe_duration(mp4)))))
             sess.patch(
@@ -516,12 +530,21 @@ def upload_videos_and_post(sess: requests.Session, shot_map: Dict[str, Any]) -> 
             ).raise_for_status()
             print(f"[upload-video] Ep{ep_num} {sid} -> videoId={vid_id} ({dur_int}s)", flush=True)
 
-    report: Dict[str, Any] = {"project_id": PID, "episodes": {}}
+    (WORK_DIR / "shot_uuid_map.json").write_text(json.dumps(shot_map, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    prev_report_path = WORK_DIR / "publish_report_v7.json"
+    report: Dict[str, Any] = (
+        json.loads(prev_report_path.read_text(encoding="utf-8"))
+        if prev_report_path.is_file()
+        else {"project_id": PID, "episodes": {}}
+    )
     for ep_no, ep_id, label, spec in [
         (1, EP1_ID, "ep01_v7", build_ep1_post_spec(shot_map)),
         (2, EP2_ID, "ep02_v7", build_ep2_post_spec(shot_map)),
         (3, EP3_ID, "ep03_v7", build_ep3_post_spec(shot_map)),
     ]:
+        if ep_no not in only_episodes:
+            continue
         pdir = WORK_DIR / f"post_{label}"
         pdir.mkdir(parents=True, exist_ok=True)
         spec_file = pdir / f"{label}_spec.json"
@@ -568,6 +591,8 @@ def upload_videos_and_post(sess: requests.Session, shot_map: Dict[str, Any]) -> 
         }
 
     for ep_no, ep_id, name in [(1, EP1_ID, "Episode 1"), (2, EP2_ID, "Episode 2"), (3, EP3_ID, "Episode 3")]:
+        if ep_no not in only_episodes:
+            continue
         sess.post(f"{BASE_URL}/api/studio/projects/{PID}/episodes/{ep_id}/video", json={}, timeout=30)
         for _ in range(90):
             st = sess.get(f"{BASE_URL}/api/studio/projects/{PID}/episodes/{ep_id}/video", timeout=15).json()
@@ -594,7 +619,12 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--init-only", action="store_true")
     ap.add_argument("--upload-only", action="store_true")
+    ap.add_argument("--only-episodes", default="1,2,3", help="Comma-separated episodes to upload/merge, e.g. 1,2")
+    ap.add_argument("--refresh-keyframes", default="", help="Comma-separated shot IDs whose 2K keyframes changed")
     args = ap.parse_args()
+
+    only_eps = tuple(int(x.strip()) for x in args.only_episodes.split(",") if x.strip())
+    refresh_kfs = tuple(x.strip() for x in args.refresh_keyframes.split(",") if x.strip())
 
     sess = login_session()
     if args.init_only:
@@ -602,11 +632,11 @@ def main() -> None:
         return
     if args.upload_only:
         shot_map = json.loads((WORK_DIR / "shot_uuid_map.json").read_text(encoding="utf-8"))
-        upload_videos_and_post(sess, shot_map)
+        upload_videos_and_post(sess, shot_map, only_episodes=only_eps, refresh_keyframes=refresh_kfs)
         return
 
     shot_map = reset_and_create_shots(sess)
-    upload_videos_and_post(sess, shot_map)
+    upload_videos_and_post(sess, shot_map, only_episodes=only_eps, refresh_keyframes=refresh_kfs)
 
 
 if __name__ == "__main__":
