@@ -2,7 +2,7 @@
   "ok": true,
   "protagonist_detected": "陈向东",
   "episode_count": 3,
-  "mean_est_duration_sec": 150.3,
+  "mean_est_duration_sec": 140.9,
   "episodes": [
     {
       "episode": 1,
@@ -11,9 +11,9 @@
       "actions": 17,
       "dialogue_lines": 25,
       "vo_lines": 1,
-      "spoken_chars": 484,
-      "avg_line_chars": 18.6,
-      "est_duration_sec": 138.8,
+      "spoken_chars": 474,
+      "avg_line_chars": 18.2,
+      "est_duration_sec": 136.5,
       "has_end_marker": true
     },
     {
@@ -23,9 +23,9 @@
       "actions": 16,
       "dialogue_lines": 26,
       "vo_lines": 0,
-      "spoken_chars": 564,
-      "avg_line_chars": 21.7,
-      "est_duration_sec": 154.9,
+      "spoken_chars": 511,
+      "avg_line_chars": 19.7,
+      "est_duration_sec": 143.2,
       "has_end_marker": true
     },
     {
@@ -35,9 +35,9 @@
       "actions": 12,
       "dialogue_lines": 26,
       "vo_lines": 0,
-      "spoken_chars": 594,
-      "avg_line_chars": 22.8,
-      "est_duration_sec": 157.2,
+      "spoken_chars": 530,
+      "avg_line_chars": 20.4,
+      "est_duration_sec": 143.0,
       "has_end_marker": true
     }
   ],
