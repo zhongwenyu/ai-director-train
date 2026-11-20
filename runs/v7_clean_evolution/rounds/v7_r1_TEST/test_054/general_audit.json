@@ -1,0 +1,161 @@
+{
+  "distinct_major_events_in_3eps": 1,
+  "flaws": [],
+  "native_engine_and_comprehension": "以大婚倒计时的高压商脉捆绑为支点，靠“渣男仗沉没成本笃定女主不敢退婚”与“女主丢戒裁衣连夜撤婚改展”的致命认知差驱动爽感。裸看实况人物关系清晰、对白贴脸自然、情绪递进与钩子抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.3,
+    "motivation_and_logic": 9.2,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 93.5,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "大屏热吻，他逼我道歉",
+      "audible_counts": {
+        "温知意": 4,
+        "陆景深": 10,
+        "林薇薇": 5,
+        "秦朗": 3,
+        "现场主持": 1
+      },
+      "unintroduced_speakers": [
+        "秦朗"
+      ],
+      "kinship_or_titles_heard": [
+        "哥",
+        "弟",
+        "嫂",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "内　体育馆演唱会内场首排　夜",
+          "audible_counts": {
+            "温知意": 4,
+            "陆景深": 10,
+            "林薇薇": 5,
+            "秦朗": 3,
+            "现场主持": 1
+          },
+          "vo_counts": {
+            "温知意": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "丢戒离场，嫁衣遭剪",
+      "audible_counts": {
+        "陆景深": 8,
+        "林薇薇": 7,
+        "温知意": 7,
+        "秦朗": 1
+      },
+      "unintroduced_speakers": [
+        "秦朗"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "哥",
+        "弟",
+        "嫂",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　体育馆演唱会内场首排　夜",
+          "audible_counts": {
+            "陆景深": 4,
+            "林薇薇": 2,
+            "温知意": 2,
+            "秦朗": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "内　知意高定工坊核心展厅　夜",
+          "audible_counts": {
+            "温知意": 5,
+            "林薇薇": 5,
+            "陆景深": 4
+          },
+          "vo_counts": {
+            "温知意": 2
+          },
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "一刀两断，连夜撤婚",
+      "audible_counts": {
+        "林薇薇": 4,
+        "陆景深": 5,
+        "温知意": 9,
+        "保安": 1,
+        "唐棠": 4,
+        "李副总": 1
+      },
+      "unintroduced_speakers": [
+        "唐棠"
+      ],
+      "kinship_or_titles_heard": [
+        "娘",
+        "叔",
+        "伯",
+        "公",
+        "哥",
+        "弟",
+        "嫂",
+        "总"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　知意高定工坊核心展厅　夜",
+          "audible_counts": {
+            "林薇薇": 2,
+            "陆景深": 3,
+            "温知意": 4,
+            "保安": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　云顶庄园宴会厅后台　夜",
+          "audible_counts": {
+            "唐棠": 4,
+            "温知意": 5
+          },
+          "vo_counts": {
+            "温知意": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "内　私人会所休息室/地下车库　晨",
+          "audible_counts": {
+            "林薇薇": 2,
+            "陆景深": 2,
+            "李副总": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
