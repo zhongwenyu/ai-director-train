@@ -1,0 +1,49 @@
+{
+  "ok": true,
+  "protagonist_detected": "苏晚晴",
+  "episode_count": 3,
+  "mean_est_duration_sec": 139.3,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "馊饭破局，当众索钱立字据",
+      "scenes": 1,
+      "actions": 12,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 488,
+      "avg_line_chars": 19.5,
+      "est_duration_sec": 129.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "五元分家，鲜椒酱抵息套门路",
+      "scenes": 3,
+      "actions": 14,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 541,
+      "avg_line_chars": 21.6,
+      "est_duration_sec": 148.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "卤香炸街，甩现钱还债遇查摊",
+      "scenes": 3,
+      "actions": 13,
+      "dialogue_lines": 24,
+      "vo_lines": 1,
+      "spoken_chars": 508,
+      "avg_line_chars": 20.3,
+      "est_duration_sec": 139.7,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 1 集角色 ['林娇娇', '苏晚晴'] 未直接叫出全名（已出现称谓 ['哥', '嫂', '媳妇']，交由屏幕盲审核验关系清晰度）",
+    "第 3 集角色 ['屠宰工', '女工顾客'] 未直接叫出全名（已出现称谓 ['娘', '婶', '爷', '公', '哥', '妹']，交由屏幕盲审核验关系清晰度）"
+  ]
+}
