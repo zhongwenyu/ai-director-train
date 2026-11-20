@@ -1,0 +1,184 @@
+{
+  "distinct_major_events_in_3eps": 2,
+  "flaws": [],
+  "native_engine_and_comprehension": "以凛冬饥荒宗族压迫为底色，靠宝葫储物与灵液逆季育粮形成绝对物资代差，驱动孤儿藏宝断亲、打脸恶亲并护妹救赎。裸看实况人物称谓锚定自然清晰，伪造烧粮诱恶亲筛灰断亲等动机严密，乡土口语鲜活，钩子紧绷抓人。",
+  "scores": {
+    "dramatic_tension_and_emotion": 9.3,
+    "motivation_and_logic": 9.4,
+    "seed_fidelity_and_hook": 9.5,
+    "serial_pacing_and_clarity": 9.4
+  },
+  "verdict": "PASS_HIT_READY",
+  "total_score": 94.0,
+  "screen_diagnostics": [
+    {
+      "episode": 1,
+      "title": "善举得宝",
+      "audible_counts": {
+        "陈禾": 11,
+        "灰衣老乞": 1,
+        "陈大富": 5,
+        "王翠花": 3,
+        "陈耀祖": 2,
+        "陈小满": 3
+      },
+      "unintroduced_speakers": [
+        "陈禾",
+        "灰衣老乞",
+        "王翠花"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "婶",
+        "伯",
+        "哥"
+      ],
+      "scenes": [
+        {
+          "scene_id": "1-1",
+          "location": "外　村外破山神庙　日",
+          "audible_counts": {
+            "陈禾": 4,
+            "灰衣老乞": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "1-2",
+          "location": "内　陈大富家堂屋　夜",
+          "audible_counts": {
+            "陈禾": 7,
+            "陈大富": 5,
+            "王翠花": 3,
+            "陈耀祖": 2,
+            "陈小满": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 2,
+      "title": "暗收断亲",
+      "audible_counts": {
+        "陈耀祖": 3,
+        "王翠花": 3,
+        "陈守正": 2,
+        "陈大富": 2,
+        "陈禾": 8,
+        "陈小满": 6
+      },
+      "unintroduced_speakers": [
+        "王翠花",
+        "陈守正"
+      ],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "婆",
+        "哥"
+      ],
+      "scenes": [
+        {
+          "scene_id": "2-1",
+          "location": "内　陈大富家堂屋　夜",
+          "audible_counts": {
+            "陈耀祖": 3,
+            "王翠花": 3,
+            "陈守正": 2,
+            "陈大富": 2,
+            "陈禾": 1
+          },
+          "vo_counts": {
+            "陈禾": 1
+          },
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "2-2",
+          "location": "外　陈家村口雪巷　夜",
+          "audible_counts": {
+            "陈小满": 6,
+            "陈禾": 6
+          },
+          "vo_counts": {},
+          "mute_present_characters": [
+            "王翠花"
+          ]
+        },
+        {
+          "scene_id": "2-3",
+          "location": "内　北坡荒山破砖窑　夜",
+          "audible_counts": {
+            "陈禾": 1
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    },
+    {
+      "episode": 3,
+      "title": "灵液破局",
+      "audible_counts": {
+        "陈禾": 10,
+        "陈耀祖": 4,
+        "陈大富": 6,
+        "沈万山": 4,
+        "周班头": 2
+      },
+      "unintroduced_speakers": [],
+      "kinship_or_titles_heard": [
+        "爹",
+        "娘",
+        "叔",
+        "婶",
+        "伯",
+        "爷",
+        "婆",
+        "哥",
+        "弟",
+        "掌柜"
+      ],
+      "scenes": [
+        {
+          "scene_id": "3-1",
+          "location": "内　北坡荒山破砖窑　夜",
+          "audible_counts": {
+            "陈禾": 4
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-2",
+          "location": "内　北坡荒山破砖窑　日",
+          "audible_counts": {
+            "陈耀祖": 4,
+            "陈大富": 6,
+            "陈禾": 3
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        },
+        {
+          "scene_id": "3-3",
+          "location": "内　清河县望江楼后厨　日",
+          "audible_counts": {
+            "陈禾": 3,
+            "沈万山": 4,
+            "周班头": 2
+          },
+          "vo_counts": {},
+          "mute_present_characters": []
+        }
+      ]
+    }
+  ]
+}
