@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "protagonist_detected": "陈青山",
+  "episode_count": 3,
+  "mean_est_duration_sec": 140.6,
+  "episodes": [
+    {
+      "episode": 1,
+      "title": "断亲护女",
+      "scenes": 2,
+      "actions": 17,
+      "dialogue_lines": 22,
+      "vo_lines": 2,
+      "spoken_chars": 434,
+      "avg_line_chars": 18.1,
+      "est_duration_sec": 127.6,
+      "has_end_marker": true
+    },
+    {
+      "episode": 2,
+      "title": "寒夜送炭",
+      "scenes": 3,
+      "actions": 11,
+      "dialogue_lines": 23,
+      "vo_lines": 2,
+      "spoken_chars": 562,
+      "avg_line_chars": 22.5,
+      "est_duration_sec": 148.5,
+      "has_end_marker": true
+    },
+    {
+      "episode": 3,
+      "title": "神瞳灵犬",
+      "scenes": 3,
+      "actions": 16,
+      "dialogue_lines": 24,
+      "vo_lines": 2,
+      "spoken_chars": 513,
+      "avg_line_chars": 19.7,
+      "est_duration_sec": 145.6,
+      "has_end_marker": true
+    }
+  ],
+  "hard_errors": [],
+  "warnings": [
+    "第 2 集角色 ['王桂花'] 未直接叫出全名（已出现称谓 ['爸', '妈', '娘', '叔', '伯', '爷']，交由屏幕盲审核验关系清晰度）"
+  ]
+}
