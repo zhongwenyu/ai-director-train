@@ -1,5 +1,5 @@
 {
-  "total_duration": 164.699,
+  "total_duration": 167.574,
   "vtt_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/post_ep02_v7/ep02_v7_subtitles.vtt",
   "bgm_file": "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/post_ep02_v7/ep02_v7_bgm.mp3",
   "bgm_segments": [
@@ -35,7 +35,7 @@
       "fade_in": 0.6,
       "fade_out": 0.4,
       "start": 139.532,
-      "end": 164.699
+      "end": 167.574
     }
   ],
   "shots": [
@@ -298,7 +298,7 @@
     {
       "id": "2-3-11",
       "studioShotId": "50f13b7d-8453-4498-8af2-4d2158db5736",
-      "duration": 11.5,
+      "duration": 14.375,
       "bgmOffset": 153.199,
       "subtitles": [
         {
@@ -310,7 +310,7 @@
         },
         {
           "start": 5.2,
-          "end": 11.42,
+          "end": 11.5,
           "kind": "dialogue",
           "speaker": "夏建国",
           "text": "小寻，心意叔领了……但那号上火烂嘴的红油锅，绝不能进咱家门！"
@@ -521,7 +521,7 @@
     },
     {
       "start": 158.399,
-      "end": 164.619,
+      "end": 164.699,
       "kind": "dialogue",
       "speaker": "夏建国",
       "text": "小寻，心意叔领了……但那号上火烂嘴的红油锅，绝不能进咱家门！",

@@ -1,6 +1,6 @@
 {
   "headers": {
-    "X-Task-Id": "950edcd3d61c4e98b1b2f48156427b09",
+    "X-Task-Id": "e81f572cf7494ea18b8502bcee6ce298",
     "X-Task-Type": "ref2va",
     "X-Model": "Pika-H3-Flex",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
@@ -11,7 +11,7 @@
     "X-Steps": "6",
     "X-Audio-Generated": "true",
     "X-Queue-Wait-S": "0.0",
-    "X-E2E-S": "138.042",
+    "X-E2E-S": "137.589",
     "X-Turbo": "false",
     "X-Frames": "362",
     "X-Requested-Duration": "15.0",
@@ -20,7 +20,7 @@
     "X-SOL-Tau": "none",
     "X-Sampler": "lcm"
   },
-  "elapsed_s": 138.09,
+  "elapsed_s": 137.6,
   "seed": 71391,
   "requested_duration": 15,
   "actual_duration": 15.084,
@@ -29,9 +29,9 @@
   "has_audio": true,
   "ref_images_1k": [
     "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/1-3-21_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/keyframes_1k/2-1-01_1k.png",
     "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/ad5aa9a9-3d3f-4201-baf7-e6908e38ec71_front_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/c4e41118-a4ed-49d3-85f8-c06d4b0b0173_main_1k.png"
+    "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/assets_1k/a548b547-5051-4d6e-9a99-99fd5c5e6168_front_1k.png"
   ],
   "ref_audios": [
     "/home/zhongwenyu/project/ai-director-train/productions/2005_chongqing_hotpot_v7/video_gen/yexun_pure_ref.wav",
@@ -42,31 +42,8 @@
       0.28,
       4.94
     ],
+    "atempo": 1.1,
     "eff_dur": 4.236,
-    "dst_start": 3.0,
-    "vo_headers": {
-      "X-Audio-Generated": "true",
-      "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
-      "X-Duration": "5.167",
-      "X-E2e-S": "113.278",
-      "X-Frames": "124",
-      "X-Loras": "[\"pika_h3_flex_ref2va_v1_bf16.safetensors\"]",
-      "X-Model": "Pika-H3-Flex",
-      "X-Precision": "int8",
-      "X-Pruned": "true",
-      "X-Queue-Wait-S": "0.0",
-      "X-Requested-Duration": "5.0",
-      "X-Resolution": "368x656",
-      "X-Sampler": "lcm",
-      "X-Sol": "false",
-      "X-Sol-Tau": "none",
-      "X-Steps": "6",
-      "X-Task-Id": "42487d377d7d46c39a3be6a0a9bea8a5",
-      "X-Task-Type": "ref2va",
-      "X-Turbo": "false",
-      "seed": 71468,
-      "elapsed": 114,
-      "resolution": "368p"
-    }
+    "dst_start": 3.0
   }
 }
