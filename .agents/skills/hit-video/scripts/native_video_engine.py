@@ -304,23 +304,24 @@ def apply_vo_wav_onto_clip(
     vo_wav: Optional[Path],
     os_spec: Dict[str, Any],
 ) -> Path:
-    """Mix pre-synthesized 4070TiS voiceover WAV onto silent-mouth visual clip."""
-    if vo_wav is None or not vo_wav.is_file():
+    """Mix pre-synthesized 4070TiS voiceover WAV onto silent-mouth visual clip via H3R.mix_vo_custom."""
+    marker = base_mp4.with_suffix(".vo_done")
+    if marker.is_file() or vo_wav is None or not vo_wav.is_file():
         return base_mp4
     probe = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(base_mp4)], text=True))
     base_dur = float(probe["format"]["duration"])
     mixed_mp4 = base_mp4.with_suffix(".os_mixed.mp4")
     eff = "none" if str(os_spec.get("mode", "")).lower() == "offscreen_speech" else "inner_vo"
-    H3R.mix_vo_into_video(
-        base_mp4=base_mp4,
-        vo_wav=vo_wav,
-        dst_start=float(os_spec.get("start_s", 0.25)),
-        max_len=max(1.2, base_dur - 0.30),
-        base_duck=0.22,
-        effect=eff,
-        out_mp4=mixed_mp4,
-    )
+    vo_cfg = {
+        "dst_start": float(os_spec.get("start_s", 0.25)),
+        "max_len": max(1.2, base_dur - 0.30),
+        "base_duck": 0.24,
+        "vo_gain": 1.75,
+        "effect": eff,
+    }
+    H3R.mix_vo_custom(base_mp4, vo_wav, vo_cfg, mixed_mp4)
     mixed_mp4.replace(base_mp4)
+    marker.write_text("ok\n", encoding="utf-8")
     return base_mp4
 
 
@@ -521,11 +522,14 @@ def execute_scene_plan(
     def _pipeline_single_clip(idx_clip: Tuple[int, Dict[str, Any]]) -> Tuple[int, Path]:
         idx, cspec = idx_clip
         c_mp4 = clips_dir / f"clip_{idx:02d}.mp4"
+        has_vo = bool(cspec.get("inner_os") and isinstance(cspec["inner_os"], dict) and cspec["inner_os"].get("text"))
         if c_mp4.is_file() and c_mp4.stat().st_size > 10000:
+            if has_vo and not c_mp4.with_suffix(".vo_done").is_file():
+                vo_wav = synthesize_vo_wav_on_4070(cspec["inner_os"], beat_spec, clips_dir, base_seed + idx * 13 + 5)
+                apply_vo_wav_onto_clip(c_mp4, vo_wav, cspec["inner_os"])
             return idx, c_mp4
 
         # Step A: Start 4070TiS 368p low-res voiceover synthesis IMMEDIATELY in parallel if clip has inner_os / offscreen VO!
-        has_vo = bool(cspec.get("inner_os") and isinstance(cspec["inner_os"], dict) and cspec["inner_os"].get("text"))
         vo_pool = cf.ThreadPoolExecutor(max_workers=1) if has_vo else None
         vo_fut = (
             vo_pool.submit(synthesize_vo_wav_on_4070, cspec["inner_os"], beat_spec, clips_dir, base_seed + idx * 13 + 5)
