@@ -1,0 +1,20 @@
+subject_definitions:
+<Picture 1> is the opening Close-up (85mm prime lens, shallow depth of field, tight 15-degree off-axis front angle on CHR_2 facing screen-right, unobstructed single shot) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+
+summary:
+[keyframe completion + reference generation] Jumping two framing steps to a tight close-up from the same side of the axis as <Subject 1> steps away toward screen-right, his stubborn facade gives way to silent exhaustion as his inner monologue sighs.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Locked-off camera with subtle organic breathing from the near side of the 180-degree axis, framing <Subject 1> in a tight 15-degree off-axis front close-up as he steps smoothly forward toward camera-right. <Subject 1>'s lips remain naturally closed and still throughout the entire shot, zero silent mouthing. From 0.00s to 0.25s, inheriting his turned posture with hands anchored deep in his coat pockets keeping the navy wool lapels pulled subtly taut downward, <Subject 1> briefly lowers his gaze and releases a silent heavy breath through his nose, nostrils moving faintly. From 0.25s to 1.65s, the rigid pride around his eyes melts into quiet, heavy-lidded emotional exhaustion, inner brows softening in weary resignation with a subtle swallow at his throat above the oatmeal turtleneck. From 1.65s to 2.00s, <Subject 1> raises his tired, glistening eyes steadily along the walkway past camera-right, holding that quiet weary gaze until the cut. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Quiet overcast park air tone, one gentle steady boot step on asphalt and soft wool coat movement, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

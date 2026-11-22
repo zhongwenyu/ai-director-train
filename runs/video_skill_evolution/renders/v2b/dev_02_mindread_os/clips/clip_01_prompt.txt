@@ -1,0 +1,20 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+
+summary:
+[keyframe completion + reference generation] Tight close-up on <Subject 1> leaning back with arms crossed in smug silent amusement as his cocky inner monologue makes a reckless bet.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle slow push-in. Within 0.0s-0.20s, <Subject 1>'s eyes gleam with cocky, self-assured amusement toward off-frame right and his right eyebrow arches slightly as he leans back comfortably against the red plastic chair backrest, folding his arms loosely across his chest so his fingers press firmly into the black cotton T-shirt sleeves, forming natural fabric creases that remain steadily held through the end of the shot. Throughout the entire 4.0s clip, <Subject 1>'s lips remain naturally closed and completely unmoving in a suppressed, smug smirk with zero lip-sync, conveying his silent inner wager purely through a playful side-glance, a subtle confident tilt of his chin, and light amused breathing while preserving his youthful 19-year-old facial bone structure and natural skin texture. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Quiet outdoor night air ambiance with subtle cotton fabric rustle as arms fold across the chest and a soft nasal exhale of suppressed amusement, strictly clean audio bed with zero background music or spoken murmur.
+
+non_diegetic_music:
+N/A

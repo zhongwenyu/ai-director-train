@@ -1,0 +1,28 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S2) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> (S1) is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (桃子味饮料).
+<Audio 1> is the voice-timbre reference for <Subject 2> (S1).
+<Audio 2> is the voice-timbre reference for <Subject 1> (S2).
+
+summary:
+[keyframe completion + reference generation + audio reference] Angled shallow-depth medium close-up as <Subject 2> cheerfully hands a bottle of peach drink to <Subject 1>, who accepts it and quietly tells her to use his name at school.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
+<Audio 2>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera maintaining shallow depth of field across both characters along the locked 180-degree axis. At 0.00s–0.20s, <Subject 2> (S1) on screen-right brightens with genuine warmth in the eyes, cradling spare peach drink bottles against her left forearm while extending one clear plastic bottle forward in her right hand. With an upbeat, affectionate breath phrasing and precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw, <Subject 2> (S1) speaks (0.20s-3.14s): <d>[Chinese] 哥哥，桃子味的，给你。</d> while pressing the bottle gently toward <Subject 1> (S2), then naturally closes lips and holds steady warm eye contact, zero trailing mouth movement. As <Subject 1> (S2) on screen-left wraps his right fingers firmly around the plastic bottle body—taking its weight cleanly as <Subject 2> (S1)'s fingers release contact so the bottle remains steadily held in <Subject 1> (S2)'s right hand at chest height—his gaze flicks briefly sideways in mild campus self-consciousness before refocusing on <Subject 2> (S1). After a quiet hushed breath catch, speaking in a low, restrained voice with precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw, <Subject 1> (S2) speaks (1.55s-2.65s): <d>[Chinese] 在学校叫我名字。</d>, then naturally closes lips and holds steady eye contact, zero trailing mouth movement.
+
+overall_soundscape:
+Quiet indoor hallway room tone, light hollow plastic contact sound as the drink bottle changes hands, soft cotton sleeve rustle, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

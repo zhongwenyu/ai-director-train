@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium shot (OTS MS), tight 15-degree off-axis three-quarter-front angle on CHR_2 with 50mm prime lens and shallow depth of field cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (烤肉串与金属托盘).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Seated screen-left at the red barbecue table across from CHR_1's blurred right-foreground shoulder, <Subject 1> leans lightly onto his forearm beside the skewer tray and teases CHR_1 with breezy skepticism.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Locked-off camera with subtle organic breathing, preserving steady over-the-shoulder depth across the red tabletop while the softly blurred white-clad shoulder silhouette in the extreme right foreground remains still. From 0.00s to 0.20s, <Subject 1> (S1)'s eyes glint with playful skepticism as he draws a light amused breath, locking his gaze just past camera-right. After a breezy breath phrasing, <Subject 1> (S1) speaks (0.20s-2.75s): <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d> in a relaxed, teasing youthful tone, with precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw. As he delivers the banter, genuine amused warmth curves the outer corners of his eyes and relaxes his brow, while his torso leans slightly forward onto his right forearm anchored on the red tabletop edge; his right fingertips tap once and press firmly against the damp plastic tabletop beside the dark metal barbecue tray, flattening tiny beads of surface moisture beneath his pads where his fingers remain steadily planted. From 2.55s to 3.00s, <Subject 1> (S1) naturally closes lips and holds steady eye contact, zero trailing mouth movement, keeping his slight forward lean and subtly lifted chin.
+
+overall_soundscape:
+Quiet outdoor night barbecue stall ambiance, gentle grill sizzle in the distance, light tactile finger tap on damp plastic tabletop, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

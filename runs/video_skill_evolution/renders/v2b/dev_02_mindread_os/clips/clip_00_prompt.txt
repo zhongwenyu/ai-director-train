@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (烤肉串与金属托盘).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Over CHR_1's right shoulder, <Subject 1> on screen-left teases CHR_1 with playful skepticism while setting a bamboo skewer back onto the metal tray.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera. Immediately at 0.0s-0.20s, <Subject 1> (S1)'s eyes crinkle with playful, teasing disbelief toward the soft-focus foreground-right shoulder silhouette as a relaxed grin forms. Leaning slightly forward across the red table, <Subject 1> (S1) speaks in a breezy, light-hearted bantering tone with crisp, accurate Mandarin lip-sync articulating every syllable: <Subject 1> (S1) speaks (0.20s-2.75s): <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d> While delivering the line, <Subject 1> (S1) gestures lightly once with his right hand and places the thin bamboo meat skewer cleanly down onto the rim of the dark metal tray on the tabletop, where the skewer settles steadily against the other skewers without bouncing or shifting, then rests his right hand naturally on the red plastic table edge. After 2.50s, <Subject 1> (S1) closes his lips naturally into a smug, knowing half-smile with zero residual mouth movement, maintaining his youthful 19-year-old facial bone structure and steady amused gaze toward screen-right.
+
+overall_soundscape:
+Subtle nocturnal outdoor street-stall ambiance with faint distant traffic hum and gentle charcoal sizzle, crisp foley of a bamboo skewer lightly tapping onto the metal tray rim and fingers resting on plastic tabletop, clean silent tail with no music or vocal murmur.
+
+non_diegetic_music:
+N/A

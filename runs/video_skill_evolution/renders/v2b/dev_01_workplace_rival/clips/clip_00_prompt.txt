@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up two-shot (front-three-quarter angle on screen-left side) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Seated beside her aggrieved colleague on screen-left, the young intern leans forward across the office desk partition and politely challenges the senior coworker with sweet, pointed irony.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera framing the screen-left workstation side. Immediately at 0.0s-0.20s, <Subject 1> (S1) lifts her chin slightly with bright, innocently curved eyes locked off-frame right, leaning subtly forward in her office chair while sliding her right palm smoothly forward to press her fingertips flat and steady against the light-wood desktop edge, maintaining solid contact with zero hover as her black knit cardigan sleeve forms natural creases at the wrist; beside her, <Subject 2> shifts her gaze sideways off-frame right in quiet, watchful anticipation while keeping her hands folded still near her keyboard, and <Subject 2>'s lips remain naturally closed and unmoving throughout, zero lip-sync. With a light, courteous breath intake and a crisp, sweet faux-humble tone laced with playful irony, <Subject 1> (S1) speaks (0.20s-5.30s): <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？</d> delivering clear, accurate Mandarin lip-sync articulating every syllable while preserving her youthful 22-year-old facial bone structure and natural skin texture. After 3.60s, <Subject 1> (S1) closes lips naturally with zero residual mouth movement, holding a poised, polite smile and keeping her right fingertips settled flat on the light-wood desktop through 4.0s.
+
+overall_soundscape:
+Subtle quiet open-office ambient room tone with soft air-conditioning hush, synchronized crisp foley of knit sleeve fabric rustle and gentle fingertip contact settling onto the smooth wooden desktop, clean silent tail with zero background music or chatter.
+
+non_diegetic_music:
+N/A

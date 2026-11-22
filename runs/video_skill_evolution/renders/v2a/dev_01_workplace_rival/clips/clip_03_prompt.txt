@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Tight single close-up (CU), 12-degree off-axis near-frontal angle, shallow depth of field cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Dramatic climax tight close-up on <Subject 1> as she seizes CHR_2's excuse and calmly unmasks the workplace bullying with playful, unsparing precision, trailing her audio resonance into CHR_2's reaction.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Slow subtle push-in keeping crisp focus on both eyes. At 0.00s-0.20s, inheriting her 5-degree forward lean and subtle 3-degree head tilt, <Subject 1> (S1)'s gaze sharpens with cool luminous clarity as she smoothly levels her head straight on a light steady breath intake. Through the line, effortless playful warmth stays in the curve of her eyes while her jawline settles into calm, unyielding authority, her fingertips pressing the black knit cardigan cuff firmly onto the light-wood desk edge at the bottom margin so the taut knit weave stays anchored in place. Delivering the line with brisk, light-footed playfulness and crystal-clear cutting finality, with precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw, <Subject 1> (S1) speaks (0.20s-4.12s): <d>[Chinese] 知道的是开玩笑，不知道的，还以为您打压新人呢。</d> From 2.60s-3.00s, <Subject 1> (S1) naturally closes lips and holds steady, unblinking eye contact past camera-right with composed triumph lingering in her eyes, zero trailing mouth movement.
+
+overall_soundscape:
+Quiet open-plan office room tone, subtle crisp breath phrasing, gentle firm contact of knit sleeve cuff against wood desktop, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

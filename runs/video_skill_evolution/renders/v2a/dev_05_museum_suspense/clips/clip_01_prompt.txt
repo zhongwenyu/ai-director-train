@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (燃烧的纸质合同).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a tight off-axis medium close-up behind the counter, <Subject 1> calmly watches the contract burn further into curling char in the lower-left foreground and softly explains that burning it is what makes the contract take effect, her trailing breath holding via L-cut into CHR_1's reaction.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera with shallow depth of field focused cleanly on <Subject 1> (S1)'s eyes. At 0.00s-0.20s, <Subject 1> (S1)'s upper eyelids settle slightly with enigmatic composure as her gaze locks steadily just past camera-left and she draws a quiet, unhurried breath. Speaking in a low, velvety, unhurried voice imbued with mysterious authority and calm control, <Subject 1> (S1) speaks (0.20s-1.96s): <d>[Chinese] 烧了，这合同才算生效。</d> with precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw. As she speaks, her jade-bangled right wrist stays lightly poised on the inner edge of the dark wooden counter while her left fingertips gently press and glide down into the plush white fur lapel of her shawl, creating a soft visible indentation in the fur pile where her fingers come to rest beside her double-strand white pearl necklace and hold steady through the end of the shot; meanwhile on the lower-left counter surface, the orange flame consumes more of the black-printed white paper into curling dark-edged ash. From 2.45s-3.00s, <Subject 1> (S1) naturally closes her vintage red lips, zero trailing mouth movement, maintaining calm, knowing eye contact just past camera-left.
+
+overall_soundscape:
+Quiet deep room tone of the wooden antique hall, faint crackle of curling paper ash on wood, delicate brush of fingertips against soft fur and pearls, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

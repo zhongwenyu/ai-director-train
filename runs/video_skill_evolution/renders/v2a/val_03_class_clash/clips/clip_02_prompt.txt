@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Close-up (CU), tight 15-degree off-axis three-quarter-front angle, 85mm prime lens, shallow depth of field cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (白色纸巾).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a tight single close-up, Shen Mingshan wipes his left jawline with the folded white tissue in disgust, lowers it, and coldly mocks Manshu's past taste in men to reclaim superiority.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Slow subtle push-in keeping crisp focus on both of <Subject 1> (S1)'s eyes behind his thin gold polygonal glasses. At 0.00s-0.20s, <Subject 1> (S1) exhales a short, disdainful nasal breath as his upper eyelids lower in cold scrutiny, his right hand drawing the already folded white facial tissue firmly downward once across his left jawline with palpable aversion, compressing the soft multi-ply paper into a tighter crumpled wad in his fingers before lowering his hand to press and hold the crumpled tissue stationary against the console edge just below frame. After a cool measured breath, speaking in a low, icy, condescending voice laced with lingering irritation and restored dominance, with precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw, <Subject 1> (S1) speaks (0.20s-2.95s): <d>[Chinese] 你也是瞎了眼，找了这么一个男人。</d>. As he delivers the line, his sharp gaze nails the eyeline just past camera-left, jaw set firm with a faint, cutting lift at one corner of his mouth on the final words. From 2.60s-3.00s, <Subject 1> (S1) naturally closes lips and holds steady eye contact, zero trailing mouth movement, chin tilted subtly upward in cold judgment until the cut.
+
+overall_soundscape:
+Subtle cabin room tone, crisp dry friction of multi-ply paper tissue wiping across skin and crumpling softly in fingers, quiet cloth movement, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

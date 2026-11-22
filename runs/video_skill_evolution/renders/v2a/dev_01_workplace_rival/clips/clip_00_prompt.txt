@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Compact two-shot medium shot (MS), tight 15-degree off-axis three-quarter-front angle cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] At the screen-left workstation bay, <Subject 1> leans slightly forward beside her wronged colleague <Subject 2> and opens with a sweet, polite question directed across the desk toward CHR_2.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Locked-off camera with subtle organic breathing. At 0.00s-0.20s, <Subject 1> (S1) sharpens her clear gaze toward camera-right with a light poised breath intake while seated beside <Subject 2>, leaning her upper torso slightly forward by 5 degrees across the light-wood desktop as her right fingertips gently touch down onto the smooth wooden desk edge beside the black keyboard, pressing her black knit cardigan cuff softly flat against the wood surface where it stays poised. With bright genuine warmth curving the outer corners of her eyes and effortless polite composure, <Subject 1> (S1) speaks in a crisp, sweet, lightly inquisitive tone with natural breath phrasing and precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw; <Subject 1> (S1) speaks (0.20s-2.16s): <d>[Chinese] 不好意思请教一下呢姐，</d> From 1.60s-2.00s, <Subject 1> (S1) naturally closes lips and holds steady eye contact toward camera-right, zero trailing mouth movement. Beside her, <Subject 2> sits with shoulders slightly drawn in and hands resting quietly together at the desk edge, shifting her quiet gaze briefly toward <Subject 1> (S1) in silent gratitude; <Subject 2>'s lips remain naturally closed and still throughout the entire shot, zero silent mouthing.
+
+overall_soundscape:
+Subtle open-plan office room tone, quiet spatial air, soft knit sleeve brush and light fingertip contact against smooth wood desktop, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

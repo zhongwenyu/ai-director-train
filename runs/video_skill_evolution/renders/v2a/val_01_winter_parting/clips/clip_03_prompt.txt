@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium shot (50mm lens, shallow depth of field, 15-degree off-axis front angle on CHR_2 waist-up with blurred foreground shoulder edge of CHR_1) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a waist-up over-the-shoulder medium shot, <Subject 1> coldly accepts the pact in wounded pride, thrusts his hand into his coat pocket, and turns his back to walk away toward screen-right.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera maintaining steady spatial geometry past the blurred cream-white coat shoulder silhouette at the extreme left foreground edge. From 0.00s to 0.20s, <Subject 1> (S1)'s eyes flash with stung pride as he draws a quick sharp breath through his nose, jaw setting tautly. Speaking in a clipped, cold, stubbornly proud tone masking hurt defiance, <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 行啊</d>, with crisp, natural lip articulation synced cleanly to both syllables without over-stretching the jaw, then immediately closes lips firmly at 0.85s with zero trailing mouth movement. From 0.85s to 2.00s, <Subject 1> (S1) releases his right hand from the tautly creased navy wool lapel—leaving a subtle pressed fabric mark on the lapel edge—and slides both hands firmly down into his coat's side pockets, pulling the pocket welts slightly taut downward under his wrists' weight as he pivots his shoulders and torso clockwise away from the left foreground to face screen-right down the walkway, shifting his weight forward onto his black boot to initiate his first step away.
+
+overall_soundscape:
+Cool riverside park air tone, crisp wool coat rustle as hands slide into pockets and torso pivots, subtle leather boot scuff on asphalt, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

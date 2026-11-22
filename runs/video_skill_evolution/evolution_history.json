@@ -92,6 +92,99 @@
       },
       "mean_cand_asl_s": 2.85,
       "promoted": false
+    },
+    {
+      "round": 2,
+      "prev_champion": "v0",
+      "tournament_candidates": [
+        "v2a",
+        "v2b"
+      ],
+      "tournament_screen_delta_a_vs_b": 5.33,
+      "selected_candidate": "v2a",
+      "bottlenecks": [
+        "切镜节奏拖沓与景别错配：平均镜长偏慢，长镜头缺乏受话方反应切镜与声画交叠，片尾空耗拖沓；情绪高点误用中远景或提前切走，且存在同轴跳切，削弱戏剧张力。",
+        "声画同步失准与配音机械：分镜切换及独白频发音频硬截断吞字；发声平淡缺乏气息起伏与潜台词层次；静音尾镜易滋生异常人声底噪与多余口型微动，暗部远景唇形咬合弱。",
+        "微表演拘谨失真与情绪断层：面部神态平淡或局部肌肉过度夸张，缺乏潜台词微动作支点；情绪转折时神态反馈滞后，跨镜手势动势衔接木讷，近景骨相与肤质易出现年龄漂移。",
+        "跨镜轴线翻转与首帧景深失真：正反打及景别切换频发越轴与背景方位颠倒；过肩首帧的前景遮挡与中后景陈设跨镜消失或移位，局部空间结构偶发重复畸变，三维拓扑断裂。",
+        "肢体交互木讷与物理状态穿帮：人物执行接触交互动作时手部关节姿态僵硬，且交互完成后目标表面的表观物理状态未发生对应改变或出现凭空复原，破坏跨帧物理因果律。"
+      ],
+      "mutation_rationale": "围绕【方向 A：贴视线近正脸浅景深构图 + 潜台词驱动的饱满人类微表情弧光优先】及本轮遥测与五大跨题材抽象短板，完成 4 个技能文件的底层规律升级与 MDL 压缩：\n\n1. **节奏提速与切镜零吞字协同（解决镜长 3.34s 拖沓、反应缺失与硬截断吞字）**：\n   - 在 `stage1` 确立“`2s` 基准起配 + 按字数按需上调至 `3s`/`4s` + 总时长紧贴 `target_duration_s` 硬封顶 + 片尾 `0.35s` 即刻收束”机制，在不挤压长句发音窗口的前提下将平均镜长向 `2s` 紧凑区间收敛；\n   - 强制画内台词与 `inner_os` 满足 `止秒s <= duration_s - 0.35s` 镜内硬收音缓冲，常态化插入 `2s` 受话方无声反应特写并联动前镜 `lcut_audio_hold_over_next_s: 0.3–0.6`，同时将全段情绪最高点强制锚定于单人贴视线 `Close-up`。\n\n2. **180° 空间母版锁死与贴视线浅景深近正脸主导（解决越轴跳切、远景泄气、陈设闪现与暗部唇形弱）**：\n   - 在 `stage2` 通过 `master_blocking_prompt` 锁死单一侧 180° 视线轴线、左右银幕方位、各侧专属陈设与统一主光；新增“重返同侧机位陈设与遮挡复现锁”，根除正反打背景翻转与前中后景物件凭空增删；\n   - 说话镜、反应镜与心声镜全面优先采用贴近视线轴线 `10°–20°` 的大光圈浅景深 `MCU`/`CU`（适度穿插边缘虚化肩廓 `OTS`），强制双目眼神光锐利对焦并清晰照亮双唇下颌轮廓。\n\n3. **静动分离保骨相 × 潜台词极性微表情弧光 × 声形气口锁唇（解决木讷/假笑两极失真、特写显老漂移、配音平淡与静音乱动嘴）**：\n   - `stage2` 静态首帧锁定五官松弛舒展蓄势态，显式禁用 `wrinkled/creased/contorted/forced grin` 等诱发扩散模型年龄纹路与假笑面具的挤压词，守护特写真实骨相；\n   - `stage3` 按 `subtext_intent` 真实情绪极性（喜感、悲恸、冷峻压迫、慌乱、隐忍等）建立“0.00s–0.25s 即时受激 → 中段眼周微肌群极性展开 → 尾段余韵落点”三段式弧光；\n   - 画内 `0.20s` 准时开口并在 `<d>` 外层注入呼吸气口与情绪颤音引导，同时在收音尾段、无声反应镜与 `inner_os` 镜强制锁死双唇自然闭合，配合无配乐纯净 `soundscape` 根除尾段杂音与口型乱动。\n\n4. **情境手部支点与跨镜物理因果闭环（解决姿态跳变与接触后状态悬空复原穿帮）**：\n   - 跨现代/年代/古装/悬疑通用地依托衣袖、扶手/台面边缘及既有器物建立真实重力手部支点；在 `stage3` 强制写出“接触建立 → 施力阻尼 → 受作用表面同步形变/位移/痕迹演进并保持至镜末”的物理闭环，并通过跨镜状态账本在后续镜头首帧与动态中持续继承，严禁凭空归零复原。",
+      "cand_telemetry": {
+        "avg_clips_per_scene": 4.4,
+        "avg_clip_duration_s": 2.64,
+        "silent_reaction_clip_ratio": 0.136,
+        "lcut_overlap_clip_ratio": 0.136,
+        "tight_mcu_cu_ots_ratio": 0.955
+      },
+      "dev_vs_prev_champ": {
+        "wins": 1,
+        "losses": 3,
+        "ties": 1,
+        "cand_mean_score": 66.2,
+        "ref_mean_score": 71.0,
+        "mean_delta": -4.8
+      },
+      "val_vs_prev_champ": {
+        "wins": 1,
+        "losses": 1,
+        "ties": 2,
+        "cand_mean_score": 39.88,
+        "ref_mean_score": 50.88,
+        "mean_delta": -11.0
+      },
+      "overfitting_diagnostics": {
+        "is_overfit": true,
+        "overfit_reasons": [
+          "SINGLE_GENRE_COLLAPSE_-26.00",
+          "VERTICAL_9_16_REGRESSION_-12.50"
+        ],
+        "dev_mean_delta": -4.8,
+        "val_mean_delta": -11.0,
+        "dev_minus_val_gap": 6.2,
+        "worst_val_case_drop": -26.0,
+        "val_aspect_ratio_deltas": {
+          "16:9": -10.5,
+          "9:16": -12.5
+        },
+        "val_per_genre_breakdown": {
+          "val_01_winter_parting": {
+            "genre": "现代生活情感",
+            "aspect_ratio": "16:9",
+            "delta": -18.5,
+            "outcome": "tie"
+          },
+          "val_02_scar_probe": {
+            "genre": "都市悬疑试探",
+            "aspect_ratio": "16:9",
+            "delta": 13.0,
+            "outcome": "cand_win"
+          },
+          "val_03_class_clash": {
+            "genre": "都市强冲突逆袭",
+            "aspect_ratio": "16:9",
+            "delta": -26.0,
+            "outcome": "champ_win"
+          },
+          "val_04_ancient_prince": {
+            "genre": "古装权谋逆袭",
+            "aspect_ratio": "9:16",
+            "delta": -12.5,
+            "outcome": "tie"
+          }
+        }
+      },
+      "dev_target_parity_pct": 71.99,
+      "dev_target_parity_by_dim_pct": {
+        "acting_micro_naturalism": 57.8,
+        "vocal_dialogue_delivery": 58.6,
+        "editing_rhythm_and_reactions": 66.1,
+        "character_and_costume_consistency": 107.1,
+        "cinematography_and_spatial_coherence": 75.3,
+        "physical_anatomy_integrity": 91.1
+      },
+      "mean_cand_asl_s": 2.78,
+      "promoted": false
     }
   ],
   "baseline_v0_target_parity": {

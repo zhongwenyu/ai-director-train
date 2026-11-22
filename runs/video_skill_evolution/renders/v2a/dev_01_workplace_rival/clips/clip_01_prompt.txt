@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Single close-up (CU), tight 15-degree off-axis three-quarter-front angle, shallow depth of field cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Jumping into a clean near-axis close-up, <Subject 1> delivers her pointed double-barreled flattery trap with bright, innocent sweetness that corners CHR_2 in front of the office.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Slow subtle push-in keeping crisp focus on both eyes. At 0.00s-0.20s, inheriting her slight 5-degree forward lean, <Subject 1> (S1)'s pupils lock brightly past camera-right with a quiet crisp breath catch. Maintaining luminous polite warmth in her eyes paired with cool underlying precision, she tilts her head subtly by 3 degrees in faux-innocent curiosity while her right fingertips gently press into the lower desk edge just at the bottom margin of frame, keeping her black knit cardigan cuff taut against the light-wood surface throughout. Speaking in a clear, buoyant, velvet-gloved voice laced with razor-sharp irony and precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw, <Subject 1> (S1) speaks (0.20s-6.28s): <d>[Chinese] 您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？</d> From 3.60s-4.00s, <Subject 1> (S1) naturally closes lips and holds steady eye contact with a calm expectant poise lingering in her bright eyes, zero trailing mouth movement.
+
+overall_soundscape:
+Quiet office room tone, subtle breath intake, faint gentle pressure of knit cuff against wooden desk edge, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A

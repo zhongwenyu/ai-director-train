@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (桃子味饮料).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Tight emotional anchor close-up of <Subject 1> turning his head back toward CHR_2 as he is pulled away, urgently telling her to stay put and wait for him.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Slow subtle push-in keeping crisp focus on both eyes of <Subject 1> (S1). Inheriting his leftward-turned shoulder posture and held drink bottle from the previous clip, at 0.00s–0.20s <Subject 1> (S1) pivots his head swiftly back over his right shoulder to lock his gaze just past camera-right, eyes narrowing slightly with immediate protective concern. After a quick brisk breath catch, speaking with urgent, caring firmness and precise, natural lip and tongue articulation synced cleanly to each Chinese syllable without over-stretching the jaw, <Subject 1> (S1) speaks (0.20s-1.57s): <d>[Chinese] 在这等我别乱跑。</d> while his right fingers hold steady tension around the neck of the peach drink bottle near the lower frame edge, keeping the bottle stationary against his chest. From 1.55s to 2.00s, he naturally closes lips and holds steady, lingering eye contact toward camera-right with genuine protective warmth remaining in his eyes, zero trailing mouth movement.
+
+overall_soundscape:
+Quiet sunlit hallway room tone, brief soft shirt rustle from the head turn, clean quiet audio tail, zero vocal mumble or stray noise.
+
+non_diegetic_music:
+N/A
