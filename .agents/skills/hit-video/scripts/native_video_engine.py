@@ -40,7 +40,7 @@ from spark_h3_image import generate_spark_h3_image  # noqa: E402
 _VO_4070_LOCK = threading.Lock()
 _SPARK_STAGE_LOCK = threading.Lock()
 _SPARK_STAGED_CACHE: set[str] = set()
-_SPARK_IMG_SEM = threading.Semaphore(2)  # Keep 2 pipelined requests in Spark:8338 ComfyUI queue
+_SPARK_IMG_SEM = threading.Semaphore(4)  # Dedicated Spark:8338 H3 Image pipeline (zero video contention on Spark!)
 
 
 def resolve_h3_image_keyframe_prompt_and_refs(
@@ -266,72 +266,53 @@ def compile_h3_clip_payload(
     return full_prompt, ref_images, ref_audios
 
 
-def synthesize_inner_os_onto_clip(
-    base_mp4: Path,
+def synthesize_vo_wav_on_4070(
     os_spec: Dict[str, Any],
     beat_spec: Dict[str, Any],
     work_dir: Path,
     seed: int,
-    backend_remote_ssh: Optional[str] = None,
-) -> Path:
-    """Synthesize inner-monologue VO on dedicated 4070TiS and mix onto silent-mouth clip."""
+) -> Optional[Path]:
+    """Synthesize offscreen dialogue / inner-OS via dedicated 4070TiS 368p low-res video lane in parallel."""
     role_id = os_spec.get("speaker_id", "")
     text = str(os_spec.get("text") or "").strip()
     if not text or role_id not in beat_spec.get("voice_files", {}):
-        return base_mp4
+        return None
 
-    vo_wav = work_dir / f"inner_os_{seed}.wav"
+    work_dir.mkdir(parents=True, exist_ok=True)
+    vo_wav = work_dir / f"vo_4070_{seed}.wav"
+    if vo_wav.is_file() and vo_wav.stat().st_size > 1000:
+        return vo_wav
+
     vo_spec = {
         "face_1k": beat_spec["asset_files"][role_id],
         "voice": beat_spec["voice_files"][role_id],
         "text": text,
         "duration": 6,
     }
-    try:
-        with _VO_4070_LOCK:
-            H3R.synthesize_vo_clip_4070(vo_spec, work_dir / "cache_1k", vo_wav, seed=seed)
-    except Exception:
-        tmp_vo_mp4 = work_dir / f"vo_fallback_{seed}.mp4"
-        cjk_n = max(4, len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", text)))
-        win_end = round(0.20 + max(1.2, cjk_n / 4.4), 2)
-        dur = max(5, min(10, int(win_end + 1.8)))
-        vo_p = (
-            "subject_definitions:\n<Subject 1> (S1) is the speaker from <Picture 1>.\n<Audio 1> is the voice-timbre reference for <Subject 1> (S1).\n\n"
-            "summary:\n[reference generation + audio reference] Studio voice recording.\n\n"
-            "retention_analysis:\n<Subject 1>: fully_preserved.\n<Audio 1>: reference.\n\n"
-            f"detailed_description:\n[Shot 1] Quiet studio close-up. <Subject 1> (S1) speaks clearly (0.20s-{win_end:.2f}s): <d>[Chinese] {text}</d> Then remains silent.\n\n"
-            "overall_soundscape:\nSilent studio.\n\nnon_diegetic_music:\nN/A"
-        )
-        H3R.run_comfy_shot(
-            prompt=vo_p,
-            ref_images=[Path(beat_spec["asset_files"][role_id])],
-            ref_audios=[Path(beat_spec["voice_files"][role_id])],
-            ratio="9:16",
-            resolution="368p",
-            duration=dur,
-            seed=seed + 77,
-            unet_name=H3R.DEFAULT_REF_UNET,
-            steps=10,
-            use_pika_lora=False,
-            lock_frame0=False,
-            out_mp4=tmp_vo_mp4,
-            remote_ssh=backend_remote_ssh,
-        )
-        subprocess.run(
-            ["ffmpeg", "-y", "-v", "error", "-i", str(tmp_vo_mp4), "-vn", "-ac", "1", "-ar", "48000", str(vo_wav)],
-            check=True,
-        )
+    with _VO_4070_LOCK:
+        H3R.synthesize_vo_clip_4070(vo_spec, work_dir / "cache_1k", vo_wav, seed=seed)
+    return vo_wav
 
+
+def apply_vo_wav_onto_clip(
+    base_mp4: Path,
+    vo_wav: Optional[Path],
+    os_spec: Dict[str, Any],
+) -> Path:
+    """Mix pre-synthesized 4070TiS voiceover WAV onto silent-mouth visual clip."""
+    if vo_wav is None or not vo_wav.is_file():
+        return base_mp4
     probe = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(base_mp4)], text=True))
     base_dur = float(probe["format"]["duration"])
     mixed_mp4 = base_mp4.with_suffix(".os_mixed.mp4")
+    eff = "none" if str(os_spec.get("mode", "")).lower() == "offscreen_speech" else "inner_vo"
     H3R.mix_vo_into_video(
         base_mp4=base_mp4,
         vo_wav=vo_wav,
         dst_start=float(os_spec.get("start_s", 0.25)),
-        max_len=max(1.2, base_dur - 0.35),
-        base_duck=0.25,
-        effect="inner_vo",
+        max_len=max(1.2, base_dur - 0.30),
+        base_duck=0.22,
+        effect=eff,
         out_mp4=mixed_mp4,
     )
     mixed_mp4.replace(base_mp4)
@@ -449,7 +430,7 @@ class DualGPUPool:
       `5090:8188` to co-render all remaining H3 Videos at full 2-GPU speed!
     """
 
-    def __init__(self, backends: Sequence[Optional[str]] = (None, "sol-spark-benchmark")):
+    def __init__(self, backends: Sequence[Optional[str]] = (None,)):
         self._cond = threading.Condition()
         self._free_backends: List[Optional[str]] = list(backends)
         self._waiters: List[Tuple[float, int, threading.Event, List[Optional[str]]]] = []
@@ -538,13 +519,22 @@ def execute_scene_plan(
         if c_mp4.is_file() and c_mp4.stat().st_size > 10000:
             return idx, c_mp4
 
-        # Step A: Generate 1K keyframe via Spark MiniMax H3 Image
+        # Step A: Start 4070TiS 368p low-res voiceover synthesis IMMEDIATELY in parallel if clip has inner_os / offscreen VO!
+        has_vo = bool(cspec.get("inner_os") and isinstance(cspec["inner_os"], dict) and cspec["inner_os"].get("text"))
+        vo_pool = cf.ThreadPoolExecutor(max_workers=1) if has_vo else None
+        vo_fut = (
+            vo_pool.submit(synthesize_vo_wav_on_4070, cspec["inner_os"], beat_spec, clips_dir, base_seed + idx * 13 + 5)
+            if vo_pool is not None
+            else None
+        )
+
+        # Step B: Generate 1K keyframe on dedicated Spark:8338 (`MiniMax H3 Image`)
         kf_out = kf_dir / f"clip_{idx:02d}_1k.png"
         kf_prompt, kf_refs = resolve_h3_image_keyframe_prompt_and_refs(cspec, beat_spec)
         (kf_dir / f"clip_{idx:02d}_kf_prompt.txt").write_text(kf_prompt, encoding="utf-8")
         h3_generate_keyframe(kf_prompt, kf_refs, ar, kf_out, seed=base_seed + idx * 17, gpu_pool=gpu_pool)
 
-        # Step B: Immediately enqueue H3 Video onto DualGPUPool (5090 runs immediately while Spark finishes keyframes!)
+        # Step C: Immediately enqueue H3 Video onto dedicated RTX 5090 D (`127.0.0.1:8188`)
         dur = max(2, min(14, int(round(float(cspec.get("duration_s", 4))))))
         h3_prompt, r_imgs, r_auds = compile_h3_clip_payload(cspec, beat_spec, kf_out)
         (clips_dir / f"clip_{idx:02d}_prompt.txt").write_text(h3_prompt, encoding="utf-8")
@@ -574,14 +564,16 @@ def execute_scene_plan(
                     time.sleep(4)
             else:
                 raise RuntimeError(f"ComfyUI render failed on {remote_ssh or '5090'}: {last_err}")
-
-            if cspec.get("inner_os") and isinstance(cspec["inner_os"], dict) and cspec["inner_os"].get("text"):
-                synthesize_inner_os_onto_clip(
-                    c_mp4, cspec["inner_os"], beat_spec, clips_dir, seed=base_seed + idx * 13 + 5, backend_remote_ssh=remote_ssh
-                )
             return c_mp4
 
-        gpu_pool.run_job(_do_on_gpu, priority_dur=float(dur))
+        try:
+            gpu_pool.run_job(_do_on_gpu, priority_dur=float(dur))
+            if vo_fut is not None:
+                vo_wav = vo_fut.result()
+                apply_vo_wav_onto_clip(c_mp4, vo_wav, cspec["inner_os"])
+        finally:
+            if vo_pool is not None:
+                vo_pool.shutdown(wait=False)
         return idx, c_mp4
 
     with cf.ThreadPoolExecutor(max_workers=len(clips)) as ex:

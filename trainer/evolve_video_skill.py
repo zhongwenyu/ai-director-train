@@ -98,8 +98,9 @@ SCENE_PLAN_SCHEMA: Dict[str, Any] = {
                                     "speaker_id": {"type": "string"},
                                     "text": {"type": "string"},
                                     "start_s": {"type": "number"},
+                                    "mode": {"type": "string", "enum": ["inner_os", "offscreen_speech"]},
                                 },
-                                "required": ["speaker_id", "text", "start_s"],
+                                "required": ["speaker_id", "text", "start_s", "mode"],
                                 "additionalProperties": False,
                             },
                         ]
@@ -531,7 +532,8 @@ def main() -> int:
 
     dev_cases = load_split_cases("dev")
     val_cases = load_split_cases("val")
-    gpu_pool = NVE.DualGPUPool(backends=(None, "sol-spark-benchmark"))
+    # Dedicated 3-GPU resident pipeline: Spark:8338 -> H3 Image, 5090:8188 (None) -> H3 Video, 4070TiS:8090 -> 368p Voiceover!
+    gpu_pool = NVE.DualGPUPool(backends=(None,))
 
     history_path = EVO_ROOT / "evolution_history.json"
     history: Dict[str, Any] = (
