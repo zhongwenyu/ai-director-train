@@ -173,7 +173,7 @@ def resolve_h3_image_keyframe_prompt_and_refs(
         sym_to_subj["Scene"] = s_tok
         part1_defs.append(f"The spatial seating arrangement, furniture geometry, and cinema lighting in <Picture {idx}> are {s_tok}.")
         part2_pres.append(
-            f"{s_tok} is partially preserved — strictly maintaining the exact relative seating/standing positions, 180-degree axis, and lighting while reframing the camera to the target shot size with natural shallow depth-of-field bokeh"
+            f"{s_tok} is partially preserved — strictly maintaining the exact relative seating/standing positions, 180-degree axis, immediate tabletop/desk objects or partitions in front of the character, and lighting while reframing the camera to the target shot size with natural shallow depth-of-field bokeh"
         )
 
     vis_roles = [r for r in clip_spec.get("visible_role_ids", []) if r in asset_files]
@@ -233,6 +233,8 @@ def compile_h3_clip_payload(
     clip_spec: Dict[str, Any],
     beat_spec: Dict[str, Any],
     keyframe_1k: Path,
+    *,
+    vo_wav_dur: Optional[float] = None,
 ) -> Tuple[str, List[Path], List[Path], int]:
     """Bind <Picture 1..N> & <Audio 1..M>, and synchronize `(start_s-end_s)` with tight speech duration."""
     asset_files = beat_spec["asset_files"]
@@ -319,8 +321,9 @@ def compile_h3_clip_payload(
     # Synchronize clip duration AND `(start_s-end_s)` window so H3 NEVER sits silent for 3s!
     spoken_cjk = sum(len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", m.group(1)) ) for m in re.finditer(r"<d>\s*(?:\[[A-Za-z]+\])?(.*?)</d>", detail_body, re.S))
     raw_dur = int(round(float(clip_spec.get("duration_s", 3))))
+    os_spec = clip_spec.get("inner_os") if isinstance(clip_spec.get("inner_os"), dict) else None
     if spoken_cjk > 0 and ref_audios:
-        # Brisk natural short-drama speech rate: ~5.2 chars/sec + 0.20s onset + 0.45s tail buffer
+        # Brisk natural short-drama speech rate: ~5.1 chars/sec + 0.20s onset + 0.45s tail buffer
         est_speech_dur = max(1.0, round(spoken_cjk / 5.1, 2))
         sync_dur = max(3, min(8, math.ceil(0.20 + est_speech_dur + 0.45)))
         win_start = 0.20
@@ -332,8 +335,14 @@ def compile_h3_clip_payload(
             detail_body,
             count=1,
         )
+    elif vo_wav_dur is not None and vo_wav_dur > 0.2:
+        vo_start = float(os_spec.get("start_s", 0.18)) if os_spec else 0.18
+        sync_dur = max(2, min(8, math.ceil(vo_start + vo_wav_dur + 0.30)))
+    elif os_spec and os_spec.get("text"):
+        vo_cjk = len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", str(os_spec.get("text", ""))))
+        sync_dur = max(2, min(8, math.ceil(0.20 + max(1.0, vo_cjk / 4.6) + 0.40)))
     else:
-        sync_dur = max(2, min(4, raw_dur))
+        sync_dur = max(2, min(3, raw_dur))
 
     if not detail_body.startswith("[Shot 1]") and "[Shot 1]" not in detail_body:
         detail_body = (
@@ -360,26 +369,33 @@ def compile_h3_clip_payload(
     return full_prompt, ref_images, ref_audios, sync_dur
 
 
-def silence_non_speaking_clip_vocals(mp4_path: Path, is_silent_reaction: bool) -> None:
-    """Eliminate H3 random foreign/babble vocal hallucinations on non-speaking reaction shots."""
+def silence_non_speaking_clip_vocals(mp4_path: Path, is_silent_reaction: bool, incoming_lcut_s: float = 0.0) -> None:
+    """Eliminate H3 vocal hallucinations on silent reaction shots & trim excess dead-air pause to crisp 1.35s-1.65s."""
     if not is_silent_reaction:
         return
     marker = mp4_path.with_suffix(".muted_react")
     if marker.is_file():
         return
+    pr = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(mp4_path)], text=True))
+    dur = float(pr["format"]["duration"])
+    target_react_dur = min(dur, round(max(1.35, float(incoming_lcut_s) + 0.85), 3))
     tmp_out = mp4_path.with_suffix(".clean_react.mp4")
+    fc = (
+        f"[0:v]trim=start=0:end={target_react_dur:.3f},setpts=PTS-STARTPTS,fps=24,format=yuv420p[v];"
+        f"[0:a]atrim=start=0:end={target_react_dur:.3f},asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=1600,volume=0.04,aresample=48000[a]"
+    )
     subprocess.run(
         [
             "ffmpeg", "-y", "-v", "error", "-i", str(mp4_path),
-            "-c:v", "copy",
-            "-af", "highpass=f=80,lowpass=f=1800,volume=0.015",
+            "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
+            "-c:v", "libx264", "-preset", "fast", "-crf", "18",
             "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "160k",
             str(tmp_out),
         ],
         check=True,
     )
     tmp_out.replace(mp4_path)
-    marker.write_text("ok\n", encoding="utf-8")
+    marker.write_text(f"0.000-{target_react_dur:.3f}\n", encoding="utf-8")
 
 
 def trim_clip_dead_air_sync(mp4_path: Path, is_speaking_clip: bool) -> None:
@@ -440,36 +456,80 @@ def trim_clip_dead_air_sync(mp4_path: Path, is_speaking_clip: bool) -> None:
     marker.write_text(f"{ts:.3f}-{te:.3f}\n", encoding="utf-8")
 
 
+def _trim_wav_dead_air_vad(wav_path: Path) -> float:
+    """Trim leading/trailing silence off 4070TiS VO WAV via Silero-VAD and return trimmed duration in seconds."""
+    if not DEFAULT_VAD_ONNX.is_file() or not wav_path.is_file():
+        pr = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(wav_path)], text=True))
+        return float(pr["format"]["duration"])
+    marker = wav_path.with_suffix(".vo_vad_trimmed")
+    if marker.is_file():
+        pr = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(wav_path)], text=True))
+        return float(pr["format"]["duration"])
+
+    with tempfile.NamedTemporaryFile(suffix=".wav", delete=True) as tmp16:
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(wav_path), "-ac", "1", "-ar", "16000", tmp16.name], check=True)
+        with wave.open(tmp16.name, "rb") as wf:
+            pcm = np.frombuffer(wf.readframes(wf.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+
+    dur = len(pcm) / 16000.0
+    sess = _get_vad_sess()
+    hop = 512
+    dt = hop / 16000.0
+    h_st = np.zeros((2, 1, 64), dtype=np.float32)
+    c_st = np.zeros((2, 1, 64), dtype=np.float32)
+    act: List[int] = []
+    for i in range(len(pcm) // hop):
+        pr_v, h_st, c_st = sess.run(None, {"x": pcm[i * hop : (i + 1) * hop].reshape(1, hop), "h": h_st, "c": c_st})
+        if float(pr_v[0, 0]) >= 0.45:
+            act.append(i)
+    if act:
+        ts = round(max(0.0, act[0] * dt - 0.08), 3)
+        te = round(min(dur, (act[-1] + 1) * dt + 0.16), 3)
+        if te - ts >= 0.5 and (ts > 0.10 or (dur - te) > 0.15):
+            tmp_out = wav_path.with_suffix(".trimmed.wav")
+            subprocess.run(
+                ["ffmpeg", "-y", "-v", "error", "-i", str(wav_path), "-af", f"atrim=start={ts:.3f}:end={te:.3f},asetpts=PTS-STARTPTS", str(tmp_out)],
+                check=True,
+            )
+            tmp_out.replace(wav_path)
+            dur = round(te - ts, 3)
+    marker.write_text(f"{dur:.3f}\n", encoding="utf-8")
+    return dur
+
+
 def synthesize_vo_wav_on_4070(
     os_spec: Dict[str, Any],
     beat_spec: Dict[str, Any],
     work_dir: Path,
     seed: int,
-) -> Optional[Path]:
+) -> Tuple[Optional[Path], float]:
     role_id = os_spec.get("speaker_id", "")
     text = str(os_spec.get("text") or "").strip()
     if not text or role_id not in beat_spec.get("voice_files", {}):
-        return None
+        return None, 0.0
 
     work_dir.mkdir(parents=True, exist_ok=True)
     vo_wav = work_dir / f"vo_4070_{seed}.wav"
     if vo_wav.is_file() and vo_wav.stat().st_size > 1000:
-        return vo_wav
+        return vo_wav, _trim_wav_dead_air_vad(vo_wav)
 
+    cjk_n = len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", text))
+    vo_gen_dur = max(5, min(8, math.ceil(1.2 + cjk_n / 4.2)))
     vo_spec = {
         "face_1k": beat_spec["asset_files"][role_id],
         "voice": beat_spec["voice_files"][role_id],
         "text": text,
-        "duration": 6,
+        "duration": vo_gen_dur,
     }
     with _VO_4070_LOCK:
         H3R.synthesize_vo_clip_4070(vo_spec, work_dir / "cache_1k", vo_wav, seed=seed)
-    return vo_wav
+    return vo_wav, _trim_wav_dead_air_vad(vo_wav)
 
 
 def apply_vo_wav_onto_clip(
     base_mp4: Path,
     vo_wav: Optional[Path],
+    vo_dur: float,
     os_spec: Dict[str, Any],
 ) -> Path:
     marker = base_mp4.with_suffix(".vo_done")
@@ -477,17 +537,39 @@ def apply_vo_wav_onto_clip(
         return base_mp4
     probe = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(base_mp4)], text=True))
     base_dur = float(probe["format"]["duration"])
+    dst_st = min(0.22, float(os_spec.get("start_s", 0.18)))
     mixed_mp4 = base_mp4.with_suffix(".os_mixed.mp4")
     eff = "none" if str(os_spec.get("mode", "")).lower() == "offscreen_speech" else "inner_vo"
     vo_cfg = {
-        "dst_start": float(os_spec.get("start_s", 0.20)),
-        "max_len": max(1.2, base_dur - 0.25),
-        "base_duck": 0.24,
-        "vo_gain": 1.75,
+        "dst_start": dst_st,
+        "max_len": max(1.2, base_dur - dst_st - 0.05),
+        "base_duck": 0.18,
+        "vo_gain": 1.80,
         "effect": eff,
     }
     H3R.mix_vo_custom(base_mp4, vo_wav, vo_cfg, mixed_mp4)
-    mixed_mp4.replace(base_mp4)
+    # Trim trailing post-VO dead air on the clip so OS transitions snap crisply!
+    tight_end = round(min(base_dur, dst_st + vo_dur + 0.24), 3)
+    if base_dur - tight_end > 0.25 and tight_end >= 1.5:
+        tight_mp4 = base_mp4.with_suffix(".os_tight.mp4")
+        fc = (
+            f"[0:v]trim=start=0:end={tight_end:.3f},setpts=PTS-STARTPTS,fps=24,format=yuv420p[v];"
+            f"[0:a]atrim=start=0:end={tight_end:.3f},asetpts=PTS-STARTPTS,aresample=48000[a]"
+        )
+        subprocess.run(
+            [
+                "ffmpeg", "-y", "-v", "error", "-i", str(mixed_mp4),
+                "-filter_complex", fc, "-map", "[v]", "-map", "[a]",
+                "-c:v", "libx264", "-preset", "fast", "-crf", "18",
+                "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k",
+                str(tight_mp4),
+            ],
+            check=True,
+        )
+        mixed_mp4.unlink(missing_ok=True)
+        tight_mp4.replace(base_mp4)
+    else:
+        mixed_mp4.replace(base_mp4)
     marker.write_text("ok\n", encoding="utf-8")
     return base_mp4
 
@@ -688,12 +770,13 @@ def execute_scene_plan(
         has_vo = bool(cspec.get("inner_os") and isinstance(cspec["inner_os"], dict) and cspec["inner_os"].get("text"))
         is_speaking_on_cam = bool(cspec.get("speaking_role_ids")) and not has_vo
         is_silent_react = (not is_speaking_on_cam) and (not has_vo)
+        prev_hold = float(clips[idx - 1].get("lcut_audio_hold_over_next_s", 0.0) or 0.0) if idx > 0 else 0.0
 
         if c_mp4.is_file() and c_mp4.stat().st_size > 10000:
             if has_vo and not c_mp4.with_suffix(".vo_done").is_file():
-                vo_wav = synthesize_vo_wav_on_4070(cspec["inner_os"], beat_spec, clips_dir, base_seed + idx * 13 + 5)
-                apply_vo_wav_onto_clip(c_mp4, vo_wav, cspec["inner_os"])
-            silence_non_speaking_clip_vocals(c_mp4, is_silent_reaction=is_silent_react)
+                vo_wav, vo_dur = synthesize_vo_wav_on_4070(cspec["inner_os"], beat_spec, clips_dir, base_seed + idx * 13 + 5)
+                apply_vo_wav_onto_clip(c_mp4, vo_wav, vo_dur, cspec["inner_os"])
+            silence_non_speaking_clip_vocals(c_mp4, is_silent_reaction=is_silent_react, incoming_lcut_s=prev_hold)
             trim_clip_dead_air_sync(c_mp4, is_speaking_clip=is_speaking_on_cam)
             return idx, c_mp4
 
@@ -710,8 +793,10 @@ def execute_scene_plan(
         (kf_dir / f"clip_{idx:02d}_kf_prompt.txt").write_text(kf_prompt, encoding="utf-8")
         h3_generate_image_spark(kf_prompt, kf_refs, ar, kf_out, seed=base_seed + idx * 17)
 
-        # Compile synced H3 video payload & render on 5090
-        h3_prompt, r_imgs, r_auds, dur = compile_h3_clip_payload(cspec, beat_spec, kf_out)
+        vo_wav, vo_dur = (vo_fut.result() if vo_fut is not None else (None, 0.0))
+
+        # Compile synced H3 video payload (using exact measured `vo_dur` if `inner_os`!) & render on 5090
+        h3_prompt, r_imgs, r_auds, dur = compile_h3_clip_payload(cspec, beat_spec, kf_out, vo_wav_dur=(vo_dur if has_vo else None))
         (clips_dir / f"clip_{idx:02d}_prompt.txt").write_text(h3_prompt, encoding="utf-8")
 
         def _do_on_gpu(remote_ssh: Optional[str]):
@@ -743,10 +828,9 @@ def execute_scene_plan(
 
         try:
             gpu_pool.run_job(_do_on_gpu, priority_dur=float(dur))
-            if vo_fut is not None:
-                vo_wav = vo_fut.result()
-                apply_vo_wav_onto_clip(c_mp4, vo_wav, cspec["inner_os"])
-            silence_non_speaking_clip_vocals(c_mp4, is_silent_reaction=is_silent_react)
+            if has_vo and vo_wav is not None:
+                apply_vo_wav_onto_clip(c_mp4, vo_wav, vo_dur, cspec["inner_os"])
+            silence_non_speaking_clip_vocals(c_mp4, is_silent_reaction=is_silent_react, incoming_lcut_s=prev_hold)
             trim_clip_dead_air_sync(c_mp4, is_speaking_clip=is_speaking_on_cam)
         finally:
             if vo_pool is not None:

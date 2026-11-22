@@ -243,7 +243,7 @@ def generate_scene_plan_blind(skill_files: Dict[str, str], beat_spec: Dict[str, 
         "4. `visible_role_ids` 只填该子镜头实际露出正脸/侧脸/正身的角色 ID；若某角色仅作为虚化背影肩部前景出现，只放入 `foreground_silhouette_role_ids`，绝不放入 `visible_role_ids`。\n"
         "5. `master_blocking_prompt`、`clip_summary`、`keyframe_prompt` 与 `detailed_action_and_dialogue` 除 `<d>[Chinese] ... </d>` 内的中文台词外，全部使用英文编写。"
     )
-    return L.call_agy_json(prompt, SCENE_PLAN_SCHEMA, effort="medium", timeout=480, out_path=out_plan_path)
+    return L.call_agy_json(prompt, SCENE_PLAN_SCHEMA, effort="medium", timeout=600, out_path=out_plan_path)
 
 
 def compute_plan_telemetry(plans: Sequence[Dict[str, Any]]) -> Dict[str, Any]:
@@ -284,7 +284,7 @@ def render_candidate_on_cases(
     cand_render_dir.mkdir(parents=True, exist_ok=True)
 
     plans: Dict[str, Dict[str, Any]] = {}
-    with cf.ThreadPoolExecutor(max_workers=max(1, len(cases))) as ex:
+    with cf.ThreadPoolExecutor(max_workers=min(2, max(1, len(cases)))) as ex:
         fut_map = {
             ex.submit(
                 generate_scene_plan_blind,
