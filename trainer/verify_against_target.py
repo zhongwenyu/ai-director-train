@@ -38,8 +38,9 @@ def compute_signal_alignment_report(
         if cid not in cand_videos or not Path(cand_videos[cid]).is_file():
             continue
         has_spk = any(t.get("mode") != "inner_os" for t in c.get("dialogue_turns", []))
-        cand_sig = VAJ.probe_video_signals(Path(cand_videos[cid]), has_spoken_dialogue=has_spk)
-        gold_sig = VAJ.probe_video_signals(Path(c["gold_sealed_mp4"]), has_spoken_dialogue=has_spk)
+        tdur = c.get("target_duration_s")
+        cand_sig = VAJ.probe_video_signals(Path(cand_videos[cid]), has_spoken_dialogue=has_spk, target_duration_s=tdur)
+        gold_sig = VAJ.probe_video_signals(Path(c["gold_sealed_mp4"]), has_spoken_dialogue=has_spk, target_duration_s=tdur)
 
         cand_shots = max(1, cand_sig["approx_cuts"] + 1)
         gold_shots = max(1, gold_sig["approx_cuts"] + 1)
@@ -52,6 +53,9 @@ def compute_signal_alignment_report(
                 "genre": c.get("genre", ""),
                 "cand_duration_s": cand_sig["duration_s"],
                 "gold_duration_s": gold_sig["duration_s"],
+                "cand_av_desync_s": cand_sig["av_desync_s"],
+                "cand_penalty": cand_sig["deterministic_penalty"],
+                "cand_penalty_reasons": cand_sig["penalty_reasons"],
                 "cand_shots": cand_shots,
                 "gold_shots": gold_shots,
                 "cand_asl_s": cand_asl,
@@ -68,6 +72,9 @@ def compute_signal_alignment_report(
 
     zero_trunc_rate = round(
         sum(1 for r in rows if not r["cand_tail_truncated"]) / max(1, len(rows)), 4
+    )
+    zero_desync_rate = round(
+        sum(1 for r in rows if r["cand_av_desync_s"] <= 0.10) / max(1, len(rows)), 4
     )
     zero_freeze_rate = round(
         sum(1 for r in rows if not r["cand_frozen"]) / max(1, len(rows)), 4
@@ -89,6 +96,7 @@ def compute_signal_alignment_report(
 
     return {
         "evaluated_cases": len(rows),
+        "zero_av_desync_rate": zero_desync_rate,
         "zero_tail_truncation_rate": zero_trunc_rate,
         "zero_freeze_rate": zero_freeze_rate,
         "mean_cand_asl_s": mean_cand_asl,

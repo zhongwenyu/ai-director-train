@@ -1,16 +1,18 @@
 #!/home/zhongwenyu/data/anaconda3/bin/python3
 """
-Hermetic Multimodal Video Arena Judge (`judge/video_arena_judge.py`).
+Hermetic Target-Anchored Multimodal Video Arena Judge (`judge/video_arena_judge.py`).
 
-Enforces strict information-theoretic context isolation & cross-model heterogeneity:
-  1. Uses heterogeneous `gemini-4-argon-medium` (distinct from Generator `gemini-4-carbon-medium`)
-     inside an isolated empty `tempfile.TemporaryDirectory()` (`--sandbox --disable-slash-commands`).
-  2. Stages ONLY anonymized media copies (`Video_A.mp4`, `Video_B.mp4`, `Character_Ref_1.png`, ...)
-     inside that temporary directory — NEVER exposing `SKILL.md`, storyboard text, keyframe prompts,
-     H3 video prompts, or version labels, and verifying via CLI log that zero paths outside the
-     hermetic temp directory are ever read.
-  3. Combines Order-Swapped Dual-Blind (`(A=cand, B=champ)` + `(A=champ, B=cand)`) multimodal evaluation
-     with deterministic neural `Silero-VAD` & OpenCV motion/cut signal probes.
+Fixes grading inflation & lip-sync/spatial/expression blind spots:
+  1. Target-Anchored Triplet Calibration: Stages `Target_Benchmark.mp4` (`85.0`-point real hit-drama
+     standard!) inside the hermetic sandbox alongside anonymized `Video_A.mp4` and `Video_B.mp4`,
+     eliminating AI-vs-AI score inflation (no wooden or desynced AI clip can ever score 85-90!).
+  2. Strict Deterministic Signal Penalties (`probe_video_signals`):
+     - `AV_STREAM_DESYNC` (`|v_dur - a_dur| > 0.10s` -> `-40 pts`)
+     - `LIP_SYNC_MOUTH_MISMATCH` (OpenCV face lower-jaw optical motion during speech vs silence -> `-25 pts`)
+     - `DURATION_PACING_BLOAT` (duration exceeding `target_duration_s * 1.35` -> `-25 pts`)
+     - `PRE_SPEECH_DEAD_LAG` (`> 1.3s` dead staring before speech -> `-15 pts`)
+     - `SPEECH_TAIL_TRUNCATED` (`-12 pts`), `MISSING_SPEECH_AUDIO` (`-30 pts`), `FROZEN_STATIC_VIDEO` (`-20 pts`)
+  3. Order-Swapped Dual-Blind (`(A=cand, B=champ)` + `(A=champ, B=cand)`) on `gemini-4-argon-medium`.
 """
 from __future__ import annotations
 
@@ -38,6 +40,7 @@ AGY_BIN = (
 )
 JUDGE_MODEL = os.environ.get("VIDEO_JUDGE_MODEL", "gemini-4-argon-medium")
 JUDGE_EFFORT = os.environ.get("VIDEO_JUDGE_EFFORT", "medium")
+FACE_CASCADE_PATH = str(Path(cv2.data.haarcascades) / "haarcascade_frontalface_default.xml")
 
 
 def _extract_first_json(text: str) -> Dict[str, Any]:
@@ -63,7 +66,7 @@ def call_argon_multimodal(
     *,
     schema: Optional[Dict[str, Any]] = None,
     effort: str = JUDGE_EFFORT,
-    timeout: int = 300,
+    timeout: int = 360,
     retries: int = 2,
 ) -> Dict[str, Any]:
     """Run context-isolated `gemini-4-argon-medium` inside an empty sandbox tempdir with anonymized media."""
@@ -85,7 +88,7 @@ def call_argon_multimodal(
             full_prompt = (
                 "【严格沙箱盲审指令】\n"
                 f"你当前处于完全隔离的盲审沙箱目录 `{td_p}`。\n"
-                "1. 请且仅使用 `read_file` 工具依次完整读取下方列出的沙箱内媒体文件（视频请同时仔细观看画面与听取完整音轨）；\n"
+                "1. 请且仅使用 `read_file` 工具依次完整读取下方列出的沙箱内媒体文件（视频必须逐秒比对嘴唇开合与人声是否同步、人物座位空间是否跳变、面部表情是否鲜活丰富）；\n"
                 f"2. 严禁访问 `{td_p}` 以外的任何路径，严禁调用任何其他工具；\n"
                 "3. 读取完毕后立即按要求输出结构化 JSON 结果。\n\n"
                 "【待读取沙箱媒体附件清单】\n"
@@ -111,19 +114,12 @@ def call_argon_multimodal(
             cmd.extend(["-p", full_prompt])
 
             try:
-                proc = subprocess.run(
-                    cmd,
-                    cwd=str(td_p),
-                    capture_output=True,
-                    text=True,
-                    timeout=timeout,
-                )
+                proc = subprocess.run(cmd, cwd=str(td_p), capture_output=True, text=True, timeout=timeout)
             except subprocess.TimeoutExpired:
                 last_err = f"argon timeout after {timeout}s (attempt {attempt})"
                 time.sleep(2 * attempt)
                 continue
 
-            # Verify zero leak outside tmp_cwd in cli.log if present
             log_p = td_p / "cli.log"
             if log_p.is_file():
                 log_txt = log_p.read_text(encoding="utf-8", errors="ignore")
@@ -149,17 +145,26 @@ def call_argon_multimodal(
 
 
 _VAD_SESS: Optional[ort.InferenceSession] = None
+_VAD_LOCK = None
 
 
 def _get_vad_sess() -> ort.InferenceSession:
-    global _VAD_SESS
-    if _VAD_SESS is None:
-        _VAD_SESS = ort.InferenceSession(str(DEFAULT_VAD_ONNX), providers=["CPUExecutionProvider"])
-    return _VAD_SESS
+    global _VAD_SESS, _VAD_LOCK
+    import threading
+    if _VAD_LOCK is None:
+        _VAD_LOCK = threading.Lock()
+    with _VAD_LOCK:
+        if _VAD_SESS is None:
+            _VAD_SESS = ort.InferenceSession(str(DEFAULT_VAD_ONNX), providers=["CPUExecutionProvider"])
+        return _VAD_SESS
 
 
-def probe_video_signals(mp4_path: Path, has_spoken_dialogue: bool = True) -> Dict[str, Any]:
-    """Deterministic container, neural Silero-VAD speech integrity, and motion/cut probes."""
+def probe_video_signals(
+    mp4_path: Path,
+    has_spoken_dialogue: bool = True,
+    target_duration_s: Optional[float] = None,
+) -> Dict[str, Any]:
+    """Deterministic A/V stream sync, lip-sync mouth-motion correlation, duration bloat, VAD, & motion probes."""
     mp4_path = Path(mp4_path)
     probe = json.loads(
         subprocess.check_output(
@@ -169,12 +174,18 @@ def probe_video_signals(mp4_path: Path, has_spoken_dialogue: bool = True) -> Dic
     )
     vstream = next(s for s in probe["streams"] if s["codec_type"] == "video")
     astream = next((s for s in probe["streams"] if s["codec_type"] == "audio"), None)
-    dur = float(probe["format"]["duration"])
+    fmt_dur = float(probe["format"]["duration"])
+    v_dur = float(vstream.get("duration") or fmt_dur)
+    a_dur = float(astream.get("duration") or fmt_dur) if astream else 0.0
+    av_desync_s = round(abs(v_dur - a_dur), 3) if astream else 99.0
     w, h = int(vstream["width"]), int(vstream["height"])
 
+    vad_probs = np.zeros(0, dtype=np.float32)
     vad_segments: List[Tuple[float, float]] = []
     tail_truncated = False
     speech_total_s = 0.0
+    first_speech_s = None
+
     if astream is not None and DEFAULT_VAD_ONNX.is_file():
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=True) as tmp_wav:
             subprocess.run(
@@ -188,69 +199,142 @@ def probe_video_signals(mp4_path: Path, has_spoken_dialogue: bool = True) -> Dic
         n_frames = len(pcm) // hop
         h_st = np.zeros((2, 1, 64), dtype=np.float32)
         c_st = np.zeros((2, 1, 64), dtype=np.float32)
-        probs = np.empty(n_frames, dtype=np.float32)
+        vad_probs = np.empty(n_frames, dtype=np.float32)
         for i in range(n_frames):
             pr, h_st, c_st = sess.run(None, {"x": pcm[i * hop : (i + 1) * hop].reshape(1, hop), "h": h_st, "c": c_st})
-            probs[i] = float(pr[0, 0])
+            vad_probs[i] = float(pr[0, 0])
         dt = hop / 16000.0
         in_s, s0 = False, 0
-        for idx, p in enumerate(probs):
+        for idx, p in enumerate(vad_probs):
             if p >= 0.52 and not in_s:
                 in_s, s0 = True, idx
             elif p < 0.52 and in_s:
                 in_s = False
                 if (idx - s0) * dt >= 0.16:
                     vad_segments.append((round(s0 * dt, 3), round(idx * dt, 3)))
-        if in_s and (len(probs) - s0) * dt >= 0.16:
-            vad_segments.append((round(s0 * dt, 3), round(len(probs) * dt, 3)))
+        if in_s and (len(vad_probs) - s0) * dt >= 0.16:
+            vad_segments.append((round(s0 * dt, 3), round(len(vad_probs) * dt, 3)))
         speech_total_s = round(sum(e - s for s, e in vad_segments), 3)
-        if len(probs) >= 6 and float(probs[-6:].max()) >= 0.58:
+        if vad_segments:
+            first_speech_s = vad_segments[0][0]
+        if len(vad_probs) >= 4 and float(vad_probs[-2:].min()) >= 0.75:
             tail_truncated = True
 
+    # OpenCV motion liveness, cut detection, & lower-face mouth motion vs VAD silent-flapping check
     cap = cv2.VideoCapture(str(mp4_path))
     fps = cap.get(cv2.CAP_PROP_FPS) or 24.0
+    face_cascade = cv2.CascadeClassifier(FACE_CASCADE_PATH) if os.path.exists(FACE_CASCADE_PATH) else None
     prev_gray = None
+    prev_mouth_patch = None
+    prev_face_center = None
     diffs: List[float] = []
     cut_frames = 0
-    step = max(1, int(round(fps / 6.0)))
+    speech_mouth_vals: List[float] = []
+    silent_mouth_vals: List[float] = []
+
+    step = max(1, int(round(fps / 8.0)))  # Sample at 8 Hz
     fidx = 0
     while True:
         ok, frame = cap.read()
         if not ok:
             break
         if fidx % step == 0:
-            gray = cv2.cvtColor(cv2.resize(frame, (160, 90)), cv2.COLOR_BGR2GRAY).astype(np.float32)
+            t_sec = fidx / fps
+            small = cv2.cvtColor(cv2.resize(frame, (320, int(round(320 * h / max(1, w))))), cv2.COLOR_BGR2GRAY)
+            gray160 = cv2.resize(small, (160, 90)).astype(np.float32)
+            is_cut = False
             if prev_gray is not None:
-                d = float(np.mean(np.abs(gray - prev_gray)))
+                d = float(np.mean(np.abs(gray160 - prev_gray)))
                 diffs.append(d)
                 if d > 28.0:
                     cut_frames += 1
-            prev_gray = gray
+                    is_cut = True
+                    prev_mouth_patch = None
+                    prev_face_center = None
+            prev_gray = gray160
+
+            if face_cascade is not None and not is_cut:
+                faces = face_cascade.detectMultiScale(small, scaleFactor=1.15, minNeighbors=5, minSize=(40, 40))
+                if len(faces) > 0:
+                    fx, fy, fw, fh = max(faces, key=lambda b: b[2] * b[3])
+                    cx, cy = fx + fw * 0.5, fy + fh * 0.5
+                    my0 = min(small.shape[0] - 4, fy + int(fh * 0.62))
+                    my1 = min(small.shape[0], fy + fh)
+                    mx0 = min(small.shape[1] - 4, fx + int(fw * 0.22))
+                    mx1 = min(small.shape[1], fx + int(fw * 0.78))
+                    if my1 - my0 >= 6 and mx1 - mx0 >= 6:
+                        mpatch = cv2.resize(small[my0:my1, mx0:mx1], (24, 16)).astype(np.float32)
+                        same_face = (
+                            prev_face_center is not None
+                            and abs(cx - prev_face_center[0]) < fw * 0.25
+                            and abs(cy - prev_face_center[1]) < fh * 0.25
+                        )
+                        if prev_mouth_patch is not None and same_face and len(vad_probs) > 0:
+                            mdiff = float(np.mean(np.abs(mpatch - prev_mouth_patch)))
+                            v_idx = min(len(vad_probs) - 1, max(0, int(t_sec * 16000 / 512)))
+                            win_p = float(vad_probs[max(0, v_idx - 2) : min(len(vad_probs), v_idx + 3)].max())
+                            if win_p >= 0.45:
+                                speech_mouth_vals.append(mdiff)
+                            elif win_p < 0.12:
+                                silent_mouth_vals.append(mdiff)
+                        prev_mouth_patch = mpatch
+                        prev_face_center = (cx, cy)
+                else:
+                    prev_mouth_patch = None
+                    prev_face_center = None
         fidx += 1
     cap.release()
 
     median_motion = round(float(np.median(diffs)) if diffs else 0.0, 3)
     frozen_slideshow = median_motion < 0.45
 
+    # Detect severe silent mouth-flapping (desynced audio ended while character keeps talking silently!)
+    lip_desync_detected = False
+    if len(speech_mouth_vals) >= 4 and len(silent_mouth_vals) >= 6:
+        sp_med = float(np.median(speech_mouth_vals))
+        # Check if top quartile of "silent" frames have mouth motion exceeding active speech motion!
+        sil_p85 = float(np.percentile(silent_mouth_vals, 85))
+        if sp_med > 1.2 and sil_p85 > max(4.8, sp_med * 1.35):
+            lip_desync_detected = True
+
     penalty = 0.0
     penalty_reasons: List[str] = []
+    if av_desync_s > 0.12:
+        penalty += 40.0
+        penalty_reasons.append(f"AV_STREAM_DESYNC_{av_desync_s:.2f}s")
+    if lip_desync_detected:
+        penalty += 20.0
+        penalty_reasons.append("SILENT_MOUTH_FLAPPING_DESYNC")
     if has_spoken_dialogue and speech_total_s < 0.5:
-        penalty += 25.0
+        penalty += 30.0
         penalty_reasons.append("MISSING_SPEECH_AUDIO")
     if tail_truncated:
-        penalty += 10.0
+        penalty += 12.0
         penalty_reasons.append("SPEECH_TAIL_TRUNCATED")
     if frozen_slideshow:
-        penalty += 15.0
+        penalty += 20.0
         penalty_reasons.append("FROZEN_STATIC_VIDEO")
+    if target_duration_s and target_duration_s > 3.0:
+        ratio_d = fmt_dur / float(target_duration_s)
+        if ratio_d > 1.38 or ratio_d < 0.60:
+            penalty += 25.0
+            penalty_reasons.append(f"DURATION_MISMATCH_{fmt_dur:.1f}s_vs_{target_duration_s:.1f}s")
+    if has_spoken_dialogue and first_speech_s is not None and first_speech_s > 1.6:
+        penalty += 12.0
+        penalty_reasons.append(f"PRE_SPEECH_ZOMBIE_LAG_{first_speech_s:.2f}s")
 
     return {
         "width": w,
         "height": h,
-        "duration_s": round(dur, 3),
+        "duration_s": round(fmt_dur, 3),
+        "v_dur_s": round(v_dur, 3),
+        "a_dur_s": round(a_dur, 3),
+        "av_desync_s": av_desync_s,
         "speech_total_s": speech_total_s,
+        "first_speech_s": first_speech_s,
         "vad_segments": vad_segments,
         "tail_truncated": tail_truncated,
+        "lip_desync_detected": lip_desync_detected,
         "median_motion": median_motion,
         "approx_cuts": cut_frames,
         "frozen_slideshow": frozen_slideshow,
@@ -305,32 +389,24 @@ JUDGE_PAIR_SCHEMA: Dict[str, Any] = {
     "additionalProperties": False,
 }
 
-JUDGE_PAIR_PROMPT_TEMPLATE = """你是一位严苛、客观的真人实拍级 AI 短剧总导演与多模态视听评审官。
-请用 `read_file` 完整读取并观看/听审两段匿名候选成片 `Video_A.mp4` 与 `Video_B.mp4`（均针对下方同一份【戏剧段落任务卡】生成），并对照附带的 `Character_Ref_*.png`【角色标准 0% 中性设定图】进行盲评。
+JUDGE_PAIR_PROMPT_TEMPLATE = """你是一位极其严苛、眼睛毒辣的真人实拍级短剧总导演与多模态视听质检官。
+沙箱中提供了：
+- `Target_Benchmark.mp4`（固定锚定为 **85分标准线** 的爆款参考原片，如果提供，请先观看它作为表情鲜活度、人物座位空间、语速节奏与唇音同步的绝对标尺！忽略原片自带的字幕文字，专注其人物鲜活表演、嘴型同步与节奏）；
+- 两段待盲评的匿名候选视频 `Video_A.mp4` 与 `Video_B.mp4`；
+- `Character_Ref_*.png`（角色标准 0% 中性设定图）。
 
-【绝对盲审纪律】
-1. 严禁脑补画面里没演出来的动作！必须同时仔细听两段视频的原声音轨（核对台词清晰度、语气呼吸感、口型同步、是否有吞尾字或心声乱动嘴）并逐秒观察画面！
-2. 严禁给“同分和稀泥”——除非两段视频在全部 6 个维度真的毫无差别，否则必须明确分出 `A` 或 `B` 胜出！
+【严禁打虚高分的铁律！（违者评审作废）】
+1. **分数锚定纪律**：`Target_Benchmark.mp4` 的真实水准定为 **85 分**！如果某候选视频存在【声音和嘴型对不上 / 说完话嘴还在乱动 / 声音出了嘴没张】、【人物表情像木头播音员一样僵硬平淡、远不如参考片灵动鲜活】、【人物座位或空间位置跨镜头乱跳】、【总时长拖沓注水】，该候选总分**绝不允许超过 65 分**，更严禁打出 85–90 分的荒谬虚高分！
+2. **逐项死磕核查**：
+   - `acting_micro_naturalism`（0–25分）：对比 `Target_Benchmark.mp4`，角色的眼神流转、挑眉、弯眼笑意、吃惊瞪眼、尴尬挤笑、手部生活化小动作（合十、托腮、扶额、递物等）是否同样鲜活生动？若是“全程端着不动、面无表情念台词的面瘫克制脸”，最多只能给 8–13 分！
+   - `vocal_dialogue_delivery`（0–20分）：**死盯嘴唇每一拍开合与人声是否严丝合缝（±0.1秒内）！** 凡出现音画错位（嘴动无声、有声嘴不动、多人串嘴、吞尾字），直接给 0–7 分！同时考察语气是否有真实的轻咳、叹气、反讽重音等戏剧表现力。
+   - `editing_rhythm_and_reactions`（0–20分）：切镜是否像参考片一样紧凑干脆（单镜 2–4秒，总时长与目标接近）？是否有恰当的听话人反应镜头？若把 12 秒戏拍成 20 多秒慢吞吞发呆，给 5–10 分！
+   - `character_and_costume_consistency`（0–15分）：五官骨相、神韵、发型服饰与 `Character_Ref_*.png` 及参考片是否一致、跨镜是否不变脸不串衣？
+   - `cinematography_and_spatial_coherence`（0–10分）：**核查人物座位/站位空间拓扑！** 同一桌并排坐的两人是否跨镜突然变成前后排或瞬移到走廊？正反打 180° 视线轴线与景深光影是否准确？若空间位置错乱，最多给 2–4 分！
+   - `physical_anatomy_integrity`（0–10分）：手部五指、桌面器物是否自然真实无穿模？
 
-【本段戏剧任务卡（脱敏纯文本题目）】
-{beat_card_text}
-
-【六维 100 分制客观评分标准（分别对 A 和 B 独立打分）】
-1. `acting_micro_naturalism`（0–25分，表演微表情与具象肢体支点）：
-   - 高分（20–25）：起幅面部自然放松不夸张；开口前有真实的视线流转、眨眼、微蹙眉或呼吸起伏；情绪通过具体、生活化的小动作支点（如手部轻触桌面/器物、扶额、歪头、侧身低语等）自然外化。
-   - 低分（0–12）：全程像木偶站桩死盯镜头念稿，或首帧/中途出现五官扭曲的“歪嘴邪笑/惊悚瞪眼”假脸。
-2. `vocal_dialogue_delivery`（0–20分，语言自然度、副语言气口与声画同步）：
-   - 高分（16–20）：全部要求台词清晰完整无截断；语速自然有潜台词重音与生理呼吸感（如叹气、轻笑、停顿）；谁说话谁动嘴，听话人与内心独白（OS）期间双唇严格自然闭合。
-   - 低分（0–10）：漏句/尾字被硬生生切断、机械播音腔、多人串嘴、或心声 OS 时人物跟着张嘴念白。
-3. `editing_rhythm_and_reactions`（0–20分，剪辑节奏与听话人微反应插切）：
-   - 高分（16–20）：切镜干脆利落（2–5秒一拍，无拖沓发呆空镜），在对手出招或长句尾端切入恰当的听话人无台词微表情反应镜（或流畅的声留画切 L-Cut），戏剧来回张力紧凑抓人。
-   - 低分（0–10）：十几秒单机位死拍不切镜、切镜瞬间出现人物/衣服融化变形、或无故横摇甩镜。
-4. `character_and_costume_consistency`（0–15分，角色五官与服装跨镜一致性）：
-   - 对照【角色标准设定图】，核查五官骨相、发型轮廓、服装款式颜色在各切镜间是否稳定一致，有无同框克隆分身或衣服串色。
-5. `cinematography_and_spatial_coherence`（0–10分，电影感景深构图与 180° 轴线）：
-   - 对话戏是否善用中近景/特写与柔和浅景深（虚化杂乱背景突出人物眼神），前景过肩/遮挡是否有纵深感，正反打左右视线是否严守 180° 轴线。
-6. `physical_anatomy_integrity`（0–10分，手部解剖与道具物理真实性）：
-   - 手指结构是否正常、手持/交接道具是否唯一稳定（无凭空多出双份道具、穿模或漂浮慢动作）。"""
+【本段戏剧任务卡】
+{beat_card_text}"""
 
 
 def _sum_scores(d: Dict[str, Any]) -> float:
@@ -339,18 +415,20 @@ def _sum_scores(d: Dict[str, Any]) -> float:
 
 def format_beat_card_for_judge(beat_spec: Dict[str, Any]) -> str:
     lines = [
+        f"- 目标总时长：{beat_spec.get('target_duration_s', 10.0)} 秒（严重超时拖沓必须重扣分！）",
         f"- 画幅与光影环境：{beat_spec.get('aspect_ratio', '16:9')} ｜ {beat_spec.get('setting_summary', '')}",
-        f"- 戏剧目标与情绪弧线：{beat_spec.get('dramatic_goal', '')}",
+        f"- 空间座位/站位硬约束：{beat_spec.get('initial_blocking', '')}",
+        f"- 戏剧目标与情绪张力：{beat_spec.get('dramatic_goal', '')}",
         "- 出场角色：",
     ]
     for ch in beat_spec.get("characters", []):
         lines.append(f"  * {ch['role_id']}（{ch['display_name']}）：{ch['neutral_visual_bio']}")
     if beat_spec.get("props"):
         lines.append("- 关键道具：" + "；".join(f"{p['prop_id']}（{p['description']}）" for p in beat_spec["props"]))
-    lines.append("- 本段台词 / 心声序列（需完整呈现）：")
+    lines.append("- 本段台词 / 心声序列（须唇音严丝合缝、情绪鲜活）：")
     for idx, turn in enumerate(beat_spec.get("dialogue_turns", []), 1):
         mode_tag = "心声OS（画内闭嘴）" if turn.get("mode") == "inner_os" else "画内对白"
-        lines.append(f"  {idx}. [{mode_tag}] {turn['speaker_id']}：“{turn['text']}”")
+        lines.append(f"  {idx}. [{mode_tag}] {turn['speaker_id']}（潜台词：{turn.get('subtext_intent', '')}）：“{turn['text']}”")
     return "\n".join(lines)
 
 
@@ -359,9 +437,21 @@ def _run_single_blind_pass(
     char_refs: Sequence[Tuple[str, Path]],
     video_a: Path,
     video_b: Path,
+    gold_anchor: Optional[Path] = None,
     effort: str = "medium",
 ) -> Dict[str, Any]:
     media_items: List[Dict[str, Any]] = []
+    if gold_anchor is not None and gold_anchor.is_file():
+        # Avoid passing identical file twice if one of A/B IS gold_anchor during vs_gold eval
+        if gold_anchor.resolve() != video_a.resolve() and gold_anchor.resolve() != video_b.resolve():
+            media_items.append(
+                {
+                    "kind": "video",
+                    "path": gold_anchor,
+                    "anon_name": "Target_Benchmark.mp4",
+                    "caption": "85分标准线目标参考原片（请以此片的鲜活表情、唇音同步、紧凑切镜与人物座位空间作为绝对评分标尺！）",
+                }
+            )
     for idx, (label, cpath) in enumerate(char_refs, 1):
         media_items.append(
             {
@@ -372,10 +462,10 @@ def _run_single_blind_pass(
             }
         )
     media_items.append(
-        {"kind": "video", "path": video_a, "anon_name": "Video_A.mp4", "caption": "匿名候选成片 Video_A（含完整音轨）"}
+        {"kind": "video", "path": video_a, "anon_name": "Video_A.mp4", "caption": "待严苛盲审候选片 Video_A"}
     )
     media_items.append(
-        {"kind": "video", "path": video_b, "anon_name": "Video_B.mp4", "caption": "匿名候选成片 Video_B（含完整音轨）"}
+        {"kind": "video", "path": video_b, "anon_name": "Video_B.mp4", "caption": "待严苛盲审候选片 Video_B"}
     )
     prompt = JUDGE_PAIR_PROMPT_TEMPLATE.format(beat_card_text=beat_card_text)
     res = call_argon_multimodal(prompt, media_items, schema=JUDGE_PAIR_SCHEMA, effort=effort)
@@ -396,16 +486,17 @@ def judge_pair_swapped(
     *,
     effort: str = "medium",
 ) -> Dict[str, Any]:
-    """Run Order-Swapped Dual-Blind (`(A=cand,B=champ)` + `(A=champ,B=cand)`) + deterministic signal probes."""
+    """Run Target-Anchored Order-Swapped Dual-Blind + strict A/V sync, lip-sync, & bloat penalties."""
     has_spoken = any(t.get("mode") != "inner_os" for t in beat_spec.get("dialogue_turns", []))
+    target_dur = float(beat_spec.get("target_duration_s") or 0.0) or None
+    gold_p = Path(beat_spec["gold_sealed_mp4"]) if beat_spec.get("gold_sealed_mp4") else None
     beat_card_text = format_beat_card_for_judge(beat_spec)
 
-    # Run deterministic signal probes + BOTH order-swapped blind passes concurrently!
     with cf.ThreadPoolExecutor(max_workers=4) as ex:
-        f_pc = ex.submit(probe_video_signals, cand_mp4, has_spoken)
-        f_pr = ex.submit(probe_video_signals, champ_mp4, has_spoken)
-        f_p1 = ex.submit(_run_single_blind_pass, beat_card_text, char_refs, cand_mp4, champ_mp4, effort)
-        f_p2 = ex.submit(_run_single_blind_pass, beat_card_text, char_refs, champ_mp4, cand_mp4, effort)
+        f_pc = ex.submit(probe_video_signals, cand_mp4, has_spoken, target_dur)
+        f_pr = ex.submit(probe_video_signals, champ_mp4, has_spoken, target_dur)
+        f_p1 = ex.submit(_run_single_blind_pass, beat_card_text, char_refs, cand_mp4, champ_mp4, gold_p, effort)
+        f_p2 = ex.submit(_run_single_blind_pass, beat_card_text, char_refs, champ_mp4, cand_mp4, gold_p, effort)
         probe_cand = f_pc.result()
         probe_champ = f_pr.result()
         p1 = f_p1.result()
@@ -423,20 +514,25 @@ def judge_pair_swapped(
         for k in DIM_KEYS
     }
 
-    cand_score = round(max(0.0, (cand_raw_1 + cand_raw_2) / 2.0 - probe_cand["deterministic_penalty"]), 2)
-    champ_score = round(max(0.0, (champ_raw_1 + champ_raw_2) / 2.0 - probe_champ["deterministic_penalty"]), 2)
+    is_cand_gold = gold_p is not None and cand_mp4.resolve() == gold_p.resolve()
+    is_champ_gold = gold_p is not None and champ_mp4.resolve() == gold_p.resolve()
+    pen_cand = 0.0 if is_cand_gold else probe_cand["deterministic_penalty"]
+    pen_champ = 0.0 if is_champ_gold else probe_champ["deterministic_penalty"]
+
+    cand_score = round(max(0.0, (cand_raw_1 + cand_raw_2) / 2.0 - pen_cand), 2)
+    champ_score = round(max(0.0, (champ_raw_1 + champ_raw_2) / 2.0 - pen_champ), 2)
 
     v1 = 1 if p1["winner"] == "A" else (-1 if p1["winner"] == "B" else 0)
     v2 = 1 if p2["winner"] == "B" else (-1 if p2["winner"] == "A" else 0)
     vote_sum = v1 + v2
     delta = round(cand_score - champ_score, 2)
 
-    if vote_sum >= 2 or (vote_sum == 1 and delta >= 1.5):
+    if abs(pen_cand - pen_champ) >= 15.0 and abs(delta) >= 5.0:
+        outcome = "cand_win" if delta > 0 else "champ_win"
+    elif vote_sum >= 2 or (vote_sum == 1 and delta >= 1.5):
         outcome = "cand_win"
     elif vote_sum <= -2 or (vote_sum == -1 and delta <= -1.5):
         outcome = "champ_win"
-    elif abs(delta) >= 4.0 and probe_cand["deterministic_penalty"] != probe_champ["deterministic_penalty"]:
-        outcome = "cand_win" if delta > 0 else "champ_win"
     else:
         outcome = "tie"
 
@@ -463,4 +559,4 @@ def judge_pair_swapped(
 
 
 if __name__ == "__main__":
-    print("video_arena_judge loaded successfully. AGY_BIN =", AGY_BIN)
+    print("video_arena_judge v2 (Target-Anchored + Hard Lip-Sync/Duration Probes) loaded.")

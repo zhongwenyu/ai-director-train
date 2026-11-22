@@ -78,6 +78,7 @@ SCENE_PLAN_SCHEMA: Dict[str, Any] = {
     "type": "object",
     "properties": {
         "scene_summary": {"type": "string"},
+        "master_blocking_prompt": {"type": "string"},
         "clips": {
             "type": "array",
             "minItems": 1,
@@ -86,7 +87,7 @@ SCENE_PLAN_SCHEMA: Dict[str, Any] = {
                 "type": "object",
                 "properties": {
                     "clip_id": {"type": "string"},
-                    "duration_s": {"type": "integer", "minimum": 2, "maximum": 12},
+                    "duration_s": {"type": "integer", "minimum": 2, "maximum": 8},
                     "camera_framing": {"type": "string"},
                     "visible_role_ids": {"type": "array", "items": {"type": "string"}},
                     "foreground_silhouette_role_ids": {"type": "array", "items": {"type": "string"}},
@@ -110,7 +111,7 @@ SCENE_PLAN_SCHEMA: Dict[str, Any] = {
                             },
                         ]
                     },
-                    "lcut_audio_hold_over_next_s": {"type": "number", "minimum": 0.0, "maximum": 1.4},
+                    "lcut_audio_hold_over_next_s": {"type": "number", "minimum": 0.0, "maximum": 1.0},
                     "clip_summary": {"type": "string"},
                     "detailed_action_and_dialogue": {"type": "string"},
                     "soundscape": {"type": "string"},
@@ -135,7 +136,7 @@ SCENE_PLAN_SCHEMA: Dict[str, Any] = {
             },
         },
     },
-    "required": ["scene_summary", "clips"],
+    "required": ["scene_summary", "master_blocking_prompt", "clips"],
     "additionalProperties": False,
 }
 
@@ -234,9 +235,11 @@ def generate_scene_plan_blind(skill_files: Dict[str, str], beat_spec: Dict[str, 
         + "\n\n==================== 戏剧段落任务卡 ====================\n"
         + json.dumps(pub_spec, ensure_ascii=False, indent=2)
         + "\n\n【硬性输出契约】\n"
-        "1. 必须覆盖任务卡中的全部 `dialogue_turns`（画内对白用 `<CHR_x> speaks (起s-止s): <d>[Chinese] 原文</d>`，心声或画外独白放入 `inner_os` 且画内角色闭嘴，严禁漏句或改字！）。\n"
-        "2. `visible_role_ids` 只填该子镜头实际露出正脸/侧脸/正身的角色 ID；若某角色仅作为虚化背影肩部前景出现，只放入 `foreground_silhouette_role_ids`，绝不放入 `visible_role_ids`。\n"
-        "3. `clip_summary`、`keyframe_prompt` 与 `detailed_action_and_dialogue` 除 `<d>[Chinese] ... </d>` 内的中文台词外，全部使用英文编写。"
+        "1. `master_blocking_prompt`：使用英文编写本场戏的全景空间落座/站位母版图提示词（引用 `[Scene]` 与在场 `[CHR_x]`），必须 100% 严格还原 `initial_blocking` 中的左右/同侧/对侧座位与朝向拓扑，供所有子镜头继承统一空间轴线！\n"
+        "2. 必须覆盖任务卡中的全部 `dialogue_turns`（画内对白用 `<CHR_x> speaks (0.20s-止s): <d>[Chinese] 原文</d>`，一进画面 0.2s 即鲜活开口，严禁前几秒发呆；心声或画外独白放入 `inner_os` 且画内角色闭嘴，严禁漏句或改字！）。\n"
+        "3. 所有子镜头 `duration_s` 之和必须紧贴 `target_duration_s`（误差不超过 ±2 秒，严禁拖沓注水！），且 `lcut_audio_hold_over_next_s > 0` 仅允许用在下一个镜头为无台词反应镜头之时。\n"
+        "4. `visible_role_ids` 只填该子镜头实际露出正脸/侧脸/正身的角色 ID；若某角色仅作为虚化背影肩部前景出现，只放入 `foreground_silhouette_role_ids`，绝不放入 `visible_role_ids`。\n"
+        "5. `master_blocking_prompt`、`clip_summary`、`keyframe_prompt` 与 `detailed_action_and_dialogue` 除 `<d>[Chinese] ... </d>` 内的中文台词外，全部使用英文编写。"
     )
     return L.call_agy_json(prompt, SCENE_PLAN_SCHEMA, effort="medium", timeout=480, out_path=out_plan_path)
 
@@ -438,7 +441,8 @@ def validate_mutation_gates(files: Dict[str, str]) -> List[str]:
         "你是【反过拟合审查检察官（Anti-Overfitting Prosecutor）】。请严格审查以下视频生成 Skill 文件，若存在以下任一违规，必须判 `approved: false`：\n"
         "1. 硬编码了某一部具体剧名、角色名、台词或狭窄题材专属桥段（例如把全剧都锁死成办公室揉太阳穴/喝咖啡/古装挥剑）；\n"
         "2. 设定了机械死板的百分比配额（如“必须占73%”）；\n"
-        "3. 允许并鼓励跨题材成立的物理与视听第一性原理（如：浅景深中近景/特写聚焦微表情、0%中性或微克制起幅首帧、贴合当前情境的近身具象小动作支点、眼神与呼吸先于开口的生理时序、听话人无台词微反应切镜与L-Cut声留画切、背影前景角色不挂载正脸参考图等）。\n\n"
+        "3. 在动态视频提示词规范中错误要求“全程克制面无表情 / minimal restrained facial movement”（静态首帧应当自然无五官扭曲，但动态视频必须根据潜台词释放鲜活生动的眼神、眉眼情绪起伏、自然笑意/震惊/反讽/含泪等丰富人类真实表情与清晰口型！）；\n"
+        "4. 允许并鼓励跨题材成立的物理与视听第一性原理（如：双层空间母版锁定全员座位轴线、静态首帧自然干净而动态表演鲜活外化、0.2秒紧凑开口零发呆、清晰唇齿咬字同步、听话人无台词微反应切镜与严禁串音的L-Cut等）。\n\n"
         + "\n\n".join(f"### `{k}`\n{v}" for k, v in files.items())
     )
     verdict = L.call_agy_json(prosecutor_prompt, PROSECUTOR_SCHEMA, effort="medium", timeout=300)
@@ -595,15 +599,15 @@ def main() -> int:
         )
         print(f"  [bottlenecks] {bottlenecks}", flush=True)
 
-        # Diversified K=2 Proposal in Parallel (`v{r}a`: Micro-Acting & Shallow-DOF Restraint; `v{r}b`: Fast Atomic Cut + L-Cut Reaction)
+        # Diversified K=2 Proposal in Parallel (`v{r}a`: Vivid Expressive Subtext Acting + Locked Spatial Blocking; `v{r}b`: Crisp Target-Matched Fast Pacing + Lip-Sync Precision)
         cand_a_id, cand_b_id = f"v{r_idx}a", f"v{r_idx}b"
         axis_a = (
-            "方向 A（深度微表演与浅景深起幅克制优先）：重点强化首帧图采用 85mm 大光圈浅景深中近景/特写/前景半遮挡构图（虚化杂乱背景）及 0% 平静克制起幅神态；"
-            "动态提示词严格遵循“先眼神流转与呼吸气口 -> 贴合当前情境的近身具象小动作支点 -> 开口说话”的生理肌肉时序，彻底消除木偶站桩与夸张假笑。"
+            "方向 A（鲜活潜台词面部表演弧光 + 双层空间座位锁定优先）：彻底打破“动态也克制面瘫”的误区——静态起幅首帧保持五官自然舒展无扭曲，并通过 `master_blocking_prompt` 锁死全场相对座位与 180° 视线轴线（严禁跨镜换座或瞬移）；"
+            "而在动态视频 `detailed_action_and_dialogue` 中，必须根据每句 `subtext_intent` 驱动鲜活、饱满、极具感染力的真人面部表情变化（如俏皮弯眼笑意、挑眉反讽、瞳孔骤缩怔住、尴尬清嗓挤笑、鼻尖微酸忍泪等）与贴合情境的灵动肢体细节，同时要求 0.2s 立即开口、唇齿开合清晰准确贴合每一个音节！"
         )
         axis_b = (
-            "方向 B（短原子快切节奏、听话人微反应插切与 L-Cut 声画缝合优先）：在保持浅景深与具象微动作的基础上，将对话交锋拆分为 2.5~4.5 秒高密度单动作子镜，"
-            "并在关键出招/反讽句尾强制插入 2~3 秒听话人零口型微表情反应切镜（搭配 `lcut_audio_hold_over_next_s: 0.6~1.1` 让说话尾音自然覆盖反应画面），同时精细利用 `inner_os` 分离心声与画外音。"
+            "方向 B（紧贴目标总时长的干脆快切节奏 + 严丝合缝唇音同步与听话人反应镜头优先）：严格控制全段子镜头总时长紧贴 `target_duration_s`（按每秒约5个汉字紧凑估算单镜 2~5 秒，彻底消灭前摇发呆与时长翻倍注水）；"
+            "强化近景/中近景过肩正反打的空间视线咬合，在关键台词交锋处插入 2 秒无台词听话人鲜活神情反应镜头（仅在下一镜为无台词反应镜头时启用适度 L-Cut，严禁两段说话音轨重叠串嘴），心声与画外音精准走 `inner_os` 零口型通道。"
         )
         with cf.ThreadPoolExecutor(max_workers=2) as pex:
             fa = pex.submit(propose_single_axis_candidate, axis_a, champ_files, bottlenecks, champ_telemetry, CAND_ROOT / cand_a_id)

@@ -19,6 +19,11 @@ __pycache__/
 *.py[cod]
 *.pid
 *.tmp
+*.vad_trimmed
+*.vo_done
+.identity_rebuilt*
+runs/video_skill_evolution_v1_archived_desync/
+corpus/video_bench/*/*/gold_sealed/_crops/
 .env
 .env.*
 .DS_Store
