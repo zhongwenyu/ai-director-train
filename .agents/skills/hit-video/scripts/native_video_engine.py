@@ -314,6 +314,7 @@ def compile_h3_clip_payload(
     detail_body = replace_role_tokens(str(clip_spec.get("detailed_action_and_dialogue") or ""), with_speaker_tag=True).strip()
     if not ref_audios:
         detail_body = re.sub(r"<d>.*?</d>", "", detail_body, flags=re.S)
+        detail_body += " Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations."
 
     # Synchronize clip duration AND `(start_s-end_s)` window so H3 NEVER sits silent for 3s!
     spoken_cjk = sum(len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", m.group(1)) ) for m in re.finditer(r"<d>\s*(?:\[[A-Za-z]+\])?(.*?)</d>", detail_body, re.S))
@@ -357,6 +358,28 @@ def compile_h3_clip_payload(
         "non_diegetic_music:\nN/A"
     )
     return full_prompt, ref_images, ref_audios, sync_dur
+
+
+def silence_non_speaking_clip_vocals(mp4_path: Path, is_silent_reaction: bool) -> None:
+    """Eliminate H3 random foreign/babble vocal hallucinations on non-speaking reaction shots."""
+    if not is_silent_reaction:
+        return
+    marker = mp4_path.with_suffix(".muted_react")
+    if marker.is_file():
+        return
+    tmp_out = mp4_path.with_suffix(".clean_react.mp4")
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-v", "error", "-i", str(mp4_path),
+            "-c:v", "copy",
+            "-af", "highpass=f=80,lowpass=f=1800,volume=0.015",
+            "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "160k",
+            str(tmp_out),
+        ],
+        check=True,
+    )
+    tmp_out.replace(mp4_path)
+    marker.write_text("ok\n", encoding="utf-8")
 
 
 def trim_clip_dead_air_sync(mp4_path: Path, is_speaking_clip: bool) -> None:
@@ -664,11 +687,13 @@ def execute_scene_plan(
         c_mp4 = clips_dir / f"clip_{idx:02d}.mp4"
         has_vo = bool(cspec.get("inner_os") and isinstance(cspec["inner_os"], dict) and cspec["inner_os"].get("text"))
         is_speaking_on_cam = bool(cspec.get("speaking_role_ids")) and not has_vo
+        is_silent_react = (not is_speaking_on_cam) and (not has_vo)
 
         if c_mp4.is_file() and c_mp4.stat().st_size > 10000:
             if has_vo and not c_mp4.with_suffix(".vo_done").is_file():
                 vo_wav = synthesize_vo_wav_on_4070(cspec["inner_os"], beat_spec, clips_dir, base_seed + idx * 13 + 5)
                 apply_vo_wav_onto_clip(c_mp4, vo_wav, cspec["inner_os"])
+            silence_non_speaking_clip_vocals(c_mp4, is_silent_reaction=is_silent_react)
             trim_clip_dead_air_sync(c_mp4, is_speaking_clip=is_speaking_on_cam)
             return idx, c_mp4
 
@@ -721,6 +746,7 @@ def execute_scene_plan(
             if vo_fut is not None:
                 vo_wav = vo_fut.result()
                 apply_vo_wav_onto_clip(c_mp4, vo_wav, cspec["inner_os"])
+            silence_non_speaking_clip_vocals(c_mp4, is_silent_reaction=is_silent_react)
             trim_clip_dead_air_sync(c_mp4, is_speaking_clip=is_speaking_on_cam)
         finally:
             if vo_pool is not None:

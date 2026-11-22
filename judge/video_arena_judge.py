@@ -226,11 +226,12 @@ def probe_video_signals(
     face_cascade = cv2.CascadeClassifier(FACE_CASCADE_PATH) if os.path.exists(FACE_CASCADE_PATH) else None
     prev_gray = None
     prev_mouth_patch = None
+    prev_upper_patch = None
     prev_face_center = None
     diffs: List[float] = []
     cut_frames = 0
-    speech_mouth_vals: List[float] = []
-    silent_mouth_vals: List[float] = []
+    speech_jaw_ratios: List[float] = []
+    silent_jaw_ratios: List[float] = []
 
     step = max(1, int(round(fps / 8.0)))  # Sample at 8 Hz
     fidx = 0
@@ -250,6 +251,7 @@ def probe_video_signals(
                     cut_frames += 1
                     is_cut = True
                     prev_mouth_patch = None
+                    prev_upper_patch = None
                     prev_face_center = None
             prev_gray = gray160
 
@@ -258,29 +260,34 @@ def probe_video_signals(
                 if len(faces) > 0:
                     fx, fy, fw, fh = max(faces, key=lambda b: b[2] * b[3])
                     cx, cy = fx + fw * 0.5, fy + fh * 0.5
-                    my0 = min(small.shape[0] - 4, fy + int(fh * 0.62))
-                    my1 = min(small.shape[0], fy + fh)
-                    mx0 = min(small.shape[1] - 4, fx + int(fw * 0.22))
-                    mx1 = min(small.shape[1], fx + int(fw * 0.78))
-                    if my1 - my0 >= 6 and mx1 - mx0 >= 6:
+                    uy0, uy1 = max(0, fy + int(fh * 0.15)), min(small.shape[0], fy + int(fh * 0.50))
+                    my0, my1 = min(small.shape[0] - 4, fy + int(fh * 0.64)), min(small.shape[0], fy + fh)
+                    mx0, mx1 = min(small.shape[1] - 4, fx + int(fw * 0.24)), min(small.shape[1], fx + int(fw * 0.76))
+                    if my1 - my0 >= 6 and uy1 - uy0 >= 6 and mx1 - mx0 >= 6:
                         mpatch = cv2.resize(small[my0:my1, mx0:mx1], (24, 16)).astype(np.float32)
+                        upatch = cv2.resize(small[uy0:uy1, mx0:mx1], (24, 16)).astype(np.float32)
                         same_face = (
                             prev_face_center is not None
-                            and abs(cx - prev_face_center[0]) < fw * 0.25
-                            and abs(cy - prev_face_center[1]) < fh * 0.25
+                            and abs(cx - prev_face_center[0]) < fw * 0.18
+                            and abs(cy - prev_face_center[1]) < fh * 0.18
                         )
-                        if prev_mouth_patch is not None and same_face and len(vad_probs) > 0:
+                        if prev_mouth_patch is not None and prev_upper_patch is not None and same_face and len(vad_probs) > 0:
                             mdiff = float(np.mean(np.abs(mpatch - prev_mouth_patch)))
+                            udiff = float(np.mean(np.abs(upatch - prev_upper_patch)))
+                            # Isolate true jaw/lip motion from camera push-in or head translation!
+                            jaw_ratio = mdiff / max(1.5, udiff) if mdiff > 3.5 else 0.0
                             v_idx = min(len(vad_probs) - 1, max(0, int(t_sec * 16000 / 512)))
                             win_p = float(vad_probs[max(0, v_idx - 2) : min(len(vad_probs), v_idx + 3)].max())
                             if win_p >= 0.45:
-                                speech_mouth_vals.append(mdiff)
-                            elif win_p < 0.12:
-                                silent_mouth_vals.append(mdiff)
+                                speech_jaw_ratios.append(jaw_ratio)
+                            elif win_p < 0.10:
+                                silent_jaw_ratios.append(jaw_ratio)
                         prev_mouth_patch = mpatch
+                        prev_upper_patch = upatch
                         prev_face_center = (cx, cy)
                 else:
                     prev_mouth_patch = None
+                    prev_upper_patch = None
                     prev_face_center = None
         fidx += 1
     cap.release()
@@ -288,13 +295,11 @@ def probe_video_signals(
     median_motion = round(float(np.median(diffs)) if diffs else 0.0, 3)
     frozen_slideshow = median_motion < 0.45
 
-    # Detect severe silent mouth-flapping (desynced audio ended while character keeps talking silently!)
+    # Detect genuine silent mouth-flapping (isolated jaw motion >= 2.3x upper-face motion during silence!)
     lip_desync_detected = False
-    if len(speech_mouth_vals) >= 4 and len(silent_mouth_vals) >= 6:
-        sp_med = float(np.median(speech_mouth_vals))
-        # Check if top quartile of "silent" frames have mouth motion exceeding active speech motion!
-        sil_p85 = float(np.percentile(silent_mouth_vals, 85))
-        if sp_med > 1.2 and sil_p85 > max(4.8, sp_med * 1.35):
+    if len(silent_jaw_ratios) >= 8:
+        sil_p90 = float(np.percentile(silent_jaw_ratios, 90))
+        if sil_p90 >= 2.35:
             lip_desync_detected = True
 
     penalty = 0.0
@@ -316,7 +321,7 @@ def probe_video_signals(
         penalty_reasons.append("FROZEN_STATIC_VIDEO")
     if target_duration_s and target_duration_s > 3.0:
         ratio_d = fmt_dur / float(target_duration_s)
-        if ratio_d > 1.38 or ratio_d < 0.60:
+        if ratio_d > 1.55 or ratio_d < 0.55:
             penalty += 25.0
             penalty_reasons.append(f"DURATION_MISMATCH_{fmt_dur:.1f}s_vs_{target_duration_s:.1f}s")
     if has_spoken_dialogue and first_speech_s is not None and first_speech_s > 1.6:

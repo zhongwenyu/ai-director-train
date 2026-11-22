@@ -602,12 +602,13 @@ def main() -> int:
         # Diversified K=2 Proposal in Parallel (`v{r}a`: Vivid Expressive Subtext Acting + Locked Spatial Blocking; `v{r}b`: Crisp Target-Matched Fast Pacing + Lip-Sync Precision)
         cand_a_id, cand_b_id = f"v{r_idx}a", f"v{r_idx}b"
         axis_a = (
-            "方向 A（鲜活潜台词面部表演弧光 + 双层空间座位锁定优先）：彻底打破“动态也克制面瘫”的误区——静态起幅首帧保持五官自然舒展无扭曲，并通过 `master_blocking_prompt` 锁死全场相对座位与 180° 视线轴线（严禁跨镜换座或瞬移）；"
-            "而在动态视频 `detailed_action_and_dialogue` 中，必须根据每句 `subtext_intent` 驱动鲜活、饱满、极具感染力的真人面部表情变化（如俏皮弯眼笑意、挑眉反讽、瞳孔骤缩怔住、尴尬清嗓挤笑、鼻尖微酸忍泪等）与贴合情境的灵动肢体细节，同时要求 0.2s 立即开口、唇齿开合清晰准确贴合每一个音节！"
+            "方向 A（85mm大光圈近正脸浅景深特写 + 鲜活潜台词表情与手部表演弧光优先）：彻底告别“远景大景深45°侧脸双人平铺直叙”和“动态面瘫克制”两大误区！"
+            "通过 `master_blocking_prompt` 锁死全场相对座位与 180° 轴线后，说话主镜头优先采用 `85mm f/1.8` 近正脸（偏离镜头轴线仅 10°~20° 贴视线）浅景深中近景/近景（背景柔化虚化，完整展露双眼高光与正面五官微表情），"
+            "并在 `detailed_action_and_dialogue` 中根据 `subtext_intent` 驱动鲜活饱满的真人面部起伏（如弯眼甜笑、挑眉反讽、瞳孔骤缩张嘴怔住、尴尬清嗓挤笑、眼眶泛红等）与自然手部肢体支点，0.2s 立即开口且唇齿咬字清晰准确！"
         )
         axis_b = (
-            "方向 B（紧贴目标总时长的干脆快切节奏 + 严丝合缝唇音同步与听话人反应镜头优先）：严格控制全段子镜头总时长紧贴 `target_duration_s`（按每秒约5个汉字紧凑估算单镜 2~5 秒，彻底消灭前摇发呆与时长翻倍注水）；"
-            "强化近景/中近景过肩正反打的空间视线咬合，在关键台词交锋处插入 2 秒无台词听话人鲜活神情反应镜头（仅在下一镜为无台词反应镜头时启用适度 L-Cut，严禁两段说话音轨重叠串嘴），心声与画外音精准走 `inner_os` 零口型通道。"
+            "方向 B（长句拆快切 + 冲击句尾听话人震惊/破防反应插切 + L-Cut 声画缝合优先）：严禁把两句以上长台词塞进同一个7~8秒固定长镜头！将戏剧交锋拆解为 2~4 秒干脆利落的短原子子镜，使全段总时长紧贴 `target_duration_s`；"
+            "在极具杀伤力或反差感的台词包袱处，精准切入 1.5~2.5 秒旁观者或对手的【无台词高张力反应特写】（如瞪眼微张嘴怔住、笑容僵死、眼神闪躲），搭配前镜 `lcut_audio_hold_over_next_s: 0.4~0.8` 让尾音自然压在反应画面上，心声精准走 `inner_os` 零口型通道。"
         )
         with cf.ThreadPoolExecutor(max_workers=2) as pex:
             fa = pex.submit(propose_single_axis_candidate, axis_a, champ_files, bottlenecks, champ_telemetry, CAND_ROOT / cand_a_id)
