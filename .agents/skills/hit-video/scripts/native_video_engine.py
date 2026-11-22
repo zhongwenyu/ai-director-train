@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import concurrent.futures as cf
 import json
+import math
 import os
 import re
 import subprocess
@@ -40,7 +41,7 @@ from spark_h3_image import generate_spark_h3_image  # noqa: E402
 _VO_4070_LOCK = threading.Lock()
 _SPARK_STAGE_LOCK = threading.Lock()
 _SPARK_STAGED_CACHE: set[str] = set()
-_SPARK_IMG_SEM = threading.Semaphore(4)  # Dedicated Spark:8338 H3 Image pipeline (zero video contention on Spark!)
+_SPARK_IMG_SEM = threading.Semaphore(2)  # Optimal 2-deep pipeline on dedicated Spark:8338 (60GiB free RAM!)
 
 
 def resolve_h3_image_keyframe_prompt_and_refs(
@@ -242,7 +243,11 @@ def compile_h3_clip_payload(
         return out
 
     mode_tags = "[keyframe completion + reference generation" + (" + audio reference]" if ref_audios else "]")
-    summary_body = replace_role_tokens(str(clip_spec.get("clip_summary") or "Natural live-action dramatic beat starting from <Picture 1>."))
+    raw_sum = replace_role_tokens(str(clip_spec.get("clip_summary") or ""))
+    # Keep H3 summary strictly English if generator accidentally emitted Chinese in clip_summary
+    if not raw_sum or re.search(r"[\u4e00-\u9fff]", raw_sum):
+        raw_sum = f"Natural 35mm live-action {clip_spec.get('camera_framing', 'medium close-up')} beat starting from <Picture 1>."
+    summary_body = raw_sum
     detail_body = replace_role_tokens(str(clip_spec.get("detailed_action_and_dialogue") or ""), with_speaker_tag=True).strip()
     if not detail_body.startswith("[Shot 1]") and "[Shot 1]" not in detail_body:
         detail_body = f"Live-action 35mm cinema photography, natural skin pores, accurate five-fingered hands, without any text or captions.\n[Shot 1] Starting from <Picture 1>, {detail_body}"
@@ -534,16 +539,20 @@ def execute_scene_plan(
         (kf_dir / f"clip_{idx:02d}_kf_prompt.txt").write_text(kf_prompt, encoding="utf-8")
         h3_generate_keyframe(kf_prompt, kf_refs, ar, kf_out, seed=base_seed + idx * 17, gpu_pool=gpu_pool)
 
-        # Step C: Immediately enqueue H3 Video onto dedicated RTX 5090 D (`127.0.0.1:8188`)
-        dur = max(2, min(14, int(round(float(cspec.get("duration_s", 4))))))
+        # Step C: Auto-pad duration if spoken CJK line exceeds raw duration budget (prevents tail truncation!)
+        raw_dur = float(cspec.get("duration_s", 4))
         h3_prompt, r_imgs, r_auds = compile_h3_clip_payload(cspec, beat_spec, kf_out)
+        spoken_cjk = sum(len(re.findall(r"[\u4e00-\u9fff]", m.group(1))) for m in re.finditer(r"<d>(.*?)</d>", h3_prompt, re.S))
+        min_safe_dur = math.ceil(0.35 + spoken_cjk / 4.4 + 0.75) if spoken_cjk > 0 else 2
+        dur = max(2, min(14, max(int(round(raw_dur)), min_safe_dur)))
         (clips_dir / f"clip_{idx:02d}_prompt.txt").write_text(h3_prompt, encoding="utf-8")
 
         def _do_on_gpu(remote_ssh: Optional[str]):
             last_err = None
             for att in range(2):
                 try:
-                    H3R.run_comfy_shot(
+                    H3R.run_comfy_5090(
+                        c_mp4,
                         prompt=h3_prompt,
                         ref_images=r_imgs,
                         ref_audios=r_auds,
@@ -555,8 +564,7 @@ def execute_scene_plan(
                         steps=steps,
                         use_pika_lora=False,
                         lock_frame0=True,
-                        out_mp4=c_mp4,
-                        remote_ssh=remote_ssh,
+                        remote_ssh=remote_ssh or "",
                     )
                     break
                 except Exception as exc:

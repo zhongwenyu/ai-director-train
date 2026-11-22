@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up (MCU) cinema frame anchoring lighting, spatial depth, and initial character posture.
+<Subject 1> (S1) is the woman matching the identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] 反打女生中近景，女生闻言瞬间动容落泪，随即抬手擦去泪水强压心痛，以冷酷决绝的平静语气彻底斩断男生的挽留。
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, lighting, and initial pose.
+<Subject 1>: fully_preserved - retain exact facial bone structure, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s natural Mandarin voice timbre.
+
+detailed_description:
+Live-action 35mm cinema photography, natural skin pores, accurate five-fingered hands, without any text or captions.
+[Shot 1] Starting from <Picture 1>, Static camera with a subtle slow push-in on <Subject 1> (S1) facing three-quarter left against the glass doors. From 0.0s to 1.4s, <Subject 1> (S1)'s eyes glisten and a single tear slips down her cheek as her expression flickers with brief, piercing heartbreak; she swallows hard to force down her vulnerability, quickly raises her hand to briskly wipe the tear from her cheek with her fingertips, and lowers her hand as her gaze hardens into cold, defensive detachment. Maintaining an icy, composed expression, <Subject 1> (S1) speaks (1.5s-3.5s): <d>[Chinese] 可我，没让你选我。</d> From 3.5s to 4.0s, she keeps her lips firmly closed and holds an unwavering, resolute gaze to the left.
+
+overall_soundscape:
+Soft outdoor campus evening ambience, subtle breeze, light fingertip brush against skin and knit sleeve rustle as she wipes her tear, followed by quiet tense stillness.
+
+non_diegetic_music:
+N/A

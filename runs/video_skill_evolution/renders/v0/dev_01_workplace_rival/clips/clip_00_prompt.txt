@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Three-quarter medium two-shot, eye-level, 16:9 widescreen cinema frame anchoring lighting, spatial depth, and initial character posture.
+<Subject 1> (S1) is the woman matching the identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the identity and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] 开放式工位一侧，实习生CHR_1替身旁受委屈的同事CHR_3出头，面带甜美礼貌微笑隔桌向对面的CHR_2抛出连环捧杀反问。
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, lighting, and initial pose.
+<Subject 1>: fully_preserved - retain exact facial bone structure, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain exact facial bone structure, hair silhouette, and outfit from <Picture 3>.
+<Audio 1>: reference - guides <Subject 1>'s natural Mandarin voice timbre.
+
+detailed_description:
+Live-action 35mm cinema photography, natural skin pores, accurate five-fingered hands, without any text or captions.
+[Shot 1] Starting from <Picture 1>, Slow, subtle push-in from eye level across the workstation desk. On the right side next to <Subject 1> (S1), <Subject 2> remains silent with lips closed, sitting tensely with lowered shoulders and glancing briefly toward <Subject 1> (S1) with quiet relief as <Subject 1> (S1) steps up for her. On the left-center, <Subject 1> (S1) leans slightly forward past her black LCD monitor, tilting her head with a bright, sweet, innocently polite smile and raising one hand lightly in a courteous inquiring gesture while keeping her gaze fixed screen-right. <Subject 1> (S1) speaks (0.2s-5.6s): <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？</d> Throughout her delivery, <Subject 1> (S1) maintains crisp, cheerful poise with subtly raised eyebrows and pointed, knowing eyes, holding an expectant sweet smile at the end of the question.
+
+overall_soundscape:
+Quiet open-plan office room tone, faint distant keyboard clicks, subtle fabric rustle as the speaker leans forward on the desk.
+
+non_diegetic_music:
+N/A

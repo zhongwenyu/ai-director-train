@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium two-shot cinema frame anchoring lighting, spatial depth, and initial character posture.
+<Subject 1> is the man matching the identity and outfit in <Picture 2>.
+<Subject 2> (S1) is the man matching the identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (烤肉串与金属托盘).
+<Audio 1> is the voice-timbre reference for <Subject 2> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] 中景双人镜头建立夜晚烧烤摊空间轴线，左侧CHR_2手拿烤串轻松调侃右侧CHR_1。
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, lighting, and initial pose.
+<Subject 1>: fully_preserved - retain exact facial bone structure, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain exact facial bone structure, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 2>'s natural Mandarin voice timbre.
+
+detailed_description:
+Live-action 35mm cinema photography, natural skin pores, accurate five-fingered hands, without any text or captions.
+[Shot 1] Starting from <Picture 1>, Static camera in a balanced medium two-shot across the red square dining table. Seated on the left red plastic chair, <Subject 2> (S1) leans forward slightly with an amused, skeptical grin, casually lifting and gesturing with a grilled bamboo skewer in his right hand as <Subject 2> (S1) speaks (0.2s-2.6s): <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d> Seated across the table on the right red plastic chair, <Subject 1> keeps his lips closed, resting his forearms lightly near the table edge and watching <Subject 2> (S1) with a calm, mildly helpless expression as warm lantern light flickers across both faces.
+
+overall_soundscape:
+Night outdoor street barbecue stall ambiance, gentle sizzling of charcoal grills in the distance, faint urban traffic hum, and a light wooden tap of a bamboo skewer.
+
+non_diegetic_music:
+N/A
