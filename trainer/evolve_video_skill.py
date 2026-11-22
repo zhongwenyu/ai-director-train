@@ -69,7 +69,9 @@ FORBIDDEN_MUTATION_PATTERNS = [
     re.compile(r"(?<!\d)(?:[1-9]\d?)\s*[%％]"),  # Blocks 1%..99% Goodhart quotas while allowing 0% and 100%
     re.compile(
         r"青禾|Coco|小钱|叶寻|林双双|楚南|夏芊芊|夏建国|赵帆|杨浩|李明河|秦朗|"
-        r"星爸爸|雪王冰城|塞纳河畔|窝囊牛马|博物馆值夜班|重回1988|脑瓜崩",
+        r"胡秀春|林先生|苏秘书|沈明山|曼殊|柳儿|沈继明|"
+        r"星爸爸|雪王冰城|塞纳河畔|窝囊牛马|博物馆值夜班|重回1988|脑瓜崩|"
+        r"烤肉串|泥人|襁褓|青花瓷碗|桃子味饮料|工位隔断|液晶显示器|鼠标键盘|土炕",
         re.IGNORECASE,
     ),
 ]
@@ -298,7 +300,8 @@ def render_candidate_on_cases(
             print(f"  [plan-ok] {cand_id} :: {c['case_id']} ({len(plans[c['case_id']]['clips'])} clips)", flush=True)
 
     videos: Dict[str, Path] = {}
-    with cf.ThreadPoolExecutor(max_workers=max(1, len(cases))) as ex:
+    # Pipeline 2 scenes at a time so Scene 1 immediately finishes its keyframes on Spark and feeds 5090 Video without FIFO head-of-line blocking!
+    with cf.ThreadPoolExecutor(max_workers=min(2, max(1, len(cases)))) as ex:
         fut_v = {
             ex.submit(
                 NVE.execute_scene_plan,
@@ -420,6 +423,59 @@ def distill_plot_blind_bottlenecks(
     )
     res = L.call_agy_json(prompt, BOTTLENECK_SCHEMA, effort="medium", timeout=360, out_path=out_path)
     return res["abstract_bottlenecks"]
+
+
+def compute_overfitting_diagnostics(
+    dev_arena: Dict[str, Any],
+    val_arena: Dict[str, Any],
+    val_cases: Sequence[Dict[str, Any]],
+) -> Dict[str, Any]:
+    """Quantitative overfitting detector across DEV vs unseen VAL, genres, and aspect ratios (16:9 vs 9:16)."""
+    dev_delta = float(dev_arena["mean_delta"])
+    val_delta = float(val_arena["mean_delta"])
+    gen_gap = round(dev_delta - val_delta, 2)
+    worst_val_drop = round(min((cr["score_delta"] for cr in val_arena["cases"]), default=0.0), 2)
+
+    ar_map = {c["case_id"]: c.get("aspect_ratio", "16:9") for c in val_cases}
+    genre_map = {c["case_id"]: c.get("genre", "") for c in val_cases}
+    val_by_ar: Dict[str, List[float]] = {}
+    val_by_case: Dict[str, Dict[str, Any]] = {}
+    for cr in val_arena["cases"]:
+        cid = cr["case_id"]
+        ar = ar_map.get(cid, "16:9")
+        val_by_ar.setdefault(ar, []).append(float(cr["score_delta"]))
+        val_by_case[cid] = {
+            "genre": genre_map.get(cid, ""),
+            "aspect_ratio": ar,
+            "delta": cr["score_delta"],
+            "outcome": cr["outcome"],
+        }
+
+    ar_mean_deltas = {k: round(statistics.mean(v), 2) for k, v in val_by_ar.items()}
+    # Overfitting triggers if:
+    # 1. DEV improves strongly (> +3.0) while unseen VAL regresses (< 0.0) or gap > 7.5 with weak VAL;
+    # 2. Any single unseen VAL genre/case collapses (> -4.0 pts);
+    # 3. 9:16 vertical drama collapses (> -3.0 pts) while 16:9 rises (aspect-ratio/modern-genre bias).
+    overfit_reasons: List[str] = []
+    if dev_delta >= 3.0 and val_delta <= 0.0:
+        overfit_reasons.append(f"DEV_UP_{dev_delta:+.2f}_BUT_VAL_DOWN_{val_delta:+.2f}")
+    if gen_gap > 7.5 and val_delta < 1.0:
+        overfit_reasons.append(f"EXCESSIVE_DEV_VAL_GAP_{gen_gap:+.2f}")
+    if worst_val_drop < -4.0:
+        overfit_reasons.append(f"SINGLE_GENRE_COLLAPSE_{worst_val_drop:+.2f}")
+    if ar_mean_deltas.get("9:16", 0.0) < -3.0:
+        overfit_reasons.append(f"VERTICAL_9_16_REGRESSION_{ar_mean_deltas['9:16']:+.2f}")
+
+    return {
+        "is_overfit": len(overfit_reasons) > 0,
+        "overfit_reasons": overfit_reasons,
+        "dev_mean_delta": dev_delta,
+        "val_mean_delta": val_delta,
+        "dev_minus_val_gap": gen_gap,
+        "worst_val_case_drop": worst_val_drop,
+        "val_aspect_ratio_deltas": ar_mean_deltas,
+        "val_per_genre_breakdown": val_by_case,
+    }
 
 
 def validate_mutation_gates(files: Dict[str, str]) -> List[str]:
@@ -601,14 +657,17 @@ def main() -> int:
 
         # Diversified K=2 Proposal in Parallel (`v{r}a`: Vivid Expressive Subtext Acting + Locked Spatial Blocking; `v{r}b`: Crisp Target-Matched Fast Pacing + Lip-Sync Precision)
         cand_a_id, cand_b_id = f"v{r_idx}a", f"v{r_idx}b"
+        # Diversified K=2 Proposal in Parallel — 100% Genre-Agnostic First Principles (ZERO single-drama exemplars!)
+        cand_a_id, cand_b_id = f"v{r_idx}a", f"v{r_idx}b"
         axis_a = (
-            "方向 A（85mm大光圈近正脸浅景深特写 + 鲜活潜台词表情与手部表演弧光优先）：彻底告别“远景大景深45°侧脸双人平铺直叙”和“动态面瘫克制”两大误区！"
-            "通过 `master_blocking_prompt` 锁死全场相对座位与 180° 轴线后，说话主镜头优先采用 `85mm f/1.8` 近正脸（偏离镜头轴线仅 10°~20° 贴视线）浅景深中近景/近景（背景柔化虚化，完整展露双眼高光与正面五官微表情），"
-            "并在 `detailed_action_and_dialogue` 中根据 `subtext_intent` 驱动鲜活饱满的真人面部起伏（如弯眼甜笑、挑眉反讽、瞳孔骤缩张嘴怔住、尴尬清嗓挤笑、眼眶泛红等）与自然手部肢体支点，0.2s 立即开口且唇齿咬字清晰准确！"
+            "方向 A（贴视线近正脸浅景深构图 + 潜台词驱动的饱满人类微表情弧光优先，跨现代/年代/古装/悬疑通用）："
+            "通过 `master_blocking_prompt` 锁死全场相对落座/站位拓扑与 180° 视线轴线；说话与核心反应镜头避免平庸的远景侧脸平铺，优先采用贴近视线轴线（10°~20°）的大光圈浅景深中近景/特写以完整呈现双眼眼神光与五官细节；"
+            "静态首帧保持五官自然舒展，而动态 `detailed_action_and_dialogue` 必须严格依据每句输入 `subtext_intent` 的真实情绪极性（无论喜感、悲恸、冷峻压迫、慌乱或隐忍）写出鲜活可感的眉眼肌群变化与符合时代/情境的自然手部支点，0.2s 立即开口且唇齿咬字清晰同步！"
         )
         axis_b = (
-            "方向 B（长句拆快切 + 冲击句尾听话人震惊/破防反应插切 + L-Cut 声画缝合优先）：严禁把两句以上长台词塞进同一个7~8秒固定长镜头！将戏剧交锋拆解为 2~4 秒干脆利落的短原子子镜，使全段总时长紧贴 `target_duration_s`；"
-            "在极具杀伤力或反差感的台词包袱处，精准切入 1.5~2.5 秒旁观者或对手的【无台词高张力反应特写】（如瞪眼微张嘴怔住、笑容僵死、眼神闪躲），搭配前镜 `lcut_audio_hold_over_next_s: 0.4~0.8` 让尾音自然压在反应画面上，心声精准走 `inner_os` 零口型通道。"
+            "方向 B（长台词短原子拆切 + 关键情绪落点听话人无台词反应插切 + L-Cut 声画缝合优先，全题材通用）："
+            "严禁把多句台词堆进单一冗长固定镜头，将交锋按语义气口拆解为 2~4 秒紧凑单动作子镜，确保全段总时长紧贴 `target_duration_s`；"
+            "在戏剧转折或高张力句尾切入 1.5~2.5 秒对手或旁观者的无台词眼神/神态反应镜头（仅当下一镜为无台词反应镜时设 `lcut_audio_hold_over_next_s: 0.4~0.8` 使尾音自然覆盖反应画面），心声与画外音走 `inner_os` 零口型通道。"
         )
         with cf.ThreadPoolExecutor(max_workers=2) as pex:
             fa = pex.submit(propose_single_axis_candidate, axis_a, champ_files, bottlenecks, champ_telemetry, CAND_ROOT / cand_a_id)
@@ -649,15 +708,16 @@ def main() -> int:
             json.dumps(cand_signals, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
         )
 
-        # Strict Unseen VAL Regression Gate + Zero Catastrophic Single-Case Drop (> -8.0 pts)
-        worst_val_drop = min((cr["score_delta"] for cr in val_arena["cases"]), default=0.0)
+        # Strict Anti-Overfitting & Unseen VAL Regression Gate
+        overfit_diag = compute_overfitting_diagnostics(dev_arena, val_arena, val_cases)
+        worst_val_drop = overfit_diag["worst_val_case_drop"]
         val_passed = (
-            (
+            not overfit_diag["is_overfit"]
+            and (
                 (val_arena["wins"] > val_arena["losses"] and val_arena["mean_delta"] > 0.0)
                 or (val_arena["wins"] == val_arena["losses"] and val_arena["mean_delta"] >= 1.5)
             )
             and dev_arena["mean_delta"] >= 0.0
-            and worst_val_drop > -8.0
         )
 
         round_rec = {
@@ -671,6 +731,7 @@ def main() -> int:
             "cand_telemetry": cand_telemetry,
             "dev_vs_prev_champ": {k: dev_arena[k] for k in ("wins", "losses", "ties", "cand_mean_score", "ref_mean_score", "mean_delta")},
             "val_vs_prev_champ": {k: val_arena[k] for k in ("wins", "losses", "ties", "cand_mean_score", "ref_mean_score", "mean_delta")},
+            "overfitting_diagnostics": overfit_diag,
             "dev_target_parity_pct": cand_signals["target_parity_overall_pct"],
             "dev_target_parity_by_dim_pct": cand_signals["target_parity_by_dim_pct"],
             "mean_cand_asl_s": cand_signals["mean_cand_asl_s"],
