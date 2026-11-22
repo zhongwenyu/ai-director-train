@@ -1,0 +1,75 @@
+{
+  "case_id": "dev_02_mindread_os",
+  "split": "dev",
+  "genre": "都市心声反差",
+  "topology": "画外内心独白OS+画内零口型微表情凝视",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 12.2,
+  "setting_summary": "夜晚户外街边烧烤大排档，潮湿反光的柏油地面摆放着红色方形餐桌与红色塑料椅，桌上有不锈钢筷筒与纸巾盒；背景为悬挂暖橙色圆形纸灯笼的冒烟烧烤摊位、行道树与城市夜景霓虹，整体呈暖橙灯笼光与冷蓝夜色交织的高反差电影感光影。",
+  "dramatic_goal": "夜晚烧烤摊聚餐时，CHR_2起初调侃并质疑CHR_1拥有读心能力，还在心底暗自打赌嘲弄；CHR_1直接开口反驳CHR_2从未说出口的心声原话，瞬间打破CHR_2的笃定，令关系从轻松戏谑逆转为震惊确信与孤独坦白。",
+  "initial_blocking": "户外烧烤摊方形餐桌两侧相对而坐，桌面左侧塑料椅上坐着CHR_2，桌面右侧塑料椅上坐着CHR_1，两人中间的餐桌上摆放着烤串铁盘、塑料冷饮杯与竹签筒。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "白T少年",
+      "gender": "male",
+      "neutral_visual_bio": "约19岁东亚男性，皮肤白皙五官清秀，黑色蓬松碎盖短发带自然刘海，身穿胸前印有黑色书法字样的白色圆领短袖T恤与深色长裤"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "黑T好友",
+      "gender": "male",
+      "neutral_visual_bio": "约19岁东亚男性，健康肤色五官立体，黑色露额利落短发，身穿左胸印有红黄心形图案的黑色圆领短袖T恤与深色长裤"
+    }
+  ],
+  "props": [
+    {
+      "description": "深色金属长方形托盘与多根细长竹签穿制的焦黄烤肉串",
+      "name": "烤肉串与金属托盘",
+      "prop_id": "PRP_1"
+    }
+  ],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "不以为然地调侃打趣，觉得对方在吹牛开玩笑，语气轻松戏谑",
+      "text": "骗骗哥们可以，别把自己也骗了。"
+    },
+    {
+      "mode": "inner_os",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "内心笃定对方不可能真有读心超能力，暗自用夸张赌咒来嘲弄对方",
+      "text": "这小子要是真能读心，我当场认贼作父好吗？"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "直接精准拆穿并反驳对方刚才的心声原话，语气无奈又带着被冒犯的吐槽感",
+      "text": "能不能好好说话，什么叫认贼作父啊？"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "听见心声被一字不差戳破后极度震惊错愕，话说到一半卡住",
+      "text": "你居然真的……"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "平静且略带孤寂无奈地确认自己确实具备读心能力的事实",
+      "text": "都说了。"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/assets/CHR_2_front_1k.png",
+    "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/assets/PRP_1_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/voices/CHR_2.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/gold_sealed/gold_reference.mp4"
+}

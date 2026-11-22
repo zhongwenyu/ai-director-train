@@ -1,0 +1,70 @@
+{
+  "case_id": "val_04_ancient_prince",
+  "split": "val",
+  "genre": "古装权谋逆袭",
+  "topology": "竖屏9:16古装人物身份压迫与对白交锋",
+  "aspect_ratio": "9:16",
+  "target_duration_s": 9.5,
+  "setting_summary": "晴朗日光下的古代城门集市街道，远处矗立青砖重檐城楼，城门上方悬挂黑底金字牌匾，街道两侧分布木质市集摊位与招幌；转场后为日出金辉照耀下的高山云海与苍劲松石景观，暖金色阳光穿透云层。",
+  "dramatic_goal": "少女在城门集市摊位前欣喜挑选泥人，听到少爷呼唤后小跑追上并献宝般展示泥人，少爷宠溺刮了刮她的鼻尖后两人并肩远去，随后伴随内心独白转入十年后的高山云海意境，完成从昔日温馨日常到宿命转折的过渡。",
+  "initial_blocking": "城门集市木桌摊位前，CHR_3站在木桌左侧，CHR_2站在木桌右侧俯身看向桌面上的泥人；CHR_1位于两人前方的街道中央。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "白衣少爷",
+      "gender": "male",
+      "neutral_visual_bio": "约22岁东亚男性，五官清隽立体，乌黑长发高束成整洁高马尾，额前两侧留有少量自然碎发，穿象牙白交领修身暗纹长袍配同色刺绣宽腰封，腰封中央缀圆形白玉金属扣，下着白色长裤与黑色布靴。"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "柳儿",
+      "gender": "female",
+      "neutral_visual_bio": "约18岁东亚女性，五官清秀甜美，乌黑长发盘成双丫发髻并系浅粉色长丝带与细小珍珠发饰，额前留轻薄碎刘海，穿浅粉色半透明薄纱广袖外衫与浅粉色抹胸长裙。"
+    },
+    {
+      "role_id": "CHR_3",
+      "display_name": "捏泥人老者",
+      "gender": "male",
+      "neutral_visual_bio": "约65岁东亚男性，鬓角与胡须花白，头顶挽圆发髻并插深色木簪，穿灰褐色粗布交领短褐，袖口卷起。"
+    }
+  ],
+  "props": [
+    {
+      "description": "古朴粗糙的黄褐色单色陶土小泥人玩偶，高约十厘米，表面保留手工捏制的素朴纹理。",
+      "name": "陶土泥人",
+      "prop_id": "PRP_1"
+    }
+  ],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "温和催促还在摊位前逗留的侍女跟上步伐，语气宠溺平缓",
+      "text": "柳儿 快点"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "献宝般展示刚拿到的泥人，语调欢快雀跃、充满亲近感",
+      "text": "少爷 你看"
+    },
+    {
+      "mode": "inner_os",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "回忆往昔并开启十年修行巨变的沧桑自述，语调沉稳厚重",
+      "text": "十年后 机缘巧合之下"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/CHR_2_front_1k.png",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/CHR_3_front_1k.png",
+    "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/PRP_1_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/voices/CHR_2.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/gold_sealed/gold_reference.mp4"
+}

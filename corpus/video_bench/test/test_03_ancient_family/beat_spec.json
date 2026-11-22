@@ -1,0 +1,65 @@
+{
+  "case_id": "test_03_ancient_family",
+  "split": "test",
+  "genre": "古代寒门亲情",
+  "topology": "古装室内多人急切冲突与手部动作",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 8.9,
+  "setting_summary": "简陋破旧的古代北方农家黄泥土坯房室内，屋顶为裸露圆木椽子与透光破损茅草，侧面有糊纸木格窗与陈旧木门，屋内靠墙砌有土炕，铺着灰褐色粗布褥子与深色布枕，炕边置有旧木矮桌与煤油灯，冷冽天光从屋顶缝隙与窗格斜射入室，整体呈荒凉清冷的低饱和暖灰褐色调。",
+  "dramatic_goal": "年迈婆婆因重男轻女决意将刚出生的女婴丢弃处理，虚弱的年轻产妇闻言惊恐万分，在土炕上哭泣恳求婆婆不要在寒冬里扔掉孩子，将冷血威压与护女哀求的家庭伦理冲突推向高潮。",
+  "initial_blocking": "房间中央站着CHR_1与怀抱襁褓的CHR_3，两人并排面向土炕方向；土炕上盖着粗布被褥的CHR_2与她们隔空相对。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "年迈婆婆",
+      "gender": "female",
+      "neutral_visual_bio": "约68岁东亚老年女性，面容清癯布满皱纹，花白头发向后梳拢挽髻并插一根深色木簪，穿深褐色带深色补丁与黑色立领盘扣的粗布棉袄，腰系细麻绳，下穿深色粗布裤"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "年轻产妇",
+      "gender": "female",
+      "neutral_visual_bio": "约22岁东亚年轻女性，自然清秀面容真实皮肤肌理，黑色长发松散垂落并留有额前碎发，穿浅灰蓝色交领宽袖粗布衣衫，领口与袖口带有浅色磨损纹理边缘"
+    },
+    {
+      "role_id": "CHR_3",
+      "display_name": "年长妇人",
+      "gender": "female",
+      "neutral_visual_bio": "约60岁东亚老年女性，面容圆润布满细纹，头戴深蓝色粗布包头巾，穿深蓝色交领粗布长袖上衣，腰间系黑色粗布围裙"
+    }
+  ],
+  "props": [
+    {
+      "description": "灰白色粗棉布包裹的新生儿襁褓，呈长条圆筒状严密裹紧",
+      "name": "婴儿襁褓",
+      "prop_id": "PRP_1"
+    }
+  ],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "冷酷绝情、嫌弃重男轻女，语气蛮横不容置疑地要把刚出生的女婴丢弃处理掉",
+      "text": "这丫头片子留着没用，你别管，一会我处理了就是。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "极度惊恐绝望，带着哭腔与颤音拼命哀求婆婆手下留情保住女儿性命",
+      "text": "娘，求您别扔她，天这么冷，扔出去她就没命了。"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/CHR_2_front_1k.png",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/CHR_3_front_1k.png",
+    "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/PRP_1_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/voices/CHR_2.wav",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/voices/CHR_3.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/gold_sealed/gold_reference.mp4"
+}

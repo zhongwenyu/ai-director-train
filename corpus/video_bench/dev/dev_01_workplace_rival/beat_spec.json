@@ -1,0 +1,64 @@
+{
+  "case_id": "dev_01_workplace_rival",
+  "split": "dev",
+  "genre": "现代职场轻喜",
+  "topology": "三人多焦点反讽博弈与桌面微动作+反应切镜",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 12.0,
+  "setting_summary": "现代开放式办公室工位区，浅木色办公桌面配备黑色液晶电脑显示器、键盘及透明玻璃磨砂隔断，背景可见多排整齐工位、黑色网布办公椅与绿植，室内冷白顶光与柔和自然光交织。",
+  "dramatic_goal": "面对老员工CHR_2的职场刁难，实习生CHR_1替身旁受气的同事CHR_3出头，以甜美礼貌的捧杀话术连续反将一军，迫使CHR_2从得意强势转为尴尬找补，最终被彻底怼得哑口无言。",
+  "initial_blocking": "现代开放式办公桌隔断两侧，CHR_1与CHR_3并排坐在工位一侧，CHR_2坐在正对面的工位上，双方隔着桌面电脑显示器与办公隔断相对交谈。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "短发女实习生",
+      "gender": "female",
+      "neutral_visual_bio": "约22岁东亚女性，自然清透淡妆，酒红棕色齐下巴短直发配薄刘海，身穿白色尖领衬衫外搭黑色长袖修身针织开衫与深色下装"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "卷发女职员",
+      "gender": "female",
+      "neutral_visual_bio": "约26岁东亚女性，精致都市妆容，栗棕色中分微卷长发，身穿米白色粗花呢金色圆扣短款外套内搭同色系圆领内搭与浅色下装，佩戴金色方形耳钉与金色圆牌细项链"
+    },
+    {
+      "role_id": "CHR_3",
+      "display_name": "条纹衫女同事",
+      "gender": "female",
+      "neutral_visual_bio": "约25岁东亚女性，清淡裸妆，黑色低马尾配八字刘海，身穿蓝白细竖条纹长袖翻领衬衫与深色下装"
+    }
+  ],
+  "props": [],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "表面礼貌请教，实则以退为进、用高帽子反讽对方越权摆架子，语气清脆甜美却句句带刺",
+      "text": "不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "被当众捧杀将了一军，下不来台，只能干咳掩饰尴尬、强装镇定打圆场找补",
+      "text": "我开玩笑的。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "顺着对方的话茬继续笑里藏刀地点破其欺生本质，语气轻松俏皮却毫不留情面",
+      "text": "知道的是开玩笑，不知道的，还以为您打压新人呢。"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/assets/CHR_2_front_1k.png",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/assets/CHR_3_front_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/voices/CHR_2.wav",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/voices/CHR_3.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/gold_sealed/gold_reference.mp4"
+}

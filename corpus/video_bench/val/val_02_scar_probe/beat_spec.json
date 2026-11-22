@@ -1,0 +1,83 @@
+{
+  "case_id": "val_02_scar_probe",
+  "split": "val",
+  "genre": "都市悬疑试探",
+  "topology": "手部细节动作遮掩与谎言心理博弈",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 9.1,
+  "setting_summary": "现代校园教学楼室内走廊，右侧为大面积通透玻璃窗，窗外可见绿茵操场与树木，尽头连通敞开的楼梯间木门，午后暖金色夕阳斜射入走廊地面与白墙，光影通透温暖。",
+  "dramatic_goal": "妹妹刚转学到哥哥班级的次日，在走廊当众亲昵给哥哥递桃子味饮料；哥哥既怕引起学校同学误会而试图立规矩划清界限，又在被男同学提醒暗恋者吃醋并拉走干活时，依然放心不下地叮嘱妹妹原地等候。",
+  "initial_blocking": "学校走廊中央，CHR_1与CHR_2面对面站立，CHR_2怀抱多瓶饮料向CHR_1递出一瓶；CHR_3从CHR_1左侧靠近并搭住CHR_1左肩。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "哥哥",
+      "gender": "male",
+      "neutral_visual_bio": "约18岁东亚男性，自然真实皮肤肌理，黑色蓬松微卷短碎发，外穿米杏色翻领长袖休闲衬衫，内搭纯白色圆领短袖T恤，下穿浅蓝色牛仔长裤"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "妹妹",
+      "gender": "female",
+      "neutral_visual_bio": "约17岁东亚女性，清透自然淡妆真实皮肤肌理，深棕色中分顺直长披发，穿浅灰色宽松印花圆领短袖T恤配深灰色百褶短裙，脚穿白色短袜与白色休闲鞋，右手腕戴黑色发圈"
+    },
+    {
+      "role_id": "CHR_3",
+      "display_name": "男同学",
+      "gender": "male",
+      "neutral_visual_bio": "约18岁东亚微胖男性，自然真实皮肤肌理，黑色顺直短发，戴黑色粗框矩形眼镜，外穿明黄色长袖开衫卫衣，内搭浅灰色圆领T恤"
+    }
+  ],
+  "props": [
+    {
+      "description": "透明塑料瓶装蜜桃味果汁饮料，瓶身贴有橘粉色桃子图案标签，内装橙黄色液体，配橙色塑料瓶盖",
+      "name": "桃子味饮料",
+      "prop_id": "PRP_1"
+    }
+  ],
+  "dialogue_turns": [
+    {
+      "mode": "inner_os",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "带着无奈与隐隐担忧的回忆叙述语气，交代平静局面即将被打破",
+      "text": "直到她转来我班第二天"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "乖巧甜美、亲昵撒娇且毫不避嫌地当众向哥哥献殷勤",
+      "text": "哥哥，桃子味的，给你。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "压低声音略显局促与尴尬，试图在学校公共场合与妹妹保持距离界限",
+      "text": "在学校叫我名字。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_3",
+      "subtext_intent": "看热闹不嫌事大的调侃与八卦提醒，随后急匆匆催促拉人离开现场",
+      "text": "苏小满追你大半年，你妹一来她脸都绿了，走走走老班叫咱俩去搬……"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "被同学拉走之际仍不放心妹妹，急促回头叮嘱她留在原地等候",
+      "text": "在这等我别乱跑。"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/CHR_2_front_1k.png",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/CHR_3_front_1k.png",
+    "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/PRP_1_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/voices/CHR_2.wav",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/voices/CHR_3.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/gold_sealed/gold_reference.mp4"
+}

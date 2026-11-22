@@ -1,0 +1,71 @@
+{
+  "case_id": "test_02_trio_table",
+  "split": "test",
+  "genre": "现代电影感群像",
+  "topology": "暖光桌面三人道具互动与眼神暗流",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 11.0,
+  "setting_summary": "暖调木质风格的室内餐厅空间，前景为宽大的原木餐桌，背景设有带深色窗框的明亮大玻璃窗，窗外绿植繁茂，窗边与木柜旁摆放室内盆栽与暖光台灯，午后暖金色阳光透过窗户斜射入室，光影柔和通透。",
+  "dramatic_goal": "CHR_1尝到极酸的李子后故意装作香甜美味忽悠CHR_2品尝；CHR_2上当被酸到后迅速反应过来，与CHR_1达成默契联手演戏，热情怂恿毫不知情的CHR_3品尝，最终成功让CHR_3咬下李子被酸得表情失控。",
+  "initial_blocking": "木质餐桌同侧从左至右依次并排坐着CHR_1、CHR_2与CHR_3，CHR_1与CHR_2面朝桌面左前方碗碟区域，CHR_3坐在最右侧低头看手机。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "黑衣男生",
+      "gender": "male",
+      "neutral_visual_bio": "约22岁东亚男性，自然干净面部肌理，黑色蓬松碎发带微卷刘海，穿浅灰竖条纹翻领衬衫外搭黑色翻领拉链夹克，下穿浅蓝色宽松牛仔长裤配白色平底板鞋"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "半扎发女生",
+      "gender": "female",
+      "neutral_visual_bio": "约22岁东亚女性，清透淡妆真实皮肤肌理，栗棕色微卷长发呈半扎公主头造型并留有轻薄碎发刘海，穿白色圆领修身打底衫外搭藏青色圆领排扣针织开衫，下穿卡其色高腰阔腿长裤配深棕色皮带与深棕色皮鞋"
+    },
+    {
+      "role_id": "CHR_3",
+      "display_name": "灰衣男生",
+      "gender": "male",
+      "neutral_visual_bio": "约22岁东亚男性，清爽肤质立体五官，深棕色纹理感中分蓬松短发，穿白色圆领T恤叠穿黑白棕格纹衬衫，外搭浅灰色连帽拉链卫衣"
+    }
+  ],
+  "props": [
+    {
+      "description": "圆形白底蓝纹青花瓷碗，碗内盛放着满满一碗紫红色表皮、黄色果肉的鲜李子",
+      "name": "青花瓷碗装李子",
+      "prop_id": "PRP_1"
+    }
+  ],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "被酸得五官微皱却立刻转换成夸张的热情赞叹语气，故意忽悠身旁的CHR_2一起尝鲜吃瘪",
+      "text": "好甜好好吃，你快尝尝，真特别好吃。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "咬下一口被酸到瞬间顿住，随即心领神会地配合CHR_1演戏，用充满惊喜的高昂语调怂恿CHR_3品尝",
+      "text": "我去，真的好好吃，你也快尝尝。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_3",
+      "subtext_intent": "毫无防备地大口咬下李子后被酸得眉头紧锁、难以置信地发出哀嚎抱怨",
+      "text": "好酸！"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_2_front_1k.png",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_3_front_1k.png",
+    "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/PRP_1_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/voices/CHR_2.wav",
+    "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/voices/CHR_3.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/gold_sealed/gold_reference.mp4"
+}

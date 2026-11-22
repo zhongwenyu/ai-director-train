@@ -1,0 +1,50 @@
+{
+  "case_id": "dev_03_romance_tear",
+  "split": "dev",
+  "genre": "现代情感虐恋",
+  "topology": "双人高张力克制含泪对峙正反打",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 9.0,
+  "setting_summary": "大学校园教学楼门外半开放式灰白混凝土廊柱过渡区，右侧为金属边框透明玻璃双开门，远处背景为校园绿植树木与步道，傍晚落日低角度暖金色逆光与侧逆光照明，冷灰建筑阴影与暖金夕阳形成冷暖对比。",
+  "dramatic_goal": "男生隐忍含泪质问女生，坦白自己也曾遇到更好的人却依然坚定选择了她，试图以此唤起女生的愧疚并挽回感情；女生闻言瞬间动容落泪，但随即强行压下心痛拭去泪水，以一句冷酷决绝的回应彻底斩断男生的念想。",
+  "initial_blocking": "教学楼门外廊下，CHR_2与CHR_1面对面近距离站立对峙，CHR_2位于左侧面向右侧，CHR_1位于右侧面向左侧背靠玻璃门方向。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "年轻女生",
+      "gender": "female",
+      "neutral_visual_bio": "约20岁东亚女性，清透淡妆真实皮肤肌理，深棕长直微卷发披肩，穿米白色粗针织长袖开衫内搭深棕方领紧身背心，下身配深棕色高腰修身半身裙，单肩背深棕色皮质腋下包"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "年轻男生",
+      "gender": "male",
+      "neutral_visual_bio": "约21岁东亚男性，干净清爽真实皮肤肌理，黑色蓬松短碎发，穿浅天蓝色立领长袖衬衫配米白色休闲长裤"
+    }
+  ],
+  "props": [],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "眼眶泛红、声音低沉微颤，带着深深的委屈、隐忍与不甘，试图用自己的坚守与付出来质问并挽回对方",
+      "text": "有没有可能，我也遇上了更好的，可我还是选择了你。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "含泪经历短暂动摇后强行咽下脆弱，擦去眼泪，用冷酷决绝、带着防御性刺痛的平静语气斩断对方的挽留",
+      "text": "可我，没让你选我。"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/assets/CHR_2_front_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/voices/CHR_2.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/gold_sealed/gold_reference.mp4"
+}

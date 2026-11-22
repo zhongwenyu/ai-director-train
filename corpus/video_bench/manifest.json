@@ -1,0 +1,810 @@
+[
+  {
+    "case_id": "dev_01_workplace_rival",
+    "split": "dev",
+    "genre": "现代职场轻喜",
+    "topology": "三人多焦点反讽博弈与桌面微动作+反应切镜",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 12.0,
+    "setting_summary": "现代开放式办公室工位区，浅木色办公桌面配备黑色液晶电脑显示器、键盘及透明玻璃磨砂隔断，背景可见多排整齐工位、黑色网布办公椅与绿植，室内冷白顶光与柔和自然光交织。",
+    "dramatic_goal": "面对老员工CHR_2的职场刁难，实习生CHR_1替身旁受气的同事CHR_3出头，以甜美礼貌的捧杀话术连续反将一军，迫使CHR_2从得意强势转为尴尬找补，最终被彻底怼得哑口无言。",
+    "initial_blocking": "现代开放式办公桌隔断两侧，CHR_1与CHR_3并排坐在工位一侧，CHR_2坐在正对面的工位上，双方隔着桌面电脑显示器与办公隔断相对交谈。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "短发女实习生",
+        "gender": "female",
+        "neutral_visual_bio": "约22岁东亚女性，自然清透淡妆，酒红棕色齐下巴短直发配薄刘海，身穿白色尖领衬衫外搭黑色长袖修身针织开衫与深色下装"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "卷发女职员",
+        "gender": "female",
+        "neutral_visual_bio": "约26岁东亚女性，精致都市妆容，栗棕色中分微卷长发，身穿米白色粗花呢金色圆扣短款外套内搭同色系圆领内搭与浅色下装，佩戴金色方形耳钉与金色圆牌细项链"
+      },
+      {
+        "role_id": "CHR_3",
+        "display_name": "条纹衫女同事",
+        "gender": "female",
+        "neutral_visual_bio": "约25岁东亚女性，清淡裸妆，黑色低马尾配八字刘海，身穿蓝白细竖条纹长袖翻领衬衫与深色下装"
+      }
+    ],
+    "props": [],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "表面礼貌请教，实则以退为进、用高帽子反讽对方越权摆架子，语气清脆甜美却句句带刺",
+        "text": "不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "被当众捧杀将了一军，下不来台，只能干咳掩饰尴尬、强装镇定打圆场找补",
+        "text": "我开玩笑的。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "顺着对方的话茬继续笑里藏刀地点破其欺生本质，语气轻松俏皮却毫不留情面",
+        "text": "知道的是开玩笑，不知道的，还以为您打压新人呢。"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/assets/CHR_2_front_1k.png",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/assets/CHR_3_front_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/voices/CHR_2.wav",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/voices/CHR_3.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_01_workplace_rival/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "dev_02_mindread_os",
+    "split": "dev",
+    "genre": "都市心声反差",
+    "topology": "画外内心独白OS+画内零口型微表情凝视",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 12.2,
+    "setting_summary": "夜晚户外街边烧烤大排档，潮湿反光的柏油地面摆放着红色方形餐桌与红色塑料椅，桌上有不锈钢筷筒与纸巾盒；背景为悬挂暖橙色圆形纸灯笼的冒烟烧烤摊位、行道树与城市夜景霓虹，整体呈暖橙灯笼光与冷蓝夜色交织的高反差电影感光影。",
+    "dramatic_goal": "夜晚烧烤摊聚餐时，CHR_2起初调侃并质疑CHR_1拥有读心能力，还在心底暗自打赌嘲弄；CHR_1直接开口反驳CHR_2从未说出口的心声原话，瞬间打破CHR_2的笃定，令关系从轻松戏谑逆转为震惊确信与孤独坦白。",
+    "initial_blocking": "户外烧烤摊方形餐桌两侧相对而坐，桌面左侧塑料椅上坐着CHR_2，桌面右侧塑料椅上坐着CHR_1，两人中间的餐桌上摆放着烤串铁盘、塑料冷饮杯与竹签筒。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "白T少年",
+        "gender": "male",
+        "neutral_visual_bio": "约19岁东亚男性，皮肤白皙五官清秀，黑色蓬松碎盖短发带自然刘海，身穿胸前印有黑色书法字样的白色圆领短袖T恤与深色长裤"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "黑T好友",
+        "gender": "male",
+        "neutral_visual_bio": "约19岁东亚男性，健康肤色五官立体，黑色露额利落短发，身穿左胸印有红黄心形图案的黑色圆领短袖T恤与深色长裤"
+      }
+    ],
+    "props": [
+      {
+        "description": "深色金属长方形托盘与多根细长竹签穿制的焦黄烤肉串",
+        "name": "烤肉串与金属托盘",
+        "prop_id": "PRP_1"
+      }
+    ],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "不以为然地调侃打趣，觉得对方在吹牛开玩笑，语气轻松戏谑",
+        "text": "骗骗哥们可以，别把自己也骗了。"
+      },
+      {
+        "mode": "inner_os",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "内心笃定对方不可能真有读心超能力，暗自用夸张赌咒来嘲弄对方",
+        "text": "这小子要是真能读心，我当场认贼作父好吗？"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "直接精准拆穿并反驳对方刚才的心声原话，语气无奈又带着被冒犯的吐槽感",
+        "text": "能不能好好说话，什么叫认贼作父啊？"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "听见心声被一字不差戳破后极度震惊错愕，话说到一半卡住",
+        "text": "你居然真的……"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "平静且略带孤寂无奈地确认自己确实具备读心能力的事实",
+        "text": "都说了。"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/assets/CHR_2_front_1k.png",
+      "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/assets/PRP_1_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/voices/CHR_2.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "dev_03_romance_tear",
+    "split": "dev",
+    "genre": "现代情感虐恋",
+    "topology": "双人高张力克制含泪对峙正反打",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 9.0,
+    "setting_summary": "大学校园教学楼门外半开放式灰白混凝土廊柱过渡区，右侧为金属边框透明玻璃双开门，远处背景为校园绿植树木与步道，傍晚落日低角度暖金色逆光与侧逆光照明，冷灰建筑阴影与暖金夕阳形成冷暖对比。",
+    "dramatic_goal": "男生隐忍含泪质问女生，坦白自己也曾遇到更好的人却依然坚定选择了她，试图以此唤起女生的愧疚并挽回感情；女生闻言瞬间动容落泪，但随即强行压下心痛拭去泪水，以一句冷酷决绝的回应彻底斩断男生的念想。",
+    "initial_blocking": "教学楼门外廊下，CHR_2与CHR_1面对面近距离站立对峙，CHR_2位于左侧面向右侧，CHR_1位于右侧面向左侧背靠玻璃门方向。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "年轻女生",
+        "gender": "female",
+        "neutral_visual_bio": "约20岁东亚女性，清透淡妆真实皮肤肌理，深棕长直微卷发披肩，穿米白色粗针织长袖开衫内搭深棕方领紧身背心，下身配深棕色高腰修身半身裙，单肩背深棕色皮质腋下包"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "年轻男生",
+        "gender": "male",
+        "neutral_visual_bio": "约21岁东亚男性，干净清爽真实皮肤肌理，黑色蓬松短碎发，穿浅天蓝色立领长袖衬衫配米白色休闲长裤"
+      }
+    ],
+    "props": [],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "眼眶泛红、声音低沉微颤，带着深深的委屈、隐忍与不甘，试图用自己的坚守与付出来质问并挽回对方",
+        "text": "有没有可能，我也遇上了更好的，可我还是选择了你。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "含泪经历短暂动摇后强行咽下脆弱，擦去眼泪，用冷酷决绝、带着防御性刺痛的平静语气斩断对方的挽留",
+        "text": "可我，没让你选我。"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/assets/CHR_2_front_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/voices/CHR_2.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "dev_04_period_1988",
+    "split": "dev",
+    "genre": "年代烟火逆袭",
+    "topology": "竖屏9:16八十年代乡土市井人物交锋",
+    "aspect_ratio": "9:16",
+    "target_duration_s": 9.1,
+    "setting_summary": "怀旧乡村土坯房室内空间，左侧为带木格窗棂的采光窗户与铺着花布被褥的土炕，窗下置有旧木桌与陶罐，右侧立着深色旧木柜，泥土墙面斑驳，白昼自然光从左侧窗户斜射入室，整体呈暖黄做旧低饱和色温。",
+    "dramatic_goal": "青年男子从对前世害死胡秀春母女的深切自责心声中回过神来，面对现实中醒来伸手急切讨要十块钱给母亲抓药的胡秀春，完成从悔恨追忆到现实直面偿还宿债的情绪与行动转折。",
+    "initial_blocking": "乡村土坯房卧室内，CHR_1坐在土炕边沿，CHR_2起初在土炕花布被褥上侧卧，随后起身站在土炕与木柜旁的空地上与CHR_1面对面站立对峙。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "青年男子",
+        "gender": "male",
+        "neutral_visual_bio": "约24岁东亚青年男性，古铜色朴素皮肤肌理，黑色蓬松短发，穿灰褐色做旧翻领工装外套内搭米白色圆领T恤与深灰色长裤"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "胡秀春",
+        "gender": "female",
+        "neutral_visual_bio": "约22岁东亚青年女性，自然素颜皮肤肌理，黑色中长发扎低马尾且两侧留碎发，穿浅灰褐色小翻领长袖粗布衬衫配深黑色长裤"
+      }
+    ],
+    "props": [],
+    "dialogue_turns": [
+      {
+        "mode": "inner_os",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "内心深感悔恨、沉痛与自责，语气低沉真挚",
+        "text": "因为这件事我也内疚了好久，是我对不起她俩。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "从回忆转入现实对峙，直接干脆地伸手讨要欠款，语气急切坚定",
+        "text": "钱！"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "从沉思中回过神来，恍然意识到眼前的处境与承诺，语气带着恍然与应承",
+        "text": "对哦，还要给你钱。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "因母亲病重急需抓药而焦灼催促，语气急迫、理直气壮且带着哭腔般的焦急",
+        "text": "你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/CHR_2_front_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/voices/CHR_2.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "dev_05_museum_suspense",
+    "split": "dev",
+    "genre": "民国暗调悬疑",
+    "topology": "夜景暖暗高反差光影压迫感对话与眼神试探",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 9.8,
+    "setting_summary": "中式复古木质古董大厅室内，深棕色雕花木格栅隔断与多宝格博古架陈列各类古瓷瓶，中央设长条木质柜台与暖橘色台灯，环境幽暗深邃，呈低照度暖橙与暗棕对比色调。",
+    "dramatic_goal": "CHR_1见入职合同被烧毁而惊愕质问，CHR_2则以诡秘从容的姿态宣告焚毁即契约生效并正式欢迎其入职，在幽暗古董厅内确立充满悬疑威慑的上下级控制关系。",
+    "initial_blocking": "中式木质长案柜台两侧相对站立，CHR_1背着双肩包站在长案外侧，CHR_2身披皮草站在长案内侧，两人之间隔着桌面燃起火苗的纸质合同与一盏暖橘色台灯。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "林先生",
+        "gender": "male",
+        "neutral_visual_bio": "约24岁东亚男性，自然干净的真实皮肤肌理，黑色碎发刘海配脑后半扎短马尾，穿军绿色翻领长袖工装衬衫内搭浅棕色圆领T恤，背深灰拼棕色皮盖双肩帆布包"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "苏秘书",
+        "gender": "female",
+        "neutral_visual_bio": "约26岁东亚女性，精致复古红唇妆容与真实皮肤肌理，黑色复古手推波纹盘发，穿墨绿色金枝刺绣丝绒立领旗袍，外搭白色毛领皮草披肩，戴双层白色珍珠长项链、珍珠耳坠及墨绿玉镯，穿墨绿色高跟鞋"
+      }
+    ],
+    "props": [
+      {
+        "description": "单张边缘正在燃烧起火苗、印有黑色字迹的白色纸质入职合同文档",
+        "name": "燃烧的纸质合同",
+        "prop_id": "PRP_1"
+      }
+    ],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "发现合同被当场焚毁，语气惊愕、焦急且不解地出声质问",
+        "text": "哎，你怎么烧掉了？"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "从容不迫、带着神秘莫测的掌控感轻声解释诡异规矩",
+        "text": "烧了，这合同才算生效。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "姿态优雅却暗藏压迫感，似笑非笑地正式宣告对方已被绑定入局",
+        "text": "林先生，欢迎入职第九号私人博物馆。"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/CHR_2_front_1k.png",
+      "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/PRP_1_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/voices/CHR_2.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "val_01_winter_parting",
+    "split": "val",
+    "genre": "现代生活情感",
+    "topology": "户外自然光男女决绝告别与呼吸停顿",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 9.2,
+    "setting_summary": "秋冬季节的河畔公园沥青步道，道路向远方延伸，两侧为黄绿交错的草坪、落叶乔木与木质金属长椅，远景可见灰白色护栏与平静水面，阴天柔和漫射自然光，整体呈偏冷低饱和色调。",
+    "dramatic_goal": "情侣在公园步道上爆发情感争执，CHR_1提出背对背走一百步就彻底分手的决绝约定以试探挽留，CHR_2在赌气与情绪上头中硬撑答应并转身迈步离开，同时在内心流露出对感情争吵的疲惫与无奈。",
+    "initial_blocking": "公园步道中央，CHR_1与CHR_2面对面近距离站立对峙，CHR_1位于左侧面向右侧，CHR_2位于右侧面向左侧。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "青年女性",
+        "gender": "female",
+        "neutral_visual_bio": "约22岁东亚女性，清透自然淡妆，黑色长直发自然垂落，戴铁锈红粗针织毛线围巾，穿米白色双排扣翻领中长款呢大衣，内搭浅杏色针织衫"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "青年男性",
+        "gender": "male",
+        "neutral_visual_bio": "约23岁东亚男性，五官立体皮肤白皙，戴深棕色罗纹针织冷帽，穿藏青色翻领长款毛呢大衣，内搭燕麦色高领罗纹毛衣，下穿黑色直筒长裤配黑色短靴"
+      }
+    ],
+    "props": [],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "试图压抑争吵后的冲动，声音克制而带着商量的试探，希望缓和剑拔弩张的气氛",
+        "text": "都冷静一下"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "情绪烦躁赌气，带着不被理解的委屈与抵触进行反问，拒绝平息怒火",
+        "text": "都这样了还冷静什么"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "眼神凝重却带着以退为进的试探，用决绝的分手约定逼迫对方直面内心感受",
+        "text": "我们背对背走100步，考虑清楚了，从此不再相见"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "硬撑着自尊心一口答应，语气冷硬干脆，实则满腹赌气与无奈",
+        "text": "行啊"
+      },
+      {
+        "mode": "inner_os",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "在心底暗自叹息，流露出长期争执积压的疲惫感与无力感",
+        "text": "我真的心累了"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/assets/CHR_2_front_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/voices/CHR_2.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "val_02_scar_probe",
+    "split": "val",
+    "genre": "都市悬疑试探",
+    "topology": "手部细节动作遮掩与谎言心理博弈",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 9.1,
+    "setting_summary": "现代校园教学楼室内走廊，右侧为大面积通透玻璃窗，窗外可见绿茵操场与树木，尽头连通敞开的楼梯间木门，午后暖金色夕阳斜射入走廊地面与白墙，光影通透温暖。",
+    "dramatic_goal": "妹妹刚转学到哥哥班级的次日，在走廊当众亲昵给哥哥递桃子味饮料；哥哥既怕引起学校同学误会而试图立规矩划清界限，又在被男同学提醒暗恋者吃醋并拉走干活时，依然放心不下地叮嘱妹妹原地等候。",
+    "initial_blocking": "学校走廊中央，CHR_1与CHR_2面对面站立，CHR_2怀抱多瓶饮料向CHR_1递出一瓶；CHR_3从CHR_1左侧靠近并搭住CHR_1左肩。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "哥哥",
+        "gender": "male",
+        "neutral_visual_bio": "约18岁东亚男性，自然真实皮肤肌理，黑色蓬松微卷短碎发，外穿米杏色翻领长袖休闲衬衫，内搭纯白色圆领短袖T恤，下穿浅蓝色牛仔长裤"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "妹妹",
+        "gender": "female",
+        "neutral_visual_bio": "约17岁东亚女性，清透自然淡妆真实皮肤肌理，深棕色中分顺直长披发，穿浅灰色宽松印花圆领短袖T恤配深灰色百褶短裙，脚穿白色短袜与白色休闲鞋，右手腕戴黑色发圈"
+      },
+      {
+        "role_id": "CHR_3",
+        "display_name": "男同学",
+        "gender": "male",
+        "neutral_visual_bio": "约18岁东亚微胖男性，自然真实皮肤肌理，黑色顺直短发，戴黑色粗框矩形眼镜，外穿明黄色长袖开衫卫衣，内搭浅灰色圆领T恤"
+      }
+    ],
+    "props": [
+      {
+        "description": "透明塑料瓶装蜜桃味果汁饮料，瓶身贴有橘粉色桃子图案标签，内装橙黄色液体，配橙色塑料瓶盖",
+        "name": "桃子味饮料",
+        "prop_id": "PRP_1"
+      }
+    ],
+    "dialogue_turns": [
+      {
+        "mode": "inner_os",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "带着无奈与隐隐担忧的回忆叙述语气，交代平静局面即将被打破",
+        "text": "直到她转来我班第二天"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "乖巧甜美、亲昵撒娇且毫不避嫌地当众向哥哥献殷勤",
+        "text": "哥哥，桃子味的，给你。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "压低声音略显局促与尴尬，试图在学校公共场合与妹妹保持距离界限",
+        "text": "在学校叫我名字。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_3",
+        "subtext_intent": "看热闹不嫌事大的调侃与八卦提醒，随后急匆匆催促拉人离开现场",
+        "text": "苏小满追你大半年，你妹一来她脸都绿了，走走走老班叫咱俩去搬……"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "被同学拉走之际仍不放心妹妹，急促回头叮嘱她留在原地等候",
+        "text": "在这等我别乱跑。"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/CHR_2_front_1k.png",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/CHR_3_front_1k.png",
+      "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/PRP_1_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/voices/CHR_2.wav",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/voices/CHR_3.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "val_03_class_clash",
+    "split": "val",
+    "genre": "都市强冲突逆袭",
+    "topology": "突发争执压迫拍与情绪爆发反应",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 11.2,
+    "setting_summary": "高档黑色轿车内部前排驾驶舱，暗红色与黑色拼接真皮座椅，黑色中控台配悬浮显示屏与三幅式方向盘，车内光线柔和通透，车窗外为日间暖阳下的城市绿荫街景与浅色建筑台阶。",
+    "dramatic_goal": "沈明山遭遇外卖员吐痰羞辱后暴怒失态欲发作，曼殊急忙用纸巾替他擦拭并贬低前夫以安抚讨好；沈明山嫌恶擦脸后借机讥讽曼殊昔日眼光，曼殊顺从示弱悔过，两人从狼狈暴怒迅速转为互相吹捧与亲密拉拢。",
+    "initial_blocking": "黑色轿车前排车厢内，CHR_1坐在右侧主驾驶位双手握方向盘，CHR_2坐在左侧副驾驶位面向主驾方向。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "沈明山",
+        "gender": "male",
+        "neutral_visual_bio": "约30岁东亚男性，自然真实肤质，深棕色中分微卷短发，戴细框金色多边形眼镜，穿炭灰色平驳领西装外套内搭黑色圆领修身打底衫，左手腕戴黑色皮带机械腕表"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "曼殊",
+        "gender": "female",
+        "neutral_visual_bio": "约25岁东亚女性，精致淡妆白皙肤质，黑色偏分长直发，穿浅灰褐色修身长袖短款T恤内搭白色抹胸，下穿浅蓝色高腰宽松牛仔长裤与白色厚底运动鞋，戴小巧银色耳钉"
+      }
+    ],
+    "props": [
+      {
+        "description": "纯白色方形柔软折叠抽纸巾，多层原生木浆纸质，表面平整洁净无印花图案",
+        "name": "白色纸巾",
+        "prop_id": "PRP_1"
+      }
+    ],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "暴怒失态、被羞辱后的条件反射式破口大骂",
+        "text": "你他妈的！"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "急忙安抚讨好新欢，同时通过刻薄贬低前夫来撇清关系、抬高男方身价",
+        "text": "哎，你，亲爱的，咱们不跟他一般见识，一个臭送外卖的能有什么素质。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "嫌恶擦脸后余怒未消，居高临下地嘲讽女方昔日择偶眼光以找回优越感",
+        "text": "你也是瞎了眼，找了这么一个男人。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "故作委屈顺从地自我检讨，娇嗔示弱以博取新欢的怜惜与庇护",
+        "text": "那时候年轻嘛，不懂事。"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/assets/CHR_2_front_1k.png",
+      "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/assets/PRP_1_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/voices/CHR_2.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "val_04_ancient_prince",
+    "split": "val",
+    "genre": "古装权谋逆袭",
+    "topology": "竖屏9:16古装人物身份压迫与对白交锋",
+    "aspect_ratio": "9:16",
+    "target_duration_s": 9.5,
+    "setting_summary": "晴朗日光下的古代城门集市街道，远处矗立青砖重檐城楼，城门上方悬挂黑底金字牌匾，街道两侧分布木质市集摊位与招幌；转场后为日出金辉照耀下的高山云海与苍劲松石景观，暖金色阳光穿透云层。",
+    "dramatic_goal": "少女在城门集市摊位前欣喜挑选泥人，听到少爷呼唤后小跑追上并献宝般展示泥人，少爷宠溺刮了刮她的鼻尖后两人并肩远去，随后伴随内心独白转入十年后的高山云海意境，完成从昔日温馨日常到宿命转折的过渡。",
+    "initial_blocking": "城门集市木桌摊位前，CHR_3站在木桌左侧，CHR_2站在木桌右侧俯身看向桌面上的泥人；CHR_1位于两人前方的街道中央。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "白衣少爷",
+        "gender": "male",
+        "neutral_visual_bio": "约22岁东亚男性，五官清隽立体，乌黑长发高束成整洁高马尾，额前两侧留有少量自然碎发，穿象牙白交领修身暗纹长袍配同色刺绣宽腰封，腰封中央缀圆形白玉金属扣，下着白色长裤与黑色布靴。"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "柳儿",
+        "gender": "female",
+        "neutral_visual_bio": "约18岁东亚女性，五官清秀甜美，乌黑长发盘成双丫发髻并系浅粉色长丝带与细小珍珠发饰，额前留轻薄碎刘海，穿浅粉色半透明薄纱广袖外衫与浅粉色抹胸长裙。"
+      },
+      {
+        "role_id": "CHR_3",
+        "display_name": "捏泥人老者",
+        "gender": "male",
+        "neutral_visual_bio": "约65岁东亚男性，鬓角与胡须花白，头顶挽圆发髻并插深色木簪，穿灰褐色粗布交领短褐，袖口卷起。"
+      }
+    ],
+    "props": [
+      {
+        "description": "古朴粗糙的黄褐色单色陶土小泥人玩偶，高约十厘米，表面保留手工捏制的素朴纹理。",
+        "name": "陶土泥人",
+        "prop_id": "PRP_1"
+      }
+    ],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "温和催促还在摊位前逗留的侍女跟上步伐，语气宠溺平缓",
+        "text": "柳儿 快点"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "献宝般展示刚拿到的泥人，语调欢快雀跃、充满亲近感",
+        "text": "少爷 你看"
+      },
+      {
+        "mode": "inner_os",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "回忆往昔并开启十年修行巨变的沧桑自述，语调沉稳厚重",
+        "text": "十年后 机缘巧合之下"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/CHR_2_front_1k.png",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/CHR_3_front_1k.png",
+      "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/assets/PRP_1_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/voices/CHR_2.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_04_ancient_prince/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "test_01_tipsy_breakup",
+    "split": "test",
+    "genre": "都市轻喜微醺",
+    "topology": "高频微表情反差与生活流肢体互动",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 12.0,
+    "setting_summary": "夜间城市街道与人行道，灰白色方砖铺地，路旁有修剪整齐的绿植灌木、行道树与浅灰色围墙铁艺护栏，远处背景为亮着零星灯光的现代住宅楼群，暖黄色路灯形成柔和的夜间顶侧逆光与散景光斑。",
+    "dramatic_goal": "微醺的CHR_1误将男老板CHR_2认作男友周浩并强势逼迫分手，任凭CHR_2亮明名字仍冲动放话连他一起分；当CHR_2怒喝点明老板身份后，CHR_1瞬间清醒，情绪从嚣张决绝骤转为极度惊恐慌乱，连声鞠躬道歉后仓皇逃离。",
+    "initial_blocking": "夜间城市街道旁的人行道上，CHR_2在左、CHR_1在右，两人面对面近距离站立对峙。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "微醺女下属",
+        "gender": "female",
+        "neutral_visual_bio": "约24岁东亚女性，自然淡妆真实皮肤肌理，深棕色微卷长发挽成低发髻且两侧留有碎发刘海，穿米白色高领罗纹针织毛衣外搭深棕色长款羊毛呢大衣，下穿深灰色宽松长裤与黑色平底鞋，戴小巧珍珠耳钉"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "年轻男老板沈继明",
+        "gender": "male",
+        "neutral_visual_bio": "约25岁东亚男性，五官立体清俊，黑色蓬松短碎发带自然刘海，内搭白色圆领T恤，外穿深炭灰色翻领拉链夹克外套，下穿黑色直筒长裤与白色休闲运动鞋"
+      }
+    ],
+    "props": [],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "醉酒误认对方为男友，带着委屈与积怨爆发质问，语气激动强硬",
+        "text": "周浩你是不是聋了，我说我们分手，分手懂吗？"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "荒唐又无奈，试图叫醒醉酒的下属认清自己身份，语气急促强调",
+        "text": "你看清楚我是沈继明啊！"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "在醉意冲动下不假思索地顶嘴，情绪上头不管不顾，语气跋扈果决",
+        "text": "沈继明怎么了，沈继明也分！"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "被下属荒唐的胡话气笑又震惊，提高音量严厉点明上下级身份，语气抓狂质问",
+        "text": "你他妈是不是喝傻了，我是你老板！"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "瞬间酒醒，从愤怒嚣张骤然转为极度惊恐与慌乱，声音颤抖着连声赔罪并试图逃离现场",
+        "text": "对不起沈总，我喝多了，对不起对不起！"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/assets/CHR_2_front_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/voices/CHR_2.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "test_02_trio_table",
+    "split": "test",
+    "genre": "现代电影感群像",
+    "topology": "暖光桌面三人道具互动与眼神暗流",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 11.0,
+    "setting_summary": "暖调木质风格的室内餐厅空间，前景为宽大的原木餐桌，背景设有带深色窗框的明亮大玻璃窗，窗外绿植繁茂，窗边与木柜旁摆放室内盆栽与暖光台灯，午后暖金色阳光透过窗户斜射入室，光影柔和通透。",
+    "dramatic_goal": "CHR_1尝到极酸的李子后故意装作香甜美味忽悠CHR_2品尝；CHR_2上当被酸到后迅速反应过来，与CHR_1达成默契联手演戏，热情怂恿毫不知情的CHR_3品尝，最终成功让CHR_3咬下李子被酸得表情失控。",
+    "initial_blocking": "木质餐桌同侧从左至右依次并排坐着CHR_1、CHR_2与CHR_3，CHR_1与CHR_2面朝桌面左前方碗碟区域，CHR_3坐在最右侧低头看手机。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "黑衣男生",
+        "gender": "male",
+        "neutral_visual_bio": "约22岁东亚男性，自然干净面部肌理，黑色蓬松碎发带微卷刘海，穿浅灰竖条纹翻领衬衫外搭黑色翻领拉链夹克，下穿浅蓝色宽松牛仔长裤配白色平底板鞋"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "半扎发女生",
+        "gender": "female",
+        "neutral_visual_bio": "约22岁东亚女性，清透淡妆真实皮肤肌理，栗棕色微卷长发呈半扎公主头造型并留有轻薄碎发刘海，穿白色圆领修身打底衫外搭藏青色圆领排扣针织开衫，下穿卡其色高腰阔腿长裤配深棕色皮带与深棕色皮鞋"
+      },
+      {
+        "role_id": "CHR_3",
+        "display_name": "灰衣男生",
+        "gender": "male",
+        "neutral_visual_bio": "约22岁东亚男性，清爽肤质立体五官，深棕色纹理感中分蓬松短发，穿白色圆领T恤叠穿黑白棕格纹衬衫，外搭浅灰色连帽拉链卫衣"
+      }
+    ],
+    "props": [
+      {
+        "description": "圆形白底蓝纹青花瓷碗，碗内盛放着满满一碗紫红色表皮、黄色果肉的鲜李子",
+        "name": "青花瓷碗装李子",
+        "prop_id": "PRP_1"
+      }
+    ],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "被酸得五官微皱却立刻转换成夸张的热情赞叹语气，故意忽悠身旁的CHR_2一起尝鲜吃瘪",
+        "text": "好甜好好吃，你快尝尝，真特别好吃。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "咬下一口被酸到瞬间顿住，随即心领神会地配合CHR_1演戏，用充满惊喜的高昂语调怂恿CHR_3品尝",
+        "text": "我去，真的好好吃，你也快尝尝。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_3",
+        "subtext_intent": "毫无防备地大口咬下李子后被酸得眉头紧锁、难以置信地发出哀嚎抱怨",
+        "text": "好酸！"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_2_front_1k.png",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_3_front_1k.png",
+      "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/PRP_1_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/voices/CHR_2.wav",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/voices/CHR_3.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/gold_sealed/gold_reference.mp4"
+  },
+  {
+    "case_id": "test_03_ancient_family",
+    "split": "test",
+    "genre": "古代寒门亲情",
+    "topology": "古装室内多人急切冲突与手部动作",
+    "aspect_ratio": "16:9",
+    "target_duration_s": 8.9,
+    "setting_summary": "简陋破旧的古代北方农家黄泥土坯房室内，屋顶为裸露圆木椽子与透光破损茅草，侧面有糊纸木格窗与陈旧木门，屋内靠墙砌有土炕，铺着灰褐色粗布褥子与深色布枕，炕边置有旧木矮桌与煤油灯，冷冽天光从屋顶缝隙与窗格斜射入室，整体呈荒凉清冷的低饱和暖灰褐色调。",
+    "dramatic_goal": "年迈婆婆因重男轻女决意将刚出生的女婴丢弃处理，虚弱的年轻产妇闻言惊恐万分，在土炕上哭泣恳求婆婆不要在寒冬里扔掉孩子，将冷血威压与护女哀求的家庭伦理冲突推向高潮。",
+    "initial_blocking": "房间中央站着CHR_1与怀抱襁褓的CHR_3，两人并排面向土炕方向；土炕上盖着粗布被褥的CHR_2与她们隔空相对。",
+    "characters": [
+      {
+        "role_id": "CHR_1",
+        "display_name": "年迈婆婆",
+        "gender": "female",
+        "neutral_visual_bio": "约68岁东亚老年女性，面容清癯布满皱纹，花白头发向后梳拢挽髻并插一根深色木簪，穿深褐色带深色补丁与黑色立领盘扣的粗布棉袄，腰系细麻绳，下穿深色粗布裤"
+      },
+      {
+        "role_id": "CHR_2",
+        "display_name": "年轻产妇",
+        "gender": "female",
+        "neutral_visual_bio": "约22岁东亚年轻女性，自然清秀面容真实皮肤肌理，黑色长发松散垂落并留有额前碎发，穿浅灰蓝色交领宽袖粗布衣衫，领口与袖口带有浅色磨损纹理边缘"
+      },
+      {
+        "role_id": "CHR_3",
+        "display_name": "年长妇人",
+        "gender": "female",
+        "neutral_visual_bio": "约60岁东亚老年女性，面容圆润布满细纹，头戴深蓝色粗布包头巾，穿深蓝色交领粗布长袖上衣，腰间系黑色粗布围裙"
+      }
+    ],
+    "props": [
+      {
+        "description": "灰白色粗棉布包裹的新生儿襁褓，呈长条圆筒状严密裹紧",
+        "name": "婴儿襁褓",
+        "prop_id": "PRP_1"
+      }
+    ],
+    "dialogue_turns": [
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_1",
+        "subtext_intent": "冷酷绝情、嫌弃重男轻女，语气蛮横不容置疑地要把刚出生的女婴丢弃处理掉",
+        "text": "这丫头片子留着没用，你别管，一会我处理了就是。"
+      },
+      {
+        "mode": "spoken",
+        "speaker_id": "CHR_2",
+        "subtext_intent": "极度惊恐绝望，带着哭腔与颤音拼命哀求婆婆手下留情保住女儿性命",
+        "text": "娘，求您别扔她，天这么冷，扔出去她就没命了。"
+      }
+    ],
+    "asset_files": {
+      "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/scene_clean_1k.png",
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/CHR_1_front_1k.png",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/CHR_2_front_1k.png",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/CHR_3_front_1k.png",
+      "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/assets/PRP_1_1k.png"
+    },
+    "voice_files": {
+      "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/voices/CHR_1.wav",
+      "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/voices/CHR_2.wav",
+      "CHR_3": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/voices/CHR_3.wav"
+    },
+    "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/gold_sealed/gold_reference.mp4"
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "case_id": "dev_05_museum_suspense",
+  "split": "dev",
+  "genre": "民国暗调悬疑",
+  "topology": "夜景暖暗高反差光影压迫感对话与眼神试探",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 9.8,
+  "setting_summary": "中式复古木质古董大厅室内，深棕色雕花木格栅隔断与多宝格博古架陈列各类古瓷瓶，中央设长条木质柜台与暖橘色台灯，环境幽暗深邃，呈低照度暖橙与暗棕对比色调。",
+  "dramatic_goal": "CHR_1见入职合同被烧毁而惊愕质问，CHR_2则以诡秘从容的姿态宣告焚毁即契约生效并正式欢迎其入职，在幽暗古董厅内确立充满悬疑威慑的上下级控制关系。",
+  "initial_blocking": "中式木质长案柜台两侧相对站立，CHR_1背着双肩包站在长案外侧，CHR_2身披皮草站在长案内侧，两人之间隔着桌面燃起火苗的纸质合同与一盏暖橘色台灯。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "林先生",
+      "gender": "male",
+      "neutral_visual_bio": "约24岁东亚男性，自然干净的真实皮肤肌理，黑色碎发刘海配脑后半扎短马尾，穿军绿色翻领长袖工装衬衫内搭浅棕色圆领T恤，背深灰拼棕色皮盖双肩帆布包"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "苏秘书",
+      "gender": "female",
+      "neutral_visual_bio": "约26岁东亚女性，精致复古红唇妆容与真实皮肤肌理，黑色复古手推波纹盘发，穿墨绿色金枝刺绣丝绒立领旗袍，外搭白色毛领皮草披肩，戴双层白色珍珠长项链、珍珠耳坠及墨绿玉镯，穿墨绿色高跟鞋"
+    }
+  ],
+  "props": [
+    {
+      "description": "单张边缘正在燃烧起火苗、印有黑色字迹的白色纸质入职合同文档",
+      "name": "燃烧的纸质合同",
+      "prop_id": "PRP_1"
+    }
+  ],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "发现合同被当场焚毁，语气惊愕、焦急且不解地出声质问",
+      "text": "哎，你怎么烧掉了？"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "从容不迫、带着神秘莫测的掌控感轻声解释诡异规矩",
+      "text": "烧了，这合同才算生效。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "姿态优雅却暗藏压迫感，似笑非笑地正式宣告对方已被绑定入局",
+      "text": "林先生，欢迎入职第九号私人博物馆。"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/CHR_2_front_1k.png",
+    "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/PRP_1_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/voices/CHR_2.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/gold_sealed/gold_reference.mp4"
+}

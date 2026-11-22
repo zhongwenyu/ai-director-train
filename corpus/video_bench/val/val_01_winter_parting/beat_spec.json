@@ -1,0 +1,68 @@
+{
+  "case_id": "val_01_winter_parting",
+  "split": "val",
+  "genre": "现代生活情感",
+  "topology": "户外自然光男女决绝告别与呼吸停顿",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 9.2,
+  "setting_summary": "秋冬季节的河畔公园沥青步道，道路向远方延伸，两侧为黄绿交错的草坪、落叶乔木与木质金属长椅，远景可见灰白色护栏与平静水面，阴天柔和漫射自然光，整体呈偏冷低饱和色调。",
+  "dramatic_goal": "情侣在公园步道上爆发情感争执，CHR_1提出背对背走一百步就彻底分手的决绝约定以试探挽留，CHR_2在赌气与情绪上头中硬撑答应并转身迈步离开，同时在内心流露出对感情争吵的疲惫与无奈。",
+  "initial_blocking": "公园步道中央，CHR_1与CHR_2面对面近距离站立对峙，CHR_1位于左侧面向右侧，CHR_2位于右侧面向左侧。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "青年女性",
+      "gender": "female",
+      "neutral_visual_bio": "约22岁东亚女性，清透自然淡妆，黑色长直发自然垂落，戴铁锈红粗针织毛线围巾，穿米白色双排扣翻领中长款呢大衣，内搭浅杏色针织衫"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "青年男性",
+      "gender": "male",
+      "neutral_visual_bio": "约23岁东亚男性，五官立体皮肤白皙，戴深棕色罗纹针织冷帽，穿藏青色翻领长款毛呢大衣，内搭燕麦色高领罗纹毛衣，下穿黑色直筒长裤配黑色短靴"
+    }
+  ],
+  "props": [],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "试图压抑争吵后的冲动，声音克制而带着商量的试探，希望缓和剑拔弩张的气氛",
+      "text": "都冷静一下"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "情绪烦躁赌气，带着不被理解的委屈与抵触进行反问，拒绝平息怒火",
+      "text": "都这样了还冷静什么"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "眼神凝重却带着以退为进的试探，用决绝的分手约定逼迫对方直面内心感受",
+      "text": "我们背对背走100步，考虑清楚了，从此不再相见"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "硬撑着自尊心一口答应，语气冷硬干脆，实则满腹赌气与无奈",
+      "text": "行啊"
+    },
+    {
+      "mode": "inner_os",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "在心底暗自叹息，流露出长期争执积压的疲惫感与无力感",
+      "text": "我真的心累了"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/assets/CHR_2_front_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/voices/CHR_2.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/gold_sealed/gold_reference.mp4"
+}

@@ -1,0 +1,69 @@
+{
+  "case_id": "val_03_class_clash",
+  "split": "val",
+  "genre": "都市强冲突逆袭",
+  "topology": "突发争执压迫拍与情绪爆发反应",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 11.2,
+  "setting_summary": "高档黑色轿车内部前排驾驶舱，暗红色与黑色拼接真皮座椅，黑色中控台配悬浮显示屏与三幅式方向盘，车内光线柔和通透，车窗外为日间暖阳下的城市绿荫街景与浅色建筑台阶。",
+  "dramatic_goal": "沈明山遭遇外卖员吐痰羞辱后暴怒失态欲发作，曼殊急忙用纸巾替他擦拭并贬低前夫以安抚讨好；沈明山嫌恶擦脸后借机讥讽曼殊昔日眼光，曼殊顺从示弱悔过，两人从狼狈暴怒迅速转为互相吹捧与亲密拉拢。",
+  "initial_blocking": "黑色轿车前排车厢内，CHR_1坐在右侧主驾驶位双手握方向盘，CHR_2坐在左侧副驾驶位面向主驾方向。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "沈明山",
+      "gender": "male",
+      "neutral_visual_bio": "约30岁东亚男性，自然真实肤质，深棕色中分微卷短发，戴细框金色多边形眼镜，穿炭灰色平驳领西装外套内搭黑色圆领修身打底衫，左手腕戴黑色皮带机械腕表"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "曼殊",
+      "gender": "female",
+      "neutral_visual_bio": "约25岁东亚女性，精致淡妆白皙肤质，黑色偏分长直发，穿浅灰褐色修身长袖短款T恤内搭白色抹胸，下穿浅蓝色高腰宽松牛仔长裤与白色厚底运动鞋，戴小巧银色耳钉"
+    }
+  ],
+  "props": [
+    {
+      "description": "纯白色方形柔软折叠抽纸巾，多层原生木浆纸质，表面平整洁净无印花图案",
+      "name": "白色纸巾",
+      "prop_id": "PRP_1"
+    }
+  ],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "暴怒失态、被羞辱后的条件反射式破口大骂",
+      "text": "你他妈的！"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "急忙安抚讨好新欢，同时通过刻薄贬低前夫来撇清关系、抬高男方身价",
+      "text": "哎，你，亲爱的，咱们不跟他一般见识，一个臭送外卖的能有什么素质。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "嫌恶擦脸后余怒未消，居高临下地嘲讽女方昔日择偶眼光以找回优越感",
+      "text": "你也是瞎了眼，找了这么一个男人。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "故作委屈顺从地自我检讨，娇嗔示弱以博取新欢的怜惜与庇护",
+      "text": "那时候年轻嘛，不懂事。"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/assets/CHR_2_front_1k.png",
+    "PRP_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/assets/PRP_1_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/voices/CHR_2.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_03_class_clash/gold_sealed/gold_reference.mp4"
+}

@@ -1,0 +1,68 @@
+{
+  "case_id": "test_01_tipsy_breakup",
+  "split": "test",
+  "genre": "都市轻喜微醺",
+  "topology": "高频微表情反差与生活流肢体互动",
+  "aspect_ratio": "16:9",
+  "target_duration_s": 12.0,
+  "setting_summary": "夜间城市街道与人行道，灰白色方砖铺地，路旁有修剪整齐的绿植灌木、行道树与浅灰色围墙铁艺护栏，远处背景为亮着零星灯光的现代住宅楼群，暖黄色路灯形成柔和的夜间顶侧逆光与散景光斑。",
+  "dramatic_goal": "微醺的CHR_1误将男老板CHR_2认作男友周浩并强势逼迫分手，任凭CHR_2亮明名字仍冲动放话连他一起分；当CHR_2怒喝点明老板身份后，CHR_1瞬间清醒，情绪从嚣张决绝骤转为极度惊恐慌乱，连声鞠躬道歉后仓皇逃离。",
+  "initial_blocking": "夜间城市街道旁的人行道上，CHR_2在左、CHR_1在右，两人面对面近距离站立对峙。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "微醺女下属",
+      "gender": "female",
+      "neutral_visual_bio": "约24岁东亚女性，自然淡妆真实皮肤肌理，深棕色微卷长发挽成低发髻且两侧留有碎发刘海，穿米白色高领罗纹针织毛衣外搭深棕色长款羊毛呢大衣，下穿深灰色宽松长裤与黑色平底鞋，戴小巧珍珠耳钉"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "年轻男老板沈继明",
+      "gender": "male",
+      "neutral_visual_bio": "约25岁东亚男性，五官立体清俊，黑色蓬松短碎发带自然刘海，内搭白色圆领T恤，外穿深炭灰色翻领拉链夹克外套，下穿黑色直筒长裤与白色休闲运动鞋"
+    }
+  ],
+  "props": [],
+  "dialogue_turns": [
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "醉酒误认对方为男友，带着委屈与积怨爆发质问，语气激动强硬",
+      "text": "周浩你是不是聋了，我说我们分手，分手懂吗？"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "荒唐又无奈，试图叫醒醉酒的下属认清自己身份，语气急促强调",
+      "text": "你看清楚我是沈继明啊！"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "在醉意冲动下不假思索地顶嘴，情绪上头不管不顾，语气跋扈果决",
+      "text": "沈继明怎么了，沈继明也分！"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "被下属荒唐的胡话气笑又震惊，提高音量严厉点明上下级身份，语气抓狂质问",
+      "text": "你他妈是不是喝傻了，我是你老板！"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "瞬间酒醒，从愤怒嚣张骤然转为极度惊恐与慌乱，声音颤抖着连声赔罪并试图逃离现场",
+      "text": "对不起沈总，我喝多了，对不起对不起！"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/assets/CHR_2_front_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/voices/CHR_2.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_01_tipsy_breakup/gold_sealed/gold_reference.mp4"
+}

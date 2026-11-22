@@ -1,0 +1,62 @@
+{
+  "case_id": "dev_04_period_1988",
+  "split": "dev",
+  "genre": "年代烟火逆袭",
+  "topology": "竖屏9:16八十年代乡土市井人物交锋",
+  "aspect_ratio": "9:16",
+  "target_duration_s": 9.1,
+  "setting_summary": "怀旧乡村土坯房室内空间，左侧为带木格窗棂的采光窗户与铺着花布被褥的土炕，窗下置有旧木桌与陶罐，右侧立着深色旧木柜，泥土墙面斑驳，白昼自然光从左侧窗户斜射入室，整体呈暖黄做旧低饱和色温。",
+  "dramatic_goal": "青年男子从对前世害死胡秀春母女的深切自责心声中回过神来，面对现实中醒来伸手急切讨要十块钱给母亲抓药的胡秀春，完成从悔恨追忆到现实直面偿还宿债的情绪与行动转折。",
+  "initial_blocking": "乡村土坯房卧室内，CHR_1坐在土炕边沿，CHR_2起初在土炕花布被褥上侧卧，随后起身站在土炕与木柜旁的空地上与CHR_1面对面站立对峙。",
+  "characters": [
+    {
+      "role_id": "CHR_1",
+      "display_name": "青年男子",
+      "gender": "male",
+      "neutral_visual_bio": "约24岁东亚青年男性，古铜色朴素皮肤肌理，黑色蓬松短发，穿灰褐色做旧翻领工装外套内搭米白色圆领T恤与深灰色长裤"
+    },
+    {
+      "role_id": "CHR_2",
+      "display_name": "胡秀春",
+      "gender": "female",
+      "neutral_visual_bio": "约22岁东亚青年女性，自然素颜皮肤肌理，黑色中长发扎低马尾且两侧留碎发，穿浅灰褐色小翻领长袖粗布衬衫配深黑色长裤"
+    }
+  ],
+  "props": [],
+  "dialogue_turns": [
+    {
+      "mode": "inner_os",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "内心深感悔恨、沉痛与自责，语气低沉真挚",
+      "text": "因为这件事我也内疚了好久，是我对不起她俩。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "从回忆转入现实对峙，直接干脆地伸手讨要欠款，语气急切坚定",
+      "text": "钱！"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_1",
+      "subtext_intent": "从沉思中回过神来，恍然意识到眼前的处境与承诺，语气带着恍然与应承",
+      "text": "对哦，还要给你钱。"
+    },
+    {
+      "mode": "spoken",
+      "speaker_id": "CHR_2",
+      "subtext_intent": "因母亲病重急需抓药而焦灼催促，语气急迫、理直气壮且带着哭腔般的焦急",
+      "text": "你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！"
+    }
+  ],
+  "asset_files": {
+    "scene_clean": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/scene_clean_1k.png",
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/CHR_1_front_1k.png",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/CHR_2_front_1k.png"
+  },
+  "voice_files": {
+    "CHR_1": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/voices/CHR_1.wav",
+    "CHR_2": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/voices/CHR_2.wav"
+  },
+  "gold_sealed_mp4": "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/gold_sealed/gold_reference.mp4"
+}
