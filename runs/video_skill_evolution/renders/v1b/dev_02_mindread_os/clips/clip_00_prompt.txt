@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot (Two-shot across table) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the man matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (烤肉串与金属托盘).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Two-shot establishing the barbecue table layout; <Subject 1> on the left picks up a skewer and teases <Subject 2> on the right about bluffing.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera. Seated on the left side of the red table facing right, <Subject 1> (S1) lifts a single bamboo meat skewer cleanly off the dark metal tray (causing adjacent skewers on the tray to shift slightly) with an amused glint in his eyes and a subtle, restrained corner-lip lift, while <Subject 2> sits calmly on the right facing left with both hands resting around his clear plastic drink cup and lips naturally closed. With a light, playful, teasing voice, <Subject 1> (S1) speaks (0.20s-2.75s): <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d> Seeing <Subject 2>'s unbothered expression, <Subject 1> (S1) cleanly closes lips with zero stray mouth twitching, lowers his right wrist to rest solidly on the red tabletop edge while holding the skewer horizontally, and holds a skeptical gaze toward <Subject 2> until the cut.
+
+overall_soundscape:
+Quiet clean nighttime street ambiance, subtle scrape of a bamboo skewer lifting off the metal tray, gentle outdoor air settling cleanly before the cut.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder Medium close-up on CHR_1 cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (烤肉串与金属托盘).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse OTS medium close-up on <Subject 1>, who releases his cup and directly calls out CHR_2's unspoken mental vow word for word.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera. Facing left across the table, <Subject 1> (S1) knits his brows slightly in exasperated offense at what he just heard silently, releases his fingers from the clear plastic drink cup (leaving the cup stationary on the tabletop) to place his right palm flat and grounded on the red table surface, and leans subtly forward. With a crisp, exasperated, mildly offended conversational voice, <Subject 1> (S1) speaks (0.20s-3.14s): <d>[Chinese] 能不能好好说话，什么叫认贼作父啊？</d> Immediately after finishing the question, <Subject 1> (S1) cleanly closes lips with zero stray mouth twitching, exhales lightly, and holds an unblinking, direct gaze toward the left with his right hand resting firmly on the table until the cut.
+
+overall_soundscape:
+Quiet clean nighttime street ambiance, soft tactile release of fingers from the plastic cup and light palm contact on the tabletop, ending cleanly without trailing noise.
+
+non_diegetic_music:
+N/A

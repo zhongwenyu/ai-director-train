@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Tight medium close-up, 85mm lens, f/2.0 shallow depth of field, reverse-angle 15-degree off-axis near-frontal angle on screen-right subject facing screen-left cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Tight medium close-up on <Subject 1> as his wounded pride makes him curtly agree to the ultimatum before pivoting his shoulders away toward screen-right.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera frames a 15-degree off-axis tight medium close-up on <Subject 1> (S1) positioned slightly screen-right and initially facing screen-left. From 0.0s to 1.1s, <Subject 1> (S1)'s pupils contract slightly and his jaw sets in stung pride, masking inner hurt behind a cold, unyielding front. In a curt, hard-edged, stubbornly detached tone, <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 行啊</d> with crisp two-syllable lip sync and zero trailing mouth movement, then firmly closes lips at 1.55s. From 1.1s to 2.0s, a fleeting shadow of bitter helplessness crosses his eyes; keeping both hands anchored inside his taut dark navy coat pockets so the heavy wool coat rotates smoothly with his frame, he lowers his gaze slightly and pivots his torso clockwise from 1.55s to 2.0s to face screen-right down the walkway, settling into his turned-away stance at clip end.
+
+overall_soundscape:
+Quiet riverside park ambience, crisp rustle of heavy wool coat shoulders rotating as he turns away, and a faint boot heel pivot on the asphalt walkway; zero background music.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up two-shot, reverse 15-degree off-axis near-frontal angle favoring CHR_1 on screen-right with CHR_2 on screen-left, 85mm lens, shallow depth of field, f/2.0 cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (陶土泥人).
+
+summary:
+[keyframe completion + reference generation] Silent affectionate reaction and interaction: <Subject 1> fondly taps the tip of <Subject 2>'s nose as she blinks shyly cradling the clay figurine, then both turn smoothly side by side to walk away into the warm sunlit street.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera holds steady framing along the locked 180-degree axis. Both <Subject 1> and <Subject 2> keep lips naturally closed with zero speech articulation throughout. First beat (0.0s-1.6s): <Subject 1>'s gaze shifts fondly from the clay figurine up to <Subject 2>'s expectant eyes as gentle warmth softens his brow and eye corners; lifting his right hand smoothly from his embroidered waist sash, <Subject 1> lightly grazes and taps the tip of <Subject 2>'s nose with his bent index knuckle, visibly crinkling the skin at her nose bridge as <Subject 2> gives a shy, delighted blink and draws the clay figurine securely against her chest wrap. Second beat (1.6s-3.0s): <Subject 1> lowers his right hand smoothly to rest against his sleeve cuff, exchanging a tender lingering look with <Subject 2>, before both pivot smoothly in unison to walk side by side away along the sunlit stone street into the warm golden haze until clip end. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Gentle open-air street tone, soft rustle of ivory and pink sleeves, subtle light fingertip brush on skin, and two pairs of unhurried cloth-boot footsteps receding smoothly on stone.
+
+non_diegetic_music:
+N/A

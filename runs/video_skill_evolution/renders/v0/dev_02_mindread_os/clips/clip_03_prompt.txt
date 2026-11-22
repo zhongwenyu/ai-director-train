@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Close-up on <Subject 1> freezing in utter shock as his unspoken thought is repeated word-for-word, stammering half a sentence before trailing off.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle push-in tight close-up on <Subject 1> (S1) facing screen-right. Every trace of smug humor vanishes instantly; <Subject 1> (S1)'s eyes widen sharply in stunned disbelief, his shoulders stiffening mid-breath as he stares fixedly toward <CHR_1>. <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 你居然真的……</d> Accurate lip sync on the stammered syllables before his voice catches in his throat, leaving his lips slightly parted in speechless shock for the final beat.
+
+overall_soundscape:
+Sharp quiet intake of breath, subdued distant city traffic hum, faint night air ambience.
+
+non_diegetic_music:
+N/A

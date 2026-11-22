@@ -1,24 +1,24 @@
 subject_definitions:
-<Picture 1> is the opening Three-quarter medium two-shot, eye-level, 16:9 widescreen cinema frame anchoring lighting, spatial depth, and initial character posture.
-<Subject 1> (S1) is the woman matching the identity and outfit in <Picture 2>.
-<Subject 2> is the woman matching the identity and outfit in <Picture 3>.
+<Picture 1> is the opening Medium two-shot, eye-level, 3/4 front angle on the left workstation side facing right across the desk partition cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] 开放式工位一侧，实习生CHR_1替身旁受委屈的同事CHR_3出头，面带甜美礼貌微笑隔桌向对面的CHR_2抛出连环捧杀反问。
+[keyframe completion + reference generation + audio reference] Seated beside the wronged <Subject 2>, intern <Subject 1> leans forward with a sweet, polite smile and delivers pointed ironic flattery across the desk toward CHR_2.
 
 retention_analysis:
-<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, lighting, and initial pose.
-<Subject 1>: fully_preserved - retain exact facial bone structure, hair silhouette, and outfit from <Picture 2>.
-<Subject 2>: fully_preserved - retain exact facial bone structure, hair silhouette, and outfit from <Picture 3>.
-<Audio 1>: reference - guides <Subject 1>'s natural Mandarin voice timbre.
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
-Live-action 35mm cinema photography, natural skin pores, accurate five-fingered hands, without any text or captions.
-[Shot 1] Starting from <Picture 1>, Slow, subtle push-in from eye level across the workstation desk. On the right side next to <Subject 1> (S1), <Subject 2> remains silent with lips closed, sitting tensely with lowered shoulders and glancing briefly toward <Subject 1> (S1) with quiet relief as <Subject 1> (S1) steps up for her. On the left-center, <Subject 1> (S1) leans slightly forward past her black LCD monitor, tilting her head with a bright, sweet, innocently polite smile and raising one hand lightly in a courteous inquiring gesture while keeping her gaze fixed screen-right. <Subject 1> (S1) speaks (0.2s-5.6s): <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？</d> Throughout her delivery, <Subject 1> (S1) maintains crisp, cheerful poise with subtly raised eyebrows and pointed, knowing eyes, holding an expectant sweet smile at the end of the question.
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle camera push-in on the left workstation side. Seated in the nearer chair facing front-right across the frosted glass desk partition, <Subject 1> (S1) leans slightly forward with a bright, sweet, courteous smile and sharp, sparkling eyes, tilting her head politely while gesturing lightly above the light-wood desk with one open hand. <Subject 1> (S1) speaks (0.20s-7.65s): <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？</d> with clear, crisp lip-sync matching every syllable and raising her brows innocently on the second question. Seated right beside her in the adjacent chair, <Subject 2> keeps her lips closed in silence, shifting from a wronged, downcast expression to glancing sideways at <Subject 1> (S1) in quiet surprise and relief.
 
 overall_soundscape:
-Quiet open-plan office room tone, faint distant keyboard clicks, subtle fabric rustle as the speaker leans forward on the desk.
+Quiet open-plan office room tone, faint distant keyboard clicks, soft fabric rustle as CHR_1 leans forward.
 
 non_diegetic_music:
 N/A

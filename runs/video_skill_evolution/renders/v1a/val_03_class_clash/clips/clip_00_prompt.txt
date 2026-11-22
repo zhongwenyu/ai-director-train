@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (白色纸巾).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a compact front-cabin two-shot, the male driver erupts in humiliated fury gripping the steering wheel while the female passenger swiftly reaches across the console with a clean white tissue toward his cheek.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera maintaining the compact front-cabin two-shot from the dashboard side of the 180-degree axis. From 0.0s to 0.9s, <Subject 1> (S1) snaps from a poised neutral start into humiliated fury, brow knitting sharply behind his thin gold polygonal glasses as he inhales abruptly and leans slightly forward, both hands tightening around the black leather steering wheel rim with visible knuckle tension. With a sharp, explosive breath and furious humiliated heat, <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 你他妈的！</d> with crisp syllable-accurate lip sync, then naturally closes lips at 1.60s and holds a tense, glaring expression with a clenched jaw until clip end. Simultaneously from 0.4s to 2.0s, <Subject 2> on screen-left keeps lips naturally closed with zero speech articulation, creases her brow in urgent concern, picks up the clean white folded square facial tissue from the black center console with her right hand, braces her left palm steadily on the leather console armrest, and leans rightward to press the soft tissue gently against <Subject 1> (S1)'s left jawline by 2.0s.
+
+overall_soundscape:
+Quiet luxury car cabin room tone with faint muffled daytime street air outside, crisp leather creak as hands tighten on the steering wheel, soft fabric rustle, and delicate paper whisper as a tissue is lifted from the console.
+
+non_diegetic_music:
+N/A

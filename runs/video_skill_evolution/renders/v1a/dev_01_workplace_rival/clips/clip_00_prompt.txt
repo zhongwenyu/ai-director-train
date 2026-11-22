@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot, 50mm lens, f/2.8 shallow depth of field, 45-degree three-quarter angle on screen-left workstation side cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a compact two-person medium shot on the left side of the desk partition, <Subject 1> speaks up for the subdued <Subject 2> seated beside her, politely questioning whether CHR_2's interns have all become company executives.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera holds a steady compact medium two-shot on <Subject 1> (S1) and <Subject 2> seated side-by-side on screen-left facing screen-right. From a poised, relaxed starting expression, <Subject 1> (S1)'s eyes brighten with sweet, polite curiosity masking sharp workplace irony while her right fingertips press against the light-wood desk surface and slide forward an inch, leaning her torso slightly toward the partition and creating a soft crease in her black knit cardigan cuff against the desk edge. With a crisp, sweet, buoyantly polite breath laced with pointed irony, <Subject 1> (S1) speaks (0.20s-5.30s): <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？</d> with crisp syllable-accurate lip sync; on the rising question at mid-clip, <Subject 1> (S1) subtly lifts one eyebrow with an innocent slight head tilt while her palm settles flat and steady on the desk surface, then naturally closes lips at 3.65s and holds a clear, expectant gaze toward screen-right until clip end. Beside her, <Subject 2> keeps lips naturally closed with zero speech articulation throughout, subtly lifting her gaze toward <Subject 1> (S1) with quiet surprise and relief as her folded fingers tighten slightly against her wrist on the desk edge and remain still.
+
+overall_soundscape:
+Quiet modern open-plan office room tone with faint air conditioning airflow, subtle knit sleeve rustle and gentle palm slide against smooth light-wood desk surface, clean quiet tail.
+
+non_diegetic_music:
+N/A

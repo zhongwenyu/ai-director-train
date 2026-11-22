@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up, 12-degree off-eyeline near-frontal reverse angle, 85mm lens, f/2.0 shallow depth of field cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a commanding close-up, <Subject 1> delivers an enigmatic, half-smiling welcome that seals CHR_1 into Private Museum No. 9 as a thin wisp of smoke rises from below.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle slow push-in on a 12-degree off-eyeline shallow-depth-of-field close-up of <Subject 1> (S1). From 0.0s to 2.0s, <Subject 1> (S1) locks her luminous dark eyes steadily onto screen-left with graceful, inescapable poise; she inclines her chin downward by a fraction while her left fingertips press gently into the plush white fur shawl collar at her collarbone, forming a soft visible indentation in the fur pile. With a poised, velvety low breath laced with veiled authority and cryptic warmth, <Subject 1> (S1) speaks (0.20s-3.14s): <d>[Chinese] 林先生，欢迎入职第九号私人博物馆。</d> with crisp syllable-accurate lip sync, then naturally closes lips at 3.65s and holds a composed, lingering gaze until clip end. From 2.0s to 4.0s, as she pronounces the museum's title, the corners of her vintage red lips lift by a subtle millimeter into an enigmatic, controlling half-smile while the warm orange flicker from below gradually subsides and a thin wisp of pale grey smoke drifts softly past the extreme lower-left frame edge, her fingers staying calmly settled in the fur collar until clip end.
+
+overall_soundscape:
+Deep quiet antique hall room tone, soft whisper of fingertips settling into fur collar, faint final ember hiss giving way to silence, steady poised breath, no background music.
+
+non_diegetic_music:
+N/A

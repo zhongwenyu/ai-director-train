@@ -1,0 +1,1069 @@
+{
+  "arena_tag": "v1a_vs_v0_dev",
+  "wins": 0,
+  "losses": 4,
+  "ties": 1,
+  "cand_mean_score": 64.7,
+  "ref_mean_score": 74.8,
+  "mean_delta": -10.1,
+  "cand_dim_means": {
+    "acting_micro_naturalism": 15.5,
+    "vocal_dialogue_delivery": 11.8,
+    "editing_rhythm_and_reactions": 12.4,
+    "character_and_costume_consistency": 13.7,
+    "cinematography_and_spatial_coherence": 6.7,
+    "physical_anatomy_integrity": 8.6
+  },
+  "ref_dim_means": {
+    "acting_micro_naturalism": 17.1,
+    "vocal_dialogue_delivery": 13.8,
+    "editing_rhythm_and_reactions": 14.7,
+    "character_and_costume_consistency": 12.9,
+    "cinematography_and_spatial_coherence": 7.6,
+    "physical_anatomy_integrity": 8.7
+  },
+  "cases": [
+    {
+      "case_id": "dev_01_workplace_rival",
+      "outcome": "champ_win",
+      "cand_score": 64.0,
+      "champ_score": 76.0,
+      "score_delta": -12.0,
+      "vote_pass1": "B",
+      "vote_pass2_swapped": "A",
+      "cand_dim_avg": {
+        "acting_micro_naturalism": 12.5,
+        "vocal_dialogue_delivery": 15.0,
+        "editing_rhythm_and_reactions": 11.5,
+        "character_and_costume_consistency": 13.5,
+        "cinematography_and_spatial_coherence": 3.5,
+        "physical_anatomy_integrity": 8.0
+      },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 17.0,
+        "vocal_dialogue_delivery": 15.5,
+        "editing_rhythm_and_reactions": 12.5,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 8.0,
+        "physical_anatomy_integrity": 9.0
+      },
+      "probe_cand": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 14.542,
+        "v_dur_s": 14.542,
+        "a_dur_s": 14.542,
+        "av_desync_s": 0.0,
+        "speech_total_s": 10.656,
+        "first_speech_s": 0.256,
+        "vad_segments": [
+          [
+            0.256,
+            0.544
+          ],
+          [
+            1.024,
+            2.336
+          ],
+          [
+            2.656,
+            5.024
+          ],
+          [
+            5.408,
+            6.432
+          ],
+          [
+            6.56,
+            7.968
+          ],
+          [
+            8.448,
+            8.8
+          ],
+          [
+            8.864,
+            9.024
+          ],
+          [
+            9.376,
+            10.144
+          ],
+          [
+            10.528,
+            11.648
+          ],
+          [
+            12.192,
+            12.832
+          ],
+          [
+            13.216,
+            14.432
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 1.958,
+        "approx_cuts": 3,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "probe_champ": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 16.625,
+        "v_dur_s": 16.625,
+        "a_dur_s": 16.6,
+        "av_desync_s": 0.025,
+        "speech_total_s": 9.92,
+        "first_speech_s": 0.736,
+        "vad_segments": [
+          [
+            0.736,
+            2.08
+          ],
+          [
+            2.528,
+            4.896
+          ],
+          [
+            5.6,
+            7.808
+          ],
+          [
+            8.32,
+            8.608
+          ],
+          [
+            9.248,
+            9.984
+          ],
+          [
+            10.688,
+            11.232
+          ],
+          [
+            11.328,
+            12.032
+          ],
+          [
+            12.544,
+            13.12
+          ],
+          [
+            13.44,
+            14.592
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 3.806,
+        "approx_cuts": 3,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "cand_defects": [
+        "空间拓扑严重崩坏：00:05切镜时，CHR_1面前的电脑显示器、键盘、透明玻璃隔断以及身旁并排坐的同事CHR_3全部凭空消失，突然瞬移变成了一条空旷无物的长会议桌。",
+        "表演鲜活度与反应镜头严重缺失：对比Target_Benchmark中CHR_1灵动的双手合十、俏皮挑眉、弯眼大笑，以及CHR_2被怼时吃惊瞪眼、CHR_3震惊张大嘴的精彩切镜反应，Video_A全程缺乏听话人切镜反应，表情平淡拘谨。",
+        "00:08-00:10中CHR_2的镜头缺少CHR_1的过肩前景建立空间相对关系，且尴尬干咳与窘迫表情不够到位。",
+        "04.8s–07.5s发生严重的空间位置跳变：CHR_1在00:00–04.8s与CHR_3并排坐在带黑色电脑显示器与磨砂隔断的工位上，04.8s切镜后身旁的CHR_3以及桌面的电脑显示器、隔断全部凭空消失，变成空旷无物的长木桌。",
+        "缺乏过肩正反打的空间锚定与结尾被怼后的受挫反应镜头，07.5s处CHR_2背后突然出现整排绿植墙，与前序开放式工位区环境衔接割裂。",
+        "人物面部表情较为平淡克制、偏播音腔念白感，缺乏参考原片与Video_A中的笑里藏刀微表情和鲜活情绪转换。"
+      ],
+      "champ_defects": [
+        "总时长拖沓且存在脏音瑕疵：视频长达16秒（目标12秒），其中00:00-00:07长达7秒未切镜，彻底缺失了00:04-00:06期间CHR_2吃惊瞪眼与CHR_3震惊张嘴的关键反应切镜；且00:14-00:16尾部拖沓并混入了一句莫名其妙的韩语画外杂音（“다행이네요”）。",
+        "空间细节跨镜跳变：00:08-00:09的过肩反打镜头中，前镜头立在两人之间的透明磨砂办公隔断与CHR_2面前的电脑显示器突然消失，到00:14切回CHR_2时隔断和显示器又重新出现。",
+        "微表情与肢体动作丰富度不及参考片：CHR_1缺少双手合十、弯眼大笑等极具戏剧张力的灵动小动作，CHR_3的震惊程度也远不如参考片鲜活。",
+        "15.0s处画外出现莫名其妙的细微杂音幻听（疑似残留韩语/乱码女声低语），且16秒总时长相较12秒目标略显拖尾2秒。",
+        "00:00–00:07第一镜长达7秒未切入听话人CHR_2与CHR_3的独立特写反应镜头，镜头切分密度略逊于参考原片（参考原片在03.5s与04.5s分别切了CHR_2与CHR_3的震惊特写）。",
+        "CHR_1在开场请教时未做出参考原片中标志性的双手合十礼貌捧杀手势，肢体微动作丰富度距85分原片仍有细微差距。"
+      ],
+      "pass1_detail": {
+        "a_key_defects": [
+          "空间拓扑严重崩坏：00:05切镜时，CHR_1面前的电脑显示器、键盘、透明玻璃隔断以及身旁并排坐的同事CHR_3全部凭空消失，突然瞬移变成了一条空旷无物的长会议桌。",
+          "表演鲜活度与反应镜头严重缺失：对比Target_Benchmark中CHR_1灵动的双手合十、俏皮挑眉、弯眼大笑，以及CHR_2被怼时吃惊瞪眼、CHR_3震惊张大嘴的精彩切镜反应，Video_A全程缺乏听话人切镜反应，表情平淡拘谨。",
+          "00:08-00:10中CHR_2的镜头缺少CHR_1的过肩前景建立空间相对关系，且尴尬干咳与窘迫表情不够到位。"
+        ],
+        "b_key_defects": [
+          "总时长拖沓且存在脏音瑕疵：视频长达16秒（目标12秒），其中00:00-00:07长达7秒未切镜，彻底缺失了00:04-00:06期间CHR_2吃惊瞪眼与CHR_3震惊张嘴的关键反应切镜；且00:14-00:16尾部拖沓并混入了一句莫名其妙的韩语画外杂音（“다행이네요”）。",
+          "空间细节跨镜跳变：00:08-00:09的过肩反打镜头中，前镜头立在两人之间的透明磨砂办公隔断与CHR_2面前的电脑显示器突然消失，到00:14切回CHR_2时隔断和显示器又重新出现。",
+          "微表情与肢体动作丰富度不及参考片：CHR_1缺少双手合十、弯眼大笑等极具戏剧张力的灵动小动作，CHR_3的震惊程度也远不如参考片鲜活。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 13,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 4,
+          "editing_rhythm_and_reactions": 12,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 15
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 15,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 11,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 14
+        },
+        "video_a_observation": "Video_A总时长约14秒，台词唇音同步尚可，但存在严重的空间连续性崩坏与戏剧反应缺失：1）在00:00-00:04镜头中，CHR_1与CHR_3并排坐在带有黑色显示器、键盘和隔断的工位上；然而00:05切到CHR_1近景时，她面前的显示器、键盘、隔断以及身旁的CHR_3全部凭空消失，桌面变成了一张空旷的长条会议木桌，空间拓扑完全断裂；2）对比参考片（Target_Benchmark）中CHR_1双手合十、灵动挑眉、弯眼大笑的鲜活表演，以及00:04切CHR_2瞪眼、00:05切CHR_3震惊张嘴的紧凑反应镜头，Video_A中角色动作拘谨平淡，完全缺失了关键的听话人反应切镜。",
+        "video_b_observation": "Video_B总时长16秒（相对12秒目标偏慢），整体人物造型一致，且在00:08建立了带CHR_1后脑勺的过肩正反打关系、00:14-00:16给出了CHR_2被怼后抿嘴低头的吃瘪反应，空间相对关系优于Video_A。但同样存在明显缺陷：1）00:00-00:07长达7秒停留在同一双人镜头，缺失了参考片在第一句台词中间切给CHR_2吃惊和CHR_3张嘴的紧凑反应镜头，导致前段节奏拖沓；2）00:08-00:09过肩拍CHR_2时，两人中间原本存在的透明磨砂隔断与CHR_2身前的显示器消失，00:14镜头又重新出现；3）00:14-00:16结尾拖沓，且音轨在00:14-00:15处混入了一句无关的韩语女声杂音；4）人物表演虽有摊手、抿嘴等动作，但灵动度与参考片的双手合十、弯眼坏笑仍有明显差距。",
+        "winner": "B",
+        "total_a": 66.0,
+        "total_b": 70.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "15.0s处画外出现莫名其妙的细微杂音幻听（疑似残留韩语/乱码女声低语），且16秒总时长相较12秒目标略显拖尾2秒。",
+          "00:00–00:07第一镜长达7秒未切入听话人CHR_2与CHR_3的独立特写反应镜头，镜头切分密度略逊于参考原片（参考原片在03.5s与04.5s分别切了CHR_2与CHR_3的震惊特写）。",
+          "CHR_1在开场请教时未做出参考原片中标志性的双手合十礼貌捧杀手势，肢体微动作丰富度距85分原片仍有细微差距。"
+        ],
+        "b_key_defects": [
+          "04.8s–07.5s发生严重的空间位置跳变：CHR_1在00:00–04.8s与CHR_3并排坐在带黑色电脑显示器与磨砂隔断的工位上，04.8s切镜后身旁的CHR_3以及桌面的电脑显示器、隔断全部凭空消失，变成空旷无物的长木桌。",
+          "缺乏过肩正反打的空间锚定与结尾被怼后的受挫反应镜头，07.5s处CHR_2背后突然出现整排绿植墙，与前序开放式工位区环境衔接割裂。",
+          "人物面部表情较为平淡克制、偏播音腔念白感，缺乏参考原片与Video_A中的笑里藏刀微表情和鲜活情绪转换。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 19,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 9,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 17
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 12,
+          "character_and_costume_consistency": 13,
+          "cinematography_and_spatial_coherence": 3,
+          "editing_rhythm_and_reactions": 11,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 15
+        },
+        "video_a_observation": "Video_A 整体表现在候选片中显著更优，空间轴线与人物交互关系清晰稳定。00:00–00:07为CHR_1与CHR_3并排坐在办公隔断与黑色显示器一侧的双人中景，CHR_1面带甜美微笑向对面发问，身旁CHR_3随着台词自然转头看向CHR_1再看向对面，神态带有惊讶与怯懦的真实反应；00:07–00:10切至越过CHR_1左肩拍向对面CHR_2的过肩正反打镜头，空间拓扑严丝合缝，CHR_2先轻咳一声再勉强赔笑说出“我开玩笑的”；00:10–00:13切回CHR_1单人中近景，含笑带刺地回怼；00:13–00:16切至CHR_2隔着显示器与隔断的近景反应镜头，展示其被怼后抿嘴、眼神闪躲低头的尴尬受挫神态，完整兑现了戏剧任务卡的情绪闭环。台词唇音同步率较高，角色骨相与服装高度还原设定图。主要不足在于：第一镜持续7秒未像参考片（85分）那样在中途插入对面CHR_2震惊及CHR_3张嘴吃惊的快切特写；CHR_1缺少参考片中双手合十的标志性俏皮肢体动作；此外15.0s处背景音混入了一声轻微的异常语音杂音，总时长16秒较12秒目标略长。综合评定为 82 分。",
+        "video_b_observation": "Video_B 存在致命的空间连续性崩坏（Spatial Jump）。00:00–00:04.8第一镜中，CHR_1与CHR_3并排坐在带有黑色液晶显示器、键盘和磨砂玻璃隔断的工位前；然而00:04.8切入第二镜（CHR_1单人中景）时，原本紧挨着她右侧的CHR_3以及桌面上所有的电脑显示器、键盘、隔断瞬间凭空消失，变成了一张空荡荡的会议长桌，空间位置严重跳变！00:07.5切至CHR_2时，没有交代与对面的过肩关系，且背景突兀变成紧贴座椅的大片绿植玻璃隔断。在表演与剪辑层面，角色全程表情趋于平淡僵硬的播音式念台词，既无参考片中笑眼弯弯的捧杀张力，也缺少结尾CHR_2被怼到哑口无言的反应镜头，戏剧张力断层。触犯空间跳变与表情平淡铁律，综合评定为 62 分。",
+        "winner": "A",
+        "total_a": 82.0,
+        "total_b": 62.0
+      }
+    },
+    {
+      "case_id": "dev_02_mindread_os",
+      "outcome": "champ_win",
+      "cand_score": 45.5,
+      "champ_score": 66.0,
+      "score_delta": -20.5,
+      "vote_pass1": "A",
+      "vote_pass2_swapped": "A",
+      "cand_dim_avg": {
+        "acting_micro_naturalism": 15.5,
+        "vocal_dialogue_delivery": 8.0,
+        "editing_rhythm_and_reactions": 14.0,
+        "character_and_costume_consistency": 13.5,
+        "cinematography_and_spatial_coherence": 5.5,
+        "physical_anatomy_integrity": 9.0
+      },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 15.0,
+        "vocal_dialogue_delivery": 8.5,
+        "editing_rhythm_and_reactions": 13.5,
+        "character_and_costume_consistency": 13.5,
+        "cinematography_and_spatial_coherence": 6.5,
+        "physical_anatomy_integrity": 9.0
+      },
+      "probe_cand": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 12.75,
+        "v_dur_s": 12.75,
+        "a_dur_s": 12.75,
+        "av_desync_s": 0.0,
+        "speech_total_s": 7.136,
+        "first_speech_s": 0.288,
+        "vad_segments": [
+          [
+            0.288,
+            1.28
+          ],
+          [
+            1.568,
+            2.496
+          ],
+          [
+            3.136,
+            4.64
+          ],
+          [
+            4.96,
+            5.152
+          ],
+          [
+            5.472,
+            6.56
+          ],
+          [
+            7.008,
+            8.064
+          ],
+          [
+            8.512,
+            9.376
+          ],
+          [
+            11.904,
+            12.416
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": true,
+        "median_motion": 3.052,
+        "approx_cuts": 4,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 20.0,
+        "penalty_reasons": [
+          "SILENT_MOUTH_FLAPPING_DESYNC"
+        ]
+      },
+      "probe_champ": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 13.5,
+        "v_dur_s": 13.5,
+        "a_dur_s": 13.5,
+        "av_desync_s": 0.0,
+        "speech_total_s": 9.152,
+        "first_speech_s": 0.288,
+        "vad_segments": [
+          [
+            0.288,
+            2.304
+          ],
+          [
+            2.624,
+            4.416
+          ],
+          [
+            4.64,
+            5.696
+          ],
+          [
+            5.728,
+            7.072
+          ],
+          [
+            7.488,
+            8.832
+          ],
+          [
+            8.96,
+            9.984
+          ],
+          [
+            11.136,
+            11.712
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 3.721,
+        "approx_cuts": 4,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "cand_defects": [
+        "00:03-00:05 心声OS音频严重吞字截断，台词“我当场认贼作父好吗？”只播到“我当”便在00:05切镜时硬生生掐断，丢失后半句关键赌咒内容，导致下一句CHR_1反问“什么叫认贼作父啊”缺乏前文听觉铺垫",
+        "00:05-00:07 切至CHR_1单人中景时，餐桌上的烤串铁盘、竹签筒及对面角色的前景关系全部凭空消失，桌面上仅剩一个孤立塑料杯，空间道具连续性断裂",
+        "缺少参考片开场极具代入感的双人同框环境建立镜头（烧烤摊热气、灯笼暖光与潮湿地面氛围）以及CHR_2仰头大笑、低头啃串的生活化表演层次，心声镜头仅做夸张抿嘴歪头，略显刻意",
+        "00:03-00:04 心声OS台词遭到更严重的腰斩截断，语音仅播放到“我当”就戛然而止，整整丢失“场认贼作父好吗”七个字，导致后续CHR_1反问“什么叫认贼作父啊”在听觉叙事上断裂",
+        "00:05-00:07 镜头3桌面空间与道具严重跳戏消失：镜头1、2桌面上摆满的烤串铁盘、纸巾盒与竹签筒在镜头3的同一张红桌上完全蒸发，只剩一个孤零零的塑料杯，且红塑料椅诡异地出现在桌面后方空地上",
+        "00:10-00:12 镜头5中CHR_1说“都说了”时面带不合时宜的浅笑，违背了剧本要求的“平静且略带孤寂无奈”的情绪基调，且背景出现另一张空红桌，空间连贯性差",
+        "SILENT_MOUTH_FLAPPING_DESYNC"
+      ],
+      "champ_defects": [
+        "00:02-00:05 心声OS镜头中CHR_2出现严重的“破第四面墙”违规，转头直视摄影机镜头抿嘴挤笑并举起烤串展示，彻底破坏180°正反打视线轴线与戏剧第四面墙沉浸感",
+        "00:03-00:05 心声OS音频同样发生吞字截断，“我当场认贼作父好吗？”只播到“我当场认贼”即被切镜截断，且00:02-00:03切镜处夹杂突兀的人声杂音",
+        "00:00-00:02 与 00:05-00:08 桌面道具排布前后跳变（首镜有带粉色吸管的冷饮杯，次镜变为纸巾盒与黑白双色签筒，三镜冷饮杯与纸巾盒又消失）",
+        "00:02-00:05 心声OS末尾台词严重被截断，语音仅播放到“我当场认贼”即被生硬切走，丢失了“作父好吗”四个关键尾字，触发吞尾字重扣红线",
+        "00:02-00:05 镜头2中CHR_2在内心戏时不自然地歪头直视摄像机镜头（打破第四面墙），且憋笑挤眉表情略显油腻造作，缺乏参考片低头吃串盘算的松弛生活感",
+        "00:10-00:13 末尾镜头5在10秒处切入后停顿发呆约1秒才开口，总时长13秒略微偏慢，且最后特写视线微偏左而非严格承接正反打轴线"
+      ],
+      "pass1_detail": {
+        "a_key_defects": [
+          "00:03-00:05 心声OS音频严重吞字截断，台词“我当场认贼作父好吗？”只播到“我当”便在00:05切镜时硬生生掐断，丢失后半句关键赌咒内容，导致下一句CHR_1反问“什么叫认贼作父啊”缺乏前文听觉铺垫",
+          "00:05-00:07 切至CHR_1单人中景时，餐桌上的烤串铁盘、竹签筒及对面角色的前景关系全部凭空消失，桌面上仅剩一个孤立塑料杯，空间道具连续性断裂",
+          "缺少参考片开场极具代入感的双人同框环境建立镜头（烧烤摊热气、灯笼暖光与潮湿地面氛围）以及CHR_2仰头大笑、低头啃串的生活化表演层次，心声镜头仅做夸张抿嘴歪头，略显刻意"
+        ],
+        "b_key_defects": [
+          "00:02-00:05 心声OS镜头中CHR_2出现严重的“破第四面墙”违规，转头直视摄影机镜头抿嘴挤笑并举起烤串展示，彻底破坏180°正反打视线轴线与戏剧第四面墙沉浸感",
+          "00:03-00:05 心声OS音频同样发生吞字截断，“我当场认贼作父好吗？”只播到“我当场认贼”即被切镜截断，且00:02-00:03切镜处夹杂突兀的人声杂音",
+          "00:00-00:02 与 00:05-00:08 桌面道具排布前后跳变（首镜有带粉色吸管的冷饮杯，次镜变为纸巾盒与黑白双色签筒，三镜冷饮杯与纸巾盒又消失）"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 16,
+          "character_and_costume_consistency": 13,
+          "cinematography_and_spatial_coherence": 6,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 11
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 14,
+          "character_and_costume_consistency": 13,
+          "cinematography_and_spatial_coherence": 5,
+          "editing_rhythm_and_reactions": 13,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 10
+        },
+        "video_a_observation": "Video_A 总时长约12秒，整体遵循了左CHR_2、右CHR_1的过肩正反打空间轴线，角色五官服饰与设定图高度一致，画内对白（00:00-00:02、00:05-00:08、00:08-00:09、00:10-00:12）唇音同步较准确，心声OS阶段（00:03-00:05）也保持了闭嘴状态。但相比85分标尺片Target_Benchmark，存在明显差距：1）致命音频截断缺陷：00:03-00:05 CHR_2的心声OS“这小子要是真能读心，我当场认贼作父好吗？”才说到“我当”就因镜头切换被硬生生掐断，丢失了核心词“认贼作父”，严重破坏戏剧衔接；2）空间道具跳变：00:05-00:07切到CHR_1反驳时，原本两人中间餐桌上的烤串铁盘与竹签筒完全消失，只剩一个透明塑料杯；3）表演自然度不及参考片：参考片中CHR_2开场仰头大笑、边啃烤串边在心里嘀咕的松弛生活感极强，而Video_A中CHR_2在00:03-00:05仅做僵硬的抿嘴憋笑，生活化细节较单一。",
+        "video_b_observation": "Video_B 总时长约13秒，角色外观与服饰还原度较好，画内对白唇形同步基本达标，00:05-00:08保留了过肩前景与桌面烤串盘。但其存在比Video_A更严重的导演轴线与表演问题：1）严重破第四面墙与视线轴线混乱：在00:02-00:05的心声OS镜头中，CHR_2不仅没有看向对面的CHR_1或低头看烤串，反而直接转头盯着摄影机镜头挤笑、甚至对着镜头举起烤串示意，彻底打破戏剧第四面墙；2）心声OS同样被截断且有杂音：00:02-00:03切镜处有明显混乱人声杂音，且心声OS“我当场认贼作父好吗？”只说到“我当场认贼”便被切镜掐断；3）桌面道具跨镜不一致：00:00-00:01桌上有粉色吸管冷饮杯，00:02-00:05冷饮杯消失变成纸巾盒和黑白签筒。",
+        "winner": "A",
+        "total_a": 69.0,
+        "total_b": 64.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "00:02-00:05 心声OS末尾台词严重被截断，语音仅播放到“我当场认贼”即被生硬切走，丢失了“作父好吗”四个关键尾字，触发吞尾字重扣红线",
+          "00:02-00:05 镜头2中CHR_2在内心戏时不自然地歪头直视摄像机镜头（打破第四面墙），且憋笑挤眉表情略显油腻造作，缺乏参考片低头吃串盘算的松弛生活感",
+          "00:10-00:13 末尾镜头5在10秒处切入后停顿发呆约1秒才开口，总时长13秒略微偏慢，且最后特写视线微偏左而非严格承接正反打轴线"
+        ],
+        "b_key_defects": [
+          "00:03-00:04 心声OS台词遭到更严重的腰斩截断，语音仅播放到“我当”就戛然而止，整整丢失“场认贼作父好吗”七个字，导致后续CHR_1反问“什么叫认贼作父啊”在听觉叙事上断裂",
+          "00:05-00:07 镜头3桌面空间与道具严重跳戏消失：镜头1、2桌面上摆满的烤串铁盘、纸巾盒与竹签筒在镜头3的同一张红桌上完全蒸发，只剩一个孤零零的塑料杯，且红塑料椅诡异地出现在桌面后方空地上",
+          "00:10-00:12 镜头5中CHR_1说“都说了”时面带不合时宜的浅笑，违背了剧本要求的“平静且略带孤寂无奈”的情绪基调，且背景出现另一张空红桌，空间连贯性差"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 16,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 7
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 15,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 5,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 5
+        },
+        "video_a_observation": "Video_A 总时长约13秒，共5个镜头。镜头1（00:00-00:02）过CHR_1右肩拍左侧CHR_2，CHR_2手指对方笑着调侃“骗骗哥们可以，别把自己也骗了”，唇音同步良好，桌面烤串铁盘、饮料杯、筷筒俱全；镜头2（00:02-00:05）切CHR_2单人近景拿起烤串闭嘴播放心声OS，但存在两个明显缺陷：一是CHR_2直接转头看向摄像机镜头（打破第四面墙）并露出略显油腻夸张的憋笑表情，不如参考片低头吃串自然；二是音频在00:05处“我当场认贼”被硬生生截断，吞掉了“作父好吗？”四个尾字；镜头3（00:06-00:08）反打过CHR_2左肩拍右侧CHR_1，空间轴线与桌面道具保持连贯，CHR_1摊手皱眉反问“能不能好好说话，什么叫认贼作父啊？”，口型与无奈吐槽感匹配较好；镜头4（00:09）CHR_2面部特写瞪眼震惊“你居然真的……”，情绪与口型到位；镜头5（00:10-00:13）CHR_1特写先停顿轻叹，在00:11说“都说了”，唇音同步准确，角色五官与服装印花均高度还原设定图。",
+        "video_b_observation": "Video_B 总时长约12秒，共5个镜头。镜头1（00:00-00:02）过CHR_1右肩拍左侧CHR_2拿着烤串调侃“骗骗哥们可以，别把自己也骗了”，口型同步尚可；镜头2（00:03-00:04）CHR_2单人近景闭嘴播放心声OS，但镜头时长过短，心声台词仅播到“这小子要是真能读心，我当”便在00:04处被严重截断，丢失了“场认贼作父好吗”整整七个字，导致观众根本没听到“认贼作父”四个字；镜头3（00:05-00:07）切CHR_1单人中景反问“能不能好好说话，什么叫认贼作父啊？”，虽然口型同步，但空间与道具连续性彻底崩坏——镜头1、2桌面上摆满的烤串铁盘、竹签筒和纸巾盒在镜头3的红桌上全部凭空消失，只剩一个塑料水杯，且身旁空地上多出一把角度诡异的红塑料椅；镜头4（00:08-00:09）CHR_2特写瞪眼说“你居然真的……”，口型与震惊表情较好；镜头5（00:10-00:12）CHR_1特写轻叹后带着微笑说“都说了”，微笑情绪与剧本要求的“平静且略带孤寂无奈”不符。",
+        "winner": "A",
+        "total_a": 68.0,
+        "total_b": 62.0
+      }
+    },
+    {
+      "case_id": "dev_03_romance_tear",
+      "outcome": "champ_win",
+      "cand_score": 66.0,
+      "champ_score": 83.0,
+      "score_delta": -17.0,
+      "vote_pass1": "B",
+      "vote_pass2_swapped": "A",
+      "cand_dim_avg": {
+        "acting_micro_naturalism": 15.5,
+        "vocal_dialogue_delivery": 10.0,
+        "editing_rhythm_and_reactions": 11.0,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 7.5,
+        "physical_anatomy_integrity": 8.0
+      },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 19.5,
+        "vocal_dialogue_delivery": 17.0,
+        "editing_rhythm_and_reactions": 16.0,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 8.5,
+        "physical_anatomy_integrity": 8.0
+      },
+      "probe_cand": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 8.75,
+        "v_dur_s": 8.75,
+        "a_dur_s": 8.725,
+        "av_desync_s": 0.025,
+        "speech_total_s": 4.48,
+        "first_speech_s": 0.256,
+        "vad_segments": [
+          [
+            0.256,
+            0.992
+          ],
+          [
+            1.216,
+            2.304
+          ],
+          [
+            4.704,
+            6.112
+          ],
+          [
+            6.56,
+            6.976
+          ],
+          [
+            7.808,
+            8.64
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 3.543,
+        "approx_cuts": 3,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "probe_champ": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 9.5,
+        "v_dur_s": 9.5,
+        "a_dur_s": 9.474,
+        "av_desync_s": 0.026,
+        "speech_total_s": 4.064,
+        "first_speech_s": 0.288,
+        "vad_segments": [
+          [
+            0.288,
+            0.96
+          ],
+          [
+            1.472,
+            2.496
+          ],
+          [
+            3.488,
+            4.544
+          ],
+          [
+            6.912,
+            7.392
+          ],
+          [
+            8.384,
+            9.216
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 3.223,
+        "approx_cuts": 2,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "cand_defects": [
+        "00:01-00:02 严重音画错位/串嘴：在切到女主近景反应镜头（女主紧闭嘴唇未说话）时，画外继续播放男主台词“我也遇上了更好的”，且00:02-00:04.5出现突兀的死寂断音空白，把男主一句完整台词硬生生拆断。",
+        "00:06 女主抬手拭泪后手部放下回抓肩带时动作略僵硬，脸上挂着的泪痕根本没被擦掉。",
+        "男主前2秒近景表演情绪过于平淡，眼眶泛红与隐忍委屈感不如参考片及Video_B充沛。",
+        "严重声画割裂与剪辑断层：02:00-04:00女生长达2秒的反应镜头中，背景配乐与环境音被生硬切断，陷入完全死寂的无声黑洞，导致男生一句连贯的台词被突兀腰斩。",
+        "第3镜（04:30-05:30）切回男生大特写补完后半句“可我还是选择了你”时，男生眼部红血丝与悲伤含泪感明显弱于任务卡要求，情绪张力断档。",
+        "第4镜（06:00-08:00）女生右手从脸颊擦泪滑向耳后整理头发再落回包带的过程中，手指与脸颊、发丝的接触略显悬浮僵硬，且脸上的两行泪痕在擦拭动作后依然挂在脸上，物理擦拭效果失效。",
+        "全片4个镜头全部为单人近景/特写，完全缺失交代两人面对面站立空间关系的双人镜头或过肩镜头，空间拓扑关系仅靠视线方向硬撑，临场对峙感弱于参考片。"
+      ],
+      "champ_defects": [
+        "00:06 女主在00:05抬手擦泪后，手刚放下脸颊上瞬间又多出一道静态悬挂的眼泪，物理连贯性有瑕疵。",
+        "00:07-00:09 切到双人中景说决绝台词时，镜头景别拉远导致女主面部刺痛与决绝的微表情冲击力略弱于参考片的过肩近景。",
+        "第1镜与第2镜切镜衔接处（03:00-04:00），男生说“可我还是选择了你”的后半句时画面已切至女生特写，但镜头角度完全脱离了男生在画面中的存在，缺少听话与说话间的自然反应互动过渡。",
+        "第2镜（04:00-06:00）女生用手擦拭眼泪后（05:00-06:00），脸颊上的泪痕不仅没有被擦掉，反而在06:00处凭空保留甚至重新浮现，违背物理连续性。",
+        "第1、2镜背景中突兀出现了露台桌椅，与戏剧任务卡规定的“教学楼门外半开放式灰白混凝土廊柱过渡区”不完全吻合，且第3镜切回全景时才勉强补入玻璃门，环境道具显得有些杂乱。",
+        "第3镜（07:00-09:00）在最具戏剧爆发力与决绝斩断感的尾句“可我，没让你选我”时，反而从特写退回到了双人中景，削弱了女生面部冷酷决绝微表情的视觉冲击力（参考片此处采用紧凑过肩近景）。"
+      ],
+      "pass1_detail": {
+        "a_key_defects": [
+          "00:01-00:02 严重音画错位/串嘴：在切到女主近景反应镜头（女主紧闭嘴唇未说话）时，画外继续播放男主台词“我也遇上了更好的”，且00:02-00:04.5出现突兀的死寂断音空白，把男主一句完整台词硬生生拆断。",
+          "00:06 女主抬手拭泪后手部放下回抓肩带时动作略僵硬，脸上挂着的泪痕根本没被擦掉。",
+          "男主前2秒近景表演情绪过于平淡，眼眶泛红与隐忍委屈感不如参考片及Video_B充沛。"
+        ],
+        "b_key_defects": [
+          "00:06 女主在00:05抬手擦泪后，手刚放下脸颊上瞬间又多出一道静态悬挂的眼泪，物理连贯性有瑕疵。",
+          "00:07-00:09 切到双人中景说决绝台词时，镜头景别拉远导致女主面部刺痛与决绝的微表情冲击力略弱于参考片的过肩近景。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 15,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 11,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 6
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 20,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 9,
+          "editing_rhythm_and_reactions": 17,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 17
+        },
+        "video_a_observation": "Video_A总时长约9秒，人物骨相与服装还原度较高，空间站位（左男右女、教学楼门外廊下夕阳逆光）符合要求。但存在致命的音频剪辑与唇音同步缺陷：00:00-00:01男主过肩镜头只说了“有没有可能”，00:01-00:02切到女主闭嘴聆听的反应镜头时，男主声音“我也遇上了更好的”仍在画外播放（画面无男主嘴部动作），随后00:02-00:04.5出现长达2.5秒的无对白空白，直到00:04.5切回男主特写才继续说“可我还是选择了你”，导致一句连贯台词被诡异切断且音画脱节；00:06-00:08女主边擦泪边说“可我，没让你选我”，唇音基本同步，但擦泪动作未能真正拭去脸上的泪痕。",
+        "video_b_observation": "Video_B总时长约9秒，整体节奏、唇音同步与情绪张力显著优于Video_A，接近Target_Benchmark水准。00:00-00:04男主过肩近景完整说出“有没有可能，我也遇上了更好的，可我还是选择了你”，眼眶通红、眉头紧蹙，委屈隐忍的微表情比Video_A饱满得多，唇齿开合与人声严丝合缝；00:04-00:06切女主特写落泪并抬手拭泪，情绪动容真实（仅00:06放下手后脸颊仍挂着静态泪珠略有物理瑕疵）；00:07-00:09切双人侧面中景（左男右女站位与光影轴线完全准确），女主冷酷回应“可我，没让你选我”，口型同步准确。唯独最后一句采用双人中景而非参考片的近景过肩，面部决绝微表情的视觉冲击力略逊于参考片。",
+        "winner": "B",
+        "total_a": 62.0,
+        "total_b": 85.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "第1镜与第2镜切镜衔接处（03:00-04:00），男生说“可我还是选择了你”的后半句时画面已切至女生特写，但镜头角度完全脱离了男生在画面中的存在，缺少听话与说话间的自然反应互动过渡。",
+          "第2镜（04:00-06:00）女生用手擦拭眼泪后（05:00-06:00），脸颊上的泪痕不仅没有被擦掉，反而在06:00处凭空保留甚至重新浮现，违背物理连续性。",
+          "第1、2镜背景中突兀出现了露台桌椅，与戏剧任务卡规定的“教学楼门外半开放式灰白混凝土廊柱过渡区”不完全吻合，且第3镜切回全景时才勉强补入玻璃门，环境道具显得有些杂乱。",
+          "第3镜（07:00-09:00）在最具戏剧爆发力与决绝斩断感的尾句“可我，没让你选我”时，反而从特写退回到了双人中景，削弱了女生面部冷酷决绝微表情的视觉冲击力（参考片此处采用紧凑过肩近景）。"
+        ],
+        "b_key_defects": [
+          "严重声画割裂与剪辑断层：02:00-04:00女生长达2秒的反应镜头中，背景配乐与环境音被生硬切断，陷入完全死寂的无声黑洞，导致男生一句连贯的台词被突兀腰斩。",
+          "第3镜（04:30-05:30）切回男生大特写补完后半句“可我还是选择了你”时，男生眼部红血丝与悲伤含泪感明显弱于任务卡要求，情绪张力断档。",
+          "第4镜（06:00-08:00）女生右手从脸颊擦泪滑向耳后整理头发再落回包带的过程中，手指与脸颊、发丝的接触略显悬浮僵硬，且脸上的两行泪痕在擦拭动作后依然挂在脸上，物理擦拭效果失效。",
+          "全片4个镜头全部为单人近景/特写，完全缺失交代两人面对面站立空间关系的双人镜头或过肩镜头，空间拓扑关系仅靠视线方向硬撑，临场对峙感弱于参考片。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 19,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 15,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 17
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 16,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 11,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 14
+        },
+        "video_a_observation": "Video_A 总时长约 9.0 秒，共 3 个镜头。第 1 镜（00:00-03:20）为过女生右肩拍男生的中近景，男生眼眶泛红含泪，说出“有没有可能，我也遇上了更好的，可我...”，唇音同步准确，微表情委屈隐忍到位；第 2 镜（03:20-06:30）切至女生侧脸特写，伴随男生画外音“还是选择了你”，女生落泪、嘴角微颤并抬手拭泪，情绪动容真实，但擦泪后（06:00）脸颊泪水未能物理擦除反而再次显现；第 3 镜（06:30-09:00）切至侧面双人中景（男生在左面向右，女生在右面向左背靠玻璃门，空间站位严格符合任务卡），女生冷酷平静说出“可我，没让你选我”，唇音严丝合缝，收尾决绝，且全片保留了连贯的BGM与环境氛围，但尾镜景别由特写退回中景略微削弱了情绪压迫感。",
+        "video_b_observation": "Video_B 总时长约 9.0 秒，共 4 个镜头。第 1 镜（00:00-02:00）为过女生肩拍男生的近景，男生说出“有没有可能，我也遇上了更好的”，唇音同步尚可，但眼眶泛红程度不如A；第 2 镜（02:00-04:20）切至女生单人近景反应镜头，女生蹙眉落泪，但此2秒多区间内音轨完全静音（连BGM和环境底噪都彻底消失），造成极其突兀的听觉断层；第 3 镜（04:20-05:40）切回男生特写继续说“可我还是选择了你”，把原本连贯的一句话硬生生拆碎；第 4 镜（05:40-09:00）切至女生单人近景，女生抬手抹泪后说出“可我，没让你选我”，但擦泪动作悬浮、泪痕未消失，且全片缺乏双人同框建立镜头，空间对峙感较弱。",
+        "winner": "A",
+        "total_a": 81.0,
+        "total_b": 70.0
+      }
+    },
+    {
+      "case_id": "dev_04_period_1988",
+      "outcome": "champ_win",
+      "cand_score": 70.0,
+      "champ_score": 74.0,
+      "score_delta": -4.0,
+      "vote_pass1": "B",
+      "vote_pass2_swapped": "A",
+      "cand_dim_avg": {
+        "acting_micro_naturalism": 17.5,
+        "vocal_dialogue_delivery": 9.5,
+        "editing_rhythm_and_reactions": 12.0,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 8.0,
+        "physical_anatomy_integrity": 9.0
+      },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 17.0,
+        "vocal_dialogue_delivery": 12.0,
+        "editing_rhythm_and_reactions": 14.5,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 7.5,
+        "physical_anatomy_integrity": 9.0
+      },
+      "probe_cand": {
+        "width": 512,
+        "height": 896,
+        "duration_s": 12.084,
+        "v_dur_s": 12.083,
+        "a_dur_s": 12.084,
+        "av_desync_s": 0.001,
+        "speech_total_s": 6.272,
+        "first_speech_s": 0.256,
+        "vad_segments": [
+          [
+            0.256,
+            1.056
+          ],
+          [
+            1.088,
+            2.016
+          ],
+          [
+            4.48,
+            4.896
+          ],
+          [
+            5.664,
+            5.952
+          ],
+          [
+            6.848,
+            7.52
+          ],
+          [
+            7.968,
+            8.672
+          ],
+          [
+            9.056,
+            9.824
+          ],
+          [
+            10.144,
+            11.2
+          ],
+          [
+            11.424,
+            12.064
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 5.066,
+        "approx_cuts": 3,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "probe_champ": {
+        "width": 512,
+        "height": 896,
+        "duration_s": 10.501,
+        "v_dur_s": 10.5,
+        "a_dur_s": 10.501,
+        "av_desync_s": 0.001,
+        "speech_total_s": 6.272,
+        "first_speech_s": 0.256,
+        "vad_segments": [
+          [
+            0.256,
+            1.888
+          ],
+          [
+            2.848,
+            3.008
+          ],
+          [
+            3.296,
+            3.648
+          ],
+          [
+            4.512,
+            4.8
+          ],
+          [
+            5.408,
+            6.016
+          ],
+          [
+            6.368,
+            7.104
+          ],
+          [
+            7.392,
+            8.16
+          ],
+          [
+            8.512,
+            9.568
+          ],
+          [
+            9.824,
+            10.496
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 6.7,
+        "approx_cuts": 2,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "cand_defects": [
+        "严重丢词截断：第一句男主心声OS“是我对不起她俩”整整半句台词被完全砍掉消失（01.8s后无声）",
+        "剪辑严重注水停顿：02s至03.7s切入女主单人中近景后，女主在无声状态下发呆缓抬手近2秒才在03.8s喊出“钱！”，导致总时长拖沓至11.4秒（目标9.1秒），破坏了参考片从回忆瞬间切回现实讨债的凌厉节奏",
+        "第一镜00s-02s为心声OS，但男主在01s转头看女主起身时嘴唇有轻微张合动作，且过早消解了低头沉思悔恨的戏剧张力",
+        "00:01-00:02严重违反任务卡台词完整性：第一句心声OS后半句“是我对不起她俩”整句彻底丢失未生成",
+        "00:02-00:03之间插入约1.5秒无台词的喘息空镜等待，拖慢叙事节奏，导致总时长超标至12秒（目标9.1秒）",
+        "00:00-00:01开场即处于现实起身对视状态，缺乏参考片从回忆卧姿切入现实的时间与情绪转折层次"
+      ],
+      "champ_defects": [
+        "心声OS被生硬腰斩：第一句男主心声“是我对不起她俩”在02.5s仅说到“是我”二字就被硬切打断，缺失“对不起她俩”",
+        "中段景别调度平庸：03s-05.7s把女主讨钱（“钱！”）与男主恍然回应（“对哦，还要给你钱”）全部塞在同一个全身大远景里，缺乏参考片切入男主近景捕捉其眼神回神与掏兜微表情的戏剧感染力",
+        "房间空间结构微瑕：03s全身镜头左侧出现了一个铺着被褥的前景土炕，而后方女主刚起身的木榻上也有一套花布被褥，变成双炕结构，且06s女主近景举右手姿态与前一镜伸手讨钱的姿态不够连贯",
+        "00:02-00:03第一句心声OS尾句被硬切截断（仅播出“是我”即被切掉，漏掉“对不起她俩”完整尾词）",
+        "00:03-00:05第二镜采用侧面中全景，导致CHR_2喊“钱！”与CHR_1回应“对哦，还要给你钱”时面部微表情与唇部细节缺乏近景冲击力，不及参考片正反打紧凑特写有张力"
+      ],
+      "pass1_detail": {
+        "a_key_defects": [
+          "严重丢词截断：第一句男主心声OS“是我对不起她俩”整整半句台词被完全砍掉消失（01.8s后无声）",
+          "剪辑严重注水停顿：02s至03.7s切入女主单人中近景后，女主在无声状态下发呆缓抬手近2秒才在03.8s喊出“钱！”，导致总时长拖沓至11.4秒（目标9.1秒），破坏了参考片从回忆瞬间切回现实讨债的凌厉节奏",
+          "第一镜00s-02s为心声OS，但男主在01s转头看女主起身时嘴唇有轻微张合动作，且过早消解了低头沉思悔恨的戏剧张力"
+        ],
+        "b_key_defects": [
+          "心声OS被生硬腰斩：第一句男主心声“是我对不起她俩”在02.5s仅说到“是我”二字就被硬切打断，缺失“对不起她俩”",
+          "中段景别调度平庸：03s-05.7s把女主讨钱（“钱！”）与男主恍然回应（“对哦，还要给你钱”）全部塞在同一个全身大远景里，缺乏参考片切入男主近景捕捉其眼神回神与掏兜微表情的戏剧感染力",
+          "房间空间结构微瑕：03s全身镜头左侧出现了一个铺着被褥的前景土炕，而后方女主刚起身的木榻上也有一套花布被褥，变成双炕结构，且06s女主近景举右手姿态与前一镜伸手讨钱的姿态不够连贯"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 17,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 12,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 9
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 15,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 11
+        },
+        "video_a_observation": "Video_A 总时长约11.4秒（超出目标9.1秒约2.3秒）。第一镜（00:00-00:02）全景中，CHR_1坐在土炕沿，CHR_2从花布被褥上撑起身下地，但第一句心声OS“因为这件事我也内疚了好久，是我对不起她俩”仅播完前半句“因为这件事我也内疚了好久”，后半句“是我对不起她俩”被完全吞掉丢失；且01s处CHR_1在OS期间嘴部有微小的张合。第二镜（00:02-00:04.5）切至CHR_2单人中近景，存在长达1.7秒（02.0s-03.7s）的无声发呆与缓慢抬手空白期，直到03.8s才开口喊出“钱！”，严重拖慢了原本凌厉的现实切入节奏。第三镜（00:04.5-00:07.5）切CHR_1中近景回应“对哦，还要给你钱”，唇音同步准确，并伴有摸向胸口衣兜的自然动作与恍然微表情。第四镜（00:07.5-00:11.4）切CHR_2中近景焦急催促“你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！”，面部焦灼皱眉、带哭腔的口型开合与人声同步较好。整体空间轴线（左男右女正反打）与角色服饰一致性良好，但因首句台词严重缺失后半句及第二镜无声注水停顿导致失分。",
+        "video_b_observation": "Video_B 总时长约10.0秒（较接近目标9.1秒）。第一镜（00:00-00:02.7）中景展现CHR_1低头坐在炕沿沉思（闭嘴状态符合心声OS要求），背景中CHR_2从被褥上醒来起身，但心声OS在02.5s说到“是我……”时被硬生生截断，“对不起她俩”五字缺失。第二镜（00:02.7-00:05.7）切至侧面全身景别，两人面对面对峙，CHR_2伸手喊“钱！”（03.0s），CHR_1边摸向外衣内兜边回应“对哦，还要给你钱”（04.3s-05.7s）；虽然无注水空拍、衔接紧凑，但全程停留在全身远景，未能像Target_Benchmark那样切入男主特写/近景去放大其从悔恨回神到恍然应承的眼神变化，且画面左侧多出一张铺被褥的土炕（与背景CHR_2起身的床铺形成双床/双炕空间冗余）。第三镜（00:05.7-00:10.0）切CHR_2中近景哭腔催促“你答应俺的……你快给俺！”，面部悲切焦急的眉眼表情与唇音同步自然准确，但右手高举半空的手势相比前一镜平伸讨钱的手势略显割裂。",
+        "winner": "B",
+        "total_a": 69.0,
+        "total_b": 70.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "00:02-00:03第一句心声OS尾句被硬切截断（仅播出“是我”即被切掉，漏掉“对不起她俩”完整尾词）",
+          "00:03-00:05第二镜采用侧面中全景，导致CHR_2喊“钱！”与CHR_1回应“对哦，还要给你钱”时面部微表情与唇部细节缺乏近景冲击力，不及参考片正反打紧凑特写有张力"
+        ],
+        "b_key_defects": [
+          "00:01-00:02严重违反任务卡台词完整性：第一句心声OS后半句“是我对不起她俩”整句彻底丢失未生成",
+          "00:02-00:03之间插入约1.5秒无台词的喘息空镜等待，拖慢叙事节奏，导致总时长超标至12秒（目标9.1秒）",
+          "00:00-00:01开场即处于现实起身对视状态，缺乏参考片从回忆卧姿切入现实的时间与情绪转折层次"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 19,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 15,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 13
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 18,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 12,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 10
+        },
+        "video_a_observation": "Video_A 总时长约10秒，整体空间布局、角色骨相服饰与设定图高度一致。00:00-00:02 第一镜中 CHR_1 坐在土炕边沿闭嘴配合心声OS，神态低沉内疚，背景中 CHR_2 从土炕花布被褥侧卧起身下地，空间动线自然连贯；但 00:02-00:03 处心声OS尾句“是我对不起她俩”在念出“是我”后被切镜硬截断（吞掉“对不起她俩”）。00:03-00:05 第二镜切至侧面双人中全景，CHR_2 伸手讨钱说“钱！”，CHR_1 转头回应“对哦，还要给你钱”并做摸兜动作，唇音同步准确，但因景别偏远，两人面部表情转换不如 Target_Benchmark 的特写正反打鲜活强烈。00:06-00:10 第三镜切至 CHR_2 近景，焦灼催促“你答应俺的……你快给俺！”，眉头紧蹙、焦急哭腔与嘴唇开合同步严密，手部五指形态自然。",
+        "video_b_observation": "Video_B 总时长约12秒，角色造型与场景还原度良好，正反打景别较接近参考片，但存在明显的台词漏句与节奏拖沓问题。00:00-00:01 第一镜开场 CHR_2 已在起身并与 CHR_1 对视，心声OS仅念出“因为这件事，我也内疚了好久”，后半句关键台词“是我对不起她俩”完全丢失！00:02-00:04 第二镜切至 CHR_2 近景，先出现长达近2秒的深呼吸与抬手等待，随后在 00:04 才喊出“钱！”，节奏明显拖泥带水。00:05-00:07 第三镜切至 CHR_1 近景回应“对哦，还要给你钱”并摸上衣口袋，表情与唇音同步尚可。00:08-00:12 第四镜切回 CHR_2 近景急切催促讨钱，唇音同步与焦急神态自然，但因前段漏词与空拍拖延，整体戏剧紧凑度受损严重。",
+        "winner": "A",
+        "total_a": 78.0,
+        "total_b": 71.0
+      }
+    },
+    {
+      "case_id": "dev_05_museum_suspense",
+      "outcome": "tie",
+      "cand_score": 78.0,
+      "champ_score": 75.0,
+      "score_delta": 3.0,
+      "vote_pass1": "A",
+      "vote_pass2_swapped": "A",
+      "cand_dim_avg": {
+        "acting_micro_naturalism": 16.5,
+        "vocal_dialogue_delivery": 16.5,
+        "editing_rhythm_and_reactions": 13.5,
+        "character_and_costume_consistency": 13.5,
+        "cinematography_and_spatial_coherence": 9.0,
+        "physical_anatomy_integrity": 9.0
+      },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 17.0,
+        "vocal_dialogue_delivery": 16.0,
+        "editing_rhythm_and_reactions": 17.0,
+        "character_and_costume_consistency": 9.0,
+        "cinematography_and_spatial_coherence": 7.5,
+        "physical_anatomy_integrity": 8.5
+      },
+      "probe_cand": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 11.417,
+        "v_dur_s": 11.417,
+        "a_dur_s": 11.391,
+        "av_desync_s": 0.026,
+        "speech_total_s": 6.144,
+        "first_speech_s": 0.256,
+        "vad_segments": [
+          [
+            0.256,
+            0.544
+          ],
+          [
+            1.376,
+            2.112
+          ],
+          [
+            2.528,
+            3.104
+          ],
+          [
+            3.552,
+            4.864
+          ],
+          [
+            7.136,
+            7.808
+          ],
+          [
+            8.32,
+            9.28
+          ],
+          [
+            9.472,
+            10.592
+          ],
+          [
+            10.624,
+            10.912
+          ],
+          [
+            10.944,
+            11.136
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 3.275,
+        "approx_cuts": 3,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "probe_champ": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 9.584,
+        "v_dur_s": 9.583,
+        "a_dur_s": 9.583,
+        "av_desync_s": 0.0,
+        "speech_total_s": 6.304,
+        "first_speech_s": 0.256,
+        "vad_segments": [
+          [
+            0.256,
+            0.736
+          ],
+          [
+            1.44,
+            2.208
+          ],
+          [
+            2.592,
+            3.104
+          ],
+          [
+            3.712,
+            5.024
+          ],
+          [
+            5.376,
+            6.048
+          ],
+          [
+            6.656,
+            7.616
+          ],
+          [
+            7.776,
+            9.376
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 3.205,
+        "approx_cuts": 2,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "cand_defects": [
+        "00:05-00:06 插入了长达约2秒的 CHR_1 面无表情发呆静音反应镜头，情绪过于冷淡镇定，缺乏合同被烧后的惊愕与不安感，且微微打断了 CHR_2 两句台词之间的压迫感连贯度。",
+        "00:02-00:04 及 00:07-00:10 中 CHR_2 的手部一直保持轻抚胸前珍珠项链/皮草领口的较为单一静态姿势，肢体微动作丰富度略逊于参考片。",
+        "0:05-0:07插入了约2秒完全无对白、无音效的死寂空白反应镜头，导致全片叙事节奏断档、戏剧张力泄气，总时长略超目标。",
+        "CHR_1在第三镜（0:05-0:06）听到诡异规矩时的反应过于冷漠平静，缺乏应有的惊疑与不安，且与第一镜（0:00-0:02）相比脸型与鼻梁骨相略有微变。",
+        "第二镜（0:02-0:04）CHR_2在侧面中景说话时上半身及手部姿态较为僵直，压迫感与灵动度不及参考原片。"
+      ],
+      "champ_defects": [
+        "CHR_1 跨镜头发型与脸型严重崩坏：00:00-00:01 正面镜头中完全丢失了设定图的黑色碎发刘海，变成了大光明全露额头扎发且脸型偏离设定图；00:02-00:04 切到过肩背影时后脑勺又突然变回短碎发。",
+        "桌面道具空间拓扑跨镜跳变：00:00-00:01 暖橘色台灯紧贴在燃烧合同后方，而 00:02-00:04 反打镜头中台灯突然瞬移到长案最右侧边缘，与燃烧合同之间凭空隔出大段距离并多出两把太师椅。",
+        "00:02-00:04 远景镜头中 CHR_2 说话时面部与嘴部动作较为拘谨僵硬。",
+        "CHR_1（林先生）在第一镜（0:00-0:02）发生严重角色一致性崩坏，发型由设定图中的中分黑色碎发刘海变成了大光明全向后梳的束发，五官骨相与Character_Ref_1差距明显。",
+        "第二镜（0:02-0:04）CHR_1的后脑勺发型又突然变回浓密短碎发，与第一镜的大光明束发产生跨镜头发型穿帮。",
+        "第二镜（0:02-0:04）CHR_2远景说话时面部僵硬呆滞，缺乏Target_Benchmark中红唇特写的魅惑与微表情压迫感。"
+      ],
+      "pass1_detail": {
+        "a_key_defects": [
+          "00:05-00:06 插入了长达约2秒的 CHR_1 面无表情发呆静音反应镜头，情绪过于冷淡镇定，缺乏合同被烧后的惊愕与不安感，且微微打断了 CHR_2 两句台词之间的压迫感连贯度。",
+          "00:02-00:04 及 00:07-00:10 中 CHR_2 的手部一直保持轻抚胸前珍珠项链/皮草领口的较为单一静态姿势，肢体微动作丰富度略逊于参考片。"
+        ],
+        "b_key_defects": [
+          "CHR_1 跨镜头发型与脸型严重崩坏：00:00-00:01 正面镜头中完全丢失了设定图的黑色碎发刘海，变成了大光明全露额头扎发且脸型偏离设定图；00:02-00:04 切到过肩背影时后脑勺又突然变回短碎发。",
+          "桌面道具空间拓扑跨镜跳变：00:00-00:01 暖橘色台灯紧贴在燃烧合同后方，而 00:02-00:04 反打镜头中台灯突然瞬移到长案最右侧边缘，与燃烧合同之间凭空隔出大段距离并多出两把太师椅。",
+          "00:02-00:04 远景镜头中 CHR_2 说话时面部与嘴部动作较为拘谨僵硬。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 18,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 9,
+          "editing_rhythm_and_reactions": 15,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 17
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 17,
+          "character_and_costume_consistency": 9,
+          "cinematography_and_spatial_coherence": 6,
+          "editing_rhythm_and_reactions": 17,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 16
+        },
+        "video_a_observation": "Video_A 总时长约 10 秒，与目标 9.8 秒高度契合。共 4 个镜头：第1镜（00:00-00:02）CHR_1 隔着长案与苏秘书过肩对视，双手按桌，面对燃烧的合同惊愕质问“哎，你怎么烧掉了？”，唇音严丝合缝，五官发型与设定图 Character_Ref_1 高度一致；第2镜（00:02-00:04）切反打 CHR_2（苏秘书）中景，唇音同步自然，手轻抚皮草领口从容说出“烧了，这合同才算生效”，桌面台灯与燃烧合同空间轴线完全连贯；第3镜（00:05-00:06）切 CHR_1 听话反应近景，手抓双肩包背带注视火苗，但表情略显平静冷淡，且存在约 1.5-2 秒的无声停顿；第4镜（00:07-00:10）切回 CHR_2 近景微笑说出“林先生，欢迎入职第九号私人博物馆”，眼神与微笑具备诡秘掌控感，唇形同步准确。整体人物还原度、空间一致性与物理细节表现优秀。",
+        "video_b_observation": "Video_B 总时长约 9 秒，共 3 个镜头，台词衔接节奏紧凑：第1镜（00:00-00:01）CHR_1 过肩镜头质问“哎，你怎么烧掉了？”，唇音同步良好，但人物造型严重违背设定图 Character_Ref_1——原本的黑色碎发中分刘海完全消失，变成了全露额头的大光明向后扎发，脸型五官也明显走样；第2镜（00:02-00:04）切过肩反打 CHR_2 远景说“烧了，这合同才算生效”，此时前景 CHR_1 的后脑勺却又变回了无马尾的普通短碎发（前后镜头发型不连贯），且桌面空间发生明显跳变：第1镜中紧挨在燃烧合同旁的暖橘色台灯，在第2镜中突然瞬移到了桌面最右侧远处，中间还凭空多出两把木椅；第3镜（00:05-00:09）推至 CHR_2 特写缓慢前推，说“林先生，欢迎入职第九号私人博物馆”，微表情、挑眉与唇音同步表现较好。",
+        "winner": "A",
+        "total_a": 82.0,
+        "total_b": 73.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "CHR_1（林先生）在第一镜（0:00-0:02）发生严重角色一致性崩坏，发型由设定图中的中分黑色碎发刘海变成了大光明全向后梳的束发，五官骨相与Character_Ref_1差距明显。",
+          "第二镜（0:02-0:04）CHR_1的后脑勺发型又突然变回浓密短碎发，与第一镜的大光明束发产生跨镜头发型穿帮。",
+          "第二镜（0:02-0:04）CHR_2远景说话时面部僵硬呆滞，缺乏Target_Benchmark中红唇特写的魅惑与微表情压迫感。"
+        ],
+        "b_key_defects": [
+          "0:05-0:07插入了约2秒完全无对白、无音效的死寂空白反应镜头，导致全片叙事节奏断档、戏剧张力泄气，总时长略超目标。",
+          "CHR_1在第三镜（0:05-0:06）听到诡异规矩时的反应过于冷漠平静，缺乏应有的惊疑与不安，且与第一镜（0:00-0:02）相比脸型与鼻梁骨相略有微变。",
+          "第二镜（0:02-0:04）CHR_2在侧面中景说话时上半身及手部姿态较为僵直，压迫感与灵动度不及参考原片。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 17,
+          "character_and_costume_consistency": 9,
+          "cinematography_and_spatial_coherence": 9,
+          "editing_rhythm_and_reactions": 17,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 16
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 15,
+          "character_and_costume_consistency": 13,
+          "cinematography_and_spatial_coherence": 9,
+          "editing_rhythm_and_reactions": 12,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 16
+        },
+        "video_a_observation": "Video_A总时长约9.8秒，与目标时长及Target_Benchmark节奏高度吻合，三镜头切换干脆利落（0:00-0:02过肩拍CHR_1惊愕质问 -> 0:02-0:04反打过肩拍CHR_2全景回应 -> 0:05-0:09推至CHR_2近景特写宣告入职）。唇音同步整体准确，每句台词开合都能对上人声节奏；第三镜CHR_2近景特写（0:05-0:09）眼神流转、似笑非笑的嘴角弧度以及抬起右手轻捻手指的微动作具备较好的戏剧张力与魅惑感，空间站位（隔着长案柜台、燃烧的合同与暖橘色台灯相对而立）及180度正反打视线轴线清晰连贯。核心缺陷在于CHR_1的角色一致性严重崩坏：0:00-0:02第一镜中CHR_1变成了无刘海、全往后梳的大光明束发造型，五官脸型也与Character_Ref_1的年轻中分碎发刘海设定相去甚远，且到了0:02-0:04第二镜其背影后脑勺又突变回蓬松短碎发；此外0:02-0:04中景里CHR_2说话时面部略显僵直，不如参考原片的唇部特写富有视觉冲击力。总分77分。",
+        "video_b_observation": "Video_B总时长约10.8秒，共四个镜头（0:00-0:02过肩拍CHR_1质问 -> 0:02-0:04侧面中景拍CHR_2回应 -> 0:05-0:06切回CHR_1沉默反应镜头 -> 0:07-0:10拍CHR_2近景宣告入职）。其优点是CHR_1与CHR_2的造型、中分碎发刘海及服饰与Character_Ref_1、Character_Ref_2保持了较高的一致性，空间站位与道具（燃烧的合同、暖橘色台灯）关系准确，有声台词段落的唇音同步也较为严丝合缝。但存在明显的剪辑节奏缺陷：在0:04台词结束到0:07下一句开始之间，插入了长达约2秒的完全静音无声反应镜头（0:05-0:06），声音彻底断档，导致参考原片紧凑压迫的悬疑节奏被强行打断；且该反应镜头中CHR_1表情过于冷峻平静、右手抓背包带静止不动，缺乏刚看到合同被烧毁后的惊愕余波。此外CHR_2在0:02-0:04及0:07-0:10全程保持左手抚在皮草胸前的单一僵直姿势，微表情的鲜活度与压迫感不及Video_A的最后特写与Target_Benchmark。总分74分。",
+        "winner": "A",
+        "total_a": 77.0,
+        "total_b": 74.0
+      }
+    }
+  ]
+}

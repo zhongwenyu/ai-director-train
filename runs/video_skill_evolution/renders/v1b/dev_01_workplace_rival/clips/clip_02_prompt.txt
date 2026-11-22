@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up reverse shot on CHR_2, angled toward the left along the 180-degree axis with CHR_1's blurred right rear shoulder on the left foreground edge cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Put on the spot by CHR_1's flattering trap, <Subject 1> shifts uncomfortably as her haughty poise cracks, awkwardly backpedaling with an excuse that she was only joking.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera. Caught off guard in front of colleagues, <Subject 1> (S1)'s condescending poise stiffens—her eyes dart briefly sideward with a tiny awkward throat-clearing swallow as she shifts her upper torso upright in her chair and curls her right fingers lightly against the light-wood desk surface for support on the first beat, then forces a thin, fleeting upturn at the corners of her mouth while her eyes stay tense and defensive on the second beat. The blurred foreground shoulder on the left remains still. With a dry, slightly strained voice feigning casual composure after a tiny catch of breath, <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 我开玩笑的。</d>, then cleanly closes lips with zero stray mouth twitching, holding a guarded, uneasy gaze toward the left until the cut.
+
+overall_soundscape:
+Quiet clean natural office room tone, subtle dry throat-clearing breath and faint tweed fabric rustle as <CHR_2> straightens in her chair, tapering into clean silence.
+
+non_diegetic_music:
+N/A

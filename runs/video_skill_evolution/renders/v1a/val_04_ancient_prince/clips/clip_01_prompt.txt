@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up, 15-degree off-axis near-frontal angle on CHR_2 facing screen-right, 85mm lens, shallow depth of field, f/2.0 cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (陶土泥人).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Having caught up in front of CHR_1, <Subject 1> cradles and lifts the rustic clay figurine at chest height, eagerly showing off her treasure with bright eyes.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle slow push-in maintains crisp focus on <Subject 1> (S1)'s eyes and lips. First beat (0.0s-1.0s): <Subject 1> (S1) settles her stance and lifts her cupped hands smoothly a few inches from her upper chest with wrists braced steadily together, tilting the rustic yellow-brown clay figurine forward toward screen-right as bright, playful delight warms her gaze; in a brisk, cheerful tone brimming with affectionate familiarity, <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 少爷 你看</d> with crisp syllable-accurate lip sync. Second beat (1.0s-2.0s): <Subject 1> (S1) naturally closes her lips at 1.60s, lifting her chin slightly with sparkling expectant eyes and a gentle, genuine curve at the corners of her mouth while holding the clay figurine steady in her cupped palms until clip end.
+
+overall_soundscape:
+Subtle outdoor street air tone, light flutter of sheer gauze sleeves as hands lift, gentle finger contact against unglazed clay surface, and a soft cheerful breath.
+
+non_diegetic_music:
+N/A

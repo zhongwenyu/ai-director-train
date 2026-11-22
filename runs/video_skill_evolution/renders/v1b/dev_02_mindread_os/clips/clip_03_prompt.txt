@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up on CHR_2 cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Tight close-up on <Subject 1> freezing in utter shock as his unspoken thought is exposed verbatim, stammering half a sentence before trailing off.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle slow push-in. Struck cold by hearing his secret thought repeated word for word, <Subject 1> (S1)'s teasing composure vanishes instantly—his pupils dilate and his eyelids widen slightly with a sharp intake of breath. With a hushed, stunned, half-breathless voice that catches mid-thought, <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 你居然真的……</d> Stopping abruptly, <Subject 1> (S1) cleanly closes lips with zero stray mouth twitching, his throat swallowing once as his head draws back a fraction of an inch in frozen disbelief, gaze locked intensely toward the right until the cut.
+
+overall_soundscape:
+Quiet clean nighttime street ambiance, a subtle sharp intake of breath at the start, settling into stunned quiet stillness before the cut.
+
+non_diegetic_music:
+N/A

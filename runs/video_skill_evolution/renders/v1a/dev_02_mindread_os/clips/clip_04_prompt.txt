@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Reverse tight close-up at a 12-degree near-frontal angle on screen-right looking screen-left, 85mm lens, shallow depth of field, f/2.0 cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse tight near-frontal close-up on the white-shirted youth on screen-right quietly confirming his mind-reading reality with calm, understated loneliness.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera holds an intimate 12-degree near-frontal close-up on <Subject 1> (S1) at screen-right looking toward screen-left, maintaining his slight forward-leaning seated posture with forearms resting on the tabletop below frame. Beat 1 (0.0s-1.0s): Starting from a calm, poised expression, <Subject 1> (S1)'s gaze softens with quiet honesty and mild weariness as a gentle breath leaves his chest. With a quiet, subdued sigh carrying calm resignation and subtle loneliness, <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 都说了。</d> with crisp syllable-accurate lip sync, then naturally closes lips at 1.58s and holds a calm, quietly solitary gaze until clip end. Beat 2 (1.0s-2.0s): As the final syllable settles, <Subject 1> (S1)'s brow stays smooth while a subtle, melancholic stillness lingers in his eyes and relaxed jawline until the end of the shot.
+
+overall_soundscape:
+Quiet nighttime street room tone and a soft, understated exhale fading cleanly into calm ambient air.
+
+non_diegetic_music:
+N/A

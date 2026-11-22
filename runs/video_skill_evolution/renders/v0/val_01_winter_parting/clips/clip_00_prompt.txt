@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium two-shot, eye-level perpendicular to the 180-degree sightline axis cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> (S2) is the man matching the exact facial identity and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+<Audio 2> is the voice-timbre reference for <Subject 2> (S2).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a medium two-shot on the chilly riverside park walkway, <Subject 1> on the left tries to calm the argument with restrained composure, while <Subject 2> on the right immediately snaps back in frustrated defiance.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+<Audio 2>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static eye-level camera in a medium two-shot preserving the 180-degree axis on the cold riverside walkway. <Subject 1> (S1) stands on screen-left facing right, lifting one hand slightly near her chest in a restrained, pleading gesture while keeping her voice measured; <Subject 1> (S1) speaks (0.20s-2.95s): <d>[Chinese] 都冷静一下</d> with clear, accurate lip-sync matching every Mandarin syllable while <Subject 2> (S2) stands on screen-right facing left with lips pressed tight and brows furrowed. Almost immediately at 1.25s, <Subject 1> (S1) presses her lips closed with a tense swallow as <Subject 2> (S2) tilts his chin forward in wounded irritation and retorts; <Subject 2> (S2) speaks (1.25s-2.85s): <d>[Chinese] 都这样了还冷静什么</d> with sharp, accurate syllable-by-syllable lip-sync, accompanied by a frustrated slight shrug of his shoulders inside his navy wool coat.
+
+overall_soundscape:
+Soft chilly riverside breeze, faint rustle of dry autumn leaves across the lawn, subtle movement of wool coats, and natural outdoor park ambience.
+
+non_diegetic_music:
+N/A

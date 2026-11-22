@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium shot from the front side of the 180-degree axis at a 45-degree three-quarter angle favoring screen-left, 50mm lens, f/2.2 shallow depth of field cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (烤肉串与金属托盘).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Over-the-shoulder medium shot establishing the barbecue table axis as the friend on screen-left teasingly dismisses the mind-reading claim while sliding a grilled skewer onto the metal tray rim.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera holds a steady 45-degree over-the-shoulder medium framing on <Subject 1> (S1) at screen-left while the softly blurred foreground shoulder edge at extreme screen-right remains still. Beat 1 (0.0s-1.4s): Starting from a calm, poised expression, playful amusement lights up <Subject 1> (S1)'s eyes with a relaxed, skeptical lift of his right brow; as he speaks, his right fingers press against a bamboo skewer inside the dark metal tray and smoothly slide and lift that single skewer about two inches up onto the raised rim of the tray. In a brisk, playfully teasing tone with a light chuckle on his breath, <Subject 1> (S1) speaks (0.20s-2.75s): <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d> with crisp syllable-accurate lip sync, then naturally closes lips at 2.62s and holds an amused, skeptical gaze until clip end. Beat 2 (1.4s-3.0s): Through the second clause, a wry, self-assured grin curves the corners of <Subject 1> (S1)'s mouth as his chin tilts slightly toward screen-right, his right fingertips resting steadily on the tabletop to hold the lifted bamboo skewer balanced on the metal tray rim while his left forearm stays grounded on the table edge.
+
+overall_soundscape:
+Quiet nighttime outdoor street ambience with gentle distant airflow, subtle metallic scrape and light wooden tap as the bamboo skewer slides onto the tray rim, and soft natural breathing.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Tight close-up pushing in on <Subject 1> as warm firelight flickers from below; with an enigmatic, subtly oppressive half-smile, she formally welcomes CHR_1 to Private Museum No. 9.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle slow push-in on <Subject 1> (S1) in a tight close-up, maintaining her eyeline angled screen-left as warm flickering amber firelight from below illuminates her vintage red lips, pearl drop earrings, and white fur collar against the dark antique hall shadows. At 0.20s, <Subject 1> (S1) tilts her chin slightly upward, her eyes narrowing almost imperceptibly with quiet, inescapable dominance as her lips curve into a faint, knowing half-smile. <Subject 1> (S1) speaks (0.20s-3.14s): <d>[Chinese] 林先生，欢迎入职第九号私人博物馆。</d> with crisp, natural lip-sync matching every syllable in a poised, velvety tone laced with subtle intimidation, raising her jade-braceleted right hand slightly near her fur shawl in a graceful yet binding gesture of welcome before holding her lingering half-smile to 4.00s.
+
+overall_soundscape:
+Dying ember crackle from below, subtle silk and fur rustle, and deep quiet room tone inside the wooden antique hall.
+
+non_diegetic_music:
+N/A
