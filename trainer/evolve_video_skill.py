@@ -660,14 +660,14 @@ def main() -> int:
         # Diversified K=2 Proposal in Parallel — 100% Genre-Agnostic First Principles (ZERO single-drama exemplars!)
         cand_a_id, cand_b_id = f"v{r_idx}a", f"v{r_idx}b"
         axis_a = (
-            "方向 A（四通道句内多段式细腻表演编排 + 起幅活态支点优先，跨现代/年代/古装/悬疑通用）："
-            "彻底打破“站桩木偶脸”与“单句单一表情”！Stage 2 子镜首帧 `keyframe_prompt` 在继承 `master_blocking_prompt` 空间座位与 180° 轴线的同时，严禁摆出证件照式双手死贴桌面/垂立僵姿，必须赋予角色处于戏剧进行中的【起幅活态身体倾角、视线张力与手部预备支点】（如身体前倾探询、手搭杯沿/衣襟/胸前合拢预备态）；"
-            "Stage 3 动态 `detailed_action_and_dialogue` 必须针对每个子镜编写【眉眼视线 + 口颊呼吸 + 头颈躯干倾侧 + 手部具象动作】四通道协同的【句内 2~3 段式微表情演进链】（0.0s 起势眼神/呼吸 -> 句中核心潜台词重音处的挑眉/弯眼/瞳孔放大/冷笑/鼻酸转折 -> 句尾收唇/歪头/怔住/垂眸余韵），杜绝空洞情绪形容词，全部落到可见的具象肌肉与肢体动词！"
+            "方向 A（情境适配的潜台词眼神/表情层次与肢体动机，跨现代/年代/古装/悬疑通用）："
+            "保持 `master_blocking_prompt` 空间拓扑与 180° 轴线守恒；避免证件照式僵立首帧与全程单一表情干念台词，同时严禁不分题材、不分镜长地机械堆砌夸张动作（防止 2 秒短镜五官乱飞或冷峻/悲情戏失真）；"
+            "要求表演密度严格匹配镜长与 `subtext_intent` 极性：短镜聚焦单一鲜明的情绪落点，中长说话镜体现从起势到重音落点的自然神态递进与符合人物身份的身体/手部支点。"
         )
         axis_b = (
-            "方向 B（正反打高反差反应插切 + 严禁同人跳切 + 纯净干声气息演绎优先，全题材通用）："
-            "严格匹配 `target_duration_s` 控制全段总镜长；严禁将同一说话人的连续台词切成两个相邻单人镜头（防同主体跳切），长句拆快节奏时必须在分句间穿插 1.4s 对手或旁观者的【高反差无台词反应特写】（写出具体瞪眼张口怔住、笑容僵死、攥拳咬唇等细腻反应，配合前镜 `lcut_audio_hold_over_next_s: 0.4~0.7` 声桥过渡）；"
-            "利用底层“视频模型纯干声录音棚发声 + 成片后置连续环境声铺底”机制，在 `<d>` 前后专注刻画说话人真实的呼吸气口、轻咳、叹息、反讽语调重音与 `0.16s` 零延迟清晰唇齿咬合，心声 100% 走 `inner_os` 闭唇通道。"
+            "方向 B（正反打反应交织与防跳切蒙太奇节奏，全题材通用）："
+            "严格匹配 `target_duration_s` 控制全段总镜长；禁止把同一说话人的连续台词生硬切成两个相邻单人跳切镜头（Jump Cut），长台词拆节奏时通过穿插对手/旁观者的无台词反应镜头与适度 `lcut_audio_hold_over_next_s` 声桥自然衔接；"
+            "画内对白紧凑开口、清晰咬字零吞尾字，心声 `mode=='inner_os'` 严格走独立闭唇通道。"
         )
         with cf.ThreadPoolExecutor(max_workers=2) as pex:
             fa = pex.submit(propose_single_axis_candidate, axis_a, champ_files, bottlenecks, champ_telemetry, CAND_ROOT / cand_a_id)
