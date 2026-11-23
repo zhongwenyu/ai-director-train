@@ -113,6 +113,20 @@ SCENE_PLAN_SCHEMA: Dict[str, Any] = {
                             },
                         ]
                     },
+                    "focus_expression_ref": {
+                        "anyOf": [
+                            {"type": "null"},
+                            {
+                                "type": "object",
+                                "properties": {
+                                    "role_id": {"type": "string"},
+                                    "ocular_brow_cue": {"type": "string"},
+                                },
+                                "required": ["role_id", "ocular_brow_cue"],
+                                "additionalProperties": False,
+                            },
+                        ]
+                    },
                     "lcut_audio_hold_over_next_s": {"type": "number", "minimum": 0.0, "maximum": 1.0},
                     "clip_summary": {"type": "string"},
                     "detailed_action_and_dialogue": {"type": "string"},
@@ -129,6 +143,7 @@ SCENE_PLAN_SCHEMA: Dict[str, Any] = {
                     "keyframe_prompt",
                     "speaking_role_ids",
                     "inner_os",
+                    "focus_expression_ref",
                     "lcut_audio_hold_over_next_s",
                     "clip_summary",
                     "detailed_action_and_dialogue",
@@ -240,8 +255,9 @@ def generate_scene_plan_blind(skill_files: Dict[str, str], beat_spec: Dict[str, 
         "1. `master_blocking_prompt`：使用英文编写本场戏的全景空间落座/站位母版图提示词（引用 `[Scene]` 与在场 `[CHR_x]`），必须 100% 严格还原 `initial_blocking` 中的左右/同侧/对侧座位与朝向拓扑，供所有子镜头继承统一空间轴线！\n"
         "2. 必须覆盖任务卡中的全部 `dialogue_turns`（画内对白用 `<CHR_x> speaks (0.20s-止s): <d>[Chinese] 原文</d>`，一进画面 0.2s 即鲜活开口，严禁前几秒发呆；心声或画外独白放入 `inner_os` 且画内角色闭嘴，严禁漏句或改字！）。\n"
         "3. 所有子镜头 `duration_s` 之和必须紧贴 `target_duration_s`（误差不超过 ±2 秒，严禁拖沓注水！），且 `lcut_audio_hold_over_next_s > 0` 仅允许用在下一个镜头为无台词反应镜头之时。\n"
-        "4. `visible_role_ids` 只填该子镜头实际露出正脸/侧脸/正身的角色 ID；若某角色仅作为虚化背影肩部前景出现，只放入 `foreground_silhouette_role_ids`，绝不放入 `visible_role_ids`。\n"
-        "5. `master_blocking_prompt`、`clip_summary`、`keyframe_prompt` 与 `detailed_action_and_dialogue` 除 `<d>[Chinese] ... </d>` 内的中文台词外，全部使用英文编写。"
+        "4. `focus_expression_ref`（受控闭唇眉眼微表情多视图锚点）：当子镜头为单一情绪极性的近景/中近景/过肩短镜（`MCU/CU/OTS`）时，可为焦点角色填写 `{\"role_id\": \"CHR_x\", \"ocular_brow_cue\": \"英文适度闭唇眉眼与苹果肌情绪描述（40%-50%电影级自然强度，严禁写张大嘴/露齿狂笑/嚎哭皱纹，严禁混写两种相反情绪）\"}` 以解锁短镜眉眼丰富度；若为全景、平静叙事或句内正负情绪反转镜头，必须填 `null`！\n"
+        "5. `visible_role_ids` 只填该子镜头实际露出正脸/侧脸/正身的角色 ID；若某角色仅作为虚化背影肩部前景出现，只放入 `foreground_silhouette_role_ids`，绝不放入 `visible_role_ids`。\n"
+        "6. `master_blocking_prompt`、`clip_summary`、`keyframe_prompt` 与 `detailed_action_and_dialogue` 除 `<d>[Chinese] ... </d>` 内的中文台词外，全部使用英文编写。"
     )
     return L.call_agy_json(prompt, SCENE_PLAN_SCHEMA, effort="medium", timeout=600, out_path=out_plan_path)
 

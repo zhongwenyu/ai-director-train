@@ -40,6 +40,7 @@ for p in (str(HERE), str(WORKSTATION_SCRIPTS)):
     if p not in sys.path:
         sys.path.insert(0, str(p))
 
+from PIL import Image
 import h3_native_runner as H3R  # noqa: E402
 from spark_h3_image import generate_spark_h3_image  # noqa: E402
 
@@ -109,6 +110,109 @@ def h3_generate_image_spark(
         raise RuntimeError(f"Spark MiniMax H3 Image failed after 3 attempts: {last_exc}")
 
 
+def _compose_multiview_sheet(left_neutral: Path, top_right: Path, bot_right: Path, out_png: Path) -> Path:
+    """Compose 1024x1024 3-panel character reference sheet: Left (0% neutral identity anchor) | TR (0° front) | BR (45° side)."""
+    if out_png.is_file() and out_png.stat().st_size > 1024:
+        return out_png
+    canvas = Image.new("RGB", (1024, 1024), (255, 255, 255))
+
+    def _fit(im: Image.Image, tw: int, th: int) -> Image.Image:
+        w, h = im.size
+        sc = max(tw / max(1, w), th / max(1, h))
+        nw, nh = int(round(w * sc)), int(round(h * sc))
+        rs = im.resize((nw, nh), getattr(Image, "LANCZOS", 1))
+        x0 = max(0, (nw - tw) // 2)
+        y0 = max(0, int((nh - th) * 0.18))
+        return rs.crop((x0, y0, x0 + tw, y0 + th))
+
+    canvas.paste(_fit(Image.open(left_neutral).convert("RGB"), 508, 1024), (0, 0))
+    canvas.paste(_fit(Image.open(top_right).convert("RGB"), 508, 508), (516, 0))
+    canvas.paste(_fit(Image.open(bot_right).convert("RGB"), 508, 508), (516, 516))
+    out_png.parent.mkdir(parents=True, exist_ok=True)
+    canvas.save(out_png, format="PNG", optimize=True)
+    return out_png
+
+
+def resolve_character_multiview_for_clip(
+    role_id: str,
+    clip_spec: Dict[str, Any],
+    beat_spec: Dict[str, Any],
+    kf_dir: Path,
+    seed: int,
+) -> Path:
+    """
+    Build Multi-Angle Character Sheet under the 3 empirically verified guardrails:
+      1. Default: Cached `[Left: 0% Neutral Full | TR: 0% Neutral Close-up | BR: 45° Three-Quarter 0% Neutral]`
+         (stabilizes 45° / OTS 3D head geometry so H3 never jump-cuts back to 0° front!).
+      2. When `focus_expression_cue` targets `role_id` on an `MCU / CU / OTS` clip (`<= 5s`) with a single
+         coherent emotion: generates `[Left: 0% Neutral Anchor | TR: 0° Moderate Closed-Lip Eye/Brow Emotion |
+         BR: 45° Same Moderate Closed-Lip Emotion]` — unlocking eyebrow/cheek richness in short clips while
+         strictly preventing +10yr aging creases, wide-open mouth contamination, and dual-emotion chimeras!
+    """
+    base_png = Path(beat_spec["asset_files"][role_id])
+    ch_info = next((c for c in beat_spec.get("characters", []) if c["role_id"] == role_id), {})
+    g_word = "woman" if ch_info.get("gender") == "female" else ("man" if ch_info.get("gender") == "male" else "person")
+
+    # Ensure shared per-case 45-degree 0% neutral side view exists in case assets cache
+    side_neutral_png = base_png.parent / f"{role_id}_side45_neutral_1k.png"
+    if not side_neutral_png.is_file():
+        side_prompt = (
+            f"The {g_word} in <Picture 1> is <Subject 1>. "
+            "The target image shows a photorealistic live-action 45-degree three-quarter close-up studio portrait of <Subject 1> on pure white background RGB(255,255,255); "
+            "<Subject 1> is 100% preserved in exact facial bone structure, age, skin smoothness, hairstyle, and collar outfit from <Picture 1>, "
+            "with a calm 0% neutral expression and gently closed lips. Soft even studio lighting, zero text."
+        )
+        h3_generate_image_spark(side_prompt, [base_png], "1:1", side_neutral_png, seed=202650 + hash(role_id) % 97)
+
+    default_mv = base_png.parent / f"{role_id}_neutral_multiview_1k.png"
+    if not default_mv.is_file():
+        _compose_multiview_sheet(base_png, base_png, side_neutral_png, default_mv)
+
+    f_exp = clip_spec.get("focus_expression_ref")
+    framing_low = str(clip_spec.get("camera_framing", "")).lower()
+    is_tight_shot = any(k in framing_low for k in ("close", "mcu", "cu", "over-the-shoulder", "ots"))
+    if (
+        isinstance(f_exp, dict)
+        and f_exp.get("role_id") == role_id
+        and str(f_exp.get("ocular_brow_cue") or "").strip()
+        and is_tight_shot
+    ):
+        cue = str(f_exp["ocular_brow_cue"]).strip()
+        # Guardrail 1: Scrub extreme caricature / open-mouth / wrinkle-inducing words!
+        cue = re.sub(
+            r"\b(?:bitterly|screaming|shouting|wide[- ]open\s+mouth|gaping|toothy|baring\s+teeth|wrinkled|creased|contorted|anguished|sobbing|ugly)\b",
+            "natural",
+            cue,
+            flags=re.IGNORECASE,
+        )
+        cid_tag = re.sub(r"[^a-zA-Z0-9_-]", "", str(clip_spec.get("clip_id", "clip")))
+        tr_p = kf_dir / f"{cid_tag}_{role_id}_expr_tr.png"
+        br_p = kf_dir / f"{cid_tag}_{role_id}_expr_br.png"
+        mv_p = kf_dir / f"{cid_tag}_{role_id}_expr_multiview_1k.png"
+        if mv_p.is_file():
+            return mv_p
+
+        tr_prompt = (
+            f"The {g_word} in <Picture 1> is <Subject 1>. "
+            "The target image shows a front close-up portrait of <Subject 1> on pure white background RGB(255,255,255); "
+            "<Subject 1> preserves exact young/natural facial bone structure, smooth natural skin age, hair, and outfit from <Picture 1>, "
+            f"displaying a moderate, subtle, authentic live-action film micro-expression in the eyes, eyebrows, and cheeks ({cue}), "
+            "with lips gently closed or poised naturally, zero exaggerated wrinkles, zero wide-open mouth, soft studio light, zero text."
+        )
+        br_prompt = (
+            f"The {g_word} in <Picture 1> is <Subject 1>. "
+            "The target image shows a 45-degree three-quarter close-up portrait of <Subject 1> on pure white background RGB(255,255,255); "
+            "<Subject 1> preserves exact facial bone structure, smooth natural skin age, hair, and outfit from <Picture 1>, "
+            f"displaying the same subtle, natural filmic eye and brow micro-expression ({cue}), "
+            "with lips gently closed, zero exaggerated creases, soft studio light, zero text."
+        )
+        h3_generate_image_spark(tr_prompt, [base_png], "1:1", tr_p, seed=seed + 31)
+        h3_generate_image_spark(br_prompt, [base_png], "1:1", br_p, seed=seed + 37)
+        return _compose_multiview_sheet(base_png, tr_p, br_p, mv_p)
+
+    return default_mv
+
+
 def generate_scene_blocking_master(
     scene_plan: Dict[str, Any],
     beat_spec: Dict[str, Any],
@@ -160,6 +264,7 @@ def resolve_h3_image_keyframe_prompt_and_refs(
     clip_spec: Dict[str, Any],
     beat_spec: Dict[str, Any],
     blocking_master: Optional[Path] = None,
+    role_sheet_overrides: Optional[Dict[str, Path]] = None,
 ) -> Tuple[str, List[Path]]:
     """Derive shot keyframe from Scene Blocking Master (`<Picture 1>`) + visible Character Sheets (`<Picture 2..K>`)."""
     asset_files = beat_spec["asset_files"]
@@ -190,7 +295,8 @@ def resolve_h3_image_keyframe_prompt_and_refs(
     for r in vis_roles:
         if len(refs) >= 6:
             break
-        refs.append(Path(asset_files[r]))
+        r_sheet = (role_sheet_overrides or {}).get(r) or Path(asset_files[r])
+        refs.append(r_sheet)
         idx = len(refs)
         s_tok = f"<Subject {idx}>"
         sym_to_subj[r] = s_tok
@@ -245,6 +351,7 @@ def compile_h3_clip_payload(
     keyframe_1k: Path,
     *,
     vo_wav_dur: Optional[float] = None,
+    role_sheet_overrides: Optional[Dict[str, Path]] = None,
 ) -> Tuple[str, List[Path], List[Path], int]:
     """Bind <Picture 1..N> & <Audio 1..M>, and synchronize `(start_s-end_s)` with tight speech duration."""
     asset_files = beat_spec["asset_files"]
@@ -286,7 +393,8 @@ def compile_h3_clip_payload(
     role_to_subj_idx: Dict[str, int] = {}
     role_to_pic_idx: Dict[str, int] = {}
     for idx, r in enumerate(vis_roles, 1):
-        ref_images.append(Path(asset_files[r]))
+        r_sheet = (role_sheet_overrides or {}).get(r) or Path(asset_files[r])
+        ref_images.append(r_sheet)
         role_to_subj_idx[r] = idx
         role_to_pic_idx[r] = len(ref_images)
 
@@ -1017,16 +1125,26 @@ def execute_scene_plan(
             else None
         )
 
+        # Resolve multi-angle (0° + 45°) character reference sheets (with guarded closed-lip ocular micro-expression when requested on MCU/CU!)
+        vis_roles_clip = [r for r in cspec.get("visible_role_ids", []) if r in beat_spec.get("asset_files", {})]
+        role_sheets: Dict[str, Path] = {}
+        for r_i, r_id in enumerate(vis_roles_clip):
+            role_sheets[r_id] = resolve_character_multiview_for_clip(r_id, cspec, beat_spec, kf_dir, seed=base_seed + idx * 29 + r_i)
+
         # Tier 2: Derive shot keyframe from `blocking_master` (`<Picture 1>`) + visible characters on Spark!
         kf_out = kf_dir / f"clip_{idx:02d}_1k.png"
-        kf_prompt, kf_refs = resolve_h3_image_keyframe_prompt_and_refs(cspec, beat_spec, blocking_master=blocking_master)
+        kf_prompt, kf_refs = resolve_h3_image_keyframe_prompt_and_refs(
+            cspec, beat_spec, blocking_master=blocking_master, role_sheet_overrides=role_sheets
+        )
         (kf_dir / f"clip_{idx:02d}_kf_prompt.txt").write_text(kf_prompt, encoding="utf-8")
         h3_generate_image_spark(kf_prompt, kf_refs, ar, kf_out, seed=base_seed + idx * 17)
 
         vo_wav, vo_dur = (vo_fut.result() if vo_fut is not None else (None, 0.0))
 
         # Compile synced H3 video payload (using exact measured `vo_dur` if `inner_os`!) & render on 5090
-        h3_prompt, r_imgs, r_auds, dur = compile_h3_clip_payload(cspec, beat_spec, kf_out, vo_wav_dur=(vo_dur if has_vo else None))
+        h3_prompt, r_imgs, r_auds, dur = compile_h3_clip_payload(
+            cspec, beat_spec, kf_out, vo_wav_dur=(vo_dur if has_vo else None), role_sheet_overrides=role_sheets
+        )
         (clips_dir / f"clip_{idx:02d}_prompt.txt").write_text(h3_prompt, encoding="utf-8")
 
         def _do_on_gpu(remote_ssh: Optional[str]):
