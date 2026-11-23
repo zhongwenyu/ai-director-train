@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (燃烧的纸质合同).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Complementary reverse over-the-shoulder medium close-up on <Subject 1> standing behind the counter on screen-right as she calmly explains that burning the contract makes it take effect, with her final cadence extending via L-cut into CHR_1's reaction.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera, Over-the-shoulder Medium close-up. Softly blurred shoulder silhouette on the extreme screen-left foreground edge and the burning contract flame in the lower foreground hold steady. From 0.0s, maintaining <Subject 1> (S1)'s natural facial identity and age-accurate features without unnatural facial warping, <Subject 1> (S1)'s gaze lifts smoothly from the curling flames on the counter to lock calmly toward screen-left, one brow arching subtly with enigmatic, unhurried composure while her jade-bangled wrist rises slightly and her fingertips gently brush and compress the soft white fur shawl collar at her collarbone without ever covering her red lips. With a soft, measured breath, <Subject 1> (S1) speaks (0.20s-1.96s): <d>[Chinese] 烧了，这合同才算生效。</d>, in a calm, low, mysterious voice brimming with quiet control and clear, accurate lip-sync matching every Chinese syllable. At 1.70s, <Subject 1> (S1) closes lips naturally with zero residual mouth movement, holding a poised, knowing gaze toward screen-left.
+
+overall_soundscape:
+Clean quiet wooden hall ambience, soft steady crackle of burning paper flames, and delicate rustle of silk velvet and fur shawl.
+
+non_diegetic_music:
+N/A

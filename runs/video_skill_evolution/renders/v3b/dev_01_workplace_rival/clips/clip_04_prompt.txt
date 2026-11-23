@@ -1,0 +1,20 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the woman matching the exact facial identity and outfit in <Picture 2>.
+
+summary:
+[keyframe completion + reference generation] Silent Close-up reaction on <Subject 1> frozen in embarrassed speechlessness as CHR_1's pointed final words linger in the air.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera, tight Close-up on <Subject 1> on screen-right looking toward screen-left. <Subject 1> keeps lips naturally closed throughout with zero speaking or mouth movement. Maintaining <Subject 1>'s natural facial identity and age-accurate features without unnatural facial warping, at 0.05s <Subject 1>'s eyes widen slightly in stunned embarrassment as her forced smile vanishes, brows drawing subtly together while her fingers tighten gently around the cuff of her cream tweed sleeve on the desk, completely rendered speechless and holding a flustered, frozen gaze toward screen-left. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Clean natural open-office room tone, quiet caught breath, faint tweed sleeve rustle against the desk.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up, near-frontal 15-degree angle hugging the eyeline axis cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Cutting into the present confrontation, <Subject 1> stands on screen-right beside the dark wooden cabinet and thrusts her open palm forward to sharply demand the money.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static locked-off camera on an 85mm shallow-depth-of-field medium close-up of <Subject 1> (S1) standing on screen-right. From 0.00s to 0.20s, <Subject 1> (S1) locks a direct, unwavering gaze slightly left of the lens toward <CHR_1>, lower eyelids subtly firming in urgent resolve as her right forearm and open upward-facing palm extend crisply into the lower-left frame. After a quick sharp breath, <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 钱！</d>, delivering the single word in a firm, urgent, no-nonsense tone with decisive vocal attack and crisp syllable-accurate lip-sync while tilting her chin half an inch forward along the leftward eyeline axis and holding her outstretched palm steady. From 0.85s to 2.00s, <Subject 1> (S1) settles lips cleanly closed without stray mouthing, maintaining an unblinking, expectant stare toward screen-left with her open fingers held tautly poised.
+
+overall_soundscape:
+Quiet rural room tone, crisp fabric rustle of coarse cotton sleeve as arm extends, sharp breath intake.
+
+non_diegetic_music:
+N/A

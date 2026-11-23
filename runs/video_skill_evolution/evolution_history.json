@@ -185,6 +185,98 @@
       },
       "mean_cand_asl_s": 2.78,
       "promoted": false
+    },
+    {
+      "round": 3,
+      "prev_champion": "v0",
+      "tournament_candidates": [
+        "v3a",
+        "v3b"
+      ],
+      "tournament_screen_delta_a_vs_b": -4.33,
+      "selected_candidate": "v3b",
+      "bottlenecks": [
+        "微表演呈两极失真，或拘谨木讷缺潜台词微动作，或五官夸张显生硬伪影；情绪受激转折滞后，面部骨相易显苍老偏离设定，且手部交互难触发物理状态真实改变与跨镜姿态连贯。",
+        "声画同步与人声演绎薄弱：镜头切点频发对白或内心独白尾句硬截断吞字；配音机械平淡，缺呼吸气口与情绪起伏；核心词句易错失发音主体唇形画面，无词尾段易生多余口型微动与异常杂音。",
+        "切镜节奏拖沓且总时长易超标：平均镜长显著高于标杆，单镜过长且匮乏受众无声反应切镜；高潮重音句误用中远景削弱面部冲击力，而单人连续镜头易因同机位轴线景别微调产生生硬跳切。",
+        "跨镜空间拓扑与首帧景深控制不足：正反打切换易发180度越轴与背景方位翻转，前景遮挡层及环境陈设跨镜凭空消失或错位，场景几何结构易分裂畸变，首帧景深层次与面部受光清晰度欠佳。"
+      ],
+      "mutation_rationale": "1. 彻底修正反过拟合门禁拦截项（厘清静动职责边界与全题材情绪/声线泛化）：移除一切将 Stage 3 动态表演限定为“克制微表演/毫米级微动作/无表情纹/冷峻低沉”的窄化约束；确立“Stage 2 静态首帧自然干净保骨相防畸变，Stage 3 动态视频即时受激、鲜活外化全题材多元情绪与声线”的黄金分工，在 Stage 3 中全面覆盖轻喜俏皮、温情动容、反讽讥诮、错愕震惊、委屈含泪、高能爆发等多元表情弧光与丰富呼吸声线谱系。\n2. 深度落实方向 B（短原子拆切 + 情绪落点无声反应插切 + L-Cut 声画缝合 + inner_os 零口型）：Stage 1 强制按语义气口拆解多句长词为 2~4s（主力 2~3s）紧凑单动作子镜并按语速核算严控总时长紧贴 target_duration_s；在转折或重音落点主动插入 2s 无台词受众反应镜，且仅在下一镜为无台词反应镜时设 lcut_audio_hold_over_next_s: 0.4~0.8 使尾音自然跨切点覆盖反应画面；inner_os 严格走零口型独立通道。\n3. 系统根治四大跨题材共性短板：通过 180° 主轴线银幕左右锚定、visible_role_ids 与角色占位符严格对齐、三层定焦浅景深与主辅光/眼神光解决越轴、陈设消失与面光晦暗；通过高潮句锁定 CU/MCU 及 30° 变轴跨级规则消除中远景泄力与同轴跳切；通过 0.0s 即时反应、真实手部物理因果交互、句尾 0.30s~0.50s 收音余量与精准闭唇指令根治切点吞字、尾段口型乱动与机械配音。全文件零百分比配额、零特定人名剧名与狭窄职场词，字符数严格控制在 MDL 门禁内。",
+      "cand_telemetry": {
+        "avg_clips_per_scene": 4.6,
+        "avg_clip_duration_s": 2.39,
+        "silent_reaction_clip_ratio": 0.13,
+        "lcut_overlap_clip_ratio": 0.13,
+        "tight_mcu_cu_ots_ratio": 1.0
+      },
+      "dev_vs_prev_champ": {
+        "wins": 2,
+        "losses": 2,
+        "ties": 1,
+        "cand_mean_score": 66.0,
+        "ref_mean_score": 68.0,
+        "mean_delta": -2.0
+      },
+      "val_vs_prev_champ": {
+        "wins": 2,
+        "losses": 2,
+        "ties": 0,
+        "cand_mean_score": 41.88,
+        "ref_mean_score": 51.62,
+        "mean_delta": -9.74
+      },
+      "overfitting_diagnostics": {
+        "is_overfit": true,
+        "overfit_reasons": [
+          "EXCESSIVE_DEV_VAL_GAP_+7.74",
+          "SINGLE_GENRE_COLLAPSE_-37.50"
+        ],
+        "dev_mean_delta": -2.0,
+        "val_mean_delta": -9.74,
+        "dev_minus_val_gap": 7.74,
+        "worst_val_case_drop": -37.5,
+        "val_aspect_ratio_deltas": {
+          "16:9": -17.67,
+          "9:16": 14.0
+        },
+        "val_per_genre_breakdown": {
+          "val_01_winter_parting": {
+            "genre": "现代生活情感",
+            "aspect_ratio": "16:9",
+            "delta": -37.5,
+            "outcome": "champ_win"
+          },
+          "val_02_scar_probe": {
+            "genre": "都市悬疑试探",
+            "aspect_ratio": "16:9",
+            "delta": -13.0,
+            "outcome": "champ_win"
+          },
+          "val_03_class_clash": {
+            "genre": "都市强冲突逆袭",
+            "aspect_ratio": "16:9",
+            "delta": -2.5,
+            "outcome": "cand_win"
+          },
+          "val_04_ancient_prince": {
+            "genre": "古装权谋逆袭",
+            "aspect_ratio": "9:16",
+            "delta": 14.0,
+            "outcome": "cand_win"
+          }
+        }
+      },
+      "dev_target_parity_pct": 77.81,
+      "dev_target_parity_by_dim_pct": {
+        "acting_micro_naturalism": 81.2,
+        "vocal_dialogue_delivery": 81.9,
+        "editing_rhythm_and_reactions": 82.2,
+        "character_and_costume_consistency": 116.1,
+        "cinematography_and_spatial_coherence": 85.9,
+        "physical_anatomy_integrity": 98.8
+      },
+      "mean_cand_asl_s": 2.72,
+      "promoted": false
     }
   ],
   "baseline_v0_target_parity": {

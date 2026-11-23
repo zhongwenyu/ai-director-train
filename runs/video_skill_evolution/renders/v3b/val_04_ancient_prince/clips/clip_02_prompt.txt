@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (陶土泥人).
+
+summary:
+[keyframe completion + reference generation] Wordless reaction and interaction shot as the young master affectionately grazes Liu'er's nose tip before both turn side by side to walk away toward the city gate.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Smooth subtle camera hold transitioning into a gentle follow, tight two-shot Medium close-up. Both <Subject 1> and <Subject 2> keep lips naturally closed throughout with zero speaking or mouth movement. At 0.0s, <Subject 1>'s gaze softens with tender, doting fondness toward screen-left as his raised right index knuckle gently taps and grazes the tip of <Subject 2>'s nose, physically nudging her nose tip slightly; <Subject 2>'s eyes crinkle in bashful, delighted warmth as she draws her chin back slightly and hugs the rustic clay figurine closer against her chest. Maintaining both characters' natural facial identities without warping, at 0.95s <Subject 1> lowers his hand smoothly and both <Subject 1> and <Subject 2> pivot in unison away from the camera, shoulders aligned side by side as their pale-pink and ivory sleeves brush gently while walking forward toward the distant city gate tower. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Clean sunlit street ambience, soft fingertip brush against skin, gentle rustling of silk and woven robes, synchronized light footsteps receding on flagstones.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,105 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Over-the-shoulder medium close-up",
+        "clip_id": "clip_01",
+        "clip_summary": "Over-the-shoulder medium close-up on CHR_2 facing screen-right past CHR_1's blurred foreground shoulder as he begins his tearful, restrained questioning.",
+        "detailed_action_and_dialogue": "Subtle slow push-in, Over-the-shoulder medium close-up. Maintaining <CHR_2>'s natural facial identity and age-accurate features without unnatural facial warping, at 0.0s <CHR_2>'s red-rimmed eyes glisten with held-back hurt and earnest grievance as his brows draw gently together, leaning slightly forward while his fingers tense softly against the fabric of his light blue shirt cuff at his side. Drawing a quiet, unsteady breath, <CHR_2> speaks (0.20s-2.60s): <d>[Chinese] 有没有可能，我也遇上了更好的，</d>, in a low, restrained, slightly wavering voice heavy with unspoken devotion and grievance, with clear, accurate lip-sync matching every Chinese syllable and unobstructed lips. At 2.60s, <CHR_2> closes lips naturally with zero residual mouth movement, holding a searching, vulnerable gaze toward screen-right.",
+        "duration_s": 3,
+        "foreground_silhouette_role_ids": [
+          "CHR_1"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Over-the-shoulder medium close-up captured on a 50mm cinema prime lens with shallow depth of field under the semi-open concrete colonnade of [Scene], strictly maintaining the 180-degree axis. On the right foreground edge, a softly out-of-focus silhouette of a young woman's dark brown wavy hair and cream-white chunky knit shoulder frames the shot. In sharp focus on screen-left, [CHR_2], a 21-year-old East Asian man with natural clean skin texture, tousled black short hair, and a light sky-blue stand-collar long-sleeve shirt, stands in three-quarter profile looking toward screen-right. Behind [CHR_2], grey-white concrete colonnade pillars open onto softly blurred campus greenery and walkways bathed in warm golden late-afternoon sunset light. Sculpted soft portico key light illuminates [CHR_2]'s face with warm golden sunset rim light tracing his hair and shoulder and clear, lively catchlights in his subtly glistening eyes; his brows are gently drawn in quiet restraint with lips naturally poised before speaking, clean bone structure, zero motion blur, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Clean subtle semi-open campus portico ambience with a gentle evening breeze, a quiet unsteady inhale, and faint cotton sleeve rustle; no music or background chatter.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Close-up",
+        "clip_id": "clip_02",
+        "clip_summary": "Tight single close-up on CHR_2 with a 35-degree lateral camera angle shift as his eyes shimmer with unshed tears and he confesses he still chose her, holding tail audio into her reaction.",
+        "detailed_action_and_dialogue": "Static camera with micro breathing stability, tight Close-up on <CHR_2>. Maintaining <CHR_2>'s natural facial identity and age-accurate features without unnatural facial warping, at 0.0s <CHR_2>'s eyes shimmer brighter with unshed tears and raw emotional intensity, brows furrowing in aching sincerity as his collar shifts with a shallow breath. <CHR_2> speaks (0.20s-1.65s): <d>[Chinese] 可我还是选择了你。</d>, in an emotional, choked, deeply earnest tone quivering with restrained heartbreak, with clear, accurate lip-sync matching every Chinese syllable and completely unobstructed lips. At 1.65s, <CHR_2> closes lips naturally with zero residual mouth movement, throat tightening slightly while locking a tear-bright, pleading gaze toward screen-right.",
+        "duration_s": 2,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Close-up on [CHR_2] captured on an 85mm cinema prime lens with shallow depth of field in [Scene], shifting camera angle 35 degrees laterally toward a cleaner frontal three-quarter view from the previous over-the-shoulder shot while strictly staying on the same side of the 180-degree axis. [CHR_2], a 21-year-old East Asian man with tousled black short hair and a light sky-blue stand-collar shirt, leans slightly forward (continuing his prior posture) looking toward screen-right, with zero foreground shoulder obstruction. Softly blurred behind him are a cool slate-grey concrete colonnade pillar and warm golden sunset foliage bokeh. Sculpted soft directional key light pairs with warm golden sunset rim light separating his hair and jawline from the shaded background, revealing clear, lively catchlights in his moist, red-rimmed eyes; natural calm pre-speech facial contour with zero exaggeration or mouth distortion, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0.5,
+        "prop_ids": [],
+        "soundscape": "Clean quiet outdoor portico air tone, a soft tremulous breath, and subtle collar fabric movement; no music or background voices.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder medium close-up",
+        "clip_id": "clip_03",
+        "clip_summary": "Silent 2-second reaction shot in tight over-the-shoulder medium close-up on CHR_1 facing screen-left; struck by his confession, she sheds a tear, swallows her heartbreak, and wipes her cheek.",
+        "detailed_action_and_dialogue": "Static camera, tight Over-the-shoulder medium close-up on <CHR_1>. <CHR_1> keeps lips naturally closed throughout with zero speaking or mouth movement, maintaining <CHR_1>'s natural facial identity and age-accurate features without unnatural facial warping. At 0.0s, struck by his lingering words, <CHR_1>'s eyes widen slightly and glisten with sudden tears, a warm tear spilling at her lower lash line as her breath catches in momentary vulnerability; by 0.85s, she swallows hard to force down her pain, raises her right fingers lightly to her upper cheekbone beneath her eye (keeping her hand well clear of her closed lips) to briskly wipe away the tear, and begins lowering her hand toward her collarbone as her gaze cools into guarded resolve toward screen-left.",
+        "duration_s": 2,
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Tight Over-the-shoulder medium close-up captured on a 50mm cinema prime lens with shallow depth of field in [Scene], strictly matching the reverse 180-degree axis. On the left foreground edge, a softly out-of-focus silhouette of a young man's tousled black hair and light sky-blue shirt shoulder frames the view. In sharp focus on screen-right, [CHR_1], a 20-year-old East Asian woman with clear natural skin texture, long dark brown straight hair with soft waves, wearing a cream-white chunky knit cardigan over a dark brown square-neck camisole with a dark brown leather shoulder bag strap on her shoulder, stands facing and looking toward screen-left. Behind [CHR_1], the metal-framed transparent glass double doors and cool grey concrete entrance wall softly reflect warm amber sunset light. Warm golden sunset side-key light from screen-left and subtle rim light highlight her hair and cheekbones with clear, lively catchlights in her eyes, lips naturally closed in quiet stunned stillness, clean facial bone structure, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Clean semi-open campus corridor room tone, a faint choked nasal inhale, soft fingertip brush against skin, and gentle knit sleeve rustle; no music or background chatter.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Close-up",
+        "clip_id": "clip_04",
+        "clip_summary": "Tight single close-up on CHR_1 with a 35-degree camera shift; gripping her shoulder bag strap with eyes still faintly moist, she delivers her cold, decisive final refusal.",
+        "detailed_action_and_dialogue": "Subtle slow push-in, tight Close-up on <CHR_1>. Maintaining <CHR_1>'s natural facial identity and age-accurate features without unnatural facial warping, at 0.0s <CHR_1>'s eyes remain faintly moist yet harden with cold, defensive finality while her lowered right hand tightens visibly around the dark brown leather shoulder bag strap at her collarbone, creasing her cream knit cardigan sleeve well below her chin. Drawing a brief, steady breath, <CHR_1> speaks (0.20s-1.65s): <d>[Chinese] 可我，没让你选我。</d>, in a quiet, coldly decisive cadence laced with defensive sting, with clear, accurate lip-sync matching every Chinese syllable and completely unobstructed lips. At 1.65s, <CHR_1> closes lips naturally with zero residual mouth movement, holding an unflinching, guarded gaze toward screen-left.",
+        "duration_s": 2,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Tight Close-up on [CHR_1] captured on an 85mm cinema prime lens with shallow depth of field in [Scene], shifting camera angle 35 degrees laterally toward a tighter frontal three-quarter angle from the prior over-the-shoulder shot while remaining strictly on the same side of the 180-degree axis. [CHR_1], a 20-year-old East Asian woman with long dark brown straight hair with soft waves, wearing a cream-white chunky knit cardigan over a dark brown square-neck camisole, looks steadily toward screen-left with a faint trace of freshly wiped moisture on her cheekbone and her right hand already lowered below collarbone level resting on her dark brown leather shoulder bag strap, leaving her lips completely unobstructed. Softly blurred behind her are the metal-framed glass double doors and cool grey concrete shade catching warm golden sunset reflections. Sculpted warm golden side-key light and subtle hair rim light create clear, lively catchlights in her faintly moist eyes, lips naturally closed just before speaking, natural age-accurate bone structure, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Clean evening portico ambience, subtle leather bag strap tension creak and knit fabric rustle, followed by quiet lingering stillness after her final word; no music or crowd noise.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Cinematic wide-medium master blocking photograph in [Scene], a semi-open grey-white concrete colonnade outside a university academic building entrance at golden-hour sunset, establishing a single continuous 3D architectural space and a strict 180-degree camera axis from the front side of the confrontation. On screen-left, [CHR_2] (21-year-old East Asian man, clean natural skin texture, tousled black short hair, wearing a light sky-blue stand-collar long-sleeve shirt and cream-white casual trousers) stands in three-quarter profile facing right toward [CHR_1] at close conversational confrontation distance. On screen-right, [CHR_1] (20-year-old East Asian woman, clear light makeup and natural skin texture, long dark brown straight hair with soft waves over her shoulders, wearing a cream-white chunky knit cardigan over a dark brown square-neck fitted camisole, a dark brown high-waisted fitted midi skirt, and a dark brown leather underarm bag slung over one shoulder) stands in three-quarter profile facing left toward [CHR_2], with her back oriented toward the metal-framed transparent glass double doors on the right. Behind [CHR_2] toward the left and distant background, the concrete colonnade opens onto campus greenery, trees, and a pedestrian walkway bathed in low-angle warm golden sunset light. Natural cinematic global lighting contrasts warm amber-gold sunset backlight and side-rim light from screen-left against cool slate-grey architectural shadows under the portico, rendering sharp facial bone structure, authentic fabric textures, and coherent perspective geometry, zero split-screen, no text, no subtitles, no watermark.",
+    "scene_summary": "Under a semi-open university building colonnade at golden sunset, CHR_2 tearfully questions CHR_1 by confessing he still chose her despite meeting someone better; momentarily moved to tears, CHR_1 wipes away her vulnerability and coldly severs his hope."
+  },
+  "stitch_meta": {
+    "clip_count": 4,
+    "visual_cuts": [
+      2.875,
+      5.417,
+      6.792
+    ],
+    "lcut_holds": [
+      0.0,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 9.542
+  }
+}

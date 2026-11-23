@@ -1,0 +1,20 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+
+summary:
+[keyframe completion + reference generation] Tight single close-up on <Subject 1> shifting over 35 degrees more frontal as he keeps his lips closed and silently makes a cocky bet in his inner monologue.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle slow push-in, Close-up on <Subject 1>. <Subject 1> keeps lips naturally closed throughout with zero speaking or mouth movement. Maintaining <Subject 1>'s natural facial identity and age-accurate features without unnatural facial warping, at 0.0s <Subject 1>'s eyes glint with mischievous, cocky certainty toward screen-right; by 0.20s, he raises one brow with a wry, ironic half-smile, tilting his chin slightly upward in silent inner mockery while letting out a quiet, amused breath through his nose and subtly shifting his shoulders inside his black crew-neck T-shirt, holding his smug, self-assured gaze toward screen-right until the cut. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Clean nighttime outdoor street room tone, quiet amused nasal exhale, subtle cotton T-shirt fabric rustle.
+
+non_diegetic_music:
+N/A

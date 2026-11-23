@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Now standing face-to-face with the young man, Hu Xiuchun leans in slightly and urgently presses him for the ten yuan he promised her.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera, standing-height Over-the-shoulder Medium close-up on <Subject 1> (S1) with a softly blurred standing greyish-brown jacket shoulder silhouette on the far screen-left foreground edge. Maintaining <Subject 1> (S1)'s natural facial identity and age-accurate features without unnatural facial warping, at 0.0s <Subject 1> (S1)'s brows knit with urgent insistence as <Subject 1> (S1) leans slightly forward toward screen-left, flexing the outstretched right palm insistently below collarbone height while the left hand grips and creases the side hem of the coarse cotton shirt. Drawing a quick breath, <Subject 1> (S1) speaks (0.20s-2.16s): <d>[Chinese] 你答应俺的，给俺十块钱，</d>, in a rapid, insistent, righteous tone with clear, accurate lip-sync matching every Chinese syllable and completely unobstructed lips. At 1.68s, <Subject 1> (S1) closes lips naturally with zero residual mouth movement, eyes narrowing with anxious urgency toward screen-left.
+
+overall_soundscape:
+Clean natural rural room tone, faint tautening of coarse cotton shirt fabric, quick urgent breath.
+
+non_diegetic_music:
+N/A

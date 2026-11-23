@@ -1,0 +1,20 @@
+subject_definitions:
+<Picture 1> is the opening Close-up, complementary near-frontal 12-degree angle hugging the primary eyeline axis cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the woman matching the exact facial identity and outfit in <Picture 2>.
+
+summary:
+[keyframe completion + reference generation] Silent close-up reaction on <Subject 1> as the trailing sting of CHR_1's remark leaves her completely speechless, her forced smile fading into mute embarrassment.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static locked-off camera on <Subject 1>, who keeps her lips naturally closed throughout with zero lip flutter and utters no words. From 0.00s to 0.65s, absorbing the trailing L-cut sting of <CHR_1>'s remark, <Subject 1>'s eyes widen slightly in momentary shock and the forced polite curve at the corners of her mouth stiffens and fades while preserving smooth, natural facial bone structure without exaggerated grimacing. From 0.65s to 2.00s, completely unable to form a rebuttal, <Subject 1> swallows subtly as her gaze drops slightly toward the frosted desk divider in mute embarrassment, her chest rising and falling in a quiet, restrained breath while her lips remain firmly and naturally sealed until the cut. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Quiet open-plan office room tone, soft restrained exhale, subtle ambient stillness.
+
+non_diegetic_music:
+N/A
