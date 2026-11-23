@@ -1,0 +1,603 @@
+{
+  "arena_tag": "FINAL_TEST_v0_vs_gold_768p",
+  "wins": 1,
+  "losses": 2,
+  "ties": 0,
+  "cand_mean_score": 73.67,
+  "ref_mean_score": 79.33,
+  "mean_delta": -5.66,
+  "cand_dim_means": {
+    "acting_micro_naturalism": 18.0,
+    "vocal_dialogue_delivery": 15.5,
+    "editing_rhythm_and_reactions": 14.5,
+    "character_and_costume_consistency": 14.0,
+    "cinematography_and_spatial_coherence": 6.83,
+    "physical_anatomy_integrity": 8.83
+  },
+  "ref_dim_means": {
+    "acting_micro_naturalism": 19.33,
+    "vocal_dialogue_delivery": 15.83,
+    "editing_rhythm_and_reactions": 16.67,
+    "character_and_costume_consistency": 11.67,
+    "cinematography_and_spatial_coherence": 7.17,
+    "physical_anatomy_integrity": 8.67
+  },
+  "cases": [
+    {
+      "case_id": "test_01_tipsy_breakup",
+      "outcome": "champ_win",
+      "cand_score": 73.0,
+      "champ_score": 82.5,
+      "score_delta": -9.5,
+      "vote_pass1": "B",
+      "vote_pass2_swapped": "A",
+      "cand_dim_avg": {
+        "acting_micro_naturalism": 16.5,
+        "vocal_dialogue_delivery": 14.5,
+        "editing_rhythm_and_reactions": 14.0,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 5.0,
+        "physical_anatomy_integrity": 9.0
+      },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 20.5,
+        "vocal_dialogue_delivery": 16.5,
+        "editing_rhythm_and_reactions": 17.5,
+        "character_and_costume_consistency": 13.0,
+        "cinematography_and_spatial_coherence": 6.0,
+        "physical_anatomy_integrity": 9.0
+      },
+      "probe_cand": {
+        "width": 1344,
+        "height": 768,
+        "duration_s": 12.959,
+        "v_dur_s": 12.958,
+        "a_dur_s": 12.959,
+        "av_desync_s": 0.001,
+        "speech_total_s": 9.76,
+        "first_speech_s": 0.16,
+        "vad_segments": [
+          [
+            0.16,
+            2.688
+          ],
+          [
+            2.976,
+            4.512
+          ],
+          [
+            4.672,
+            4.832
+          ],
+          [
+            5.632,
+            6.208
+          ],
+          [
+            6.24,
+            6.464
+          ],
+          [
+            6.72,
+            7.456
+          ],
+          [
+            7.808,
+            9.728
+          ],
+          [
+            10.08,
+            10.816
+          ],
+          [
+            11.104,
+            11.744
+          ],
+          [
+            12.064,
+            12.768
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 4.535,
+        "approx_cuts": 4,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "probe_champ": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 12.0,
+        "v_dur_s": 12.0,
+        "a_dur_s": 12.0,
+        "av_desync_s": 0.0,
+        "speech_total_s": 8.64,
+        "first_speech_s": 0.32,
+        "vad_segments": [
+          [
+            0.32,
+            2.784
+          ],
+          [
+            2.912,
+            4.256
+          ],
+          [
+            4.32,
+            7.456
+          ],
+          [
+            9.856,
+            11.552
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 1.944,
+        "approx_cuts": 4,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "cand_defects": [
+        "镜头3切入瞬间（04s-05s）出现多余的人声吃字杂音“见/姐”",
+        "镜头5（10s-12s）发生严重的空间场景跳变：从夜间城市人行道（铁艺围栏与行道树背景）突然瞬移到某建筑二楼室外露台餐厅（带木头桌椅与玻璃护栏）",
+        "镜头5（10s-12s）缺乏戏剧任务要求的“连声鞠躬道歉后仓皇逃离”动作调度，CHR_1仅在原地双手握拳轻微点头，且CHR_2站姿呆板僵硬",
+        "镜头3中CHR_1说“沈继明也分”时面部情绪过于平淡松弛，缺乏醉酒冲动顶嘴的跋扈果决张力",
+        "第5镜（00:10-00:12）空间环境发生严重跳变穿帮：前4镜均为带有绿植灌木与铁艺护栏的夜间城市人行道，第5镜突然瞬移至带有玻璃门窗、户外餐桌椅与矮墙的明亮露台餐厅门口。",
+        "戏剧高潮表演与剧本核心动作严重缺失：第5镜中CHR_1既没有“瞬间清醒、极度惊恐慌乱”的情绪骤转，也完全缺失了“连声鞠躬道歉后仓皇逃离”的关键肢体动作，仅原地双手合十置于胸前、以平缓委屈的语气念白。",
+        "第2镜结尾（约00:04.5）CHR_2说完台词后出现一声多余的人声杂音（“જી/切”），第3镜（00:05-00:07）与第5镜（00:10-00:12）CHR_1台词情绪张力不足、语速偏慢，且第3镜句尾留有呆滞空白，缺乏听话人反应切镜。"
+      ],
+      "champ_defects": [
+        "全片带有硬编码底部中文字幕，且00s开头存在前序台词残音“...什么”",
+        "镜头2与镜头4中CHR_2（沈继明）的180度正反打视线轴线方向有轻微跳轴感（镜头1中CHR_2在左朝右看，镜头2与4特写中CHR_2却朝画面左下方看，前景虚化肩头在左侧）",
+        "第1镜（00:00）开头多出一句剧本外的男主台词（“你说什么？”），且第1镜全景中CHR_1侧面站姿略显僵直，缺乏醉酒微醺的肢体张力。",
+        "正反打视线轴线（180度轴线）越轴：第1镜与第6镜全景中CHR_2在左（面朝右）、CHR_1在右（面朝左），但第2、3、4、5镜特写中男女双方视线均朝向画左（CHR_2在特写中也变成在画面右侧朝左看），且第1镜与第6镜所处人行道背景（马路沿vs铁艺围墙边）存在轻微位移。",
+        "画面底部带有烧录字幕，且CHR_1特写面部骨相相较于参考设定图（Character_Ref_1.png）略微柔化偏甜。"
+      ],
+      "pass1_detail": {
+        "a_key_defects": [
+          "镜头3切入瞬间（04s-05s）出现多余的人声吃字杂音“见/姐”",
+          "镜头5（10s-12s）发生严重的空间场景跳变：从夜间城市人行道（铁艺围栏与行道树背景）突然瞬移到某建筑二楼室外露台餐厅（带木头桌椅与玻璃护栏）",
+          "镜头5（10s-12s）缺乏戏剧任务要求的“连声鞠躬道歉后仓皇逃离”动作调度，CHR_1仅在原地双手握拳轻微点头，且CHR_2站姿呆板僵硬",
+          "镜头3中CHR_1说“沈继明也分”时面部情绪过于平淡松弛，缺乏醉酒冲动顶嘴的跋扈果决张力"
+        ],
+        "b_key_defects": [
+          "全片带有硬编码底部中文字幕，且00s开头存在前序台词残音“...什么”",
+          "镜头2与镜头4中CHR_2（沈继明）的180度正反打视线轴线方向有轻微跳轴感（镜头1中CHR_2在左朝右看，镜头2与4特写中CHR_2却朝画面左下方看，前景虚化肩头在左侧）"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 17,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 5,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 15
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 22,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 18,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 17
+        },
+        "video_a_observation": "Video_A总时长约12秒，共5个镜头。前4个镜头采用标准过肩与单人近景正反打，180度视线轴线保持正确（CHR_2在左朝右，CHR_1在右朝左），角色面部骨相与服装高度还原设定图。第一镜CHR_1指着对方质问、第四镜CHR_2怒喝的表情与唇音同步表现尚可。但存在三处明显缺陷：1. 04s-05s切入第三镜时，音轨出现突兀的多余男声单字杂音（类似“见/姐”），且第三镜CHR_1说“沈继明怎么了，沈继明也分”时眼神迷离平淡，缺乏跋扈顶嘴的爆发力；2. 10s-12s第五镜发生严重的空间环境跳变，前四镜均在夜间街道铁艺围栏与行道树旁的人行道，第五镜突然瞬移到带有户外餐桌椅和玻璃栏杆的建筑露台；3. 第五镜中CHR_1听到对方是老板后，仅在原地双手合拢说了句对不起，完全没有戏剧任务要求的“极度惊恐慌乱、连声鞠躬道歉后仓皇逃离”的肢体动作与反应层次。",
+        "video_b_observation": "Video_B总时长约12秒，共6个镜头。全片戏剧节奏紧凑，情绪起承转合极其鲜活饱满：特别是07s-10s在CHR_2怒喝“我是你老板”时，切给CHR_1的反应镜头精准捕捉了从微醺呆滞到瞳孔骤然放大、倒吸凉气瞬间酒醒的惊恐微表情层次；随后10s-12s切全景，CHR_1一边急促颤声说“对不起对不起”一边连连弯腰鞠躬并转身小跑仓皇逃离，空间环境始终保持在带有浅灰色围墙铁艺护栏与绿植灌木的夜间人行道上，完美兑现了剧本戏剧任务。主要瑕疵在于：1. 画面底部带有硬编码字幕，00s开头有前一句台词的尾音“...什么”；2. 镜头2（02s-04s）与镜头4（05s-07s）拍CHR_2特写时，前景CHR_1的虚化肩膀位于画面左侧、CHR_2视线朝左，与镜头1/6全景中“CHR_2在左朝右看”的180度轴线发生了反打跳轴。综合表演鲜活度、情绪转折反应与空间场景一致性，Video_B明显优于Video_A。",
+        "winner": "B",
+        "total_a": 74.0,
+        "total_b": 87.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "第1镜（00:00）开头多出一句剧本外的男主台词（“你说什么？”），且第1镜全景中CHR_1侧面站姿略显僵直，缺乏醉酒微醺的肢体张力。",
+          "正反打视线轴线（180度轴线）越轴：第1镜与第6镜全景中CHR_2在左（面朝右）、CHR_1在右（面朝左），但第2、3、4、5镜特写中男女双方视线均朝向画左（CHR_2在特写中也变成在画面右侧朝左看），且第1镜与第6镜所处人行道背景（马路沿vs铁艺围墙边）存在轻微位移。",
+          "画面底部带有烧录字幕，且CHR_1特写面部骨相相较于参考设定图（Character_Ref_1.png）略微柔化偏甜。"
+        ],
+        "b_key_defects": [
+          "第5镜（00:10-00:12）空间环境发生严重跳变穿帮：前4镜均为带有绿植灌木与铁艺护栏的夜间城市人行道，第5镜突然瞬移至带有玻璃门窗、户外餐桌椅与矮墙的明亮露台餐厅门口。",
+          "戏剧高潮表演与剧本核心动作严重缺失：第5镜中CHR_1既没有“瞬间清醒、极度惊恐慌乱”的情绪骤转，也完全缺失了“连声鞠躬道歉后仓皇逃离”的关键肢体动作，仅原地双手合十置于胸前、以平缓委屈的语气念白。",
+          "第2镜结尾（约00:04.5）CHR_2说完台词后出现一声多余的人声杂音（“જી/切”），第3镜（00:05-00:07）与第5镜（00:10-00:12）CHR_1台词情绪张力不足、语速偏慢，且第3镜句尾留有呆滞空白，缺乏听话人反应切镜。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 19,
+          "character_and_costume_consistency": 12,
+          "cinematography_and_spatial_coherence": 5,
+          "editing_rhythm_and_reactions": 17,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 16
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 16,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 5,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 14
+        },
+        "video_a_observation": "Video_A总时长约12秒，整体戏剧弧线与剪辑节奏高度契合剧本要求。00:00-00:02为夜间街道双人中全景，CHR_2在左、CHR_1在右面对面站立，但开头00:00处多出一句剧本外的CHR_2台词“你说什么？”，随后CHR_1说“周浩你是不是聋了，我说我们分手，分手懂吗？”，唇音同步准确但全景中CHR_1肢体偏僵直。00:02-00:03切CHR_2过肩特写说“你看清楚我是沈继明啊！”，00:04-00:05切CHR_1特写闭眼仰头跋扈顶嘴“沈继明怎么了，沈继明也分！”，微表情鲜活。00:05-00:07切CHR_2特写怒喝“你他妈是不是喝傻了”，并在后半句“我是你老板！”（00:07）精准切至CHR_1的听话反应特写：CHR_1先是微醺怔住（00:07-00:08），随即在00:09猛然瞪大双眼倒吸一口凉气（瞬间清醒的惊恐层次极具戏剧张力），紧接着颤抖急促地说出“对不起沈总，我喝多了”，并在00:10-00:12切回铁艺护栏与灌木旁的人行道全景，完整呈现CHR_1连声鞠躬说“对不起对不起”并仓皇转身小跑逃离的动作与脚步声。主要缺陷在于第2至第5镜特写中CHR_2与CHR_1视线均朝向画面左侧，违反了正反打180度视线轴线，且画面底部带有硬字幕。",
+        "video_b_observation": "Video_B总时长约12秒，人物面部骨相、发型及服装与设定图（Character_Ref_1/2.png）高度一致。00:00-00:02为CHR_1过肩中近景（在右朝左），她怒指对方、蹙眉质问“周浩你是不是聋了，我说我们分手，分手懂吗？”，情绪饱满、唇音同步。00:02-00:04反打CHR_2过肩中近景（在左朝右）急促回应“你看清楚我是沈继明啊！”，轴线准确，但00:04.5句尾切镜前出现一声多余的发音杂音。00:05-00:07切CHR_1近景闭眼仰头说“沈继明怎么了，沈继明也分！”，语气偏慢且平淡，说完后00:06.8-00:07.5面部表情回归平淡发呆。00:07-00:09切CHR_2近景怒吼“你他妈是不是喝傻了，我是你老板！”，怒目蹙眉的微表情与唇音同步较好。然而在00:10-00:12第5镜双人中全景中出现严重缺陷：一是空间背景从夜间行道树与铁艺护栏人行道突然跳变至带有餐桌椅和玻璃门窗的明亮餐饮露台；二是CHR_1既无瞬间酒醒的惊恐反应，也未执行“连声鞠躬道歉后仓皇逃离”的剧本动作，仅原地双手抱拳在胸前，用平缓略带委屈的语调说完“对不起沈总，我喝多了，对不起对不起”，戏剧高潮落空。",
+        "winner": "A",
+        "total_a": 78.0,
+        "total_b": 72.0
+      }
+    },
+    {
+      "case_id": "test_02_trio_table",
+      "outcome": "champ_win",
+      "cand_score": 71.5,
+      "champ_score": 91.0,
+      "score_delta": -19.5,
+      "vote_pass1": "B",
+      "vote_pass2_swapped": "A",
+      "cand_dim_avg": {
+        "acting_micro_naturalism": 15.5,
+        "vocal_dialogue_delivery": 14.0,
+        "editing_rhythm_and_reactions": 12.5,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 7.0,
+        "physical_anatomy_integrity": 8.5
+      },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 23.0,
+        "vocal_dialogue_delivery": 17.0,
+        "editing_rhythm_and_reactions": 18.0,
+        "character_and_costume_consistency": 14.5,
+        "cinematography_and_spatial_coherence": 9.0,
+        "physical_anatomy_integrity": 9.5
+      },
+      "probe_cand": {
+        "width": 1344,
+        "height": 768,
+        "duration_s": 7.625,
+        "v_dur_s": 7.625,
+        "a_dur_s": 7.625,
+        "av_desync_s": 0.0,
+        "speech_total_s": 5.056,
+        "first_speech_s": 0.224,
+        "vad_segments": [
+          [
+            0.224,
+            2.464
+          ],
+          [
+            2.752,
+            3.04
+          ],
+          [
+            3.36,
+            5.088
+          ],
+          [
+            6.24,
+            7.04
+          ]
+        ],
+        "tail_truncated": false,
+        "lip_desync_detected": false,
+        "median_motion": 5.595,
+        "approx_cuts": 2,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 0.0,
+        "penalty_reasons": []
+      },
+      "probe_champ": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 11.0,
+        "v_dur_s": 11.0,
+        "a_dur_s": 11.0,
+        "av_desync_s": 0.0,
+        "speech_total_s": 10.304,
+        "first_speech_s": 0.384,
+        "vad_segments": [
+          [
+            0.384,
+            1.536
+          ],
+          [
+            1.76,
+            7.072
+          ],
+          [
+            7.168,
+            11.008
+          ]
+        ],
+        "tail_truncated": true,
+        "lip_desync_detected": false,
+        "median_motion": 8.648,
+        "approx_cuts": 5,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 12.0,
+        "penalty_reasons": [
+          "SPEECH_TAIL_TRUNCATED"
+        ]
+      },
+      "cand_defects": [
+        "00:02-00:05 镜头切至三人同框全景时，缺少CHR_2咬下李子并从“被酸到微愣”转换为“配合演戏惊喜推荐”的关键动作与微表情过渡，切镜即手中李子已被咬开且直接浮夸尬笑，00:03还伴有一声突兀的“呃”杂音/气音。",
+        "00:05 切至CHR_3单人近景时，完全省略了接过李子并咬下的动作过程，切镜瞬间李子已在手中且有咬痕，同时背景里CHR_1与CHR_2直接从餐桌旁消失（左侧只剩空椅子和青花瓷碗），空间与叙事衔接断层。",
+        "00:08 结尾CHR_3做吃酸表情时，画面被过度压缩成滑稽夸张的挤眼皱鼻静态鬼脸。",
+        "表演缺少戏剧过渡：CHR_2没有咬下李子被酸到顿住再反应过来的过程，跳切后手中李子直接变成已咬开状态并直接开始傻笑背词；CHR_3同样没有接过李子或咬下李子的动作，切镜后手里凭空多出半颗已咬开的李子",
+        "剪辑与镜头语言呆板：前两镜几乎为毫无景别纵深变化的正面平铺机位（从双人硬切到三人全景），缺乏正反打视线交互与CHR_1、CHR_2联手使坏的双人反应镜头，且总时长仅7秒多，节奏仓促单薄",
+        "人声与环境声断层：对白之间存在明显的音频拼接抽吸感与底噪断层，缺乏自然连续的环境声铺底与真实的咀嚼/咬果动作音效"
+      ],
+      "champ_defects": [
+        "00:10-00:11 视频末尾剪辑存在截断缺陷，CHR_3喊出“好酸！”时音频在“好”字刚出口即戛然而止，未完整播放完尾音。",
+        "画面左上角带有固定文字贴条，底部带有内嵌字幕（非纯画面层瑕疵，表演与视听本身均极佳）",
+        "10秒末尾切出略快，“好酸”尾音刚好卡在片尾截断处",
+        "SPEECH_TAIL_TRUNCATED"
+      ],
+      "pass1_detail": {
+        "a_key_defects": [
+          "00:02-00:05 镜头切至三人同框全景时，缺少CHR_2咬下李子并从“被酸到微愣”转换为“配合演戏惊喜推荐”的关键动作与微表情过渡，切镜即手中李子已被咬开且直接浮夸尬笑，00:03还伴有一声突兀的“呃”杂音/气音。",
+          "00:05 切至CHR_3单人近景时，完全省略了接过李子并咬下的动作过程，切镜瞬间李子已在手中且有咬痕，同时背景里CHR_1与CHR_2直接从餐桌旁消失（左侧只剩空椅子和青花瓷碗），空间与叙事衔接断层。",
+          "00:08 结尾CHR_3做吃酸表情时，画面被过度压缩成滑稽夸张的挤眼皱鼻静态鬼脸。"
+        ],
+        "b_key_defects": [
+          "00:10-00:11 视频末尾剪辑存在截断缺陷，CHR_3喊出“好酸！”时音频在“好”字刚出口即戛然而止，未完整播放完尾音。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 17,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 15
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 23,
+          "character_and_costume_consistency": 15,
+          "cinematography_and_spatial_coherence": 9,
+          "editing_rhythm_and_reactions": 18,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 16
+        },
+        "video_a_observation": "Video_A 总时长约 8 秒，共 3 个镜头。优点是三位角色的面部骨相、发型服装与 Character_Ref 设定图高度一致，唇音同步基本准确，画面光影质感清晰。但存在明显的叙事动作跳漏与空间连续性瑕疵：1）00:00-00:02 第一镜中 CHR_1 已经拿着咬过的李子直接开口夸赞，缺少刚咬下被酸到五官微皱再强装镇定的细腻情绪转换；2）00:02-00:05 切至三人全景时，完全跳过了 CHR_2 咬李子、被酸顿住再心领神会转换表情的核心戏剧过程，切镜瞬间手里的李子已经少了一块，且 00:03 伴随一声突兀的“呃”喘息杂音；3）00:05-00:08 切至 CHR_3 近景时，不仅跳过了接李子、咬李子的过程（切镜即已咬开并皱眉），且原本并排坐在他左侧的 CHR_1 和 CHR_2 在画面左景深处完全消失（只剩空木椅与李子碗），结尾 00:07-00:08 CHR_3 的五官皱缩略显AI夸张鬼脸化。",
+        "video_b_observation": "Video_B 总时长约 11 秒，共 7 个镜头，是具有极高真人实拍质感的成片（带有原片字幕与顶部条幅，按规则忽略字幕只评视听表现）。1）表演层次极为鲜活细腻：00:00-00:02 完整呈现了 CHR_1 咬下李子瞬间被酸得闭眼缩脖、随即迅速调整表情假装惊喜忽悠 CHR_2 的微表情转换；00:04-00:05 CHR_2 接过李子咬下一口后被酸得眯眼皱眉顿住，立刻反应过来转身笑眯眯忽悠 CHR_3；00:08 切入极具戏剧张力的双人反应镜头——CHR_1 与 CHR_2 并排带着坏笑期待地盯着 CHR_3 吃瘪；00:09-00:10 CHR_3 大口咬下后酸得五官紧蹙。2）镜头语言与空间轴线极其专业，三人从左至右并排坐位关系、过肩正反打视线轴线与景深关系严丝合缝。唯一明显瑕疵在于 00:10 结尾处剪辑过早截断，CHR_3 的台词“好酸”刚发出“好—”便随画面结束而中断。",
+        "winner": "B",
+        "total_a": 76.0,
+        "total_b": 90.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "画面左上角带有固定文字贴条，底部带有内嵌字幕（非纯画面层瑕疵，表演与视听本身均极佳）",
+          "10秒末尾切出略快，“好酸”尾音刚好卡在片尾截断处"
+        ],
+        "b_key_defects": [
+          "表演缺少戏剧过渡：CHR_2没有咬下李子被酸到顿住再反应过来的过程，跳切后手中李子直接变成已咬开状态并直接开始傻笑背词；CHR_3同样没有接过李子或咬下李子的动作，切镜后手里凭空多出半颗已咬开的李子",
+          "剪辑与镜头语言呆板：前两镜几乎为毫无景别纵深变化的正面平铺机位（从双人硬切到三人全景），缺乏正反打视线交互与CHR_1、CHR_2联手使坏的双人反应镜头，且总时长仅7秒多，节奏仓促单薄",
+          "人声与环境声断层：对白之间存在明显的音频拼接抽吸感与底噪断层，缺乏自然连续的环境声铺底与真实的咀嚼/咬果动作音效"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 23,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 9,
+          "editing_rhythm_and_reactions": 18,
+          "physical_anatomy_integrity": 10,
+          "vocal_dialogue_delivery": 18
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 14,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 11,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 13
+        },
+        "video_a_observation": "Video_A（总时长约10.5秒）展现出极高的真人实拍级短剧水准。1）表演自然度与情绪层次：00:00-00:01 CHR_1咬下李子后被酸得眉头微蹙、眼睛微眯，00:02立刻转换成挑眉瞪眼的热情夸赞表情忽悠CHR_2；00:04 CHR_2接过李子咬下一口后瞬间被酸得五官皱起顿住，00:05迅速反应过来转为惊喜高昂的表情转头怂恿CHR_3；00:08专门切出CHR_1与CHR_2并排带着狡黠坏笑、充满期待盯着CHR_3看他出糗的双人反应镜头，潜台词极性极其准确鲜活；00:09-00:10 CHR_3大口咬下李子后瞬间被酸得五官紧锁哀嚎，全程表情肌生动真实。2）唇音同步与声音质感：三句台词唇音严丝合缝（误差在±0.1秒内），咬李子的清脆音效、背景音乐与室内环境底噪连续自然。3）剪辑与运镜：7个镜头切换紧凑干脆，景别从三人全景建立空间，到特写、双人中近景、过肩正反打及双人反应镜头交替，180度轴线与从左至右（CHR_1、CHR_2、CHR_3）的座位拓扑严密一致，固定机位沉稳克制。4）角色与物理一致性：三人骨相、发型、服装与设定图高度一致，手部拿取与递送李子动作自然无穿模。唯一细微瑕疵是画面带有左上角文字贴条及底部字幕，且10秒末尾“好酸”尾音结束略急。",
+        "video_b_observation": "Video_B（总时长约7.5秒）存在明显的AI生成式跳跃、戏剧过程缺失与镜头呆板问题。1）表演与动作断层：00:00-00:02 CHR_1没有先被酸到再装甜的微表情转换，而是直接咧嘴笑说台词；CHR_2从左前方青花瓷碗拿李子，00:03切到三人全景时，CHR_2完全没有咬李子和被酸到顿住的反应过程，手里李子直接凭空变成已咬开露出黄肉的状态，且直接满脸笑容背诵台词；00:05切到CHR_3近景时，完全缺失他接过李子或咬下李子的过程，手里直接凭空握着一颗已经被咬开的李子开始皱眉说“好酸”，戏剧因果链条断裂。2）剪辑节奏与镜头语言：全片仅3个镜头，00:00双人正面中景硬切到00:03同轴线的三人正面一字排开全景，缺乏景深层次、过肩正反打和双人使坏的反应特写，画面如同舞台剧摆拍般呆板，且总时长仅7.5秒，较11秒目标明显仓促缩水。3）声音与唇形：虽然嘴型大体能对上台词发音，但各句台词音频拼接感强，句子之间底噪断层、出现死寂抽吸感，且缺少真实的咬果音效。4）角色外观与空间：三人面部骨相、服装与设定图保持了较好的一致性，从左到右座位顺序未乱，但在00:03硬切时桌面碗的位置与人物间距有轻微跳变感。",
+        "winner": "A",
+        "total_a": 92.0,
+        "total_b": 67.0
+      }
+    },
+    {
+      "case_id": "test_03_ancient_family",
+      "outcome": "cand_win",
+      "cand_score": 76.5,
+      "champ_score": 64.5,
+      "score_delta": 12.0,
+      "vote_pass1": "A",
+      "vote_pass2_swapped": "B",
+      "cand_dim_avg": {
+        "acting_micro_naturalism": 22.0,
+        "vocal_dialogue_delivery": 18.0,
+        "editing_rhythm_and_reactions": 17.0,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 8.5,
+        "physical_anatomy_integrity": 9.0
+      },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 14.5,
+        "vocal_dialogue_delivery": 14.0,
+        "editing_rhythm_and_reactions": 14.5,
+        "character_and_costume_consistency": 7.5,
+        "cinematography_and_spatial_coherence": 6.5,
+        "physical_anatomy_integrity": 7.5
+      },
+      "probe_cand": {
+        "width": 1344,
+        "height": 768,
+        "duration_s": 8.5,
+        "v_dur_s": 8.5,
+        "a_dur_s": 8.5,
+        "av_desync_s": 0.0,
+        "speech_total_s": 5.888,
+        "first_speech_s": 0.16,
+        "vad_segments": [
+          [
+            0.16,
+            1.6
+          ],
+          [
+            2.112,
+            2.496
+          ],
+          [
+            2.944,
+            4.192
+          ],
+          [
+            4.544,
+            4.768
+          ],
+          [
+            5.216,
+            5.888
+          ],
+          [
+            6.4,
+            7.008
+          ],
+          [
+            7.2,
+            8.512
+          ]
+        ],
+        "tail_truncated": true,
+        "lip_desync_detected": false,
+        "median_motion": 3.124,
+        "approx_cuts": 1,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 12.0,
+        "penalty_reasons": [
+          "SPEECH_TAIL_TRUNCATED"
+        ]
+      },
+      "probe_champ": {
+        "width": 896,
+        "height": 512,
+        "duration_s": 8.959,
+        "v_dur_s": 8.958,
+        "a_dur_s": 8.9,
+        "av_desync_s": 0.058,
+        "speech_total_s": 6.4,
+        "first_speech_s": 0.192,
+        "vad_segments": [
+          [
+            0.192,
+            1.632
+          ],
+          [
+            1.952,
+            2.464
+          ],
+          [
+            2.848,
+            3.968
+          ],
+          [
+            4.224,
+            4.544
+          ],
+          [
+            4.736,
+            5.568
+          ],
+          [
+            6.24,
+            6.976
+          ],
+          [
+            7.456,
+            8.896
+          ]
+        ],
+        "tail_truncated": true,
+        "lip_desync_detected": false,
+        "median_motion": 5.145,
+        "approx_cuts": 3,
+        "frozen_slideshow": false,
+        "deterministic_penalty": 12.0,
+        "penalty_reasons": [
+          "SPEECH_TAIL_TRUNCATED"
+        ]
+      },
+      "cand_defects": [
+        "镜头一（00:00-00:04）中怀抱襁褓的年长妇人（CHR_3）面部微表情与肢体动作过于静态，缺乏对身旁婆婆狠毒言语的动态听话反应层次。",
+        "仅采用两镜正反打切镜，相比分切更丰富的切镜略显单薄。",
+        "正反打切镜时背景木桌与煤油灯的空间相对位置存在轻微透视位移",
+        "仅采用两组正反打机位，镜头景别变化略少于三镜切分结构",
+        "SPEECH_TAIL_TRUNCATED"
+      ],
+      "champ_defects": [
+        "画面带有严重破坏观看体验的博彩垃圾广告字幕水印与硬字幕，且整体画质呈劣质动漫/3D油腻网游滤镜感，彻底丧失真人实拍质感。",
+        "角色形象与设定图严重不符：CHR_1面部五官严重扭曲变形如男性老头且头部比例失调；CHR_2变成廉价3D网红脸，丢失真实皮肤肌理与设定骨相。",
+        "表演极度违和且面瘫：第一镜中CHR_3在听到要把女婴丢弃时竟全程面带慈祥微笑；第二、三镜中CHR_2在哭喊求饶时面部肌肉几乎无悲痛纹理，眼部无泪光，仅靠呆滞干张嘴应付，且唇音同步度差。",
+        "剪辑出现生硬的同人跳切（00:04-00:06到00:06-00:08在CHR_2同一说话动作上直接从近景跳切至过肩中远景）。",
+        "人物材质与骨相呈明显的3D动漫/CG建模质感，与写实参考设定图（Character_Ref_1/2/3）的真人骨相及皮肤肌理存在明显偏差",
+        "画面顶部带有大面积违规博彩广告水印及底部硬编码字幕，破坏画面纯净度",
+        "第一镜中怀抱弃婴的CHR_3嘴角带着不合时宜的微笑，与严酷悲凉的戏剧语境不符；片尾最后一字音频略微截断",
+        "SPEECH_TAIL_TRUNCATED"
+      ],
+      "pass1_detail": {
+        "a_key_defects": [
+          "镜头一（00:00-00:04）中怀抱襁褓的年长妇人（CHR_3）面部微表情与肢体动作过于静态，缺乏对身旁婆婆狠毒言语的动态听话反应层次。",
+          "仅采用两镜正反打切镜，相比分切更丰富的切镜略显单薄。"
+        ],
+        "b_key_defects": [
+          "画面带有严重破坏观看体验的博彩垃圾广告字幕水印与硬字幕，且整体画质呈劣质动漫/3D油腻网游滤镜感，彻底丧失真人实拍质感。",
+          "角色形象与设定图严重不符：CHR_1面部五官严重扭曲变形如男性老头且头部比例失调；CHR_2变成廉价3D网红脸，丢失真实皮肤肌理与设定骨相。",
+          "表演极度违和且面瘫：第一镜中CHR_3在听到要把女婴丢弃时竟全程面带慈祥微笑；第二、三镜中CHR_2在哭喊求饶时面部肌肉几乎无悲痛纹理，眼部无泪光，仅靠呆滞干张嘴应付，且唇音同步度差。",
+          "剪辑出现生硬的同人跳切（00:04-00:06到00:06-00:08在CHR_2同一说话动作上直接从近景跳切至过肩中远景）。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 22,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 9,
+          "editing_rhythm_and_reactions": 17,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 18
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 11,
+          "character_and_costume_consistency": 7,
+          "cinematography_and_spatial_coherence": 6,
+          "editing_rhythm_and_reactions": 12,
+          "physical_anatomy_integrity": 7,
+          "vocal_dialogue_delivery": 12
+        },
+        "video_a_observation": "Video_A整体呈现出极高的真人实拍影视质感与出色的角色还原度。镜头一（00:00-00:04）为过肩中近景（前景右侧为土炕上CHR_2的背影肩头，确立了清晰稳固的180度空间视线轴线），CHR_1（年迈婆婆）与怀抱襁褓的CHR_3并排面向土炕站立，CHR_1的骨相、皱纹肌理、花白发髻与木簪、补丁棉袄及麻绳腰带均与Character_Ref_1高度一致；其说话时眉眼阴鸷冷酷、面部肌肉牵动自然，唇音同步严丝合缝，仅身旁的CHR_3低头看襁褓时反应略显静态。镜头二（00:04-00:08）反打切至土炕上的CHR_2（年轻产妇），其面容骨相、凌乱碎发及磨损交领粗布衣衫完美还原Character_Ref_2；表演极具爆发力，眼眶泛红、泪水滑落脸颊，眉间紧蹙、哭腔颤音与嘴唇开合严丝合缝，向前伸手哀求的肢体动作与绝望神态层次饱满，背景土坯墙、木格窗、矮桌与煤油灯空间拓扑连贯一致，机位稳固克制。",
+        "video_b_observation": "Video_B整体画风劣化为粗糙的3D动漫/CG网游渲染质感，且画面上方存在大面积违规博彩赞助文字水印及底部硬字幕，严重破坏画面。镜头一（00:00-00:03）中，CHR_1面部五官严重变形失真（酷似诡异的男性老头），失去Character_Ref_1的真实老年女性骨相；更严重的是，身旁怀抱襁褓的CHR_3在听到CHR_1说要把女婴丢弃处理时，竟然全程面带诡异慈祥的微笑，情绪极性与残酷戏剧语境彻底相悖。镜头二（00:04-00:05）与镜头三（00:06-00:08）拍摄土炕上的CHR_2，其面部被磨皮同质化为塑料感极强的3D网红脸，在撕心裂肺哭求时，眉毛与苹果肌几乎毫无悲痛生理牵动，无真实泪水，仅靠呆滞干张嘴完成口型，属于典型的“面瘫安全脸”，且00:05切00:06时在同一角色持续伸手说话过程中发生生硬的景别跳切（Jump Cut），唇音同步也存在明显粘连滞后。",
+        "winner": "A",
+        "total_a": 89.0,
+        "total_b": 55.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "人物材质与骨相呈明显的3D动漫/CG建模质感，与写实参考设定图（Character_Ref_1/2/3）的真人骨相及皮肤肌理存在明显偏差",
+          "画面顶部带有大面积违规博彩广告水印及底部硬编码字幕，破坏画面纯净度",
+          "第一镜中怀抱弃婴的CHR_3嘴角带着不合时宜的微笑，与严酷悲凉的戏剧语境不符；片尾最后一字音频略微截断"
+        ],
+        "b_key_defects": [
+          "正反打切镜时背景木桌与煤油灯的空间相对位置存在轻微透视位移",
+          "仅采用两组正反打机位，镜头景别变化略少于三镜切分结构"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 18,
+          "character_and_costume_consistency": 8,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 17,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 16
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 22,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 17,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 18
+        },
+        "video_a_observation": "Video_A全长约8.9秒，共3个镜头（00:00-00:04为CHR_1与CHR_3双人中景，00:04-00:06切CHR_2土炕特写，00:06-00:08.9切过CHR_1肩拍CHR_2伸手哀求的中景）。对白唇音同步总体准确，剪辑节奏紧凑；但整体画面为3D/CG渲染画风，人物面部骨相与写实设定图差异明显，画面顶部叠加了博彩推广文字水印与底部硬字幕；此外第一镜中CHR_3低头看婴儿时带有轻微微笑，与丢弃女婴的沉重戏剧氛围不符，片尾8.8秒处尾音“了”略有截断。",
+        "video_b_observation": "Video_B全长约8.9秒，共2个镜头（00:00-00:04为过CHR_2肩拍CHR_1与CHR_3站立对白的中景，00:04-00:08.9切CHR_2在土炕上哭泣伸手哀求的中近景反打）。人物骨相、年龄肤质、发饰及粗布服装高度还原Character_Ref_1/2/3写实设定图；CHR_1神态冷酷威严，CHR_3神色凝重忧虑，CHR_2眼眶泛红、泪痕清晰、蹙眉哭诉与伸手挽留的微表情及肢体层次鲜活自然；唇音严丝合缝，哭腔气口与环境底噪连续自然，机位稳固克制。仅正反打背景中的矮桌煤油灯位置有轻微位移。",
+        "winner": "B",
+        "total_a": 74.0,
+        "total_b": 88.0
+      }
+    }
+  ]
+}

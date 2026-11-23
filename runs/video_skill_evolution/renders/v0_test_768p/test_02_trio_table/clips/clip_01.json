@@ -1,0 +1,32 @@
+{
+  "headers": {
+    "X-Task-Id": "b95f2add-1afa-48a9-9998-e97317b8757d",
+    "X-Model": "MiniMax-H3-Native-INT8",
+    "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "X-Steps": "14",
+    "X-Sampler": "res_multistep",
+    "X-Resolution": "1344x768",
+    "X-Duration": "3.072",
+    "X-Loras": "[]",
+    "X-SOL": "false",
+    "X-Frame0-Guide": "true",
+    "X-Backend": "5090-local"
+  },
+  "elapsed_s": 153.35,
+  "seed": 917113,
+  "requested_duration": 3,
+  "actual_duration": 3.072,
+  "width": 1344,
+  "height": 768,
+  "has_audio": true,
+  "ref_images_1k": [
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0_test_768p/test_02_trio_table/keyframes_1k/clip_01_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_1_neutral_multiview_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_2_neutral_multiview_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/CHR_3_neutral_multiview_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/assets/PRP_1_1k.png"
+  ],
+  "ref_audios": [
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_02_trio_table/voices/CHR_2.wav"
+  ]
+}

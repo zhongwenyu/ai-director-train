@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Reverse over-the-shoulder medium close-up on CHR_2 (screen-left, facing right) over CHR_1's blurred right foreground shoulder cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse over-the-shoulder onto <Subject 1> on screen-left as he urgently leans in and points to himself to make his drunken subordinate recognize he is Shen Jiming.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Reverse angle over the softly out-of-focus dark coat shoulder and low bun silhouette of <CHR_1> in the right foreground, focusing on <Subject 1> (S1) standing on screen-left angled right toward her. Looking both baffled and urgently exasperated, <Subject 1> (S1) leans slightly forward, eyebrows knitted and lifting earnestly as he raises his right hand to gesture briskly toward his own face and chest to snap her awake. <Subject 1> (S1) speaks (0.16s-2.01s): <d>[Chinese] 你看清楚我是沈继明啊！</d> His mouth articulates each syllable clearly and urgently while <CHR_1>'s blurred foreground silhouette stays motionless.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Subtle night breeze through street-side leaves, crisp nylon-blend jacket rustle as he gestures to his chest.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

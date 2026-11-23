@@ -120,5 +120,52 @@
       "push_in_clip_ratio": 0.0,
       "locked_static_clip_ratio": 1.0
     }
+  },
+  "final_locked_test": {
+    "champion": "v0",
+    "resolution": "768p",
+    "vs_v0_baseline": {
+      "wins": 0,
+      "losses": 0,
+      "ties": 3,
+      "cand_mean_score": 70.0,
+      "ref_mean_score": 70.0,
+      "mean_delta": 0.0,
+      "cand_dim_means": {
+        "acting_micro_naturalism": 17.83,
+        "vocal_dialogue_delivery": 15.0,
+        "editing_rhythm_and_reactions": 13.5,
+        "character_and_costume_consistency": 13.0,
+        "cinematography_and_spatial_coherence": 6.0,
+        "physical_anatomy_integrity": 8.67
+      },
+      "ref_dim_means": {
+        "acting_micro_naturalism": 17.83,
+        "vocal_dialogue_delivery": 15.0,
+        "editing_rhythm_and_reactions": 13.5,
+        "character_and_costume_consistency": 13.0,
+        "cinematography_and_spatial_coherence": 6.0,
+        "physical_anatomy_integrity": 8.67
+      }
+    },
+    "v0_target_parity_pct": 92.99,
+    "champion_target_parity_pct": 92.87,
+    "champion_target_parity_by_dim_pct": {
+      "acting_micro_naturalism": 93.1,
+      "vocal_dialogue_delivery": 97.9,
+      "editing_rhythm_and_reactions": 87.0,
+      "character_and_costume_consistency": 120.0,
+      "cinematography_and_spatial_coherence": 95.3,
+      "physical_anatomy_integrity": 101.8
+    },
+    "v0_asl_s": 3.13,
+    "champion_asl_s": 3.13,
+    "target_gold_asl_s": 2.16,
+    "triptych_videos": {
+      "dev_01_workplace_rival": "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/target_verification/triptych_comparisons/triptych_dev_01_target_video.mp4",
+      "test_01_tipsy_breakup": "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/target_verification/triptych_comparisons/triptych_test_01_tipsy_breakup.mp4",
+      "test_02_trio_table": "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/target_verification/triptych_comparisons/triptych_test_02_trio_table.mp4",
+      "test_03_ancient_family": "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/target_verification/triptych_comparisons/triptych_test_03_ancient_family.mp4"
+    }
   }
 }

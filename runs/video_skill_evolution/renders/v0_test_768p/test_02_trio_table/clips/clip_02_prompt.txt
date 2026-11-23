@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up (MCU, eye-level angled slightly from front-left) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Overwhelmed by the extreme tartness of the plum he just bit, <Subject 1> cries out in disbelief and loses composure as his entire face scrunches up in a helpless sour grimace.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Recoiling slightly in his chair as the sharp, mouth-puckering sourness floods his palate, <Subject 1> (S1) stares in betrayed disbelief toward the left and blurts out right away. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 好酸！</d> with distinct, accurate lip-sync and tightly knitted eyebrows while holding the half-bitten yellow-fleshed plum in front of his chest. From 1.20s to 3.00s, <Subject 1> (S1) clamps his lips tightly shut in an uncontrollable sour pucker, crinkles the bridge of his nose, squeezes his eyes nearly shut with tensed cheeks, and gives a involuntary shuddering shake of his head as he lowers his hand holding the tart plum.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Warm sunlit indoor room tone, a sharp intake of breath, subtle hoodie fabric rustle from a sudden sour shudder, and a soft swallow.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

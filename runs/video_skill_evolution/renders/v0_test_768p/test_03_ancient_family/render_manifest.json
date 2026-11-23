@@ -1,0 +1,72 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Over-the-shoulder medium close-up (OTS-MCU), locked-off static camera",
+        "clip_id": "clip_01",
+        "clip_summary": "Over CHR_2's blurred right-foreground shoulder silhouette, CHR_1 stands beside CHR_3 cradling the swaddled newborn bundle in the center of the cold mud-brick room and callously declares she will dispose of the baby girl.",
+        "detailed_action_and_dialogue": "Locked-off static camera in an over-the-shoulder medium close-up past <CHR_2>'s out-of-focus dark-haired shoulder silhouette on the right foreground edge. At 0.20s, <CHR_1> immediately speaks in a cold, domineering, matter-of-fact tone while glaring screen-right toward <CHR_2>, tilting her chin briefly with disdain toward the tightly wrapped gray-white coarse cotton newborn swaddle held in <CHR_3>'s arms before fixing her pitiless gaze back onto <CHR_2> and giving a sharp, final dismissive flick of her weathered hand. <CHR_1> speaks (0.20s-3.85s): <d>[Chinese] 这丫头片子留着没用，你别管，一会我处理了就是。</d> Crisp, accurate Mandarin lip-sync matching every syllable. Right beside her, <CHR_3> keeps her lips pressed tightly shut throughout, cradling the swaddled infant bundle closer against her chest as her furrowed brows twitch with helpless unease and her eyes lower toward the floor. In the right foreground, <CHR_2>'s blurred shoulder stiffens and trembles.",
+        "duration_s": 4,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Cold, callous narrowed eyes with knitted weathered brows, hard downward gaze of disdain, taut cheek lines, and firmly closed thin lips at 45% natural cinematic intensity",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Over-the-shoulder medium close-up inside [Scene], shooting from behind [CHR_2] on the right side of the room to preserve the 180-degree spatial axis, with [CHR_2]'s out-of-focus dark-haired left shoulder silhouette framing the far right foreground edge. Standing side by side in the center of the room on the left-to-center midground and facing three-quarters screen-right toward the kang are [CHR_1] and [CHR_3]. [CHR_1], in her patched dark brown coarse cotton padded jacket with black stand-collar frog buttons, stands in crisp primary focus with furrowed aged brows, cold disdainful narrowed eyes, and a hardened expression directed toward [CHR_2]. Right beside her, [CHR_3] in her dark blue headscarf and dark blue coarse cloth top holds [PRP_1], a tightly wrapped cylindrical gray-white coarse cotton newborn swaddle, against her chest with closed lips and an uneasy lowered gaze. Exposed wooden roof rafters, yellow mud-brick wall, and slanting cold winter daylight fill the background in muted warm gray-brown tones. Natural live-action photography, 16:9, clean frame with no text, no subtitles, no watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Cold winter wind whistling faintly through tattered roof thatch and paper window lattices, dry rustle of coarse padded cotton sleeves as CHR_1 gestures, subtle shifting of cotton swaddle cloth.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_3"
+        ]
+      },
+      {
+        "camera_framing": "Medium close-up (MCU), locked-off static camera",
+        "clip_id": "clip_02",
+        "clip_summary": "Reverse medium close-up on the earthen kang as a terrified, frail CHR_2 strains forward from beneath her coarse quilt toward screen-left, weeping and begging CHR_1 not to throw her newborn daughter out into the freezing cold.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a reverse-angle medium close-up on <CHR_2> on the raised earthen kang, facing screen-left across the room. At 0.20s, <CHR_2> immediately speaks in a panicked, trembling, tear-choked voice, straining her weak upper body forward off the dark cloth pillow toward screen-left as tears well up and spill down her pale cheeks; one hand clutches the gray-brown coarse quilt tightly for support while her other trembling hand reaches outward toward screen-left in a desperate maternal plea, her upturned inner brows quivering with terror and anguish. <CHR_2> speaks (0.20s-4.75s): <d>[Chinese] 娘，求您别扔她，天这么冷，扔出去她就没命了。</d> Clear, accurate Mandarin lip-sync matching every syllable with natural ragged sobbing breaths between phrases.",
+        "duration_s": 5,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Panic-stricken, tear-glistening eyes with sharply upturned pleading inner brows, tense trembling lower eyelids, pale taut cheeks, and closed quivering lips at 45% natural cinematic intensity",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Reverse-angle medium close-up inside [Scene] on the raised mud-brick earthen kang on the right side of the room, strictly maintaining the 180-degree eyeline axis. [CHR_2], a pale, frail 22-year-old East Asian woman with loose dark hair and damp front wisps wearing a worn light gray-blue cross-collar wide-sleeve coarse cloth garment, sits half-propped up against a dark cloth pillow beneath a gray-brown coarse cloth quilt, her body and tear-glistening terrified eyes angled squarely toward screen-left. Her inner brows are drawn sharply upward in desperate plea and her pale fingers grip the coarse quilt edge, with the rough yellow mud-brick wall, paper-pasted wooden lattice window slanting cold winter daylight, and the edge of the low worn wooden table with a kerosene lamp softly visible behind and beside the kang. Natural live-action photography, desolate low-saturation warm gray-brown palette, 16:9, clean frame with no text, no subtitles, no watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Chilly winter draft seeping through window paper and roof crevices, heavy rustle and friction of the coarse cloth quilt as CHR_2 strains forward on the kang, shaky choked breaths.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Wide establishing master blocking shot (16:9) inside [Scene], a dilapidated ancient northern Chinese rural yellow mud-brick cottage interior with exposed round wooden rafters, tattered thatched roof crevices, a paper-pasted wooden lattice window and aged wooden door on the back-left wall, and a raised mud-brick earthen kang built against the right wall with a low worn wooden table and kerosene lamp beside its edge. Standing side by side in the center of the packed-earth floor on the left half of the frame are [CHR_1] (68-year-old thin, weathered East Asian woman with gray-white hair in a bun secured by a dark wooden hairpin, wearing a patched dark brown coarse cotton padded jacket with black stand-collar frog buttons, a waist hemp cord, and dark coarse trousers) and [CHR_3] (60-year-old round-faced East Asian woman in a dark blue coarse cloth headscarf, dark blue cross-collar coarse long-sleeve top, and black apron) cradling [PRP_1] (a tightly wrapped cylindrical gray-white coarse cotton newborn swaddle) in both arms; both [CHR_1] and [CHR_3] stand side by side facing squarely screen-right toward the earthen kang. Directly opposite them across the open floor space on the right half of the frame, [CHR_2] (22-year-old pale East Asian young woman with loose black hair and front wisps, wearing a worn light gray-blue cross-collar wide-sleeve coarse cloth garment) lies half-propped up on the earthen kang beneath a gray-brown coarse cloth quilt against a dark cloth pillow, facing squarely screen-left toward [CHR_1] and [CHR_3]. Camera views the room perpendicular to the central sightline from the front side, locking a strict 180-degree horizontal axis between the left-center standing pair and the right-side kang. Slanting cold winter daylight streams through roof gaps and window lattices in a desolate, low-saturation warm gray-brown live-action palette, no text, no subtitles, no watermarks.",
+    "scene_summary": "Inside a freezing, dilapidated ancient northern mud-brick cottage, an elderly mother-in-law (CHR_1) stands in the center of the room beside an older woman (CHR_3) holding a newborn baby girl in a coarse swaddle (PRP_1) and coldly declares she will dispose of the infant, driving the frail young mother (CHR_2) on the earthen kang opposite them into a terrified, tearful plea for her daughter's life."
+  },
+  "stitch_meta": {
+    "clip_count": 2,
+    "visual_cuts": [
+      4.375
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 8.5
+  }
+}

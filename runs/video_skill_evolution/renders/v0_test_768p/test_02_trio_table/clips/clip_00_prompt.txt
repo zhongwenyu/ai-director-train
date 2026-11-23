@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot (two-shot, eye-level across the wooden dining table) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Picture 4> is the reference prop (青花瓷碗装李子).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Seated beside <Subject 2> at the sunlit wooden table, <Subject 1> masks his sour wince after tasting a tart plum and enthusiastically persuades <Subject 2> to try one, prompting her to pick a plum from the porcelain bowl and take a bite.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Holding a freshly bitten purple-red plum with yellow flesh in his left hand, <Subject 1> (S1) swallows hard in the opening beat with a fleeting pinch between his brows, then instantly switches into a wide, overly enthusiastic smile as he leans slightly right toward <Subject 2> and gestures warmly at the blue-and-white porcelain bowl of plums on the tabletop. <Subject 1> (S1) speaks (0.16s-2.75s): <d>[Chinese] 好甜好好吃，你快尝尝，真特别好吃。</d> with crisp, accurate lip-sync matching every syllable and bright, persuasive eye contact. Listening with her lips naturally closed and an intrigued smile, <Subject 2> reaches into the porcelain bowl around 1.80s, picks up a plump purple-red plum, lifts it to her mouth, and bites cleanly into the yellow flesh at 3.40s-4.00s, freezing mid-chew as her eyes widen and brows twitch at the sudden sharp sourness.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Quiet warm indoor dining room ambience, subtle rustle of jacket sleeve, light porcelain clink as fingers pick a plum from the bowl, and a crisp juicy fruit bite at the end.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

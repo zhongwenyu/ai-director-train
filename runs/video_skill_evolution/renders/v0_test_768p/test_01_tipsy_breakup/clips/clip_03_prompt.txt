@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up on CHR_2 (positioned left of center, eyeline angled screen-right) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Tight close-up on <Subject 1> on screen-left as stunned disbelief turns into an angry shout reminding her that he is her boss.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Tight close-up of <Subject 1> (S1) framed slightly left of center, angled right with a piercing eyeline toward off-screen <CHR_1>. Stunned by her absurd drunken nonsense, <Subject 1> (S1)'s eyebrows shoot up for a split beat of incredulous disbelief before snapping down into a sharp, stern furrow; shifting half an inch forward into the streetlight, he raises his voice to firmly assert his authority. <Subject 1> (S1) speaks (0.16s-2.75s): <d>[Chinese] 你他妈是不是喝傻了，我是你老板！</d> Every syllable lands with clear, forceful lip-sync, followed from 2.55s to 3.00s by pressed-shut lips and an unblinking, exasperated boss glare.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Sharp intake of breath over faint nighttime street hum, subtle collar movement as he leans forward.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

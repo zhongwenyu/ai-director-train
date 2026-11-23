@@ -1,0 +1,147 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Over-the-shoulder medium close-up on CHR_1 (screen-right, facing left) over CHR_2's blurred left foreground shoulder",
+        "clip_id": "clip_01",
+        "clip_summary": "Over CHR_2's dark left foreground shoulder, tipsy CHR_1 glares from screen-right and aggressively demands a breakup after mistaking him for her boyfriend Zhou Hao.",
+        "detailed_action_and_dialogue": "Locked-off static camera. Over the dark, softly out-of-focus back-right shoulder silhouette of <CHR_2> in the left foreground, <CHR_1> stands on screen-right angled left toward him under warm streetlight rim light. Swaying slightly with tipsy indignation, her brows knit tightly and reddened eyes flare with pent-up grievance as she leans forward from the shoulders and jabs her right index finger decisively toward <CHR_2> on the repeated breakup demand. <CHR_1> speaks (0.20s-2.80s): <d>[Chinese] 周浩你是不是聋了，我说我们分手，分手懂吗？</d> Her lip movements crisply match every syllable, ending with her chin thrust forward and lips clamping shut in an angry glare while <CHR_2>'s foreground shoulder remains still.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed lips pressed firm, brows drawn together in aggrieved tipsy indignation, slightly glossy reddened eyes glaring intently at 45% cinematic intensity with tense upper cheeks",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": false,
+        "inner_os": null,
+        "keyframe_prompt": "Over-the-shoulder medium close-up at night, camera positioned behind [CHR_2]'s out-of-focus dark charcoal jacket shoulder in the extreme left foreground, focusing sharply on [CHR_1] standing on screen-right angled three-quarters left toward [CHR_2]. [CHR_1], a 24-year-old East Asian woman with a low dark-brown wavy bun, loose side wisps, pearl studs, cream ribbed turtleneck, and dark brown long wool coat, has a subtle tipsy flush, knitted brows, and aggrieved intense eyes ready to confront him. Softly blurred nighttime urban hedges, iron fence, distant apartment window lights, and warm yellow streetlight top-side rim bokeh in the background, photorealistic live-action cinematography, clean frame, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Quiet nighttime city street ambience, distant faint traffic hum, soft rustle of a wool coat as she gestures sharply.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Reverse over-the-shoulder medium close-up on CHR_2 (screen-left, facing right) over CHR_1's blurred right foreground shoulder",
+        "clip_id": "clip_02",
+        "clip_summary": "Reverse over-the-shoulder onto CHR_2 on screen-left as he urgently leans in and points to himself to make his drunken subordinate recognize he is Shen Jiming.",
+        "detailed_action_and_dialogue": "Locked-off static camera. Reverse angle over the softly out-of-focus dark coat shoulder and low bun silhouette of <CHR_1> in the right foreground, focusing on <CHR_2> standing on screen-left angled right toward her. Looking both baffled and urgently exasperated, <CHR_2> leans slightly forward, eyebrows knitted and lifting earnestly as he raises his right hand to gesture briskly toward his own face and chest to snap her awake. <CHR_2> speaks (0.20s-1.85s): <d>[Chinese] 你看清楚我是沈继明啊！</d> His mouth articulates each syllable clearly and urgently while <CHR_1>'s blurred foreground silhouette stays motionless.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed lips set taut, brows knitted and slightly raised in urgent baffled exasperation, clear focused eyes widening subtly to command attention at 45% natural intensity",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_1"
+        ],
+        "include_scene_plate_in_keyframe": false,
+        "inner_os": null,
+        "keyframe_prompt": "Reverse over-the-shoulder medium close-up at night, camera placed behind [CHR_1]'s out-of-focus dark brown wool coat shoulder and low bun edge in the extreme right foreground, focusing sharply on [CHR_2] on screen-left angled three-quarters right toward [CHR_1]. [CHR_2], a 25-year-old East Asian man with fluffy short black layered hair, white crew-neck T-shirt, and dark charcoal zip-up collared jacket, wears an urgent, helplessly exasperated expression with slightly furrowed brows and clear focused eyes. Nighttime sidewalk trees, trimmed shrubs, and warm yellow streetlight bokeh softly blurred behind him, natural live-action night lighting, zero text, zero subtitles, zero watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Subtle night breeze through street-side leaves, crisp nylon-blend jacket rustle as he gestures to his chest.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Medium close-up on CHR_1 (positioned right of center, eyeline angled screen-left)",
+        "clip_id": "clip_03",
+        "clip_summary": "In a single medium close-up, reckless tipsy CHR_1 tilts her chin up defiantly and snaps back that she is breaking up with Shen Jiming too.",
+        "detailed_action_and_dialogue": "Locked-off static camera. Single medium close-up of <CHR_1> on screen-right facing screen-left toward off-screen <CHR_2>. Fueled by impulsive drunken bravado, <CHR_1> tilts her chin upward haughtily, narrowing her heavy-lidded eyes before giving a reckless, dismissive wave of her right hand across chest height to cut him off. <CHR_1> speaks (0.20s-1.85s): <d>[Chinese] 沈继明怎么了，沈继明也分！</d> Her lip-sync is sharp and decisive, finishing with a stubborn upward jut of her jaw and closed defiant lips.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed lips in a stubborn defiant purse, chin and upper cheeks subtly lifted, heavy-lidded tipsy eyes flashing willful arrogance under arched brows at 45% cinematic intensity",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": false,
+        "inner_os": null,
+        "keyframe_prompt": "Medium close-up of [CHR_1] at night, framed slightly right of center with body and eyeline directed toward screen-left. [CHR_1] wears her cream ribbed turtleneck under a dark brown wool coat with pearl studs and a slightly mussed low brown bun; her chin is tilted high in tipsy, headstrong defiance under warm amber streetlight rim lighting. Shallow depth-of-field background of dark urban greenery, gray iron fence, and distant residential window bokeh, realistic skin texture, live-action film look, no text, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Quiet urban night air, quick swish of wool sleeve during her dismissive hand wave.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Close-up on CHR_2 (positioned left of center, eyeline angled screen-right)",
+        "clip_id": "clip_04",
+        "clip_summary": "Tight close-up on CHR_2 on screen-left as stunned disbelief turns into an angry shout reminding her that he is her boss.",
+        "detailed_action_and_dialogue": "Locked-off static camera. Tight close-up of <CHR_2> framed slightly left of center, angled right with a piercing eyeline toward off-screen <CHR_1>. Stunned by her absurd drunken nonsense, <CHR_2>'s eyebrows shoot up for a split beat of incredulous disbelief before snapping down into a sharp, stern furrow; shifting half an inch forward into the streetlight, he raises his voice to firmly assert his authority. <CHR_2> speaks (0.20s-2.55s): <d>[Chinese] 你他妈是不是喝傻了，我是你老板！</d> Every syllable lands with clear, forceful lip-sync, followed from 2.55s to 3.00s by pressed-shut lips and an unblinking, exasperated boss glare.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed lips pressed in stern disbelief, sharp furrowed brows over piercing wide eyes radiating incredulous authority and exasperation with taut cheekbones at 50% cinematic intensity",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": false,
+        "inner_os": null,
+        "keyframe_prompt": "Close-up portrait of [CHR_2] at night, framed slightly left of center facing three-quarters right. [CHR_2], wearing his dark charcoal collared zip jacket over a white T-shirt with short black layered hair, looks utterly stunned and exasperated, brows furrowed sharply and eyes wide with stern disbelief. Warm yellow streetlight top-side rim light outlines his hair and jawline against soft night street bokeh and distant lit apartment towers, natural cinematic photography, clean frame, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Sharp intake of breath over faint nighttime street hum, subtle collar movement as he leans forward.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Medium two-shot of CHR_2 on screen-left and CHR_1 on screen-right, with a brief motivated pan right at the end as CHR_1 flees down the sidewalk",
+        "clip_id": "clip_05",
+        "clip_summary": "In a medium two-shot, CHR_1 snaps instantly sober in sheer panic, bows repeatedly while stammering apologies to her boss CHR_2, and scrambles hurriedly away down the sidewalk.",
+        "detailed_action_and_dialogue": "Static tripod framing at start, followed by a brief motivated pan right (2.25s-3.00s) tracking <CHR_1>'s sudden retreat. In a medium two-shot on the nighttime sidewalk, <CHR_2> stands on screen-left facing right with his hands dropping to his sides in dumbfounded exasperation while <CHR_1> stands on screen-right facing left. Instantly snapping sober in mortified terror, <CHR_1>'s eyes fly wide open, her spine jolts upright, and she clasps both hands tensely in front of her chest while bending rapidly twice into frantic 45-degree bows toward <CHR_2>. <CHR_1> speaks (0.20s-2.25s): <d>[Chinese] 对不起沈总，我喝多了，对不起对不起！</d> Her trembling lip-sync matches the rushed apologies while <CHR_2> keeps his lips closed, watching her in stunned silence; at 2.25s, <CHR_1> clamps her mouth shut, spins clockwise toward screen-right, and scrambles hurriedly away along the paved sidewalk.",
+        "duration_s": 3,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Medium two-shot on [Scene] nighttime urban sidewalk paved with gray-white square tiles beside trimmed green shrubs, street trees, and a light-gray wall with wrought-iron fencing. Preserving the master 180-degree axis, [CHR_2] in his dark charcoal jacket stands on screen-left facing right with a stern, exasperated posture, while [CHR_1] in her dark brown long wool coat and cream turtleneck stands on screen-right facing left, freezing stiff as sudden sober shock washes over her wide-eyed face with hands raised tensely near her chest. Distant modern residential buildings with scattered lit windows and warm yellow streetlight top-side backlight in the background, photorealistic live-action night scene, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Rustle of heavy wool coat during frantic bows, rapid panicked flat-shoe footsteps scurrying away across stone sidewalk tiles over quiet night street ambience.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Wide-to-medium master establishing shot on [Scene], a nighttime urban street and gray-white square-tiled sidewalk lined with neatly trimmed green shrubs, street trees, and a light-gray wall topped with wrought-iron fencing, with modern residential apartment buildings showing scattered lit windows in the distant background. Establishing a strict 180-degree camera axis from the street side looking toward the fence, [CHR_2] (25-year-old East Asian man in a dark charcoal collared zip jacket over a white crew-neck T-shirt, black straight-leg pants, and white sneakers) stands on screen-left in three-quarter right profile facing right, while [CHR_1] (24-year-old East Asian woman with a low dark-brown wavy bun, cream turtleneck, dark brown long wool coat, dark gray wide trousers, and black flats) stands on screen-right in three-quarter left profile facing left, the two standing close face-to-face in tense confrontation. Warm yellow overhead streetlights cast soft natural top-side rim light and gentle night bokeh, realistic live-action cinematography, clean image with zero text, zero subtitles, and zero watermarks.",
+    "scene_summary": "On a quiet nighttime city sidewalk under warm streetlight glow, tipsy subordinate CHR_1 mistakes her young male boss CHR_2 for her boyfriend Zhou Hao and fiercely demands a breakup; even after CHR_2 states his real name, she recklessly declares she is breaking up with him too, until CHR_2 angrily snaps that he is her boss—jolting CHR_1 instantly sober into sheer panic as she bows repeatedly in apology and scrambles away."
+  },
+  "stitch_meta": {
+    "clip_count": 5,
+    "visual_cuts": [
+      2.833,
+      4.625,
+      7.667,
+      9.959
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 12.958
+  }
+}
