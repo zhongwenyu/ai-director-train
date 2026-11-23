@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up favoring CHR_2 over CHR_1's soft-focus right foreground shoulder, 50mm cinema prime lens, subtle lateral dolly parallax cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Picture 3> is the reference prop (烤肉串与金属托盘).
 
 summary:
-[keyframe completion + reference generation] Medium close-up on <Subject 1> picking up a skewer in silent smug amusement as his inner monologue mocks CHR_1 with an exaggerated mental bet.
+[keyframe completion + reference generation] Over CHR_1's shoulder, <Subject 1> silently smirks to himself while reaching for a skewer as his smug silent reaction wagers CHR_1 cannot possibly read minds.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
 
 detailed_description:
-Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in on the established 180-degree axis. Seated on screen-left looking off-camera right, <Subject 1> keeps lips naturally closed with no speaking or mouth movement throughout; he picks up a grilled meat skewer from the tray in his right hand, one brow arching in smug certainty as amused mockery glints in his eyes, giving a slight, knowing tilt of his chin before settling on a confident closed-lip smirk. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle lateral dolly parallax glides gently rightward past <CHR_1>'s soft-focus white-clad right shoulder silhouette, keeping sharp focus on <Subject 1> on screen-left while preserving his chiseled angular jawline, warm-tan porous skin texture, and neat forehead-baring short black hair. Throughout the entire 3.0s clip, <Subject 1> keeps lips naturally closed as his silent thought plays; he lifts a bamboo skewer slightly from the metal tray edge, one brow arching in private, self-assured amusement while his deep-set eyes flick sideways from <CHR_1> down toward the skewer with a suppressed smug grin tightening his upper cheek muscles. In the out-of-focus right foreground, <CHR_1>'s shoulder rises and falls in steady, quiet breathing. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous nighttime outdoor street barbecue stall ambience with gentle charcoal sizzle and distant urban traffic air, with subtle bamboo skewer lifting against the metal tray and quiet breathing.), zero loud background noise, zero music.
+Quiet non-vocal room tone and subtle physical foley only (Continuous steady spatial room tone from start to end without dropouts or silence gating between lines; low-level outdoor night breeze rustling street tree leaves and distant urban traffic wash; crisp near-field foley of fingertips lightly tapping a wooden bamboo skewer against the dark metal tray rim and faint T-shirt fabric rustle.); strictly zero human speech, zero vocals, zero murmuring, zero music.
 
 non_diegetic_music:
 N/A

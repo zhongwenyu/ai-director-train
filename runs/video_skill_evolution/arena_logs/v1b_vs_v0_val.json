@@ -1,122 +1,117 @@
 {
   "arena_tag": "v1b_vs_v0_val",
-  "wins": 0,
-  "losses": 3,
-  "ties": 1,
-  "cand_mean_score": 48.62,
-  "ref_mean_score": 71.62,
-  "mean_delta": -23.0,
+  "wins": 2,
+  "losses": 2,
+  "ties": 0,
+  "cand_mean_score": 67.62,
+  "ref_mean_score": 69.5,
+  "mean_delta": -1.88,
   "cand_dim_means": {
-    "acting_micro_naturalism": 14.25,
-    "vocal_dialogue_delivery": 10.75,
-    "editing_rhythm_and_reactions": 10.88,
-    "character_and_costume_consistency": 12.38,
-    "cinematography_and_spatial_coherence": 4.62,
-    "physical_anatomy_integrity": 7.0
+    "acting_micro_naturalism": 15.75,
+    "vocal_dialogue_delivery": 15.75,
+    "editing_rhythm_and_reactions": 13.38,
+    "character_and_costume_consistency": 13.38,
+    "cinematography_and_spatial_coherence": 6.12,
+    "physical_anatomy_integrity": 8.25
   },
   "ref_dim_means": {
-    "acting_micro_naturalism": 16.88,
-    "vocal_dialogue_delivery": 13.75,
-    "editing_rhythm_and_reactions": 13.88,
-    "character_and_costume_consistency": 13.38,
+    "acting_micro_naturalism": 16.0,
+    "vocal_dialogue_delivery": 13.12,
+    "editing_rhythm_and_reactions": 14.12,
+    "character_and_costume_consistency": 12.62,
     "cinematography_and_spatial_coherence": 6.0,
-    "physical_anatomy_integrity": 7.75
+    "physical_anatomy_integrity": 7.62
   },
   "cases": [
     {
       "case_id": "val_01_winter_parting",
-      "outcome": "champ_win",
-      "cand_score": 5.0,
-      "champ_score": 58.5,
-      "score_delta": -53.5,
-      "vote_pass1": "B",
-      "vote_pass2_swapped": "A",
+      "outcome": "cand_win",
+      "cand_score": 52.5,
+      "champ_score": 49.5,
+      "score_delta": 3.0,
+      "vote_pass1": "A",
+      "vote_pass2_swapped": "B",
       "cand_dim_avg": {
-        "acting_micro_naturalism": 11.5,
-        "vocal_dialogue_delivery": 6.0,
-        "editing_rhythm_and_reactions": 9.0,
-        "character_and_costume_consistency": 11.0,
-        "cinematography_and_spatial_coherence": 4.5,
-        "physical_anatomy_integrity": 8.0
+        "acting_micro_naturalism": 15.0,
+        "vocal_dialogue_delivery": 15.5,
+        "editing_rhythm_and_reactions": 13.0,
+        "character_and_costume_consistency": 13.5,
+        "cinematography_and_spatial_coherence": 6.5,
+        "physical_anatomy_integrity": 9.0
       },
       "champ_dim_avg": {
-        "acting_micro_naturalism": 13.5,
-        "vocal_dialogue_delivery": 6.5,
-        "editing_rhythm_and_reactions": 10.5,
-        "character_and_costume_consistency": 13.0,
-        "cinematography_and_spatial_coherence": 7.0,
-        "physical_anatomy_integrity": 8.0
+        "acting_micro_naturalism": 11.5,
+        "vocal_dialogue_delivery": 6.0,
+        "editing_rhythm_and_reactions": 11.5,
+        "character_and_costume_consistency": 10.5,
+        "cinematography_and_spatial_coherence": 3.0,
+        "physical_anatomy_integrity": 7.0
       },
       "probe_cand": {
         "width": 896,
         "height": 512,
-        "duration_s": 15.459,
-        "v_dur_s": 15.458,
-        "a_dur_s": 15.457,
-        "av_desync_s": 0.001,
-        "speech_total_s": 7.648,
-        "first_speech_s": 1.12,
+        "duration_s": 12.875,
+        "v_dur_s": 12.875,
+        "a_dur_s": 12.875,
+        "av_desync_s": 0.0,
+        "speech_total_s": 5.856,
+        "first_speech_s": 0.128,
         "vad_segments": [
           [
-            1.12,
-            1.824
+            0.128,
+            0.8
           ],
           [
-            3.52,
-            4.544
+            2.464,
+            3.392
           ],
           [
-            4.928,
-            5.728
+            3.84,
+            4.64
           ],
           [
-            5.92,
-            6.336
+            4.832,
+            5.44
           ],
           [
-            6.368,
-            6.56
+            6.016,
+            6.656
           ],
           [
-            7.2,
-            7.84
+            7.072,
+            7.456
           ],
           [
-            8.512,
-            9.472
+            7.712,
+            8.352
           ],
           [
-            10.496,
-            10.848
+            9.12,
+            9.504
           ],
           [
-            12.064,
-            12.896
-          ],
-          [
-            13.312,
-            15.04
+            11.616,
+            12.416
           ]
         ],
         "tail_truncated": false,
         "lip_desync_detected": true,
-        "median_motion": 7.303,
-        "approx_cuts": 4,
+        "median_motion": 2.56,
+        "approx_cuts": 3,
         "frozen_slideshow": false,
-        "deterministic_penalty": 45.0,
+        "deterministic_penalty": 20.0,
         "penalty_reasons": [
-          "SILENT_MOUTH_FLAPPING_DESYNC",
-          "DURATION_MISMATCH_15.5s_vs_9.2s"
+          "SILENT_MOUTH_FLAPPING_DESYNC"
         ]
       },
       "probe_champ": {
         "width": 896,
         "height": 512,
-        "duration_s": 13.834,
-        "v_dur_s": 13.833,
-        "a_dur_s": 13.833,
+        "duration_s": 11.625,
+        "v_dur_s": 11.625,
+        "a_dur_s": 11.625,
         "av_desync_s": 0.0,
-        "speech_total_s": 7.392,
+        "speech_total_s": 5.888,
         "first_speech_s": 0.16,
         "vad_segments": [
           [
@@ -128,166 +123,153 @@
             3.456
           ],
           [
-            3.904,
-            4.736
+            3.872,
+            4.704
           ],
           [
-            4.928,
-            5.536
+            4.896,
+            5.472
           ],
           [
-            6.144,
-            6.816
+            6.016,
+            6.688
           ],
           [
-            7.392,
-            8.384
+            7.168,
+            8.128
           ],
           [
-            8.576,
-            8.96
+            8.288,
+            8.704
           ],
           [
-            10.112,
-            10.912
-          ],
-          [
-            11.872,
-            13.344
+            10.272,
+            11.072
           ]
         ],
         "tail_truncated": false,
         "lip_desync_detected": false,
-        "median_motion": 4.772,
+        "median_motion": 2.258,
         "approx_cuts": 6,
         "frozen_slideshow": false,
         "deterministic_penalty": 0.0,
         "penalty_reasons": []
       },
       "cand_defects": [
-        "片尾（00:13–00:14）在心声“我真的心累了”结束后，音频严重崩坏，多出一句毫无逻辑的AI胡言乱语幻觉台词（“是说了开家这大门教授什么呢”），且伴随男主嘴部乱动。",
-        "女主情绪极性失控：在00:08–00:09刚说完决绝沉重的“从此不再相见”后，嘴角竟然莫名其妙上扬露出微笑，与凝重试探的潜台词完全相悖。",
-        "场景空间存在严重穿帮：00:00–00:02及00:12–00:14的河畔公园步道右侧直接粘连了一个半敞开的室内会议室/餐厅木桌椅结构，环境极度违和。",
-        "男主面部骨相与年龄感偏离设定图（Character_Ref_2.png为23岁清秀白皙青年，Video_A中00:02–00:04男主眉骨粗重、皮肤粗糙显老，近似35岁以上中年面孔）。",
-        "总时长14.8秒，较目标时长9.2秒严重拖沓超时（开场多出1秒死寂发呆，片尾多出2秒胡言乱语废戏）。",
-        "第12至14秒心声OS期间出现严重的AI乱码语音幻觉，男主凭空多说出一串胡言乱语（“是说了开家这大门叫属什么来”），且心声OS段落中违规张嘴动唇。",
-        "场景空间出现荒谬的室内外拼接穿帮，公园河畔步道右侧凭空拼接出带木桌黑椅的室内房间剖面。",
-        "第5至9秒女主说决绝分手台词时镜头失控推进至超大脸部特写，且第9秒说完“从此不再相见”后嘴角居然浮现出违背悲伤决绝潜台词的微笑。",
-        "第10至14秒男主转身离开时发生同人同景别生硬跳切（Jump Cut）与运动方向轴线错乱，总时长15秒严重超标拖沓。",
-        "SILENT_MOUTH_FLAPPING_DESYNC",
-        "DURATION_MISMATCH_15.5s_vs_9.2s"
+        "00:08–00:10 第三镜正反打空间背景翻转穿帮：前两镜中路面左侧为黄树长椅、右侧为护栏江水，切至 CHR_2 过肩正反打（摄影机拍右侧方向）时背景却颠倒为左侧江水、右侧黄树，与第一、四镜空间拓扑自相矛盾。",
+        "00:00–00:04 第一镜长达 4 秒固定双人侧面全景容纳两句交锋对白，缺乏如参考片（00:01 即切入男主单人正反打）的紧凑切镜与特写情绪反应；且全片总时长约 12.5 秒，较 9.2 秒目标时长存在句间停顿偏慢现象。",
+        "人物面部微表情层次较参考片偏保守：CHR_1 与 CHR_2 的眉眼、苹果肌动态起伏较小，更多依赖静态红眼眶呈现情绪，不如参考片灵动饱满。",
+        "【表情僵硬面瘫（靠涂红眼圈替代微表情）】对比参考片Target_Benchmark中鲜活的眉眼情绪与失落感，Video_B中CHR_1(00:04-00:07)与CHR_2(00:08-00:12)眉弓与苹果肌几乎纹丝不动，男主仅靠静态泛红的眼圈和冷漠木讷的“播音员脸”应付争执与心累情绪。",
+        "【剪辑节奏略慢且首镜缺少单人反打切镜】00:00-00:03两句对白停留在一个固定双人侧面全景中，未像参考片那样在00:01男主反问时及时切入过肩近景反应镜头，总时长12秒比9.2秒目标偏慢。",
+        "SILENT_MOUTH_FLAPPING_DESYNC"
       ],
       "champ_defects": [
-        "片尾（00:12–00:13）在心声“我真的心累了”之后，音轨同样出现严重的AI语音幻觉乱码（冒出“这让会首家带了最慢静态”的无意义杂音）。",
-        "前两句对白（00:00–00:04女主“都冷静一下”与男主反问“都这样了还冷静什么”）全程停留在同一个大远景定机位中，缺乏正反打切镜与男主烦躁反问的面部表情特写，戏剧张力不足。",
-        "00:09–00:10从男主正面答应“行啊”切到背身离开时，缺乏转身动作衔接（同景别跳切感明显），且镜头正对步道纵深后方，原本站在对面的女主却凭空从画面背景中消失，空间连续性断裂。",
-        "总时长13.8秒，较9.2秒目标时长拖沓超时（句间停顿过长且尾部多出幻觉废音频）。",
-        "第10至13秒心声OS期间出现严重的AI乱码语音幻觉，男主凭空多说出一串无意义胡言乱语（“这让会手家带了最慢静态”），且在心声OS段落中违规张嘴动唇。",
-        "总时长14秒严重超出9.2秒目标时长，前两句台词（0-3秒）长达4秒固定在同一中远景，缺乏及时的反应切镜，节奏拖沓。",
-        "人物面部表情极其僵硬平淡，眼神呆滞如木头播音员，缺乏争执对峙的微表情张力。"
+        "00:10–00:11 严重违反心声OS闭嘴铁律：最后一句“[心声OS（画内闭嘴）] 我真的心累了”时，CHR_2 在画内明显张嘴说话，属致命唇音与视听设定错误。",
+        "00:04–00:08 及 00:08–00:10 严重空间越轴与背景倒置：第一镜步道左侧为护栏江水、右侧为树木长椅，但第二镜拍左侧 CHR_1 与第三镜拍右侧 CHR_2 时，两人背后的左后方竟然全都是江水护栏与长椅，正反打 180° 轴线与背景空间完全错乱。",
+        "00:04–00:07 角色骨相漂移与表演僵硬：CHR_1 面部偏圆润、双眼无神呆滞，丢失了参考图与原片的清冷骨相特征；双手僵硬捏住围巾置于胸前，动作机械不自然。",
+        "00:00–00:04 第一镜长达 4 秒固定双人中景未切镜，整体时长约 12 秒，节奏拖沓。",
+        "【严重唇音违规】00:10-00:11 心声OS台词“我真的心累了”规定为画内闭嘴，但男主CHR_2在转身离开镜头中直接张嘴将心声当成画内对白念了出来。",
+        "【空间拓扑与背景180°跳变】镜头1(00:00-00:03)全景中背景左侧是河面与护栏、右侧是草坪；镜头3(00:08-00:09)拍右侧CHR_2过肩反打时，理应看到他身后的右侧草坪，背景却突然跳变成左侧河面与护栏；镜头4(00:10-00:11)男主向右转身背离女主走，按镜头1空间背景左侧应为河面，画面里河面与护栏却跑到画面右侧，空间方向彻底错乱。",
+        "【人设围巾细节跳变与僵硬】镜头2(00:04-00:07)中CHR_1原本自然垂落的铁锈红长围巾下摆凭空消失，且双手始终僵硬死板地抓着围巾边缘，面部表情木讷缺乏参考片的情绪层次。"
       ],
       "pass1_detail": {
         "a_key_defects": [
-          "片尾（00:13–00:14）在心声“我真的心累了”结束后，音频严重崩坏，多出一句毫无逻辑的AI胡言乱语幻觉台词（“是说了开家这大门教授什么呢”），且伴随男主嘴部乱动。",
-          "女主情绪极性失控：在00:08–00:09刚说完决绝沉重的“从此不再相见”后，嘴角竟然莫名其妙上扬露出微笑，与凝重试探的潜台词完全相悖。",
-          "场景空间存在严重穿帮：00:00–00:02及00:12–00:14的河畔公园步道右侧直接粘连了一个半敞开的室内会议室/餐厅木桌椅结构，环境极度违和。",
-          "男主面部骨相与年龄感偏离设定图（Character_Ref_2.png为23岁清秀白皙青年，Video_A中00:02–00:04男主眉骨粗重、皮肤粗糙显老，近似35岁以上中年面孔）。",
-          "总时长14.8秒，较目标时长9.2秒严重拖沓超时（开场多出1秒死寂发呆，片尾多出2秒胡言乱语废戏）。"
+          "00:08–00:10 第三镜正反打空间背景翻转穿帮：前两镜中路面左侧为黄树长椅、右侧为护栏江水，切至 CHR_2 过肩正反打（摄影机拍右侧方向）时背景却颠倒为左侧江水、右侧黄树，与第一、四镜空间拓扑自相矛盾。",
+          "00:00–00:04 第一镜长达 4 秒固定双人侧面全景容纳两句交锋对白，缺乏如参考片（00:01 即切入男主单人正反打）的紧凑切镜与特写情绪反应；且全片总时长约 12.5 秒，较 9.2 秒目标时长存在句间停顿偏慢现象。",
+          "人物面部微表情层次较参考片偏保守：CHR_1 与 CHR_2 的眉眼、苹果肌动态起伏较小，更多依赖静态红眼眶呈现情绪，不如参考片灵动饱满。"
         ],
         "b_key_defects": [
-          "片尾（00:12–00:13）在心声“我真的心累了”之后，音轨同样出现严重的AI语音幻觉乱码（冒出“这让会首家带了最慢静态”的无意义杂音）。",
-          "前两句对白（00:00–00:04女主“都冷静一下”与男主反问“都这样了还冷静什么”）全程停留在同一个大远景定机位中，缺乏正反打切镜与男主烦躁反问的面部表情特写，戏剧张力不足。",
-          "00:09–00:10从男主正面答应“行啊”切到背身离开时，缺乏转身动作衔接（同景别跳切感明显），且镜头正对步道纵深后方，原本站在对面的女主却凭空从画面背景中消失，空间连续性断裂。",
-          "总时长13.8秒，较9.2秒目标时长拖沓超时（句间停顿过长且尾部多出幻觉废音频）。"
+          "00:10–00:11 严重违反心声OS闭嘴铁律：最后一句“[心声OS（画内闭嘴）] 我真的心累了”时，CHR_2 在画内明显张嘴说话，属致命唇音与视听设定错误。",
+          "00:04–00:08 及 00:08–00:10 严重空间越轴与背景倒置：第一镜步道左侧为护栏江水、右侧为树木长椅，但第二镜拍左侧 CHR_1 与第三镜拍右侧 CHR_2 时，两人背后的左后方竟然全都是江水护栏与长椅，正反打 180° 轴线与背景空间完全错乱。",
+          "00:04–00:07 角色骨相漂移与表演僵硬：CHR_1 面部偏圆润、双眼无神呆滞，丢失了参考图与原片的清冷骨相特征；双手僵硬捏住围巾置于胸前，动作机械不自然。",
+          "00:00–00:04 第一镜长达 4 秒固定双人中景未切镜，整体时长约 12 秒，节奏拖沓。"
         ],
         "scores_a": {
-          "acting_micro_naturalism": 12,
-          "character_and_costume_consistency": 10,
-          "cinematography_and_spatial_coherence": 5,
-          "editing_rhythm_and_reactions": 9,
-          "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 7
-        },
-        "scores_b": {
           "acting_micro_naturalism": 15,
           "character_and_costume_consistency": 13,
-          "cinematography_and_spatial_coherence": 6,
-          "editing_rhythm_and_reactions": 10,
-          "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 8
-        },
-        "video_a_observation": "Video_A总时长约14.8秒（严重超出9.2秒目标时长）。00:00–00:02全景开场有近1秒的无声发呆停顿，且公园步道右侧突兀拼接了室内办公桌椅，空间环境严重穿帮；00:02–00:04切男主过肩镜头说“都这样了还冷静什么”，男主眉头紧锁有烦躁情绪，但面部骨相粗犷苍老，严重偏离Character_Ref_2的23岁清秀设定；00:05–00:09切女主单人特写并缓慢推近，未带男主前景肩部，且女主在00:08说完“从此不再相见”后在00:09突然莫名露出微笑，情绪极性与决绝语境严重冲突；00:10–00:11男主说“行啊”并转身；00:12–00:14男主迈步走来，心声“我真的心累了”闭嘴表现正确，但紧接着在00:13–00:14多出一段荒谬的AI语音胡言乱语（“是说了开家这大门教授什么呢”）且男主嘴唇随之乱动，出现致命音画崩坏。",
-        "video_b_observation": "Video_B总时长约13.8秒（超出9.2秒目标时长）。00:00–00:04在河畔公园步道全景中连续完成了女主“都冷静一下”和男主“都这样了还冷静什么”两句台词，环境干净契合任务卡，但第二句男主反问未及时切入近景特写，削弱了争执爆发的视觉冲击；00:04–00:08切女主过肩中近景说“我们背对背，走100步，考虑清楚了，从此不再相见”，双手轻揪围巾领口，眉眼凝重克制，唇音同步与人物设定还原度较好；00:08–00:09切男主反打过肩近景说“行啊”，180度轴线关系准确，神态冷硬赌气；00:10–00:13直接跳切至男主已背过身向前走的中近景（缺少转身过渡动作，且步道正后方背景里的女主凭空消失），00:10–00:11心声“我真的心累了”保持闭嘴且神情疲惫低落，但00:12–00:13片尾同样出现AI语音幻觉乱码（“这让会首家带了最慢静态”），造成严重音频缺陷。",
-        "winner": "B",
-        "total_a": 51.0,
-        "total_b": 60.0
-      },
-      "pass2_swapped_detail": {
-        "a_key_defects": [
-          "第10至13秒心声OS期间出现严重的AI乱码语音幻觉，男主凭空多说出一串无意义胡言乱语（“这让会手家带了最慢静态”），且在心声OS段落中违规张嘴动唇。",
-          "总时长14秒严重超出9.2秒目标时长，前两句台词（0-3秒）长达4秒固定在同一中远景，缺乏及时的反应切镜，节奏拖沓。",
-          "人物面部表情极其僵硬平淡，眼神呆滞如木头播音员，缺乏争执对峙的微表情张力。"
-        ],
-        "b_key_defects": [
-          "第12至14秒心声OS期间出现严重的AI乱码语音幻觉，男主凭空多说出一串胡言乱语（“是说了开家这大门叫属什么来”），且心声OS段落中违规张嘴动唇。",
-          "场景空间出现荒谬的室内外拼接穿帮，公园河畔步道右侧凭空拼接出带木桌黑椅的室内房间剖面。",
-          "第5至9秒女主说决绝分手台词时镜头失控推进至超大脸部特写，且第9秒说完“从此不再相见”后嘴角居然浮现出违背悲伤决绝潜台词的微笑。",
-          "第10至14秒男主转身离开时发生同人同景别生硬跳切（Jump Cut）与运动方向轴线错乱，总时长15秒严重超标拖沓。"
-        ],
-        "scores_a": {
-          "acting_micro_naturalism": 12,
-          "character_and_costume_consistency": 13,
-          "cinematography_and_spatial_coherence": 8,
-          "editing_rhythm_and_reactions": 11,
-          "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 5
+          "cinematography_and_spatial_coherence": 5,
+          "editing_rhythm_and_reactions": 12,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 15
         },
         "scores_b": {
           "acting_micro_naturalism": 11,
-          "character_and_costume_consistency": 12,
-          "cinematography_and_spatial_coherence": 4,
-          "editing_rhythm_and_reactions": 9,
-          "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 5
+          "character_and_costume_consistency": 10,
+          "cinematography_and_spatial_coherence": 3,
+          "editing_rhythm_and_reactions": 11,
+          "physical_anatomy_integrity": 7,
+          "vocal_dialogue_delivery": 6
         },
-        "video_a_observation": "Video_A 总时长约14秒，超出9.2秒的目标时长，整体节奏偏慢。00:00-00:03为双人中远景，CHR_1在左、CHR_2在右面对面站立，空间站位符合公园步道设定，但前两句台词（“都冷静一下”、“都这样了还冷静什么”）全程未切镜，在中远景中人物面部表情僵硬平淡，缺乏Target_Benchmark中男主烦躁蹙眉与呼吸起伏的鲜活度。00:04-00:07切至CHR_1过肩近景，双手抓着围巾，唇音同步尚可，但眼神和面部肌肉变化较为呆板木讷。00:08-00:09切至CHR_2过肩近景说“行啊”，表情冷漠但略显僵硬。最致命的缺陷出现在00:10-00:13：切至CHR_2转身离开的近景后，原本应为闭嘴状态的心声OS“我真的心累了”，不仅在00:11-00:13出现了明显的违规张嘴说话动作，而且在“我真的心累了”之后凭空冒出一串莫名其妙的AI语音幻觉胡言乱语（“这让会手家带了最慢静态”），严重破坏视听成片质量。",
-        "video_b_observation": "Video_B 总时长约15秒，严重超出9.2秒的目标时长。开场00:00-00:01全景即暴露出严重的空间环境穿帮：本应是开阔的河畔公园沥青步道，画面右侧却怪异地拼接了一个敞开的现代室内房间及木质餐桌椅，空间逻辑荒谬。00:02-00:04切至CHR_2过肩近景反问“都这样了还冷静什么”，眉头紧蹙具备一定烦躁情绪，但背景中依然带着室内门框穿帮。00:05-00:09切至CHR_1近景，镜头不自然地持续推进至贴脸大特写，且在00:09说完决绝台词“从此不再相见”后，嘴角竟然泛起一丝诡异的微笑，与潜台词极性冲突。00:10-00:11 CHR_2说“行啊”并向画面左后方转身，但00:12切镜后却变成朝画面右前方迈步，且同样在心声OS“我真的心累了”之后（00:13-00:14）违规张嘴并爆出一串毫无意义的AI乱码语音幻觉（“是说了开家这大门叫属什么来”），视听与空间双重崩坏。",
+        "video_a_observation": "Video_A 总时长约 12.5 秒（超出目标 9.2 秒约 3.3 秒）。第一镜（00:00–00:04）采用双人侧面中景包揽前两句台词（“都冷静一下”、“都这样了还冷静什么”），未像参考片在 00:01 及时切入男主过肩近景，导致前 4 秒节奏偏慢、男主反问缺乏近景情绪冲击力。第二镜（00:04–00:08）切至女主 CHR_1 过肩近景，唇音同步准确，角色面部骨相与设定图高度一致，但眉眼与面部肌肉动态偏克制，主要靠微红眼眶传递情绪，缺少参考片中鲜活的微表情变化。第三镜（00:08–00:10）切至男主 CHR_2 过肩近景说“行啊”并转身，此处出现明显的空间背景翻转错误：第一镜中步道左侧是黄树长椅、右侧是护栏江面，按轴线拍右侧男主时背景应为右侧的江面护栏在左后方，虽然画面左侧出现了江水，但男主右侧紧贴黄树，且到第四镜（00:10–00:12）男主向镜头方向走来时，左侧又是黄树、右侧又是江水，意味着第三镜与第四镜朝向同一无穷远点，空间朝向发生 180° 混乱。不过第四镜中男主严格执行了“[心声OS（画内闭嘴）] 我真的心累了”，全程闭嘴并以低眸落寞神态配合心声，环境声与转场较平滑。",
+        "video_b_observation": "Video_B 总时长约 12 秒（超出目标 9.2 秒约 2.8 秒）。第一镜（00:00–00:04）同样以固定双人侧面中景拍完前两句对白，切镜迟缓。第二镜（00:04–00:08）切至女主 CHR_1 过肩近景时，女主双手僵硬地抓着胸前围巾边缘，手指姿态呆板，面部骨相较设定图变圆钝，眼神空洞死板，说“从此不再相见”时嘴角竟带有近似微笑的怪异弧度，严重违背决绝试探的潜台词。更严重的是空间连续性彻底崩塌：第一镜中左侧（女主身后）是江水护栏、右侧（男主身后）是树木，而第二镜拍女主（朝左拍）左后方是江水护栏，第三镜（00:08–00:09）反打拍男主（朝右拍）左后方依然是一模一样的江水护栏与长椅，正反打背景完全复制粘贴，空间拓扑严重错乱。第四镜（00:10–00:11）在演绎“[心声OS（画内闭嘴）] 我真的心累了”时，男主在画面中直接张嘴配音念出了心声台词，严重违反“画内闭嘴”的心声硬性规则。",
         "winner": "A",
-        "total_a": 57.0,
-        "total_b": 49.0
+        "total_a": 69.0,
+        "total_b": 48.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "【严重唇音违规】00:10-00:11 心声OS台词“我真的心累了”规定为画内闭嘴，但男主CHR_2在转身离开镜头中直接张嘴将心声当成画内对白念了出来。",
+          "【空间拓扑与背景180°跳变】镜头1(00:00-00:03)全景中背景左侧是河面与护栏、右侧是草坪；镜头3(00:08-00:09)拍右侧CHR_2过肩反打时，理应看到他身后的右侧草坪，背景却突然跳变成左侧河面与护栏；镜头4(00:10-00:11)男主向右转身背离女主走，按镜头1空间背景左侧应为河面，画面里河面与护栏却跑到画面右侧，空间方向彻底错乱。",
+          "【人设围巾细节跳变与僵硬】镜头2(00:04-00:07)中CHR_1原本自然垂落的铁锈红长围巾下摆凭空消失，且双手始终僵硬死板地抓着围巾边缘，面部表情木讷缺乏参考片的情绪层次。"
+        ],
+        "b_key_defects": [
+          "【表情僵硬面瘫（靠涂红眼圈替代微表情）】对比参考片Target_Benchmark中鲜活的眉眼情绪与失落感，Video_B中CHR_1(00:04-00:07)与CHR_2(00:08-00:12)眉弓与苹果肌几乎纹丝不动，男主仅靠静态泛红的眼圈和冷漠木讷的“播音员脸”应付争执与心累情绪。",
+          "【剪辑节奏略慢且首镜缺少单人反打切镜】00:00-00:03两句对白停留在一个固定双人侧面全景中，未像参考片那样在00:01男主反问时及时切入过肩近景反应镜头，总时长12秒比9.2秒目标偏慢。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 12,
+          "character_and_costume_consistency": 11,
+          "cinematography_and_spatial_coherence": 3,
+          "editing_rhythm_and_reactions": 12,
+          "physical_anatomy_integrity": 7,
+          "vocal_dialogue_delivery": 6
+        },
+        "scores_b": {
+          "acting_micro_naturalism": 15,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 14,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 16
+        },
+        "video_a_observation": "Video_A 总时长约11.5秒，存在致命的【心声OS张嘴违规】与【3D空间背景180°翻转错乱】：1) 在00:10-00:11最后一句“[心声OS（画内闭嘴）] CHR_2：我真的心累了”时，CHR_2不仅没有闭嘴，反而张嘴把心声说了出来，严重违反戏剧任务卡与声画同步硬性要求；2) 空间环境严重穿帮：00:00-00:03双人全景中，步道左侧（CHR_1身后侧）是河面与护栏，步道右侧（CHR_2身后侧）是草坪与树木；但00:08切到CHR_2过肩近景时，他身后的背景竟变成了左侧的河面与护栏；00:10-00:11他向右转身走开（正面朝向镜头）时，画面右侧又变成了河面与护栏，空间方位完全混乱；3) 00:04-00:07中CHR_1的围巾下摆消失，双手僵硬捏在胸前围巾边缘，两人面部表情平淡木讷，远不如参考片鲜活（总分51分，严格控制在65分以下）。",
+        "video_b_observation": "Video_B 总时长约12秒，整体空间拓扑、角色骨相与心声闭嘴要求执行准确，但微表情鲜活度与剪辑紧凑度明显弱于85分参考片 Target_Benchmark：1) 唇音与心声控制合格：前四句画内对白嘴型同步准确，00:10-00:12最后一句心声OS“我真的心累了”时，CHR_2保持双唇紧闭并配合混响心声与眼神低垂，符合画内闭嘴规范；2) 空间一致性良好：00:00-00:03全景确立左侧为草坪长椅、右侧为护栏河面；00:04-00:07拍左侧CHR_1时背景为左侧草坪与木亭；00:08-00:10拍右侧CHR_2时背景为右侧护栏与河面；00:11-00:12男主转身离开时正面迎向镜头，左侧草坪、右侧河面护栏与全景空间完全吻合；3) 明显短板在于表演微表情僵硬：男女主眉眼与面部肌肉缺乏参考片中的动态情绪张力，男主主要靠静态涂红眼周来表现委屈疲惫，且00:00-00:03未在第二句台词切入单人近景，节奏比9.2秒目标偏慢（总分76分）。",
+        "winner": "B",
+        "total_a": 51.0,
+        "total_b": 76.0
       }
     },
     {
       "case_id": "val_02_scar_probe",
-      "outcome": "tie",
-      "cand_score": 74.0,
-      "champ_score": 71.0,
-      "score_delta": 3.0,
-      "vote_pass1": "A",
+      "outcome": "champ_win",
+      "cand_score": 71.5,
+      "champ_score": 80.0,
+      "score_delta": -8.5,
+      "vote_pass1": "B",
       "vote_pass2_swapped": "A",
       "cand_dim_avg": {
-        "acting_micro_naturalism": 18.0,
-        "vocal_dialogue_delivery": 16.5,
-        "editing_rhythm_and_reactions": 14.0,
-        "character_and_costume_consistency": 13.0,
-        "cinematography_and_spatial_coherence": 6.5,
-        "physical_anatomy_integrity": 6.0
-      },
-      "champ_dim_avg": {
-        "acting_micro_naturalism": 15.5,
+        "acting_micro_naturalism": 17.0,
         "vocal_dialogue_delivery": 16.0,
-        "editing_rhythm_and_reactions": 14.5,
+        "editing_rhythm_and_reactions": 13.5,
         "character_and_costume_consistency": 13.0,
         "cinematography_and_spatial_coherence": 5.0,
         "physical_anatomy_integrity": 7.0
       },
+      "champ_dim_avg": {
+        "acting_micro_naturalism": 19.5,
+        "vocal_dialogue_delivery": 16.5,
+        "editing_rhythm_and_reactions": 16.0,
+        "character_and_costume_consistency": 14.0,
+        "cinematography_and_spatial_coherence": 7.5,
+        "physical_anatomy_integrity": 6.5
+      },
       "probe_cand": {
         "width": 896,
         "height": 512,
-        "duration_s": 11.917,
-        "v_dur_s": 11.917,
-        "a_dur_s": 11.915,
-        "av_desync_s": 0.002,
+        "duration_s": 11.542,
+        "v_dur_s": 11.542,
+        "a_dur_s": 11.541,
+        "av_desync_s": 0.001,
         "speech_total_s": 7.488,
         "first_speech_s": 0.256,
         "vad_segments": [
@@ -296,50 +278,50 @@
             1.28
           ],
           [
-            1.44,
-            1.824
+            1.408,
+            1.856
           ],
           [
             2.464,
-            2.88
+            2.848
           ],
           [
-            3.104,
-            3.616
+            3.072,
+            3.552
           ],
           [
-            3.84,
-            4.096
+            3.712,
+            3.936
           ],
           [
-            4.448,
-            4.928
+            4.192,
+            4.992
           ],
           [
-            5.184,
-            5.408
+            5.216,
+            5.376
           ],
           [
-            5.536,
-            5.728
+            6.784,
+            8.512
           ],
           [
-            6.048,
-            8.096
+            8.544,
+            8.896
           ],
           [
-            8.192,
-            9.408
+            9.12,
+            10.24
           ],
           [
-            10.784,
-            11.52
+            10.56,
+            11.328
           ]
         ],
         "tail_truncated": false,
         "lip_desync_detected": false,
-        "median_motion": 9.047,
-        "approx_cuts": 6,
+        "median_motion": 2.677,
+        "approx_cuts": 3,
         "frozen_slideshow": false,
         "deterministic_penalty": 0.0,
         "penalty_reasons": []
@@ -347,181 +329,187 @@
       "probe_champ": {
         "width": 896,
         "height": 512,
-        "duration_s": 11.0,
-        "v_dur_s": 11.0,
-        "a_dur_s": 11.0,
-        "av_desync_s": 0.0,
-        "speech_total_s": 7.552,
-        "first_speech_s": 0.256,
+        "duration_s": 10.667,
+        "v_dur_s": 10.667,
+        "a_dur_s": 10.666,
+        "av_desync_s": 0.001,
+        "speech_total_s": 7.52,
+        "first_speech_s": 0.224,
         "vad_segments": [
           [
-            0.256,
-            1.312
+            0.224,
+            1.28
           ],
           [
-            1.728,
-            2.112
+            1.536,
+            1.984
           ],
           [
-            2.752,
-            3.136
+            2.624,
+            3.008
           ],
           [
-            3.36,
-            3.904
+            3.232,
+            3.712
           ],
           [
-            4.128,
-            4.416
+            3.84,
+            4.064
           ],
           [
-            4.736,
-            5.216
+            4.416,
+            4.96
           ],
           [
-            5.44,
-            5.728
+            5.088,
+            5.408
           ],
           [
-            5.792,
-            6.016
+            5.472,
+            5.696
           ],
           [
-            6.304,
-            8.256
+            6.048,
+            7.968
           ],
           [
-            8.448,
-            9.6
+            8.32,
+            9.344
           ],
           [
-            9.952,
-            10.752
+            9.376,
+            9.536
+          ],
+          [
+            9.728,
+            10.464
           ]
         ],
         "tail_truncated": false,
         "lip_desync_detected": false,
-        "median_motion": 8.573,
-        "approx_cuts": 4,
+        "median_motion": 2.457,
+        "approx_cuts": 3,
         "frozen_slideshow": false,
         "deterministic_penalty": 0.0,
         "penalty_reasons": []
       },
       "cand_defects": [
-        "00:00-00:01男同学(CHR_3)就已经进画搭肩并在00:04-00:05全程站在CHR_1身后陪笑，破坏了兄妹先单独对话再被同学上前打断的戏剧时机与调度层次",
-        "00:06-00:07男同学(CHR_3)说调侃台词时面部表情幅度略显狰狞夸张，且CHR_3服装被误改为连帽卫衣而非开衫卫衣",
-        "走廊内摆放了多张课桌椅，空间布置略显杂乱，且总时长11.8秒相比9.1秒目标略偏慢（00:09-00:10存在约1秒无台词过渡停顿）",
-        "00:06-00:08期间CHR_3搭在CHR_1右肩上的手出现严重生理结构畸变（多达6根手指并排挤作一团），属于明显的解剖学崩坏",
-        "00:05与00:06之间出现生硬的同方向跳切（Jump Cut），背景楼梯间木门位置瞬间突变，且CHR_3搭肩的手从左肩直接瞬移到右肩",
-        "CHR_3在00:01过早入画搭肩并僵硬保持微笑旁观至00:05，戏剧切入时机不如A自然；学校走廊同样违和散落着课桌椅"
+        "04s-09s反打镜头空间轴线严重翻转错乱（楼梯间木门、走廊玻璃窗与三人相对空间拓扑与首镜完全镜像颠倒）",
+        "00s-01s与09s-10s中CHR_3搭在CHR_1肩上的手部解剖结构怪异扭曲，00s-02s中CHR_2怀抱的饮料瓶颜色款式与设定不一致且握姿略僵硬",
+        "09s-11s末尾镜头切为静止站立特写，缺失被男同学拉走过程中的肢体位移与动势衔接，且总时长11.5秒略超9.1秒目标时长",
+        "00:00-00:02 第一镜中，窗下走廊右侧竟然也摆满了课桌椅，而在 00:02-00:03 第二镜切到 CHR_2 近景时，其身后又变成了走廊与左侧的课桌椅，背景空间结构跨镜头跳变。",
+        "00:00-00:01 第一镜中 CHR_2 怀里抱着的另外两瓶饮料中有一瓶变成了深褐色/墨绿色瓶身，与设定中的橙黄色蜜桃果汁道具不一致。",
+        "00:06-00:09 第三镜后半段，当 CHR_3 调侃并催促“走走走老班叫咱俩去搬”时，CHR_1 既没有身体被拉扯位移的动作，也没有转头或眼神互动，只是低垂着眼原地木讷站立；紧接着 00:09-00:11 突兀硬切到一个大特写回眸镜头，缺乏身体走动与被拉走的动作衔接，剪辑生硬断裂。",
+        "00:05-00:06 台词气口之间停顿略显呆滞，整体节奏（11秒+）不如 A 紧凑。"
       ],
       "champ_defects": [
-        "00:06-00:09镜头发生严重的180度轴线翻转与站位左右镜像错乱（原本在画面左侧/CHR_1后方的CHR_3突然跳到画面右侧，CHR_1与CHR_2的视线轴线完全颠倒），00:10切回全景又跳回左侧",
-        "00:06-00:09在男同学(CHR_3)贴耳八卦调侃并拉扯自己时，哥哥(CHR_1)全程眼神空洞僵直、面部肌肉纹丝不动，毫无局促或反应变化，典型的木头面瘫表现",
-        "00:04-00:05哥哥(CHR_1)握持饮料瓶的右手手指后方凭空多出两根类似木筷的异物穿模伪影；走廊内违和摆放多排教室课桌椅",
-        "空间轴线与站位在00:06切镜时出现跳变（CHR_3出现在画面右侧搭住CHR_1左肩，到了00:10又跳回画面左侧从背后推着CHR_1）",
-        "学校走廊中违和地散落摆放着多张教室课桌椅，空间陈设不够合理",
-        "00:06-00:09期间CHR_1面对CHR_3调侃时眼神偏空洞呆滞，缺乏与对手戏角色的自然反应互动"
+        "00s-02s首镜中CHR_3的左手臂穿越过CHR_1宽大的双肩直接搭在CHR_1左肩上，违背正常人体手臂长度解剖比例（06s-08s同机位全景复现该长臂畸变）",
+        "05s-06s期间CHR_1说完台词后存在约1秒的静态停顿等待切镜，总时长11.3秒略超9.1秒目标时长",
+        "06s-10s全景镜头中CHR_3调侃并拉走CHR_1时，面部表情与肢体动作略显局促机械，不如参考原片自然连贯",
+        "00:00-00:01 第一镜与 00:06-00:10 第四镜中，CHR_3 的左臂为了同时搭住 CHR_1 的左肩，在画面中被异常拉长变形，从 CHR_1 背后一直横跨到 CHR_1 左肩，人体解剖比例轻微失真。",
+        "00:04-00:05 第三镜切到 CHR_1 的正打镜头时，原本在第一镜和第四镜中紧紧站在 CHR_1 身侧并搭着他双肩的 CHR_3 完全从画面左侧凭空消失，跨镜空间连续性存在瑕疵。",
+        "走廊左侧摆放了本属于教室内部的课桌椅，空间环境设定略显怪异。"
       ],
       "pass1_detail": {
         "a_key_defects": [
-          "00:00-00:01男同学(CHR_3)就已经进画搭肩并在00:04-00:05全程站在CHR_1身后陪笑，破坏了兄妹先单独对话再被同学上前打断的戏剧时机与调度层次",
-          "00:06-00:07男同学(CHR_3)说调侃台词时面部表情幅度略显狰狞夸张，且CHR_3服装被误改为连帽卫衣而非开衫卫衣",
-          "走廊内摆放了多张课桌椅，空间布置略显杂乱，且总时长11.8秒相比9.1秒目标略偏慢（00:09-00:10存在约1秒无台词过渡停顿）"
+          "04s-09s反打镜头空间轴线严重翻转错乱（楼梯间木门、走廊玻璃窗与三人相对空间拓扑与首镜完全镜像颠倒）",
+          "00s-01s与09s-10s中CHR_3搭在CHR_1肩上的手部解剖结构怪异扭曲，00s-02s中CHR_2怀抱的饮料瓶颜色款式与设定不一致且握姿略僵硬",
+          "09s-11s末尾镜头切为静止站立特写，缺失被男同学拉走过程中的肢体位移与动势衔接，且总时长11.5秒略超9.1秒目标时长"
         ],
         "b_key_defects": [
-          "00:06-00:09镜头发生严重的180度轴线翻转与站位左右镜像错乱（原本在画面左侧/CHR_1后方的CHR_3突然跳到画面右侧，CHR_1与CHR_2的视线轴线完全颠倒），00:10切回全景又跳回左侧",
-          "00:06-00:09在男同学(CHR_3)贴耳八卦调侃并拉扯自己时，哥哥(CHR_1)全程眼神空洞僵直、面部肌肉纹丝不动，毫无局促或反应变化，典型的木头面瘫表现",
-          "00:04-00:05哥哥(CHR_1)握持饮料瓶的右手手指后方凭空多出两根类似木筷的异物穿模伪影；走廊内违和摆放多排教室课桌椅"
+          "00s-02s首镜中CHR_3的左手臂穿越过CHR_1宽大的双肩直接搭在CHR_1左肩上，违背正常人体手臂长度解剖比例（06s-08s同机位全景复现该长臂畸变）",
+          "05s-06s期间CHR_1说完台词后存在约1秒的静态停顿等待切镜，总时长11.3秒略超9.1秒目标时长",
+          "06s-10s全景镜头中CHR_3调侃并拉走CHR_1时，面部表情与肢体动作略显局促机械，不如参考原片自然连贯"
         ],
         "scores_a": {
-          "acting_micro_naturalism": 19,
-          "character_and_costume_consistency": 13,
-          "cinematography_and_spatial_coherence": 7,
-          "editing_rhythm_and_reactions": 15,
-          "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 17
-        },
-        "scores_b": {
-          "acting_micro_naturalism": 13,
+          "acting_micro_naturalism": 17,
           "character_and_costume_consistency": 13,
           "cinematography_and_spatial_coherence": 4,
           "editing_rhythm_and_reactions": 14,
           "physical_anatomy_integrity": 6,
           "vocal_dialogue_delivery": 16
         },
-        "video_a_observation": "Video_A 总时长约11.8秒。优点：1. 唇音同步与心声处理准确：00:00-00:01哥哥(CHR_1)内心独白时保持闭嘴状态，00:02-00:03妹妹(CHR_2)递饮料说台词、00:04-00:05哥哥压低声音回应、00:06-00:09男同学(CHR_3)调侃催促、00:10-00:11哥哥回头叮嘱妹妹，各段对白嘴型与人声基本严丝合缝；2. 空间轴线一致：全片保持CHR_3与CHR_1在画面左侧、CHR_2在画面右侧的180度正反打视线轴线，无镜像跳轴；3. 角色骨相与服装还原度较高，妹妹笑容甜美自然，哥哥在00:06-00:09听男同学八卦时有微蹙眉与眼神闪避的局促反应，00:10-00:11被拉走回头叮嘱的动作衔接合理。缺陷：1. 戏剧出场时机抢戏：00:00-00:01男同学(CHR_3)就已经走入画面搭住CHR_1肩膀，导致00:04-00:05哥哥对妹妹私下立规矩时CHR_3一直贴在身后傻笑旁听，削弱了随后切入打断的戏剧节奏；2. 00:06-00:07男同学(CHR_3)八卦调侃时的笑容表情幅度略显用力过猛（微显狰狞），且其黄色开衫卫衣多出了连帽结构；3. 走廊里违和摆放了课桌椅，总时长11.8秒相比9.1秒目标略微拖沓（00:09-00:10拉扯与回头之间有约1秒空白停顿）。",
-        "video_b_observation": "Video_B 总时长约11.0秒。优点：1. 00:00-00:02心声独白阶段哥哥保持闭嘴，且前两镜只有兄妹二人在场，符合先兄妹对话再被同学介入的戏剧顺序；2. 妹妹(CHR_2)在00:02-00:04递桃子饮料时的笑容灵动甜美，唇音同步良好。致命缺陷：1. 严重的180度跳轴与空间拓扑错乱：00:00-00:05建立的空间轴线为哥哥(CHR_1)在左、妹妹(CHR_2)在右，但00:06-00:09切到男同学(CHR_3)搭肩说话时，画面完全违反180度轴线原则——CHR_1突然变成在画面左侧朝左前方看，CHR_3从画面右侧搭住其左肩，紧接着00:10切回全景时，CHR_3和CHR_1又瞬间跳回画面左侧朝右看，空间方位前后颠倒割裂；2. 听话人严重面瘫僵硬：00:06-00:09整整3秒特写镜头里，当CHR_3在耳边调侃暗恋者吃醋并催促搬东西时，哥哥(CHR_1)眼神空洞死板、眉毛与面部肌肉纹丝不动，像木头假人一样毫无戏剧反应；3. 物理穿模瑕疵：00:04-00:05哥哥握着饮料瓶的右手手指后方凭空伸出两根类似木筷的条状异物伪影；4. 00:10结尾说“在这等我别乱跑”时，哥哥只是原地被推着朝前对妹妹说话，缺乏被拉走过程中回头叮嘱的动态张力，且走廊内同样违和摆放了多排课桌椅。",
-        "winner": "A",
-        "total_a": 79.0,
-        "total_b": 66.0
+        "scores_b": {
+          "acting_micro_naturalism": 18,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 15,
+          "physical_anatomy_integrity": 6,
+          "vocal_dialogue_delivery": 16
+        },
+        "video_a_observation": "Video_A 总时长约11.5秒。00s-02s全景建立走廊空间，CHR_1与CHR_2面对面站立，CHR_1闭嘴配合心声OS“直到她转来我班第二天”，但此时CHR_3搭在CHR_1双肩上的手部姿态僵硬，且CHR_2左手怀抱的饮料瓶中有一瓶呈深褐绿色，与蜜桃汁设定不符；02s-04s切CHR_2过肩近景递出蜜桃汁，笑容甜美自然，唇音同步良好；04s-09s切反打中景，出现严重180度空间轴线与背景翻转错误——首镜中位于画面中央远景的楼梯间木门与右侧玻璃窗，在反打镜头中依然出现在CHR_1身后右侧，导致走廊空间拓扑完全错乱；该镜头内CHR_1说“在学校叫我名字”以及CHR_3说“苏小满追你大半年……”唇音同步尚可，但08s-09s当CHR_3说“走走走老班叫咱俩去搬”时，两人仅在原地轻微晃动，未产生实质拉拽离开的位移；09s-11s切CHR_1特写说“在这等我别乱跑”，缺乏被拉走过程中的动态反应与空间走位。",
+        "video_b_observation": "Video_B 总时长约11.3秒。00s-02s走廊全景，CHR_1闭嘴配合心声OS，空间光影通透，但CHR_3站在CHR_1右侧（画面左侧）却将左手臂跨过CHR_1整个肩宽搭在CHR_1左肩上，造成左臂比例异常过长的解剖畸变；02s-03.5s切CHR_2过肩中近景递出蜜桃汁，怀中另两瓶同款蜜桃汁道具一致，右手腕黑色发圈清晰，表情甜美灵动，唇音严丝合缝；03.5s-06s切CHR_1过肩反打中近景，空间轴线与背景光影严格遵守180度正反打规律，CHR_1压低声音说“在学校叫我名字”时微蹙眉头的局促神态准确，唯05s-06s说完话后有约1秒等待切镜的停顿；06s-11s切回全景，CHR_3开口调侃并在08s-10s伸手推拉CHR_1转身往走廊走，CHR_1边被推走边回头向CHR_2叮嘱“在这等我别乱跑”，完整呈现了戏剧任务要求的“被拉走之际急促回头叮嘱”的肢体调度与空间连贯性。",
+        "winner": "B",
+        "total_a": 70.0,
+        "total_b": 77.0
       },
       "pass2_swapped_detail": {
         "a_key_defects": [
-          "空间轴线与站位在00:06切镜时出现跳变（CHR_3出现在画面右侧搭住CHR_1左肩，到了00:10又跳回画面左侧从背后推着CHR_1）",
-          "学校走廊中违和地散落摆放着多张教室课桌椅，空间陈设不够合理",
-          "00:06-00:09期间CHR_1面对CHR_3调侃时眼神偏空洞呆滞，缺乏与对手戏角色的自然反应互动"
+          "00:00-00:01 第一镜与 00:06-00:10 第四镜中，CHR_3 的左臂为了同时搭住 CHR_1 的左肩，在画面中被异常拉长变形，从 CHR_1 背后一直横跨到 CHR_1 左肩，人体解剖比例轻微失真。",
+          "00:04-00:05 第三镜切到 CHR_1 的正打镜头时，原本在第一镜和第四镜中紧紧站在 CHR_1 身侧并搭着他双肩的 CHR_3 完全从画面左侧凭空消失，跨镜空间连续性存在瑕疵。",
+          "走廊左侧摆放了本属于教室内部的课桌椅，空间环境设定略显怪异。"
         ],
         "b_key_defects": [
-          "00:06-00:08期间CHR_3搭在CHR_1右肩上的手出现严重生理结构畸变（多达6根手指并排挤作一团），属于明显的解剖学崩坏",
-          "00:05与00:06之间出现生硬的同方向跳切（Jump Cut），背景楼梯间木门位置瞬间突变，且CHR_3搭肩的手从左肩直接瞬移到右肩",
-          "CHR_3在00:01过早入画搭肩并僵硬保持微笑旁观至00:05，戏剧切入时机不如A自然；学校走廊同样违和散落着课桌椅"
+          "00:00-00:02 第一镜中，窗下走廊右侧竟然也摆满了课桌椅，而在 00:02-00:03 第二镜切到 CHR_2 近景时，其身后又变成了走廊与左侧的课桌椅，背景空间结构跨镜头跳变。",
+          "00:00-00:01 第一镜中 CHR_2 怀里抱着的另外两瓶饮料中有一瓶变成了深褐色/墨绿色瓶身，与设定中的橙黄色蜜桃果汁道具不一致。",
+          "00:06-00:09 第三镜后半段，当 CHR_3 调侃并催促“走走走老班叫咱俩去搬”时，CHR_1 既没有身体被拉扯位移的动作，也没有转头或眼神互动，只是低垂着眼原地木讷站立；紧接着 00:09-00:11 突兀硬切到一个大特写回眸镜头，缺乏身体走动与被拉走的动作衔接，剪辑生硬断裂。",
+          "00:05-00:06 台词气口之间停顿略显呆滞，整体节奏（11秒+）不如 A 紧凑。"
         ],
         "scores_a": {
-          "acting_micro_naturalism": 18,
-          "character_and_costume_consistency": 13,
-          "cinematography_and_spatial_coherence": 6,
-          "editing_rhythm_and_reactions": 15,
-          "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 16
+          "acting_micro_naturalism": 21,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 17,
+          "physical_anatomy_integrity": 7,
+          "vocal_dialogue_delivery": 17
         },
         "scores_b": {
           "acting_micro_naturalism": 17,
           "character_and_costume_consistency": 13,
           "cinematography_and_spatial_coherence": 6,
           "editing_rhythm_and_reactions": 13,
-          "physical_anatomy_integrity": 4,
+          "physical_anatomy_integrity": 8,
           "vocal_dialogue_delivery": 16
         },
-        "video_a_observation": "Video_A总时长约11秒，整体剪辑节奏较为紧凑，五句心声与对白的唇音同步度良好（00:00-00:02心声阶段CHR_1保持闭嘴，后续三人对白口型与人声贴合）。角色还原度高，CHR_1、CHR_2、CHR_3的面部骨相、发型、服装及右手腕黑发圈、饮料道具均与设定图一致。主要缺陷在于：1）走廊环境里违和地摆放了多张教室课桌椅；2）00:06切入CHR_3近景时，CHR_3位于画面右侧搭着CHR_1左肩，而00:10切回全景时CHR_3又在画面左侧从背后推CHR_1，存在轴线与站位跳变；3）00:06-00:09期间CHR_1作为听话人反应较为木讷呆滞。",
-        "video_b_observation": "Video_B总时长约12秒，唇音同步与角色造型还原度同样较好，心声阶段闭嘴、对白口型匹配准确。但存在几处显著硬伤：1）严重的物理与解剖结构崩坏：在00:06-00:08镜头中，CHR_3搭在CHR_1肩膀上的手出现明显的六指畸形（6根手指挤在一起）；2）严重的剪辑跳切与空间跳变：00:01时CHR_3就提前入画搭住CHR_1左肩并一直僵硬陪笑到00:05，随后00:05切00:06时发生同方向的生硬跳切（Jump Cut），CHR_3的手瞬间从CHR_1左肩瞬移到右肩，背景楼梯间门框也瞬间移位；3）走廊中同样违和地摆放了多张课桌椅。",
+        "video_a_observation": "Video_A 总时长约 10 秒，整体节奏紧凑，接近 9.1 秒目标时长。\n1. 表演与微表情（acting_micro_naturalism）：00:00-00:01 心声 OS 期间 CHR_1 闭嘴低眉，神态略显无奈；00:02-00:03 CHR_2 递饮料时笑容甜美灵动，眉眼弯弯、苹果肌自然上扬；00:04-00:05 CHR_1 压低声音说“在学校叫我名字”时微蹙眉头、眼神闪躲，准确传达出局促与划清界限的潜台词；00:06-00:10 CHR_3 调侃时表情鲜活，随后推拉 CHR_1 转身离开，CHR_1 被推着往前走的同时回头叮嘱妹妹“在这等我别乱跑”，肢体调度与戏剧动作连贯自然。\n2. 唇音同步与台词（vocal_dialogue_delivery）：第一句心声 OS 严守闭嘴规则；后续四句画内对白唇形开合与人声同步率高，语速与情绪气口自然，无明显杂音或爆音。\n3. 剪辑节奏与反应（editing_rhythm_and_reactions）：共 4 个镜头（全景建立 -> 妹妹过肩近景 -> 哥哥过肩近景 -> 全景拉走并回头叮嘱），切镜干脆，全景中妹妹听哥哥说话及被拉走时的眼神追随反应自然。\n4. 角色与服装一致性（character_and_costume_consistency）：三位角色的骨相五官、发型、眼镜、服装及右手腕黑色发圈、桃子饮料道具均高度还原设定图。\n5. 摄影与空间（cinematography_and_spatial_coherence）及解剖结构（physical_anatomy_integrity）：180度轴线清晰，机位稳固无胡乱推拉。但存在两个明显瑕疵：① 第一镜与第四镜中，CHR_3 站在 CHR_1 右侧（画面左侧），左手却横跨 CHR_1 整个后背搭在 CHR_1 的左肩上，导致 CHR_3 左臂比例显得异常过长；② 第三镜（00:04-00:05）切到 CHR_1 正打近景时，原本搭着他肩膀的 CHR_3 和肩上的手完全从画面中消失，出现跨镜头穿帮。",
+        "video_b_observation": "Video_B 总时长约 11 秒，整体节奏略慢于 A。\n1. 表演与微表情（acting_micro_naturalism）：00:02-00:03 CHR_2 递饮料的笑容甜美自然；00:04-00:05 CHR_1 说“在学校叫我名字”时表情略显平淡；最大的表演断层出现在 00:06-00:09：当 CHR_3 在旁边绘声绘色调侃“苏小满追你大半年……”并催促“走走走老班叫咱俩去搬”时，CHR_1 全程低头垂眼原地不动，像按了暂停键一样缺乏真实的听话反应和被拉扯离开的肢体趋势。\n2. 唇音同步与台词（vocal_dialogue_delivery）：心声闭嘴准确，画内对白嘴型同步尚可，但在 00:05-00:06 哥哥说完话到男同学开口之间有近 1 秒的尴尬静音停顿，削弱了对话的紧凑感。\n3. 剪辑节奏与反应（editing_rhythm_and_reactions）：00:04-00:09 长达 5 秒停留在同一个双人中景镜头，期间 CHR_1 呆立不动；随后在 00:09-00:11 突然硬切到一个 CHR_1 已经侧身回头的大特写说“在这等我别乱跑”，中间完全缺失了“被同学拉走迈步转身”的动作过程，视觉剪辑非常突兀断裂。\n4. 角色与服装一致性（character_and_costume_consistency）：角色面容与服装基本符合设定，但 00:00-00:01 第一镜中 CHR_2 左手怀抱的饮料瓶有一瓶变成了深黑褐色，与蜜桃汁道具不一致。\n5. 摄影与空间（cinematography_and_spatial_coherence）：00:00-00:01 全景中走廊左右两侧全都摆满了教室课桌椅（连右侧窗下和 CHR_2 背后都是课桌），走廊更像教室过道；且 00:09-00:11 切到 CHR_1 大特写时景深与空间方位衔接生硬。",
         "winner": "A",
-        "total_a": 76.0,
-        "total_b": 69.0
+        "total_a": 83.0,
+        "total_b": 73.0
       }
     },
     {
       "case_id": "val_03_class_clash",
-      "outcome": "champ_win",
-      "cand_score": 62.5,
-      "champ_score": 80.0,
-      "score_delta": -17.5,
-      "vote_pass1": "B",
-      "vote_pass2_swapped": "A",
+      "outcome": "cand_win",
+      "cand_score": 77.0,
+      "champ_score": 73.5,
+      "score_delta": 3.5,
+      "vote_pass1": "A",
+      "vote_pass2_swapped": "B",
       "cand_dim_avg": {
-        "acting_micro_naturalism": 14.5,
-        "vocal_dialogue_delivery": 14.5,
-        "editing_rhythm_and_reactions": 11.0,
-        "character_and_costume_consistency": 13.0,
-        "cinematography_and_spatial_coherence": 3.5,
-        "physical_anatomy_integrity": 6.0
+        "acting_micro_naturalism": 16.0,
+        "vocal_dialogue_delivery": 16.0,
+        "editing_rhythm_and_reactions": 15.0,
+        "character_and_costume_consistency": 13.5,
+        "cinematography_and_spatial_coherence": 8.0,
+        "physical_anatomy_integrity": 8.5
       },
       "champ_dim_avg": {
-        "acting_micro_naturalism": 19.5,
-        "vocal_dialogue_delivery": 16.5,
-        "editing_rhythm_and_reactions": 16.5,
-        "character_and_costume_consistency": 14.0,
-        "cinematography_and_spatial_coherence": 5.5,
-        "physical_anatomy_integrity": 8.0
+        "acting_micro_naturalism": 16.0,
+        "vocal_dialogue_delivery": 14.5,
+        "editing_rhythm_and_reactions": 14.0,
+        "character_and_costume_consistency": 13.5,
+        "cinematography_and_spatial_coherence": 7.0,
+        "physical_anatomy_integrity": 8.5
       },
       "probe_cand": {
         "width": 896,
         "height": 512,
-        "duration_s": 13.792,
-        "v_dur_s": 13.792,
-        "a_dur_s": 13.792,
+        "duration_s": 11.459,
+        "v_dur_s": 11.458,
+        "a_dur_s": 11.458,
         "av_desync_s": 0.0,
-        "speech_total_s": 7.552,
+        "speech_total_s": 7.264,
         "first_speech_s": 1.12,
         "vad_segments": [
           [
@@ -529,45 +517,37 @@
             1.856
           ],
           [
-            2.496,
-            2.688
+            2.528,
+            3.36
           ],
           [
-            2.944,
-            3.328
+            3.744,
+            4.864
           ],
           [
-            3.712,
-            4.128
+            5.312,
+            7.008
           ],
           [
-            4.608,
-            5.76
+            7.36,
+            8.16
           ],
           [
-            6.208,
-            8.0
+            8.576,
+            9.376
           ],
           [
-            9.44,
-            10.24
+            9.728,
+            10.56
           ],
           [
-            10.88,
-            11.68
-          ],
-          [
-            12.064,
-            12.896
-          ],
-          [
-            13.248,
-            13.696
+            10.848,
+            11.296
           ]
         ],
         "tail_truncated": false,
         "lip_desync_detected": false,
-        "median_motion": 4.455,
+        "median_motion": 2.32,
         "approx_cuts": 3,
         "frozen_slideshow": false,
         "deterministic_penalty": 0.0,
@@ -576,24 +556,20 @@
       "probe_champ": {
         "width": 896,
         "height": 512,
-        "duration_s": 12.417,
-        "v_dur_s": 12.417,
-        "a_dur_s": 12.416,
-        "av_desync_s": 0.001,
-        "speech_total_s": 7.36,
-        "first_speech_s": 0.512,
+        "duration_s": 12.459,
+        "v_dur_s": 12.458,
+        "a_dur_s": 12.458,
+        "av_desync_s": 0.0,
+        "speech_total_s": 7.072,
+        "first_speech_s": 0.928,
         "vad_segments": [
           [
-            0.512,
-            1.216
+            0.928,
+            1.696
           ],
           [
-            2.496,
-            2.72
-          ],
-          [
-            3.168,
-            3.392
+            2.656,
+            2.88
           ],
           [
             3.872,
@@ -601,180 +577,190 @@
           ],
           [
             4.672,
-            5.792
+            5.728
           ],
           [
-            6.208,
-            7.936
+            6.176,
+            7.904
           ],
           [
             8.16,
             8.96
           ],
           [
-            9.472,
-            10.272
+            9.536,
+            10.304
           ],
           [
-            10.624,
+            10.656,
             11.52
           ],
           [
-            11.808,
-            12.256
+            11.84,
+            12.288
           ]
         ],
         "tail_truncated": false,
         "lip_desync_detected": false,
-        "median_motion": 10.007,
+        "median_motion": 2.052,
         "approx_cuts": 3,
         "frozen_slideshow": false,
         "deterministic_penalty": 0.0,
         "penalty_reasons": []
       },
       "cand_defects": [
-        "01s–02s 第一镜至第二镜存在极其生硬的同景别、同机位跳切（Jump Cut）：两个镜头均为正面双人中景，仅镜头轻微推进，CHR_2的手部与身体姿态在02s切镜瞬间发生突兀的空间瞬移跳变。",
-        "物理与解剖结构异常：00s–01s中CHR_2右手抓握纸巾的姿势僵硬悬空且纸巾呈生硬直板卡片状；02s–05s中CHR_2伸手擦脸时并未真正贴合擦拭，纸巾仅悬停在CHR_1下巴前方，06s–07s时CHR_1左手接过纸巾时手指与纸巾发生明显穿模粘连变形。",
-        "空间环境拓扑怪异：车厢内部被渲染成了“室内木质窗台走廊里嵌套了一辆无顶敞篷车壳”的荒谬复合空间（身后竟还有一套带方向盘和中控屏的后排驾驶舱），且总时长（约14秒）较11.2秒目标略显拖沓，08s处存在明显发呆停顿空隙。",
-        "背景车厢空间拓扑严重畸变且00:12-00:13正反打发生180度轴线翻转与空间跳变（女主单人镜头中，刚才还在右侧男主背后的车中控台和方向盘突然瞬移到了女主的右后方）。",
-        "00:01-00:02第一镜切第二镜为生硬的同景别跳切（Jump Cut），且第一镜00:00时女主已像雕塑般手拿方正硬纸片悬停等待，毫无事件突发感。",
-        "00:02-00:05女主替刚被吐痰的男主擦脸时，全程保持僵硬怪异的露齿职业假笑，与焦急安抚的戏剧潜台词严重违和；纸巾道具僵硬如硬塑料卡片，擦拭动作呆板。",
-        "总时长约14秒，台词衔接存在00:08-00:09等空白停顿，节奏较11.2秒目标偏慢。"
+        "00:07-00:09男主说“你也是瞎了眼，找了这么一个男人”时缺乏原片嫌恶擦脸的戏剧动作衔接，且面部表情偏温和带笑，未能准确传递余怒未消与居高临下的嫌恶嘲讽感",
+        "00:10-00:11女主尾镜回答“那时候年轻嘛，不懂事”时神态过于平淡带笑，缺少原片低头委屈示弱、娇嗔检讨的眼神与肢体层次，且单人正打机位缺乏前代关系带入",
+        "00:00-00:01首镜景别与原片双人同框爆发不同，拆分为男主单人近景，削弱了女主在旁被吓一跳的即时同框反应张力",
+        "00:07-00:09 镜头3中CHR_1说“你也是瞎了眼，找了这么一个男人”时面带温和笑意，与戏剧任务要求的“嫌恶擦脸后余怒未消、居高临下嘲讽”潜台词极性相悖。",
+        "00:09-00:10 镜头4中CHR_2说“那时候年轻嘛，不懂事”时呈正面明朗微笑，缺乏参考片中低眸蹙眉、双手交握的故作委屈顺从与娇嗔示弱层次。",
+        "00:02-00:06 镜头2长达4.5秒的安抚与贬低台词全程停留在双人中全景侧脸，未像参考片那样切入CHR_2过肩近景以展现其讨好与刻薄兼具的眼神变化。",
+        "00:06-00:07 切至镜头3时白色纸巾道具凭空消失，缺失了CHR_1嫌恶擦脸的动作连续性。"
       ],
       "champ_defects": [
-        "空间环境拓扑怪异：与A类似，在02s–07s双人正面镜头中，车厢背景被错误生成为“室内木框玻璃长廊里塞入敞篷车座椅且后方还有另一个方向盘与中控屏”的荒诞结构，但在单人及过肩镜头（00s–01s、08s–11s）中车窗与车顶边框较A更具轿车封闭感。",
-        "07s处CHR_1接过纸巾低头擦拭的瞬间，纸巾边缘出现了轻微的几何折角僵硬感。",
-        "背景车厢空间拓扑出现严重结构畸变：00:02-00:07双人镜头中，前排两人身后竟然多出一套方向盘、中控悬浮屏和前排座椅（变成车中套敞篷车的诡异空间），且00:08-00:09男主单人镜头背后本该是后排的位置变成紧贴的挡风玻璃窗框。",
-        "00:02-00:04女主安抚被吐痰暴怒的男主时，情绪起手略显灿烂笑意，紧张关切感不如参考片（Target_Benchmark）到位；00:11结尾“不懂事”的“事”字在切黑瞬间略有截断。"
+        "00:02-00:07双人镜头中男主在被擦脸的5秒内面部表情几乎完全僵直凝固，缺乏原片中嫌恶皱眉与余怒未消的鲜活反应层次，且车厢后排背景变成奇怪的对称木框环绕窗结构，偏离真实轿车内部空间质感",
+        "00:02-00:04女主说“哎，你……亲爱的”之间存在明显生硬的气口停顿断层，拉慢了安抚救场的紧迫节奏，总时长略微超出11.2秒目标线",
+        "00:08-00:10男主嘲讽镜头同样缺失了接过纸巾亲自嫌恶擦脸的动作细节，戏剧连贯性弱于85分参考原片",
+        "00:02-00:07 镜头2的台词“哎，你……亲爱的”中间出现约1秒的生硬断句停顿，期间CHR_2张嘴悬停，打断了急切安抚的情绪节奏，且全句5.5秒始终停留在远景双人侧脸，缺失参考片中切入CHR_2近景微表情的关键分镜。",
+        "00:02-00:07 镜头2中CHR_1作为被擦脸的听话人全程如木头人般僵直平视前方，缺乏嫌恶或余怒未消的微表情反馈。",
+        "00:07-00:08 切至镜头3时，原本在镜头2中紧贴CHR_1脸颊的白色纸巾直接凭空消失，缺失了参考片中CHR_1自己接过纸巾嫌恶擦脸的动作衔接。",
+        "00:00-00:07 车内空间背景结构失真且跨镜不一致，后挡风玻璃变成突兀的木框矩形小窗，车门内侧与后排环绕着不合常理的木质吧台台面，中控屏位置漂移至座椅后方。"
       ],
       "pass1_detail": {
         "a_key_defects": [
-          "01s–02s 第一镜至第二镜存在极其生硬的同景别、同机位跳切（Jump Cut）：两个镜头均为正面双人中景，仅镜头轻微推进，CHR_2的手部与身体姿态在02s切镜瞬间发生突兀的空间瞬移跳变。",
-          "物理与解剖结构异常：00s–01s中CHR_2右手抓握纸巾的姿势僵硬悬空且纸巾呈生硬直板卡片状；02s–05s中CHR_2伸手擦脸时并未真正贴合擦拭，纸巾仅悬停在CHR_1下巴前方，06s–07s时CHR_1左手接过纸巾时手指与纸巾发生明显穿模粘连变形。",
-          "空间环境拓扑怪异：车厢内部被渲染成了“室内木质窗台走廊里嵌套了一辆无顶敞篷车壳”的荒谬复合空间（身后竟还有一套带方向盘和中控屏的后排驾驶舱），且总时长（约14秒）较11.2秒目标略显拖沓，08s处存在明显发呆停顿空隙。"
+          "00:07-00:09男主说“你也是瞎了眼，找了这么一个男人”时缺乏原片嫌恶擦脸的戏剧动作衔接，且面部表情偏温和带笑，未能准确传递余怒未消与居高临下的嫌恶嘲讽感",
+          "00:10-00:11女主尾镜回答“那时候年轻嘛，不懂事”时神态过于平淡带笑，缺少原片低头委屈示弱、娇嗔检讨的眼神与肢体层次，且单人正打机位缺乏前代关系带入",
+          "00:00-00:01首镜景别与原片双人同框爆发不同，拆分为男主单人近景，削弱了女主在旁被吓一跳的即时同框反应张力"
         ],
         "b_key_defects": [
-          "空间环境拓扑怪异：与A类似，在02s–07s双人正面镜头中，车厢背景被错误生成为“室内木框玻璃长廊里塞入敞篷车座椅且后方还有另一个方向盘与中控屏”的荒诞结构，但在单人及过肩镜头（00s–01s、08s–11s）中车窗与车顶边框较A更具轿车封闭感。",
-          "07s处CHR_1接过纸巾低头擦拭的瞬间，纸巾边缘出现了轻微的几何折角僵硬感。"
+          "00:02-00:07双人镜头中男主在被擦脸的5秒内面部表情几乎完全僵直凝固，缺乏原片中嫌恶皱眉与余怒未消的鲜活反应层次，且车厢后排背景变成奇怪的对称木框环绕窗结构，偏离真实轿车内部空间质感",
+          "00:02-00:04女主说“哎，你……亲爱的”之间存在明显生硬的气口停顿断层，拉慢了安抚救场的紧迫节奏，总时长略微超出11.2秒目标线",
+          "00:08-00:10男主嘲讽镜头同样缺失了接过纸巾亲自嫌恶擦脸的动作细节，戏剧连贯性弱于85分参考原片"
         ],
         "scores_a": {
-          "acting_micro_naturalism": 16,
-          "character_and_costume_consistency": 13,
-          "cinematography_and_spatial_coherence": 4,
-          "editing_rhythm_and_reactions": 11,
-          "physical_anatomy_integrity": 5,
-          "vocal_dialogue_delivery": 15
-        },
-        "scores_b": {
-          "acting_micro_naturalism": 20,
+          "acting_micro_naturalism": 17,
           "character_and_costume_consistency": 14,
-          "cinematography_and_spatial_coherence": 6,
-          "editing_rhythm_and_reactions": 17,
-          "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 17
-        },
-        "video_a_observation": "Video_A 总时长约14秒，整体明显弱于参考片与Video_B。第一，剪辑节奏与镜头语言存在硬伤：00s–01s与02s–07s两个镜头均为正面双人机位，切镜时发生了极其刺眼的同景别跳切（Jump Cut），CHR_2在01s还把纸巾捏在自己胸前，02s切镜瞬间手臂直接瞬移伸到男主脸前；且07s男主接过纸巾后到08s切入过肩镜头前有近1秒的僵滞空隙，节奏拖沓。第二，物理交互与道具严重失真：纸巾像一块僵硬的塑料白卡片，02s–05s女主所谓的“替他擦脸”动作只是把纸片悬停在男主下巴右前方晃动，根本没有擦拭接触；06s–07s男主左手抬起接纸巾时，两人的手指与纸巾边缘发生诡异的穿模粘连。第三，表演层次上，男主00s–01s骂“你他妈的”时爆发力不足、眼神发散，女主02s开口时大张嘴傻笑，缺乏心疼急迫与讨好分寸感。第四，车内空间出现了严重的AI幻觉——两人在敞篷车座里，而车座后方竟然还有一个带方向盘和悬浮屏的驾驶台，两侧则是室内木质窗框走廊。总分严控在64分。",
-        "video_b_observation": "Video_B 总时长约11.5秒，与11.2秒目标高度契合，分镜设计、表演微表情与交互真实感均显著优于Video_A。第一，剪辑与景别调度干净利落：00s–01s采用男主单人中近景展现暴怒抓方向盘咒骂，02s切入双人中景女主急忙探身替男主擦拭左脸，08s切入过肩男主嘲讽镜头，10s切入过肩女主娇嗔示弱反打，完全避免了A中的同机位跳切，总时长与参考片严丝合缝。第二，表演鲜活自然：男主在00s–01s咬牙切齿怒骂的肌肉张力、03s–07s被女主擦脸时嫌恶闭眼皱眉并接过纸巾低头擦拭的受用与余怒、08s–09s挑眉居高临下嘲讽女主的傲慢神态层次分明；女主从急切讨好擦脸、刻薄撇嘴骂前夫（06s–07s眼神与嘴角轻蔑感极准），到10s–11s垂眸浅笑娇嗔“那时候年轻嘛，不懂事”的顺从姿态，情绪转换丝滑且唇音严丝合缝。第三，道具交互真实度大幅提升，02s–05s纸巾真实贴合男主脸颊擦拭，06s–07s交接自然无穿模。主要扣分点在于02s–07s全景中同样出现了“室内木窗长廊嵌套敞篷车且后排多出一个方向盘”的空间环境瑕疵，故空间分予以克制扣减。",
-        "winner": "B",
-        "total_a": 64.0,
-        "total_b": 82.0
-      },
-      "pass2_swapped_detail": {
-        "a_key_defects": [
-          "背景车厢空间拓扑出现严重结构畸变：00:02-00:07双人镜头中，前排两人身后竟然多出一套方向盘、中控悬浮屏和前排座椅（变成车中套敞篷车的诡异空间），且00:08-00:09男主单人镜头背后本该是后排的位置变成紧贴的挡风玻璃窗框。",
-          "00:02-00:04女主安抚被吐痰暴怒的男主时，情绪起手略显灿烂笑意，紧张关切感不如参考片（Target_Benchmark）到位；00:11结尾“不懂事”的“事”字在切黑瞬间略有截断。"
-        ],
-        "b_key_defects": [
-          "背景车厢空间拓扑严重畸变且00:12-00:13正反打发生180度轴线翻转与空间跳变（女主单人镜头中，刚才还在右侧男主背后的车中控台和方向盘突然瞬移到了女主的右后方）。",
-          "00:01-00:02第一镜切第二镜为生硬的同景别跳切（Jump Cut），且第一镜00:00时女主已像雕塑般手拿方正硬纸片悬停等待，毫无事件突发感。",
-          "00:02-00:05女主替刚被吐痰的男主擦脸时，全程保持僵硬怪异的露齿职业假笑，与焦急安抚的戏剧潜台词严重违和；纸巾道具僵硬如硬塑料卡片，擦拭动作呆板。",
-          "总时长约14秒，台词衔接存在00:08-00:09等空白停顿，节奏较11.2秒目标偏慢。"
-        ],
-        "scores_a": {
-          "acting_micro_naturalism": 19,
-          "character_and_costume_consistency": 14,
-          "cinematography_and_spatial_coherence": 5,
-          "editing_rhythm_and_reactions": 16,
-          "physical_anatomy_integrity": 8,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 15,
+          "physical_anatomy_integrity": 9,
           "vocal_dialogue_delivery": 16
         },
         "scores_b": {
-          "acting_micro_naturalism": 13,
+          "acting_micro_naturalism": 17,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 15,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 15
+        },
+        "video_a_observation": "Video_A总时长约11秒，人物骨相、发型、眼镜、西装腕表及女装造型与Character_Ref_1、Character_Ref_2高度一致，唇音同步准确。00:00-00:01男主暴怒骂“你他妈的”表情张力到位，00:02-00:06双人镜头中女主凑近擦脸动作自然、男主在00:05有微蹙眉的嫌恶反应；但对比85分参考片（Target_Benchmark），存在三处明显差距：一是00:07-00:09男主说“你也是瞎了眼，找了这么一个男人”时未延续拿纸巾嫌恶擦脸的动作，且表情偏温和微笑，削弱了余怒未消、居高临下嘲讽的潜台词张力；二是00:10-00:11女主说“那时候年轻嘛，不懂事”时采用无前景带入的单人正打，神态偏平淡微笑，不如参考片低头委屈娇嗔的表演细腻；三是首镜为男主单人近景，缺少原片双人同框时女主同步受惊的反应。综合评定为79分。",
+        "video_b_observation": "Video_B总时长约12秒，角色面部骨相、服装质感与设定图保持高度一致，唇音同步整体良好。00:00-00:01男主暴怒青筋与转头咆哮的爆发力较强，00:08-00:10男主过肩镜头嘲讽时的轻蔑微表情以及00:10-00:12女主过肩镜头低眼顺从示弱的神态比Video_A更贴合台词潜台词且正反打轴线完整；但对比85分参考片（Target_Benchmark）及Video_A，Video_B在00:02-00:07长达5秒的双人镜头中存在明显短板：一是男主被擦脸过程中面部与眼神几乎完全凝固呆滞，缺乏受辱后的嫌恶动态反应；二是00:03女主台词“哎，你”与“亲爱的”之间出现突兀停顿断句，拖慢了急促安抚的节奏；三是双人镜头车厢后方背景变形为失真的对称木框长窗结构，破坏了高档轿车后排空间的真实感，且男主后续同样缺失自己擦脸的动作衔接。综合评定为77分。",
+        "winner": "A",
+        "total_a": 79.0,
+        "total_b": 77.0
+      },
+      "pass2_swapped_detail": {
+        "a_key_defects": [
+          "00:02-00:07 镜头2的台词“哎，你……亲爱的”中间出现约1秒的生硬断句停顿，期间CHR_2张嘴悬停，打断了急切安抚的情绪节奏，且全句5.5秒始终停留在远景双人侧脸，缺失参考片中切入CHR_2近景微表情的关键分镜。",
+          "00:02-00:07 镜头2中CHR_1作为被擦脸的听话人全程如木头人般僵直平视前方，缺乏嫌恶或余怒未消的微表情反馈。",
+          "00:07-00:08 切至镜头3时，原本在镜头2中紧贴CHR_1脸颊的白色纸巾直接凭空消失，缺失了参考片中CHR_1自己接过纸巾嫌恶擦脸的动作衔接。",
+          "00:00-00:07 车内空间背景结构失真且跨镜不一致，后挡风玻璃变成突兀的木框矩形小窗，车门内侧与后排环绕着不合常理的木质吧台台面，中控屏位置漂移至座椅后方。"
+        ],
+        "b_key_defects": [
+          "00:07-00:09 镜头3中CHR_1说“你也是瞎了眼，找了这么一个男人”时面带温和笑意，与戏剧任务要求的“嫌恶擦脸后余怒未消、居高临下嘲讽”潜台词极性相悖。",
+          "00:09-00:10 镜头4中CHR_2说“那时候年轻嘛，不懂事”时呈正面明朗微笑，缺乏参考片中低眸蹙眉、双手交握的故作委屈顺从与娇嗔示弱层次。",
+          "00:02-00:06 镜头2长达4.5秒的安抚与贬低台词全程停留在双人中全景侧脸，未像参考片那样切入CHR_2过肩近景以展现其讨好与刻薄兼具的眼神变化。",
+          "00:06-00:07 切至镜头3时白色纸巾道具凭空消失，缺失了CHR_1嫌恶擦脸的动作连续性。"
+        ],
+        "scores_a": {
+          "acting_micro_naturalism": 15,
           "character_and_costume_consistency": 13,
-          "cinematography_and_spatial_coherence": 3,
-          "editing_rhythm_and_reactions": 11,
-          "physical_anatomy_integrity": 7,
+          "cinematography_and_spatial_coherence": 7,
+          "editing_rhythm_and_reactions": 13,
+          "physical_anatomy_integrity": 8,
           "vocal_dialogue_delivery": 14
         },
-        "video_a_observation": "Video_A 总时长约11.5秒，与目标时长（11.2秒）高度吻合。分镜采用“男主单人暴怒特写（00:00-00:01）→ 双人中景女主探身擦脸安抚、男主接过纸巾低头（00:02-00:07）→ 过肩正打男主嘲讽（00:08-00:09）→ 过肩反打女主娇嗔示弱（00:10-00:11）”的4镜结构，景别交替与过肩正反打轴线清晰。表演方面，男主00:00“你他妈的”咬牙暴怒、00:04-00:06闭眼嫌恶并顺手接过纸巾、00:08斜睨冷笑嘲讽的微表情层次较为自然；女主00:06“一个臭送外卖的”鄙夷蹙眉与00:10-00:11低头抿嘴娇嗔的神态也比较贴合潜台词，但00:02刚探身替男主擦脸时嘴角笑意偏灿烂，紧迫感不及参考片。唇音同步整体良好，仅结尾00:11“不懂事”尾音略紧促。最大缺陷在于车厢空间的AI结构伪影：00:02-00:07双人镜头中，前排座椅后方竟赫然出现另一套带方向盘和中控屏的敞篷车驾驶舱（车中套车），且00:08男主背后车厢空间突变为紧贴的后窗框。",
-        "video_b_observation": "Video_B 总时长约14秒，节奏较11.2秒目标明显偏慢。00:00-00:01开场双人镜头中，男主骂“你他妈的”时女主已手里举着一张僵硬如塑料薄片的方形纸片呆立不动；00:01切00:02时发生生硬的同机位双人景别跳切（Jump Cut）。表演方面，00:02-00:05女主替被吐痰暴怒的男主擦脸时，脸上竟然挂着僵硬夸张的露齿灿烂假笑，与戏剧语境严重割裂，且手中的纸巾毫无柔软垂坠感，男主00:06-00:07接纸巾时双人手部与纸片互动僵硬。00:08-00:09男主开口前有近1秒的发呆停顿。空间与摄影方面，除同样存在“前排座椅背后又有一套方向盘与中控屏”的车厢畸变外，在00:12-00:13切女主单人镜头时，原本在画面右侧（男主身后）的后方方向盘与中控台突然瞬移到了女主的右后方（画面左侧变成了走廊长窗），造成严重的180度背景空间翻转。",
-        "winner": "A",
-        "total_a": 78.0,
-        "total_b": 61.0
+        "scores_b": {
+          "acting_micro_naturalism": 15,
+          "character_and_costume_consistency": 13,
+          "cinematography_and_spatial_coherence": 8,
+          "editing_rhythm_and_reactions": 15,
+          "physical_anatomy_integrity": 8,
+          "vocal_dialogue_delivery": 16
+        },
+        "video_a_observation": "Video_A 总时长约11.5秒，共4个镜头。镜头1（00:00-00:01）CHR_1双手握方向盘暴怒骂出“你他妈的”，口型同步，情绪张力尚可，但车内后方出现诡异的木框矩形小窗；镜头2（00:02-00:07）切双人正面中全景，CHR_2倾身用纸巾擦拭CHR_1右脸颊，台词“哎，你”与“亲爱的”之间出现约1秒的不自然停顿且张嘴定格，整段5.5秒长台词一直停留在双人侧面远景，未像参考片那样切入CHR_2近景展现刻薄讨好的微表情，同时CHR_1在被擦脸的5秒内完全僵直不动、眼神呆滞无反应，车内环境还出现了不合常理的环绕式木质窗台；镜头3（00:08-00:10）切过肩近景，纸巾道具凭空消失，CHR_1未做擦脸动作，以冷淡微蹙眉神态说出嘲讽台词；镜头4（00:10-00:11）切CHR_2过肩近景，低眸说出“那时候年轻嘛，不懂事”，神态略显平淡，缺少参考片双手交握、委屈示弱的细腻肢体与表情层次。",
+        "video_b_observation": "Video_B 总时长约10.5秒，共4个镜头。镜头1（00:00-00:01）CHR_1在主驾位握方向盘暴怒大骂“你他妈的”，面部青筋与张嘴爆发力强，唇音严丝合缝；镜头2（00:02-00:06）切双人中全景，CHR_2探身用纸巾替CHR_1擦脸，台词“哎你亲爱的，咱们不跟他一般见识……”衔接紧凑流畅，无断句卡顿，且CHR_1在00:05-00:06被擦脸时有明显的蹙眉嫌恶微表情反馈，车内中控屏与车窗空间结构也较Video_A真实合理，但同样未在长台词中切入CHR_2过肩近景；镜头3（00:07-00:09）切CHR_1过肩近景，纸巾道具同样凭空消失，且CHR_1在说“你也是瞎了眼，找了这么一个男人”时嘴角带笑、神态温和愉悦，违背了“余怒未消、居高临下嘲讽”的潜台词极性；镜头4（00:09-00:10）切CHR_2过肩近景，CHR_2面带明朗微笑说完“那时候年轻嘛，不懂事”，缺乏参考片中低头委屈示弱的微表情张力。整体而言，Video_B在台词气口流畅度、车内空间结构合理性及听话人微反应上优于Video_A。",
+        "winner": "B",
+        "total_a": 70.0,
+        "total_b": 75.0
       }
     },
     {
       "case_id": "val_04_ancient_prince",
       "outcome": "champ_win",
-      "cand_score": 53.0,
-      "champ_score": 77.0,
-      "score_delta": -24.0,
+      "cand_score": 69.5,
+      "champ_score": 75.0,
+      "score_delta": -5.5,
       "vote_pass1": "B",
       "vote_pass2_swapped": "A",
       "cand_dim_avg": {
-        "acting_micro_naturalism": 13.0,
-        "vocal_dialogue_delivery": 6.0,
-        "editing_rhythm_and_reactions": 9.5,
-        "character_and_costume_consistency": 12.5,
-        "cinematography_and_spatial_coherence": 4.0,
-        "physical_anatomy_integrity": 8.0
+        "acting_micro_naturalism": 15.0,
+        "vocal_dialogue_delivery": 15.5,
+        "editing_rhythm_and_reactions": 12.0,
+        "character_and_costume_consistency": 13.5,
+        "cinematography_and_spatial_coherence": 5.0,
+        "physical_anatomy_integrity": 8.5
       },
       "champ_dim_avg": {
-        "acting_micro_naturalism": 19.0,
-        "vocal_dialogue_delivery": 16.0,
-        "editing_rhythm_and_reactions": 14.0,
-        "character_and_costume_consistency": 13.5,
+        "acting_micro_naturalism": 17.0,
+        "vocal_dialogue_delivery": 15.5,
+        "editing_rhythm_and_reactions": 15.0,
+        "character_and_costume_consistency": 12.5,
         "cinematography_and_spatial_coherence": 6.5,
-        "physical_anatomy_integrity": 8.0
+        "physical_anatomy_integrity": 8.5
       },
       "probe_cand": {
         "width": 512,
         "height": 896,
-        "duration_s": 7.334,
-        "v_dur_s": 7.333,
-        "a_dur_s": 7.333,
-        "av_desync_s": 0.0,
+        "duration_s": 7.5,
+        "v_dur_s": 7.5,
+        "a_dur_s": 7.492,
+        "av_desync_s": 0.008,
         "speech_total_s": 3.232,
         "first_speech_s": 0.16,
         "vad_segments": [
           [
             0.16,
-            0.512
+            0.544
           ],
           [
-            0.992,
-            1.312
+            0.928,
+            1.216
           ],
           [
-            1.568,
-            2.016
+            1.472,
+            1.92
           ],
           [
-            2.304,
-            2.624
+            2.144,
+            2.464
           ],
           [
-            4.416,
-            5.024
+            4.864,
+            5.504
           ],
           [
-            5.44,
-            6.624
+            5.92,
+            6.592
+          ],
+          [
+            6.624,
+            7.104
           ]
         ],
         "tail_truncated": false,
         "lip_desync_detected": false,
-        "median_motion": 9.705,
+        "median_motion": 6.689,
         "approx_cuts": 3,
         "frozen_slideshow": false,
         "deterministic_penalty": 0.0,
@@ -783,129 +769,129 @@
       "probe_champ": {
         "width": 512,
         "height": 896,
-        "duration_s": 7.375,
-        "v_dur_s": 7.375,
-        "a_dur_s": 7.375,
+        "duration_s": 7.834,
+        "v_dur_s": 7.833,
+        "a_dur_s": 7.833,
         "av_desync_s": 0.0,
-        "speech_total_s": 3.2,
-        "first_speech_s": 0.128,
+        "speech_total_s": 3.232,
+        "first_speech_s": 0.16,
         "vad_segments": [
           [
-            0.128,
-            0.512
+            0.16,
+            0.544
           ],
           [
-            0.8,
-            1.152
+            0.896,
+            1.216
           ],
           [
-            1.472,
-            2.112
+            1.6,
+            2.048
           ],
           [
-            4.576,
-            5.216
+            2.208,
+            2.528
           ],
           [
-            5.76,
-            6.432
+            5.152,
+            5.76
           ],
           [
-            6.464,
-            6.976
+            6.176,
+            7.328
           ]
         ],
         "tail_truncated": false,
         "lip_desync_detected": false,
-        "median_motion": 9.488,
-        "approx_cuts": 2,
+        "median_motion": 5.285,
+        "approx_cuts": 3,
         "frozen_slideshow": false,
         "deterministic_penalty": 0.0,
         "penalty_reasons": []
       },
       "cand_defects": [
-        "00:04-00:06 第三句明确要求为【心声OS（画内闭嘴）】，但Video_A在高山云海镜头中让CHR_1出镜并张嘴说话，严重违反心声闭嘴铁律",
-        "00:00-00:01 空间站位与场景道具严重错乱：前景摆了一张空荡荡的木餐桌和四把椅子，CHR_3、CHR_2与CHR_1三人并排站在餐桌后方，完全丢失了“泥人摊位桌面”以及“CHR_1位于两人前方街道中央回头呼唤、柳儿小跑追上”的空间景深与戏剧调度",
-        "00:02-00:04 缺失少爷刮鼻尖后两人并肩远去的过渡戏份，直接硬切到高山镜头，叙事留白与情绪过渡断裂",
-        "PRP_1泥人尺寸过大且造型更像木雕佛像，不符合高约十厘米的古朴粗糙小泥人设定",
-        "严重违背心声OS（画内闭嘴）铁律：00:04-00:06高山云海镜头中，CHR_1在播放内心独白“十年后，机缘巧合之下”时全程张嘴说话，将心声拍成了画内开口对白。",
-        "00:00-00:01空间调度与轴线错误：CHR_1没有位于两人前方的街道中央，而是与CHR_2、CHR_3并排站在空木桌与椅子后方，且三人都直视正前方镜头方向说话，缺乏人物之间的视线交流与“小跑追上”的戏剧动作。",
-        "00:01到00:02发生严重的180度左右站位翻转与空间跳变（00:01柳儿在左、少爷在右，00:02切近景后柳儿仍在左但少爷从右侧面对她，背景桌椅与老者瞬间消失），且完全缺失两人并肩远去的背影过渡镜头。"
+        "开场空间调度与戏剧动机缺失：首镜中CHR_1已经与CHR_2并排站在空荡的木桌摊位旁（桌面甚至没有泥人陈列），失去了原本“少爷在前方街道呼唤、侍女从后方摊位小跑追上来献宝”的空间纵深与动态节奏。",
+        "关键戏剧动作缺失：完全漏掉了任务卡明确要求的“少爷宠溺刮了刮她的鼻尖后两人并肩远去”的核心互动与走位，仅停留在原地对视即生硬切入下一场。",
+        "明显的AI机械推镜惯性：00:04-00:08的高山云海镜头将CHR_1怼在前景特写，且伴随毫无叙事动机的缓慢机械前推，不如全景云海日出意境开阔。",
+        "镜头1空间站位严重违背任务卡硬约束：CHR_1未位于两人前方的街道中央，而是直接站在摊位旁与柳儿并排。",
+        "镜头1到镜头2严重越轴（违反180度轴线法则）：镜头1中CHR_2在左、CHR_1在右，切到镜头2过肩镜头时，前景CHR_1的肩膀依然在画面右侧，导致视线方向错乱。",
+        "缺失核心戏剧调度与亲密互动：完全没有柳儿小跑追上少爷、少爷宠溺刮她鼻尖以及两人并肩远去的戏剧过程，全程原地站立桩式对话，且每个镜头均带有缺乏动机的AI机械缓慢推镜。",
+        "镜头4转场意境不符且呆板：转场后并非单纯的高山云海空镜意境过渡，而是直接怼脸推镜拍攝十年后毫无岁月变化、表情僵硬木讷的CHR_1特写。"
       ],
       "champ_defects": [
-        "00:00-00:03 泥人摊位被误置为带靠背椅的木餐桌，且00:01-00:03近景与背影镜头底部边缘始终残留两把突兀的椅子靠背，破坏集市街道空间纯粹感",
-        "00:01-00:03 缺少柳儿听到呼唤后从摊位小跑追上少爷的动作过程，且从两人侧身相对刮鼻尖到并肩背影远去之间采用同景别硬切，总时长约6.5秒较9.5秒参考片偏快，呼吸留白略显局促",
-        "PRP_1泥人道具尺寸偏大（接近二十余厘米的大号泥塑），不够精致小巧",
-        "00:00首镜空间站位与透视不合理，CHR_1直接贴在摊位餐桌外沿正前方，且摊位被拍成带两把高背餐椅的空木餐桌，缺少集市泥人摊陈列感；00:01切镜后木桌与CHR_3直接消失，仅留两把餐椅椅背在前景底部，发生空间跳切与陈设突变。",
-        "缺少柳儿从摊位前小跑追上少爷的运动过渡过程，00:00到00:01直接硬切为两人面对面站立。",
-        "总时长约6.5秒，较9.5秒目标时长偏短，00:03两人转身并肩远去仅一秒即硬切，情绪铺垫略显仓促。"
+        "第一镜场景与道具陈设失真：00:00首镜在前景突兀堆放了一整排空木桌与板凳，挡住了街道动线，更像是露天茶摊而非泥人摊位。",
+        "走位衔接略欠流畅：00:00-00:01从摊位远景直接切到两人面对面近景，省略了“小跑追上”的过程；00:02少爷抬手欲刮鼻尖时动作尚未完全落定便在00:03切到了两人并肩远去的背影。",
+        "镜头1空间透视与构图怪异：CHR_1背对后方两人在前景干张嘴说“柳儿快点”，嘴型如木偶般机械开合且未回头看柳儿，前景突兀堆叠空木桌椅阻挡视线，缺乏Target_Benchmark中侧身回头呼唤与景深互动感。",
+        "镜头2至镜头3动作与剪辑跳变：未展现柳儿从摊位小跑追上的过程便直接硬切至两人近景并立；CHR_1在镜头2只是抬手轻碰泥人，完全缺失了戏剧任务卡与参考片中“宠溺刮柳儿鼻尖”的核心互动动作。",
+        "镜头3与镜头1空间拓扑自相矛盾：镜头1中两人面前是城门，镜头3两人转身朝城门走去时，原本在画面右侧的泥人摊位和老者凭空消失。",
+        "镜头1中CHR_1鞋履为白色，与设定（黑色布靴）不符。"
       ],
       "pass1_detail": {
         "a_key_defects": [
-          "00:04-00:06 第三句明确要求为【心声OS（画内闭嘴）】，但Video_A在高山云海镜头中让CHR_1出镜并张嘴说话，严重违反心声闭嘴铁律",
-          "00:00-00:01 空间站位与场景道具严重错乱：前景摆了一张空荡荡的木餐桌和四把椅子，CHR_3、CHR_2与CHR_1三人并排站在餐桌后方，完全丢失了“泥人摊位桌面”以及“CHR_1位于两人前方街道中央回头呼唤、柳儿小跑追上”的空间景深与戏剧调度",
-          "00:02-00:04 缺失少爷刮鼻尖后两人并肩远去的过渡戏份，直接硬切到高山镜头，叙事留白与情绪过渡断裂",
-          "PRP_1泥人尺寸过大且造型更像木雕佛像，不符合高约十厘米的古朴粗糙小泥人设定"
+          "开场空间调度与戏剧动机缺失：首镜中CHR_1已经与CHR_2并排站在空荡的木桌摊位旁（桌面甚至没有泥人陈列），失去了原本“少爷在前方街道呼唤、侍女从后方摊位小跑追上来献宝”的空间纵深与动态节奏。",
+          "关键戏剧动作缺失：完全漏掉了任务卡明确要求的“少爷宠溺刮了刮她的鼻尖后两人并肩远去”的核心互动与走位，仅停留在原地对视即生硬切入下一场。",
+          "明显的AI机械推镜惯性：00:04-00:08的高山云海镜头将CHR_1怼在前景特写，且伴随毫无叙事动机的缓慢机械前推，不如全景云海日出意境开阔。"
         ],
         "b_key_defects": [
-          "00:00-00:03 泥人摊位被误置为带靠背椅的木餐桌，且00:01-00:03近景与背影镜头底部边缘始终残留两把突兀的椅子靠背，破坏集市街道空间纯粹感",
-          "00:01-00:03 缺少柳儿听到呼唤后从摊位小跑追上少爷的动作过程，且从两人侧身相对刮鼻尖到并肩背影远去之间采用同景别硬切，总时长约6.5秒较9.5秒参考片偏快，呼吸留白略显局促",
-          "PRP_1泥人道具尺寸偏大（接近二十余厘米的大号泥塑），不够精致小巧"
+          "第一镜场景与道具陈设失真：00:00首镜在前景突兀堆放了一整排空木桌与板凳，挡住了街道动线，更像是露天茶摊而非泥人摊位。",
+          "走位衔接略欠流畅：00:00-00:01从摊位远景直接切到两人面对面近景，省略了“小跑追上”的过程；00:02少爷抬手欲刮鼻尖时动作尚未完全落定便在00:03切到了两人并肩远去的背影。"
         ],
         "scores_a": {
-          "acting_micro_naturalism": 13,
-          "character_and_costume_consistency": 13,
-          "cinematography_and_spatial_coherence": 4,
-          "editing_rhythm_and_reactions": 9,
-          "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 6
+          "acting_micro_naturalism": 17,
+          "character_and_costume_consistency": 14,
+          "cinematography_and_spatial_coherence": 6,
+          "editing_rhythm_and_reactions": 13,
+          "physical_anatomy_integrity": 9,
+          "vocal_dialogue_delivery": 16
         },
         "scores_b": {
           "acting_micro_naturalism": 19,
-          "character_and_costume_consistency": 14,
+          "character_and_costume_consistency": 13,
           "cinematography_and_spatial_coherence": 7,
-          "editing_rhythm_and_reactions": 14,
-          "physical_anatomy_integrity": 8,
+          "editing_rhythm_and_reactions": 16,
+          "physical_anatomy_integrity": 9,
           "vocal_dialogue_delivery": 16
         },
-        "video_a_observation": "Video_A 总时长约6.5秒，存在致命的视听与空间缺陷：1）00:00-00:01 空间站位严重违背任务卡硬约束，画面前景横置一张空木餐桌与四把木椅，CHR_3、CHR_2、CHR_1三人并排站在空桌后方，不仅缺失摆满泥人的摊位桌面，且将本应位于街道前方呼唤的CHR_1与摊位前的CHR_2挤在同一平面，也没有柳儿小跑追上的调度；2）00:02-00:03 两人互动后完全缺失“并肩远去”的关键叙事动作，直接生硬跳切至高山云海；3）00:04-00:06 第三句台词“十年后 机缘巧合之下”明确规定为【心声OS（画内闭嘴）】，但画面中CHR_1站在山巅直接张嘴念出心声，触发心声张嘴重扣铁律。",
-        "video_b_observation": "Video_B 总时长约6.5秒，整体较好地还原了戏剧任务卡的核心调度与情绪转换：1）00:00-00:01 准确呈现CHR_3在木桌左侧、CHR_2在木桌右侧俯身看泥人、CHR_1位于前方街道中央回头呼唤“柳儿 快点”的前后景深空间关系；2）00:01-00:02 CHR_2双手捧泥人欢快展示并说“少爷 你看”，唇音同步严丝合缝，随后CHR_1宠溺伸手刮她鼻尖，两人眉眼弯弯、苹果肌自然上扬，情绪鲜活度较高；3）00:03 完整呈现两人并肩向城门方向远去的背影过渡；4）00:04-00:06 切入日出金辉下的高山云海与苍劲松石空镜，以画外音准确呈现CHR_1沉稳厚重的心声OS“十年后 机缘巧合之下”，未出现心声张嘴错误。主要不足在于总时长较9.5秒标准片偏短（省略了柳儿从摊位小跑追上的过程，00:02至00:03正面互动切背影远去略显急促），且摊位被表现为带椅子的木桌、00:01-00:03画面底部残留两把椅背。",
+        "video_a_observation": "Video_A总时长约8秒。优点在于角色面部骨相、发型服饰与设定图（Character_Ref_1/2/3）高度一致，柳儿（CHR_2）在00:01-00:03展示泥人时的眉眼弯度、苹果肌笑意非常鲜活灵动，唇音同步准确，00:04-00:07少爷心声OS保持闭嘴状态。但存在明显导演调度缺陷：1. 空间站位与戏剧逻辑扁平化，首镜（00:00）三人已在同一木桌旁（且桌面空无一物），少爷紧挨着柳儿却喊“柳儿快点”，完全丢失了参考片中“少爷在前方走、回头呼唤后方摊位前的柳儿、柳儿小跑追上”的空间纵深与动态过渡；2. 核心动作缺失，完全漏拍了任务卡要求的“少爷宠溺刮鼻尖”以及“两人并肩远去”的背影过渡；3. 00:04-00:07转入十年后云海时，采用少爷单人近景配缓慢机械前推镜头，既缺乏云海日出空镜的意境转换，又带有明显的AI习惯性慢推感。",
+        "video_b_observation": "Video_B总时长约8秒。整体叙事结构与戏剧动作完成度显著优于Video_A：1. 首镜（00:00）准确建立了空间纵深——CHR_1位于前景街道中央开口呼唤“柳儿快点”，后景摊位处CHR_3在左、CHR_2在右俯身挑选泥人，符合空间硬约束（但前景多摆了一排空木桌板凳，且少爷朝向正前方而非回头呼唤，略显生硬）；2. 第二镜（00:01-00:02）柳儿双手捧泥人欢快献宝“少爷你看”，嘴型严丝合缝，笑容甜美鲜活，少爷宠溺微笑并抬手做出刮她鼻尖的互动动作（虽在触碰瞬间切镜，但动作意图明确）；3. 第三镜（00:03）完整呈现了两人并肩向城门方向远去的背影，随后在00:04切入日出金辉穿透云层、苍劲松石耸立的高山云海全景，配合沉稳的“十年后，机缘巧合之下”画外音，完整兑现了从温馨日常到宿命转折的戏剧过渡。",
         "winner": "B",
-        "total_a": 53.0,
-        "total_b": 78.0
+        "total_a": 75.0,
+        "total_b": 80.0
       },
       "pass2_swapped_detail": {
         "a_key_defects": [
-          "00:00首镜空间站位与透视不合理，CHR_1直接贴在摊位餐桌外沿正前方，且摊位被拍成带两把高背餐椅的空木餐桌，缺少集市泥人摊陈列感；00:01切镜后木桌与CHR_3直接消失，仅留两把餐椅椅背在前景底部，发生空间跳切与陈设突变。",
-          "缺少柳儿从摊位前小跑追上少爷的运动过渡过程，00:00到00:01直接硬切为两人面对面站立。",
-          "总时长约6.5秒，较9.5秒目标时长偏短，00:03两人转身并肩远去仅一秒即硬切，情绪铺垫略显仓促。"
+          "镜头1空间透视与构图怪异：CHR_1背对后方两人在前景干张嘴说“柳儿快点”，嘴型如木偶般机械开合且未回头看柳儿，前景突兀堆叠空木桌椅阻挡视线，缺乏Target_Benchmark中侧身回头呼唤与景深互动感。",
+          "镜头2至镜头3动作与剪辑跳变：未展现柳儿从摊位小跑追上的过程便直接硬切至两人近景并立；CHR_1在镜头2只是抬手轻碰泥人，完全缺失了戏剧任务卡与参考片中“宠溺刮柳儿鼻尖”的核心互动动作。",
+          "镜头3与镜头1空间拓扑自相矛盾：镜头1中两人面前是城门，镜头3两人转身朝城门走去时，原本在画面右侧的泥人摊位和老者凭空消失。",
+          "镜头1中CHR_1鞋履为白色，与设定（黑色布靴）不符。"
         ],
         "b_key_defects": [
-          "严重违背心声OS（画内闭嘴）铁律：00:04-00:06高山云海镜头中，CHR_1在播放内心独白“十年后，机缘巧合之下”时全程张嘴说话，将心声拍成了画内开口对白。",
-          "00:00-00:01空间调度与轴线错误：CHR_1没有位于两人前方的街道中央，而是与CHR_2、CHR_3并排站在空木桌与椅子后方，且三人都直视正前方镜头方向说话，缺乏人物之间的视线交流与“小跑追上”的戏剧动作。",
-          "00:01到00:02发生严重的180度左右站位翻转与空间跳变（00:01柳儿在左、少爷在右，00:02切近景后柳儿仍在左但少爷从右侧面对她，背景桌椅与老者瞬间消失），且完全缺失两人并肩远去的背影过渡镜头。"
+          "镜头1空间站位严重违背任务卡硬约束：CHR_1未位于两人前方的街道中央，而是直接站在摊位旁与柳儿并排。",
+          "镜头1到镜头2严重越轴（违反180度轴线法则）：镜头1中CHR_2在左、CHR_1在右，切到镜头2过肩镜头时，前景CHR_1的肩膀依然在画面右侧，导致视线方向错乱。",
+          "缺失核心戏剧调度与亲密互动：完全没有柳儿小跑追上少爷、少爷宠溺刮她鼻尖以及两人并肩远去的戏剧过程，全程原地站立桩式对话，且每个镜头均带有缺乏动机的AI机械缓慢推镜。",
+          "镜头4转场意境不符且呆板：转场后并非单纯的高山云海空镜意境过渡，而是直接怼脸推镜拍攝十年后毫无岁月变化、表情僵硬木讷的CHR_1特写。"
         ],
         "scores_a": {
-          "acting_micro_naturalism": 19,
-          "character_and_costume_consistency": 13,
+          "acting_micro_naturalism": 15,
+          "character_and_costume_consistency": 12,
           "cinematography_and_spatial_coherence": 6,
           "editing_rhythm_and_reactions": 14,
           "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 16
+          "vocal_dialogue_delivery": 15
         },
         "scores_b": {
           "acting_micro_naturalism": 13,
-          "character_and_costume_consistency": 12,
+          "character_and_costume_consistency": 13,
           "cinematography_and_spatial_coherence": 4,
-          "editing_rhythm_and_reactions": 10,
+          "editing_rhythm_and_reactions": 11,
           "physical_anatomy_integrity": 8,
-          "vocal_dialogue_delivery": 6
+          "vocal_dialogue_delivery": 15
         },
-        "video_a_observation": "Video_A 总时长约6.5秒，共4个镜头。00:00-00:01首镜中，CHR_3（老者）在木桌左后侧，CHR_2（柳儿）在木桌右后侧看向桌上的小泥人，CHR_1（白衣少爷）站在木桌正前方侧身回头唤道“柳儿，快点”，唇音同步准确，表情温和自然；但木桌更像带椅子的餐桌而非集市摊位，且少爷贴桌太近。00:01-00:02切至中近景，柳儿双手捧着黄褐色小泥人面向少爷欢快展示并说“少爷你看”，嘴型与欢快语调同步，笑容甜美鲜活，少爷在00:02宠溺地抬手刮了刮她的鼻尖，互动自然；但此镜前景下方突兀保留了两把餐椅椅背，原有的木桌与老者凭空消失，且省略了柳儿小跑追上的运动过程。00:03-00:04两人转身并肩向城门方向走去，完成离场过渡。00:04-00:06转场至日出金辉下的高山云海与苍劲松石空镜，画外响起CHR_1沉稳的内心独白OS“十年后，机缘巧合之下”，符合心声不张嘴的要求。角色面部骨相、服装头饰与设定图高度一致。",
-        "video_b_observation": "Video_B 总时长约6.5秒，共3个镜头。00:00-00:01首镜空间站位严重违背任务卡约束：前景是一张空木桌和四把椅子，CHR_3、CHR_2、CHR_1三人全部并排站在木桌与椅子后方，CHR_1并未位于两人前方的街道中央；CHR_1在右侧直视正前方镜头说“柳儿，快点”，视线根本没有看向身旁的柳儿，柳儿接过泥人也只是对着正前方镜头傻笑，毫无“听到呼唤后小跑追上”的戏剧调度。00:01-00:03切至两人侧面中近景，柳儿捧着泥人说“少爷，你看”，少爷抬手刮她鼻尖；但从上一镜到这一镜，背景中的木桌、椅子与老者瞬间蒸发，且缺少两人并肩远去的过渡镜头。00:04-00:06转入高山云海与松树镜头，画面中出现了十年前同款造型的CHR_1，且在播放“[心声OS（画内闭嘴）]：十年后，机缘巧合之下”时，画面中的CHR_1竟然全程张嘴朗读台词，严重违反心声OS闭嘴铁律！",
+        "video_a_observation": "Video_A总时长约8秒，共4个镜头。镜头1（0:00-0:01）：城门集市街道，CHR_3在后方木桌左侧捏泥人，CHR_2在木桌右侧俯身欢喜看泥人，空间前后关系符合任务卡要求（CHR_1在两人前方街道中央），但前景突兀摆放了一组无人空木桌椅，且CHR_1背对柳儿直视镜头前方机械张嘴说“柳儿，快点”，未像参考片那样侧身回头呼唤，表情略显呆板，脚穿白鞋（设定为黑色布靴）。镜头2（0:01-0:03）：直接切至两人侧面近景，省略了柳儿小跑追上的过程；CHR_2双手捧泥人微笑说“少爷，你看”，唇音同步较好，眼角眉梢有欢快笑意，但CHR_1只是微笑着抬手碰了一下泥人，缺失了“宠溺刮鼻尖”的核心戏剧动作。镜头3（0:03-0:04）：切至两人并肩向城门方向远去的背影，步伐自然，但原本在画面右侧的泥人摊位凭空消失。镜头4（0:04-0:08）：转场至日出金辉下的高山云海与苍劲松石空镜，伴随CHR_1沉稳的内心独白OS“十年后，机缘巧合之下”，意境过渡贴合任务卡。整体而言，Video_A完成了大部分叙事节点（含并肩远去与云海空镜转场），但存在未回头呼唤、缺失刮鼻尖动作及局部空间物件消失的问题。",
+        "video_b_observation": "Video_B总时长约8秒，共4个镜头。镜头1（0:00-0:01）：城门集市木桌摊位前，CHR_3在左，CHR_2居中双手捧泥人，CHR_1直接站在木桌右侧与CHR_2并排侧头说“柳儿，快点”，严重违背了“CHR_2俯身看桌面泥人、CHR_1位于两人前方街道中央”的空间硬约束，导致“快点”的催促台词失去空间距离合理性。镜头2（0:01-0:02）：切至越过CHR_1肩膀拍CHR_2的特写，发生了严重的180度越轴错误（镜头1中CHR_1在画面右侧，镜头2过肩拍CHR_2时CHR_1的右肩依然在画面右侧）；CHR_2说“少爷，你看”，表情虽有笑意但略显夸张僵硬。镜头3（0:02-0:04）：切回两人中近景，两人仅站在原地对视微笑，完全缺失了柳儿小跑追上、少爷宠溺刮鼻尖以及两人并肩远去的全部核心戏剧动作调度。镜头4（0:04-0:08）：转场至高山云海背景下的CHR_1近景，镜头机械缓慢推近，CHR_1全程面无表情、眼神空洞地闭嘴配心声OS“十年后，机缘巧合之下”，既无十年沧桑感，也破坏了云海空镜的意境过渡，且全片多个镜头存在无动机的AI缓慢推镜。",
         "winner": "A",
-        "total_a": 76.0,
-        "total_b": 53.0
+        "total_a": 70.0,
+        "total_b": 64.0
       }
     }
   ]

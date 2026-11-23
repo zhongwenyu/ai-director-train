@@ -1,27 +1,27 @@
 {
   "headers": {
-    "X-Task-Id": "0d3d6392-d5cf-470a-bfe9-52c6cac3f1b7",
+    "X-Task-Id": "1306774c-d1b2-4b87-aa17-9655e9db9adb",
     "X-Model": "MiniMax-H3-Native-INT8",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
     "X-Steps": "14",
     "X-Sampler": "res_multistep",
     "X-Resolution": "896x512",
-    "X-Duration": "4.48",
+    "X-Duration": "2.336",
     "X-Loras": "[]",
     "X-SOL": "false",
     "X-Frame0-Guide": "true",
     "X-Backend": "5090-local"
   },
-  "elapsed_s": 61.02,
+  "elapsed_s": 32.86,
   "seed": 910539,
-  "requested_duration": 4,
-  "actual_duration": 4.48,
+  "requested_duration": 2,
+  "actual_duration": 2.336,
   "width": 896,
   "height": 512,
   "has_audio": true,
   "ref_images_1k": [
     "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/val_01_winter_parting/keyframes_1k/clip_03_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/assets/CHR_2_front_1k.png"
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/val_01_winter_parting/keyframes_1k/clip_04_CHR_2_expr_multiview_1k.png"
   ],
   "ref_audios": []
 }

@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Medium close-up, slight three-quarter left-facing angle on CHR_2 cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up on CHR_2, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] In a tight medium close-up, <Subject 1> steps half a pace closer with anxious, tear-rimmed eyes, urgently pressing CHR_1 for the promised ten yuan needed immediately to buy medicine for her sick mother.
+[keyframe completion + reference generation + audio reference] Over CHR_1's blurred left-foreground shoulder, <Subject 1> leans forward with reddened, anxious eyes and urgently urges him to hand over the ten yuan needed for her sick mother's medicine.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle handheld push-in on a 9:16 medium close-up of <Subject 1> (S1) standing on screen-right facing three-quarters screen-left toward off-screen <CHR_1>. Her eyes redden with desperate, near-tearful urgency over her ailing mother, her brows draw together sharply, and she leans forward half a step while gesturing insistently with her trembling, outstretched open right hand, her chest rising with rapid breaths and crisp, syllable-accurate lip-sync from the very start: <Subject 1> (S1) speaks (0.16s-4.23s): <d>[Chinese] 你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！</d> Loose strands of hair by her cheeks sway slightly with her urgent head shakes and pleading forward lean.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a vertical 9:16 over-the-shoulder medium close-up favoring <Subject 1> (S1) on screen-right, framed past the softly blurred dark jacket shoulder silhouette of <CHR_1> in the lower-left foreground. Immediately from 0.20s, <Subject 1> (S1) leans her upper body slightly forward toward <CHR_1>, brows tightly furrowed and eyes glistening with urgent distress for her ailing mother, gesturing twice with her outstretched open right palm as she speaks rapidly and earnestly with precise syllable-by-syllable lip-sync: <Subject 1> (S1) speaks (0.16s-4.23s): <d>[Chinese] 你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！</d>. <CHR_1>'s blurred foreground shoulder remains steady in attentive stillness as daylight catches the anxious tension across <Subject 1> (S1)'s face.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Urgent ragged breath intakes, faint shuffle of soles on the packed floor, soft rustle of coarse cotton sleeves in the quiet mud-brick bedroom.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Subtle fabric friction from urgent hand gestures, a quick anxious breath intake, and quiet rural earthen-room ambience.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

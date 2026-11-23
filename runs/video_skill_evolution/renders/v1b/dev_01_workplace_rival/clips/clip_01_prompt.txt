@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Eye-level reverse over-the-shoulder medium close-up (50mm prime lens, locked-off static camera) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Reverse over-the-shoulder medium close-up past CHR_1 on the left frame edge onto <Subject 1>, who falters under the public flattery and awkwardly backtracks by claiming she was only joking.
+[keyframe completion + reference generation + audio reference] Reverse OTS medium close-up on <Subject 1> over CHR_1's blurred left shoulder as <Subject 1>'s smugness falters and she awkwardly backtracks, claiming she was only joking.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera. Seated across the desk monitor and frosted glass divider facing frame left, <Subject 1> (S1) stiffens as her prior poise evaporates into flustered embarrassment; her eyes flicker uneasily, she gives a quick, awkward throat-clearing shift of her chin, and forces a strained, face-saving half-smile while drawing slightly back into her chair and lightly brushing her fingers near her collar. <Subject 1> (S1) speaks (0.16s-1.09s): <d>[Chinese] 我开玩笑的。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace with expressive breath pauses and defensive, slightly deflated emotional inflection, before pressing her lips softly closed in uneasy tension, maintaining vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Framed over the softly defocused foreground shoulder on the left, <Subject 1> (S1) shifts her shoulders stiffly with a tiny, flustered throat-clearing breath (0.00s-0.20s) as her earlier smugness evaporates into awkward embarrassment. Her gaze flickers momentarily aside before darting back off-camera left, her fingers lightly brushing the lapel of her cream tweed jacket as she speaks in a hurried, forcedly composed tone trying to save face. <Subject 1> (S1) speaks (0.16s-1.09s): <d>[Chinese] 我开玩笑的。</d> <Subject 1> (S1) shows clear, distinct lip and jaw articulation synced to every syllable, then from 1.45s to 2.00s keeps lips naturally closed, holding a stiff, unnatural half-smile with tense upper cheeks and uneasy blinking. Natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless indoor open-plan office room tone with soft air-conditioning hum, subtle dry breath intake before speaking, light tweed sleeve rustle, and soft chair mesh movement.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady open-plan office ambient room tone throughout the entire clip (0.0s-2.0s), featuring a soft consistent HVAC air-conditioning hum and distant muted room air. Synced with a tiny dry throat-clearing breath at 0.05s, a faint tweed fabric brush and delicate gold pendant micro-tick at 0.8s, and a quiet tense exhale at 1.55s; no subtle ambient air, no musical instruments.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

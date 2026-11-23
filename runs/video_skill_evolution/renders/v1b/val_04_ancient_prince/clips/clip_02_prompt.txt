@@ -1,24 +1,24 @@
 subject_definitions:
-<Picture 1> is the opening Medium close-up two-shot transitioning to receding back two-shot cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
-<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 1> is the opening Eye-level medium two-shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
 <Picture 4> is the reference prop (陶土泥人).
 
 summary:
-[keyframe completion + reference generation] <Subject 1> fondly scrapes the tip of <Subject 2>'s nose as she smiles bashfully, and the two turn to walk away side-by-side toward the distant city gate.
+[keyframe completion + reference generation] Smiling fondly at her excitement, the young nobleman affectionately grazes the tip of Liu'er's nose with his finger before the two turn side by side and walk away down the sunlit street toward the city gate.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
 <Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
 
 detailed_description:
-Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Smooth subtle camera hold with gentle breathing motion. <Subject 1>'s and <Subject 2>'s lips remain naturally closed throughout with zero lip movement or mouthing, listening and reacting naturally as the trailing audio carryover concludes. From 0.00s to 1.40s, <Subject 1> on the right gazes down leftward at <Subject 2> with deepening fond amusement and gently taps and scrapes the tip of <Subject 2>'s nose with a curved index finger, prompting <Subject 2> on the left to crinkle her eyes in a shy, delighted closed-lip smile while cradling the clay figurine against her chest, vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. From 1.40s to 3.00s, <Subject 1> smoothly lowers his hand as both turn naturally together away from the camera and walk side-by-side—<Subject 2> on the left and <Subject 1> on the right—deeper down the sunlit stone street toward the distant city gate tower. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Both <Subject 1> and <Subject 2> keep lips naturally closed throughout the entire clip. Standing on frame-right facing <Subject 2> on frame-left in the sunlit central street, <Subject 1>'s gaze softens with deep indulgence as his brow relaxes and a warm closed-lip smile curves his mouth; from 0.15s to 1.30s, he raises his hand and gently grazes the tip of <Subject 2>'s nose with his bent index finger. <Subject 2>, cradling the yellow-brown clay figurine against her chest, blinks quickly and crinkles her eyes in shy, delighted warmth, dipping her chin slightly with softly raised cheeks. From 1.30s to 3.00s, <Subject 1> lowers his hand smoothly as both naturally pivot in unison away from the camera and walk side by side at an unhurried, companionable pace down the central stone street toward the distant city-gate tower. Natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Steady natural outdoor ancient market street ambient bed with warm breeze, soft affectionate nasal breath, light finger-touch foley, flowing robe fabric rustle, and two pairs of gentle footsteps receding side-by-side on stone pavement.), zero loud background noise, zero music.
+Quiet non-vocal room tone and subtle physical foley only (Continuous, steady sunlit ancient city-gate market ambient tone throughout the entire clip (0.0s-3.0s), preserving unbroken open-air street breeze and distant market murmur; layered with soft brocade sleeve movement as he raises his hand, a delicate skin-brush quiet air at 0.85s, a faint soft nasal exhale of amusement, and synchronized light footsteps on stone pavement receding gently from 1.50s to 3.00s, no subtle ambient air, no musical instruments.); strictly zero human speech, zero vocals, zero murmuring, zero music.
 
 non_diegetic_music:
 N/A

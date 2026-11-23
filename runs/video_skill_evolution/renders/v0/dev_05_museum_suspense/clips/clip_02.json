@@ -1,6 +1,6 @@
 {
   "headers": {
-    "X-Task-Id": "0210e688-f88f-4f4f-a524-67a596183bb2",
+    "X-Task-Id": "5a93db40-25dd-4441-b3bc-70c654d3a925",
     "X-Model": "MiniMax-H3-Native-INT8",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
     "X-Steps": "14",
@@ -12,7 +12,7 @@
     "X-Frame0-Guide": "true",
     "X-Backend": "5090-local"
   },
-  "elapsed_s": 62.66,
+  "elapsed_s": 62.3,
   "seed": 910426,
   "requested_duration": 4,
   "actual_duration": 4.48,
@@ -21,7 +21,7 @@
   "has_audio": true,
   "ref_images_1k": [
     "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/dev_05_museum_suspense/keyframes_1k/clip_02_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/assets/CHR_2_front_1k.png"
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/dev_05_museum_suspense/keyframes_1k/clip_03_CHR_2_expr_multiview_1k.png"
   ],
   "ref_audios": [
     "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_05_museum_suspense/voices/CHR_2.wav"

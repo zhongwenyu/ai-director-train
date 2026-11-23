@@ -35,14 +35,17 @@ import onnxruntime as ort
 
 HERE = Path(__file__).resolve().parent
 WORKSTATION_SCRIPTS = Path("/home/zhongwenyu/project/ai-director-workstation/skills/storyboard-video-gen/scripts")
+WORKSTATION_ASSET_SCRIPTS = Path("/home/zhongwenyu/project/ai-director-workstation/skills/asset-image-gen/scripts")
 
-for p in (str(HERE), str(WORKSTATION_SCRIPTS)):
+for p in (str(HERE), str(WORKSTATION_SCRIPTS), str(WORKSTATION_ASSET_SCRIPTS)):
     if p not in sys.path:
         sys.path.insert(0, str(p))
 
 from PIL import Image
+from compress_1k import compress_image_to_1k  # noqa: E402
 import h3_native_runner as H3R  # noqa: E402
 from spark_h3_image import generate_spark_h3_image  # noqa: E402
+from vtrix_image import VtrixImageError, generate_vtrix_image  # noqa: E402
 
 STUDIO_BRIDGE = Path("/home/zhongwenyu/project/playlets-studio/skills/studio-bridge/scripts")
 if STUDIO_BRIDGE.is_dir() and str(STUDIO_BRIDGE) not in sys.path:
@@ -59,7 +62,9 @@ _VO_4070_LOCK = threading.Lock()
 _SPARK_STAGE_LOCK = threading.Lock()
 _SPARK_STAGED_CACHE: set[str] = set()
 _SPARK_IMG_SEM = threading.Semaphore(2)
+_VTRIX_IMG_SEM = threading.Semaphore(6)
 _MV_CACHE_LOCK = threading.Lock()
+USE_VTRIX_GPT_IMAGE = os.environ.get("HIT_VIDEO_IMAGE_PROVIDER", "vtrix").strip().lower() != "spark"
 
 
 def _get_vad_sess() -> ort.InferenceSession:
@@ -70,6 +75,13 @@ def _get_vad_sess() -> ort.InferenceSession:
         return _VAD_SESS
 
 
+def _prompt_for_vtrix(h3_style_prompt: str) -> str:
+    """Convert `<Picture k>` / `<Subject k>` tags into idiomatic `Image k` / `Subject k` phrasing for Vtrix `gpt_image_2_6_sunburst_edit`."""
+    txt = re.sub(r"<Picture\s+(\d+)>", r"Image \1", h3_style_prompt)
+    txt = re.sub(r"<Subject\s+(\d+)>", r"Subject \1", txt)
+    return txt
+
+
 def h3_generate_image_spark(
     prompt: str,
     ref_paths: List[Path],
@@ -77,13 +89,40 @@ def h3_generate_image_spark(
     out_1k_png: Path,
     seed: int,
 ) -> Path:
-    """Generate a 1K image via dedicated Spark `MiniMax H3 Image` (`127.0.0.1:8338`, 6 steps)."""
+    """
+    Primary: `Vtrix gpt-image-2.6` (`gpt_image_2_6_sunburst_edit` / `gpt_image_2_6_sunburst` at `2K` for exact
+    `16:9` 2048x1152 / `9:16` 1152x2048 / `1:1` 2048x2048 aspect ratios, compressed atomically to `<=1024px`).
+    Fallback: Spark `MiniMax H3 Image` ONLY on explicit moderation/safety block (or if `HIT_VIDEO_IMAGE_PROVIDER=spark`).
+    """
     out_1k_png.parent.mkdir(parents=True, exist_ok=True)
     if out_1k_png.is_file() and out_1k_png.stat().st_size > 1024:
         return out_1k_png
 
-    raw_2k = out_1k_png.with_suffix(".2k_raw.png")
     ar = aspect_ratio if aspect_ratio in ("16:9", "9:16", "1:1", "3:4", "4:3") else "16:9"
+    raw_2k = out_1k_png.with_name(f".{out_1k_png.stem}.{os.getpid()}.{threading.get_ident()}.2k_raw.png")
+
+    if USE_VTRIX_GPT_IMAGE:
+        try:
+            with _VTRIX_IMG_SEM:
+                vtrix_prompt = _prompt_for_vtrix(prompt)
+                generate_vtrix_image(
+                    vtrix_prompt,
+                    raw_2k,
+                    ref_files=[str(p) for p in ref_paths],
+                    aspect_ratio=ar,
+                    resolution="2K",
+                    quality="high",
+                    complexity="high",
+                    timeout=480,
+                )
+            compress_image_to_1k(raw_2k, out_1k_png, max_side=1024)
+            raw_2k.unlink(missing_ok=True)
+            return out_1k_png
+        except VtrixImageError as v_err:
+            raw_2k.unlink(missing_ok=True)
+            if not v_err.is_risk_control:
+                raise
+            print(f"  [vtrix-risk-fallback] Moderation block on {out_1k_png.name}, falling back to Spark H3 Image: {v_err}", flush=True)
 
     with _SPARK_IMG_SEM:
         last_exc = None
@@ -106,6 +145,7 @@ def h3_generate_image_spark(
                 raw_2k.unlink(missing_ok=True)
                 return out_1k_png
             except Exception as exc:
+                raw_2k.unlink(missing_ok=True)
                 last_exc = exc
                 time.sleep(2 * (attempt + 1))
         raise RuntimeError(f"Spark MiniMax H3 Image failed after 3 attempts: {last_exc}")
@@ -248,15 +288,14 @@ def generate_scene_blocking_master(
         rid = ch["role_id"]
         if rid not in asset_files:
             continue
-        base_r = Path(asset_files[rid])
-        mv_r = base_r.parent / f"{rid}_neutral_multiview_1k.png"
-        refs.append(mv_r if mv_r.is_file() else base_r)
+        # Follow firstframe-rules.md: pass single-person `#front` portrait (NOT multi-panel grid sheet) to Stage 2 image generation!
+        refs.append(Path(asset_files[rid]))
         idx = len(refs)
         s_tok = f"<Subject {idx}>"
         sym_map[rid] = s_tok
         g_word = "woman" if ch.get("gender") == "female" else ("man" if ch.get("gender") == "male" else "person")
         defs.append(f"The {g_word} in <Picture {idx}> is {s_tok}.")
-        pres.append(f"{s_tok} is fully preserved in exact individual facial bone geometry, true age, hair structure, and outfit from <Picture {idx}>")
+        pres.append(f"{s_tok} is 100% preserved in exact individual facial bone geometry, true age, hair structure, accessories, and outfit from <Picture {idx}>")
 
     raw_mb = str(scene_plan.get("master_blocking_prompt") or beat_spec.get("initial_blocking") or "").strip()
     for sym, s_tok in sym_map.items():
@@ -306,19 +345,25 @@ def resolve_h3_image_keyframe_prompt_and_refs(
     vis_roles = [r for r in clip_spec.get("visible_role_ids", []) if r in asset_files]
     fg_roles = [r for r in clip_spec.get("foreground_silhouette_role_ids", []) if r in asset_files and r not in vis_roles]
 
+    framing_low = str(clip_spec.get("camera_framing", "")).lower()
+    is_tight_kf = any(k in framing_low for k in ("close", "mcu", "cu", "over-the-shoulder", "ots"))
+
     for r in vis_roles:
         if len(refs) >= 6:
             break
-        r_sheet = (role_sheet_overrides or {}).get(r) or Path(asset_files[r])
-        refs.append(r_sheet)
+        # Follow firstframe-rules.md: pass single-person portrait (`#front`, or `face_cu_1k.png` when solo tight CU) to Stage 2 image gen so multi-panel grids never leak into frames!
+        base_front = Path(asset_files[r])
+        cu_face = base_front.parent / f"{r}_face_cu_1k.png"
+        single_ref = cu_face if (is_tight_kf and len(vis_roles) == 1 and cu_face.is_file()) else base_front
+        refs.append(single_ref)
         idx = len(refs)
         s_tok = f"<Subject {idx}>"
         sym_to_subj[r] = s_tok
         g = char_lookup.get(r, {}).get("gender", "")
         g_word = "woman" if g == "female" else ("man" if g == "male" else "person")
-        part1_defs.append(f"The {g_word} in the multi-view reference sheet <Picture {idx}> is {s_tok}.")
+        part1_defs.append(f"The {g_word} in <Picture {idx}> is {s_tok}.")
         part2_pres.append(
-            f"{s_tok} 100% preserves the individual close-up facial bone geometry, true age and natural skin texture, eye/brow/nose/lip proportions, hair/headwear structure, accessories, and exact outfit from <Picture {idx}> without homogenizing into a generic face"
+            f"{s_tok} 100% preserves the exact individual facial bone geometry, nose/eye/lip proportions, true age and natural skin texture, hair structure, accessories, and exact outfit from <Picture {idx}> without any face drift or homogenization"
         )
 
     for r in fg_roles:
@@ -466,13 +511,16 @@ def compile_h3_clip_payload(
 
     mode_tags = "[keyframe completion + reference generation" + (" + audio reference]" if ref_audios else "]")
     raw_sum = replace_role_tokens(str(clip_spec.get("clip_summary") or ""))
+    if not ref_audios:
+        raw_sum = re.sub(r"\b(?:inner\s+monologue|monologue|voiceover|voice-over|narration|narrates|speaks|speaking)\b", "silent reaction", raw_sum, flags=re.I)
     if not raw_sum or re.search(r"[\u4e00-\u9fff]", raw_sum):
         raw_sum = f"Expressive 35mm live-action {clip_spec.get('camera_framing', 'medium close-up')} beat starting from <Picture 1>."
 
     detail_body = replace_role_tokens(str(clip_spec.get("detailed_action_and_dialogue") or ""), with_speaker_tag=True).strip()
     if not ref_audios:
         detail_body = re.sub(r"<d>.*?</d>", "", detail_body, flags=re.S)
-        detail_body += " Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations."
+        detail_body = re.sub(r"\b(?:inner\s+monologue|voiceover|voice-over)\b", "silent thought", detail_body, flags=re.I)
+        detail_body += " Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping."
 
     # Synchronize clip duration AND `(start_s-end_s)` window so H3 NEVER sits silent for 3s!
     spoken_cjk = sum(len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", m.group(1)) ) for m in re.finditer(r"<d>\s*(?:\[[A-Za-z]+\])?(.*?)</d>", detail_body, re.S))
@@ -500,26 +548,34 @@ def compile_h3_clip_payload(
     else:
         sync_dur = 2
 
-    acting_hdr = (
-        "Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.\n"
-    )
+    if ref_audios:
+        acting_hdr = (
+            "Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.\n"
+        )
+    else:
+        acting_hdr = (
+            "Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.\n"
+        )
     if not detail_body.startswith("[Shot 1]") and "[Shot 1]" not in detail_body:
         detail_body = acting_hdr + f"[Shot 1] Starting naturally from <Picture 1>, {detail_body}"
     else:
         detail_body = acting_hdr + detail_body
 
-    # Balanced Film Sound Rule:
-    # 1. Input `<Audio k>` is 100% studio-dry voice (zero BGM/noise fed in);
-    # 2. Allow H3 to generate subtle frame-accurate synchronous physical action foley & natural breaths
-    #    (cloth, prop contact, fire crackle, sighs) while forbidding loud ambient roar and forbidding music;
-    # 3. Post-stitch adds a gentle continuous room-tone bridge so cuts never drop to dead digital silence!
     raw_sc = str(clip_spec.get("soundscape") or "").strip()
     raw_sc = H3R.HARMFUL_SOUNDSCAPE_MUSIC_RE.sub("subtle ambient air", raw_sc)
-    clean_soundscape = (
-        f"Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only ({raw_sc}), zero loud background noise, zero music."
-        if raw_sc
-        else "Quiet controlled studio-grade location acoustics; clean close-mic vocals and subtle synchronous cloth/prop foley only, zero loud background noise, zero music."
-    )
+    if ref_audios:
+        clean_soundscape = (
+            f"Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only ({raw_sc}), zero loud background noise, zero music."
+            if raw_sc
+            else "Quiet controlled studio-grade location acoustics; clean close-mic vocals and subtle synchronous cloth/prop foley only, zero loud background noise, zero music."
+        )
+    else:
+        raw_sc_novoc = re.sub(r"\b(?:vocals?|speech|voice|talking|dialogue|whisper(?:ing)?)\b", "quiet air", raw_sc, flags=re.I)
+        clean_soundscape = (
+            f"Quiet non-vocal room tone and subtle physical foley only ({raw_sc_novoc}); strictly zero human speech, zero vocals, zero murmuring, zero music."
+            if raw_sc_novoc
+            else "Quiet non-vocal room tone and subtle synchronous cloth/movement foley only; strictly zero human speech, zero vocals, zero music."
+        )
 
     full_prompt = (
         "subject_definitions:\n" + "\n".join(subj_lines) + "\n\n"
@@ -686,8 +742,8 @@ def trim_clip_dead_air_sync(mp4_path: Path, is_speaking_clip: bool) -> None:
     marker.write_text(f"{ts:.3f}-{te:.3f}\n", encoding="utf-8")
 
 
-def _trim_wav_dead_air_vad(wav_path: Path) -> float:
-    """Trim leading/trailing silence off 4070TiS VO WAV via Silero-VAD and return trimmed duration in seconds."""
+def _trim_wav_dead_air_vad(wav_path: Path, expected_cjk_n: int = 0) -> float:
+    """Trim leading/trailing silence AND cut off any post-sentence hallucinated 4070TiS tail babble!"""
     if not DEFAULT_VAD_ONNX.is_file() or not wav_path.is_file():
         pr = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(wav_path)], text=True))
         return float(pr["format"]["duration"])
@@ -713,9 +769,22 @@ def _trim_wav_dead_air_vad(wav_path: Path) -> float:
         if float(pr_v[0, 0]) >= 0.45:
             act.append(i)
     if act:
-        ts = round(max(0.0, act[0] * dt - 0.08), 3)
-        te = round(min(dur, (act[-1] + 1) * dt + 0.16), 3)
-        if te - ts >= 0.5 and (ts > 0.10 or (dur - te) > 0.15):
+        start_idx = act[0]
+        end_idx = act[0]
+        min_utt_s = max(0.65, expected_cjk_n * 0.13) if expected_cjk_n > 0 else 0.65
+        max_utt_s = max(1.75, expected_cjk_n / 3.0 + 0.55) if expected_cjk_n > 0 else dur
+        for idx_f in act[1:]:
+            gap_s = (idx_f - end_idx - 1) * dt
+            span_s = (end_idx - start_idx + 1) * dt
+            # Once the expected line length has been spoken, any >=0.52s silence gap marks the end of the real sentence (anything after is 4070TiS hallucinated tail babble!)
+            if span_s >= min_utt_s and gap_s >= 0.52:
+                break
+            if (idx_f - start_idx + 1) * dt > max_utt_s:
+                break
+            end_idx = idx_f
+        ts = round(max(0.0, start_idx * dt - 0.08), 3)
+        te = round(min(dur, (end_idx + 1) * dt + 0.16), 3)
+        if te - ts >= 0.45 and (ts > 0.08 or (dur - te) > 0.12):
             tmp_out = wav_path.with_suffix(".trimmed.wav")
             subprocess.run(
                 ["ffmpeg", "-y", "-v", "error", "-i", str(wav_path), "-af", f"atrim=start={ts:.3f}:end={te:.3f},asetpts=PTS-STARTPTS", str(tmp_out)],
@@ -738,12 +807,12 @@ def synthesize_vo_wav_on_4070(
     if not text or role_id not in beat_spec.get("voice_files", {}):
         return None, 0.0
 
+    cjk_n = len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", text))
     work_dir.mkdir(parents=True, exist_ok=True)
     vo_wav = work_dir / f"vo_4070_{seed}.wav"
     if vo_wav.is_file() and vo_wav.stat().st_size > 1000:
-        return vo_wav, _trim_wav_dead_air_vad(vo_wav)
+        return vo_wav, _trim_wav_dead_air_vad(vo_wav, expected_cjk_n=cjk_n)
 
-    cjk_n = len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", text))
     vo_gen_dur = max(5, min(8, math.ceil(1.2 + cjk_n / 4.2)))
     vo_spec = {
         "face_1k": beat_spec["asset_files"][role_id],
@@ -753,7 +822,7 @@ def synthesize_vo_wav_on_4070(
     }
     with _VO_4070_LOCK:
         H3R.synthesize_vo_clip_4070(vo_spec, work_dir / "cache_1k", vo_wav, seed=seed)
-    return vo_wav, _trim_wav_dead_air_vad(vo_wav)
+    return vo_wav, _trim_wav_dead_air_vad(vo_wav, expected_cjk_n=cjk_n)
 
 
 def apply_vo_wav_onto_clip(

@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up (OTS-MCU) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Over CHR_1's right-foreground shoulder, <Subject 1> on screen-left fights back tears and questions her in a low, trembling voice about choosing her despite meeting someone better.
+[keyframe completion + reference generation + audio reference] Over CHR_1's right shoulder silhouette on screen right, <Subject 1> on screen left leans slightly forward with glistening reddened eyes and questions her in a low, trembling voice about choosing her despite meeting someone better.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in from behind <CHR_1>'s softly blurred shoulder silhouette on screen-right toward <Subject 1> (S1) standing on screen-left facing right. <Subject 1> (S1)'s eyes are reddened and glistening with suppressed tears, brows furrowed in deep grievance and reluctant longing under the warm golden sunset side-backlight. Immediately from the start of the shot, <Subject 1> (S1) speaks in a low, slightly trembling, choked-up voice with crisp, accurate lip-sync matching every syllable: <Subject 1> (S1) speaks (0.16s-4.05s): <d>[Chinese] 有没有可能，我也遇上了更好的，可我还是选择了你。</d> Between phrases, <Subject 1> (S1)'s throat tightens visibly as he swallows hard, leaning a fraction forward with an earnest, pleading gaze locked onto <CHR_1> while his fingers tense subtly at his side.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in an over-the-shoulder medium close-up favoring <Subject 1> (S1) on the left side of the frame facing right, framed past the soft-focus right shoulder and dark brown hair silhouette of <CHR_1> on the right foreground. Warm golden sunset side-backlight rims <Subject 1> (S1)'s black short hair against the cool gray concrete portico shadow. Immediately at 0.20s, <Subject 1> (S1) leans half a step closer with subtly furrowed brows and reddened, glistening eyes brimming with restrained grievance and devotion; <Subject 1> (S1) speaks (0.16s-4.05s): <d>[Chinese] 有没有可能，我也遇上了更好的，可我还是选择了你。</d> with clear, natural Mandarin lip-sync matching every syllable, his voice low and slightly trembling as his Adam's apple bobs on the comma pause and his gaze locks pleadingly onto <CHR_1> through 5.00s.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Gentle evening campus breeze, faint rustling of distant tree leaves, soft shaky inhale from the young man, subtle shirt fabric rustle.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Soft evening campus breeze rustling distant leaves, faint outdoor courtyard ambience, subtle shirt fabric rustle as the young man leans slightly forward, and a quiet shaky breath.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

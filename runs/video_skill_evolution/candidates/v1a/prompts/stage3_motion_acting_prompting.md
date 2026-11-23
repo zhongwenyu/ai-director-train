@@ -1,32 +1,34 @@
-# Stage 3：视频动态表演与对白编译指南 (`detailed_action_and_dialogue` & `soundscape`)
+# Stage 3：情境潜台词表演、动机运镜与声画编译指南 (`detailed_action_and_dialogue` & `soundscape`)
 
-用英文编写子镜头的动态画面与声画描述，在场角色统一使用 `<CHR_1>`、`<CHR_2>` 占位符指代（底层编译器会自动绑定 `<Subject k> (Sm)`，严禁手写角色真名或篡改标签格式）。
+用具象、克制的英文编写子镜头动态画面描述，画内角色统一用 `<CHR_1>`、`<CHR_2>` 占位符指代（底层编译器自动绑定 `<Subject k> (Sm)`，严禁自行拼写 `<Subject>` 或硬编码具体姓名）。
 
-## 1. 运镜协同与多元潜台词情绪谱系校准
-- **摄影机运动**：写明与戏剧呼吸匹配的运镜方式（如短促交锋或定格反应用 `Static camera`，情绪递进或内心触动用 `Subtle slow push-in`，视线联动用 `Gentle reframe`），全程严守 180° 轴线与空间透视稳定。
-- **全谱系鲜活真人情绪释放**：依据 `subtext_intent` 展现丰富、生动、符合人类真实心理的多元眉眼起伏与表情层次——既严禁全程面无表情机械干念，也严禁将所有戏份窄化为冷脸紧绷，更杜绝五官失控扭曲狰狞：
-  - *温情/喜悦/释然/调侃*：眉眼自然舒展弯起、眼底漾开真实笑意、唇角轻扬或温和颔首，神采鲜活松弛；
-  - *错愕/顿悟/悬念冲击/动容*：瞳孔骤然聚焦、呼吸轻滞、神色微怔，或眼眶泛红含泪、眼神震动；
-  - *玩味/反讽/试探/暗流周旋*：目光流转审视、唇角浮现似笑非笑的微妙弧度、头颈轻偏传递言外之意；
-  - *悲恸/委屈/失落/隐忍*：目光缓垂、眉宇轻蹙、呼吸微沉或欲言又止，呈现细腻克制的情感重量；
-  - *质问/急迫/决断/正面交锋*：眼神锐利锁定、眉宇凝聚张力、语气与神态果断外放，保持真人解剖级自然肌理（`expressive, lifelike facial dynamics without exaggerated facial contortion`）。
+## 1. 个体骨相动态守恒（防动态撞脸与面部偏移）
+- 在转头、垂眸、微侧身等动态描写中，自然延续角色专属的颌面骨相侧面线条、真实年龄肤质纹理及发型/头饰、衣领衣袖的物理随动质感，确保运动过程中面部骨相稳定鲜明，严防中途漂移或退化为平滑模糊的大众脸。
 
-## 2. 镜长耦合的表演密度与人物肢体动机
-- **短镜（`2s–3s`）聚焦单一鲜明落点**：集中刻画一个清晰利落的情绪峰值或即时反应（如听闻关键话语后的骤然定眸、会心展颜、玩味挑眉或轻叹垂目），避免在短时间内堆砌多段繁琐手势与大幅转身导致五官肢体慌乱。
-- **中长说话镜（`4s–6s+`）构建自然递进与身体支点**：展现**“起势酝酿 → 台词重音处神态转折/潜台词反差 → 尾音余韵落点”**的完整层次，并融入符合人物身份、年代气质与心理动机的身体重心转移及手部/器物自然交互（如随话语轻舒手势、指尖轻触随身器物/衣袖、身体顺势微倾或坦然落靠），消除躯干僵直感，且镜末姿态须与下一镜首帧顺滑咬合。
+## 2. 动静相生的实拍运镜法则
+- **稳固正反打基座**：常规快速问答对切镜头采用三脚架固定机位（`Locked-off static camera`），依靠干脆的景别跳跃与画内人物视线、重心微调制造张力，避免句句推拉引发风箱式眩晕。
+- **关键节拍动机运镜（打破全片静态锁死）**：严格执行 Stage 1 在潜台词反转、`inner_os` 心声、关键无声反应短镜或情绪凝结点规划的 **`1`–`2` 次有明确戏剧动机的实拍运镜**：
+  - **克制光学慢推（`Controlled slow push-in`）**：平稳匀速推向发声者顿悟/施压的双眼或倾听者微震的面庞，放大心理暗涌；
+  - **过肩微横移视差（`Subtle lateral dolly parallax`）**：沿柔焦过肩前景轻微横移，拉出双人对峙的空间立体纵深；
+  - **动机平滑跟摇（`Motivated subtle pan / tracking`）**：随角色起身、侧转或跨空间走动自然跟随。运镜须单向匀速、平稳克制，严禁无动机剧烈晃动。
 
-## 3. 发声模态刚性控制、饱满口型与鲜活人声语态
-- **画内对白模式（角色位于 `speaking_role_ids`）**：
-  - 镜头起始 `0.20s` 立即紧凑开口，结束秒数须比 `duration_s` 提前 `0.25s–0.40s` 以留出完整收音气口，严格采用标准格式：
-    `<CHR_1> speaks (0.20s-止秒s): <d>[Chinese] 中文台词原文</d>`
-  - **唇形动态与情绪语态**：明确要求清晰饱满、贴合音节开合与情绪力度的真实口型（`with clear, expressive lip-sync matching syllable cadence and vocal intensity`）；搭配贴合潜台词的自然紧凑语速、真实呼吸换气与重音起伏描述（如轻快带笑、微颤动容、温润柔和、果决利落等随情境变化的语态修饰，彻底消除慢速平直机器腔）。
-- **心声/画外音与静默倾听模式（`inner_os` 或非发声角色）**：
-  - 严禁对非 `speaking_role_ids` 角色生成 `speaks` 或 `<d>` 标签；
-  - 必须显式写明闭嘴静止约束（`keeping lips naturally closed with no speaking or mouth movement`），通过眼神变化、眉宇起伏、呼吸节律与细微头颈姿态展现内心独白或倾听反应。
+## 3. 情境适配的潜台词表演层次（反干念·反夸张失真）
+- **题材语境与潜台词极性校准**：表演幅度严格服从题材美学（现代自然内敛、年代沉实质朴、古装仪态端方、悬疑冷峻克制）与 `subtext_intent` 极性。言不由衷、隐忍试探或冷冽反讽时，以眼神焦点转移、眼周与下颌微肌暗绷及呼吸节律体现内在张力；**严禁不分题材与镜长机械堆砌五官扭曲、夸张瞪眼咆哮或繁琐挥手动作**，同时彻底杜绝全程单一表情干念台词。
+- **按镜长分层调度神态弧线**：
+  - **短镜（`2s–3s`）聚焦单一鲜明落点**：仅刻画**一个干净利落的情绪落点或即时微反应**（如眸光骤凝、视线微闪避开、唇角极轻抿紧、呼吸轻滞或指尖微扣衣摆/结构支点），绝不塞入多段冗杂动作。
+  - **中长说话镜（`4s` 及以上）构建三阶自然递进**：按时序写出**“起势铺垫（吸气蓄势、目光投射或重心微倾）→ 句中递进（眉眼松紧随语义层层转换，辅以微偏头、肩颈松紧变化或手部与随身器物/支点的克制自然交互）→ 重音落点（核心重音词处眼神锁定或神态清晰收束，尾音后沉静定格）”**的完整弧线。
+- **同框双主体并发指导**：凡画内存在多名可见角色（双人同框或清晰露脸过肩镜），必须同步写出**发声主体的神态推进**与**倾听主体的实时微反应**（目光追随或微凝、眉心极轻起伏、胸廓呼吸微动、身体微倾或暗自紧绷），严禁倾听方静态定格为呆滞木偶；虚化过肩前景角色亦保持自然沉稳的呼吸微态。
 
-## 4. 连续声场底噪与动作音效（`soundscape`）
-- 用英文简述**跨镜连续一致的场景环境底噪**与**画面动作匹配的细微实拍音效**（格式：`Continuous [scene-matched ambient room tone / natural environmental air], with subtle [visible action foley]`）；独白镜与静默反应镜同样必须保持同源连续底噪以杜绝干声死寂、音频抽吸与起音突兀；严禁出现背景音乐（BGM）、旋律或任何乐器词。
+## 4. 戏剧气口、口型同步与尾韵收束安全垫
+- **紧凑起口与标准对白格式**：画内发声角色从 `0.20s` 立即开口，严格使用标准内联格式：
+  `<CHR_1> speaks (0.20s-止秒s): <d>[Chinese] 中文台词原文</d>`
+  （同镜若含紧接次句或短促对答，句间留 `0.15s–0.30s` 自然换气停顿，严禁拖延前摇）。
+- **自然气口与语调起伏标注**：在紧邻 `speaks (...)` 的英文表演描述中，明确标注**语气冷暖质感、句中换气气口位置与重音落点情绪**（如 `in a low, measured tone, taking a brief breath pause mid-phrase before quietly stressing the closing words`），引导自然戏剧语流，消除逐字机械播音腔。
+- **景别口型适配与静默闭唇铁律**：近景/特写强调细腻清晰的唇齿舌位咬合；中景及以上景别明确自然清晰的下颌开合幅度以防中远景口型模糊。**凡无声倾听角色、纯反应镜、`inner_os` 心声全段及台词结束后的余韵时段，必须显式写明 `keeps lips naturally closed`**，杜绝静默段唇部误动。
+- **尾句防截断安全垫**：严格保证末句 `止秒s <= duration_s - 0.40s`（全段最后一个收尾镜头须满足 `止秒s <= duration_s - 0.50s`），并在 `止秒s` 至镜头末尾之间写明双唇自然闭合后的尾韵微表情（如目光停驻、轻缓吐气定格），确保尾句完整清晰收束。
 
-## 5. 参数化编译范式（须按实际镜长、题材与潜台词极性动态实例化，严禁照搬单一套路）
-- **画内说话镜**：`[Camera motion]. <CHR_1> [continues opening posture & eyeline], [subtext-driven brow-eye & facial progression from onset to emphasis beat] accompanied by [identity-matched body weight or hand/prop motivation]. <CHR_1> speaks (0.20s-[end_s]s) [emotion-matched brisk vocal cadence & breath inflection]: <d>[Chinese] 中文台词原文</d>, articulating clear, natural lip-sync for every syllable before settling into [coherent ending expression & posture]. [Optional <CHR_2> listens in-frame with lips naturally closed and authentic silent reaction].`
-- **静默反应/心声镜**：`[Camera motion]. <CHR_2> keeps lips naturally closed with no speaking or mouth movement; [vivid listener/inner-monologue emotional arc across eyes, brows, breathing, and subtle head/postural response matching subtext_intent], landing cleanly on [expressive emotional beat].`
+## 5. `soundscape` 连续立体声场规范（防切镜死寂与抽吸感）
+- 用精炼英文构建**三层连续真实空间声场**，严禁写入任何背景音乐（BGM）或配乐乐器名称：
+  1. **全程不断流空间底噪基床**：显式声明空间底噪从 `0.0s` 起至镜头结束平稳贯穿（`Continuous steady spatial room tone from start to end without dropouts or silence gating between lines`），对白气口间隙、切镜衔接处与无声反应镜均保持恒定柔和的空间声学基底，彻底消除底噪随人声开关突兀启停的抽吸感；
+  2. **远景空间环境层**：叠加贴合场景物理空间的低音量远景环境声层（如窗外微风细雨、远处街巷隐约声响或深邃室内空气混响），保持全场各子镜声学空间一致；
+  3. **同步近场物理拟音层**：点缀与人物微动作同步的细腻近场声响（开口前轻吸气声、织物衣袖轻微摩挲、指尖轻触支点或重心微移声）。

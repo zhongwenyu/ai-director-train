@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Close-up on CHR_1, eye-level, 85mm cinema prime lens, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Tight close-up on <Subject 1> calmly and wistfully confirming the truth of his mind-reading ability under the warm-and-cool night lights.
+[keyframe completion + reference generation + audio reference] Tight static close-up on <Subject 1> quietly and wistfully confirming the truth of his mind-reading ability, holding a calm, solitary gaze as the beat resolves.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera holding an intimate close-up on <Subject 1> (S1). Facing leftward from the right side of the axis, <Subject 1> (S1)'s earlier annoyance softens into quiet, solitary resignation—his shoulders drop subtly with a gentle exhale while his steady eyes hold a trace of lonely vulnerability beneath the warm lantern glow, expressing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 都说了。</d>, speaking in a calm, understated conversational tone with soft emotional weight and clear, natural full-range lip articulation precisely synced to every syllable, then closing his lips naturally and holding a quiet, wistful gaze until the end of the shot.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera on a sturdy tripod holding an intimate, steady 85mm close-up of <Subject 1> (S1), eyeline directed slightly off-camera left toward <CHR_2>. The earlier annoyance fades from <Subject 1> (S1)'s face into calm, slightly lonely resignation—brows softening, shoulders dropping gently with a quiet breath, strictly maintaining natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. Speaking in a low, gentle, matter-of-fact tone tinged with quiet solitude and clear, distinct lip and jaw articulation synced to every syllable, <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 都说了。</d> From 1.15s to 2.00s, <Subject 1> (S1) keeps his lips naturally closed, offering a faint, wryly wistful micro-nod and a slow, quiet blink while holding <CHR_2>'s gaze off-camera left as the emotional beat settles.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless outdoor night street ambient bed with gentle barbecue ember crackle and distant urban night air, paired with a soft resigned exhale and subtle collar fabric settle.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady outdoor night street barbecue stall ambient tone throughout the entire 2.0s clip, preserving uninterrupted distant night traffic hum, gentle charcoal crackle, and evening breeze. A soft, quiet inhale at 0.10s before CHR_1 speaks, a subtle cotton collar rustle during his faint nod at 1.25s, and a gentle nasal exhale at 1.55s; no subtle ambient air, no musical instruments.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

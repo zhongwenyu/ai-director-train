@@ -1,24 +1,24 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up (OTS MCU) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Picture 3> is the reference prop (燃烧的纸质合同).
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Across the antique wooden counter, <Subject 1> reacts in sudden shock to the burning employment contract and urgently questions why it is being burned.
+[keyframe completion + reference generation + audio reference] Over CHR_2's blurred fur-draped right shoulder on screen-right, <Subject 1> on screen-left jolts forward at the outer edge of the wooden counter, staring at the burning contract flames before looking up to question CHR_2 in startled disbelief.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera with subtle handheld tension. Framed past a softly blurred white-furred left shoulder silhouette on the right foreground edge, <Subject 1> (S1) stands on the outer left side of the dark wooden counter, warm orange flames from the burning paper contract flickering upward across his startled face. At 0.20s, <Subject 1> (S1) snaps his widened eyes up from the burning contract toward the right, leans slightly forward across the counter with furrowed brows, and raises his left hand halfway in an instinctive, anxious reach toward the flames. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 哎，你怎么烧掉了？</d> delivering each syllable with crisp, accurate lip-sync and an urgent, bewildered tone. From 2.40s to 3.00s, <Subject 1> (S1) holds his tense posture with parted lips as orange firelight dances across his army-green shirt collar.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Framed over <CHR_2>'s out-of-focus white-fur-draped right shoulder silhouette on the far right foreground, <Subject 1> (S1) stands on the screen-left outer side of the dark wooden counter with his canvas backpack straps over his shoulders. At 0.20s, <Subject 1> (S1) leans sharply forward toward the burning white paper contract on the countertop, raising his right hand slightly palm-up near the curling orange flame while his eyes dart up-right toward <CHR_2> with knitted brows and urgent disbelief. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 哎，你怎么烧掉了？</d> with crisp, accurate lip-sync matching every syllable. From 2.45s to 3.00s, <Subject 1> (S1) holds his tense forward lean with parted-then-closed lips and searching eyes as warm orange firelight flickers across his face.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Quiet antique hall room tone, sharp crackling of burning paper edges, and a quick fabric rustle as a sleeve shifts forward.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Low quiet room tone of a wooden antique hall, crisp crackle and soft flare of paper catching flame, subtle rustle of cotton-canvas shirt fabric against the wooden counter edge.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

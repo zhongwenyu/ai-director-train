@@ -1,24 +1,24 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
-<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 1> is the opening Over-the-shoulder medium shot (50mm cinema prime) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Framed past CHR_2's blurred foreground right shoulder across the office desk partition, intern <Subject 1> sits beside subdued colleague <Subject 2> on screen-left and sweetly traps CHR_2 with polite, pointedly sarcastic flattery.
+[keyframe completion + reference generation + audio reference] OTS medium two-shot past CHR_2's soft-focus right shoulder onto <Subject 1> and <Subject 2> seated side-by-side; subtle lateral parallax as <Subject 1> leans forward to deliver her sweet, ironic flattering trap while <Subject 2> listens quietly beside her.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Gentle reframe holding steady on the 180-degree axis past the softly blurred foreground right shoulder of <CHR_2>. On screen-left, <Subject 1> (S1) leans slightly forward with her forearms resting lightly on the light-wood desk edge, looking off-camera right toward <CHR_2>; she opens with an innocently bright, polite smile and curved eyes, opens one palm lightly at desk level as her brows lift in feigned curiosity on the first question, then tilts her head with sparkling, pointedly sweet irony on the second question. <Subject 1> (S1) speaks (0.20s-5.70s) in a crisp, sweet, briskly articulate tone laced with subtle sarcastic sting and natural breath phrasing: <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？</d>, with clear, expressive lip-sync matching syllable cadence and vocal intensity before settling into a poised, expectant smile. Beside her on screen-left, <Subject 2> keeps her lips naturally closed with no speaking or mouth movement, shifting from tense unease to a quiet, surprised glance toward <Subject 1> (S1) before looking off-camera right.
+[Shot 1] Starting naturally from <Picture 1>, Subtle lateral dolly parallax glides gently right-to-left past <CHR_2>'s out-of-focus cream bouclé tweed right shoulder and chestnut wavy hair in the right foreground, maintaining steady breathing stillness. Across the frosted-glass desk partition on screen-left, <Subject 1> (S1) preserves her compact oval-heart jawline, natural 22-year-old pore texture, chin-length straight burgundy-brown bob with wispy bangs, crisp white pointed collar, and fitted black knit cardigan as she leans lightly forward on her forearm toward screen-right. Opening with a light inhale and bright, innocently curious almond eyes, <Subject 1> (S1) speaks (0.16s-7.74s): <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？</d> in a crisp, sweet, polite tone laced with pointed irony, taking brief natural breath pauses after each clause as her eyebrows lift gently mid-question and her gaze locks steadily onto <CHR_2> on the final words with clear jaw-and-lip articulation. Seated immediately beside her at inner screen-left, <Subject 2> retains her softer rounded-oval face, black low ponytail with curtain bangs, and blue-and-white striped shirt; <Subject 2> keeps lips naturally closed throughout, shifting her gaze quietly from <Subject 1> (S1) toward screen-right with subtle relief and restrained tension in her shoulders. From 4.55s to 5.00s, <Subject 1> (S1) keeps lips naturally closed, holding a poised, sweet half-smile as her eyes linger steadily toward screen-right.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous quiet open-plan office ambient room tone with soft ventilation hum, subtle knit cardigan sleeve rustle, and light hand movement against the wooden desk.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous steady spatial office room tone from 0.0s to end without dropouts or silence gating between lines, layered with low-level distant open-plan ventilation hum in depth, and synchronized near-field foley of a light crisp breath inhale at 0.05s, soft black knit sleeve friction against the wooden desk edge, and faint mesh chair settling.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

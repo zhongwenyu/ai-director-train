@@ -1,20 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Close-up, eye-level, measured optical push-in cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation] Tight silent reaction close-up on <Subject 1> looking right as CHR_2's words linger via L-cut; his urgent protest freezes into stunned realization and guarded unease as flickering firelight plays over his eyes.
+[keyframe completion + reference generation + audio reference] In a tight close-up with a single measured optical push-in, <Subject 1> delivers an enigmatic, authoritative half-smile and formally welcomes CHR_1 to the Ninth Private Museum, sealing his entrapment.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in heightening claustrophobic suspense. Seamlessly matching <Subject 1>'s forward-leaning head angle on the left side of the axis looking right, warm amber reflections from the burning contract below the frame dance across his cheekbones and eyes. <Subject 1>'s lips remain naturally closed throughout with zero lip movement, listening intently as the resonance of <CHR_2>'s words washes over him. His startled urgency freezes into stunned comprehension and chilled unease: his pupils subtly dilate, his inner brows tighten, and his gaze flicks briefly downward toward the dying flames off-screen right as his throat shifts in a quiet swallow before locking sharply back onto <CHR_2>—delivering vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+[Shot 1] Starting naturally from <Picture 1>, Eye-level close-up on an 85mm cinema prime lens executes a single slow, measured optical push-in on <Subject 1> (S1), tightening subtly from chest-up to an intimate portrait while keeping background perspective and facial bone structure rock-solid. At 0.00s, warm flickering firelight from below dances softly across <Subject 1> (S1)'s pearl necklace and composed features as she holds a steady, piercing gaze slightly off-camera left toward <CHR_1>; with graceful, unhurried poise and an undercurrent of quiet dominance, she inclines her head by a millimeter and speaks in a silky, velvet-low tone with a deliberate poised pause after his name and subtle half-smiling warmth laced with menace; <Subject 1> (S1) speaks (0.16s-2.94s): <d>[Chinese] 林先生，欢迎入职第九号私人博物馆。</d> with clear, distinct lip and jaw articulation synced to every syllable, her subtly arched brows and upper cheeks lifting gently into a knowing, inescapable expression as her fingers brush the soft edge of her white fur shawl collar. From 3.55s to 4.00s, <Subject 1> (S1) keeps lips naturally closed, settling into a poised, enigmatic closed-lip half-smile while holding unblinking eye contact off-camera left. Natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless low-resonance indoor room tone of the quiet antique hall, fading gentle crackle of paper turning to ash, a quiet tense breath intake and subtle swallow, faint fabric shift.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady [Scene]-matched low-key wooden antique hall ambient room tone throughout the entire 4.0s clip, matching the exact acoustic floor of preceding shots, zero subtle ambient air, no musical instruments. Subtle, dying ember crackle of the burning contract paper below frame, layered with a soft intake of breath at 0.12s, delicate pearl-against-velvet whisper and soft fur brush as <CHR_2> settles her poise, ending in lingering quiet room air.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

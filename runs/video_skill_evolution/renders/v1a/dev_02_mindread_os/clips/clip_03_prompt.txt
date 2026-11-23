@@ -1,22 +1,20 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
-<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+<Picture 1> is the opening Tight close-up on CHR_2 facing right-of-frame, 85mm cinema prime lens, controlled slow push-in cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 
 summary:
-[keyframe completion + reference generation + audio reference] Close-up on <Subject 1> freezing in stunned disbelief and trailing off mid-sentence upon hearing his private thought repeated word for word.
+[keyframe completion + reference generation] Silent reaction close-up: as CHR_1's tail words echo over the cut, <Subject 1> freezes in stunned, wide-eyed disbelief upon hearing his private thought repeated word for word.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 
 detailed_description:
-Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle crisp push-in on the established 180-degree axis. Positioned on screen-left looking off-camera right, <Subject 1> (S1) jolts slightly upright as every trace of amusement vanishes, his eyes widening and pupils locking sharply while his raised hand holding the skewer freezes near the lower frame edge. <Subject 1> (S1) speaks (0.20s-1.60s) in a hushed, breathless, stunned voice that falters mid-sentence: <d>[Chinese] 你居然真的……</d>, articulating clear, natural lip-sync before his breath catches in frozen shock.
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Controlled slow push-in on an 85mm prime lens moves smoothly toward <Subject 1>'s eyes, maintaining his defined angular jawline, prominent brow ridge, warm-tan porous skin, and forehead-baring short black hair. As the L-cut echo of the previous line lands over the opening beat, <Subject 1> freezes completely mid-breath—his playful assurance evaporating in an instant as his deep-set eyes widen subtly with arrested pupils, a faint micro-tension tightening along his jaw while <Subject 1> keeps lips naturally closed throughout the entire 2.0s silent reaction beat. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous nighttime outdoor street barbecue stall ambience with gentle charcoal sizzle and distant urban traffic air, with a subtle sharp intake of breath.), zero loud background noise, zero music.
+Quiet non-vocal room tone and subtle physical foley only (Continuous steady spatial room tone from start to end without dropouts or silence gating between lines; steady nocturnal street ambiance and distant neon transformer hum; delicate near-field foley of an abrupt caught breath in the throat and the faint rustle of cotton collar fabric as his posture locks still.); strictly zero human speech, zero vocals, zero murmuring, zero music.
 
 non_diegetic_music:
 N/A

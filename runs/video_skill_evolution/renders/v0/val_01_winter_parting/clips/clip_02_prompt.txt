@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Reverse over-the-shoulder medium close-up on CHR_2, eye-level cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Reverse over-the-shoulder medium close-up on CHR_2, eye-level, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] In a reverse over-the-shoulder medium close-up, <Subject 1> stiffens with wounded pride, snaps his curt agreement, and sharply turns his back away toward the right.
+[keyframe completion + reference generation + audio reference] In a reverse over-the-shoulder shot, <Subject 1> stiffly agrees out of wounded pride and immediately turns his shoulders clockwise away toward screen-right to walk off.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static eye-level camera in a reverse over-the-shoulder medium close-up favoring <Subject 1> (S1) on screen-right facing left, with <CHR_1>'s soft-focus cream coat shoulder and rust-red scarf edge in the left foreground. Stiffening his jaw to guard his pride despite visible hurt in his eyes, <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 行啊</d> with curt, decisive lip-sync. Immediately at 0.85s, <Subject 1> (S1) presses his lips firmly shut, breaks eye contact downward for a fraction of a second, and from 0.90s to 2.00s pivots his shoulders and torso sharply clockwise toward screen-right, turning his back on <CHR_1> to step away.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a reverse eye-level over-the-shoulder medium close-up framing <Subject 1> (S1) on right-center facing left, with the softly blurred off-white coat shoulder and rust-red scarf edge of <CHR_1> in the extreme left foreground. Guarding his pride despite visible frustration in his taut jaw and brow, <Subject 1> (S1) answers briskly and coldly right away with crisp lip sync. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 行啊</d> Immediately at 0.85s, <Subject 1> (S1) presses his lips tightly shut, drops his gaze to break eye contact, and pivots his head and shoulders decisively clockwise away toward screen-right (0.85s-2.00s), turning his back on <CHR_1> to step down the walkway.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Crisp rustle of heavy wool coat collar as shoulders pivot sharply, a firm boot scuff turning on the asphalt walkway, and chilly overcast park wind.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Crisp cold outdoor air ambience, sharp rustle of heavy wool overcoat fabric, and leather boot sole pivoting on the asphalt path.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

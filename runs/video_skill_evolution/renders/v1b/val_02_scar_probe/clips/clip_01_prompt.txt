@@ -1,24 +1,24 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up (OTS MCU) on CHR_2 over CHR_1's left-foreground shoulder, eye-level, 50mm prime lens, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Picture 3> is the reference prop (桃子味饮料).
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Over CHR_1's left-edge shoulder, <Subject 1> beams affectionately and offers the peach-flavored drink to CHR_1 in public.
+[keyframe completion + reference generation + audio reference] Over CHR_1's softly defocused foreground shoulder on the left, an OTS medium close-up captures <Subject 1> sweetly and openly offering him the peach-flavored drink with an affectionate smile.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in over the softly blurred left-edge foreground shoulder of <CHR_1> onto <Subject 1> (S1). Seamlessly continuing her forward-offering posture, <Subject 1> (S1) tilts her head slightly with sparkling, affectionate eyes and lifts the peach juice bottle an inch closer toward <CHR_1> with playful, unabashed sweetness, showing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.64s): <d>[Chinese] 哥哥，桃子味的，给你。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace with warm, spoiled inflection and a natural breath finish as her lips settle into a fond smile.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera at eye level, holding an over-the-shoulder medium close-up on <Subject 1> (S1) framed past the softly defocused foreground right shoulder of <CHR_1> on the far left edge. Tilting her head slightly with unabashedly sweet, doting affection, <Subject 1> (S1) nudges the clear plastic peach juice bottle a couple of centimeters closer toward <CHR_1> with her right hand, her eyebrows softly arched, eyes curving into bright warm crescents, and cheeks lifting naturally. Speaking in a sweet, clear, coyly affectionate tone with natural breath phrasing at the commas and clear, distinct lip and jaw articulation synced to every syllable, <Subject 1> (S1) speaks (0.16s-1.64s): <d>[Chinese] 哥哥，桃子味的，给你。</d> From 1.60s to 2.00s, <Subject 1> (S1) gently closes her lips and keeps lips naturally closed, maintaining an expectant, doting smile and steady warm gaze off-camera left toward <CHR_1>. Natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless indoor school hallway room tone with faint outdoor courtyard ambience, subtle crisp plastic bottle shift in hands, and a light cheerful breath intake before speaking.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady sunlit school corridor ambient room tone throughout the entire 0.0s-2.0s clip, maintaining seamless room acoustics and faint outdoor breeze ambience. A soft gentle breath intake at 0.12s before speech, light plastic bottle shift and wrist fabric rustle at 0.5s as she extends the drink forward; no subtle ambient air, no musical instruments.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

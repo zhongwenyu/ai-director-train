@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Close-up on CHR_2, eye-level locked-off framing on screen-left looking screen-right cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Close-up on <Subject 1> freezing in utter shock as his unspoken thought is repeated word-for-word, stammering half a sentence before trailing off.
+[keyframe completion + reference generation + audio reference] Hearing his unspoken inner thought quoted verbatim, <Subject 1> freezes in utter shock and trails off mid-sentence.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle push-in tight close-up on <Subject 1> (S1) facing screen-right. Every trace of smug humor vanishes instantly; <Subject 1> (S1)'s eyes widen sharply in stunned disbelief, his shoulders stiffening mid-breath as he stares fixedly toward <CHR_1>. <Subject 1> (S1) speaks (0.16s-1.09s): <d>[Chinese] 你居然真的……</d> Accurate lip sync on the stammered syllables before his voice catches in his throat, leaving his lips slightly parted in speechless shock for the final beat.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a tight close-up on <Subject 1> (S1) positioned slightly left-of-center looking screen-right at off-screen <CHR_1>. All teasing amusement vanishes instantly; <Subject 1> (S1) stiffens upright in his chair with wide, unblinking eyes, stammering in stunned disbelief before his voice catches in his throat. <Subject 1> (S1) speaks (0.16s-1.09s): <d>[Chinese] 你居然真的……</d> with precise lip-sync, his hand freezing motionless near his chest and his lips remaining slightly parted in speechless shock as he trails off.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Sharp quiet intake of breath, subdued distant city traffic hum, faint night air ambience.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Hushed night street atmosphere, sharp quiet intake of breath from CHR_2, and subtle plastic chair shift as he stiffens.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

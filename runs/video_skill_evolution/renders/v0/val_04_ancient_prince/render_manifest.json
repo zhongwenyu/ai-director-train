@@ -2,20 +2,21 @@
   "scene_plan": {
     "clips": [
       {
-        "camera_framing": "Medium wide shot",
+        "camera_framing": "Medium-wide shot, eye-level, vertical 9:16",
         "clip_id": "clip_01",
-        "clip_summary": "On the sunlit ancient market street, CHR_1 turns back from the center of the street to gently urge CHR_2 along, while CHR_2 happily picks up a clay figurine at CHR_3's wooden stall and trots forward to catch up.",
-        "detailed_action_and_dialogue": "Subtle camera push-in under bright natural daylight. Standing in the center of the market street in the foreground-midground, <CHR_1> turns his head and shoulders fondly back toward the wooden stall on the right with a warm, patient smile and speaks immediately with gentle indulgence, clear lip-sync matching every syllable. <CHR_1> speaks (0.20s-1.45s): <d>[Chinese] 柳儿 快点</d>, giving a slight beckoning nod while keeping his lips closed afterward. At the wooden stall table behind him, where <CHR_3> stands on the left side smiling kindly, <CHR_2> on the right side perks up brightly at <CHR_1>'s call, lifts the small rustic yellow-brown clay figurine from the tabletop in both hands with an eager grin, and trots briskly forward in fluttering pale pink sleeves toward <CHR_1>.",
-        "duration_s": 3,
+        "clip_summary": "In the sunlit market street, CHR_1 turns back from the street center to gently call CHR_2, while at the wooden stall behind him CHR_2 delightedly picks up the clay figurine beside CHR_3 and turns to trot toward CHR_1.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a sunlit vertical 9:16 medium-wide deep-focus frame along the ancient market street. In the foreground-left center of the street, <CHR_1> stands half-turned toward the wooden stall behind him, his eyes warm and indulgent as he speaks immediately with clear, accurate lip-sync: <CHR_1> speaks (0.20s-1.50s): <d>[Chinese] 柳儿 快点</d>, giving a gentle beckoning nod toward the road ahead before resting his lips in a soft smile. In the midground at the wooden stall table, <CHR_3> stands calmly on the left side of the table with lips naturally closed, while <CHR_2> on the right side of the table perks up brightly at <CHR_1>'s call, lifts the small rustic yellowish-brown clay figurine from the tabletop with both hands, and pivots eagerly forward to trot toward <CHR_1> with lips closed in a delighted smile.",
+        "duration_s": 2,
+        "focus_expression_ref": null,
         "foreground_silhouette_role_ids": [],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "Medium wide shot in 9:16 vertical framing set in [Scene], a sunlit ancient Chinese city gate market street with wooden stalls on both sides and a towering blue-brick double-eaved city gate tower in the distant background. Inheriting the master spatial axis, [CHR_1] in his ivory-white patterned cross-collar robe and high black ponytail stands in the foreground-midground center of the street, half-turned back toward the right with a gentle, indulgent expression. Behind him at the rustic wooden stall table, [CHR_3] in a gray-brown coarse linen tunic with rolled-up sleeves stands on the left side of the table watching warmly, while [CHR_2] in a pale pink sheer wide-sleeve robe and twin looped buns stands on the right side of the table leaning forward with delighted eyes, touching a small rough yellow-brown clay figurine on the tabletop. Natural live-action sunlight, realistic shadows, clean frame with no text, subtitles, or watermarks.",
+        "keyframe_prompt": "Vertical 9:16 medium-wide shot on the sunlit ancient city-gate market street [Scene], inheriting the master 180-degree spatial axis. In the foreground-left center of the stone street, [CHR_1] stands poised in his ivory-white robe, half-turned back looking fondly toward the right midground with a gentle, warm expression. At the wooden market stall table in the midground, [CHR_3] stands on the left side of the table, while [CHR_2] stands on the right side of the table leaning slightly forward and looking down delightedly at a small rustic yellowish-brown clay figurine [PRP_1] on the tabletop. Wooden stalls and distant blue-brick multi-eaved city gate tower in bright natural daylight, photorealistic live-action cinematography, clean frame, no text, no subtitles, no watermark.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [
           "PRP_1"
         ],
-        "soundscape": "Lively daytime ancient market street ambience, soft distant crowd murmurs, light quick footsteps on stone paving, and gentle rustle of fabric sleeves.",
+        "soundscape": "Lively daytime ancient market street ambience, soft rustle of fabric sleeves, light Ceramic-on-wood lift of the clay figurine, and quick light footsteps on stone pavement.",
         "speaking_role_ids": [
           "CHR_1"
         ],
@@ -26,20 +27,24 @@
         ]
       },
       {
-        "camera_framing": "Medium shot",
+        "camera_framing": "Medium close-up two-shot, eye-level, vertical 9:16",
         "clip_id": "clip_02",
-        "clip_summary": "CHR_2 eagerly presents the clay figurine to CHR_1 like a treasure; CHR_1 affectionately scrapes the tip of her nose with a fond smile before the two turn and stroll away side-by-side toward the city gate.",
-        "detailed_action_and_dialogue": "Static camera with steady framing in warm daylight. Standing on screen-right facing <CHR_1> on screen-left, <CHR_2> lifts the small rough yellow-brown clay figurine in both hands toward him with sparkling eyes and a cheerful, endearing grin, speaking immediately with clear, lively lip-sync. <CHR_2> speaks (0.20s-1.35s): <d>[Chinese] 少爷 你看</d>. Keeping his lips closed in a warm, indulgent smile, <CHR_1> gazes fondly at the figurine and at <CHR_2>, then raises his right hand to affectionately scrape the tip of <CHR_2>'s nose with his bent index finger (1.35s-2.55s); <CHR_2> crinkles her eyes in a bashful, delighted smile while cradling the clay figurine close. Lowering his hand, <CHR_1> and <CHR_2> pivot smoothly together and walk side-by-side away down the sunlit central street toward the distant city gate tower (2.55s-4.00s).",
-        "duration_s": 4,
+        "clip_summary": "Having trotted up to CHR_1, CHR_2 cheerfully holds up the clay figurine to show him, and CHR_1 affectionately taps the tip of her nose as she smiles shyly.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a bright vertical 9:16 medium close-up two-shot maintaining the spatial axis, with <CHR_1> on screen-left facing right and <CHR_2> on screen-right facing left, her pale pink hair ribbons swaying lightly from trotting up beside him. Right from the start, <CHR_2> raises the small rustic yellowish-brown clay figurine proudly between them with sparkling eyes and speaks with crisp, lively lip-sync: <CHR_2> speaks (0.20s-1.50s): <d>[Chinese] 少爷 你看</d>. From 1.50s to 3.00s, both keep their lips naturally closed; <CHR_1>'s eyes soften with fond amusement as he reaches his right hand up and gently grazes the tip of <CHR_2>'s nose with a curved index finger, while <CHR_2> crinkles her nose slightly and beams up at him with a sweet, affectionate closed-lip smile, cradling the clay figurine close.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Bright curved eyes sparkling with lively warmth, softly lifted brows, gently raised apple cheeks, and a sweet closed-lip smile at 45% natural cinematic intensity",
+          "role_id": "CHR_2"
+        },
         "foreground_silhouette_role_ids": [],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "Medium two-shot in 9:16 vertical framing set in [Scene] on the sunlit central ancient market street, maintaining the 180-degree axis looking toward the distant blue-brick double-eaved city gate tower softly visible in the background. On screen-left in three-quarter frontal profile facing right, [CHR_1] in his ivory-white patterned robe and embroidered waist-sash looks down with warm, doting affection. On screen-right in three-quarter frontal profile facing left, [CHR_2] in her pale pink sheer wide-sleeve robe and twin looped buns with pink ribbons beams brightly, holding up a small ten-centimeter rustic yellow-brown clay figurine in both hands at chest height to show him. Crisp natural daylight, realistic skin and fabric textures, clean frame with zero text, subtitles, or watermarks.",
+        "keyframe_prompt": "Vertical 9:16 medium close-up two-shot on the sunlit ancient market street [Scene], preserving the 180-degree axis. On screen-left, [CHR_1] stands in three-quarter profile facing right, gazing warmly at [CHR_2]. On screen-right, [CHR_2] stands close facing left after running up to him, holding up a small rustic yellowish-brown clay figurine [PRP_1] in both hands at chest height with bright, eager eyes and an affectionate expression. Softly defocused sunlit wooden market stalls and distant city gate in the background, natural warm daylight, photorealistic skin texture, clean frame, no text, no subtitles, no watermark.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [
           "PRP_1"
         ],
-        "soundscape": "Warm sunlit market street ambience, soft rustle of silk sleeves, subtle gentle touch, and two pairs of light footsteps receding together on stone pavement.",
+        "soundscape": "Soft daytime market street murmur in the distance, light rustle of silk and gauze sleeves, and subtle fingertip brush against skin.",
         "speaking_role_ids": [
           "CHR_2"
         ],
@@ -49,11 +54,34 @@
         ]
       },
       {
-        "camera_framing": "Wide shot",
+        "camera_framing": "Medium-wide shot, three-quarter rear-side angle, vertical 9:16",
         "clip_id": "clip_03",
-        "clip_summary": "Transitioning ten years forward accompanied by CHR_1's solemn inner monologue, golden sunrise rays pierce a vast rolling sea of clouds among rugged high mountain peaks and weathered ancient pines.",
-        "detailed_action_and_dialogue": "Slow, majestic aerial push-in across a grand high-mountain landscape at dawn. Warm golden sunrise beams break through layered clouds, illuminating a vast sea of white mist that billows and drifts serenely around towering craggy peaks and windswept ancient pine branches clinging to weathered cliffside rocks in the foreground. Smooth, contemplative atmospheric transition with no on-screen characters.",
+        "clip_summary": "CHR_1 and CHR_2 turn and walk side by side away down the sunlit market street toward the distant city gate tower in warm companionship.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a sunlit vertical 9:16 medium-wide shot looking down the stone-paved market street toward the towering blue-brick city gate. <CHR_1> on screen-left and <CHR_2> on screen-right walk unhurriedly side by side away down the street, <CHR_2> cradling the small yellowish-brown clay figurine in her hand as her pale pink sheer sleeves and ribbons sway gently in the breeze. As they walk together, both turn their heads slightly toward each other so their warm side profiles and closed-lip fond smiles are clearly visible, sharing a quiet, harmonious moment before receding further into the sunlit street.",
+        "duration_s": 2,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Vertical 9:16 medium-wide three-quarter rear-side shot along the sunlit ancient market street [Scene]. [CHR_1] on screen-left and [CHR_2] on screen-right, holding the small yellowish-brown clay figurine [PRP_1], walk side by side down the center of the stone street toward the distant blue-brick multi-eaved city gate tower, glancing warmly toward each other so both of their clear side profiles and gentle closed-lip smiles are visible. Wooden stalls and shop banners flank both sides under bright clear daylight, photorealistic live-action lighting, clean frame, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Unhurried footsteps of two people walking side by side on stone pavement, gentle breeze fluttering cloth banners, and fading distant market ambience.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Extreme wide landscape shot, high vantage point, vertical 9:16",
+        "clip_id": "clip_04",
+        "clip_summary": "Transitioning ten years forward accompanied by CHR_1's reflective inner monologue, golden sunrise beams pierce through a vast high-mountain sea of clouds framed by gnarled pines and craggy rocks.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a majestic vertical 9:16 extreme wide landscape shot high above rugged mountain peaks at dawn. No characters appear in frame. In the foreground, weathered craggy granite rocks and gnarled ancient pine branches stand resilient in the crisp mountain wind, their needles swaying subtly. Beyond them, a vast boundless sea of clouds surges and drifts slowly between towering distant peaks as warm golden sunrise rays break through the cloud layers, bathing the rolling mist and stone ridges in radiant amber-gold light to mark a solemn ten-year passage of time.",
         "duration_s": 3,
+        "focus_expression_ref": null,
         "foreground_silhouette_role_ids": [],
         "include_scene_plate_in_keyframe": false,
         "inner_os": {
@@ -62,28 +90,30 @@
           "start_s": 0.2,
           "text": "十年后 机缘巧合之下"
         },
-        "keyframe_prompt": "Wide panoramic shot in 9:16 vertical framing of majestic high-altitude East Asian mountains and a vast sea of clouds bathed in golden sunrise light. In the foreground, rugged weathered cliff stones and twisted ancient pine branches jut out from a sheer peak; beyond them, thick white clouds surge between towering distant crags while warm golden sunbeams pierce through high cloud layers, casting radiant highlights across the mist and pine needles. Photorealistic live-action landscape cinematography, rich atmospheric depth, clean frame with zero characters, zero text, zero subtitles, and zero watermarks.",
+        "keyframe_prompt": "Vertical 9:16 extreme wide photorealistic landscape shot of rugged high mountains and a vast sea of clouds bathed in golden sunrise light. In the foregroundcliff edge,苍劲 gnarled ancient pine branches and weathered craggy stone formations frame the view; across the midground and background, billowing layers of white-and-gold clouds fill deep mountain valleys while warm golden sunbeams pierce dramatically through high cloud gaps. Majestic live-action natural cinematography, rich atmospheric depth, clean frame, no characters, no text, no subtitles, no watermark.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [],
-        "soundscape": "Gentle high-altitude mountain wind, soft rustling of pine needles, and open atmospheric breeze drifting across deep valleys.",
+        "soundscape": "Deep high-altitude mountain wind sweeping softly through pine needles and across open stone cliffs, spacious natural mountain air ambience.",
         "speaking_role_ids": [],
         "visible_role_ids": []
       }
     ],
-    "master_blocking_prompt": "Full-shot spatial master blocking in 9:16 vertical framing set in [Scene], a bright sunny ancient Chinese city gate market street lined with wooden market stalls and fluttering cloth shop banners on both sides, leading down to a towering blue-brick double-eaved city gate tower with an ornate dark plaque in the distant background. At a rustic wooden stall table set with small handmade yellow-brown clay figurines in the midground, [CHR_3] (65-year-old East Asian craftsman with graying temples and beard, round topknot pinned with a dark wooden hairpin, wearing a gray-brown coarse linen cross-collar tunic with rolled-up sleeves) stands on the left side of the wooden table facing right toward the tabletop, while [CHR_2] (18-year-old East Asian young woman with twin looped buns tied with pale pink ribbons and tiny pearls, wearing a pale pink sheer wide-sleeve outer robe over a pale pink strapless long dress) stands on the right side of the wooden table, leaning slightly forward and looking down attentively at the clay figurines on the tabletop. Ahead of both [CHR_3] and [CHR_2] in the center of the sunlit street in the foreground-midground, [CHR_1] (22-year-old East Asian young nobleman with a neat high black ponytail, wearing an ivory-white patterned cross-collar robe, matching embroidered wide waist-sash with a round white jade clasp, white trousers, and black cloth boots) stands in the middle of the thoroughfare, half-turned back looking warmly toward [CHR_2] at the stall. Unified 180-degree camera axis looking down the central street toward the city gate, natural live-action daylight and realistic shadows, clean frame with zero text, zero subtitles, and zero watermarks.",
-    "scene_summary": "On a sunlit ancient city gate market street, young maid Liu'er (CHR_2) delights over a handmade clay figurine at an elderly craftsman's (CHR_3) wooden stall until her young master (CHR_1) gently calls her from the street ahead; she trots up to show off the clay figurine, receives an affectionate scrape on the tip of her nose, and walks away side-by-side with him toward the city gate before the scene transitions over CHR_1's solemn inner monologue into a golden sunrise sea of clouds atop high mountains ten years later."
+    "master_blocking_prompt": "Vertical 9:16 full-scene spatial master establishing shot on the sunlit ancient city-gate market street [Scene]. Wooden market stalls and cloth shop banners line both sides of the stone-paved street, leading toward a distant blue-brick multi-eaved city gate tower with a dark-and-gold plaque under bright clear daylight. At a wooden stall table in the midground, [CHR_3] stands on the left side of the wooden table tending handmade clay figurines, while [CHR_2] stands on the right side of the wooden table leaning forward and looking down delightedly at a small rustic yellowish-brown clay figurine [PRP_1] on the tabletop. Ahead of both of them in the center of the street closer to the foreground on screen-left, [CHR_1] stands poised in his ivory-white robe, half-turned back looking warmly toward [CHR_2] on screen-right, establishing a single unified 180-degree eyeline axis. Natural photorealistic daylight and shadows, clean composition, no text, no subtitles, no watermark.",
+    "scene_summary": "A warm memory in a sunlit ancient city-gate market where Liu'er excitedly picks a rustic clay figurine, trots up at the young master's gentle call to show her treasure, receives an affectionate tap on the nose, and walks away beside him toward the city gate, before transitioning ten years forward into a golden sunrise high-mountain sea-of-clouds vista accompanied by his solemn inner monologue."
   },
   "stitch_meta": {
-    "clip_count": 3,
+    "clip_count": 4,
     "visual_cuts": [
-      1.292,
-      3.625
+      1.458,
+      2.666,
+      4.041
     ],
     "lcut_holds": [
       0.0,
       0.0,
+      0.0,
       0.0
     ],
-    "total_duration_s": 7.375
+    "total_duration_s": 7.833
   }
 }

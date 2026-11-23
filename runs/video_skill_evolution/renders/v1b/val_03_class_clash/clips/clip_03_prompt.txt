@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Locked-off static camera, eye-level tight single close-up (CU) on CHR_2, 85mm prime lens cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Tight close-up on Manshu (<Subject 1>) in the left passenger seat facing right as she dips her lashes and looks back up at Shen Mingshan (CHR_1) with coy, submissive contrition and delicate vulnerability to win his indulgence.
+[keyframe completion + reference generation + audio reference] In an intimate reverse close-up on the left, <Subject 1> dips her chin coyly and replies with submissive, coquettish contrition to win CHR_1's protective affection.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in. Seamless continuation from the preceding clip: in the left passenger seat facing camera-right, <Subject 1> (S1) absorbs <CHR_1>'s jab with a brief, delicate downward flicker of her eyelashes, then lifts her gaze back camera-right toward him, tilting her head slightly with softly knitted inner brows and a coy, submissive air of aggrieved contrition to invite his sympathy and protection, showing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.83s): <d>[Chinese] 那时候年轻嘛，不懂事。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking in a soft, brisk, coquettishly contrite tone with a gentle sighing inflection, closing her lips naturally into a docile, pleading expression at the end.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera on a tight, intimate close-up of <Subject 1> (S1) in the passenger seat on screen-left, looking off-camera right toward <CHR_1>. Softening her posture immediately, <Subject 1> (S1) dips her chin slightly and tilts her head a fraction toward her right shoulder in calculated, coy vulnerability, inner brows gently drawn together over moist, pleading eyes and apples of her cheeks subtly lifted with natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. Speaking in a soft, coquettish, self-reproaching murmur with a gentle breathy inflection on the pause and clear, distinct lip and jaw articulation synced to every syllable: <Subject 1> (S1) speaks (0.16s-1.83s): <d>[Chinese] 那时候年轻嘛，不懂事。</d> After 2.30s, <Subject 1> (S1) closes her lips naturally into a delicate, compliant pout softened by a faint ingratiating smile, blinking slowly while leaning subtly rightward toward <CHR_1> to seal their intimate alignment.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless luxury car cabin room tone with gentle muffled daytime street ambience, a soft delicate breath exhale, and subtle cotton clothing rustle as she tilts her head.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady luxury car cabin ambient tone blended with soft daytime urban street air throughout the entire 0.0s-3.0s clip, no subtle ambient air, no musical instruments; layered with a soft, delicate breath intake at 0.1s and faint cotton fabric and leather seat rustle as she tilts and leans slightly rightward.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

@@ -1,6 +1,6 @@
 {
   "headers": {
-    "X-Task-Id": "9375f282-517d-4553-890c-885b9aec349d",
+    "X-Task-Id": "afe0df5a-174e-4607-aac9-f4e1040a399d",
     "X-Model": "MiniMax-H3-Native-INT8",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
     "X-Steps": "14",
@@ -12,7 +12,7 @@
     "X-Frame0-Guide": "true",
     "X-Backend": "5090-local"
   },
-  "elapsed_s": 32.58,
+  "elapsed_s": 32.97,
   "seed": 910526,
   "requested_duration": 2,
   "actual_duration": 2.336,
@@ -21,7 +21,7 @@
   "has_audio": true,
   "ref_images_1k": [
     "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/val_01_winter_parting/keyframes_1k/clip_02_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/assets/CHR_2_front_1k.png"
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/val_01_winter_parting/keyframes_1k/clip_03_CHR_2_expr_multiview_1k.png"
   ],
   "ref_audios": [
     "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_01_winter_parting/voices/CHR_2.wav"

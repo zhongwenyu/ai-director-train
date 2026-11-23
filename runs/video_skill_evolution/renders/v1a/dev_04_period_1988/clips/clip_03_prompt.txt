@@ -1,22 +1,20 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
-<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+<Picture 1> is the opening Close-up (CU) reverse angle on CHR_1 looking frame-right and slightly upward, 85mm cinema prime lens, controlled slow push-in cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 
 summary:
-[keyframe completion + reference generation + audio reference] Close-up on <Subject 1> leaning slightly forward with tear-rimmed urgent eyes and trembling desperation as she presses CHR_1 for the promised ten yuan to buy medicine for her sick mother.
+[keyframe completion + reference generation] Silent listening reaction close-up on <Subject 1> absorbing the L-cut tail of CHR_2's plea as his startled expression settles into solemn, resolute accountability.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 
 detailed_description:
-Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in heightening emotional urgency on the 180-degree axis. <Subject 1> (S1) stands on screen-right looking off-camera left at <CHR_1>, leaning slightly forward from the shoulders as her inner brows draw tightly together and her eyes glisten with anxious, tear-rimmed desperation, giving small urgent pulses with her raised open hand near the lower frame edge on the key beats of her plea. <Subject 1> (S1) speaks (0.16s-4.23s): <d>[Chinese] 你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！</d>, delivering the lines in an urgent, rapid, righteous yet choke-edged pleading cadence with quick natural breath catches and clear, expressive lip-sync matching every syllable, landing on a breathless, glistening stare with trembling closed lips.
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Controlled slow push-in on an 85mm lens into a tight close-up of <Subject 1> seated on the kang edge looking frame-right and slightly upward toward <CHR_2>, maintaining his chiseled square jawline, sun-kissed bronzed skin pores, tousled matte-black short hair, and grey-brown work-jacket collar under warm left-side window rim light. Absorbing the urgent L-cut vocal tail of her plea, <Subject 1> keeps lips naturally closed throughout the entire shot; his deep-set eyes absorb the emotional weight without blinking away, his furrowed brow softens into firm, solemn accountability, and his jaw sets quietly with a subtle nod of resolve while his right shoulder dips slightly as his hand moves down toward his jacket pocket, holding a steady, resonant gaze through the closing beat. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous quiet 1980s rural mud-brick bedroom room tone and faint daytime courtyard air through the wooden window, with subtle urgent breath intakes and light cotton shirt rustle.), zero loud background noise, zero music.
+Quiet non-vocal room tone and subtle physical foley only (Continuous steady spatial room tone from start to end without dropouts or silence gating between lines, accompanied by quiet distant rural breeze outside the lattice window and subtle near-field foley of a calm grounded nasal exhale and coarse cotton-twill jacket fabric shifting as a hand reaches toward a pocket.); strictly zero human speech, zero vocals, zero murmuring, zero music.
 
 non_diegetic_music:
 N/A

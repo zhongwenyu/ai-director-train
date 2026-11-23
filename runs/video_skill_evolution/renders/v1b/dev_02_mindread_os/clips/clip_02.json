@@ -1,6 +1,6 @@
 {
   "headers": {
-    "X-Task-Id": "e492b65b-b31a-4c28-a739-d2d3a80b77d1",
+    "X-Task-Id": "998299b4-8fa2-42da-a984-7215c9971862",
     "X-Model": "MiniMax-H3-Native-INT8",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
     "X-Steps": "14",
@@ -12,7 +12,7 @@
     "X-Frame0-Guide": "true",
     "X-Backend": "5090-local"
   },
-  "elapsed_s": 61.57,
+  "elapsed_s": 63.8,
   "seed": 911126,
   "requested_duration": 4,
   "actual_duration": 4.48,
@@ -21,7 +21,7 @@
   "has_audio": true,
   "ref_images_1k": [
     "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v1b/dev_02_mindread_os/keyframes_1k/clip_02_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v1b/dev_02_mindread_os/keyframes_1k/clip_03_CHR_1_expr_multiview_1k.png"
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v1b/dev_02_mindread_os/keyframes_1k/clip_3_CHR_1_expr_multiview_1k.png"
   ],
   "ref_audios": [
     "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_02_mindread_os/voices/CHR_1.wav"

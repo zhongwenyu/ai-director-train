@@ -1,20 +1,20 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Reverse over-the-shoulder medium close-up (OTS-MCU) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 
 summary:
-[keyframe completion + reference generation] Close-up on <Subject 1> on screen-right facing left as she is momentarily moved to tears by his confession, then swallows her pain and briskly wipes the tear away.
+[keyframe completion + reference generation] Reverse over CHR_2's left shoulder silhouette on screen left, <Subject 1> on screen right is momentarily pierced by his confession as a tear slips down her cheek, before she swallows her pain and briskly wipes the tear away.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 
 detailed_description:
-Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static intimate close-up on <Subject 1> positioned slightly right-of-center, facing and looking screen-left. Stung by the confession she just heard, <Subject 1>'s dark eyes instantly brim and a single tear slips down her cheek as her lashes flutter and her lips tremble faintly in momentary heartbreak (0.00s-0.85s). She abruptly swallows hard to force down her vulnerability, raises her right hand to briskly wipe the tear streak from her cheek with her fingertips (0.85s-1.65s), and lowers her hand while her gaze hardens into cold, defensive composure (1.65s-2.00s). Mouth remains closed with no speech. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a reverse over-the-shoulder medium close-up favoring <Subject 1> on the right side of the frame facing left, backed by the metal-framed glass double doors, with the soft-focus left shoulder silhouette of <CHR_2> in the left foreground. Keeping her lips firmly closed throughout, <Subject 1> absorbs his confession from 0.00s to 1.05s: her dark eyes shimmer and waver with sudden heartache as a single tear spills over her lower lashes down her cheek while her breath catches in her throat. From 1.05s to 2.00s, she swallows hard to suppress her fragility, briskly raises her right fingertips to wipe the tear cleanly off her cheek, lowers her hand, and straightens her posture as her gaze cools into guarded resolve. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Soft catch of breath, delicate skin-and-sleeve brush as she wipes away her tear, quiet evening outdoor ambience and distant breeze.), zero loud background noise, zero music.
+Quiet non-vocal room tone and subtle physical foley only (Gentle evening wind through campus trees, a quiet sharp intake of breath, and soft skin-and-knitwear friction as she briskly wipes away her tear.); strictly zero human speech, zero vocals, zero murmuring, zero music.
 
 non_diegetic_music:
 N/A

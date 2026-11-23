@@ -1,26 +1,26 @@
 subject_definitions:
-<Picture 1> is the opening Medium two-shot cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
-<Subject 2> is the man matching the exact facial identity and outfit in <Picture 3>.
+<Picture 1> is the opening Medium two-shot from the 180-degree front-side safe zone, 35mm cinema prime lens, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
 <Picture 4> is the reference prop (烤肉串与金属托盘).
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Medium two-shot across the red barbecue table as <Subject 1> playfully teases <Subject 2> about fooling himself while <Subject 2> listens quietly.
+[keyframe completion + reference generation + audio reference] Across the street-side barbecue table, <Subject 1> leans forward teasingly to dismiss <Subject 2>'s claim while <Subject 2> listens with quiet, unbothered restraint.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
 <Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera holding a balanced medium two-shot on the 180-degree axis. Seated on screen-left facing right, <Subject 1> (S1) leans casually toward the red table, eyebrows lifting in playful, skeptical amusement as his right hand gestures lightly near the dark metal tray of skewers before resting on the tabletop. <Subject 1> (S1) speaks (0.20s-2.65s) in a brisk, teasing, lighthearted conversational tone with an easy grin: <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d>, with clear, expressive lip-sync matching syllable cadence and vocal intensity, settling into a relaxed, self-assured smile. On screen-right facing left, <Subject 2> keeps lips naturally closed with no speaking or mouth movement, forearms resting on the table edge as he listens with a faint, patient half-frown.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera on a 35mm lens frames the two-shot across the red square table, maintaining both characters' distinct facial bone structures and natural skin textures. On screen-left, <Subject 1> (S1)—preserving his angular jawline, exposed forehead under neat short black hair, and black T-shirt with the left-chest red-and-yellow heart print—leans slightly forward on his forearm, eyes crinkling with playful scepticism as <Subject 1> (S1) speaks (0.16s-2.57s): <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d> in a breezy, teasing tone, taking a light breath pause after the comma before landing an amused inflection on the closing words with clear jaw-and-lip articulation. From 2.40s to 3.00s, <Subject 1> (S1) keeps lips naturally closed with a lingering half-smirk. Concurrently on screen-right, <Subject 2>—with his slender oval jawline, fair porous skin, fluffy black bangs, and white calligraphy-print T-shirt—keeps lips naturally closed throughout, shifting his shoulders subtly as his calm almond eyes hold steady on <Subject 1> (S1) with quiet patience.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous nighttime outdoor street barbecue stall ambience with gentle charcoal sizzle and distant urban traffic air, with subtle plastic tabletop contact and skewer movement foley.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous steady spatial room tone from start to end without dropouts or silence gating between lines; gentle distant nocturnal city street hum and faint charcoal grill sizzle in the open night air; subtle near-field foley of a light intake of breath at 0.1s, cotton sleeve brushing the plastic tabletop edge, and quiet posture shift on the plastic chair.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

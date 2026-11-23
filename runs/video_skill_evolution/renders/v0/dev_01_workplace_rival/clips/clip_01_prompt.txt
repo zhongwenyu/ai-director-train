@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up, eye-level, past CHR_1 in the left foreground toward CHR_2 on the right workstation side cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Medium close-up (MCU), eye-level locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Put on the spot by CHR_1's public flattery trap, <Subject 1> loses her smug composure and awkwardly claims she was only joking.
+[keyframe completion + reference generation + audio reference] Reverse-angle medium close-up on <Subject 1> caught off guard by the public flattery trap; she awkwardly clears her throat and forces a stiff smile to pass her remark off as a joke.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera over the softly blurred dark-cardigan shoulder and short hair back-of-head silhouette of <CHR_1> in the bottom-left foreground. Seated opposite on the right side of the frosted glass partition facing front-left, <Subject 1> (S1) stiffens as her smug expression falters; she gives an awkward throat-clearing swallow and forces a tight, unnatural smile while trying to save face. <Subject 1> (S1) speaks (0.16s-1.09s): <d>[Chinese] 我开玩笑的。</d> with accurate lip-sync, her eyes darting briefly toward her computer monitor in embarrassment as one hand adjusts her cuff stiffly on the desk.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a reverse-angle medium close-up framing <Subject 1> (S1) seated at her workstation on the screen-right side of the frosted glass partition, facing three-quarters screen-left toward <CHR_1>. Put on the spot by the pointed flattery, <Subject 1> (S1) blinks rapidly as her eyes dart briefly sideways in flustered embarrassment; she gives a tiny, awkward throat-clearing shift in her black mesh chair, lightly touches a finger near the collar of her cream tweed jacket, and pulls up a stiff, forced smile to save face while speaking immediately with precise lip-sync. <Subject 1> (S1) speaks (0.16s-1.09s): <d>[Chinese] 我开玩笑的。</d> Immediately after finishing the short excuse, <Subject 1> (S1) presses her lips back into a tight, uneasy half-smile while holding tense eye contact screen-left.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Subtle office ambient hum, a brief awkward throat-clear breath, light sleeve rustle against the wooden desk.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Quiet office ambient hum, a subtle dry throat-clear, faint chair mesh creak, and light tweed sleeve rustle.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

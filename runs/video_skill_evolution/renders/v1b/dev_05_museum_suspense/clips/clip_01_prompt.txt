@@ -1,24 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up, eye-level, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Picture 3> is the reference prop (燃烧的纸质合同).
-<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Reverse over-the-shoulder medium close-up on <Subject 1> behind the counter facing left; illuminated by flickering firelight, she calmly declares that burning the contract makes it take effect, with her trailing voice bridging into CHR_1's reaction.
+[keyframe completion + reference generation] Silent reaction over CHR_2's fur-draped foreground shoulder as <Subject 1> absorbs her chilling rule, his gaze flicking from the burning contract up to her face in unsettled disbelief.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
-<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
-Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera with rock-steady composure. Seamlessly continuing the spatial exchange across the counter, <Subject 1> (S1) stands behind the dark wooden counter on the right facing left toward <CHR_1>'s blurred shoulder on the left foreground edge, warm amber firelight from the burning contract flickering softly across her dark emerald velvet qipao, white fur shawl, and pearl necklace. Unfazed by his alarm, <Subject 1> (S1) smoothly lifts her serene gaze from the curling flames on the lower-left countertop directly into <CHR_1>'s eyes, lifting her chin slightly as calm, mysterious authority and subtle cryptic control surface across her brow and gaze—vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.83s): <d>[Chinese] 烧了，这合同才算生效。</d>, speaking at a brisk, natural conversational pace with poised velvet calm, a deliberate subtle breath pause after the comma, and quiet downward certainty on the final syllables, featuring clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, before her lips close smoothly into poised stillness over the final 0.45s while <CHR_1> in the left foreground remains motionless.
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera on a 50mm cinema prime lens holds a tight eye-level over-the-shoulder medium close-up on <Subject 1>, framed past the softly blurred white-fur-draped left shoulder of <CHR_2> in the right foreground. Throughout the entire 2.00s silent reaction beat, <Subject 1> keeps lips naturally closed as the tail resonance of <CHR_2>'s words sinks in: from 0.00s to 0.85s, his pupils subtly dilate and his inner brows tighten in stunned, wary realization while his gaze flicks momentarily downward toward the warm flickering orange flame of the burning paper contract at the lower counter edge; from 0.85s to 2.00s, he draws a quiet, controlled breath through his nose, his chest rising subtly beneath his army-green shirt and backpack straps as his eyes snap back up off-camera right to lock warily onto <CHR_2>, while <CHR_2>'s blurred foreground shoulder shows subtle, steady breathing presence. Natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless low-resonance indoor room tone of the quiet vintage wooden hall, steady gentle crackle and dry curl of burning paper on the counter, subtle soft breath poise and faint silk-and-fur rustle.), zero loud background noise, zero music.
+Quiet non-vocal room tone and subtle physical foley only (Continuous, steady [Scene]-matched low-key wooden antique hall ambient room tone throughout the entire 2.0s clip, maintaining seamless acoustic floor continuity, zero subtle ambient air, no musical instruments. Soft, intimate crackling and ash-curling quiet air of the burning paper contract in the near foreground, accompanied by <CHR_1>'s quiet nasal inhale at 0.80s and a faint canvas strap creak as his shoulders tense slightly.); strictly zero human speech, zero vocals, zero murmuring, zero music.
 
 non_diegetic_music:
 N/A

@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up (OTS MCU) favoring CHR_2 past CHR_1's soft-focus left shoulder, 85mm cinema prime lens, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Reverse-angle medium close-up on <Subject 1> seated on the kang edge snapping out of his daze with sudden realization and earnest assent as his hand moves toward his jacket pocket.
+[keyframe completion + reference generation + audio reference] Over CHR_1's soft-focus foreground shoulder, <Subject 1> leans in slightly with outstretched hand and urgent, tear-tinged desperation to press for the ten yuan needed for her mother's medicine.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Gentle reframe holding steady on the 180-degree axis. <Subject 1> (S1) straightens up on the kang edge on screen-left, looking off-camera right up toward <CHR_2> as the heavy fog in his eyes clears into sudden realization and earnest willingness; he gives a quick, grounded nod while lifting his right hand from his thigh to touch his work-jacket pocket. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 对哦，还要给你钱。</d>, articulating clear, natural lip-sync for every syllable in a brisk, awakening, obliging cadence with a brief realization breath after the first clause, settling into an attentive, sincere gaze off-camera right.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera on an 85mm lens in an over-the-shoulder medium close-up on <Subject 1> (S1), preserving her slender oval facial contour, tapered chin, unadorned pale-warm skin texture, low ponytail with loose temple wisps, and coarse light greyish-tan homespun collar, while <CHR_1>'s soft-focus dark hair and grey-brown work-jacket shoulder breathe steadily in the lower-left foreground. Drawing a sharp anxious breath as her brows knit together, <Subject 1> (S1) speaks (0.16s-4.23s): <d>[Chinese] 你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！</d> in a rapid, urgent, choke-edged rural cadence of filial desperation with precise lip-and-tongue articulation, taking quick ragged breath catches after the first and third clauses as she leans slightly forward toward frame-left, her outstretched fingers flexing imploringly and her eyes glistening with anxious moisture on the final stressed plea. From 3.48s to 4.00s, <Subject 1> (S1) keeps lips naturally closed, her chest rising with a shallow trembling breath while her urgent gaze stays locked downward toward <CHR_1>.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous quiet 1980s rural mud-brick bedroom room tone and faint daytime courtyard air through the wooden window, with subtle work-jacket fabric brush as a hand reaches toward a pocket.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous steady spatial room tone from start to end without dropouts or silence gating between lines, underscored by faint distant rural outdoor ambiance through the wooden window and intimate near-field foley of urgent catch-breaths, coarse homespun cotton cuff rustling, and subtle weight shift on the earthen floor.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

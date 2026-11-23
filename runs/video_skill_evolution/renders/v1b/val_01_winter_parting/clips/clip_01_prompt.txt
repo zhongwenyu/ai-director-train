@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up (OTS MCU) on CHR_1, eye-level, 50mm cinema prime lens, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Over CHR_1's left foreground shoulder, <Subject 1> snaps back in frustrated, aggrieved disbelief, refusing to calm down.
+[keyframe completion + reference generation + audio reference] Locked-off OTS medium close-up on <Subject 1> over CHR_2's foreground right shoulder as she delivers the solemn 100-step parting ultimatum to test his heart.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera with subtle micro-handheld presence in an over-the-shoulder medium close-up favoring <Subject 1> (S1) on the right facing left, with <CHR_1>'s soft-focus shoulder on the left frame edge. Seamlessly continuing his tense stance from the previous shot, <Subject 1> (S1)'s restraint breaks into wounded irritation and defiant pushback—his inner brows draw together, his head tilts slightly forward to challenge her gaze, and his jaw works with genuine frustration, showing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.83s): <d>[Chinese] 都这样了还冷静什么</d>, with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace with sharp breath emphasis and aggrieved rhetorical inflection before pressing his lips closed on a tense exhale at the end of the clip.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in an eye-level over-the-shoulder medium close-up focused on <Subject 1> (S1) on the left-center of the frame, anchored by the softly defocused dark-navy shoulder edge of <CHR_2> in the right foreground. Drawing a quiet, steadying breath, <Subject 1> (S1) holds her gaze firmly off-camera right with moist, probing eyes and gently drawn inner brows, her fingers lightly grazing the edge of her rust-red wool scarf for emotional grounding; <Subject 1> (S1) speaks (0.16s-4.05s): <d>[Chinese] 我们背对背走100步，考虑清楚了，从此不再相见</d> in a measured, solemn voice laced with vulnerable testing subtext, taking brief natural breath pauses at the two commas while maintaining clear, distinct lip and jaw articulation synced to every syllable. From 3.55s to 4.00s, <Subject 1> (S1) closes her lips naturally, swallowing subtly as her unblinking eyes search off-camera right for his reaction, preserving natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous steady outdoor riverside park wind bed and ambient air tone, accompanied by a sharp frustrated breath intake and subtle collar rustle as the man leans forward slightly.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady cold riverside park open-air ambient tone throughout the entire clip (0.0s-4.0s) matching the surrounding clips; soft breath intake from CHR_1 at 0.15s, faint knit scarf fabric friction against her wool lapel at 1.7s, and quiet winter air across leafless branches; no subtle ambient air, no musical instruments.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

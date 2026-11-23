@@ -1,6 +1,6 @@
 {
   "headers": {
-    "X-Task-Id": "3f99acd0-fc73-4808-934f-d5c2c8bd940a",
+    "X-Task-Id": "63be6361-0944-4fa0-8918-7b1601a3a637",
     "X-Model": "MiniMax-H3-Native-INT8",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
     "X-Steps": "14",
@@ -12,7 +12,7 @@
     "X-Frame0-Guide": "true",
     "X-Backend": "5090-local"
   },
-  "elapsed_s": 64.49,
+  "elapsed_s": 65.73,
   "seed": 911726,
   "requested_duration": 4,
   "actual_duration": 4.48,

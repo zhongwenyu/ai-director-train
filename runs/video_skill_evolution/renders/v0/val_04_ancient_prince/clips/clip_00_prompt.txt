@@ -1,28 +1,28 @@
 subject_definitions:
-<Picture 1> is the opening Medium wide shot cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
-<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
-<Subject 3> is the man matching the exact facial identity and outfit in <Picture 4>.
+<Picture 1> is the opening Medium-wide shot, eye-level, vertical 9:16 cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Subject 3> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 4>.
 <Picture 5> is the reference prop (陶土泥人).
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] On the sunlit ancient market street, <Subject 1> turns back from the center of the street to gently urge <Subject 2> along, while <Subject 2> happily picks up a clay figurine at <Subject 3>'s wooden stall and trots forward to catch up.
+[keyframe completion + reference generation + audio reference] In the sunlit market street, <Subject 1> turns back from the street center to gently call <Subject 2>, while at the wooden stall behind him <Subject 2> delightedly picks up the clay figurine beside <Subject 3> and turns to trot toward <Subject 1>.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
-<Subject 3>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 4>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Subject 3>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 4> without generic face drift.
 <Picture 5>: fully_preserved - maintain single consistent rigid prop appearance.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle camera push-in under bright natural daylight. Standing in the center of the market street in the foreground-midground, <Subject 1> (S1) turns his head and shoulders fondly back toward the wooden stall on the right with a warm, patient smile and speaks immediately with gentle indulgence, clear lip-sync matching every syllable. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 柳儿 快点</d>, giving a slight beckoning nod while keeping his lips closed afterward. At the wooden stall table behind him, where <Subject 3> stands on the left side smiling kindly, <Subject 2> on the right side perks up brightly at <Subject 1> (S1)'s call, lifts the small rustic yellow-brown clay figurine from the tabletop in both hands with an eager grin, and trots briskly forward in fluttering pale pink sleeves toward <Subject 1> (S1).
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a sunlit vertical 9:16 medium-wide deep-focus frame along the ancient market street. In the foreground-left center of the street, <Subject 1> (S1) stands half-turned toward the wooden stall behind him, his eyes warm and indulgent as he speaks immediately with clear, accurate lip-sync: <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 柳儿 快点</d>, giving a gentle beckoning nod toward the road ahead before resting his lips in a soft smile. In the midground at the wooden stall table, <Subject 3> stands calmly on the left side of the table with lips naturally closed, while <Subject 2> on the right side of the table perks up brightly at <Subject 1> (S1)'s call, lifts the small rustic yellowish-brown clay figurine from the tabletop with both hands, and pivots eagerly forward to trot toward <Subject 1> (S1) with lips closed in a delighted smile.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Lively daytime ancient market street ambience, soft distant crowd murmurs, light quick footsteps on stone paving, and gentle rustle of fabric sleeves.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Lively daytime ancient market street ambience, soft rustle of fabric sleeves, light Ceramic-on-wood lift of the clay figurine, and quick light footsteps on stone pavement.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

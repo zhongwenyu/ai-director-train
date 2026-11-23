@@ -1,6 +1,6 @@
 {
   "headers": {
-    "X-Task-Id": "7633a481-7dc4-4c2f-b43d-f382cc69edeb",
+    "X-Task-Id": "85f4300d-46d8-458c-9917-19c197cbe60d",
     "X-Model": "MiniMax-H3-Native-INT8",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
     "X-Steps": "14",
@@ -12,7 +12,7 @@
     "X-Frame0-Guide": "true",
     "X-Backend": "5090-local"
   },
-  "elapsed_s": 38.5,
+  "elapsed_s": 45.81,
   "seed": 910313,
   "requested_duration": 2,
   "actual_duration": 2.336,
@@ -21,8 +21,8 @@
   "has_audio": true,
   "ref_images_1k": [
     "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/dev_04_period_1988/keyframes_1k/clip_01_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/CHR_1_front_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/CHR_2_front_1k.png"
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/CHR_1_neutral_multiview_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/assets/CHR_2_neutral_multiview_1k.png"
   ],
   "ref_audios": [
     "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_04_period_1988/voices/CHR_2.wav",

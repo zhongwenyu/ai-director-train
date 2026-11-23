@@ -264,7 +264,7 @@ def generate_scene_plan_blind(skill_files: Dict[str, str], beat_spec: Dict[str, 
 
 def compute_plan_telemetry(plans: Sequence[Dict[str, Any]]) -> Dict[str, Any]:
     clip_counts, clip_durs = [], []
-    reaction_clips, lcut_clips, tight_framings, total_clips = 0, 0, 0, 0
+    reaction_clips, lcut_clips, tight_framings, push_in_clips, static_clips, total_clips = 0, 0, 0, 0, 0, 0
     for pl in plans:
         cs = pl.get("clips") or []
         clip_counts.append(len(cs))
@@ -278,12 +278,19 @@ def compute_plan_telemetry(plans: Sequence[Dict[str, Any]]) -> Dict[str, Any]:
             fr = str(c.get("camera_framing", "")).upper()
             if any(k in fr for k in ("CU", "MCU", "CLOSE", "OTS")):
                 tight_framings += 1
+            act_txt = str(c.get("detailed_action_and_dialogue") or "")
+            if re.search(r"push[- ]?in|dolly[- ]?in|zoom[- ]?in|creeping\s+in|tracks?\s+in", act_txt, re.I):
+                push_in_clips += 1
+            elif re.search(r"\bstatic\b|locked[- ]off|stationary", act_txt, re.I):
+                static_clips += 1
     return {
         "avg_clips_per_scene": round(statistics.mean(clip_counts), 2) if clip_counts else 0.0,
         "avg_clip_duration_s": round(statistics.mean(clip_durs), 2) if clip_durs else 0.0,
         "silent_reaction_clip_ratio": round(reaction_clips / max(1, total_clips), 3),
         "lcut_overlap_clip_ratio": round(lcut_clips / max(1, total_clips), 3),
         "tight_mcu_cu_ots_ratio": round(tight_framings / max(1, total_clips), 3),
+        "push_in_clip_ratio": round(push_in_clips / max(1, total_clips), 3),
+        "locked_static_clip_ratio": round(static_clips / max(1, total_clips), 3),
     }
 
 
@@ -514,7 +521,7 @@ def validate_mutation_gates(files: Dict[str, str]) -> List[str]:
         "1. 硬编码了某一部具体剧名、角色名、台词或狭窄题材专属桥段（例如把全剧都锁死成办公室揉太阳穴/喝咖啡/古装挥剑）；\n"
         "2. 设定了机械死板的百分比配额（如“必须占73%”）；\n"
         "3. 在动态视频提示词规范中错误要求“全程克制面无表情 / minimal restrained facial movement”（静态首帧应当自然无五官扭曲，但动态视频必须根据潜台词释放鲜活生动的眼神、眉眼情绪起伏、自然笑意/震惊/反讽/含泪等丰富人类真实表情与清晰口型！）；\n"
-        "4. 允许并鼓励跨题材成立的物理与视听第一性原理（如：双层空间母版锁定全员座位轴线、静态首帧自然干净而动态表演鲜活外化、0.2秒紧凑开口零发呆、清晰唇齿咬字同步、听话人无台词微反应切镜与严禁串音的L-Cut等）。\n\n"
+        "4. 允许并鼓励跨题材成立的物理与视听第一性原理（如：双层空间母版锁定全员座位轴线、常规对话正反打采用三脚架固定机位切镜主导并仅在人物空间位移或全场唯一情绪极点使用动机化运镜【同时严禁走极端一刀切禁绝所有运镜】、静态首帧自然干净而动态表演鲜活外化、0.2秒紧凑开口零发呆、清晰唇齿咬字同步、听话人无台词微反应切镜与严禁串音的L-Cut等）。\n\n"
         + "\n\n".join(f"### `{k}`\n{v}" for k, v in files.items())
     )
     verdict = L.call_agy_json(prosecutor_prompt, PROSECUTOR_SCHEMA, effort="medium", timeout=300)
@@ -681,9 +688,9 @@ def main() -> int:
             "避免证件照式僵立首帧与全程单一表情干念台词，同时严禁不分题材、不分镜长地机械堆砌夸张动作：短镜聚焦单一鲜明的情绪落点，中长说话镜体现从起势到重音落点的自然神态递进。"
         )
         axis_b = (
-            "方向 B（正反打反应交织与防跳切蒙太奇节奏，全题材通用）："
-            "严格匹配 `target_duration_s` 控制全段总镜长；禁止把同一说话人的连续台词生硬切成两个相邻单人跳切镜头（Jump Cut），长台词拆节奏时通过穿插对手/旁观者的无台词反应镜头与适度 `lcut_audio_hold_over_next_s` 声桥自然衔接；"
-            "画内对白紧凑开口、清晰咬字零吞尾字，心声 `mode=='inner_os'` 严格走独立闭唇通道。"
+            "方向 B（固定机位正反打剪辑语法、动机化运镜节制与防跳切蒙太奇节奏，全题材通用）："
+            "严格匹配 `target_duration_s` 动态配平整数镜长；常规对话正反打与听者反应切镜必须以稳固的三脚架固定机位（`Locked-off static camera`）为主导，靠景别阶梯跳跃与演员画内姿态传递张力，严禁切镜后习惯性缓慢推镜（仅在人物跨空间走动跟拍或全场唯一情绪爆发极点才允许单次动机化运镜）；"
+            "禁止同人相邻单人说话跳切（Jump Cut），长句转折穿插无台词反应近景镜与 `lcut_audio_hold_over_next_s` 声桥，情绪高潮收束句落于近景特写而非退回全景；画内对白紧凑开口清晰咬字，心声严格闭唇隔离。"
         )
         with cf.ThreadPoolExecutor(max_workers=2) as pex:
             fa = pex.submit(propose_single_axis_candidate, axis_a, champ_files, bottlenecks, champ_telemetry, CAND_ROOT / cand_a_id)

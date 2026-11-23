@@ -1,6 +1,6 @@
 {
   "headers": {
-    "X-Task-Id": "71c9986d-1a89-4e70-a345-79a1f546a0db",
+    "X-Task-Id": "69e5f90f-f95b-4e00-a382-d8de9ff0eadc",
     "X-Model": "MiniMax-H3-Native-INT8",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
     "X-Steps": "14",
@@ -12,7 +12,7 @@
     "X-Frame0-Guide": "true",
     "X-Backend": "5090-local"
   },
-  "elapsed_s": 34.06,
+  "elapsed_s": 34.87,
   "seed": 910626,
   "requested_duration": 2,
   "actual_duration": 2.336,
@@ -21,7 +21,7 @@
   "has_audio": true,
   "ref_images_1k": [
     "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/val_02_scar_probe/keyframes_1k/clip_02_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/CHR_1_front_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/val_02_scar_probe/keyframes_1k/clip_03_CHR_1_expr_multiview_1k.png",
     "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/val/val_02_scar_probe/assets/PRP_1_1k.png"
   ],
   "ref_audios": [

@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Eye-level tight single close-up (CU) on CHR_1, 85mm cinema prime lens, shallow depth of field, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Tight close-up on <Subject 1> with tear-rimmed eyes leaning slightly closer in sunset rim light, confessing that he still firmly chose her.
+[keyframe completion + reference generation + audio reference] In a tight close-up, <Subject 1>—lashes still faintly damp after wiping her tears—delivers her cold, decisive reply that she never asked him to choose her, severing his remaining hope with an unflinching guarded gaze.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle organic handheld movement with a gentle push-in on <Subject 1> (S1) in tight close-up, gazing earnestly toward the right side of the frame. Seamlessly continuing his forward-leaning posture from clip_01, <Subject 1> (S1)'s tear-rimmed eyes glisten in the golden rim light; transitioning from restrained grievance into raw, imploring sincerity, his throat tightens visibly before he releases his confession with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.64s): <d>[Chinese] 可我还是选择了你。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a compact, heartfelt conversational pace with a warm vocal tremor and firm emphasis on the final words, holding an unblinking, vulnerable gaze afterward as his lips close naturally.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a tight single close-up on <Subject 1> (S1), her hand already lowered out of frame and her faintly damp lower lashes steady as she straightens her posture almost imperceptibly with defensive composure. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 可我，没让你选我。</d> Speaking in a calm, cold, resolute voice laced with defensive sting, <Subject 1> (S1) utters the opening words softly, takes a crisp, controlled micro-pause at the comma as her gaze hardens, and delivers the final clause with steady, cutting finality and clear, distinct lip and jaw articulation synced to every syllable, maintaining natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. From 2.20s-3.00s, <Subject 1> (S1) keeps lips naturally closed, holding a cool, unyielding stare off-camera left as warm sunset rim light glints along her hair.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless late-afternoon outdoor campus ambient bed with soft distant wind through foliage and portico acoustics, accompanied by a quiet emotional exhale and subtle collar movement.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady [Scene]-matched ambient room tone throughout the entire clip from 0.0s to 3.0s, maintaining uninterrupted semi-open campus corridor air and faint distant dusk breeze; subtle crisp breath before speech at 0.15s and faint knit cardigan fiber shift as she straightens her shoulders, settling into quiet open-air stillness after 2.2s, no subtle ambient air, no musical instruments.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

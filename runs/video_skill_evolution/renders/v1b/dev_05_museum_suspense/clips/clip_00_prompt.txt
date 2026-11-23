@@ -1,24 +1,28 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
-<Picture 3> is the reference prop (燃烧的纸质合同).
+<Picture 1> is the opening Medium two-shot, eye-level, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> (S2) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Picture 4> is the reference prop (燃烧的纸质合同).
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+<Audio 2> is the voice-timbre reference for <Subject 2> (S2).
 
 summary:
-[keyframe completion + reference generation + audio reference] Over CHR_2's fur-draped shoulder on the right foreground edge, <Subject 1> on the left outer side of the counter spots the burning contract and leans forward in startled urgency to question her.
+[keyframe completion + reference generation + audio reference] Across the dark wooden counter in the dim antique hall, <Subject 1> points in startled disbelief at the burning paper contract and questions <Subject 2>, who calmly replies that burning it makes the contract take effect.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+<Audio 2>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle organic handheld movement with a slight urgent push-in. Opening from the poised over-the-shoulder framing, <Subject 1> (S1) stands on the left outer side of the dark wooden counter facing right, his gaze dropping to the orange flames licking the edge of the white paper contract on the countertop before snapping sharply up toward <CHR_2> on the right. Startled disbelief surges into anxious urgency: <Subject 1> (S1) leans abruptly forward toward the counter, brows drawing inward, eyes widening, and his right hand lifting palm-up toward the burning paper in protest, displaying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 哎，你怎么烧掉了？</d>, speaking at a brisk, natural conversational pace with a sharp breath intake and rising incredulous inflection, featuring clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, before closing his lips naturally in tense expectation during the final 0.35s buffer while <CHR_2>'s white-fur-draped shoulder in the right foreground remains utterly still.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera on a 35mm cinema prime lens holds a steady medium two-shot across the antique wooden counter as small orange flames curl along the edge of the white paper contract between <Subject 1> (S1) on screen left and <Subject 2> (S2) on screen right. At 0.00s, <Subject 1> (S1) leans slightly forward across the outer edge of the counter with startled, anxious eyes fixed on the burning paper, raising his right hand slightly off the wood in an abrupt questioning gesture as he inhales sharply and speaks with urgent, bewildered disbelief; <Subject 1> (S1) speaks (0.16s-3.12s): <d>[Chinese] 哎，你怎么烧掉了？</d> with clear, distinct lip and jaw articulation synced to every syllable, while <Subject 2> (S2) stands poised on the inner side of the counter, keeps lips naturally closed, and watches the flame softly reflect before lifting her calm dark eyes to meet his gaze. Immediately at 1.50s, <Subject 1> (S1) keeps lips naturally closed while holding tense, searching eye contact and subtle brow furrow; <Subject 2> (S2) gently tilts her chin a fraction, resting her玉-bangled wrist lightly near the inner counter edge, and replies in a low, unhurried, enigmatic voice with measured breath pause after the first clause; <Subject 2> (S2) speaks (1.65s-3.55s): <d>[Chinese] 烧了，这合同才算生效。</d> with clear, distinct lip and jaw articulation synced to every syllable. From 3.55s to 4.00s, both <Subject 1> (S1) and <Subject 2> (S2) keep lips naturally closed as the flickering firelight plays across their faces, maintaining natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless low-resonance indoor room tone of a quiet vintage wooden antique hall, crisp soft crackling of burning paper flames, brisk fabric rustle of a utility shirt and canvas backpack strap as he leans forward, sharp natural breath intake.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady [Scene]-matched low-key wooden antique hall ambient room tone throughout the entire 4.0s clip, zero subtle ambient air, no musical instruments. Crisp, continuous soft crackling and gentle paper-curling hiss from the burning contract on the counter, layered with <CHR_1>'s sharp intake of breath and subtle canvas backpack strap and cotton sleeve rustle as he leans forward at 0.15s, followed by a faint velvet-and-fur rustle as <CHR_2> shifts her poise softly at 1.60s.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

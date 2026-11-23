@@ -1,20 +1,20 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Close-up (85mm cinema prime) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 
 summary:
-[keyframe completion + reference generation] In a tight close-up on screen-right, <Subject 1> freezes in mortified silence as CHR_1's stinging remark lands, left utterly speechless with nowhere to retreat.
+[keyframe completion + reference generation] Controlled slow push-in close-up on <Subject 1> as CHR_1's L-cut closing words land; <Subject 1>'s forced smile freezes stiffly into complete, mortified speechlessness.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 
 detailed_description:
-Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in on the established 180-degree axis. <Subject 1> keeps her lips naturally closed with no speaking or mouth movement; as the pointed remark lands, the last trace of her forced smile freezes and drains away, her brows drawing taut, eyes widening slightly in stung disbelief before darting downward-left with a shallow held breath and rigid jaw, landing cleanly on mortified, speechless silence. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Controlled slow push-in moves smoothly and steadily toward <Subject 1>'s face on screen-right angled toward screen-left, maintaining her defined cheekbones, sculpted mandibular angle, natural 26-year-old skin pore detail, chestnut center-parted wavy long hair, gold square stud earrings, gold disc necklace, and cream-white bouclé tweed collar. Throughout the entire shot from 0.00s to 2.00s, <Subject 1> keeps lips naturally closed. As the lingering tail of the previous remark lands over the opening beat, <Subject 1>'s forced polite expression freezes instantly—her jaw muscles tighten beneath her cheeks, her breath catches subtly in her chest, and her eyes waver away downward-left toward her desk in cornered mortification, rendered completely speechless without a single word to retort. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous quiet open-plan office ambient room tone with soft ventilation hum, a faint shallow breath intake, and subtle clothing stillness.), zero loud background noise, zero music.
+Quiet non-vocal room tone and subtle physical foley only (Continuous steady spatial office room tone from 0.0s to end without dropouts or silence gating, layered with subtle distant open-plan office ventilation hum and synchronized near-field foley of a faint caught breath through the nose and a tiny stiff shift against the mesh chair backrest.); strictly zero human speech, zero vocals, zero murmuring, zero music.
 
 non_diegetic_music:
 N/A

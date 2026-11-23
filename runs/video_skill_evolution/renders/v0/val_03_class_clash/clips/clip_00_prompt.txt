@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Medium close-up (MCU), eye-level front-angle favoring screen-right, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Seated in the right-side driver's seat, <Subject 1> grips the steering wheel and lunges furiously toward the side window, cursing out loud after being humiliated.
+[keyframe completion + reference generation + audio reference] Seated in the right-side driver's seat, <Subject 1> lunges slightly against his seatbelt and glares fiercely toward the window while barking an explosive curse after being spat on.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera with subtle handheld tension from the front cabin angle. <Subject 1> (S1), seated on the right in the driver's seat with both hands gripping the three-spoke steering wheel, jolts forward toward the side window in a sudden burst of humiliated rage, brows fiercely furrowed behind his gold polygonal glasses and jaw tensed. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 你他妈的！</d> with explosive force and crisp lip-sync matching every syllable, slapping his right palm sharply against the steering wheel rim as his chest heaves in anger.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a medium close-up of <Subject 1> (S1) seated in the right-side driver's seat inside the luxury black sedan cabin. Immediately upon entry, <Subject 1> (S1) jerks his upper torso forward in explosive humiliation, knuckles whitening around the three-spoke steering wheel while his brows knit sharply behind his gold-rimmed glasses and veins tense along his neck as he glares toward the side window. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 你他妈的！</d> with crisp, forceful lip-sync matching every syllable. Right after the outburst, his chest heaves sharply once as his jaw clenches tight in lingering fury.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Muffled daytime city street ambiance outside the car window, creak of leather upholstery, sharp slap of a palm against the steering wheel, heavy furious breathing.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Muffled daytime city street ambience inside an insulated car cabin, sharp leather seat creak, tight friction of hands gripping the leather steering wheel.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up on CHR_1, eye-level cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up on CHR_1, eye-level, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Over CHR_2's blurred right-foreground shoulder, a subtle push-in captures <Subject 1> delivering the solemn back-to-back one-hundred-step breakup ultimatum as a probing test of his feelings.
+[keyframe completion + reference generation + audio reference] Over CHR_2's blurred right-foreground shoulder, <Subject 1> locks a solemn, probing gaze on him and proposes walking a hundred steps back-to-back to part ways forever as an emotional test.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in at eye level in an over-the-shoulder medium close-up favoring <Subject 1> (S1) on screen-left facing right, with <CHR_2>'s out-of-focus dark-navy coat shoulder and beanie edge stationary in the right foreground. Holding <CHR_2>'s gaze with solemn, probing eyes that mask a quiet plea beneath firm resolve, <Subject 1> (S1) speaks (0.16s-4.05s): <d>[Chinese] 我们背对背走100步，考虑清楚了，从此不再相见</d> with crisp, natural Mandarin lip-sync aligned precisely to each syllable. As she speaks, her fingers subtly tighten against her rust-red knit scarf and coat lapel, a faint tremor flickering at the corner of her eyes before she steadies her chin at 2.90s.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in an eye-level over-the-shoulder medium close-up framing <Subject 1> (S1) on left-center facing right, with the softly out-of-focus dark navy coat shoulder of <CHR_2> anchored in the extreme right foreground. Holding a steady, solemn gaze tinged with vulnerable testing intent, <Subject 1> (S1) draws a quiet breath and speaks immediately with clear, unhurried syllable-accurate lip sync, her fingers tightening subtly against the lapel of her off-white coat. <Subject 1> (S1) speaks (0.16s-4.05s): <d>[Chinese] 我们背对背走100步，考虑清楚了，从此不再相见</d> From 3.65s to 4.00s, <Subject 1> (S1) closes her lips gently and holds unwavering, searching eye contact toward the right, waiting tensely for his reaction.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Quiet cold wind brushing past the park trees, subtle wool fabric friction as fingers grip the coat lapel, and distant muted riverside air ambience.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Quiet overcast park ambience, gentle cold wind brushing through bare tree branches, and faint rustle of knitted wool scarf fabric.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

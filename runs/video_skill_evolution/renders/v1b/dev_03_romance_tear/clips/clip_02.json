@@ -1,6 +1,6 @@
 {
   "headers": {
-    "X-Task-Id": "5613aca8-28d2-4b9d-b6f9-286055278d05",
+    "X-Task-Id": "c01427f8-66cc-4594-8765-e61e2bec7c3e",
     "X-Model": "MiniMax-H3-Native-INT8",
     "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
     "X-Steps": "14",
@@ -12,7 +12,7 @@
     "X-Frame0-Guide": "true",
     "X-Backend": "5090-local"
   },
-  "elapsed_s": 32.52,
+  "elapsed_s": 33.56,
   "seed": 911226,
   "requested_duration": 2,
   "actual_duration": 2.336,
@@ -21,9 +21,9 @@
   "has_audio": true,
   "ref_images_1k": [
     "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v1b/dev_03_romance_tear/keyframes_1k/clip_02_1k.png",
-    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v1b/dev_03_romance_tear/keyframes_1k/clip_03_CHR_2_expr_multiview_1k.png"
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v1b/dev_03_romance_tear/keyframes_1k/clip_3_CHR_1_expr_multiview_1k.png"
   ],
   "ref_audios": [
-    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/voices/CHR_2.wav"
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/voices/CHR_1.wav"
   ]
 }

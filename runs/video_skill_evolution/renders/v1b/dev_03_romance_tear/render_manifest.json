@@ -2,13 +2,13 @@
   "scene_plan": {
     "clips": [
       {
-        "camera_framing": "Over-the-shoulder medium close-up",
-        "clip_id": "clip_01",
-        "clip_summary": "Over-the-shoulder medium close-up on CHR_2 standing on the left facing right past CHR_1's blurred shoulder, questioning her in a low, trembling voice with reddened eyes.",
-        "detailed_action_and_dialogue": "Subtle slow push-in over the softly out-of-focus foreground shoulder on the right frame edge toward <CHR_2> on the left. Continuing seamlessly from his tense upright stance, <CHR_2> gazes rightward with reddened, glistening eyes and furrowed inner brows; as suppressed grievance rises in his chest, he leans slightly forward with a quiet catch in his breath, letting hurt and earnest questioning surface across his expression with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_2> speaks (0.20s-2.60s): <d>[Chinese] 有没有可能，我也遇上了更好的，</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace in a low, subtly trembling voice with expressive breath pauses and aching inflection, before holding an expectant gaze as his jaw subtly tightens at the end of the phrase.",
-        "duration_s": 3,
+        "camera_framing": "Eye-level over-the-shoulder medium close-up (OTS MCU) on CHR_2 over CHR_1's right foreground shoulder, 50mm cinema prime lens, shallow depth of field, locked-off static camera",
+        "clip_id": "clip_1",
+        "clip_summary": "Framed over CHR_1's softly defocused right shoulder, CHR_2 confronts her with reddened, tear-glistening eyes, confessing in a low, trembling voice that he met someone better yet still chose her.",
+        "detailed_action_and_dialogue": "Locked-off static camera in an eye-level over-the-shoulder medium close-up on <CHR_2>, with <CHR_1>'s softly defocused shoulder silhouette breathing subtly on the right foreground edge. From 0.00s-0.20s, <CHR_2> gazes intently off-camera right at <CHR_1> with reddened, tear-glistening eyes and gently knitted inner brows, taking a quiet, shaky breath. <CHR_2> speaks (0.20s-4.50s): <d>[Chinese] 有没有可能，我也遇上了更好的，可我还是选择了你。</d> Delivering the confession in a low, slightly trembling voice heavy with aggrieved restraint and earnest longing, <CHR_2> leans his upper torso forward a fraction on the middle clause, pauses naturally for a brief catch of breath at each comma, and places heartfelt weight on the final words with clear, distinct lip and jaw articulation synced to every syllable, maintaining natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. From 4.50s-5.00s, <CHR_2> keeps lips naturally closed, chest rising softly as his glistening eyes hold an imploring stare off-camera right.",
+        "duration_s": 5,
         "focus_expression_ref": {
-          "ocular_brow_cue": "subtle cinematic 45% intensity aggrieved expression with lips naturally closed, inner brows gently drawn together, reddened glistening eyes with taut lower eyelids and restrained sorrow in upper cheeks",
+          "ocular_brow_cue": "Subtle 45% cinematic restrained heartbreak with closed lips: slightly reddened tear-glistening eyes, gently knitted inner brows, soft tension across upper cheeks, earnest aggrieved gaze without facial contortion",
           "role_id": "CHR_2"
         },
         "foreground_silhouette_role_ids": [
@@ -16,10 +16,10 @@
         ],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "Cinematic live-action still, Over-the-shoulder medium close-up on the front side of the 180-degree axis. Softly out-of-focus foreground shoulder and dark-brown hair of [CHR_1] in an off-white chunky-knit cardigan on the right frame edge. [CHR_2], a 21-year-old East Asian man with fluffy short black hair in a light sky-blue stand-collar shirt, stands left-of-center in three-quarter front view facing and gazing toward the right side of the frame. Matching background spatial elements from [Scene] showing gray-white concrete portico columns opening onto distant campus green trees and walkway with natural shallow depth of field, illuminated by warm low-angle golden sunset backlight and rim light contrasting with cool gray shadows, free of duplicate or mirrored background structures. Anatomically accurate, poised opening expression with reddened glistening eyes, gently knitted brows, and relaxed lips poised just before speaking, no text, subtitles, or watermarks.",
-        "lcut_audio_hold_over_next_s": 0.4,
+        "keyframe_prompt": "Eye-level over-the-shoulder medium close-up (OTS MCU), shot on a 50mm cinema prime lens with shallow depth of field and natural optical bokeh roll-off, framed over the softly defocused foreground left shoulder and dark-brown hair edge of [CHR_1] on the far right of the frame. [CHR_2], a 21-year-old East Asian man with fluffy black layered short hair and clean natural skin texture wearing a light sky-blue stand-collar long-sleeve shirt, stands on the left-center of the frame facing right, eyeline directed slightly off-camera right toward [CHR_1]. Behind [CHR_2], consistent with [Scene], softly blurred grey-white concrete corridor pillars open onto distant campus trees, lush greenery, and a pedestrian walkway bathed in warm golden sunset light. Dimensional key-to-fill lighting contrast with warm amber late-afternoon side-backlight grazing [CHR_2]'s hair and cheek against cool grey architectural shadow fill, realistic fabric weave and skin pores, [CHR_2]'s eyes subtly reddened and glistening with restrained emotion, inner brows gently drawn, lips naturally poised just before speaking, clean cinematic frame, zero text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0.5,
         "prop_ids": [],
-        "soundscape": "Continuous seamless late-afternoon outdoor campus ambient bed with gentle breeze rustling distant leaves and subtle semi-open concrete corridor acoustics, layered with a quiet unsteady breath intake and faint cotton shirt rustle as he leans forward.",
+        "soundscape": "Continuous, steady [Scene]-matched ambient room tone throughout the entire clip from 0.0s to 5.0s, featuring gentle open-air campus corridor atmosphere and faint evening breeze rustling distant foliage; subtle soft breath intake at 0.15s and faint cotton shirt collar rustle at 2.1s as the speaker leans slightly forward, no BGM, no musical instruments.",
         "speaking_role_ids": [
           "CHR_2"
         ],
@@ -28,70 +28,42 @@
         ]
       },
       {
-        "camera_framing": "Over-the-shoulder medium close-up",
-        "clip_id": "clip_02",
-        "clip_summary": "Reverse over-the-shoulder medium close-up on CHR_1 listening silently as CHR_2's voice trails over the cut, her guarded poise cracking as tears well up and slip past her lashes.",
-        "detailed_action_and_dialogue": "Subtle slow push-in past the softly out-of-focus foreground shoulder on the left frame edge onto <CHR_1> on the right. <CHR_1>'s lips remain naturally closed throughout with zero lip movement or mouthing, listening intently as the trailing resonance of his words washes over her. Starting from a guarded stillness, her inner brows draw softly together in sudden emotional ache; her eyes shimmer with moisture, blinking once as a clear tear spills past her lower lashes and her chest rises in a quiet, shaky inhale, conveying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion, before she subtly stiffens her chin to fight back the rising vulnerability.",
+        "camera_framing": "Eye-level angled two-shot medium close-up (MCU) along the 180-degree axis favoring CHR_1 in three-quarter frontal focus on the right with CHR_2 in side profile on the left, 50mm cinema prime lens, locked-off static camera",
+        "clip_id": "clip_2",
+        "clip_summary": "As the lingering echo of CHR_2's confession lands, CHR_1's eyes brim with sudden tears in momentary heartache before she inhales sharply, swallows her vulnerability, and briskly wipes the tear from her cheek while CHR_2 watches silently on the left.",
+        "detailed_action_and_dialogue": "Locked-off static camera in an angled two-shot medium close-up keeping <CHR_2> in side profile on screen left and favoring <CHR_1> in sharp three-quarter frontal focus on screen right; both <CHR_1> and <CHR_2> keep lips naturally closed throughout the entire clip. From 0.00s-0.85s, as the L-cut vocal tail of <CHR_2>'s confession resonates over the cut, <CHR_1>'s lashes flutter and her eyes well with sudden glistening tears of momentary emotional wavering, a single tear slipping past her lower lid while <CHR_2> on the left watches her intently with soft blinking, parted-then-closed lips, and breath-held pleading tension. From 0.85s-2.00s, <CHR_1> inhales quietly through her nose, swallows hard to force down her heartache, and lifts her right fingertips cleanly to her upper cheek to swiftly brush away the tear without occluding her mouth, her brow settling into guarded resolve with natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw.",
         "duration_s": 2,
-        "focus_expression_ref": {
-          "ocular_brow_cue": "subtle cinematic 45% intensity tearful vulnerability with lips naturally closed, softly knitted inner brows, moist glistening eyes brimming with unshed tears and tender tension across upper cheeks",
-          "role_id": "CHR_1"
-        },
-        "foreground_silhouette_role_ids": [
-          "CHR_2"
-        ],
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "Cinematic live-action still, reverse Over-the-shoulder medium close-up strictly maintaining the master 180-degree axis. Softly out-of-focus foreground shoulder of [CHR_2] in a light sky-blue shirt on the left frame edge. [CHR_1], a 20-year-old East Asian woman with shoulder-length dark-brown hair, wearing an off-white chunky-knit cardigan over a dark-brown square-neck camisole with a dark-brown leather underarm bag strap on her shoulder, stands right-of-center facing and gazing toward the left side of the frame. Matching background spatial elements from [Scene] showing metal-framed transparent glass double entrance doors and cool gray concrete portico shadow behind her with warm sunset reflections and natural shallow depth of field, free of duplicate or mirrored structures. Seamless posture continuation, anatomically accurate poised silent reaction with moist glistening eyes and lips naturally closed, no text, subtitles, or UI marks.",
+        "keyframe_prompt": "Eye-level asymmetrical two-shot medium close-up (MCU), camera shifted 35 degrees toward the front side of the 180-degree axis on a 50mm cinema prime lens with shallow depth of field and natural optical bokeh roll-off. On the left edge of the frame, [CHR_2] in his light sky-blue stand-collar shirt stands in slightly softer side profile facing right, watching intently with reddened eyes and closed lips. Favored in crisp focus on the right two-thirds of the frame facing three-quarters left, [CHR_1], a 20-year-old East Asian woman with clear natural skin texture and long straight dark-brown hair with subtle soft waves wearing a cream-white chunky-knit cardigan over a dark-brown square-neck camisole with a dark-brown leather underarm bag strap on her shoulder, looks toward [CHR_2] with sudden glistening tears brimming along her lower lashes, inner brows subtly quivering in fleeting vulnerability, lips naturally closed. Behind them in [Scene], metal-framed transparent glass double doors on the right and grey-white concrete corridor columns catch warm golden sunset rim light against cool dusk shadows, clean cinematic frame, zero text, no subtitles, no watermark.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [],
-        "soundscape": "Continuous seamless late-afternoon outdoor campus ambient bed with gentle breeze and semi-open portico room tone, layered with a delicate, trembling catch of breath and faint knitwear rustle.",
+        "soundscape": "Continuous, steady [Scene]-matched ambient room tone throughout the entire clip from 0.0s to 2.0s, preserving seamless semi-open corridor air and distant campus evening breeze; quiet nasal inhale at 0.85s, soft knit sleeve rustle at 1.1s, and delicate fingertip brush against skin at 1.4s as the tear is wiped away, no BGM, no musical instruments.",
         "speaking_role_ids": [],
         "visible_role_ids": [
-          "CHR_1"
-        ]
-      },
-      {
-        "camera_framing": "Close-up",
-        "clip_id": "clip_03",
-        "clip_summary": "Tight close-up on CHR_2 with tear-rimmed eyes leaning slightly closer in sunset rim light, confessing that he still firmly chose her.",
-        "detailed_action_and_dialogue": "Subtle organic handheld movement with a gentle push-in on <CHR_2> in tight close-up, gazing earnestly toward the right side of the frame. Seamlessly continuing his forward-leaning posture from clip_01, <CHR_2>'s tear-rimmed eyes glisten in the golden rim light; transitioning from restrained grievance into raw, imploring sincerity, his throat tightens visibly before he releases his confession with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_2> speaks (0.20s-1.65s): <d>[Chinese] 可我还是选择了你。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a compact, heartfelt conversational pace with a warm vocal tremor and firm emphasis on the final words, holding an unblinking, vulnerable gaze afterward as his lips close naturally.",
-        "duration_s": 2,
-        "focus_expression_ref": {
-          "ocular_brow_cue": "subtle cinematic 50% intensity imploring heartache with lips naturally closed, furrowed inner brows, glistening tear-rimmed eyes gazing earnestly with slight tension in lower eyelids and cheekbones",
-          "role_id": "CHR_2"
-        },
-        "foreground_silhouette_role_ids": [],
-        "include_scene_plate_in_keyframe": true,
-        "inner_os": null,
-        "keyframe_prompt": "Cinematic live-action still, tight Close-up strictly on the front side of the 180-degree axis. [CHR_2] is framed slightly left-of-center from upper collar to head, facing and gazing earnestly toward the right side of the frame in seamless continuation of head angle and forward-leaning posture from clip_01. Matching softly blurred background spatial elements from [Scene] featuring a gray-white concrete portico pillar edge and warm golden late-afternoon sunset rim light filtering through distant campus green foliage bokeh, free of duplicate or phantom objects. Anatomically accurate, poised opening expression with reddened, tear-rimmed eyes full of aching sincerity and relaxed natural lips poised to speak, clean live-action frame with no text or watermarks.",
-        "lcut_audio_hold_over_next_s": 0,
-        "prop_ids": [],
-        "soundscape": "Continuous seamless late-afternoon outdoor campus ambient bed with soft distant wind through foliage and portico acoustics, accompanied by a quiet emotional exhale and subtle collar movement.",
-        "speaking_role_ids": [
-          "CHR_2"
-        ],
-        "visible_role_ids": [
+          "CHR_1",
           "CHR_2"
         ]
       },
       {
-        "camera_framing": "Close-up",
-        "clip_id": "clip_04",
-        "clip_summary": "Tight close-up on CHR_1 swallowing her heartache and briskly wiping away her tear before cutting off his hope in a cold, decisive tone.",
-        "detailed_action_and_dialogue": "Static camera in tight close-up on <CHR_1> facing leftward. Seamlessly continuing from clip_02 with faintly red-rimmed, glistening eyes and her right hand poised near her cheek, <CHR_1> briskly brushes away the tear trace with her fingertips over the opening beat while swallowing hard, extinguishing her fleeting sorrow into a cold, defensive stillness as she lowers her hand cleanly; her steady, detached gaze locks leftward with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_1> speaks (0.20s-1.65s): <d>[Chinese] 可我，没让你选我。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a crisp, measured pace with a brief piercing pause after the opening words and cool, decisive finality, her lips closing firmly into a composed line at the end.",
-        "duration_s": 2,
+        "camera_framing": "Eye-level tight single close-up (CU) on CHR_1, 85mm cinema prime lens, shallow depth of field, locked-off static camera",
+        "clip_id": "clip_3",
+        "clip_summary": "In a tight close-up, CHR_1—lashes still faintly damp after wiping her tears—delivers her cold, decisive reply that she never asked him to choose her, severing his remaining hope with an unflinching guarded gaze.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a tight single close-up on <CHR_1>, her hand already lowered out of frame and her faintly damp lower lashes steady as she straightens her posture almost imperceptibly with defensive composure. <CHR_1> speaks (0.20s-2.20s): <d>[Chinese] 可我，没让你选我。</d> Speaking in a calm, cold, resolute voice laced with defensive sting, <CHR_1> utters the opening words softly, takes a crisp, controlled micro-pause at the comma as her gaze hardens, and delivers the final clause with steady, cutting finality and clear, distinct lip and jaw articulation synced to every syllable, maintaining natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. From 2.20s-3.00s, <CHR_1> keeps lips naturally closed, holding a cool, unyielding stare off-camera left as warm sunset rim light glints along her hair.",
+        "duration_s": 3,
         "focus_expression_ref": {
-          "ocular_brow_cue": "subtle cinematic 45% intensity guarded cold resolve with lips naturally closed, faint lingering redness around steady detached eyes, level composed brows, and taut restrained upper cheeks",
+          "ocular_brow_cue": "Controlled 45% cinematic guarded resolve with closed lips: faintly damp lower lashes, steady cool gaze, subtly tightened lower eyelids and firm neutral brow, restrained defensive poise across upper cheeks",
           "role_id": "CHR_1"
         },
         "foreground_silhouette_role_ids": [],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "Cinematic live-action still, tight Close-up strictly on the front side of the 180-degree axis. [CHR_1] is framed slightly right-of-center from upper cardigan shoulders to head, facing and gazing steadily toward the left side of the frame in seamless continuation from clip_02, with faintly red-rimmed moist eyes, a delicate tear trace on her cheek, and her right fingertips raised gracefully beside her cheekbone poised to wipe away the tear. Matching softly blurred background spatial elements from [Scene] showing metal-framed glass double entrance doors and cool gray concrete portico shadow contrasted with warm golden sunset rim light along her dark-brown hair, free of duplicate or mirrored background elements. Anatomically accurate, poised guarded expression with natural facial proportions poised just before speaking, no text, subtitles, or watermarks.",
+        "keyframe_prompt": "Eye-level tight single close-up (CU) of [CHR_1], shot on an 85mm cinema prime lens with shallow depth of field and creamy natural optical bokeh roll-off. [CHR_1], a 20-year-old East Asian woman with natural skin texture, long dark-brown hair with soft waves, wearing a cream-white chunky-knit cardigan over a dark-brown square-neck camisole, is framed on the right-center with her eyeline directed slightly off-camera left toward [CHR_2]. Behind [CHR_1], strictly matching [Scene]'s right-side geometry, softly defocused metal-framed transparent glass double doors and cool grey-white concrete wall reflect warm amber sunset highlights. Dimensional key-to-fill lighting contrast with low-angle golden sunset rim light outlining her hair and shoulder against cool corridor shadow fill, faintly damp lower eyelashes after wiping away tears, steady guarded eyes, firm composed brows, lips naturally poised at the onset of cold speech, clean cinematic frame, zero text, no subtitles, no watermark.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [],
-        "soundscape": "Continuous seamless late-afternoon outdoor campus ambient bed with gentle breeze and quiet corridor room tone, layered with the soft brush of fingertips against skin, faint chunky-knit sleeve rustle as her hand lowers, and a quiet controlled breath.",
+        "soundscape": "Continuous, steady [Scene]-matched ambient room tone throughout the entire clip from 0.0s to 3.0s, maintaining uninterrupted semi-open campus corridor air and faint distant dusk breeze; subtle crisp breath before speech at 0.15s and faint knit cardigan fiber shift as she straightens her shoulders, settling into quiet open-air stillness after 2.2s, no BGM, no musical instruments.",
         "speaking_role_ids": [
           "CHR_1"
         ],
@@ -100,22 +72,20 @@
         ]
       }
     ],
-    "master_blocking_prompt": "Cinematic live-action wide-medium master blocking still in 16:9 aspect ratio, single coherent 3D spatial layout and natural perspective faithful to [Scene], free of duplicate, mirrored, or phantom background structures and objects. Outside the university academic building entrance under the semi-open gray-white concrete pillared portico transition zone, establishing a strict 180-degree line of action from the front side: [CHR_2] (21-year-old East Asian man, clean natural skin texture, fluffy short black hair, light sky-blue stand-collar long-sleeve shirt and off-white casual trousers) stands on the left facing rightward; [CHR_1] (20-year-old East Asian woman, clear light makeup, shoulder-length dark-brown straight hair with soft ends, off-white chunky-knit long-sleeve cardigan over a dark-brown square-neck fitted camisole, high-waisted slim dark-brown midi skirt, dark-brown leather underarm shoulder bag on one shoulder) stands at close confrontation distance on the right facing leftward toward [CHR_2], with her back toward the metal-framed transparent glass double entrance doors on the right. Beyond the open portico columns on the left and rear background are lush campus green trees and a paved walkway. Low-angle late-afternoon warm golden sunset backlighting and side-rim lighting stream in from the open campus side, creating dramatic warm-cool contrast against the cool gray architectural concrete shadows, natural shallow-to-medium depth of field, zero text, subtitles, watermarks, or borders.",
-    "scene_summary": "Under the sunset-lit concrete portico outside a university academic building, CHR_2 confronts CHR_1 with reddened eyes, confessing that he met someone better yet still chose her; moved to tears for a fleeting moment, CHR_1 suppresses her heartache, wipes away her tear, and coldly severs his hope."
+    "master_blocking_prompt": "Wide establishing master blocking shot in 16:9 aspect ratio set in [Scene], a semi-open grey-white concrete pillared corridor transition zone outside a university academic building at sunset. Strictly establishing the 180-degree camera axis from the front corridor side: [CHR_2] (a 21-year-old East Asian man with fluffy black short hair, wearing a light sky-blue stand-collar long-sleeve shirt and cream-white casual trousers) stands on the left side of the frame facing right; [CHR_1] (a 20-year-old East Asian woman with long dark-brown softly waved hair, wearing a cream-white chunky-knit cardigan over a dark-brown square-neck fitted camisole, dark-brown high-waisted midi skirt, and a dark-brown leather underarm shoulder bag) stands close opposite him on the right side of the frame facing left in tense face-to-face confrontation. Spatial background landmarks are locked to the axis: behind [CHR_1] on the right are the metal-framed transparent glass double doors of the academic building; behind [CHR_2] on the left and extending into the deeper background beyond the grey-white concrete columns are lush campus trees, greenery, and a pedestrian walkway. Illuminated by low-angle warm golden sunset backlight and side-backlight casting warm amber rim highlights across both characters' hair and shoulders, contrasting with cool grey architectural shadows in the covered corridor, natural 35mm cinema lens perspective, realistic skin and fabric textures, clean cinematic frame, zero text, no subtitles, no border, no watermark.",
+    "scene_summary": "Outside a university academic building corridor at golden sunset, CHR_2 confronts CHR_1 with tear-glistening restraint, confessing he still chose her despite meeting someone better; moved to tears for a fleeting instant, CHR_1 forces down her heartache, wipes away her tear, and severs his hope in a tight close-up with a cold, decisive rejection."
   },
   "stitch_meta": {
-    "clip_count": 4,
+    "clip_count": 3,
     "visual_cuts": [
-      2.017,
-      3.392,
-      4.809
+      3.875,
+      5.25
     ],
     "lcut_holds": [
-      0.4,
-      0.0,
+      0.5,
       0.0,
       0.0
     ],
-    "total_duration_s": 6.917
+    "total_duration_s": 7.333
   }
 }

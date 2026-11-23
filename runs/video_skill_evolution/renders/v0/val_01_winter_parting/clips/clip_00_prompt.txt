@@ -1,26 +1,26 @@
 subject_definitions:
-<Picture 1> is the opening Medium two-shot, eye-level perpendicular to the 180-degree sightline axis cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
-<Subject 2> (S2) is the man matching the exact facial identity and outfit in <Picture 3>.
+<Picture 1> is the opening Medium two-shot, eye-level, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> (S2) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 <Audio 2> is the voice-timbre reference for <Subject 2> (S2).
 
 summary:
-[keyframe completion + reference generation + audio reference] In a medium two-shot on the chilly riverside park walkway, <Subject 1> on the left tries to calm the argument with restrained composure, while <Subject 2> on the right immediately snaps back in frustrated defiance.
+[keyframe completion + reference generation + audio reference] In a medium two-shot on the park walkway, <Subject 1> on the left tries to calm the argument with a restrained plea, and <Subject 2> on the right immediately snaps back in frustrated defiance.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 <Audio 2>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static eye-level camera in a medium two-shot preserving the 180-degree axis on the cold riverside walkway. <Subject 1> (S1) stands on screen-left facing right, lifting one hand slightly near her chest in a restrained, pleading gesture while keeping her voice measured; <Subject 1> (S1) speaks (0.16s-2.75s): <d>[Chinese] 都冷静一下</d> with clear, accurate lip-sync matching every Mandarin syllable while <Subject 2> (S2) stands on screen-right facing left with lips pressed tight and brows furrowed. Almost immediately at 1.25s, <Subject 1> (S1) presses her lips closed with a tense swallow as <Subject 2> (S2) tilts his chin forward in wounded irritation and retorts; <Subject 2> (S2) speaks (1.25s-2.85s): <d>[Chinese] 都这样了还冷静什么</d> with sharp, accurate syllable-by-syllable lip-sync, accompanied by a frustrated slight shrug of his shoulders inside his navy wool coat.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in an eye-level medium two-shot preserving the 180-degree axis, with <Subject 1> (S1) on screen-left facing right and <Subject 2> (S2) on screen-right facing left in the autumn-winter riverside park. <Subject 1> (S1) leans slightly forward with restrained, pleading eyes, lifting one hand subtly from her coat side as she immediately speaks. <Subject 1> (S1) speaks (0.16s-2.75s): <d>[Chinese] 都冷静一下</d> While <Subject 1> (S1) speaks, <Subject 2> (S2) keeps his lips pressed shut with furrowed brows; the instant she finishes and closes her lips, <Subject 2> (S2) shifts his weight impatiently, tilts his chin slightly up in wounded, irritable defiance, and retorts with sharp lip-sync precision while <Subject 1> (S1) listens silently with closed lips. <Subject 2> (S2) speaks (1.20s-2.80s): <d>[Chinese] 都这样了还冷静什么</d>
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Soft chilly riverside breeze, faint rustle of dry autumn leaves across the lawn, subtle movement of wool coats, and natural outdoor park ambience.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Soft chilly riverside park breeze rustling dry leaves, faint distant water ambience, and subtle wool coat fabric rustle as the couple shifts stance on the asphalt path.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

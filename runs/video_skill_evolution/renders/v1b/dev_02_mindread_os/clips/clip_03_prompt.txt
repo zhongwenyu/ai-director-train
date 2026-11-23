@@ -1,22 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Close-up on CHR_2, eye-level, 85mm cinema prime lens, single measured optical push-in cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Tight close-up on <Subject 1> as his smugness shatters into wide-eyed shock, stammering half a sentence upon realizing his mind was truly read.
+[keyframe completion + reference generation + audio reference] Single motivated optical push-in close-up on <Subject 1> as his smugness shatters into stunned disbelief, stammering mid-sentence upon realizing CHR_1 truly read his mind.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in tightening on <Subject 1> (S1)'s face. Continuing from his seated angle on the left looking rightward, <Subject 1> (S1) stiffens abruptly—his lingering amusement completely vanishes as his eyes widen in sheer disbelief, pupils locking onto <CHR_1> while a sharp involuntary breath catches in his chest, delivering vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.09s): <d>[Chinese] 你居然真的……</d>, speaking with a stunned, breathless tremor and clear, natural full-range lip articulation precisely synced to each syllable before trailing off abruptly, remaining frozen in silent shock with slightly parted then stilled lips for the final beat.
+[Shot 1] Starting naturally from <Picture 1>, Executing the scene's single motivated camera movement, the 85mm camera performs a smooth, measured optical push-in from 0.00s to 2.00s onto a tight close-up of <Subject 1> (S1), preserving stable background perspective and consistent facial bone structure. <Subject 1> (S1) stares off-camera right at <CHR_1> in sudden, breathless shock—brows lifting, eyes widening slightly with focused pupils as all playful smugness vanishes, adhering to natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. Stiffening upright in his seat with a tiny stunned catch of breath at 0.08s, <Subject 1> (S1) speaks in a hushed, trembling, incredulous voice that trails off mid-thought, with clear, distinct lip and jaw articulation synced to every syllable. <Subject 1> (S1) speaks (0.16s-1.09s): <d>[Chinese] 你居然真的……</d> From 1.50s to 2.00s, <Subject 1> (S1) brings his lips softly closed in stunned silence, swallowing subtly as his unblinking gaze stays locked off-camera right.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless outdoor night street ambient bed with distant night traffic and soft wind through street trees, underscored by a sharp startled breath intake and sudden stillness of movement.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady outdoor night street barbecue stall ambient tone throughout the entire 2.0s clip, maintaining seamless charcoal sizzle and distant night street hum. A sudden quiet catch of breath from CHR_2 at 0.08s, faint fabric tension as his shoulders stiffen at 0.20s, and a soft audible swallow in the stillness at 1.65s; no subtle ambient air, no musical instruments.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

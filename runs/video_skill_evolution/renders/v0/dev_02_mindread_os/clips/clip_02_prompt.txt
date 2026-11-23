@@ -1,24 +1,22 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
-<Picture 3> is the reference prop (烤肉串与金属托盘).
+<Picture 1> is the opening Over-the-shoulder medium close-up favoring CHR_1 on screen-right over CHR_2's blurred left shoulder foreground silhouette cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Reverse over-the-shoulder shot on <Subject 1> on the right side of the table, directly calling out CHR_2's exact unspoken inner words with exasperated annoyance.
+[keyframe completion + reference generation + audio reference] <Subject 1> immediately retorts aloud and repeats CHR_2's exact unspoken phrase in exasperated offense, proving he heard every word of CHR_2's inner thought.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera in a reverse over-the-shoulder medium close-up favoring <Subject 1> (S1) on the right-center of the frame looking screen-left past the soft-focus left-foreground back-of-head and black-shirted shoulder silhouette of <CHR_2>. <Subject 1> (S1) knits his brows in mild offense and helpless exasperation, tilting his head slightly forward and opening his palm slightly over the table as he directly answers <CHR_2>'s unspoken thought. <Subject 1> (S1) speaks (0.16s-2.94s): <d>[Chinese] 能不能好好说话，什么叫认贼作父啊？</d> Crisp, accurate lip movements locked to each syllable, finishing with an annoyed blink and steady gaze toward <CHR_2>.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in an over-the-shoulder medium close-up past the soft-focus dark-shirted shoulder silhouette of <CHR_2> at the left foreground edge, focusing sharply on <Subject 1> (S1) on screen-right looking directly screen-left at <CHR_2>. <Subject 1> (S1) leans slightly forward with knitted brows and an offended, exasperated glare, speaking immediately. <Subject 1> (S1) speaks (0.16s-2.94s): <d>[Chinese] 能不能好好说话，什么叫认贼作父啊？</d> with crisp, accurate lip-sync matching every syllable and a slight incredulous tilt of his head on the final phrase.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Ambient night street murmur, subtle shift of plastic chair on wet asphalt, distant grill sizzle.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Quiet night street ambiance, soft rustle of cotton T-shirt fabric as CHR_1 leans forward against the plastic tabletop, and distant faint traffic noise.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

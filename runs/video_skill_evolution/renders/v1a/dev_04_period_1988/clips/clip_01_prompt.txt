@@ -1,22 +1,26 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
-<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+<Picture 1> is the opening Two-person medium shot (MS), profile-to-three-quarter confrontation angle shifted 45 degrees wider on the 180-degree safe side, 35mm cinema prime lens, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S2) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 2> (S1).
+<Audio 2> is the voice-timbre reference for <Subject 1> (S2).
 
 summary:
-[keyframe completion + reference generation + audio reference] Over-the-shoulder medium close-up past CHR_1 onto <Subject 1> standing in the floor space beside the wooden cabinet as she thrusts her open palm forward and snaps her demand for money.
+[keyframe completion + reference generation + audio reference] Having stepped onto the open floor beside the dark wooden cabinet, <Subject 2> thrusts her palm toward seated <Subject 1> to demand the money, jolting <Subject 1> out of his daze to acknowledge his promise.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Audio 1>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
+<Audio 2>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera maintaining crisp confrontational tension on the 180-degree axis. Framed past the softly blurred foreground-left shoulder silhouette of <CHR_1>, <Subject 1> (S1) stands firmly on screen-right facing off-camera left and thrusts her open right palm crisply forward at chest-waist height, brows drawn firmly together and eyes locked sharply on <CHR_1>. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 钱！</d>, delivering the single word in a sharp, urgent, resolute snap with clear, expressive lip-sync matching vocal intensity, then immediately keeps her lips naturally closed with no further mouth movement while holding her outstretched open palm and unyielding expectant gaze as <CHR_1>'s foreground shoulder shifts slightly upright in startled reaction.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera on a 35mm lens framing both characters across the 180-degree confrontation axis, maintaining <Subject 2> (S1)'s slender oval bone structure, low ponytail with wispy strands, and light greyish-tan homespun shirt on frame-right alongside <Subject 1> (S2)'s square-jawed bronzed profile and grey-brown work jacket seated on the kang edge on frame-left. Standing upright in the open space before the dark wooden cabinet facing frame-left, <Subject 2> (S1) thrusts her open right palm crisply toward <Subject 1> (S2) with clear jaw articulation as <Subject 2> (S1) speaks (0.16s-1.64s): <d>[Chinese] 钱！</d> delivered in a sharp, urgent, resolute demand, then keeps lips naturally closed from 0.50s onward while holding her hand steady and fixing an expectant gaze downward on him. Concurrently jolted out of his reverie after keeping lips naturally closed until 0.68s, <Subject 1> (S2) blinks rapidly, lifts his head toward frame-right and slightly upward to glance from her outstretched palm to her face, and <Subject 1> (S2) speaks (0.68s-1.58s): <d>[Chinese] 对哦，还要给你钱。</d> in a startled yet earnest tone of sudden realization with a brief breath pause after the opening interjection and clear jaw movement; from 1.58s to 2.00s both <Subject 1> (S2) and <Subject 2> (S1) keep lips naturally closed as <Subject 1> (S2) straightens his torso on the kang edge.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous quiet 1980s rural mud-brick bedroom room tone and faint daytime courtyard air through the wooden window, with subtle crisp coarse-cotton sleeve rustle as an arm extends.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous steady spatial room tone from start to end without dropouts or silence gating between lines, blended with gentle distant village daytime air outside the lattice window and crisp synchronous near-field foley of cloth sleeve snap as an arm extends, leather-soled shoe shifting on packed earth, and a quick startled intake of breath.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

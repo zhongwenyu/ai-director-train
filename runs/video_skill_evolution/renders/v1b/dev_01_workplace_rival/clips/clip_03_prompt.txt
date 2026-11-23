@@ -1,20 +1,20 @@
 subject_definitions:
-<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Eye-level tight close-up (85mm prime lens, locked-off static camera) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 
 summary:
-[keyframe completion + reference generation] Tight silent reaction close-up on <Subject 1> as CHR_1's L-cut remark lands; <Subject 1>'s forced smile freezes completely, leaving her mortified and utterly speechless.
+[keyframe completion + reference generation] Silent reaction close-up on <Subject 1> as the lingering L-cut tail of CHR_1's remark lands, leaving <Subject 1> stiff, mortified, and completely speechless.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 
 detailed_description:
-Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in. Continuing her seated posture at center-right facing frame left as the trailing words land, <Subject 1>'s lips remain naturally closed throughout with zero lip movement or mouthing, listening intently. Her forced half-smile freezes and collapses; her pupils subtly tremble in stunned mortification, her jaw and cheeks tighten as she draws a quiet sharp breath through her nose, and her gaze drops slightly downward-left in complete, defeated silence, rendered with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. In a tight silent reaction close-up, <Subject 1> keeps lips naturally closed throughout the entire clip (0.00s-2.00s) with zero speech or lip movement. As the pointed truth of the remark lands over the opening beat, <Subject 1>'s forced half-smile freezes and collapses into speechless mortification; her eyebrows subtly knit in deflated chagrin, she draws a quiet, stiff breath through her nose, and her chastened gaze drops slightly downward from off-camera left in utter defeat, completely unable to utter a single retort as her shoulders stiffen. Natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless indoor open-plan office room tone with soft air-conditioning hum, a faint sharp nasal inhale of embarrassment, and subtle tweed fabric tension rustle in awkward silence.), zero loud background noise, zero music.
+Quiet non-vocal room tone and subtle physical foley only (Continuous, steady open-plan office ambient room tone throughout the entire clip (0.0s-2.0s), featuring a soft consistent HVAC air-conditioning hum and distant muted room air. Synced with a quiet sharp nasal intake of breath at 0.3s and a faint tweed collar rustle as posture stiffens at 0.9s over the tense silence; no subtle ambient air, no musical instruments.); strictly zero human speech, zero vocals, zero murmuring, zero music.
 
 non_diegetic_music:
 N/A

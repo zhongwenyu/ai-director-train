@@ -1,24 +1,24 @@
 subject_definitions:
-<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 1> is the opening Over-the-shoulder medium close-up on CHR_2, eye-level, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
 <Picture 3> is the reference prop (桃子味饮料).
 <Audio 1> is the voice-timbre reference for <Subject 1> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Framed over her brother's left-foreground shoulder, the younger sister sweetly and openly offers him the peach-flavored drink.
+[keyframe completion + reference generation + audio reference] Over CHR_1's foreground shoulder, <Subject 1> sweetly and openly offers the peach-flavored drink to her brother.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
 <Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
 <Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Static camera in an over-the-shoulder medium close-up favoring <Subject 1> (S1) on the right over the softly blurred shoulder in the left foreground. <Subject 1> (S1) tilts her head slightly with an openly affectionate, playful smile, lifting the peach juice bottle a little closer toward the left as she speaks immediately with crisp, accurate lip movements matching every syllable. <Subject 1> (S1) speaks (0.16s-1.64s): <d>[Chinese] 哥哥，桃子味的，给你。</d> Her eyes stay warmly fixed toward the left with sweet, unapologetic fondness.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in an over-the-shoulder medium close-up favoring <Subject 1> (S1) on screen-right over the softly blurred foreground shoulder silhouette of <CHR_1> on screen-left. <Subject 1> (S1) tilts her head slightly with bright, curved eyes full of unreserved fondness and nudges the peach drink bottle gently forward toward <CHR_1> with her right hand while cradling the other bottles against her chest. <Subject 1> (S1) speaks (0.16s-1.64s): <d>[Chinese] 哥哥，桃子味的，给你。</d> Her lip movements clearly and naturally match every syllable, ending with an expectant, sweet upward gaze at <CHR_1>.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Soft hallway ambience, gentle plastic bottle movement and light fabric rustle.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Soft indoor corridor ambience, subtle crinkle and light liquid slosh of a plastic juice bottle being offered forward.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

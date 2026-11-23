@@ -1,26 +1,26 @@
 subject_definitions:
-<Picture 1> is the opening Medium close-up two-shot cinema frame anchoring exact seating, lighting, and initial character pose.
-<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
-<Subject 2> (S1) is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 1> is the opening Locked-off static camera, eye-level angled two-shot medium shot (MS) across the front cabin favoring CHR_2 on the left, 35mm prime lens cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
 <Picture 4> is the reference prop (白色纸巾).
 <Audio 1> is the voice-timbre reference for <Subject 2> (S1).
 
 summary:
-[keyframe completion + reference generation + audio reference] Leaning rightward across the center console, Manshu (<Subject 2>) urgently dabs Shen Mingshan's (<Subject 1>) left cheek with the white tissue to soothe him before curling her lip in snobbish contempt at the delivery rider, while Shen Mingshan listens with closed lips in lingering disgust and takes the tissue into his own hand.
+[keyframe completion + reference generation + audio reference] Leaning rightward across the center console from the passenger seat, <Subject 2> urgently dabs <Subject 1>'s cheek with a white tissue while flattering him and belittling the delivery rider as <Subject 1> gradually turns toward her.
 
 retention_analysis:
 <Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
-<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
-<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
 <Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
 <Audio 1>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
 
 detailed_description:
 Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
-[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in. Seamless continuation from the preceding clip: <Subject 2> (S1) leans rightward from the left passenger seat across the console, gently pressing and dabbing <Subject 1>'s left cheek with the plain white folded tissue in coaxing, fawning urgency during her opening words, then pivoting midway into sharp, snobbish disdain with a slight mocking lift of her chin and narrowed scornful eyes as she disparages the delivery rider, showing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 2> (S1) speaks (0.16s-5.16s): <d>[Chinese] 哎，你，亲爱的，咱们不跟他一般见识，一个臭送外卖的能有什么素质。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace that shifts from sweet soothing breathiness to crisp, cutting condescension before her lips close naturally at 4.60s. On the right side in the driver's seat, <Subject 1>'s lips remain naturally closed, listening intently; he turns his head camera-left toward <Subject 2> (S1) with a disgusted grimace, lifts his left hand wearing the black leather-strap watch at 3.80s to take the white folded tissue from her fingers, and presses it against his cheek as his fury begins settling into haughty arrogance.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera framing an angled medium two-shot across the front cabin: <Subject 2> (S1) on screen-left leans earnestly rightward over the black center console toward <Subject 1> seated on screen-right at the steering wheel. Reaching up gently with her right hand holding a soft folded white tissue, <Subject 2> (S1) lightly dabs <Subject 1>'s left cheek and jawline while placing her left hand soothingly near his forearm. Shifting smoothly from anxious, affectionate coaxing on the opening words to a crisp, disdainful curl of the upper lip and narrowed eyes as she belittles her ex-husband, she speaks at a brisk, urgent coaxing pace with natural breath pauses at the commas and clear, distinct lip and jaw articulation synced to every syllable, maintaining natural anatomical facial mechanics, no grotesque facial contortion, bulging eyes, or unhinged jaw: <Subject 2> (S1) speaks (0.16s-5.16s): <d>[Chinese] 哎，你，亲爱的，咱们不跟他一般见识，一个臭送外卖的能有什么素质。</d> After 4.55s, <Subject 2> (S1) keeps her lips naturally closed with an attentive, appeasing gaze on him. Throughout the clip, <Subject 1> keeps his lips naturally closed, exhaling heavily through his nose as his stiff shoulders drop slightly; he blinks and turns his head leftward from the side window toward <Subject 2> (S1), his furious scowl easing into sulky, arrogant disgust as her flattery lands.
 
 overall_soundscape:
-Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless luxury car cabin room tone with subtle muffled outdoor street bed, soft paper tissue rustle gently dabbing skin, light sleeve fabric friction across the console, and natural conversational breath intakes.), zero loud background noise, zero music.
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous, steady luxury car cabin ambient tone blended with soft daytime urban street air throughout the entire 0.0s-5.0s clip, no subtle ambient air, no musical instruments; layered with quick clothing rustle as the passenger leans across the console, soft paper tissue lightly dabbing skin from 0.4s to 3.2s, and a heavy nasal exhale from the driver.), zero loud background noise, zero music.
 
 non_diegetic_music:
 N/A

@@ -1,0 +1,18 @@
+subject_definitions:
+<Picture 1> is the opening Extreme wide landscape shot, high vantage point, vertical 9:16 cinema frame anchoring exact seating, lighting, and initial character pose.
+
+summary:
+[keyframe completion + reference generation] Transitioning ten years forward accompanied by CHR_1's reflective silent reaction, golden sunrise beams pierce through a vast high-mountain sea of clouds framed by gnarled pines and craggy rocks.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a majestic vertical 9:16 extreme wide landscape shot high above rugged mountain peaks at dawn. No characters appear in frame. In the foreground, weathered craggy granite rocks and gnarled ancient pine branches stand resilient in the crisp mountain wind, their needles swaying subtly. Beyond them, a vast boundless sea of clouds surges and drifts slowly between towering distant peaks as warm golden sunrise rays break through the cloud layers, bathing the rolling mist and stone ridges in radiant amber-gold light to mark a solemn ten-year passage of time. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
+
+overall_soundscape:
+Quiet non-vocal room tone and subtle physical foley only (Deep high-altitude mountain wind sweeping softly through pine needles and across open stone cliffs, spacious natural mountain air ambience.); strictly zero human speech, zero vocals, zero murmuring, zero music.
+
+non_diegetic_music:
+N/A

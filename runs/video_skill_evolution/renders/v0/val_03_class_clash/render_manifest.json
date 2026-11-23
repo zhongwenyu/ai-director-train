@@ -2,18 +2,22 @@
   "scene_plan": {
     "clips": [
       {
-        "camera_framing": "Medium close-up",
+        "camera_framing": "Medium close-up (MCU), eye-level front-angle favoring screen-right, locked-off static camera",
         "clip_id": "clip_01",
-        "clip_summary": "Seated in the right-side driver's seat, CHR_1 grips the steering wheel and lunges furiously toward the side window, cursing out loud after being humiliated.",
-        "detailed_action_and_dialogue": "Static camera with subtle handheld tension from the front cabin angle. <CHR_1>, seated on the right in the driver's seat with both hands gripping the three-spoke steering wheel, jolts forward toward the side window in a sudden burst of humiliated rage, brows fiercely furrowed behind his gold polygonal glasses and jaw tensed. <CHR_1> speaks (0.20s-1.70s): <d>[Chinese] 你他妈的！</d> with explosive force and crisp lip-sync matching every syllable, slapping his right palm sharply against the steering wheel rim as his chest heaves in anger.",
+        "clip_summary": "Seated in the right-side driver's seat, CHR_1 lunges slightly against his seatbelt and glares fiercely toward the window while barking an explosive curse after being spat on.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a medium close-up of <CHR_1> seated in the right-side driver's seat inside the luxury black sedan cabin. Immediately upon entry, <CHR_1> jerks his upper torso forward in explosive humiliation, knuckles whitening around the three-spoke steering wheel while his brows knit sharply behind his gold-rimmed glasses and veins tense along his neck as he glares toward the side window. <CHR_1> speaks (0.20s-1.50s): <d>[Chinese] 你他妈的！</d> with crisp, forceful lip-sync matching every syllable. Right after the outburst, his chest heaves sharply once as his jaw clenches tight in lingering fury.",
         "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Knitted brows drawn sharply inward, fierce glaring eyes behind gold-rimmed glasses with tense lower eyelids and tightened cheek muscles, closed lips pressed firm in humiliated anger at 45% cinematic intensity",
+          "role_id": "CHR_1"
+        },
         "foreground_silhouette_role_ids": [],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "16:9 live-action cinematic medium close-up inside [Scene], angled from the front-left dashboard toward the right-side driver's seat along the established 180-degree axis. [CHR_1] sits on the right side in the dark red and black leather driver's seat, gripping the three-spoke steering wheel tightly with both hands, his upper body leaning slightly right toward the sunlit side window in explosive outrage, brows knitted behind thin gold polygonal glasses and mouth parting to curse. Soft natural daylight fills the cabin with warm green tree-lined city streets blurred outside the window, photorealistic skin texture, no text, no subtitles, no watermarks.",
+        "keyframe_prompt": "Medium close-up inside [Scene] luxury black sedan front cabin, [CHR_1] seated in the driver's seat on screen-right gripping the black three-spoke steering wheel with both hands, dark red and black leather headrest behind him, sunny tree-lined city street outside the window, [CHR_1] leaning slightly forward with fierce, humiliated anger in his eyes behind gold-rimmed polygonal glasses, natural soft cabin daylight, photorealistic live-action, clean frame with no text or watermark.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [],
-        "soundscape": "Muffled daytime city street ambiance outside the car window, creak of leather upholstery, sharp slap of a palm against the steering wheel, heavy furious breathing.",
+        "soundscape": "Muffled daytime city street ambience inside an insulated car cabin, sharp leather seat creak, tight friction of hands gripping the leather steering wheel.",
         "speaking_role_ids": [
           "CHR_1"
         ],
@@ -22,45 +26,50 @@
         ]
       },
       {
-        "camera_framing": "Medium shot",
+        "camera_framing": "Medium two-shot, front cabin dashboard angle, locked-off static camera",
         "clip_id": "clip_02",
-        "clip_summary": "In a front-cabin two-shot, CHR_2 leans right from the left passenger seat to wipe CHR_1's cheek with a white tissue while appeasing him and belittling the deliveryman.",
-        "detailed_action_and_dialogue": "Subtle push-in on the front-cabin two-shot maintaining the 180-degree axis. On screen-left in the passenger seat, <CHR_2> leans eagerly rightward across the black center console toward <CHR_1> on screen-right, gently resting one hand on his suited forearm while dabbing his cheek with the white folded facial tissue, her expression shifting from anxious, fawning tenderness to sneering contempt. <CHR_2> speaks (0.20s-4.80s): <d>[Chinese] 哎，你，亲爱的，咱们不跟他一般见识，一个臭送外卖的能有什么素质。</d> with clear, natural lip-sync matching every syllable. On screen-right, <CHR_1> turns his head leftward away from the window in lingering disgust, grimacing before taking the white tissue from <CHR_2>'s hand into his own.",
-        "duration_s": 5,
+        "clip_summary": "From the left passenger seat, CHR_2 leans right across the console to dab CHR_1's cheek with a white tissue while soothing him and sneeringly belittling the deliveryman.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a medium two-shot across the front cabin. On screen-left in the passenger seat, <CHR_2> leans earnestly rightward over the black center console toward <CHR_1> on screen-right, resting her left hand soothingly on <CHR_1>'s charcoal suit forearm while her right hand gently dabs <CHR_1>'s cheek with the folded white facial tissue. <CHR_2> speaks (0.20s-3.80s): <d>[Chinese] 哎，你，亲爱的，咱们不跟他一般见识，一个臭送外卖的能有什么素质。</d> shifting smoothly from urgent, fawning warmth as she looks into <CHR_1>'s eyes to a curled-brow sneer of class disdain on the second clause, with accurate syllable-by-syllable lip-sync. On screen-right, <CHR_1> keeps his lips pressed shut, turning his head slightly inward from the window as his breathing slows under her touch.",
+        "duration_s": 4,
+        "focus_expression_ref": null,
         "foreground_silhouette_role_ids": [],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "16:9 live-action cinematic medium two-shot inside [Scene] viewed from the front windshield dashboard perspective, strictly preserving the master 180-degree axis. On the left side in the front passenger seat, [CHR_2] leans rightward across the center console with an attentive, appeasing expression, holding [PRP_1] (a clean white square folded facial tissue) up against the cheek of [CHR_1], who sits on the right side in the driver's seat gripping the steering wheel with one hand while turning his tense, disgusted face slightly left toward [CHR_2]. Soft natural daylight illuminates the luxury two-tone leather cabin with sunlit green street trees and pale stone steps outside, clean frame, no text, no subtitles, no watermarks.",
+        "keyframe_prompt": "Medium two-shot from the front cabin perspective inside [Scene] luxury black sedan, [CHR_2] seated in the front passenger seat on screen-left leaning rightward across the black center console toward [CHR_1] seated in the driver's seat on screen-right, [CHR_2] holding [PRP_1] a clean folded pure white square facial tissue up toward [CHR_1]'s cheek while her left hand touches his suit sleeve in an urgent soothing gesture, [CHR_1] gripping the steering wheel with tense brows, soft natural daylight through windows, photorealistic, no subtitles or watermarks.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [
           "PRP_1"
         ],
-        "soundscape": "Quiet luxury car cabin tone, soft rustle of clothing and leather seats, gentle rubbing of soft paper tissue against skin.",
+        "soundscape": "Soft interior car cabin tone, gentle rustle of suit fabric as she leans across the console, light paper tissue dabbing sound.",
         "speaking_role_ids": [
           "CHR_2"
         ],
         "visible_role_ids": [
-          "CHR_1",
-          "CHR_2"
+          "CHR_2",
+          "CHR_1"
         ]
       },
       {
-        "camera_framing": "Over-the-shoulder medium close-up",
+        "camera_framing": "Over-the-shoulder medium close-up (OTS MCU) favoring CHR_1 on screen-right over CHR_2's left-foreground shoulder, locked-off static camera",
         "clip_id": "clip_03",
-        "clip_summary": "Over CHR_2's left foreground shoulder silhouette, CHR_1 finishes wiping his face in disgust and condescendingly mocks CHR_2's past taste in men.",
-        "detailed_action_and_dialogue": "Static over-the-shoulder camera looking past the soft-focus foreground shoulder silhouette of <CHR_2> on the far left toward <CHR_1> on screen-right. <CHR_1> rubs his cheek one final time in revulsion with the white folded tissue, lowers his hand irritably toward the center console, and narrows his eyes condescendingly behind his gold-rimmed glasses toward <CHR_2> on the left to reclaim his sense of superiority. <CHR_1> speaks (0.20s-2.80s): <d>[Chinese] 你也是瞎了眼，找了这么一个男人。</d> with sharp, accurate lip-sync matching every syllable, ending with a cold, disdainful curl at the corner of his lips.",
+        "clip_summary": "Wiping his own cheek with the white tissue in lingering disgust, CHR_1 casts a condescending sideways look left toward CHR_2 to mock her past taste in men.",
+        "detailed_action_and_dialogue": "Locked-off static camera in an over-the-shoulder medium close-up past the soft-focused shoulder silhouette of <CHR_2> on screen-left, focusing on <CHR_1> in the driver's seat on screen-right. Holding the folded white facial tissue in his left hand, <CHR_1> gives his cheekbone one brisk, disgusted wipe and lowers his hand toward his lap while angling his chin condescendingly down-left toward <CHR_2>, narrowing his eyes behind his glasses in haughty superiority. <CHR_1> speaks (0.20s-2.70s): <d>[Chinese] 你也是瞎了眼，找了这么一个男人。</d> with crisp, measured lip-sync and a cold mocking curl at the corner of his mouth.",
         "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Slightly raised inner brow with narrowed, condescending eyes behind gold-rimmed glasses, subtle upper-cheek tension and closed lips showing haughty disdain at 45% cinematic intensity",
+          "role_id": "CHR_1"
+        },
         "foreground_silhouette_role_ids": [
           "CHR_2"
         ],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "16:9 live-action cinematic over-the-shoulder medium close-up inside [Scene] from the front-left A-pillar angle, maintaining the 180-degree axis. On the far left foreground edge is the out-of-focus back-of-shoulder and long dark hair silhouette of [CHR_2] with her face unseen; on the right side of the frame in sharp focus sits [CHR_1] in the driver's seat angled leftward toward her, holding [PRP_1] (the white folded facial tissue) near his jaw with lingering revulsion and a condescending, mocking gaze behind his gold polygonal glasses. Natural daytime interior lighting with warm sunlit greenery outside the driver-side window, no text, no subtitles, no watermarks.",
+        "keyframe_prompt": "Over-the-shoulder medium close-up inside [Scene] luxury black sedan cabin, soft-focused dark hair and shoulder silhouette in the extreme left foreground, sharp focus on [CHR_1] seated in the driver's seat on screen-right holding [PRP_1] a pure white folded facial tissue near his jawline, [CHR_1] looking leftward with narrowed, condescending eyes behind gold-rimmed glasses, dark red and black leather seat and bright sunny street outside the side window, natural daylight, photorealistic, clean frame with no text.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [
           "PRP_1"
         ],
-        "soundscape": "Subtle interior cabin hum, crisp rustle of paper tissue being lowered, faint creak of leather armrest.",
+        "soundscape": "Subtle cabin ambience, brisk rub and crinkle of soft paper facial tissue against skin, slight leather armrest shift.",
         "speaking_role_ids": [
           "CHR_1"
         ],
@@ -69,20 +78,24 @@
         ]
       },
       {
-        "camera_framing": "Over-the-shoulder medium close-up",
+        "camera_framing": "Over-the-shoulder medium close-up (OTS MCU) favoring CHR_2 on screen-left over CHR_1's right-foreground shoulder, locked-off static camera",
         "clip_id": "clip_04",
-        "clip_summary": "Reverse over-the-shoulder past CHR_1's right foreground shoulder silhouette as CHR_2 coyly lowers her eyes and feigns meek regret to win his sympathy.",
-        "detailed_action_and_dialogue": "Subtle slow push-in on the reverse over-the-shoulder shot past <CHR_1>'s soft-focus charcoal-suited shoulder silhouette on the far right foreground toward <CHR_2> on screen-left. Facing rightward in the passenger seat, <CHR_2> softens her posture into coy, submissive contrition, lowering her eyelashes with a delicate pout and tilting her head gently as she leans slightly closer toward <CHR_1> to invite his protective sympathy. <CHR_2> speaks (0.20s-1.85s): <d>[Chinese] 那时候年轻嘛，不懂事。</d> with clear, gentle lip-sync matching every syllable, lifting her eyes upward toward <CHR_1> at the end with an affectionate, pleading look.",
+        "clip_summary": "Facing right toward CHR_1, CHR_2 tilts her head coyly and lowers her lashes in submissive, apologetic self-deprecation to win his sympathy.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a reverse over-the-shoulder medium close-up past the soft-focused charcoal suit shoulder silhouette of <CHR_1> on screen-right, focusing on <CHR_2> in the passenger seat on screen-left facing right. <CHR_2> tilts her head slightly inward, letting her lashes dip momentarily before lifting soft, pleading eyes toward <CHR_1> as her shoulders draw in with coy, submissive contrition. <CHR_2> speaks (0.20s-1.85s): <d>[Chinese] 那时候年轻嘛，不懂事。</d> in a gentle, coquettish rhythm with precise lip-sync, finishing with a subtle, compliant closed-lip half-smile seeking his favor.",
         "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Gently knitted inner brows with soft, pleading eyes and subtly lifted apple cheeks, closed lips in a coy apologetic expression at 40% cinematic intensity",
+          "role_id": "CHR_2"
+        },
         "foreground_silhouette_role_ids": [
           "CHR_1"
         ],
         "include_scene_plate_in_keyframe": true,
         "inner_os": null,
-        "keyframe_prompt": "16:9 live-action cinematic reverse over-the-shoulder medium close-up inside [Scene] from the front-right A-pillar angle, strictly preserving the 180-degree axis. On the far right foreground edge is the out-of-focus charcoal-grey suited back-of-shoulder silhouette of [CHR_1] with his face unseen; on the left side of the frame in sharp focus sits [CHR_2] in the dark red and black leather passenger seat turned facing right toward him, wearing a coy, submissive, slightly aggrieved expression with softened brows and parted lips. Soft natural daylight through the passenger window showing sunlit green street foliage and light-colored building steps outside, photorealistic skin texture, no text, no subtitles, no watermarks.",
+        "keyframe_prompt": "Reverse over-the-shoulder medium close-up inside [Scene] luxury black sedan cabin, soft-focused charcoal suit shoulder silhouette in the extreme right foreground, sharp focus on [CHR_2] seated in the front passenger seat on screen-left angled rightward, [CHR_2] tilting her head slightly with soft, coyly apologetic eyes and delicate silver stud earrings catching natural daylight, sunlit green street trees visible outside the passenger window, photorealistic live-action, no text or watermark.",
         "lcut_audio_hold_over_next_s": 0,
         "prop_ids": [],
-        "soundscape": "Soft quiet car cabin ambiance, gentle rustle of fabric as she leans slightly forward, light soft breath.",
+        "soundscape": "Quiet luxury car cabin room tone, faint distant daytime city breeze, subtle brush of knit top fabric as she tilts her shoulders.",
         "speaking_role_ids": [
           "CHR_2"
         ],
@@ -91,15 +104,15 @@
         ]
       }
     ],
-    "master_blocking_prompt": "16:9 live-action cinematic master two-shot inside [Scene], a luxury black sedan front cabin viewed from the front windshield and dashboard perspective to establish a consistent 180-degree spatial axis. The interior features dark red and black two-tone leather seats, a sleek black center console with a floating display screen, and a three-spoke steering wheel, bathed in soft, transparent natural daylight with warm sunlit green tree-lined city streets and light-colored building steps visible outside the windows. Seated on the right side in the main driver's seat is [CHR_1], an ~30-year-old East Asian man with natural skin texture, dark brown center-parted slightly wavy short hair, thin gold polygonal glasses, a charcoal grey notch-lapel suit jacket over a black crew-neck slim undershirt, and a black leather-strap mechanical watch on his left wrist, gripping the steering wheel with both hands. Seated on the left side in the front passenger seat is [CHR_2], an ~25-year-old East Asian woman with fair skin, refined light makeup, black side-parted long straight hair, small silver stud earrings, a light grey-brown slim long-sleeve cropped T-shirt over a white bandeau top, and light blue high-waisted loose jeans, turned facing rightward toward [CHR_1] in the driver's seat. Natural photorealistic cinematography, balanced interior-exterior exposure, zero text, zero subtitles, zero watermarks.",
-    "scene_summary": "Inside the front cabin of a luxury black sedan during daytime, CHR_1 (Shen Mingshan) erupts in rage from the right-side driver's seat after being spat on by a delivery rider. Seated in the left-side front passenger seat, CHR_2 (Manshu) quickly leans right to wipe his face with a white facial tissue, soothing his ego by sneering at her deliveryman ex-husband. Disgusted, CHR_1 condescendingly mocks CHR_2's past taste in men, and CHR_2 coyly feigns youthful naivety and submissive regret, shifting the tense humiliation into mutual flattery and intimate alignment."
+    "master_blocking_prompt": "Wide front-cabin establishing shot inside [Scene] luxury black sedan interior viewed from the front windshield/dashboard perspective, dark red and black two-tone leather front seats, black center console with floating display and three-spoke steering wheel, soft natural daylight illuminating the cabin with sunny green tree-lined city street and light-colored building steps outside the windows. Strictly following the spatial blocking, [CHR_1] sits in the driver's seat on the right side (screen-right) with both hands gripping the three-spoke steering wheel, while [CHR_2] sits in the front passenger seat on the left side (screen-left) with her body angled and facing rightward toward [CHR_1] in the driver's seat, establishing a unified 180-degree front-cabin eyeline axis. Natural live-action cinematography, clean frame with zero text and zero watermarks.",
+    "scene_summary": "Inside a luxury black sedan, CHR_1 erupts in humiliated rage after an altercation with a deliveryman; CHR_2 hurries to wipe his face with a white tissue while belittling her ex-husband to soothe him, prompting CHR_1 to mock her past taste before CHR_2 coyly submits to win his affection."
   },
   "stitch_meta": {
     "clip_count": 4,
     "visual_cuts": [
       2.333,
       8.0,
-      10.458
+      10.5
     ],
     "lcut_holds": [
       0.0,
@@ -107,6 +120,6 @@
       0.0,
       0.0
     ],
-    "total_duration_s": 12.417
+    "total_duration_s": 12.458
   }
 }
