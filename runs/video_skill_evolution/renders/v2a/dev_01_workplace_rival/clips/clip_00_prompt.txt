@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium two-shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Framed over CHR_2's blurred foreground shoulder on screen-right, intern <Subject 1> sits beside downcast colleague <Subject 2> on screen-left and steps in with a sweet, faux-polite rhetorical question challenging CHR_2's overbearing attitude.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle handheld camera breathing with a stable over-the-shoulder perspective, keeping the softly blurred cream-tweed left shoulder and chestnut hair edge steady in the extreme right foreground while focusing across the frosted glass desk partition on <Subject 1> (S1) and <Subject 2> on screen-left. At 0.00s, <Subject 1> (S1)—with her delicate oval face, clean tapered jawline, realistic 22-year-old skin texture, chin-length straight reddish-brown bob with wispy bangs, and crisp white pointed-collar shirt under a slim black knit cardigan—inhales lightly and leans subtly forward over the light-wood desk, her cardigansleeves creasing naturally. Starting with polite, bright poise, <Subject 1> (S1) speaks (0.20s-4.55s) in a sweet, crisp, deceptively deferential voice, pausing briefly after addressing her senior before lifting her pitch with faux-innocent curiosity on the question, maintaining clear, natural syllable-accurate lip sync: <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？</d> Mid-sentence, <Subject 1> (S1) tilts her head slightly as a sharp, ironic gleam surfaces in her bright almond eyes, closing her lips cleanly at 4.55s while holding an unblinking rightward gaze. Seated immediately beside her in a blue-and-white vertical-striped collared shirt with a neat black low ponytail and curtain bangs, <Subject 2> shifts her earnest eyes subtly from the desk toward <Subject 1> (S1) in quiet surprise and keeps lips naturally closed throughout, zero lip movement, communicating purely through eyes and subtle breathing.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent quiet modern open-plan office room tone with a soft, steady HVAC air-conditioning hum, layered with a light breath intake and subtle fine-knit fabric rustle as she leans forward.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

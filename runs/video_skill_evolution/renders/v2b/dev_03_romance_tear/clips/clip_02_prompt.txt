@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up, eye-level, matching reverse angle on the same side of the 180-degree axis framing CHR_2 left of center gazing off-frame right cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Tight close-up back on <Subject 1> with shimmering, red-rimmed eyes as he leans slightly forward and confesses that despite everything, he still firmly chose her.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in on <Subject 1> (S1) in a tight eye-level close-up. Leaning a fraction forward with raw, unguarded sincerity, <Subject 1> (S1) locks his glistening red-rimmed eyes off-frame right. <Subject 1> (S1) speaks (0.16s-1.64s): <d>[Chinese] 可我还是选择了你。</d> speaking with clear, natural syllable-accurate lip sync and vivid facial expression in an aching, emotionally choked voice with a fragile tremor that places heartfelt weight on the final words. As his lips close gently after the line, his brows remain knotted in desperate hope and vulnerability, waiting breathlessly for her answer.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Steady gentle evening campus breeze and quiet semi-open concrete portico ambience, subtle fabric shift as he leans forward, soft trembling exhale.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

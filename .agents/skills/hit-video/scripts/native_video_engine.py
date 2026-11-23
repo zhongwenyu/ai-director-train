@@ -155,7 +155,13 @@ def resolve_character_multiview_for_clip(
     base_png = Path(beat_spec["asset_files"][role_id])
     cu_anchor_png = base_png.parent / f"{role_id}_face_cu_1k.png"
     face_src_png = cu_anchor_png if cu_anchor_png.is_file() else base_png
-    ch_info = next((c for c in beat_spec.get("characters", []) if c["role_id"] == role_id), {})
+    all_chars = beat_spec.get("characters", [])
+    ch_idx, ch_info = next(
+        ((i, c) for i, c in enumerate(all_chars) if c["role_id"] == role_id),
+        (99, {}),
+    )
+    role_tier = str(ch_info.get("role_tier") or "").strip().lower()
+    is_primary_role = role_tier in ("primary", "lead", "main") or (role_tier == "" and ch_idx < 2)
     g_word = "woman" if ch_info.get("gender") == "female" else ("man" if ch_info.get("gender") == "male" else "person")
 
     # Ensure shared per-case 45-degree 0% neutral side view & default multiview exist atomically under lock
@@ -177,7 +183,8 @@ def resolve_character_multiview_for_clip(
     framing_low = str(clip_spec.get("camera_framing", "")).lower()
     is_tight_shot = any(k in framing_low for k in ("close", "mcu", "cu", "over-the-shoulder", "ots"))
     if (
-        isinstance(f_exp, dict)
+        is_primary_role
+        and isinstance(f_exp, dict)
         and f_exp.get("role_id") == role_id
         and str(f_exp.get("ocular_brow_cue") or "").strip()
         and is_tight_shot

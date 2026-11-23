@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up, eye-level seated height cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Over the senior staffer's foreground shoulder, the intern tilts her head with sparkling, honeyed irony and presses her rhetorical trap even higher.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in heightening the playful pressure. <Subject 1> (S1) tilts her head slightly with bright, curved eyes and gently arched brows, letting a lively, knowing smile widen across her cheeks as she leans lightly on her forearm at the desk. <Subject 1> (S1) speaks (0.16s-2.94s): <d>[Chinese] 那您应该是老板身边的得力助手吧？</d> speaking with clear, natural syllable-accurate lip sync in a bright, honeyed playful inflection that stresses key words with surgical irony, finishing with an innocent blink and poised, unblinking gaze toward the right foreground.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent quiet open-plan office room tone with soft ventilation hum, light sleeve brush against the smooth wooden desktop, gentle breath release at phrase end.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

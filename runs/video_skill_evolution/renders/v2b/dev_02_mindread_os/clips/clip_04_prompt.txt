@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Tight close-up on CHR_1, eye-level cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Matching close-up on <Subject 1> as his annoyance melts into quiet, lonely resignation, calmly confirming that he had already told the truth.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in on <Subject 1> (S1) capturing his quiet emotional vulnerability. Softening from exasperation into calm, solitary resignation, <Subject 1> (S1) speaks at 0.20s with clear, natural syllable-accurate lip sync in a low, gentle, slightly weary tone tinged with lonely honesty. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 都说了。</d> After his lips close naturally at 1.20s, <Subject 1> (S1) lets out a barely perceptible sigh that softens his shoulders, holding a steady, wistful gaze off-frame left under the warm lantern glow.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent night street-side open-air BBQ stall ambience with gentle charcoal grill sizzle, distant city traffic hum, soft evening breeze, and a quiet, resigned exhale.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

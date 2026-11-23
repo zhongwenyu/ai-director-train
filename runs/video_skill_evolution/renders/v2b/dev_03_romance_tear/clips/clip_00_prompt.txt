@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up, eye-level, camera on the front side of the 180-degree axis angled over the listener's blurred right shoulder on frame right toward CHR_2 positioned left of center cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Over-the-shoulder medium close-up on <Subject 1> standing under the colonnade as he begins his tear-restrained confession to CHR_1, questioning whether she realizes he also met someone better.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera holding a steady eye-level over-the-shoulder frame on <Subject 1> (S1) with the listener's blurred shoulder silhouette still in the right foreground. At the start, <Subject 1> (S1) fixes his reddened gaze intently off-frame right, drawing a shallow, unsteady breath as suppressed grievance rises across his brow. <Subject 1> (S1) speaks (0.16s-2.57s): <d>[Chinese] 有没有可能，我也遇上了更好的，</d> delivering the words in a low, husky voice trembling with restrained hurt and a brief choked pause at the comma, speaking with clear, natural syllable-accurate lip sync and vivid facial expression. As the clause lands, his inner brows tighten further and his chest rises subtly with held-back emotion while his eyes stay locked off-frame right.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Steady gentle evening campus breeze and quiet semi-open concrete portico ambience, subtle shaky breath intake, faint crisp shirt fabric rustle.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

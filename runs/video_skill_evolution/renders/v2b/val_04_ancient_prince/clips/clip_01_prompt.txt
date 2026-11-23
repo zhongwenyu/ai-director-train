@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot (MS), eye-level angle, 9:16 vertical cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Picture 4> is the reference prop (陶土泥人).
+
+summary:
+[keyframe completion + reference generation] At the wooden market stall, the girl admiring her chosen clay figurine hears the young master's call, perks up joyfully, and trots off toward him while the elderly artisan watches kindly.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Gentle pan right following character movement. Leaning over the wooden stall tabletop, <Subject 1> admires the small rustic yellow-brown clay figurine in her hands with closed lips; upon catching the lingering call from off-frame right, <Subject 1>'s eyes widen and brighten instantly with lively delight, her cheeks lifting into a radiant, sweet closed-lip smile. Straightening her posture briskly, <Subject 1> cradles the clay figurine carefully against her chest and breaks into a light, eager trot toward frame-right, her pink sheer wide sleeves fluttering softly, while <Subject 2> on the left remains naturally closed-lipped and watches her depart with a kindly, amused nod. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Steady open-air daylight breeze ambience with distant daytime market murmur, light touch of terracotta against wood, airy gauze sleeve flutter, and quick light footsteps on stone pavement.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

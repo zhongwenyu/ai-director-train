@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium two-shot, eye-level on the 180-degree safety axis cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> (S2) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+<Audio 2> is the voice-timbre reference for <Subject 2> (S2).
+
+summary:
+[keyframe completion + reference generation + audio reference] Standing face-to-face on the wintry riverside pathway, <Subject 1> pleads in a restrained voice for both of them to calm down, and <Subject 2> immediately snaps back in aggrieved frustration.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+<Audio 2>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera in a tight eye-level medium two-shot locking onto the tense confrontation. Immediately at the start, <Subject 1> (S1) leans forward slightly from the left with earnest, pleading eyes and speaks (0.16s-2.75s): <d>[Chinese] 都冷静一下</d>, speaking with clear, natural syllable-accurate lip sync in a restrained, gently imploring tone trying to defuse the argument, while <Subject 2> (S2) stands opposite on the right with lips closed, chest rising in an impatient breath as his brows knit tighter. Without letting the tension settle, <Subject 2> (S2) shifts his weight sharply, widens his eyes in wounded irritation, and retorts (1.25s-2.60s): <d>[Chinese] 都这样了还冷静什么</d>, speaking with crisp syllable-accurate lip sync in an agitated, aggrieved rhetorical cadence stressing the final words, while <Subject 1> (S1) closes her lips and stiffens subtly as his pushback lands, both holding locked eye contact through the final beat.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent cool outdoor riverside park ambience with gentle autumn-winter breeze, subtle wool coat fabric rustle, and a sharp intake of breath between spoken lines.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up (MCU), eye-level angle, 9:16 vertical cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Standing in the sunlit ancient market street ahead of the stall, the young master turns back warmly and calls out gently to urge the girl to catch up.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera. Standing in the sunlit street, <Subject 1> (S1) gazes toward off-frame left with attentive warmth; at 0.20s, his brows relax and a fond, doting smile softens his eyes and lips as <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 柳儿 快点</d> in a warm, gentle, unhurried tone with affectionate patience and clear, natural syllable-accurate lip sync. After finishing the words, <Subject 1> (S1) tilts his head slightly with lingering fondness, his chest rising softly with a calm breath as he waits for her response while light breeze stirs the loose hair strands beside his temples.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Steady open-air daylight breeze ambience with soft lively ancient street market murmur in the distance, subtle silk robe rustle, and a gentle breath intake.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

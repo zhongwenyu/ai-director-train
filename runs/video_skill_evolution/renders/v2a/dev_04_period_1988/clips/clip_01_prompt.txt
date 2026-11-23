@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 2> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Now standing on the open floor beside the dark wooden cabinet on screen-right, the young woman thrusts her open hand forward to sharply demand money, snapping the young man out of his thoughts as he rises from the kang edge on screen-left.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Audio 1>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle handheld breathing in a 9:16 vertical Medium shot holding the 180-degree axis. On screen-right in front of the dark aged wooden cabinet, <Subject 2> (S1), with her delicate oval face, bare matte skin, low black ponytail with wispy side strands, and light grey-brown coarse cotton shirt, stands taut facing screen-left and thrusts her right open palm firmly forward toward <Subject 1>; after a quick 0.20s sharp breath intake, in a crisp, urgent, and unwavering voice, <Subject 2> (S1) speaks (0.16s-1.01s): <d>[Chinese] 钱！</d> with clear, natural syllable-accurate lip sync, snapping her lips firmly closed at 0.85s while holding her outstretched hand and unblinking gaze steady. On screen-left beside the floral-bedding earthen kang, <Subject 1>, in his distressed grey-brown workwear jacket over an off-white T-shirt with tousled short black hair and bronze skin, straightens up from the kang edge into a standing face-to-face stance oriented right, blinking sharply in startled awakening while <Subject 1> keeps his lips naturally closed throughout, zero lip movement, reacting purely through widened eyes and rising posture.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent quiet 1980s rural earthen-room ambient tone with soft muffled daylight air through the wooden window, layered with a brisk coarse-shirt sleeve rustle as an arm extends and subtle packed-earth floor scuffing as weight shifts.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

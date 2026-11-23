@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Picture 3> is the reference prop (燃烧的纸质合同).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Slow push-in medium close-up on <Subject 1> as the contract burns down to embers and she delivers an elegant, subtly intimidating welcome to the Ninth Private Museum.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in. Standing poised behind the counter as the contract settles into glowing embers, <Subject 1> (S1) lifts her chin slightly with graceful, commanding composure, a knowing, enigmatic half-smile blooming across her vintage red lips and warming her dark eyes with quiet dominance. <Subject 1> (S1) speaks (0.16s-2.94s): <d>[Chinese] 林先生，欢迎入职第九号私人博物馆。</d>, speaking with clear, natural syllable-accurate lip sync and vivid facial expression in a silky, poised, subtly intimidating cadence tinged with a faint knowing smile, inclining her head slightly on the welcome while locking an inescapable gaze off-frame left until her lips come to a calm rest.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent quiet, resonant wooden antique hall room tone, faint dying ember crackle on the wooden counter, delicate pearl necklace click, and soft fur shawl rustle.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

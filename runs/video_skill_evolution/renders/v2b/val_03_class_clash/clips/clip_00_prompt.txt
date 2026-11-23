@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up (MCU), eye-level three-quarter angle on right driver seat cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Seated in the right driver's seat, <Subject 1> glares furiously toward the side window and explodes with an angry curse right after being humiliated.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera with taut dramatic focus. Seated in the right driver's seat, <Subject 1> (S1) jerks his upper torso slightly forward with both hands tightening sharply on the steering wheel, his eyes blazing with stung humiliation and explosive rage behind his thin gold-rimmed glasses as he glares toward the window on the right. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 你他妈的！</d>, barking out the curse in a raw, furious, breathless outburst with sharp vocal force, clear, natural syllable-accurate lip sync, and vivid indignant facial tension. Immediately after speaking, <Subject 1> (S1)'s chest heaves with a heavy breath and his jaw clenches in revulsion as he begins turning his head leftward toward the center console.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent quiet luxury car cabin room tone with muffled daytime city street ambience outside, sharp leather creak of hands gripping the steering wheel, forceful breath intake, subtle suit fabric rustle.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

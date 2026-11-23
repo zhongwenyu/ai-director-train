@@ -1,0 +1,52 @@
+{
+  "character_profiles": [
+    {
+      "bust_bbox_norm": [
+        0.03,
+        0.12,
+        0.97,
+        0.82
+      ],
+      "bust_frame_s": 22.1,
+      "face_cu_bbox_norm": [
+        0.38,
+        0.38,
+        0.62,
+        0.63
+      ],
+      "face_cu_frame_s": 22.1,
+      "role_id": "CHR_1",
+      "second_angle_bbox_norm": [
+        0.01,
+        0.1,
+        0.52,
+        0.82
+      ],
+      "second_angle_frame_s": 38.7
+    },
+    {
+      "bust_bbox_norm": [
+        0.51,
+        0.28,
+        0.98,
+        0.65
+      ],
+      "bust_frame_s": 4.3,
+      "face_cu_bbox_norm": [
+        0.28,
+        0.09,
+        0.9,
+        0.58
+      ],
+      "face_cu_frame_s": 36.1,
+      "role_id": "CHR_2",
+      "second_angle_bbox_norm": [
+        0.55,
+        0.28,
+        0.85,
+        0.58
+      ],
+      "second_angle_frame_s": 4.3
+    }
+  ]
+}

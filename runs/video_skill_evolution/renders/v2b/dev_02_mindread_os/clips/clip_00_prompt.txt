@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium two-shot across the dining table, eye-level seated perspective cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Picture 4> is the reference prop (烤肉串与金属托盘).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] At the night street-side BBQ table, <Subject 1> seated on the left playfully teases <Subject 2> seated on the right about bluffing, while <Subject 2> listens quietly across the grilled skewers tray.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera locking the balanced two-shot across the street-side table. At 0.20s, <Subject 1> (S1) on the left leans slightly forward over the table with raised playful brows and a bright, teasing grin, speaking with clear, natural syllable-accurate lip sync and a lively, lighthearted bantering tone tinged with amusement. <Subject 1> (S1) speaks (0.16s-2.57s): <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d> As <Subject 1> (S1) finishes the line, a relaxed chuckle lingers at the corners of his eyes while his hand rests casually near the table edge; across from him on the right, <Subject 2> keeps his lips naturally closed, blinking slowly with a quiet, unbothered gaze and a subtle breath shift as he takes in the joke.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent night street-side open-air BBQ stall ambience with gentle charcoal grill sizzle, distant city traffic hum, soft evening breeze, and subtle T-shirt fabric rustle as a arm shifts on the plastic tabletop.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A
