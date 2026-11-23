@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Subject 3> is the man matching the exact facial identity and outfit in <Picture 4>.
+<Picture 5> is the reference prop (桃子味饮料).
+
+summary:
+[keyframe completion + reference generation] In the sunlit hallway, <Subject 2> steps up facing <Subject 1> with bottles of peach juice while <Subject 3> approaches <Subject 1>'s left shoulder, accompanied by <Subject 1>'s wry inner monologue.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Subject 3>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 4>.
+<Picture 5>: fully_preserved - maintain single consistent rigid prop appearance.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in along the sunlit school corridor. <Subject 1> stands on screen-left facing right toward <Subject 2>, while <Subject 2> on screen-right cradles clear plastic peach juice bottles in her left arm and extends one bottle forward toward <Subject 1> with a bright, expectant gaze; simultaneously, <Subject 3> steps in from <Subject 1>'s left side and claps a friendly hand onto <Subject 1>'s left shoulder. <Subject 1>'s lips remain naturally closed throughout with zero lip movement or mouthing, transitioning from calm poise into a subtle wary furrow of his brows and a quiet无奈 exhale as he glances from the offered bottle to <Subject 3>'s hand, displaying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 2>'s lips remain naturally closed in a sweet smile, and <Subject 3>'s lips remain naturally closed with a curious grin. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless indoor school hallway room tone with faint distant outdoor playground air, layered with light sneaker footsteps on corridor tile, soft cotton fabric rustle as hand meets shoulder, and subtle plastic bottle clink.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

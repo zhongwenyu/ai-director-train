@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the man matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (桃子味饮料).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a tight two-shot, <Subject 1> leans in to tease <Subject 2> about his admirer's jealousy and hurriedly tugs <Subject 2> away toward the stairwell to move supplies.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle organic handheld movement panning slightly left with the action. Starting from his perch at <Subject 2>'s left shoulder, <Subject 1> (S1) leans in animatedly with gossipy, mischievous glee in his eyes behind his black-rimmed glasses, glancing teasingly toward screen-right before shifting into hurried urgency, gripping <Subject 2>'s left shoulder and sleeve to tug him toward the open stairwell door behind them. <Subject 1> (S1) speaks (0.16s-5.16s): <d>[Chinese] 苏小满追你大半年，你妹一来她脸都绿了，走走走老班叫咱俩去搬……</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, lively conversational pace with playful inflection turning into urgent, rapid-fire urging, showing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. Beside him holding the peach juice bottle, <Subject 2>'s lips remain naturally closed, reacting with an exasperated blink and reluctant stumble leftward as <Subject 1> (S1) pulls him along.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless indoor school hallway room tone, energetic breath intake, hoodie and shirt fabric tugging rustle, and brisk sneaker scuffs turning on the hallway floor.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

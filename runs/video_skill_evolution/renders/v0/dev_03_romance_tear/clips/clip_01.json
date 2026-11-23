@@ -1,0 +1,27 @@
+{
+  "headers": {
+    "X-Task-Id": "57ad29b7-83cf-456e-8a16-0ec54a6f39a1",
+    "X-Model": "MiniMax-H3-Native-INT8",
+    "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "X-Steps": "14",
+    "X-Sampler": "res_multistep",
+    "X-Resolution": "896x512",
+    "X-Duration": "2.336",
+    "X-Loras": "[]",
+    "X-SOL": "false",
+    "X-Frame0-Guide": "true",
+    "X-Backend": "5090-local"
+  },
+  "elapsed_s": 31.81,
+  "seed": 910213,
+  "requested_duration": 2,
+  "actual_duration": 2.336,
+  "width": 896,
+  "height": 512,
+  "has_audio": true,
+  "ref_images_1k": [
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v0/dev_03_romance_tear/keyframes_1k/clip_01_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/dev/dev_03_romance_tear/assets/CHR_1_front_1k.png"
+  ],
+  "ref_audios": []
+}

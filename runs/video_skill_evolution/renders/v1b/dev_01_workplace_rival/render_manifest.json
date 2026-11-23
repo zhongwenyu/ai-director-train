@@ -1,0 +1,122 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Over-the-shoulder medium two-shot",
+        "clip_id": "clip_01",
+        "clip_summary": "Over-the-shoulder medium two-shot past CHR_2 on the right frame edge toward CHR_1 and CHR_3 seated side-by-side; CHR_1 leans in slightly and delivers sweet, pointedly ironic flattery to defend CHR_3.",
+        "detailed_action_and_dialogue": "Subtle slow push-in. Seated side-by-side with <CHR_3> behind the light-wood office desk and frosted glass divider, <CHR_1> leans slightly forward toward frame right, tilting her head with polite, bright-eyed deference that transitions into a sweet, razor-sharp ironic smile as she gestures lightly with one open hand over the desk. <CHR_1> speaks (0.20s-4.65s): <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？那您应该是老板身边的得力助手吧？</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace with expressive breath pauses and crisp, honeyed emotional inflection, ending with a poised expectant arch of her brows. Beside her, <CHR_3>'s lips remain naturally closed throughout, listening intently as she glances from <CHR_1> toward frame right with quiet relief, maintaining vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion.",
+        "duration_s": 5,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed-lip sweet polite micro-smile with gently lifted apple cheeks, softly curved eye corners, and bright pointedly inquisitive gaze at 45% natural cinematic intensity",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action 16:9 over-the-shoulder medium two-shot in [Scene], strictly on the front side of the 180-degree line of action. On the right frame edge is the softly out-of-focus foreground shoulder and wavy chestnut hair silhouette of [CHR_2] in a cream tweed jacket. Across the light-wood office desk, black LCD monitors, keyboards, and translucent frosted glass divider, [CHR_1] (burgundy-brown chin-length straight bob with wispy bangs, white pointed-collar shirt under a black knit cardigan) sits at center-left and [CHR_3] (black low ponytail with curtain bangs, blue-and-white vertical-striped collared shirt) sits immediately beside [CHR_1] on the left in black mesh office chairs, both facing and gazing toward frame right. [CHR_1] holds an anatomically accurate, poised opening expression with a polite, bright-eyed micro-smile just about to speak, while [CHR_3] sits with lips naturally closed and a slightly wronged, attentive expression. Coherent 3D office background from [Scene] with neat workstation rows and potted green plants in natural shallow depth of field under cool white overhead lighting and soft daylight, zero duplicate structures, zero text, zero subtitles, zero watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous seamless indoor open-plan office room tone with soft air-conditioning hum, subtle brisk breath intake from the speaker, gentle knit cardigan fabric rustle, and faint ergonomic chair micro-shift.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_3"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder medium close-up",
+        "clip_id": "clip_02",
+        "clip_summary": "Reverse over-the-shoulder medium close-up past CHR_1 on the left frame edge onto CHR_2, who falters under the public flattery and awkwardly backtracks by claiming she was only joking.",
+        "detailed_action_and_dialogue": "Static camera. Seated across the desk monitor and frosted glass divider facing frame left, <CHR_2> stiffens as her prior poise evaporates into flustered embarrassment; her eyes flicker uneasily, she gives a quick, awkward throat-clearing shift of her chin, and forces a strained, face-saving half-smile while drawing slightly back into her chair and lightly brushing her fingers near her collar. <CHR_2> speaks (0.20s-1.60s): <d>[Chinese] 我开玩笑的。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace with expressive breath pauses and defensive, slightly deflated emotional inflection, before pressing her lips softly closed in uneasy tension, maintaining vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed-lip awkward strained composure with slightly stiffened apple cheeks, subtly drawn inner brows, and uneasy flickering gaze at 45% natural cinematic intensity",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_1"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action 16:9 reverse over-the-shoulder medium close-up in [Scene], strictly maintaining the 180-degree line of action. On the left frame edge is the softly out-of-focus foreground shoulder and burgundy-brown short bob silhouette of [CHR_1] in a black cardigan. At center-right across the light-wood desk, black LCD monitor, and translucent frosted glass partition sits [CHR_2] (chestnut-brown center-parted softly wavy long hair, cream-white tweed cropped jacket with gold round buttons, gold square stud earrings, and thin gold disc necklace) in a black mesh chair, facing and gazing toward frame left. Seamless continuation of seated posture from the preceding clip, with an anatomically accurate, poised opening expression of caught-off-guard awkwardness just before speaking. Matching opposite-side office background from [Scene] with softly defocused workstation rows and green plants under consistent cool white overhead light and soft natural daylight, zero duplicate structures, zero text, zero subtitles, zero watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous seamless indoor open-plan office room tone with soft air-conditioning hum, subtle dry breath intake before speaking, light tweed sleeve rustle, and soft chair mesh movement.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Medium close-up",
+        "clip_id": "clip_03",
+        "clip_summary": "Tight medium close-up on CHR_1 gazing right as she follows up with a breezy, smiling remark that directly exposes CHR_2's workplace bullying, holding an L-cut audio tail into the final reaction shot.",
+        "detailed_action_and_dialogue": "Subtle slow push-in. Continuing her poised forward lean at center-left facing frame right across her desk monitor, <CHR_1> catches the excuse with a light, knowing arch of her brows, her eyes sparkling with playful precision as she delivers her smiling verbal checkmate and punctuates the final phrase with a crisp, subtle nod. <CHR_1> speaks (0.20s-2.65s): <d>[Chinese] 知道的是开玩笑，不知道的，还以为您打压新人呢。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace with expressive breath pauses and breezy yet unyielding emotional inflection, settling into a calm, sweet closed-lip smile with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed-lip playful knowing smile with softly raised apple cheeks, lightly arched brows, and crisp penetrating amused eyes at 45% natural cinematic intensity",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action 16:9 medium close-up of [CHR_1] in [Scene], strictly maintaining the 180-degree line of action. [CHR_1] (burgundy-brown chin-length straight bob with wispy bangs, white pointed-collar shirt under a fitted black knit cardigan) is framed at center-left behind the edge of her black LCD monitor and frosted glass desk divider, body and gaze oriented consistently toward frame right in seamless continuation of head angle and posture from Clip 1. Anatomically accurate, poised opening expression with lightly arched brows and a bright, knowing micro-smile just before speaking. Matching softly defocused open-plan office background from [Scene] with neat workstations, black mesh chairs, and green plants under cool white overhead lighting and soft natural daylight, zero duplicate structures, zero text, zero subtitles, zero watermarks.",
+        "lcut_audio_hold_over_next_s": 0.5,
+        "prop_ids": [],
+        "soundscape": "Continuous seamless indoor open-plan office room tone with soft air-conditioning hum, crisp natural breath phrasing, and subtle desk-edge fabric friction.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Close-up",
+        "clip_id": "clip_04",
+        "clip_summary": "Tight silent reaction close-up on CHR_2 as CHR_1's L-cut remark lands; CHR_2's forced smile freezes completely, leaving her mortified and utterly speechless.",
+        "detailed_action_and_dialogue": "Subtle slow push-in. Continuing her seated posture at center-right facing frame left as the trailing words land, <CHR_2>'s lips remain naturally closed throughout with zero lip movement or mouthing, listening intently. Her forced half-smile freezes and collapses; her pupils subtly tremble in stunned mortification, her jaw and cheeks tighten as she draws a quiet sharp breath through her nose, and her gaze drops slightly downward-left in complete, defeated silence, rendered with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed-lip stunned mortification with tense flattened cheeks, slightly widened eyes, and stiffly held brows at 45% natural cinematic intensity",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action 16:9 tight close-up of [CHR_2] in [Scene], strictly maintaining the 180-degree line of action. [CHR_2] (chestnut-brown center-parted wavy long hair, cream-white tweed jacket with gold buttons, gold square stud earrings, and gold disc necklace) is framed at center-right behind the edge of her monitor and frosted glass divider, facing and gazing toward frame left in seamless continuation of head angle and posture from Clip 2. Anatomically accurate, poised opening expression with lips naturally closed and a strained, stiffening look as she listens intently. Matching shallow-depth-of-field office background from [Scene] under consistent cool white overhead light and soft natural daylight, zero duplicate structures, zero text, zero subtitles, zero watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous seamless indoor open-plan office room tone with soft air-conditioning hum, a faint sharp nasal inhale of embarrassment, and subtle tweed fabric tension rustle in awkward silence.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Cinematic live-action 16:9 medium-wide establishing still in [Scene], presenting a single coherent 3D spatial layout and natural perspective faithful to [Scene], free of duplicate, mirrored, or phantom background structures and objects. In a modern open-plan office workstation area with light-wood desks equipped with black LCD computer monitors, black keyboards, and a central translucent frosted glass desk partition, [CHR_1] (22-year-old East Asian woman, burgundy-brown chin-length straight bob with wispy bangs, white pointed-collar shirt under a black long-sleeve knit cardigan, dark bottoms) and [CHR_3] (25-year-old East Asian woman, black low ponytail with curtain bangs, blue-and-white vertical-striped collared shirt, dark bottoms) sit side-by-side in black mesh office chairs on the left side of the workstation desk facing right—[CHR_1] in the nearer foreground-left seat and [CHR_3] seated immediately beside her on the inner left—while [CHR_2] (26-year-old East Asian woman, chestnut-brown center-parted softly wavy long hair, cream-white tweed cropped jacket with gold round buttons over matching inner top, gold square stud earrings and thin gold disc necklace) sits directly opposite them in a black mesh chair on the right side of the desk facing left, conversing across the monitors and frosted glass divider. Establishes a single consistent 180-degree line of action from the front-side of the desk island, with neat rows of background workstations, black mesh chairs, and indoor green plants under consistent cool white overhead lighting blended with soft natural daylight, natural depth of field, anatomically accurate poised postures, zero text, zero subtitles, zero watermarks, and zero borders.",
+    "scene_summary": "In a modern open-plan office, intern CHR_1 steps up for her wronged colleague CHR_3 seated beside her, countering senior employee CHR_2 across the desk divider with sweet, polite backhanded flattery across a crisp 4-clip shot-reverse-shot montage (5s + 2s + 3s + 2s = 12s), forcing CHR_2 into an awkward excuse before leaving her completely speechless in a final L-cut reaction close-up."
+  },
+  "stitch_meta": {
+    "clip_count": 4,
+    "visual_cuts": [
+      7.375,
+      9.042,
+      12.834
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "total_duration_s": 14.25
+  }
+}

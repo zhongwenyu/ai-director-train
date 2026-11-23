@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up favoring CHR_2 cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (陶土泥人).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] <Subject 1> trots briskly up to CHR_1 and cheerfully holds up the rustic clay figurine like a treasure to show him.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in over <CHR_1>'s steady foreground right shoulder. Seamless continuation from the preceding clip as <Subject 1> (S1) completes a light, eager trot from left into position facing rightward toward <CHR_1>, her eyes sparkling with lively affection as she raises both hands to present the rustic yellow-brown clay figurine proudly at chest height, vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 少爷 你看</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, buoyant, affectionate pace with joyful breath inflection before settling into a radiant closed-lip smile as she tilts her head slightly upward awaiting his reaction.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Steady natural outdoor ancient market street ambient bed with gentle breeze, light brisk footsteps coming to a stop on stone, cheerful breath intake, and soft sheer-silk wide sleeve rustle.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

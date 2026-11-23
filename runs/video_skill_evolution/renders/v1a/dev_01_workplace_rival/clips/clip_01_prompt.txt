@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a reverse medium close-up on screen-right, senior employee <Subject 1> loses her smug composure under CHR_1's public flattery trap and awkwardly mutters that she was only joking.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera on the established 180-degree axis. Positioned on screen-right behind her workstation, <Subject 1> (S1) stiffens slightly in her black mesh chair, brushing her fingers briefly near the lapel of her cream tweed jacket before resting her hand tensely on the desk edge; her smugness evaporates into flustered embarrassment with subtly drawn brows, flickering eyes, and a thin, forced face-saving smile while looking off-camera left. <Subject 1> (S1) speaks (0.20s-1.65s) in a dry, slightly hurried, awkward tone trying to smooth things over: <d>[Chinese] 我开玩笑的。</d>, articulating clear, natural lip-sync for every syllable before pressing her lips together in stiff composure.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous quiet open-plan office ambient room tone with soft ventilation hum, subtle tweed jacket fabric rustle, and a slight chair shift.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

@@ -59,6 +59,7 @@ _VO_4070_LOCK = threading.Lock()
 _SPARK_STAGE_LOCK = threading.Lock()
 _SPARK_STAGED_CACHE: set[str] = set()
 _SPARK_IMG_SEM = threading.Semaphore(2)
+_MV_CACHE_LOCK = threading.Lock()
 
 
 def _get_vad_sess() -> ort.InferenceSession:
@@ -129,7 +130,9 @@ def _compose_multiview_sheet(left_neutral: Path, top_right: Path, bot_right: Pat
     canvas.paste(_fit(Image.open(top_right).convert("RGB"), 508, 508), (516, 0))
     canvas.paste(_fit(Image.open(bot_right).convert("RGB"), 508, 508), (516, 516))
     out_png.parent.mkdir(parents=True, exist_ok=True)
-    canvas.save(out_png, format="PNG", optimize=True)
+    tmp_out = out_png.with_name(f".{out_png.stem}.tmp.{os.getpid()}.{threading.get_ident()}.png")
+    canvas.save(tmp_out, format="PNG", optimize=True)
+    os.replace(tmp_out, out_png)
     return out_png
 
 
@@ -150,23 +153,25 @@ def resolve_character_multiview_for_clip(
          strictly preventing +10yr aging creases, wide-open mouth contamination, and dual-emotion chimeras!
     """
     base_png = Path(beat_spec["asset_files"][role_id])
+    cu_anchor_png = base_png.parent / f"{role_id}_face_cu_1k.png"
+    face_src_png = cu_anchor_png if cu_anchor_png.is_file() else base_png
     ch_info = next((c for c in beat_spec.get("characters", []) if c["role_id"] == role_id), {})
     g_word = "woman" if ch_info.get("gender") == "female" else ("man" if ch_info.get("gender") == "male" else "person")
 
-    # Ensure shared per-case 45-degree 0% neutral side view exists in case assets cache
+    # Ensure shared per-case 45-degree 0% neutral side view & default multiview exist atomically under lock
     side_neutral_png = base_png.parent / f"{role_id}_side45_neutral_1k.png"
-    if not side_neutral_png.is_file():
-        side_prompt = (
-            f"The {g_word} in <Picture 1> is <Subject 1>. "
-            "The target image shows a photorealistic live-action 45-degree three-quarter close-up studio portrait of <Subject 1> on pure white background RGB(255,255,255); "
-            "<Subject 1> is 100% preserved in exact facial bone structure, age, skin smoothness, hairstyle, and collar outfit from <Picture 1>, "
-            "with a calm 0% neutral expression and gently closed lips. Soft even studio lighting, zero text."
-        )
-        h3_generate_image_spark(side_prompt, [base_png], "1:1", side_neutral_png, seed=202650 + hash(role_id) % 97)
-
     default_mv = base_png.parent / f"{role_id}_neutral_multiview_1k.png"
-    if not default_mv.is_file():
-        _compose_multiview_sheet(base_png, base_png, side_neutral_png, default_mv)
+    with _MV_CACHE_LOCK:
+        if not side_neutral_png.is_file():
+            side_prompt = (
+                f"The {g_word} in <Picture 1> is <Subject 1>. "
+                "The target image shows a photorealistic live-action 45-degree three-quarter close-up studio portrait of <Subject 1> on pure white background RGB(255,255,255); "
+                "<Subject 1> is 100% preserved in exact individual facial bone geometry, true age, natural skin texture, hair structure, and collar outfit from <Picture 1>, "
+                "with a calm 0% neutral expression and gently closed lips. Soft even studio lighting, zero text."
+            )
+            h3_generate_image_spark(side_prompt, [face_src_png], "1:1", side_neutral_png, seed=202650 + hash(role_id) % 97)
+        if not default_mv.is_file():
+            _compose_multiview_sheet(base_png, face_src_png, side_neutral_png, default_mv)
 
     f_exp = clip_spec.get("focus_expression_ref")
     framing_low = str(clip_spec.get("camera_framing", "")).lower()
@@ -195,19 +200,19 @@ def resolve_character_multiview_for_clip(
         tr_prompt = (
             f"The {g_word} in <Picture 1> is <Subject 1>. "
             "The target image shows a front close-up portrait of <Subject 1> on pure white background RGB(255,255,255); "
-            "<Subject 1> preserves exact young/natural facial bone structure, smooth natural skin age, hair, and outfit from <Picture 1>, "
+            "<Subject 1> preserves 100% exact individual facial bone geometry, true age and natural skin texture, eye/brow/nose/lip proportions, hair structure, accessories, and collar outfit from <Picture 1>, "
             f"displaying a moderate, subtle, authentic live-action film micro-expression in the eyes, eyebrows, and cheeks ({cue}), "
             "with lips gently closed or poised naturally, zero exaggerated wrinkles, zero wide-open mouth, soft studio light, zero text."
         )
         br_prompt = (
-            f"The {g_word} in <Picture 1> is <Subject 1>. "
+            f"The {g_word} in <Picture 1> and <Picture 2> is <Subject 1>. "
             "The target image shows a 45-degree three-quarter close-up portrait of <Subject 1> on pure white background RGB(255,255,255); "
-            "<Subject 1> preserves exact facial bone structure, smooth natural skin age, hair, and outfit from <Picture 1>, "
+            "<Subject 1> preserves 100% exact individual facial bone geometry, 45-degree profile contour, true age and natural skin texture, eye/nose/lip proportions, hair structure, accessories, and collar outfit from <Picture 1> and <Picture 2>, "
             f"displaying the same subtle, natural filmic eye and brow micro-expression ({cue}), "
             "with lips gently closed, zero exaggerated creases, soft studio light, zero text."
         )
-        h3_generate_image_spark(tr_prompt, [base_png], "1:1", tr_p, seed=seed + 31)
-        h3_generate_image_spark(br_prompt, [base_png], "1:1", br_p, seed=seed + 37)
+        h3_generate_image_spark(tr_prompt, [face_src_png], "1:1", tr_p, seed=seed + 31)
+        h3_generate_image_spark(br_prompt, [face_src_png, side_neutral_png], "1:1", br_p, seed=seed + 37)
         return _compose_multiview_sheet(base_png, tr_p, br_p, mv_p)
 
     return default_mv
@@ -236,13 +241,15 @@ def generate_scene_blocking_master(
         rid = ch["role_id"]
         if rid not in asset_files:
             continue
-        refs.append(Path(asset_files[rid]))
+        base_r = Path(asset_files[rid])
+        mv_r = base_r.parent / f"{rid}_neutral_multiview_1k.png"
+        refs.append(mv_r if mv_r.is_file() else base_r)
         idx = len(refs)
         s_tok = f"<Subject {idx}>"
         sym_map[rid] = s_tok
         g_word = "woman" if ch.get("gender") == "female" else ("man" if ch.get("gender") == "male" else "person")
         defs.append(f"The {g_word} in <Picture {idx}> is {s_tok}.")
-        pres.append(f"{s_tok} is fully preserved in exact facial identity, hairstyle, and outfit from <Picture {idx}>")
+        pres.append(f"{s_tok} is fully preserved in exact individual facial bone geometry, true age, hair structure, and outfit from <Picture {idx}>")
 
     raw_mb = str(scene_plan.get("master_blocking_prompt") or beat_spec.get("initial_blocking") or "").strip()
     for sym, s_tok in sym_map.items():
@@ -286,7 +293,7 @@ def resolve_h3_image_keyframe_prompt_and_refs(
         sym_to_subj["Scene"] = s_tok
         part1_defs.append(f"The spatial seating arrangement, furniture geometry, and cinema lighting in <Picture {idx}> are {s_tok}.")
         part2_pres.append(
-            f"{s_tok} is partially preserved — strictly maintaining the exact relative seating/standing positions, 180-degree axis, immediate tabletop/desk objects or partitions in front of the character, and lighting while reframing the camera to the target shot size with natural shallow depth-of-field bokeh"
+            f"{s_tok} is used ONLY for spatial seating/standing topology, 180-degree gaze axis, tabletop objects, and cinema lighting (never copy blurry distant faces from <Picture {idx}>)"
         )
 
     vis_roles = [r for r in clip_spec.get("visible_role_ids", []) if r in asset_files]
@@ -302,9 +309,9 @@ def resolve_h3_image_keyframe_prompt_and_refs(
         sym_to_subj[r] = s_tok
         g = char_lookup.get(r, {}).get("gender", "")
         g_word = "woman" if g == "female" else ("man" if g == "male" else "person")
-        part1_defs.append(f"The {g_word} in <Picture {idx}> is {s_tok}.")
+        part1_defs.append(f"The {g_word} in the multi-view reference sheet <Picture {idx}> is {s_tok}.")
         part2_pres.append(
-            f"{s_tok} preserves exact facial identity, bone structure, hairstyle, and outfit from <Picture {idx}> while fitting naturally into the scene's spatial posture and gaze direction"
+            f"{s_tok} 100% preserves the individual close-up facial bone geometry, true age and natural skin texture, eye/brow/nose/lip proportions, hair/headwear structure, accessories, and exact outfit from <Picture {idx}> without homogenizing into a generic face"
         )
 
     for r in fg_roles:
@@ -425,8 +432,8 @@ def compile_h3_clip_payload(
         s_tag = f" {role_to_spk_tag[r]}" if r in role_to_spk_tag else ""
         c_info = char_lookup.get(r, {})
         gender_word = "woman" if c_info.get("gender") == "female" else ("man" if c_info.get("gender") == "male" else "person")
-        subj_lines.append(f"<Subject {s_idx}>{s_tag} is the {gender_word} matching the exact facial identity and outfit in <Picture {p_idx}>.")
-        ret_lines.append(f"<Subject {s_idx}>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture {p_idx}>.")
+        subj_lines.append(f"<Subject {s_idx}>{s_tag} is the {gender_word} matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture {p_idx}>.")
+        ret_lines.append(f"<Subject {s_idx}>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture {p_idx}> without generic face drift.")
 
     for p_id, p_idx in prop_to_pic_idx.items():
         p_info = prop_lookup.get(p_id, {})

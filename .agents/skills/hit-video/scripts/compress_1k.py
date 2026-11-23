@@ -2,6 +2,8 @@
 """Compress reference images proportionally so max(width, height) <= 1024 (1K) without modifying 2K originals."""
 import argparse
 import json
+import os
+import threading
 from pathlib import Path
 from PIL import Image
 
@@ -12,6 +14,7 @@ def compress_image_to_1k(src_path: Path, dst_path: Path, max_side: int = 1024) -
     src_path = Path(src_path)
     dst_path = Path(dst_path)
     dst_path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_dst = dst_path.with_name(f".{dst_path.stem}.tmp.{os.getpid()}.{threading.get_ident()}{dst_path.suffix}")
     with Image.open(src_path) as im:
         orig_w, orig_h = im.size
         mode = "RGBA" if im.mode in ("RGBA", "LA") else "RGB"
@@ -28,9 +31,10 @@ def compress_image_to_1k(src_path: Path, dst_path: Path, max_side: int = 1024) -
                 bg = Image.new("RGB", work.size, (255, 255, 255))
                 bg.paste(work, mask=work.split()[3])
                 work = bg
-            work.save(dst_path, quality=95, optimize=True)
+            work.save(tmp_dst, quality=95, optimize=True)
         else:
-            work.save(dst_path, format="PNG", optimize=True)
+            work.save(tmp_dst, format="PNG", optimize=True)
+    os.replace(tmp_dst, dst_path)
     assert max(new_w, new_h) <= max_side, f"Failed 1K limit: {new_w}x{new_h}"
     return {
         "src": str(src_path),

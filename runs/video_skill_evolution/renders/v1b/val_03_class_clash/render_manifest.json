@@ -1,0 +1,123 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Medium two-shot",
+        "clip_id": "clip_01",
+        "clip_summary": "In the luxury black sedan front cabin, Shen Mingshan (CHR_1) in the right driver's seat grips the steering wheel and erupts in humiliated rage after being spat on, while Manshu (CHR_2) in the left passenger seat flinches in alarm and reaches toward him with a clean white folded tissue.",
+        "detailed_action_and_dialogue": "Subtle organic handheld movement. Seated on the right in the driver's seat, <CHR_1> jerks his upper torso slightly forward with both hands tightening around the three-spoke steering wheel, transitioning from stunned humiliation into an explosive outburst of rage with glaring eyes behind his gold-rimmed polygonal glasses and tense jaw muscles, displaying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_1> speaks (0.20s-1.55s): <d>[Chinese] 你他妈的！</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, shouting at a sharp, explosive pace with a heavy angry breath and closing his lips in a tight scowl by the end of the shot. Seated on the left in the front passenger seat facing right, <CHR_2>'s lips remain naturally closed throughout with zero mouthing; she flinches slightly at his outburst, brows drawing together in urgent concern as she leans rightward across the center console raising the plain white folded tissue toward his cheek.",
+        "duration_s": 2,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic 16:9 live-action medium two-shot inside the luxury black sedan front cabin faithful to [Scene], maintaining a single coherent 3D spatial layout along the master 180-degree line of action, free of duplicate or mirrored car structures. On the right side of the frame in the driver's seat, [CHR_1] grips the three-spoke steering wheel with both hands, leaning slightly tense and poised on the verge of an angry outburst with knitted brows behind his thin gold-rimmed polygonal glasses, anatomically accurate facial structure, and natural poised opening mouth state. On the left side of the frame in the front passenger seat, [CHR_2] sits angled rightward facing [CHR_1] across the black center console and floating display, holding a clean plain white folded square tissue [PRP_1] in her right hand at chest height, startled concern in her eyes and lips naturally closed. Dark red and black two-tone leather seats, soft daytime cabin lighting, sunlit green city street trees and pale stone steps visible outside the windows. Clean frame, zero text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Continuous seamless luxury car cabin room tone blended with muffled daytime city street ambience outside the windows, sharp angry breath intake, tight leather steering wheel grip friction, and crisp leather seat creak as bodies shift.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Medium close-up two-shot",
+        "clip_id": "clip_02",
+        "clip_summary": "Leaning rightward across the center console, Manshu (CHR_2) urgently dabs Shen Mingshan's (CHR_1) left cheek with the white tissue to soothe him before curling her lip in snobbish contempt at the delivery rider, while Shen Mingshan listens with closed lips in lingering disgust and takes the tissue into his own hand.",
+        "detailed_action_and_dialogue": "Subtle slow push-in. Seamless continuation from the preceding clip: <CHR_2> leans rightward from the left passenger seat across the console, gently pressing and dabbing <CHR_1>'s left cheek with the plain white folded tissue in coaxing, fawning urgency during her opening words, then pivoting midway into sharp, snobbish disdain with a slight mocking lift of her chin and narrowed scornful eyes as she disparages the delivery rider, showing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_2> speaks (0.20s-4.60s): <d>[Chinese] 哎，你，亲爱的，咱们不跟他一般见识，一个臭送外卖的能有什么素质。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace that shifts from sweet soothing breathiness to crisp, cutting condescension before her lips close naturally at 4.60s. On the right side in the driver's seat, <CHR_1>'s lips remain naturally closed, listening intently; he turns his head camera-left toward <CHR_2> with a disgusted grimace, lifts his left hand wearing the black leather-strap watch at 3.80s to take the white folded tissue from her fingers, and presses it against his cheek as his fury begins settling into haughty arrogance.",
+        "duration_s": 5,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic 16:9 live-action medium close-up two-shot across the center console inside the black sedan cabin faithful to [Scene], strictly preserving the 180-degree axis with [CHR_2] on screen-left facing right and [CHR_1] on screen-right turned slightly left. Seamless continuation of posture and prop placement from the preceding clip: [CHR_2] leans rightward from the dark red and black leather passenger seat with an earnest, coaxing poised expression, anatomically accurate features, gently extending her right hand holding the clean plain white folded tissue [PRP_1] to touch [CHR_1]'s left cheek. On the right side behind the steering wheel, [CHR_1] angles his head camera-left toward [CHR_2] with furrowed brows of lingering disgust behind his gold-rimmed polygonal glasses and lips naturally closed. Soft natural daylight through the car windows with shallow depth-of-field green street foliage and pale steps outside. Clean frame, zero text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Continuous seamless luxury car cabin room tone with subtle muffled outdoor street bed, soft paper tissue rustle gently dabbing skin, light sleeve fabric friction across the console, and natural conversational breath intakes.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder medium close-up",
+        "clip_id": "clip_03",
+        "clip_summary": "Reverse over-the-shoulder medium close-up on Shen Mingshan (CHR_1) in the right driver's seat as he finishes wiping his cheek in revulsion with the white tissue, lowers his hand, and sneers condescendingly at Manshu (CHR_2) over her past taste in men.",
+        "detailed_action_and_dialogue": "Static camera. Seamless continuation from the preceding clip: framed past the softly blurred left foreground shoulder of <CHR_2>, <CHR_1> in the right driver's seat finishes a brisk, disgusted wipe across his left cheek with the plain white folded tissue in his left hand, lowers his hand toward the steering wheel, and fixes his gaze camera-left on <CHR_2>. His lingering revulsion transitions into cold, haughty superiority with narrowed judgmental eyes behind his gold-rimmed glasses and a mocking lift of one brow, delivering vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_1> speaks (0.20s-2.60s): <d>[Chinese] 你也是瞎了眼，找了这么一个男人。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, measured, condescending pace with sharp emphasis on his mockery before his lips settle into a smug closed smirk.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Subtle 45% cinematic condescending disdain with lips naturally closed: slightly narrowed judgmental eyes peering downward behind gold-rimmed glasses, one inner brow faintly raised in haughty mockery, and firm, composed upper cheeks.",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic 16:9 live-action over-the-shoulder medium close-up inside the luxury sedan faithful to [Scene], maintaining strict 180-degree spatial continuity. Softly out-of-focus foreground back shoulder and dark straight hair edge of [CHR_2] on the far left frame edge. On the right-center in the driver's seat against the dark red and black leather headrest and sunlit green street trees outside the right side window, [CHR_1] holds the plain white folded tissue [PRP_1] in his left hand (with black leather-strap mechanical watch visible) just lowering from his left cheek, gazing camera-left toward [CHR_2] with an anatomically accurate, poised expression of haughty revulsion and condescending judgment behind his gold-rimmed polygonal glasses. Natural shallow depth of field, soft consistent cabin daylight, zero text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Continuous seamless luxury car cabin room tone with faint outdoor city street ambience, crisp paper tissue wipe and rustle, subtle suit sleeve movement, and a short disdainful nasal breath before speaking.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Close-up",
+        "clip_id": "clip_04",
+        "clip_summary": "Tight close-up on Manshu (CHR_2) in the left passenger seat facing right as she dips her lashes and looks back up at Shen Mingshan (CHR_1) with coy, submissive contrition and delicate vulnerability to win his indulgence.",
+        "detailed_action_and_dialogue": "Subtle slow push-in. Seamless continuation from the preceding clip: in the left passenger seat facing camera-right, <CHR_2> absorbs <CHR_1>'s jab with a brief, delicate downward flicker of her eyelashes, then lifts her gaze back camera-right toward him, tilting her head slightly with softly knitted inner brows and a coy, submissive air of aggrieved contrition to invite his sympathy and protection, showing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_2> speaks (0.20s-1.65s): <d>[Chinese] 那时候年轻嘛，不懂事。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking in a soft, brisk, coquettishly contrite tone with a gentle sighing inflection, closing her lips naturally into a docile, pleading expression at the end.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Subtle 45% cinematic coy contrition with lips naturally closed: soft apologetic eyes gazing slightly upward with gentle pleading warmth, delicately knitted inner brows, and softly relaxed upper cheeks.",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic 16:9 live-action close-up of [CHR_2] seated in the left front passenger seat of the luxury black sedan faithful to [Scene], maintaining strict 180-degree eyeline continuity as her body and gaze are directed camera-right toward the driver's side. Seamless continuation of posture from the preceding clip: [CHR_2] sits against the dark red and black leather seat with sunlit city street trees and pale stone steps softly blurred outside the left passenger window behind her, wearing her light taupe-gray fitted top and small silver stud earrings, showing an anatomically accurate, poised expression of delicate, coy contrition with gently knitted inner brows and soft eyes. Natural shallow depth of field, soft consistent daytime cabin lighting, zero text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous seamless luxury car cabin room tone with gentle muffled daytime street ambience, a soft delicate breath exhale, and subtle cotton clothing rustle as she tilts her head.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Cinematic 16:9 live-action master shot inside the front cabin of a luxury black sedan, establishing a single coherent 3D spatial layout and natural perspective faithful to [Scene], free of duplicate, mirrored, or phantom background structures, duplicate steering wheels, or phantom seats. Viewed from the front dashboard perspective to lock a single consistent 180-degree line of action across the cabin: dark red and black two-tone leather seats flank a sleek black center console equipped with a floating central display screen, with a three-spoke steering wheel mounted on the right driver's side. Seated on the right side in the driver's seat, [CHR_1] (30-year-old East Asian man with dark brown center-parted slightly wavy short hair, thin gold-rimmed polygonal glasses, charcoal gray notch-lapel suit jacket over a black crew-neck base shirt, and a black leather-strap mechanical watch on his left wrist) grips the three-spoke steering wheel with both hands. Seated on the left side in the front passenger seat, [CHR_2] (25-year-old East Asian woman with fair skin, delicate light makeup, black side-parted long straight hair, light taupe-gray fitted cropped long-sleeve T-shirt over a white bandeau top, high-waisted light-blue jeans, and small silver stud earrings) turns her body and gaze rightward facing [CHR_1], holding a clean plain white folded square tissue [PRP_1] near the console. Soft, clear daytime natural lighting fills the cabin, with warm sunlit urban green street trees and pale stone building steps visible outside the car windows. Natural consistent live-action lighting and shallow depth of field, zero text, subtitles, UI overlays, borders, or watermarks.",
+    "scene_summary": "Inside the sunlit front cabin of a luxury black sedan, Shen Mingshan (CHR_1, right driver's seat) explodes in humiliated fury after being spat on by a delivery rider; Manshu (CHR_2, left passenger seat) urgently leans across the console to wipe his cheek with a white tissue while disparaging her ex-husband to flatter him, prompting Shen Mingshan to sneer condescendingly at her past taste before Manshu coyly submits in feigned contrition across a tight 4-clip, 12-second shot-reverse-shot progression."
+  },
+  "stitch_meta": {
+    "clip_count": 4,
+    "visual_cuts": [
+      2.333,
+      8.125,
+      11.917
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 13.792
+  }
+}

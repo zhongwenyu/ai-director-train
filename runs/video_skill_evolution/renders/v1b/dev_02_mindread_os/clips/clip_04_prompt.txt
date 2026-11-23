@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Tight close-up on <Subject 1> calmly and wistfully confirming the truth of his mind-reading ability under the warm-and-cool night lights.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera holding an intimate close-up on <Subject 1> (S1). Facing leftward from the right side of the axis, <Subject 1> (S1)'s earlier annoyance softens into quiet, solitary resignation—his shoulders drop subtly with a gentle exhale while his steady eyes hold a trace of lonely vulnerability beneath the warm lantern glow, expressing vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 都说了。</d>, speaking in a calm, understated conversational tone with soft emotional weight and clear, natural full-range lip articulation precisely synced to every syllable, then closing his lips naturally and holding a quiet, wistful gaze until the end of the shot.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless outdoor night street ambient bed with gentle barbecue ember crackle and distant urban night air, paired with a soft resigned exhale and subtle collar fabric settle.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up two-shot transitioning to receding back two-shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (陶土泥人).
+
+summary:
+[keyframe completion + reference generation] <Subject 1> fondly scrapes the tip of <Subject 2>'s nose as she smiles bashfully, and the two turn to walk away side-by-side toward the distant city gate.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Smooth subtle camera hold with gentle breathing motion. <Subject 1>'s and <Subject 2>'s lips remain naturally closed throughout with zero lip movement or mouthing, listening and reacting naturally as the trailing audio carryover concludes. From 0.00s to 1.40s, <Subject 1> on the right gazes down leftward at <Subject 2> with deepening fond amusement and gently taps and scrapes the tip of <Subject 2>'s nose with a curved index finger, prompting <Subject 2> on the left to crinkle her eyes in a shy, delighted closed-lip smile while cradling the clay figurine against her chest, vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. From 1.40s to 3.00s, <Subject 1> smoothly lowers his hand as both turn naturally together away from the camera and walk side-by-side—<Subject 2> on the left and <Subject 1> on the right—deeper down the sunlit stone street toward the distant city gate tower. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Steady natural outdoor ancient market street ambient bed with warm breeze, soft affectionate nasal breath, light finger-touch foley, flowing robe fabric rustle, and two pairs of gentle footsteps receding side-by-side on stone pavement.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

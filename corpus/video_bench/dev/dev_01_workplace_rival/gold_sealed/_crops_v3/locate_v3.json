@@ -1,0 +1,59 @@
+{
+  "character_profiles": [
+    {
+      "bust_bbox_norm": [
+        0.3,
+        0.02,
+        0.7,
+        0.98
+      ],
+      "bust_frame_s": 1,
+      "distinctive_facial_traits_en": "Petite oval V-line face with a small pointed chin and smooth contours; large expressive almond eyes with clear double eyelids, soft aegyo-sal, and dark pupils; delicate straight nose bridge with a refined narrow tip; small plump M-shaped cupid's-bow lips in soft coral-pink; straight chin-length burgundy-brown bob haircut with sparse wispy see-through bangs revealing straight dark-brown eyebrows and small silver hoop earrings.",
+      "face_cu_bbox_norm": [
+        0.36,
+        0.02,
+        0.68,
+        0.64
+      ],
+      "face_cu_frame_s": 1,
+      "role_id": "CHR_1"
+    },
+    {
+      "bust_bbox_norm": [
+        0.27,
+        0.02,
+        0.8,
+        0.88
+      ],
+      "bust_frame_s": 0,
+      "distinctive_facial_traits_en": "Soft oval heart-shaped face with full smooth cheeks and a gently rounded V-chin; large bright round doe eyes with wide parallel double eyelids, prominent plump aegyo-sal, and soft brown eyeliner; straight nose bridge with a softly rounded tip; full glossy coral-rose lips with a defined cupid's bow; center-parted chestnut-brown long wavy hair framing the temples with wispy face-framing tendrils and gold square stud earrings.",
+      "face_cu_bbox_norm": [
+        0.36,
+        0.02,
+        0.95,
+        0.88
+      ],
+      "face_cu_frame_s": 12,
+      "role_id": "CHR_2"
+    },
+    {
+      "bust_bbox_norm": [
+        0.13,
+        0.08,
+        0.66,
+        0.98
+      ],
+      "bust_frame_s": 3,
+      "distinctive_facial_traits_en": "Soft oval face with natural rounded cheeks and a gently tapered chin; round expressive eyes with natural double eyelids, subtle under-eye fullness, and straight dark eyebrows; smooth straight nose with a slightly rounded tip; natural rose-tinted lips with soft contours; dark black hair tied in a low ponytail with center-parted wispy curtain bangs sweeping across the forehead and temples.",
+      "face_cu_bbox_norm": [
+        0.22,
+        0.02,
+        0.82,
+        0.83
+      ],
+      "face_cu_frame_s": 41,
+      "role_id": "CHR_3"
+    }
+  ],
+  "scene_frame_s": 29
+}

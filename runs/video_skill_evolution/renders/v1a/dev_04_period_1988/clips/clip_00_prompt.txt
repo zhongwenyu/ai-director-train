@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+
+summary:
+[keyframe completion + reference generation] Medium shot on the left side of the rural bedroom as <Subject 1> sits bowed on the kang edge in silent inner remorse while <Subject 2> stirs awake on the floral bedding behind him and begins pushing herself up.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in holding the established 180-degree axis. <Subject 1> sits on the outer edge of the earthen kang on screen-left with forearms resting on his thighs, keeping lips naturally closed with no speaking or mouth movement; his brows draw together in heavy remorse, eyes glistening with quiet guilt as his chest rises and falls in a slow, weighed-down breath while staring downward off-camera right. Behind him on the floral cotton bedding, <Subject 2> also keeps lips naturally closed with no speaking or mouth movement as her eyes flutter open, brows furrowing slightly while she props herself up on her forearm to rise off the kang toward the floor space. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous quiet 1980s rural mud-brick bedroom room tone and faint daytime courtyard air through the wooden window, with subtle rustle of coarse floral cotton bedding and soft fabric movement.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

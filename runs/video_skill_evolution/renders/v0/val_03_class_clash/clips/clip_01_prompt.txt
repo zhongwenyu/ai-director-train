@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> (S1) is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (白色纸巾).
+<Audio 1> is the voice-timbre reference for <Subject 2> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a front-cabin two-shot, <Subject 2> leans right from the left passenger seat to wipe <Subject 1>'s cheek with a white tissue while appeasing him and belittling the deliveryman.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle push-in on the front-cabin two-shot maintaining the 180-degree axis. On screen-left in the passenger seat, <Subject 2> (S1) leans eagerly rightward across the black center console toward <Subject 1> on screen-right, gently resting one hand on his suited forearm while dabbing his cheek with the white folded facial tissue, her expression shifting from anxious, fawning tenderness to sneering contempt. <Subject 2> (S1) speaks (0.16s-5.16s): <d>[Chinese] 哎，你，亲爱的，咱们不跟他一般见识，一个臭送外卖的能有什么素质。</d> with clear, natural lip-sync matching every syllable. On screen-right, <Subject 1> turns his head leftward away from the window in lingering disgust, grimacing before taking the white tissue from <Subject 2> (S1)'s hand into his own.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Quiet luxury car cabin tone, soft rustle of clothing and leather seats, gentle rubbing of soft paper tissue against skin.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

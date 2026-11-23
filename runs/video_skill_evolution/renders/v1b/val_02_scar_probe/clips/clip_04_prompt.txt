@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (桃子味饮料).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Being pulled down the corridor, <Subject 1> turns his head sharply back over his right shoulder toward CHR_2 to urgently tell her to stay put and wait for him.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Smooth subtle tracking movement holding tight on <Subject 1> (S1) past <CHR_2>'s softly blurred right-edge foreground shoulder. Carried a half-step leftward down the hallway while clutching the peach juice bottle low in his right hand, <Subject 1> (S1) pivots his head sharply back over his right shoulder, locking earnest, protective eyes onto <CHR_2> on screen-right as his earlier awkwardness melts into genuine brotherly concern, displaying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 在这等我别乱跑。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, urgent protective pace with firm vocal emphasis before holding a lingering reassuring gaze as his lips close naturally.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless indoor school hallway room tone with warm corridor acoustics, quick retreating sneaker step, crisp shirt collar rustle on the head turn, and an earnest breath settle.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

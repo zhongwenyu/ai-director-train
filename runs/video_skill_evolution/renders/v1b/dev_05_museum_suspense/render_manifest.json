@@ -1,0 +1,127 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Over-the-shoulder medium shot",
+        "clip_id": "clip_01",
+        "clip_summary": "Over CHR_2's fur-draped shoulder on the right foreground edge, CHR_1 on the left outer side of the counter spots the burning contract and leans forward in startled urgency to question her.",
+        "detailed_action_and_dialogue": "Subtle organic handheld movement with a slight urgent push-in. Opening from the poised over-the-shoulder framing, <CHR_1> stands on the left outer side of the dark wooden counter facing right, his gaze dropping to the orange flames licking the edge of the white paper contract on the countertop before snapping sharply up toward <CHR_2> on the right. Startled disbelief surges into anxious urgency: <CHR_1> leans abruptly forward toward the counter, brows drawing inward, eyes widening, and his right hand lifting palm-up toward the burning paper in protest, displaying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_1> speaks (0.20s-1.65s): <d>[Chinese] 哎，你怎么烧掉了？</d>, speaking at a brisk, natural conversational pace with a sharp breath intake and rising incredulous inflection, featuring clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, before closing his lips naturally in tense expectation during the final 0.35s buffer while <CHR_2>'s white-fur-draped shoulder in the right foreground remains utterly still.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Lips naturally closed, brows drawn inward and slightly raised at 45% cinematic intensity, eyes widened with startled disbelief and anxious urgency, subtle tension across the upper cheeks",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action still, 16:9, over-the-shoulder medium shot adhering strictly to the master 180-degree axis in [Scene]. Softly out-of-focus foreground left shoulder of [CHR_2] draped in a white fur shawl occupies the right frame edge. On the left-of-center outer side of the dark wooden counter stands [CHR_1] in his army-green utility shirt over a light brown T-shirt with dark-grey and brown canvas backpack straps over his shoulders, angled 3/4 right and looking toward [CHR_2] on the right. On the dark wooden countertop between them sit [PRP_1], a single white paper contract with black printed text catching bright orange flame along its curling edge, and a glowing warm-orange vintage table lamp. Matching dark-brown carved wooden lattice screens from [Scene] appear in natural shallow depth of field behind [CHR_1]. [CHR_1] holds an anatomically accurate, poised opening expression of startled urgency, just about to speak without facial distortion. Low-key warm amber and dark brown contrast lighting, clean frame with zero text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Continuous seamless low-resonance indoor room tone of a quiet vintage wooden antique hall, crisp soft crackling of burning paper flames, brisk fabric rustle of a utility shirt and canvas backpack strap as he leans forward, sharp natural breath intake.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder medium close-up",
+        "clip_id": "clip_02",
+        "clip_summary": "Reverse over-the-shoulder medium close-up on CHR_2 behind the counter facing left; illuminated by flickering firelight, she calmly declares that burning the contract makes it take effect, with her trailing voice bridging into CHR_1's reaction.",
+        "detailed_action_and_dialogue": "Static camera with rock-steady composure. Seamlessly continuing the spatial exchange across the counter, <CHR_2> stands behind the dark wooden counter on the right facing left toward <CHR_1>'s blurred shoulder on the left foreground edge, warm amber firelight from the burning contract flickering softly across her dark emerald velvet qipao, white fur shawl, and pearl necklace. Unfazed by his alarm, <CHR_2> smoothly lifts her serene gaze from the curling flames on the lower-left countertop directly into <CHR_1>'s eyes, lifting her chin slightly as calm, mysterious authority and subtle cryptic control surface across her brow and gaze—vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_2> speaks (0.20s-2.55s): <d>[Chinese] 烧了，这合同才算生效。</d>, speaking at a brisk, natural conversational pace with poised velvet calm, a deliberate subtle breath pause after the comma, and quiet downward certainty on the final syllables, featuring clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, before her lips close smoothly into poised stillness over the final 0.45s while <CHR_1> in the left foreground remains motionless.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Lips naturally closed, serene half-lowered eyelids with a steady, enigmatic gaze at 40% cinematic intensity, relaxed smooth brow with one subtle poised arch conveying quiet authority",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_1"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action still, 16:9, reverse over-the-shoulder medium close-up strictly maintaining the master 180-degree axis in [Scene]. Softly out-of-focus foreground right shoulder and backpack strap of [CHR_1] in his army-green shirt rest on the left frame edge. Behind the dark wooden counter on the right-of-center stands [CHR_2] in her dark emerald gold-embroidered velvet cheongsam, white fur shawl, vintage finger-wave updo, pearl earrings, and double-strand pearl necklace, angled left and looking steadily toward the left of the frame at [CHR_1]. In the lower-left foreground on the countertop, [PRP_1] burns with warm orange flames beside the glowing warm-orange table lamp, casting warm amber highlights across her features against softly blurred dark-wood curio shelves displaying antique porcelain vases from [Scene]. Seamless continuation of posture from the preceding clip; [CHR_2] displays an anatomically accurate, poised opening expression of mysterious composure just before speaking. Clean live-action photography, zero text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0.5,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Continuous seamless low-resonance indoor room tone of the quiet vintage wooden hall, steady gentle crackle and dry curl of burning paper on the counter, subtle soft breath poise and faint silk-and-fur rustle.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Close-up",
+        "clip_id": "clip_03",
+        "clip_summary": "Tight silent reaction close-up on CHR_1 looking right as CHR_2's words linger via L-cut; his urgent protest freezes into stunned realization and guarded unease as flickering firelight plays over his eyes.",
+        "detailed_action_and_dialogue": "Subtle slow push-in heightening claustrophobic suspense. Seamlessly matching <CHR_1>'s forward-leaning head angle on the left side of the axis looking right, warm amber reflections from the burning contract below the frame dance across his cheekbones and eyes. <CHR_1>'s lips remain naturally closed throughout with zero lip movement, listening intently as the resonance of <CHR_2>'s words washes over him. His startled urgency freezes into stunned comprehension and chilled unease: his pupils subtly dilate, his inner brows tighten, and his gaze flicks briefly downward toward the dying flames off-screen right as his throat shifts in a quiet swallow before locking sharply back onto <CHR_2>—delivering vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Lips naturally closed, eyes fixed and slightly widened with stunned realization and guarded unease at 45% cinematic intensity, inner brows subtly furrowed with tense stillness in the upper cheeks",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action still, 16:9, tight close-up of [CHR_1] adhering strictly to the master 180-degree axis in [Scene]. Positioned slightly left-of-center, [CHR_1] with black wispy bangs, half-up short ponytail, and army-green collar visible at the lower frame faces and looks intently toward the right side of the frame. Seamless continuation of his forward-leaning head angle and tense posture from the preceding clips. Warm flickering amber light from the counter lamp and off-screen flame illuminates the right side of his face against deeply shadowed carved dark-wood lattice screens from [Scene] in soft shallow bokeh. Anatomically accurate, poised reaction opening state with lips naturally closed and eyes wide with startled comprehension. Pure live-action texture, zero text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous seamless low-resonance indoor room tone of the quiet antique hall, fading gentle crackle of paper turning to ash, a quiet tense breath intake and subtle swallow, faint fabric shift.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Medium close-up",
+        "clip_id": "clip_04",
+        "clip_summary": "Medium close-up on CHR_2 behind the counter looking left; resting her jade-bangled hand lightly on the wood beside the smoldering contract embers, she delivers an elegant, intimidating half-smile welcoming CHR_1 to the Ninth Private Museum.",
+        "detailed_action_and_dialogue": "Subtle slow push-in toward <CHR_2> amplifying her quiet dominance. Seamlessly continuing her poised stance behind the counter facing left, <CHR_2> holds unbroken, piercing eye contact toward the left of the frame while the paper contract on the lower-left countertop curls into glowing dark embers beside the warm-orange table lamp. Moving with unhurried grace, <CHR_2> raises her right hand wearing the dark green jade bangle to rest her fingertips lightly on the polished wooden counter, tilting her head a fraction as her calm expression blooms into an elegant, knowing half-smile tinged with inescapable psychological pressure—vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <CHR_2> speaks (0.20s-3.55s): <d>[Chinese] 林先生，欢迎入职第九号私人博物馆。</d>, speaking at a brisk, natural conversational pace with silky, poised breath control, a measured pause after his name, and ominous velvet emphasis on the museum title, featuring clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, before closing her lips naturally into a lingering, enigmatic half-smile over the final 0.45s.",
+        "duration_s": 4,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Lips naturally closed with a faint, knowing corner-lip lift, subtly raised upper cheeks and piercing, composed eyes at 45% cinematic intensity radiating poised dominance",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action still, 16:9, tight medium close-up of [CHR_2] strictly maintaining the master 180-degree axis in [Scene]. Positioned slightly right-of-center behind the dark wooden counter, [CHR_2] in her dark emerald gold-branch embroidered velvet cheongsam, white fur shawl, double-strand pearl necklace, pearl drop earrings, and dark green jade bangle faces and looks directly toward the left side of the frame. Along the lower-left countertop edge sit the glowing warm-orange table lamp and [PRP_1], now curling with final low orange embers along its charred paper edge. Softly blurred antique porcelain vases on dark-wood curio shelves from [Scene] frame the dim background. Seamless continuation of head angle and poised posture from clip_02; [CHR_2] holds an anatomically accurate, poised opening expression of elegant, mysterious control just before speaking. Low-key warm amber and dark brown contrast lighting, zero text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Continuous seamless low-resonance indoor room tone of the vintage wooden hall, faint final hiss of smoldering paper embers, soft rustle of velvet and white fur shawl, delicate light tap of a jade bangle and fingertips resting on polished wood, calm measured breath.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Cinematic live-action wide master shot, 16:9, establishing a single coherent 3D spatial layout and natural perspective faithful to [Scene], free of duplicate, mirrored, or phantom background structures and objects. Inside the dimly lit vintage Chinese wooden antique hall [Scene] with deep dark-brown carved wooden lattice partitions and curio shelves (duobaoge) displaying antique porcelain vases, a long dark wooden counter stands at the center. Establishing the single consistent 180-degree line of action from the front profile of the counter: on the left side of the frame (outer side of the long wooden counter) stands [CHR_1], a 24-year-old East Asian man with black wispy bangs and a half-up short ponytail, wearing an army-green collared utility shirt over a light brown crew-neck T-shirt and carrying a dark-grey and brown leather-flap canvas backpack, angled right facing across the counter. Opposite him on the right side of the frame (inner side behind the long wooden counter) stands [CHR_2], a 26-year-old East Asian woman with a black vintage finger-wave updo and red-lip makeup, wearing a dark emerald gold-embroidered velvet high-collar cheongsam draped with a white fur shawl, double-strand white pearl necklace, pearl drop earrings, and dark green jade bangle, angled left facing [CHR_1]. Directly between them on the dark wooden countertop rest [PRP_1]—a single white paper employment contract with black text actively burning with small orange flames along its edge—and a glowing warm-orange vintage table lamp. Low-key warm amber and deep dark-brown contrast lighting, natural cinematic depth of field, anatomically accurate poised stances, clean frame with zero text, subtitles, watermarks, or borders.",
+    "scene_summary": "In a dimly lit vintage Chinese antique hall divided by a long dark-wood counter, CHR_1 (standing camera-left on the outer side) urgently questions why his employment contract is burning on the countertop; across a tight 4-shot over-the-shoulder and close-up montage with a 0.5s L-cut audio bridge over CHR_1's stunned silent reaction, CHR_2 (standing camera-right behind the counter) calmly reveals that burning seals the contract and enigmatically welcomes him to the Ninth Private Museum."
+  },
+  "stitch_meta": {
+    "clip_count": 4,
+    "visual_cuts": [
+      2.0,
+      4.167,
+      5.542
+    ],
+    "lcut_holds": [
+      0.0,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 10.0
+  }
+}

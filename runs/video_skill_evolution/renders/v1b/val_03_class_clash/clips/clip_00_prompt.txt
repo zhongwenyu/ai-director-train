@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Medium two-shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (白色纸巾).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In the luxury black sedan front cabin, Shen Mingshan (<Subject 1>) in the right driver's seat grips the steering wheel and erupts in humiliated rage after being spat on, while Manshu (<Subject 2>) in the left passenger seat flinches in alarm and reaches toward him with a clean white folded tissue.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle organic handheld movement. Seated on the right in the driver's seat, <Subject 1> (S1) jerks his upper torso slightly forward with both hands tightening around the three-spoke steering wheel, transitioning from stunned humiliation into an explosive outburst of rage with glaring eyes behind his gold-rimmed polygonal glasses and tense jaw muscles, displaying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 你他妈的！</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, shouting at a sharp, explosive pace with a heavy angry breath and closing his lips in a tight scowl by the end of the shot. Seated on the left in the front passenger seat facing right, <Subject 2>'s lips remain naturally closed throughout with zero mouthing; she flinches slightly at his outburst, brows drawing together in urgent concern as she leans rightward across the center console raising the plain white folded tissue toward his cheek.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless luxury car cabin room tone blended with muffled daytime city street ambience outside the windows, sharp angry breath intake, tight leather steering wheel grip friction, and crisp leather seat creak as bodies shift.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

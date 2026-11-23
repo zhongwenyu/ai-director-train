@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Close-up on <Subject 1> freezing in stunned disbelief and trailing off mid-sentence upon hearing his private thought repeated word for word.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle crisp push-in on the established 180-degree axis. Positioned on screen-left looking off-camera right, <Subject 1> (S1) jolts slightly upright as every trace of amusement vanishes, his eyes widening and pupils locking sharply while his raised hand holding the skewer freezes near the lower frame edge. <Subject 1> (S1) speaks (0.20s-1.60s) in a hushed, breathless, stunned voice that falters mid-sentence: <d>[Chinese] 你居然真的……</d>, articulating clear, natural lip-sync before his breath catches in frozen shock.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous nighttime outdoor street barbecue stall ambience with gentle charcoal sizzle and distant urban traffic air, with a subtle sharp intake of breath.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

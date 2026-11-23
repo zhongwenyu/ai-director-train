@@ -1,0 +1,26 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Picture 4> is the reference prop (桃子味饮料).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse OTS onto <Subject 1> (with <Subject 2> grinning beside his left shoulder) as <Subject 1> awkwardly takes the drink and quietly tells CHR_2 to call him by his name at school.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera in reverse over-the-shoulder framing past <CHR_2>'s blurred right-edge shoulder onto <Subject 1> (S1) and <Subject 2>. <Subject 1> (S1) reaches out with his right hand to take the peach juice bottle, his gaze flicking self-consciously toward the hallway before leaning slightly forward toward <CHR_2> with awkward, hushed boundary-setting restraint, exhibiting vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 在学校叫我名字。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, hushed conversational pace with tense breath control before closing his lips naturally. Beside his left shoulder, <Subject 2>'s lips remain naturally closed, listening intently as his eyebrows perk up in teasing amusement behind his glasses.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless indoor school hallway room tone, soft plastic grip sound as hands exchange the drink bottle, light shirt fabric rustle, and a quiet restrained breath.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

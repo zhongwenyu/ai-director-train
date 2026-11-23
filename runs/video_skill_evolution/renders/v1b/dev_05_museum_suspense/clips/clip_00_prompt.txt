@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (燃烧的纸质合同).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Over CHR_2's fur-draped shoulder on the right foreground edge, <Subject 1> on the left outer side of the counter spots the burning contract and leans forward in startled urgency to question her.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle organic handheld movement with a slight urgent push-in. Opening from the poised over-the-shoulder framing, <Subject 1> (S1) stands on the left outer side of the dark wooden counter facing right, his gaze dropping to the orange flames licking the edge of the white paper contract on the countertop before snapping sharply up toward <CHR_2> on the right. Startled disbelief surges into anxious urgency: <Subject 1> (S1) leans abruptly forward toward the counter, brows drawing inward, eyes widening, and his right hand lifting palm-up toward the burning paper in protest, displaying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 哎，你怎么烧掉了？</d>, speaking at a brisk, natural conversational pace with a sharp breath intake and rising incredulous inflection, featuring clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, before closing his lips naturally in tense expectation during the final 0.35s buffer while <CHR_2>'s white-fur-draped shoulder in the right foreground remains utterly still.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless low-resonance indoor room tone of a quiet vintage wooden antique hall, crisp soft crackling of burning paper flames, brisk fabric rustle of a utility shirt and canvas backpack strap as he leans forward, sharp natural breath intake.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

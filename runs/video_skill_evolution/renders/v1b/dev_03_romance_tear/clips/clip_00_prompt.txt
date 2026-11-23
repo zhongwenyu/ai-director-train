@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Over-the-shoulder medium close-up on <Subject 1> standing on the left facing right past CHR_1's blurred shoulder, questioning her in a low, trembling voice with reddened eyes.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in over the softly out-of-focus foreground shoulder on the right frame edge toward <Subject 1> (S1) on the left. Continuing seamlessly from his tense upright stance, <Subject 1> (S1) gazes rightward with reddened, glistening eyes and furrowed inner brows; as suppressed grievance rises in his chest, he leans slightly forward with a quiet catch in his breath, letting hurt and earnest questioning surface across his expression with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-2.57s): <d>[Chinese] 有没有可能，我也遇上了更好的，</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a brisk, natural conversational pace in a low, subtly trembling voice with expressive breath pauses and aching inflection, before holding an expectant gaze as his jaw subtly tightens at the end of the phrase.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless late-afternoon outdoor campus ambient bed with gentle breeze rustling distant leaves and subtle semi-open concrete corridor acoustics, layered with a quiet unsteady breath intake and faint cotton shirt rustle as he leans forward.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

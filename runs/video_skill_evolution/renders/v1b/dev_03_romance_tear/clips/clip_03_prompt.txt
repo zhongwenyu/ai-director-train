@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Tight close-up on <Subject 1> swallowing her heartache and briskly wiping away her tear before cutting off his hope in a cold, decisive tone.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera in tight close-up on <Subject 1> (S1) facing leftward. Seamlessly continuing from clip_02 with faintly red-rimmed, glistening eyes and her right hand poised near her cheek, <Subject 1> (S1) briskly brushes away the tear trace with her fingertips over the opening beat while swallowing hard, extinguishing her fleeting sorrow into a cold, defensive stillness as she lowers her hand cleanly; her steady, detached gaze locks leftward with vivid, authentic human emotional expression and organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 可我，没让你选我。</d> with clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, speaking at a crisp, measured pace with a brief piercing pause after the opening words and cool, decisive finality, her lips closing firmly into a composed line at the end.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless late-afternoon outdoor campus ambient bed with gentle breeze and quiet corridor room tone, layered with the soft brush of fingertips against skin, faint chunky-knit sleeve rustle as her hand lowers, and a quiet controlled breath.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

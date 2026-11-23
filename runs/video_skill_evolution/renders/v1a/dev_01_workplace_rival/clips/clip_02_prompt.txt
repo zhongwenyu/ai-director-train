@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a medium close-up on screen-left, <Subject 1> seizes upon CHR_2's excuse with a playful, razor-sharp smile, openly calling out her bullying of newcomers while her closing words trail into CHR_2's reaction.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in on the established 180-degree axis. <Subject 1> (S1) maintains her relaxed forward lean on screen-left with forearms resting on the light-wood desk and eyes locked off-camera right; she starts with an airy, obliging nod and warm crescent-eyed smile, then pivots on the second clause with a slight playful head tilt, one subtly arched brow, and a light fingertip tap on the desk surface as her unblinking gaze sharpens beneath her sweet smile. <Subject 1> (S1) speaks (0.20s-3.65s) with light, playful, brisk cadence and crisp ironic emphasis on the final phrase: <d>[Chinese] 知道的是开玩笑，不知道的，还以为您打压新人呢。</d>, with clear, expressive lip-sync matching syllable cadence and vocal intensity before settling into a calm, beaming, unapologetic smile.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous quiet open-plan office ambient room tone with soft ventilation hum, subtle sleeve rustle, and a light fingertip tap on the wooden desk surface.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,28 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Subject 3> is the man matching the exact facial identity and outfit in <Picture 4>.
+<Picture 5> is the reference prop (桃子味饮料).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] While being dragged away by his classmate on the left, the older brother twists back anxiously toward his sister on the right to tell her to wait right there and not wander off.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Subject 3>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 4>.
+<Picture 5>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle tracking medium shot along the corridor axis. On the left, <Subject 3> keeps tugging <Subject 1> (S1)'s left arm toward the open stairwell door with an impatient nod, while <Subject 1> (S1) at center-left twists his upper body and head sharply back toward <Subject 2> on the right, holding the peach drink bottle in his right hand and speaking urgently with worried, protective eyes and accurate lip synchronization. <Subject 1> (S1) speaks (0.16s-1.46s): <d>[Chinese] 在这等我别乱跑。</d> On the right by the sunlit windows, <Subject 2> stands cradling the remaining drink bottles and watches him leave with a乖巧, obedient slight nod and a warm, lingering smile, keeping her lips closed.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Quick sneaker footsteps on smooth corridor flooring, light clothing rustle, warm quiet campus hallway ambience.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

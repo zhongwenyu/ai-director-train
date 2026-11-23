@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (燃烧的纸质合同).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse angle over CHR_1's shoulder onto <Subject 1> behind the counter, who watches the flames serenely and calmly declares that burning the contract makes it take effect.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Static camera. Framed past a softly blurred army-green shoulder and dark canvas backpack strap silhouette on the left foreground edge, <Subject 1> (S1) stands poised behind the dark wooden counter on screen-right as orange flames curl along the burning contract on the counter between them. At 0.20s, <Subject 1> (S1) calmly lifts her dark eyes from the flickering fire to look directly screen-left with unruffled, enigmatic composure, her fingertips resting lightly near the wooden counter edge while her jade bangle catches the warm glow. <Subject 1> (S1) speaks (0.16s-1.83s): <d>[Chinese] 烧了，这合同才算生效。</d> with clear, precise lip-sync on every syllable and a soft, unhurried delivery full of mysterious control, holding a steady, unblinking gaze through 3.00s as charred paper curls inward.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Soft steady crackle of paper turning to char, faint whisper of rising heat, and hushed wooden hall ambiance.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

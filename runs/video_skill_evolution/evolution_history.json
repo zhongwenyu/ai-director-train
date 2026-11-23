@@ -1,0 +1,120 @@
+{
+  "champion": "v0",
+  "rounds": [
+    {
+      "round": 1,
+      "prev_champion": "v0",
+      "tournament_candidates": [
+        "v1a",
+        "v1b"
+      ],
+      "tournament_screen_delta_a_vs_b": -10.83,
+      "selected_candidate": "v1b",
+      "bottlenecks": [
+        "微表演缺乏潜台词张力与递进层次，常呈单调机械念白或单帧表情定格，情绪爆发处易用力过猛致五官狰狞，肢体手势僵硬且跨镜动作幅度存在接戏偏差。",
+        "切镜节奏拖沓且平均镜长显著偏长，前段静态单机位一镜到底缺乏切割，高潮与重音处缺失无声反应切镜、近景情绪冲击及声画交错衔接，致总时长易超标。",
+        "声画同步与听觉层次薄弱，台词平淡缓滞、缺乏呼吸气口且偶发尾音硬截断；切镜处环境底噪易断层抽吸呈干声感，对白口型木讷而画外独白常误触发唇部蠕动。",
+        "首帧景深构图与跨镜空间拓扑连续性不足，正反打及景别切换时前景遮挡层次、主体相对轴线与背景透视易凭空跳变或闪回，偶发场景空间结构超现实重复畸变。"
+      ],
+      "mutation_rationale": "1. **彻底修正反过拟合审查拦截项**：移除全部将动态表演锁死为“克制/内敛微表演（restrained）”的错误限制，明确划分“Stage 2 静态首帧解剖端正自然稳态（防起幅畸变）”与“Stage 3 动态视频鲜活层次化情绪释放（支持笑意、反讽、含泪、震惊、质问、悲愤爆发等全谱系真实人类情绪外化，用面部肌肉自然协调替代一刀切克制来防五官崩坏）”的边界；同时将 Stage 2 空间拓扑防重复规则泛化至室内建筑、街巷与户外山野旷野等全场景，消除门窗家具窄化瑕疵。\n2. **深耕方向 B（防跳切反应交织与蒙太奇节奏）**：严锁子镜头整数秒之和匹配 `target_duration_s` 并按紧凑语速叠加 `0.3s-0.5s` 收尾余量核定镜长（消除拖沓超标与结尾吞字）；设立严禁同人相邻单人说话跳切（Anti-Jump-Cut）门禁，强制长台词分段与戏剧转折处穿插无台词即时反应近景镜，并激活 `0.3s-0.7s` 的 `lcut_audio_hold_over_next_s` 声桥平滑衔接。\n3. **发声模态双通道隔离与连续声场修复**：画内对白 `0.20s` 紧凑起音、要求饱满口型清晰咬字及呼吸气口起伏；`mode == 'inner_os'` 在 Stage 1-3 全链路锁定独立字段与全程双唇自然闭合零蠕动；`soundscape` 强制铺设跨镜连续环境底噪床与实录动作呼吸拟音，根治干声死寂与音频抽吸。\n4. **严守 MDL 精炼门禁**：四文件字符数均控制在 1500~2200 区间，零百分比配额、零具体人名剧名与狭窄职场词。",
+      "cand_telemetry": {
+        "avg_clips_per_scene": 4.2,
+        "avg_clip_duration_s": 2.67,
+        "silent_reaction_clip_ratio": 0.143,
+        "lcut_overlap_clip_ratio": 0.143,
+        "tight_mcu_cu_ots_ratio": 0.81
+      },
+      "dev_vs_prev_champ": {
+        "wins": 1,
+        "losses": 2,
+        "ties": 2,
+        "cand_mean_score": 71.7,
+        "ref_mean_score": 71.0,
+        "mean_delta": 0.7
+      },
+      "val_vs_prev_champ": {
+        "wins": 0,
+        "losses": 3,
+        "ties": 1,
+        "cand_mean_score": 48.62,
+        "ref_mean_score": 71.62,
+        "mean_delta": -23.0
+      },
+      "overfitting_diagnostics": {
+        "is_overfit": true,
+        "overfit_reasons": [
+          "EXCESSIVE_DEV_VAL_GAP_+23.70",
+          "SINGLE_GENRE_COLLAPSE_-53.50",
+          "VERTICAL_9_16_REGRESSION_-24.00"
+        ],
+        "dev_mean_delta": 0.7,
+        "val_mean_delta": -23.0,
+        "dev_minus_val_gap": 23.7,
+        "worst_val_case_drop": -53.5,
+        "val_aspect_ratio_deltas": {
+          "16:9": -22.67,
+          "9:16": -24.0
+        },
+        "val_per_genre_breakdown": {
+          "val_01_winter_parting": {
+            "genre": "现代生活情感",
+            "aspect_ratio": "16:9",
+            "delta": -53.5,
+            "outcome": "champ_win"
+          },
+          "val_02_scar_probe": {
+            "genre": "都市悬疑试探",
+            "aspect_ratio": "16:9",
+            "delta": 3.0,
+            "outcome": "tie"
+          },
+          "val_03_class_clash": {
+            "genre": "都市强冲突逆袭",
+            "aspect_ratio": "16:9",
+            "delta": -17.5,
+            "outcome": "champ_win"
+          },
+          "val_04_ancient_prince": {
+            "genre": "古装权谋逆袭",
+            "aspect_ratio": "9:16",
+            "delta": -24.0,
+            "outcome": "champ_win"
+          }
+        }
+      },
+      "dev_target_parity_pct": 80.48,
+      "dev_target_parity_by_dim_pct": {
+        "acting_micro_naturalism": 83.4,
+        "vocal_dialogue_delivery": 86.6,
+        "editing_rhythm_and_reactions": 83.5,
+        "character_and_costume_consistency": 113.2,
+        "cinematography_and_spatial_coherence": 90.8,
+        "physical_anatomy_integrity": 93.0
+      },
+      "mean_cand_asl_s": 2.72,
+      "promoted": false
+    }
+  ],
+  "baseline_v0_target_parity": {
+    "dev_score": 71.2,
+    "target_gold_score": 83.2,
+    "target_parity_pct": 85.58,
+    "target_parity_by_dim_pct": {
+      "acting_micro_naturalism": 73.8,
+      "vocal_dialogue_delivery": 77.8,
+      "editing_rhythm_and_reactions": 81.1,
+      "character_and_costume_consistency": 105.0,
+      "cinematography_and_spatial_coherence": 100.0,
+      "physical_anatomy_integrity": 98.9
+    },
+    "mean_cand_asl_s": 3.03,
+    "mean_target_gold_asl_s": 2.01,
+    "telemetry": {
+      "avg_clips_per_scene": 3.6,
+      "avg_clip_duration_s": 3.11,
+      "silent_reaction_clip_ratio": 0.111,
+      "lcut_overlap_clip_ratio": 0.111,
+      "tight_mcu_cu_ots_ratio": 0.667
+    }
+  }
+}

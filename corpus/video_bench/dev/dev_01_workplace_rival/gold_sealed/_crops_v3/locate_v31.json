@@ -1,0 +1,80 @@
+{
+  "character_profiles": [
+    {
+      "bust_bbox_norm": [
+        0.29,
+        0.09,
+        0.7,
+        0.83
+      ],
+      "bust_frame_s": 1.7,
+      "distinctive_facial_traits_en": "Petite East Asian female around 22 with a delicate narrow V-line face, small pointed chin, and smooth high forehead. She has expressive almond eyes with narrow parallel double eyelids, subtle aegyo-sal, straight dark-brown eyebrows, a slender straight nose bridge with a refined rounded tip, and small full lips with a defined Cupid's bow. Her straight chin-length bob is dyed a rich burgundy-wine brown with sparse airy wispy bangs lightly grazing her eyebrows, paired with small silver drop hoop earrings.",
+      "face_cu_bbox_norm": [
+        0.18,
+        0.09,
+        0.72,
+        0.83
+      ],
+      "face_cu_frame_s": 38.6,
+      "role_id": "CHR_1",
+      "second_angle_bbox_norm": [
+        0.35,
+        0.09,
+        0.67,
+        0.68
+      ],
+      "second_angle_frame_s": 1.7
+    },
+    {
+      "bust_bbox_norm": [
+        0.27,
+        0.09,
+        0.8,
+        0.83
+      ],
+      "bust_frame_s": 0.5,
+      "distinctive_facial_traits_en": "Poised East Asian female around 26 with a balanced oval face, soft cheekbones, and a gently tapered chin. She features large rounded almond eyes with clear double eyelids, soft peach-brown eyeshadow, neatly arched light-brown eyebrows, a high straight nose bridge, and plump glossy coral-pink lips. Her warm chestnut-brown long hair is styled in a center part with soft S-wave curls framing her temples, complemented by matte gold square stud earrings and a delicate gold coin pendant necklace.",
+      "face_cu_bbox_norm": [
+        0.38,
+        0.09,
+        0.9,
+        0.83
+      ],
+      "face_cu_frame_s": 12,
+      "role_id": "CHR_2",
+      "second_angle_bbox_norm": [
+        0.37,
+        0.09,
+        0.72,
+        0.68
+      ],
+      "second_angle_frame_s": 0.5
+    },
+    {
+      "bust_bbox_norm": [
+        0.14,
+        0.09,
+        0.62,
+        0.83
+      ],
+      "bust_frame_s": 3,
+      "distinctive_facial_traits_en": "Approachable East Asian female around 25 with a soft oval-round face, full cheeks, and a rounded jawline. She has bright round doe eyes with subtle double eyelids, natural dark eyebrows, a straight medium-height nose bridge with a soft rounded tip, and natural rose-toned lips with minimal makeup. Her jet-black hair is tied back into a neat low ponytail with center-parted curtain bangs sweeping softly across her forehead temples, without earrings or glasses.",
+      "face_cu_bbox_norm": [
+        0.33,
+        0.09,
+        0.56,
+        0.62
+      ],
+      "face_cu_frame_s": 3,
+      "role_id": "CHR_3",
+      "second_angle_bbox_norm": [
+        0.24,
+        0.09,
+        0.46,
+        0.62
+      ],
+      "second_angle_frame_s": 24.6
+    }
+  ],
+  "scene_frame_s": 29.7
+}

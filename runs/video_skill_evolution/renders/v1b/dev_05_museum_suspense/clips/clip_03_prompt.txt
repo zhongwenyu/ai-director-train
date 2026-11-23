@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (燃烧的纸质合同).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Medium close-up on <Subject 1> behind the counter looking left; resting her jade-bangled hand lightly on the wood beside the smoldering contract embers, she delivers an elegant, intimidating half-smile welcoming CHR_1 to the Ninth Private Museum.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in toward <Subject 1> (S1) amplifying her quiet dominance. Seamlessly continuing her poised stance behind the counter facing left, <Subject 1> (S1) holds unbroken, piercing eye contact toward the left of the frame while the paper contract on the lower-left countertop curls into glowing dark embers beside the warm-orange table lamp. Moving with unhurried grace, <Subject 1> (S1) raises her right hand wearing the dark green jade bangle to rest her fingertips lightly on the polished wooden counter, tilting her head a fraction as her calm expression blooms into an elegant, knowing half-smile tinged with inescapable psychological pressure—vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion. <Subject 1> (S1) speaks (0.16s-2.94s): <d>[Chinese] 林先生，欢迎入职第九号私人博物馆。</d>, speaking at a brisk, natural conversational pace with silky, poised breath control, a measured pause after his name, and ominous velvet emphasis on the museum title, featuring clear, natural full-range lip articulation precisely synced to every syllable and vocal intensity, before closing her lips naturally into a lingering, enigmatic half-smile over the final 0.45s.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless low-resonance indoor room tone of the vintage wooden hall, faint final hiss of smoldering paper embers, soft rustle of velvet and white fur shawl, delicate light tap of a jade bangle and fingertips resting on polished wood, calm measured breath.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

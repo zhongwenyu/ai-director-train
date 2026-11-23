@@ -1,0 +1,20 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the woman matching the exact facial identity and outfit in <Picture 2>.
+
+summary:
+[keyframe completion + reference generation] Reverse over-the-shoulder medium close-up on <Subject 1> listening silently as CHR_2's voice trails over the cut, her guarded poise cracking as tears well up and slip past her lashes.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Subtle slow push-in past the softly out-of-focus foreground shoulder on the left frame edge onto <Subject 1> on the right. <Subject 1>'s lips remain naturally closed throughout with zero lip movement or mouthing, listening intently as the trailing resonance of his words washes over her. Starting from a guarded stillness, her inner brows draw softly together in sudden emotional ache; her eyes shimmer with moisture, blinking once as a clear tear spills past her lower lashes and her chest rises in a quiet, shaky inhale, conveying vivid, authentic human emotional expression with organic facial muscle coordination, free of exaggerated AI facial warping or grotesque distortion, before she subtly stiffens her chin to fight back the rising vulnerability. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous seamless late-afternoon outdoor campus ambient bed with gentle breeze and semi-open portico room tone, layered with a delicate, trembling catch of breath and faint knitwear rustle.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A
