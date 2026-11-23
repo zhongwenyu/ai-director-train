@@ -1,0 +1,152 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Medium two-shot",
+        "clip_id": "clip_01",
+        "clip_summary": "Across the red barbecue table, CHR_2 leans forward on screen-left to playfully tease CHR_1 about bluffing, while CHR_1 listens quietly on screen-right.",
+        "detailed_action_and_dialogue": "Locked-off static camera on a sturdy tripod in a medium two-shot across the red square table. On screen-left, <CHR_2> leans forward slightly on his red plastic chair with one forearm resting casually near the tray of skewers, eyes crinkling with playful skepticism as he tilts his chin toward <CHR_1>. <CHR_2> speaks (0.20s-2.65s): <d>[Chinese] 骗骗哥们可以，别把自己也骗了。</d> with clear, natural jaw movement, syllable-accurate lip-sync, and a subtle breath pause between phrases, then closes his lips into a light teasing smirk from 2.65s to 3.00s. On screen-right, <CHR_1> keeps lips naturally closed throughout, maintaining steady eye contact toward screen-left with a faint, resigned blink and a slight shift of his shoulders as he absorbs the banter.",
+        "duration_s": 3,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action medium two-shot in [Scene], a nighttime outdoor street-side barbecue stall with wet reflective asphalt and warm orange round paper lanterns glowing against cool blue urban neon bokeh in the background. Strictly following the 180-degree axis across a red square table in the lower center holding [PRP_1] dark metal rectangular tray of golden-brown grilled meat skewers, plastic cold drink cups, a bamboo skewer cylinder, and a tissue box. On screen-left, [CHR_2] sits on a red plastic chair angled right toward [CHR_1], leaning slightly forward with relaxed shoulders and playful, skeptical eyes ready to tease. On screen-right, [CHR_1] sits on a red plastic chair angled left toward [CHR_2], posture calm and attentive with lips naturally closed and a quiet, understated gaze. High-contrast warm lantern key light and cool night rim light, realistic 35mm film grain, no text, no subtitles, no watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Consistent nighttime outdoor barbecue stall ambient tone with soft charcoal grill sizzle and distant city traffic hum, synchronized with subtle T-shirt fabric rustle and a faint plastic chair creak as the speaker leans forward.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Close-up",
+        "clip_id": "clip_02",
+        "clip_summary": "Tight close-up on CHR_2 holding a smug, closed-lip look as his inner voice secretly mocks CHR_1 with an exaggerated mental bet.",
+        "detailed_action_and_dialogue": "Very slow motivated push-in toward <CHR_2>'s eyes from a three-quarter front angle on screen-left, looking toward screen-right. <CHR_2> keeps lips naturally closed the entire time, resting the corner of his mouth in a subtle, self-assured half-smirk. His eyes glint with private amusement as one eyebrow lifts slightly at 0.80s, followed by a tiny confident nod and an unbothered blink at 1.90s while his gaze lingers steadily toward screen-right, radiating silent certainty that his secret thought is untouchable.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "closed-lip smugly amused expression with one eyebrow subtly arched, playful skeptical squint in the eyes, and a restrained self-assured lift of the upper cheeks",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": {
+          "mode": "inner_os",
+          "speaker_id": "CHR_2",
+          "start_s": 0.2,
+          "text": "这小子要是真能读心，我当场认贼作父好吗？"
+        },
+        "keyframe_prompt": "Cinematic live-action close-up of [CHR_2] positioned on screen-left in [Scene], angled three-quarters right and looking steadily toward screen-right across the table. Shallow depth of field softens the background smoking barbecue stall, glowing warm orange paper lanterns, and cool blue night neon into creamy bokeh. [CHR_2] keeps his lips naturally closed with a restrained, self-satisfied curve at the corner of his mouth, one brow subtly raised and crisp lantern catchlights gleaming in his amused, skeptical eyes. High-contrast warm orange key light on his cheekbones balanced by cool blue night shadow, natural skin texture, no text, no subtitles, no watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Subdued outdoor night barbecue ambient tone with gentle distant traffic hum and faint breeze, deliberately restrained to create clear spatial separation for the intimate close-mic reverberant inner monologue voiceover, paired with soft breathing foley.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder medium close-up",
+        "clip_id": "clip_03",
+        "clip_summary": "Reverse over-the-shoulder shot on CHR_1, who directly quotes and scolds CHR_2's exact unspoken mental bet with deadpan exasperation.",
+        "detailed_action_and_dialogue": "Locked-off static camera on a sturdy tripod in an over-the-shoulder medium close-up favoring <CHR_1> on screen-right, framed past the softly blurred dark-shirted left shoulder silhouette in the extreme screen-left foreground. <CHR_1>'s gaze sharpens with mild, offended exasperation as his inner brows knit slightly and he leans a fraction forward toward screen-left. <CHR_1> speaks (0.20s-2.70s): <d>[Chinese] 能不能好好说话，什么叫认贼作父啊？</d> with clear, natural jaw movement, syllable-accurate lip-sync, and a natural breath pause at the comma, before closing his lips naturally from 2.70s to 3.00s with an unimpressed stare. In the extreme left foreground, the blurred dark-clad shoulder subtly stiffens upright as the words land.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "closed-lip mildly exasperated deadpan gaze with slightly knitted inner brows, steady direct eye focus, and relaxed unamused cheeks",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action over-the-shoulder medium close-up in [Scene], framed past a softly out-of-focus dark-T-shirted shoulder and neck silhouette in the extreme screen-left foreground. On screen-right, [CHR_1] is in sharp focus facing screen-left, maintaining the strict 180-degree eyeline axis toward his friend. [CHR_1] has his inner brows lightly knitted and eyes fixed forward with candid, mildly offended exasperation, posture slightly leaned in above the edge of the red table. Shallow depth of field blurs the street trees, warm orange lanterns, and wet night street reflections behind him. High-contrast warm lantern glow and cool blue night shadows, realistic film photography, no text, no subtitles, no watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Consistent nighttime outdoor barbecue stall ambient tone with faint grill crackle and distant night traffic, synchronized with subtle cotton T-shirt rustle as the speaker shifts forward.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder close-up",
+        "clip_id": "clip_04",
+        "clip_summary": "Reverse tight over-the-shoulder close-up on CHR_2 freezing in utter shock and stammering halfway through a realization as his secret thought is exposed verbatim.",
+        "detailed_action_and_dialogue": "Locked-off static camera on a sturdy tripod in a tight over-the-shoulder close-up on <CHR_2> on screen-left, framed past the softly blurred white-shirted right shoulder silhouette in the extreme screen-right foreground. All trace of teasing vanishes as <CHR_2> jolts slightly back against his chair, pupils dilating and eyebrows lifting in stunned disbelief while staring toward screen-right. <CHR_2> speaks (0.20s-1.50s): <d>[Chinese] 你居然真的……</d> in a breathless, halting stammer with clear, natural jaw movement and syllable-accurate lip-sync, trailing off mid-thought before catching a sharp breath and keeping his lips naturally closed from 1.50s to 2.00s in frozen awe. In the extreme right foreground, the blurred white-clad shoulder remains calm and still.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "closed-lip stunned disbelief with widened eyes, subtly raised inner eyebrows, and slackened upper cheeks frozen in sudden shock",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_1"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action over-the-shoulder close-up in [Scene], framed past a softly blurred white-T-shirted right shoulder silhouette in the extreme screen-right foreground. On screen-left, [CHR_2] is in sharp focus looking intently toward screen-right, smugness completely gone—his eyes widened in sudden shock, eyebrows slightly lifted, and upper body subtly recoiled in disbelief. Shallow depth of field renders the warm orange paper lanterns, grill smoke, and cool blue urban neon in soft background bokeh. Dramatic warm-and-cool high-contrast night lighting, sharp catchlights in his eyes, no text, no subtitles, no watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Consistent nighttime outdoor barbecue stall ambient tone with quiet distant traffic and faint charcoal sizzle, synchronized with a sudden plastic chair shift and a quiet sharp intake of breath.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Close-up",
+        "clip_id": "clip_05",
+        "clip_summary": "Isolated close-up on CHR_1 quietly confirming the truth with calm, solitary resignation.",
+        "detailed_action_and_dialogue": "Locked-off static camera on a sturdy tripod in an isolated close-up on <CHR_1> on screen-right, looking steadily toward screen-left. His brows soften from annoyance into quiet, lonely resignation. <CHR_1> speaks (0.20s-1.20s): <d>[Chinese] 都说了。</d> in a calm, understated tone with clear, natural jaw movement and syllable-accurate lip-sync. From 1.20s to 2.00s, <CHR_1> keeps lips naturally closed, letting out a nearly imperceptible breath as his gaze dips briefly and settles back onto his friend with quiet, solitary honesty.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "closed-lip quiet resigned melancholy with soft steady eyes, gently relaxed brows, and understated solitary composure",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action close-up of [CHR_1] positioned on screen-right in [Scene], facing three-quarters left and looking quietly toward screen-left. Shallow depth of field isolates him against soft background bokeh of warm orange lanterns, dark street trees, and cool blue urban night lights reflected on wet pavement. [CHR_1] wears an understated, calm, and slightly lonely expression with relaxed brows, gentle eyes holding clear lantern catchlights, and poised stillness. High-contrast warm orange key light blended with cool blue night shadows across his cheek, natural film texture, no text, no subtitles, no watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Consistent nighttime outdoor barbecue stall ambient tone with gentle night air and distant city hum, accompanied by a soft, subtle exhale and quiet fabric settle.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Cinematic live-action wide shot in 16:9 aspect ratio establishing [Scene], a nighttime outdoor street-side barbecue stall on wet, reflective asphalt pavement. In the center stands a red square dining table flanked by two red plastic chairs, establishing a strict 180-degree camera axis from the front side of the table. Seated on the red plastic chair on screen-left is [CHR_2], angled right across the table toward [CHR_1] with an easygoing, playful posture. Seated on the red plastic chair on screen-right is [CHR_1], angled left across the table toward [CHR_2] with calm, composed body language. On the red tabletop between them sit [PRP_1] a dark metal rectangular tray filled with golden-brown grilled meat skewers on bamboo sticks, plastic cold drink cups, a stainless steel chopstick and bamboo skewer cylinder, and a tissue box. Behind them, a smoking barbecue stall hung with warm orange round paper lanterns, roadside trees, and distant urban neon signs create high-contrast cinematic lighting mixing warm orange lantern key light with cool blue night ambient shadows. Realistic 35mm film look, no text, no subtitles, no borders, no watermarks.",
+    "scene_summary": "At a nighttime street-side barbecue stall, CHR_2 playfully dismisses CHR_1's claim of telepathy and silently makes a mocking bet in his head, only for CHR_1 to quote the unspoken thought word-for-word, turning CHR_2's smug certainty into stunned belief and CHR_1's quiet, solitary confirmation."
+  },
+  "stitch_meta": {
+    "clip_count": 5,
+    "visual_cuts": [
+      2.583,
+      6.916,
+      9.833,
+      11.083
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 13.417
+  }
+}

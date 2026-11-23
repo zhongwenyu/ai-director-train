@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Close-up (CU) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Cutting over 35 degrees closer into a tight close-up on <Subject 1>, she presses her polite flattery trap further, asking with bright-eyed sweetness whether CHR_2 must be the boss's right-hand assistant.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a tight close-up on <Subject 1> (S1) positioned left-of-center, maintaining her left-to-right eyeline toward <CHR_2> off-screen right. Starting from a poised polite smile, <Subject 1> (S1) subtly raises one eyebrow with bright, twinkling orbicularis oculi engagement, tilting her head slightly to the side as she delivers her flattering Trap with breezy, razor-clear sweetness, then settles into a calm, composed closed-lip smile that awaits an answer. <Subject 1> (S1) speaks (0.16s-3.16s): <d>[Chinese] 那您应该是老板身边的得力助手吧？</d> Clear, natural lip-sync matching every syllable, with natural breath cadence and lips closing cleanly after 2.45s as her steady, knowing gaze stays locked off-screen right.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous ambient open-plan office room tone; subtle fabric rustle as she tilts her head and a light, natural breath release at the end of her question.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

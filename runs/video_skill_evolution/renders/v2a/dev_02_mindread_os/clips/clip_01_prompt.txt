@@ -1,0 +1,20 @@
+subject_definitions:
+<Picture 1> is the opening Close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+
+summary:
+[keyframe completion + reference generation] Tight close-up on <Subject 1> holding a smug, closed-lip look as his inner voice secretly mocks CHR_1 with an exaggerated mental bet.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Very slow motivated push-in toward <Subject 1>'s eyes from a three-quarter front angle on screen-left, looking toward screen-right. <Subject 1> keeps lips naturally closed the entire time, resting the corner of his mouth in a subtle, self-assured half-smirk. His eyes glint with private amusement as one eyebrow lifts slightly at 0.80s, followed by a tiny confident nod and an unbothered blink at 1.90s while his gaze lingers steadily toward screen-right, radiating silent certainty that his secret thought is untouchable. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
+
+overall_soundscape:
+Quiet non-vocal room tone and subtle physical foley only (Subdued outdoor night barbecue ambient tone with gentle distant traffic hum and faint breeze, deliberately restrained to create clear spatial separation for the intimate close-mic reverberant inner monologue voiceover, paired with soft breathing foley.); strictly zero human speech, zero vocals, zero murmuring, zero music.
+
+non_diegetic_music:
+N/A

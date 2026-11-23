@@ -6,14 +6,14 @@
   "mean_cand_asl_s": 3.01,
   "mean_target_gold_asl_s": 2.01,
   "mean_asl_abs_gap_s": 1.0,
-  "target_parity_overall_pct": 88.05,
+  "target_parity_overall_pct": 88.74,
   "target_parity_by_dim_pct": {
-    "acting_micro_naturalism": 85.4,
-    "vocal_dialogue_delivery": 88.3,
-    "editing_rhythm_and_reactions": 84.1,
-    "character_and_costume_consistency": 107.0,
-    "cinematography_and_spatial_coherence": 106.7,
-    "physical_anatomy_integrity": 103.4
+    "acting_micro_naturalism": 79.8,
+    "vocal_dialogue_delivery": 79.6,
+    "editing_rhythm_and_reactions": 80.2,
+    "character_and_costume_consistency": 110.6,
+    "cinematography_and_spatial_coherence": 102.8,
+    "physical_anatomy_integrity": 101.2
   },
   "per_case_signals": [
     {
@@ -62,10 +62,8 @@
       "cand_duration_s": 7.459,
       "gold_duration_s": 9.0,
       "cand_av_desync_s": 0.008,
-      "cand_penalty": 20.0,
-      "cand_penalty_reasons": [
-        "SILENT_MOUTH_FLAPPING_DESYNC"
-      ],
+      "cand_penalty": 0.0,
+      "cand_penalty_reasons": [],
       "cand_shots": 3,
       "gold_shots": 4,
       "cand_asl_s": 2.49,

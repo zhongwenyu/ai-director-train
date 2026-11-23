@@ -1,0 +1,150 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Over-the-shoulder medium close-up (OTS MCU)",
+        "clip_id": "clip_01",
+        "clip_summary": "Over CHR_2's right-side shoulder, CHR_1 on screen-left suppresses her agitation and quietly pleads for both of them to calm down.",
+        "detailed_action_and_dialogue": "Locked-off static camera in an over-the-shoulder medium close-up past the softly blurred dark-navy wool coat shoulder in the right foreground (which holds a tense, shallow breathing stillness) onto <CHR_1> on screen-left facing right. Inheriting the standoff tension, <CHR_1>'s gaze steadies onto her partner's eyes as she inhales softly to restrain her post-argument impulse and leans a fraction forward in tentative reconciliation. <CHR_1> speaks (0.20s-1.55s): <d>[Chinese] 都冷静一下</d> with clear, natural jaw movement and syllable-accurate lip-sync. From 1.55s to 2.00s, <CHR_1> keeps lips naturally closed, her inner brows remaining softly drawn as she waits anxiously for his response.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed lips softly pressed in restrained plea, inner brows gently drawn upward at 45% natural cinematic intensity, clear earnest eyes slightly moistened with subtle upper-cheek tension",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action over-the-shoulder medium close-up in [Scene], seen past the out-of-focus dark-navy wool coat shoulder and dark-brown ribbed beanie edge of a young man on the far right foreground, focusing on [CHR_1] positioned on screen-left facing right along the 180-degree eyeline. [CHR_1] wears a cream-white double-breasted wool coat over a light-apricot knit sweater and a rust-red chunky knit scarf with straight black hair falling naturally; her brows are gently knitted and her clear eyes hold restrained, pleading tension just before speaking, fingers lightly grazing her scarf. Shallow depth of field with soft background bokeh of yellow-green park lawn, autumn deciduous trees, and a wooden-metal bench under cold, diffused overcast daylight, realistic 35mm film texture, no text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Consistent cold overcast riverside park ambient tone with light autumn breeze rustling dry leaves, accompanied by subtle wool coat and knit scarf fabric foley as she leans slightly forward.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder medium close-up (OTS MCU)",
+        "clip_id": "clip_02",
+        "clip_summary": "Reverse over-the-shoulder onto CHR_2 on screen-right as he bristles with aggrieved frustration and snaps back a rhetorical retort.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a reverse over-the-shoulder medium close-up past the softly blurred cream-white wool coat shoulder and rust-red knit scarf edge in the left foreground (which subtly stiffens as the listener absorbs his tone) onto <CHR_2> on screen-right facing left. <CHR_2>'s eyes flare with misunderstood grievance and irritable resistance, shifting his weight slightly back with a sharp exhale before firing back. <CHR_2> speaks (0.20s-1.70s): <d>[Chinese] 都这样了还冷静什么</d> with clear, natural jaw movement and syllable-accurate lip-sync. From 1.70s to 2.00s, <CHR_2> keeps lips naturally closed, jaw tight and brow creased in stubborn agitation.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed lips set in a taut line of aggrieved irritation, brows moderately knitted at 45% natural cinematic intensity, sharp restless gaze with slight lower-eyelid tension",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_1"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action reverse over-the-shoulder medium close-up in [Scene], seen past the out-of-focus cream-white wool coat shoulder, straight black hair, and rust-red chunky knit scarf edge of a young woman on the far left foreground, focusing on [CHR_2] positioned on screen-right facing left along the 180-degree eyeline. [CHR_2] wears a dark-brown ribbed knit beanie, dark-navy long wool coat, and oatmeal turtleneck sweater; his brows are drawn together in frustrated grievance, eyes sharp with defensive hurt and impatient tension under soft overcast top-side daylight. Shallow depth of field with soft background bokeh of the pale-gray riverside guardrail and calm water, cool desaturated winter color palette, realistic 35mm cinema look, no text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous cold riverside park open-air ambient tone with faint wind over distant water, layered with crisp breath intake and subtle wool lapel rustle as he shifts his shoulders.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Close-up (CU)",
+        "clip_id": "clip_03",
+        "clip_summary": "Tightening to a close-up on CHR_1, she masks her desire to be held back behind a solemn, decisive hundred-step breakup ultimatum.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a tight close-up on <CHR_1> positioned slightly left of center, gazing intently toward screen-right. Stung by his refusal to soften, <CHR_1>'s eyes briefly flicker before locking back onto him with solemn, guarded vulnerability disguised as finality. <CHR_1> speaks (0.20s-2.70s): <d>[Chinese] 我们背对背走100步，考虑清楚了，从此不再相见</d> with clear, natural jaw movement, syllable-accurate lip-sync, and subtle breath pauses between phrases, her voice steady yet carrying quiet emotional weight. From 2.70s to 3.00s, <CHR_1> keeps lips naturally closed, holding an unflinching, glistening gaze as she silently tests his reaction.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed lips held firm in guarded heartbreak, brows subtly furrowed at 50% natural cinematic intensity, glistening steady eyes with delicate mid-cheek stillness",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": false,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action tight close-up of [CHR_1] framed slightly left of center and looking intently toward screen-right along the established 180-degree axis. Wearing her rust-red chunky knit scarf and cream-white wool coat with straight black hair stirred faintly by winter air, [CHR_1] holds a solemn, wounded yet resolute gaze with subtle moisture catching the overcast catchlight in her eyes and composed tension around her brow and mouth. Shallow depth of field with creamy soft background bokeh of muted yellow-green park foliage and bare branches, cool desaturated autumn-winter natural light, authentic 35mm lens texture, no text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Consistent quiet riverside park ambient tone with soft chill breeze brushing past her hair and scarf, keeping intimate vocal presence clear without any music.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Medium close-up (MCU)",
+        "clip_id": "clip_04",
+        "clip_summary": "In a reverse medium close-up, CHR_2 stiffens his wounded pride, coldly agrees in spite, and initiates a sharp clockwise turn away.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a reverse medium close-up on <CHR_2> positioned slightly right of center, initially facing screen-left. A flash of stung pride crosses <CHR_2>'s eyes at her ultimatum; masking his hurt behind cold stubbornness, he lifts his chin slightly and answers crisply. <CHR_2> speaks (0.20s-0.85s): <d>[Chinese] 行啊</d> with clear, natural jaw movement and syllable-accurate lip-sync. Immediately from 0.85s to 2.00s, <CHR_2> keeps lips naturally closed, clenching his jaw slightly before decisively pivoting his head and dark-navy-coated shoulders clockwise away from screen-left toward screen-right to leave.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed lips pressed tight in wounded stubborn defiance, lowered brows at 45% natural cinematic intensity, cold hardened gaze with tense upper-cheek contour",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": false,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action medium close-up of [CHR_2] framed slightly right of center and facing screen-left along the 180-degree eyeline. Wearing his dark-brown ribbed knit beanie, dark-navy wool coat, and oatmeal high-neck sweater, [CHR_2] displays a cold, hardened expression masking wounded pride, brows set low and gaze fixed sharply leftward just before his terse agreement. Shallow depth of field with soft background bokeh of pale-gray riverside railings and overcast winter water, cool low-saturation daylight, realistic 35mm film photography, no text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous cold overcast park ambient air tone, punctuated by a brief sharp exhale and crisp heavy wool coat rustle as he pivots his shoulders away at the end of the shot.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Medium shot (MS)",
+        "clip_id": "clip_05",
+        "clip_summary": "Cutting on the turn to a medium shot with rightward lead room, the camera tracks CHR_2 striding away down the riverside path while CHR_1 stands rooted behind him and CHR_2's weary inner monologue sounds.",
+        "detailed_action_and_dialogue": "Smooth lateral tracking shot following <CHR_2> toward screen-right in a medium shot along the riverside asphalt path, seamlessly continuing his clockwise pivot from the previous cut. In the right-center foreground, <CHR_2> strides steadily toward screen-right with ample rightward lead room; <CHR_2> keeps lips naturally closed as his defiant posture gradually sags into heavy exhaustion, eyes dropping toward the cold pavement and brows slackening with quiet helplessness while his inner monologue resonates. In the left mid-background, <CHR_1> remains standing motionless facing right after his retreating figure; <CHR_1> keeps lips naturally closed, shoulders rigid and hands tightening at her coat sides as distance opens between them.",
+        "duration_s": 2,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": {
+          "mode": "inner_os",
+          "speaker_id": "CHR_2",
+          "start_s": 0.2,
+          "text": "我真的心累了"
+        },
+        "keyframe_prompt": "Cinematic live-action medium shot in [Scene] on the autumn-winter riverside park asphalt path, maintaining the 180-degree axis with generous lead room on screen-right. In the right-center foreground, [CHR_2] in his dark-brown ribbed beanie, dark-navy long wool coat, oatmeal turtleneck, and black trousers has just turned his back on [CHR_1] and steps forward toward screen-right in three-quarter profile, eyes cast slightly downward with weary resignation and lips naturally closed. In the left mid-background on the path, [CHR_1] in her cream-white wool coat and rust-red knit scarf stands rooted in place facing right, watching his departure. Yellow-green lawns, bare deciduous trees, wooden-metal benches, pale-gray guardrail, and calm water stretch behind them under cold diffused overcast daylight, realistic 35mm cinema photography, no text, subtitles, or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Subdued cold riverside breeze ambient tone and measured leather boot footsteps with wool coat movement on the asphalt path, distinctly separated from the intimate close-perspective inner monologue reverb with zero music.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_2",
+          "CHR_1"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Cinematic live-action wide establishing master shot in [Scene], set at the center of an autumn-winter riverside park asphalt path extending into the distance, flanked by yellow-green lawns, bare and yellowing deciduous trees, and wooden-metal park benches, with a pale-gray guardrail and calm river surface visible in the far background. Strictly preserving the 180-degree spatial axis, [CHR_1] (young East Asian woman in a cream-white double-breasted wool coat over a light-apricot knit sweater and a rust-red chunky knit scarf, long straight black hair) stands on screen-left facing right, while [CHR_2] (young East Asian man in a dark-brown ribbed knit beanie, dark-navy long wool coat over an oatmeal turtleneck sweater, black straight trousers, and black ankle boots) stands at close confrontation distance on screen-right facing left. Both hold natural, emotionally taut postures mid-dispute rather than looking at the lens, illuminated by consistent soft diffused overcast daylight from upper-right in a cool, desaturated winter palette, realistic 35mm cinema photography, no text, subtitles, borders, or watermarks.",
+    "scene_summary": "On a cold, overcast autumn-winter riverside park path, a couple's heated dispute escalates when CHR_1 suppresses her agitation to test CHR_2 with a hundred-step breakup ultimatum; stung and stubborn, CHR_2 coldly agrees, turns his back, and strides away along the path while silently admitting his deep emotional exhaustion."
+  },
+  "stitch_meta": {
+    "clip_count": 5,
+    "visual_cuts": [
+      1.792,
+      3.209,
+      7.876,
+      10.209
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 11.792
+  }
+}

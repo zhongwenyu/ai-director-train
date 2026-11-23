@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up (OTS-MCU) on CHR_1 from past CHR_2 on screen-right, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Snapping fully back to reality, <Subject 1> looks up at CHR_2 with dawning realization and earnest acknowledgment, agreeing to give her the money as his hand reaches toward his jacket pocket.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a reverse over-the-shoulder medium close-up past <CHR_2>'s softly blurred right shoulder and outstretched open hand on screen-right, focusing on <Subject 1> (S1) seated on the kang edge on screen-left looking up-right along the eyeline axis. <Subject 1> (S1)'s rapid blink clears the lingering fog of guilt as his eyebrows lift slightly in sudden recollection, eyes warming into earnest resolve; <Subject 1> (S1) speaks (0.16s-1.70s): <d>[Chinese] 对哦，还要给你钱。</d> with clear, natural lip-sync matching every syllable, incorporating a brief natural breath catch and slight affirmative nod after the first clause while his gaze shifts briefly from <CHR_2>'s waiting palm up to her eyes. From 1.55s to 2.00s, <Subject 1> (S1)'s lips close naturally in a willing, focused expression as his right hand reaches briskly toward the side pocket of his faded work jacket, while <CHR_2>'s foreground outstretched fingers flex subtly with impatience.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous rural adobe room tone; synchronized subtle foley of CHR_1's quick breath intake, work-jacket cotton rustling as his hand moves toward his pocket, and subtle movement of CHR_2's sleeve in the foreground.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

@@ -522,16 +522,18 @@ def compile_h3_clip_payload(
         detail_body = re.sub(r"\b(?:inner\s+monologue|voiceover|voice-over)\b", "silent thought", detail_body, flags=re.I)
         detail_body += " Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping."
 
-    # Synchronize clip duration AND `(start_s-end_s)` window so H3 NEVER sits silent for 3s!
-    spoken_cjk = sum(len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", m.group(1)) ) for m in re.finditer(r"<d>\s*(?:\[[A-Za-z]+\])?(.*?)</d>", detail_body, re.S))
+    # Synchronize clip duration AND `(start_s-end_s)` window so H3 NEVER sits silent for 3s or truncates clause tails!
+    spoken_texts = [m.group(1) for m in re.finditer(r"<d>\s*(?:\[[A-Za-z]+\])?(.*?)</d>", detail_body, re.S)]
+    spoken_cjk = sum(len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", t)) for t in spoken_texts)
+    clause_pauses_n = sum(len(re.findall(r"[，、；：。！？…,.!?;:]", t)) for t in spoken_texts)
     raw_dur = int(round(float(clip_spec.get("duration_s", 3))))
     os_spec = clip_spec.get("inner_os") if isinstance(clip_spec.get("inner_os"), dict) else None
     if spoken_cjk > 0 and ref_audios:
-        # Tight natural short-drama delivery: allow 2s clips for short lines (<=7 chars) so 5-clip scenes never bloat!
-        est_speech_dur = max(0.85, round(spoken_cjk / 5.4, 2))
-        sync_dur = max(2, min(8, math.ceil(0.16 + est_speech_dur + 0.34)))
+        # Tight natural short-drama delivery: allow 2s clips for short lines (<=6 chars) while accounting for clause breath pauses!
+        est_speech_dur = max(0.85, round(spoken_cjk / 5.0 + max(0, clause_pauses_n - 1) * 0.14, 2))
+        sync_dur = max(2, min(8, math.ceil(0.16 + est_speech_dur + 0.40)))
         win_start = 0.16
-        win_end = round(min(sync_dur - 0.26, win_start + est_speech_dur), 2)
+        win_end = round(min(sync_dur - 0.30, win_start + est_speech_dur), 2)
         # Rewrite first `(Xs-Ys)` before `<d>` so prompt window matches exact clip duration!
         detail_body = re.sub(
             r"\(\s*\d+(?:\.\d+)?s?\s*[-–~to]+\s*\d+(?:\.\d+)?s?\s*\)(\s*:\s*<d>)",
@@ -720,7 +722,7 @@ def trim_clip_dead_air_sync(mp4_path: Path, is_speaking_clip: bool) -> None:
     first_s = act_indices[0] * dt
     last_s = (act_indices[-1] + 1) * dt
     ts = round(max(0.0, first_s - 0.14), 3) if first_s > 0.22 else 0.0
-    te = round(min(dur, last_s + 0.18), 3) if (dur - last_s) > 0.25 else round(dur, 3)
+    te = round(min(dur, last_s + 0.26), 3) if (dur - last_s) > 0.32 else round(dur, 3)
 
     if te - ts >= 1.15 and (ts > 0.08 or (dur - te) > 0.12):
         tmp_out = mp4_path.with_suffix(".sync_trim.mp4")
@@ -835,13 +837,18 @@ def apply_vo_wav_onto_clip(
     if marker.is_file() or vo_wav is None or not vo_wav.is_file():
         return base_mp4
     # CRITICAL FIX: Strip any hallucinated H3 speech from `base_mp4` BEFORE mixing `vo_wav`,
-    # because `mix_vo_custom` restores `[0:a]` to 1.0 outside `[dst_start, de]`!
+    # while retaining subtle -44dB spatial room-air bed so pauses never drop to -inf dB digital silence!
     clean_base = base_mp4.with_suffix(".muted_base.mp4")
+    pr_b = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(base_mp4)], text=True))
+    b_dur = float(pr_b["format"]["duration"])
     subprocess.run(
         [
-            "ffmpeg", "-y", "-v", "error", "-i", str(base_mp4),
+            "ffmpeg", "-y", "-v", "error",
+            "-i", str(base_mp4),
+            "-f", "lavfi", "-t", f"{b_dur:.3f}", "-i", "anoisesrc=color=pink:amplitude=0.0028:sample_rate=48000",
+            "-filter_complex", "[1:a]highpass=f=90,lowpass=f=850,aformat=channel_layouts=stereo[air]",
+            "-map", "0:v", "-map", "[air]",
             "-c:v", "copy",
-            "-af", "volume=0.0",
             "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "160k",
             str(clean_base),
         ],

@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening MS cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+
+summary:
+[keyframe completion + reference generation] Medium shot inside the rural adobe bedroom as <Subject 1> sits on the kang edge on screen-left in silent remorseful silent reaction while <Subject 2> rises from lying on the floral bedding onto the open floor on screen-right to face him.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Smooth motivated rightward pan framing the earthen kang edge on screen-left and the open earthen floor beside the dark wooden cabinet on screen-right. Seated on the kang edge on screen-left, <Subject 1> keeps lips naturally closed, head bowed with furrowed brows, heavy eyelids, and slow weighed-down breathing as deep remorse fills his downward gaze, subtly lifting his eyes rightward near the end of the beat as movement stirs beside him. Behind him on the floral cotton bedding, <Subject 2> keeps lips naturally closed, pushes herself briskly up from her side-lying posture, steps down onto the open packed-earth floor beside the dark wooden cabinet on screen-right, and turns firmly toward screen-left to stand confronting <Subject 1> face-to-face. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
+
+overall_soundscape:
+Quiet non-vocal room tone and subtle physical foley only (Quiet daytime rural adobe room tone with faint village air outside the wooden window, intimate close-perspective quiet air presence for the inner monologue layered cleanly over synchronized rustling of the cotton quilt and soft footsteps landing on the packed-earth floor.); strictly zero human speech, zero vocals, zero murmuring, zero music.
+
+non_diegetic_music:
+N/A

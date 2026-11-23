@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening OTS cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Picture 3> is the reference prop (白色纸巾).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse over-the-shoulder medium close-up onto Shen Mingshan on screen-right as he wipes his cheek in disgust with the tissue and condescendingly mocks Manshu's past taste in men.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a reverse over-the-shoulder medium close-up favoring <Subject 1> (S1) on screen-right in the driver's seat, framed past the soft-focus dark-haired shoulder silhouette on screen-left. <Subject 1> (S1) briskly rubs his left cheek once more in lingering revulsion with the folded pure-white tissue in his left hand, lowers his wrist wearing the black leather-strap mechanical watch toward the steering wheel, and turns his gaze screen-left with a cold, patronizing sneer behind his gold-rimmed glasses. <Subject 1> (S1) speaks (0.16s-3.10s): <d>[Chinese] 你也是瞎了眼，找了这么一个男人。</d> with clear, natural jaw movement, syllable-accurate lip-sync, and a subtle breath pause at the comma, settling into smug closed-lip superiority at 2.70s while the blurred foreground shoulder on screen-left dips slightly in quiet reaction.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent muted luxury car cabin ambient room tone, synchronized brisk rub of soft paper tissue against skin, light suit sleeve rustle, and a brief scoffing nasal exhale.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

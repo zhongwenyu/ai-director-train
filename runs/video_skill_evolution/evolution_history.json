@@ -1,5 +1,5 @@
 {
-  "champion": "v0",
+  "champion": "v2a",
   "rounds": [
     {
       "round": 1,
@@ -95,19 +95,110 @@
       },
       "mean_cand_asl_s": 3.01,
       "promoted": false
+    },
+    {
+      "round": 2,
+      "prev_champion": "v0",
+      "tournament_candidates": [
+        "v2a",
+        "v2b"
+      ],
+      "tournament_screen_delta_a_vs_b": 3.0,
+      "selected_candidate": "v2a",
+      "bottlenecks": [
+        "面部微表演僵硬塑料且违背潜台词，常呈表面化僵态或肌肉死板，缺乏细腻眼神层次、情绪转折与关键戏剧动作；多人同框时非发声方全程呆滞，缺乏实时倾听微反应。",
+        "剪辑节奏偏慢（均镜长超标杆1秒），反应镜与声画交叠占比极低，长镜停滞缺乏中途倾听切镜；跨镜易现同轴线景别跳切与动作衔接断层，收尾偶发对白硬截断或无效拖尾。",
+        "声画同步与台词气口薄弱：画内发声偶发唇部闭合或微颤的严重音画脱节；对白断句机械，缺乏自然呼吸气口缓冲；环境底噪干瘪割裂，内心独白与实景人声的声学混响区分度不足。",
+        "运镜死锁静态（推镜率0%），缺乏情绪推镜与首帧景深主次引导，远景亦削弱微表情细节；跨机位切镜时同场人物与周边元素易凭空消失或方位错位，空间拓扑与环境一致性受损。"
+      ],
+      "mutation_rationale": "围绕方向 A（紧凑正反打反应切镜 + 动作属性适配景别 + 实拍固定机位主导）与本轮结构遥测及跨题材抽象短板进行全链路底层升级：\n1. 剪辑节奏与声桥激活（Stage 1）：针对均镜长偏慢（3.06s）、无声反应镜与 L-cut 极低（0.111）及跳切/截断短板，确立超过 3.5s 的多句/长句交锋主动拆分为 2s–3s 正反打切镜或穿插 2s 无声倾听反应镜，并在切向反应镜/承接镜时积极启用 lcut_audio_hold_over_next_s（0.3–0.8s）构建声画交叠；引入 30° 机位变化/跨级景别反差防跳切法则，按自然语速加 0.3s–0.5s 呼吸余韵核定时长，根除尾字硬截断与末段注水。\n2. 动作属性精准适配景别（全阶段贯通）：纠偏 0.833 高近景比对大幅肢体调度的吞没，明确言语交锋与心理暗涌收紧至 MCU/CU/OTS 并配浅景深聚焦眼神层次；而跨空间走动离开、拉拽转身、鞠躬逃离及意境空镜转场强制放宽至 MS/WS 预留运动净空，完整呈现肢体轨迹与空间转换。\n3. 空间轴线守恒与在场连续性（Stage 2）：强化 master_blocking_prompt 的 180° 轴线基准，要求子镜头 keyframe_prompt 严格继承左右站位、视线矢量、过肩前景轮廓及同场人物/背景局部锚点，消除切镜后角色或周边元素凭空消失与翻轴。\n4. 固定机位主导与极点运镜破冰（Stage 3）：维持原地/落座对话以稳固三脚架固定机位为常态（禁习惯性风箱推镜），同时针对推镜率 0.0 死锁静态的短板，精准放开跨空间位移 MS/WS 平滑跟摇（Tracking/Pan）及全段唯一静默悬念/悲恸凝视极点的单次缓慢推镜（Very slow motivated push-in）。\n5. 潜台词二段式微表演与声画严密同步（Stage 3）：建立“起幅承接→眼神呼吸转折→关键支点动作”递进链与同框听话人实时微反应铁律；强化逐音节唇齿咬合、分句换气气口、非发声/心声态双唇自然闭合锁死，以及跨镜连贯底噪与心声混响的空间声学分离。四文件均远低于 MDL 字符上限，零数字百分比配额、零专名过拟合。",
+      "cand_telemetry": {
+        "avg_clips_per_scene": 4.4,
+        "avg_clip_duration_s": 2.64,
+        "silent_reaction_clip_ratio": 0.136,
+        "lcut_overlap_clip_ratio": 0.136,
+        "tight_mcu_cu_ots_ratio": 0.909,
+        "push_in_clip_ratio": 0.091,
+        "locked_static_clip_ratio": 0.864
+      },
+      "dev_vs_prev_champ": {
+        "wins": 3,
+        "losses": 2,
+        "ties": 0,
+        "cand_mean_score": 75.9,
+        "ref_mean_score": 73.5,
+        "mean_delta": 2.4
+      },
+      "val_vs_prev_champ": {
+        "wins": 3,
+        "losses": 0,
+        "ties": 1,
+        "cand_mean_score": 78.12,
+        "ref_mean_score": 65.88,
+        "mean_delta": 12.24
+      },
+      "overfitting_diagnostics": {
+        "is_overfit": false,
+        "overfit_reasons": [],
+        "dev_mean_delta": 2.4,
+        "val_mean_delta": 12.24,
+        "dev_minus_val_gap": -9.84,
+        "worst_val_case_drop": -3.0,
+        "val_aspect_ratio_deltas": {
+          "16:9": 9.33,
+          "9:16": 21.0
+        },
+        "val_per_genre_breakdown": {
+          "val_01_winter_parting": {
+            "genre": "现代生活情感",
+            "aspect_ratio": "16:9",
+            "delta": 17.5,
+            "outcome": "cand_win"
+          },
+          "val_02_scar_probe": {
+            "genre": "都市悬疑试探",
+            "aspect_ratio": "16:9",
+            "delta": -3.0,
+            "outcome": "tie"
+          },
+          "val_03_class_clash": {
+            "genre": "都市强冲突逆袭",
+            "aspect_ratio": "16:9",
+            "delta": 13.5,
+            "outcome": "cand_win"
+          },
+          "val_04_ancient_prince": {
+            "genre": "古装权谋逆袭",
+            "aspect_ratio": "9:16",
+            "delta": 21.0,
+            "outcome": "cand_win"
+          }
+        }
+      },
+      "dev_target_parity_pct": 85.21,
+      "dev_target_parity_by_dim_pct": {
+        "acting_micro_naturalism": 71.8,
+        "vocal_dialogue_delivery": 80.6,
+        "editing_rhythm_and_reactions": 79.9,
+        "character_and_costume_consistency": 103.9,
+        "cinematography_and_spatial_coherence": 98.7,
+        "physical_anatomy_integrity": 97.7
+      },
+      "mean_cand_asl_s": 2.7,
+      "promoted": true
     }
   ],
   "baseline_v0_target_parity": {
-    "dev_score": 73.7,
-    "target_gold_score": 83.7,
-    "target_parity_pct": 88.05,
+    "dev_score": 72.5,
+    "target_gold_score": 81.7,
+    "target_parity_pct": 88.74,
     "target_parity_by_dim_pct": {
-      "acting_micro_naturalism": 85.4,
-      "vocal_dialogue_delivery": 88.3,
-      "editing_rhythm_and_reactions": 84.1,
-      "character_and_costume_consistency": 107.0,
-      "cinematography_and_spatial_coherence": 106.7,
-      "physical_anatomy_integrity": 103.4
+      "acting_micro_naturalism": 79.8,
+      "vocal_dialogue_delivery": 79.6,
+      "editing_rhythm_and_reactions": 80.2,
+      "character_and_costume_consistency": 110.6,
+      "cinematography_and_spatial_coherence": 102.8,
+      "physical_anatomy_integrity": 101.2
     },
     "mean_cand_asl_s": 3.01,
     "mean_target_gold_asl_s": 2.01,
@@ -119,53 +210,6 @@
       "tight_mcu_cu_ots_ratio": 0.833,
       "push_in_clip_ratio": 0.0,
       "locked_static_clip_ratio": 1.0
-    }
-  },
-  "final_locked_test": {
-    "champion": "v0",
-    "resolution": "768p",
-    "vs_v0_baseline": {
-      "wins": 0,
-      "losses": 0,
-      "ties": 3,
-      "cand_mean_score": 70.0,
-      "ref_mean_score": 70.0,
-      "mean_delta": 0.0,
-      "cand_dim_means": {
-        "acting_micro_naturalism": 17.83,
-        "vocal_dialogue_delivery": 15.0,
-        "editing_rhythm_and_reactions": 13.5,
-        "character_and_costume_consistency": 13.0,
-        "cinematography_and_spatial_coherence": 6.0,
-        "physical_anatomy_integrity": 8.67
-      },
-      "ref_dim_means": {
-        "acting_micro_naturalism": 17.83,
-        "vocal_dialogue_delivery": 15.0,
-        "editing_rhythm_and_reactions": 13.5,
-        "character_and_costume_consistency": 13.0,
-        "cinematography_and_spatial_coherence": 6.0,
-        "physical_anatomy_integrity": 8.67
-      }
-    },
-    "v0_target_parity_pct": 92.99,
-    "champion_target_parity_pct": 92.87,
-    "champion_target_parity_by_dim_pct": {
-      "acting_micro_naturalism": 93.1,
-      "vocal_dialogue_delivery": 97.9,
-      "editing_rhythm_and_reactions": 87.0,
-      "character_and_costume_consistency": 120.0,
-      "cinematography_and_spatial_coherence": 95.3,
-      "physical_anatomy_integrity": 101.8
-    },
-    "v0_asl_s": 3.13,
-    "champion_asl_s": 3.13,
-    "target_gold_asl_s": 2.16,
-    "triptych_videos": {
-      "dev_01_workplace_rival": "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/target_verification/triptych_comparisons/triptych_dev_01_target_video.mp4",
-      "test_01_tipsy_breakup": "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/target_verification/triptych_comparisons/triptych_test_01_tipsy_breakup.mp4",
-      "test_02_trio_table": "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/target_verification/triptych_comparisons/triptych_test_02_trio_table.mp4",
-      "test_03_ancient_family": "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/target_verification/triptych_comparisons/triptych_test_03_ancient_family.mp4"
     }
   }
 }

@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse tight over-the-shoulder close-up on <Subject 1> freezing in utter shock and stammering halfway through a realization as his secret thought is exposed verbatim.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera on a sturdy tripod in a tight over-the-shoulder close-up on <Subject 1> (S1) on screen-left, framed past the softly blurred white-shirted right shoulder silhouette in the extreme screen-right foreground. All trace of teasing vanishes as <Subject 1> (S1) jolts slightly back against his chair, pupils dilating and eyebrows lifting in stunned disbelief while staring toward screen-right. <Subject 1> (S1) speaks (0.16s-1.30s): <d>[Chinese] 你居然真的……</d> in a breathless, halting stammer with clear, natural jaw movement and syllable-accurate lip-sync, trailing off mid-thought before catching a sharp breath and keeping his lips naturally closed from 1.50s to 2.00s in frozen awe. In the extreme right foreground, the blurred white-clad shoulder remains calm and still.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent nighttime outdoor barbecue stall ambient tone with quiet distant traffic and faint charcoal sizzle, synchronized with a sudden plastic chair shift and a quiet sharp intake of breath.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

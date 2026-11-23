@@ -56,10 +56,10 @@ import verify_against_target as VAT  # noqa: E402
 
 # MDL (Minimum Description Length) Char Caps per evolvable skill file to prevent rule bloat!
 EVOLVABLE_FILES: Dict[str, int] = {
-    "SKILL.md": 3400,
-    "prompts/stage1_director_decompose.md": 3600,
-    "prompts/stage2_keyframe_prompting.md": 3600,
-    "prompts/stage3_motion_acting_prompting.md": 4000,
+    "SKILL.md": 1650,
+    "prompts/stage1_director_decompose.md": 1900,
+    "prompts/stage2_keyframe_prompting.md": 1900,
+    "prompts/stage3_motion_acting_prompting.md": 2200,
 }
 
 # Orthogonal 3-drama fast screening subset covering multi-focus 16:9, inner-OS 16:9, and period 9:16
@@ -84,7 +84,7 @@ SCENE_PLAN_SCHEMA: Dict[str, Any] = {
         "clips": {
             "type": "array",
             "minItems": 1,
-            "maxItems": 5,
+            "maxItems": 6,
             "items": {
                 "type": "object",
                 "properties": {
@@ -683,14 +683,16 @@ def main() -> int:
         # Diversified K=2 Proposal in Parallel — 100% Genre-Agnostic First Principles (ZERO single-drama exemplars!)
         cand_a_id, cand_b_id = f"v{r_idx}a", f"v{r_idx}b"
         axis_a = (
-            "方向 A（主要角色强个体辨识度锚定 + 情境适配的潜台词表情层次，跨现代/年代/古装/悬疑通用）："
-            "保持 `master_blocking_prompt` 空间拓扑与 180° 轴线守恒；在子镜首帧与动态提示词中严格锚定每位出场角色各自的个体骨相轮廓、真实年龄肤质、发型/头饰与服饰对比特征，确保同场角色特征鲜明、绝不撞脸或退化为大众脸；"
-            "避免证件照式僵立首帧与全程单一表情干念台词，同时严禁不分题材、不分镜长地机械堆砌夸张动作：短镜聚焦单一鲜明的情绪落点，中长说话镜体现从起势到重音落点的自然神态递进。"
+            "方向 A（紧凑正反打反应切镜 + 动作属性适配景别 + 实拍固定机位主导，全题材通用）："
+            "保持 `master_blocking_prompt` 空间拓扑与 180° 轴线守恒；打破单一中远景长镜站桩到底（超过 `3.5s` 的多句/长句交锋主动拆分为 `2s–3s` 过肩近景或穿插 `2s` 无声倾听反应近景镜并配合 `lcut_audio_hold_over_next_s` 声桥）；"
+            "景别必须严格服务于戏剧动作属性——语言交锋点睛与心理顿悟收紧至 `MCU/CU`，而涉及角色跨空间走动离开、拉拽转身、鞠躬逃离或时空意境空镜转场时必须采用 `MS/WS`（或平滑跟摇 `Tracking/Pan`）完整呈现肢体调度与空间转换，严禁机械套用特写吞没肢体动作；"
+            "常规原地/落座对话全程默认采用稳固三脚架固定机位（`Locked-off static camera`），严禁切镜后习惯性推镜，仅在物理位移跟拍或静默无台词悬念悲恸凝视极点才允许单次动机化运镜。"
         )
         axis_b = (
-            "方向 B（固定机位正反打剪辑语法、动机化运镜节制与防跳切蒙太奇节奏，全题材通用）："
-            "严格匹配 `target_duration_s` 动态配平整数镜长；常规对话正反打与听者反应切镜必须以稳固的三脚架固定机位（`Locked-off static camera`）为主导，靠景别阶梯跳跃与演员画内姿态传递张力，严禁切镜后习惯性缓慢推镜（仅在人物跨空间走动跟拍或全场唯一情绪爆发极点才允许单次动机化运镜）；"
-            "禁止同人相邻单人说话跳切（Jump Cut），长句转折穿插无台词反应近景镜与 `lcut_audio_hold_over_next_s` 声桥，情绪高潮收束句落于近景特写而非退回全景；画内对白紧凑开口清晰咬字，心声严格闭唇隔离。"
+            "方向 B（主客双主体鲜活微表演 + 潜台词极性精准外化 + 闭唇心声与连续声床，全题材通用）："
+            "保持 `master_blocking_prompt` 180° 轴线与角色专属骨相服饰一致性，常规对话采用三脚架固定机位快切（仅物理位移跟拍或静默情绪凝视极点允许单次动机运镜，严禁台词镜习惯性慢推），收尾镜景别严格适配剧本动作（肢体离开/意境转场保留中全景，心理重音收紧近景）；"
+            "发声主体自 `0.20s` 紧凑起音并预留充足尾韵余量防截断，根据 `subtext_intent` 精准外化鲜活眉眼、笑肌、震惊、反讽、尴尬找补或含泪悲恸等真实生理表情（严防正反情绪跑偏或五官扭曲崩坏），同框倾听者同步呈现即时眼神与呼吸微反应；"
+            "心声（`inner_os`）与静默倾听全程双唇自然闭合，`soundscape` 维持不断流空间底噪与同步动作拟音。"
         )
         with cf.ThreadPoolExecutor(max_workers=2) as pex:
             fa = pex.submit(propose_single_axis_candidate, axis_a, champ_files, bottlenecks, champ_telemetry, CAND_ROOT / cand_a_id)

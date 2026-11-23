@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Reverse over-the-shoulder medium close-up (OTS MCU) on CHR_1 past CHR_2's blurred left shoulder cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Picture 3> is the reference prop (烤肉串与金属托盘).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse over-the-shoulder medium close-up on <Subject 1> as he immediately calls out CHR_2's exact unspoken phrase word for word in exasperated disbelief.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a reverse over-the-shoulder medium close-up on <Subject 1> (S1) on screen-right, framed past <CHR_2>'s blurred black-clad left shoulder on extreme screen-left. <Subject 1> (S1)'s brows knit slightly in dry, mildly offended exasperation before <Subject 1> (S1) speaks (0.16s-3.30s): <d>[Chinese] 能不能好好说话，什么叫认贼作父啊？</d> with clear, natural lip-sync matching every syllable; he tilts his head a fraction with a quick breath pause at the comma, his eyes sharpening with incredulous complaint as he repeats the exact phrase, then closes his lips naturally at 2.45s while holding a direct, unimpressed gaze toward screen-left. In the extreme left foreground, <CHR_2>'s blurred shoulder stiffens abruptly as his private thought is quoted verbatim.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous ambient outdoor night barbecue stall room tone with steady charcoal sizzle and distant urban night hum; synchronized subtle foley of <CHR_1>'s quick intake of breath, slight cotton collar shift, and <CHR_2>'s abrupt stiffened posture brush against the plastic chair.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

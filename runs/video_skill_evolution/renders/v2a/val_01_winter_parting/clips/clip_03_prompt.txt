@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up (MCU) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In a reverse medium close-up, <Subject 1> stiffens his wounded pride, coldly agrees in spite, and initiates a sharp clockwise turn away.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a reverse medium close-up on <Subject 1> (S1) positioned slightly right of center, initially facing screen-left. A flash of stung pride crosses <Subject 1> (S1)'s eyes at her ultimatum; masking his hurt behind cold stubbornness, he lifts his chin slightly and answers crisply. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 行啊</d> with clear, natural jaw movement and syllable-accurate lip-sync. Immediately from 0.85s to 2.00s, <Subject 1> (S1) keeps lips naturally closed, clenching his jaw slightly before decisively pivoting his head and dark-navy-coated shoulders clockwise away from screen-left toward screen-right to leave.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous cold overcast park ambient air tone, punctuated by a brief sharp exhale and crisp heavy wool coat rustle as he pivots his shoulders away at the end of the shot.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

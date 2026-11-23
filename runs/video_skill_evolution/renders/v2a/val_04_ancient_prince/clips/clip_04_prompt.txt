@@ -1,0 +1,18 @@
+subject_definitions:
+<Picture 1> is the opening WS cinema frame anchoring exact seating, lighting, and initial character pose.
+
+summary:
+[keyframe completion + reference generation] Transitioning ten years forward to a majestic sunrise landscape of high mountain peaks, gnarled pine crags, and a vast rolling sea of clouds as CHR_1's weighty silent reaction begins.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera framing a grand 9:16 wide landscape shot with no characters on screen. Warm golden sunrise beams pierce slowly through layered clouds and morning mist, illuminating rugged granite crags, ancient gnarled pine needles swaying subtly in the high-altitude breeze, and a boundless white sea of clouds rolling gently across the deep mountain valleys below, creating a solemn, fateful passage-of-time atmosphere while off-screen silent thought plays. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
+
+overall_soundscape:
+Quiet non-vocal room tone and subtle physical foley only (Spacious high-altitude mountain ambient tone with quiet wind quiet air softly through ancient pine needles, cleanly separated in acoustic space to underscore the close, steady, subtly reverberant inner monologue voiceover.); strictly zero human speech, zero vocals, zero murmuring, zero music.
+
+non_diegetic_music:
+N/A

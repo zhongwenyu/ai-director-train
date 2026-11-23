@@ -1,0 +1,145 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Over-the-shoulder medium shot (OTS MS)",
+        "clip_id": "clip_01",
+        "clip_summary": "Over CHR_2's right-foreground shoulder across the frosted desk partition, intern CHR_1 leans forward beside her wronged colleague CHR_3 and opens with a sweet, polite rhetorical question that subtly mocks CHR_2's overstepping authority.",
+        "detailed_action_and_dialogue": "Locked-off static camera in an over-the-shoulder medium shot past <CHR_2>'s softly defocused right-foreground shoulder silhouette toward <CHR_1> and <CHR_3> seated side-by-side on the left side of the light-wood workstation desk. At onset, <CHR_1> leans forward slightly past the black LCD monitor toward <CHR_2> on screen right, eyebrows lifting in polite inquiry while her eyes hold a clear, pointed gleam and her apple cheeks rise in a sweet, disarming smile; mid-sentence at the comma, she takes a crisp micro-breath and tilts her chin slightly upward as her tone sharpens with ironic deference, landing on an innocent-looking upward inflection. <CHR_1> speaks (0.20s-3.55s): <d>[Chinese] 不好意思请教一下呢姐，您带的实习生现在都是公司高管了吗？</d> Clear, natural lip-sync matching every syllable, followed by a natural lip closure at 3.55s while holding her bright, expectant gaze toward screen right. Beside her on screen left, <CHR_3> shifts her gaze from screen right toward <CHR_1>, pupils widening slightly in quiet surprise with subtle chest breathing while her lips remain naturally closed throughout, zero lip movement.",
+        "duration_s": 4,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action medium over-the-shoulder shot in [Scene] modern open-plan office. In the immediate right foreground, the softly defocused back-of-head chestnut wavy hair and cream-white tweed left shoulder silhouette of [CHR_2] anchor the 180-degree axis. Across the light-wood desk, black LCD monitor, and translucent frosted-glass partition on the left side of the frame, [CHR_1] (22-year-old East Asian woman, burgundy-brown chin-length straight bob with thin bangs, white pointed-collar shirt under a fitted black knit cardigan) sits at center-left leaning slightly forward, and [CHR_3] (25-year-old East Asian woman, black low ponytail with curtain bangs, blue-and-white vertical-striped collared shirt) sits closely beside her at screen left. Both face and direct their eyelines toward [CHR_2] on screen right. Cinematic shallow depth of field, sharp focus on [CHR_1]'s eyes and natural skin texture as she prepares to speak with a polite micro-inhale, softly arched brows, and a sweet yet pointed expression, while [CHR_3] watches guardedly with closed lips. Cool overhead office light blended with soft daylight, clean frame, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous ambient open-plan office room tone with low ventilation hum; synchronized subtle foley of knit cardigan sleeve brushing the light-wood desk and a crisp breath intake before speaking.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_3"
+        ]
+      },
+      {
+        "camera_framing": "Close-up (CU)",
+        "clip_id": "clip_02",
+        "clip_summary": "Cutting over 35 degrees closer into a tight close-up on CHR_1, she presses her polite flattery trap further, asking with bright-eyed sweetness whether CHR_2 must be the boss's right-hand assistant.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a tight close-up on <CHR_1> positioned left-of-center, maintaining her left-to-right eyeline toward <CHR_2> off-screen right. Starting from a poised polite smile, <CHR_1> subtly raises one eyebrow with bright, twinkling orbicularis oculi engagement, tilting her head slightly to the side as she delivers her flattering Trap with breezy, razor-clear sweetness, then settles into a calm, composed closed-lip smile that awaits an answer. <CHR_1> speaks (0.20s-2.45s): <d>[Chinese] 那您应该是老板身边的得力助手吧？</d> Clear, natural lip-sync matching every syllable, with natural breath cadence and lips closing cleanly after 2.45s as her steady, knowing gaze stays locked off-screen right.",
+        "duration_s": 3,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Bright, clear inquisitive eyes with gently arched eyebrows, subtly lifted apple cheeks, and a composed closed-lip polite smile at 45% natural cinematic intensity",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action close-up in [Scene] modern open-plan office, camera angled 40 degrees more frontally onto [CHR_1] (22-year-old East Asian woman, natural light makeup, burgundy-brown chin-length straight bob with thin bangs, crisp white pointed-collar shirt under a fitted black knit cardigan) positioned slightly left of center and looking steadily toward screen right across the strict 180-degree axis. Softly blurred translucent frosted-glass partition edge on the right and rows of distant office workstations with green plants in creamy bokeh behind her. Cinematic shallow depth of field, tack-sharp focus on [CHR_1]'s bright, observant eyes and fine skin pores, capturing the subtle pre-speech micro-tension of lifted eyebrows and softly curved lips poised to press her ironic compliment. Naturalistic office lighting, zero text, zero subtitles, zero watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous ambient open-plan office room tone; subtle fabric rustle as she tilts her head and a light, natural breath release at the end of her question.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder medium close-up (OTS MCU)",
+        "clip_id": "clip_03",
+        "clip_summary": "Reverse-angle over CHR_1's left-foreground shoulder onto CHR_2, whose smugness cracks into visible embarrassment as she awkwardly backpedals, claiming she was only joking.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a reverse-angle over-the-shoulder medium close-up past <CHR_1>'s defocused left-foreground shoulder silhouette onto <CHR_2> seated on screen right facing screen left. Caught off-guard by the public flattery trap, <CHR_2>'s previous poised expression falters: her pupils flicker sideways in brief evasion, her throat gives a subtle embarrassed swallow and micro-cough impulse as she shifts slightly back in her chair, and she pulls her mouth corners into a stiff, unconvincing smile to smooth things over. <CHR_2> speaks (0.20s-1.40s): <d>[Chinese] 我开玩笑的。</d> Clear, natural lip-sync matching every syllable, closing her lips tightly after 1.40s while her gaze wavers uneasily and her posture remains stiff.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Uneasy, slightly darting gaze with subtly knitted inner brows, stiffened upper cheeks, and taut closed lips holding back embarrassment at 45% natural cinematic intensity",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_1"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action reverse-angle over-the-shoulder medium close-up in [Scene] modern open-plan office. In the immediate left foreground, the softly defocused burgundy-brown short bob hair and black cardigan right shoulder silhouette of [CHR_1] anchor the left side of the 180-degree axis. Across the frosted-glass desk partition and black LCD monitor edge on the right side of the frame, [CHR_2] (26-year-old East Asian woman, refined urban makeup, chestnut-brown center-parted wavy long hair, cream-white tweed cropped jacket with round gold buttons over a cream crew-neck top, square gold stud earrings and delicate gold disc necklace) sits in a black mesh chair facing and looking toward screen left. Cinematic shallow depth of field, sharp focus on [CHR_2]'s eyes and facial micro-tension—slightly knitted inner brows, flickering defensive gaze, and stiffened cheeks caught off-balance in public embarrassment. Soft natural and cool overhead office light, clean image, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous ambient open-plan office room tone; synchronized subtle foley of a quiet throat-clear breath, tweed jacket movement, and slight mesh office chair shift.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Over-the-shoulder medium close-up (OTS MCU)",
+        "clip_id": "clip_04",
+        "clip_summary": "Cutting back across the partition over CHR_2's shoulder onto CHR_1 with CHR_3 beside her, CHR_1 seizes on CHR_2's excuse with a playful smile and pointedly exposes it as workplace bullying of newcomers, her final words carrying over into CHR_2's reaction.",
+        "detailed_action_and_dialogue": "Locked-off static camera in an over-the-shoulder medium close-up past <CHR_2>'s blurred right-foreground shoulder onto <CHR_1> at center-left with <CHR_3> visible beside her at screen left, both facing screen right. <CHR_1> greets the excuse with an easy, light nod and playful half-smile on the opening clause, pauses for a crisp micro-breath as her gaze narrows into unsparing clarity, and delivers the pointed punchline with effortless poise before closing her lips into a calm, victorious smile. <CHR_1> speaks (0.20s-2.55s): <d>[Chinese] 知道的是开玩笑，不知道的，还以为您打压新人呢。</d> Clear, natural lip-sync matching every syllable, with natural mid-line breath phrasing and clean lip closure after 2.55s. Beside her in soft focus, <CHR_3> keeps her eyes locked toward screen right, eyebrows lifting subtly and shoulders easing in quiet vindication while her lips remain naturally closed throughout, zero lip movement.",
+        "duration_s": 3,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action over-the-shoulder medium close-up in [Scene] modern open-plan office. Softly defocused chestnut wavy hair and cream tweed shoulder silhouette of [CHR_2] in the immediate right foreground. On the left side of the frosted-glass desk divider and black monitor, [CHR_1] (burgundy-brown chin-length straight bob with thin bangs, white pointed-collar shirt under fitted black knit cardigan) is framed in medium close-up at center-left, with [CHR_3] (black low ponytail with curtain bangs, blue-and-white vertical-striped collared shirt) seated right beside her at screen left, both facing screen right along the established 180-degree axis. Cinematic shallow depth of field, sharp focus on [CHR_1]'s knowing, playfully incisive eyes and subtly curved lips poised to counter, while [CHR_3] listens attentively beside her with closed lips and quiet anticipation. Balanced cool white office top light and soft daylight, no text, no watermark.",
+        "lcut_audio_hold_over_next_s": 0.4,
+        "prop_ids": [],
+        "soundscape": "Continuous ambient open-plan office room tone; subtle crisp breath pause mid-sentence and faint fabric movement as CHR_1 leans slightly into her closing remark.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_3"
+        ]
+      },
+      {
+        "camera_framing": "Close-up (CU)",
+        "clip_id": "clip_05",
+        "clip_summary": "Tight close-up on CHR_2 with a slow, motivated push-in as the lingering tail of CHR_1's remark lands, leaving CHR_2 frozen, humiliated, and completely speechless.",
+        "detailed_action_and_dialogue": "Slow, motivated push-in toward <CHR_2>'s eyes in a tight close-up on screen right as she faces screen left. As the sting of <CHR_1>'s final words lands over the cut, <CHR_2>'s forced smile completely vanishes: her pupils contract slightly in stunned humiliation, her upper eyelids give a faint involuntary tremor, her jaw muscles tighten, and she draws a shallow, held breath through her nose, rendered utterly unable to retort. <CHR_2>'s lips remain naturally closed throughout, zero lip movement, locking the frame on the silent aftershock in her eyes.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Stunned, frozen gaze with slightly widened eyes, subtly tensed brow ridge, and firmly closed lips in speechless chagrin at 50% natural cinematic intensity",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Cinematic live-action tight close-up in [Scene] modern open-plan office on [CHR_2] (26-year-old East Asian woman, refined urban makeup, chestnut-brown center-parted wavy long hair, cream-white tweed cropped jacket with round gold buttons, square gold stud earrings and delicate gold disc pendant necklace) positioned slightly right of center and facing screen left along the strict 180-degree eyeline axis. Creamy shallow depth of field with tack-sharp focus on [CHR_2]'s eyes and natural facial skin texture, background rows of office desks and green plants softly blurred. Her forced smile freezes and fades into stunned, tight-lipped chagrin with subtly tensed brows and firmly closed lips. Realistic cinema lighting mixing cool office overhead light and soft natural daylight, clean frame, no text, no subtitles, no watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Continuous ambient open-plan office room tone; a quiet, sharp nasal breath intake followed by tense workplace stillness as CHR_2 sits frozen in silence.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Cinematic live-action wide master blocking shot in [Scene] modern open-plan office workstation area, 16:9 aspect ratio, establishing a strict and unbreakable 180-degree camera and eyeline axis across the central light-wood office desks divided by a translucent frosted-glass desk partition, black LCD computer monitors, and black keyboards. On the Screen Left side of the desk partition, [CHR_1] (approx. 22-year-old East Asian woman, natural clear light makeup, burgundy-brown chin-length straight bob hair with thin bangs, wearing a crisp white pointed-collar shirt layered under a fitted black long-sleeve knit cardigan and dark bottoms) and [CHR_3] (approx. 25-year-old East Asian woman, understated natural makeup, black low ponytail with curtain bangs, wearing a blue-and-white fine vertical-striped long-sleeve collared shirt and dark bottoms) sit side-by-side in black mesh office chairs—[CHR_1] seated slightly closer to center-left and [CHR_3] seated immediately beside her on the inner left—both angled toward Screen Right with eyelines directed left-to-right across the frosted partition. Directly opposite them on the Screen Right side of the desk partition, [CHR_2] (approx. 26-year-old East Asian woman, refined urban makeup, chestnut-brown center-parted softly wavy long hair, wearing a cream-white tweed cropped jacket with round gold buttons over a matching cream crew-neck inner top and light-colored bottoms, accessorized with square gold stud earrings and a delicate gold disc pendant necklace) sits in a black mesh office chair facing Screen Left, directing her eyeline right-to-left toward [CHR_1] and [CHR_3]. Neat rows of modern workstations, black mesh chairs, and indoor potted green plants fill the background under balanced cool white overhead office lighting blended with soft natural daylight. Realistic cinema photography, natural skin textures, zero text, zero subtitles, zero watermark.",
+    "scene_summary": "In a modern open-plan office, intern CHR_1 steps up for her wronged colleague CHR_3 seated beside her, countering senior employee CHR_2 across the desk partition with sweetly polite yet razor-sharp flattery that forces CHR_2 into an awkward excuse before leaving her completely speechless."
+  },
+  "stitch_meta": {
+    "clip_count": 5,
+    "visual_cuts": [
+      4.292,
+      7.0,
+      9.167,
+      12.892
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0,
+      0.0,
+      0.4,
+      0.0
+    ],
+    "total_duration_s": 14.292
+  }
+}

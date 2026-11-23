@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder medium close-up (OTS MCU) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Over CHR_2's right-side shoulder, <Subject 1> on screen-left suppresses her agitation and quietly pleads for both of them to calm down.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in an over-the-shoulder medium close-up past the softly blurred dark-navy wool coat shoulder in the right foreground (which holds a tense, shallow breathing stillness) onto <Subject 1> (S1) on screen-left facing right. Inheriting the standoff tension, <Subject 1> (S1)'s gaze steadies onto her partner's eyes as she inhales softly to restrain her post-argument impulse and leans a fraction forward in tentative reconciliation. <Subject 1> (S1) speaks (0.16s-1.16s): <d>[Chinese] 都冷静一下</d> with clear, natural jaw movement and syllable-accurate lip-sync. From 1.55s to 2.00s, <Subject 1> (S1) keeps lips naturally closed, her inner brows remaining softly drawn as she waits anxiously for his response.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent cold overcast riverside park ambient tone with light autumn breeze rustling dry leaves, accompanied by subtle wool coat and knit scarf fabric foley as she leans slightly forward.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

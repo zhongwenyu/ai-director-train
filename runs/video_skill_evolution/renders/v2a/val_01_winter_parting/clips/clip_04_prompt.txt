@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot (MS) cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+
+summary:
+[keyframe completion + reference generation] Cutting on the turn to a medium shot with rightward lead room, the camera tracks <Subject 1> striding away down the riverside path while <Subject 2> stands rooted behind him and <Subject 1>'s weary silent reaction sounds.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Smooth lateral tracking shot following <Subject 1> toward screen-right in a medium shot along the riverside asphalt path, seamlessly continuing his clockwise pivot from the previous cut. In the right-center foreground, <Subject 1> strides steadily toward screen-right with ample rightward lead room; <Subject 1> keeps lips naturally closed as his defiant posture gradually sags into heavy exhaustion, eyes dropping toward the cold pavement and brows slackening with quiet helplessness while his silent thought resonates. In the left mid-background, <Subject 2> remains standing motionless facing right after his retreating figure; <Subject 2> keeps lips naturally closed, shoulders rigid and hands tightening at her coat sides as distance opens between them. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
+
+overall_soundscape:
+Quiet non-vocal room tone and subtle physical foley only (Subdued cold riverside breeze ambient tone and measured leather boot footsteps with wool coat movement on the asphalt path, distinctly separated from the intimate close-perspective inner monologue reverb with zero music.); strictly zero human speech, zero vocals, zero murmuring, zero music.
+
+non_diegetic_music:
+N/A

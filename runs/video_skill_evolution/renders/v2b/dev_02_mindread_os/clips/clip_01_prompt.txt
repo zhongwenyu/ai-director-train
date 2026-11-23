@@ -1,0 +1,20 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder close-up (OTS CU) on CHR_2 past CHR_1's blurred right shoulder cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+
+summary:
+[keyframe completion + reference generation] Tight over-the-shoulder close-up on <Subject 1> with a slow push-in as he keeps his lips closed and silently makes a cocky internal bet mocking CHR_1's mind-reading claim.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic non-verbal human eye/brow expressions and natural body language with lips strictly closed (zero speaking), without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Slow, motivated push-in toward <Subject 1>'s eyes from behind <CHR_1>'s softly blurred right shoulder on extreme screen-right. <Subject 1>'s lips remain naturally closed throughout, zero lip movement. Carrying over his indulgent amusement, <Subject 1>'s eyes narrow slightly with self-assured skepticism, flick briefly down toward the table for a fraction of a second, and lock back toward screen-right onto <CHR_1> as one corner of his closed mouth gives a tiny, cocky twitch and his right brow lifts subtly in silent internal mockery, holding a smug, unbothered gaze. Strict vocal silence: all characters keep lips naturally closed with zero spoken words and zero mouth flapping.
+
+overall_soundscape:
+Quiet non-vocal room tone and subtle physical foley only (Continuous ambient outdoor night barbecue stall room tone with faint grill sizzle and distant night traffic pushed slightly back against crisp, dry close-perspective inner monologue voiceover; synchronized subtle foley of a quiet nasal exhale and faint plastic chair creak.); strictly zero human speech, zero vocals, zero murmuring, zero music.
+
+non_diegetic_music:
+N/A

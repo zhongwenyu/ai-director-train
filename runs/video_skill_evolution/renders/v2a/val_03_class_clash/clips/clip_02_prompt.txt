@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening OTS cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Picture 3> is the reference prop (白色纸巾).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Over-the-shoulder medium close-up onto Manshu on screen-left as her coaxing demeanor shifts into snobbish disdain, belittling her delivery-rider ex-husband while passing the tissue.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in an over-the-shoulder medium close-up favoring <Subject 1> (S1) on screen-left, framed past the soft-focus charcoal-suited shoulder silhouette in the right foreground. Continuing seamlessly from her soothing lean, <Subject 1> (S1) lowers her hand slightly to press the folded white tissue toward his grasp as her anxious expression sharpens into petty, snobbish contempt, lifting her chin subtly and narrowing her eyes slightly while gazing screen-right. <Subject 1> (S1) speaks (0.16s-2.76s): <d>[Chinese] 一个臭送外卖的能有什么素质。</d> with clear, natural jaw movement and syllable-accurate lip-sync, closing her lips into a poised, dismissive smirk at 2.65s as the blurred foreground shoulder on screen-right shifts subtly to take the tissue.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent muted luxury car cabin ambient room tone, synchronized light tissue paper crinkle during handoff and subtle sleeve friction against the center console armrest.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

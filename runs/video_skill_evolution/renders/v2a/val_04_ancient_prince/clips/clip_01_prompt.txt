@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening OTS cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Picture 3> is the reference prop (陶土泥人).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Cutting to a tight over-the-shoulder shot past CHR_1, <Subject 1> comes to a lively stop before him and holds up the clay figurine like a treasure, eagerly asking him to look.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a 9:16 over-the-shoulder medium close-up past an out-of-focus ivory-robed right shoulder in the right foreground, focusing on <Subject 1> (S1) on screen-left. <Subject 1> (S1) settles lightly from her eager trot facing screen-right, lifting the small clay figurine with both hands at chest height toward him as her eyes crinkle with bright, affectionate excitement; <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 少爷 你看</d> with clear, natural jaw movement, syllable-accurate lip-sync, and a lively upward inflection, then closes her lips naturally into a sweet expectant smile from 1.50s to 2.00s while tilting her chin slightly upward. In the right foreground, the blurred ivory-clad shoulder shifts subtly inward in attentive reception.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent sunlit market street ambient tone, synchronized foley of light cloth movement as the sheer sleeves lift and gentle finger contact cradling the clay figurine.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

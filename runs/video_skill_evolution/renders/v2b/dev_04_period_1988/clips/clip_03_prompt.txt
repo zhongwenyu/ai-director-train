@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Over-the-shoulder close-up (OTS-CU) on CHR_2 from past CHR_1 on lower screen-left, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Leaning half a step closer with glistening reddened eyes and desperate urgency, <Subject 1> pleads for the promised ten yuan needed immediately for her sick mother's medicine.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a tight reverse over-the-shoulder close-up past <CHR_1>'s softly blurred dark hair and left shoulder edge at lower screen-left, locking onto <Subject 1> (S1) on screen-right looking intently down-left. Driven by acute worry for her mother, <Subject 1> (S1) leans half a step forward into the light as her inner brows knit tightly upward and her eye rims glisten with unshed tears; <Subject 1> (S1) speaks (0.16s-4.98s): <d>[Chinese] 你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！</d> with clear, natural lip-sync matching every syllable, urgent rapid-fire breaths at each comma, voice-driven throat tension, and an escalating micro-progression from righteous insistence to choked, tear-rimmed desperation on the final plea as her raised hand trembles slightly in the lower frame. From 3.50s to 4.00s, <Subject 1> (S1) presses her lips closed in a quivering, breathless line, chest heaving slightly while her reddened, unblinking eyes hold fiercely onto <CHR_1>.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Continuous rural adobe room tone; synchronized subtle foley of CHR_2's urgent, tight breath catches between clauses, slight rustle of her coarse cloth shirt as she leans forward, and a faint shaky exhale holding the tense silence at the end.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

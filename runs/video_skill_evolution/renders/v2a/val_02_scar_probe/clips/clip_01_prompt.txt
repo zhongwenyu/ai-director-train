@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Reverse over-the-shoulder medium close-up (OTS MCU), locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Picture 3> is the reference prop (桃子味饮料).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] <Subject 1> warmly holds out a bottle of peach-flavored drink to CHR_1 and addresses him affectionately in public.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a reverse over-the-shoulder medium close-up past the blurred foreground left shoulder silhouette on screen-left, focusing on <Subject 1> (S1) on screen-right facing left. Cradling extra drink bottles in her left arm, <Subject 1> (S1) nudges one peach drink bottle slightly forward with her right hand, her eyes curving with bright, unguarded fondness as she tilts her head slightly. <Subject 1> (S1) speaks (0.16s-2.04s): <d>[Chinese] 哥哥，桃子味的，给你。</d> with clear, natural jaw movement, a brief breath pause after the comma, and syllable-accurate lip-sync, closing her lips into a soft expectant look at the end while the foreground silhouette shifts its posture slightly in reaction.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent warm school corridor ambient room tone, synchronized subtle plastic bottle clink and light sleeve rustle as the drink is offered.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

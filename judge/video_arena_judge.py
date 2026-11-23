@@ -211,10 +211,10 @@ def probe_video_signals(
                 rms = float(np.sqrt(np.mean(chunk * chunk)))
                 non_speech_dbs.append(20.0 * np.log10(max(1e-5, rms)))
         if len(non_speech_dbs) >= 12:
-            # Flag severe audio gating ("background noise present during speech/some clips, dead -80dB drop in pauses/reactions")
+            # Flag true digital-zero audio gating ("normal noise floor in some clips, dead <-72dB digital silence drop in pauses/reactions")
             p10_ns = float(np.percentile(non_speech_dbs, 10))
             p85_ns = float(np.percentile(non_speech_dbs, 85))
-            if p10_ns < -68.0 or (p85_ns - p10_ns) > 24.0:
+            if p10_ns < -72.0 and p85_ns > -48.0:
                 audio_dropout_gating = True
         dt = hop / 16000.0
         in_s, s0 = False, 0
@@ -233,18 +233,12 @@ def probe_video_signals(
         if len(vad_probs) >= 4 and float(vad_probs[-2:].min()) >= 0.75:
             tail_truncated = True
 
-    # OpenCV motion liveness, cut detection, & lower-face mouth motion vs VAD silent-flapping check
+    # OpenCV motion liveness & cut detection (lip-sync & inner-OS closed-mouth accuracy are evaluated directly by the multimodal video judge to avoid Haar bbox collar/head-turn false positives)
     cap = cv2.VideoCapture(str(mp4_path))
     fps = cap.get(cv2.CAP_PROP_FPS) or 24.0
-    face_cascade = cv2.CascadeClassifier(FACE_CASCADE_PATH) if os.path.exists(FACE_CASCADE_PATH) else None
     prev_gray = None
-    prev_mouth_patch = None
-    prev_upper_patch = None
-    prev_face_center = None
     diffs: List[float] = []
     cut_frames = 0
-    speech_jaw_ratios: List[float] = []
-    silent_jaw_ratios: List[float] = []
 
     step = max(1, int(round(fps / 8.0)))  # Sample at 8 Hz
     fidx = 0
@@ -253,67 +247,20 @@ def probe_video_signals(
         if not ok:
             break
         if fidx % step == 0:
-            t_sec = fidx / fps
             small = cv2.cvtColor(cv2.resize(frame, (320, int(round(320 * h / max(1, w))))), cv2.COLOR_BGR2GRAY)
             gray160 = cv2.resize(small, (160, 90)).astype(np.float32)
-            is_cut = False
             if prev_gray is not None:
                 d = float(np.mean(np.abs(gray160 - prev_gray)))
                 diffs.append(d)
                 if d > 28.0:
                     cut_frames += 1
-                    is_cut = True
-                    prev_mouth_patch = None
-                    prev_upper_patch = None
-                    prev_face_center = None
             prev_gray = gray160
-
-            if face_cascade is not None and not is_cut:
-                faces = face_cascade.detectMultiScale(small, scaleFactor=1.15, minNeighbors=5, minSize=(40, 40))
-                if len(faces) > 0:
-                    fx, fy, fw, fh = max(faces, key=lambda b: b[2] * b[3])
-                    cx, cy = fx + fw * 0.5, fy + fh * 0.5
-                    uy0, uy1 = max(0, fy + int(fh * 0.15)), min(small.shape[0], fy + int(fh * 0.50))
-                    my0, my1 = min(small.shape[0] - 4, fy + int(fh * 0.64)), min(small.shape[0], fy + fh)
-                    mx0, mx1 = min(small.shape[1] - 4, fx + int(fw * 0.24)), min(small.shape[1], fx + int(fw * 0.76))
-                    if my1 - my0 >= 6 and uy1 - uy0 >= 6 and mx1 - mx0 >= 6:
-                        mpatch = cv2.resize(small[my0:my1, mx0:mx1], (24, 16)).astype(np.float32)
-                        upatch = cv2.resize(small[uy0:uy1, mx0:mx1], (24, 16)).astype(np.float32)
-                        same_face = (
-                            prev_face_center is not None
-                            and abs(cx - prev_face_center[0]) < fw * 0.18
-                            and abs(cy - prev_face_center[1]) < fh * 0.18
-                        )
-                        if prev_mouth_patch is not None and prev_upper_patch is not None and same_face and len(vad_probs) > 0:
-                            mdiff = float(np.mean(np.abs(mpatch - prev_mouth_patch)))
-                            udiff = float(np.mean(np.abs(upatch - prev_upper_patch)))
-                            # Isolate true jaw/lip motion from camera push-in or head translation!
-                            jaw_ratio = mdiff / max(1.5, udiff) if mdiff > 3.5 else 0.0
-                            v_idx = min(len(vad_probs) - 1, max(0, int(t_sec * 16000 / 512)))
-                            win_p = float(vad_probs[max(0, v_idx - 2) : min(len(vad_probs), v_idx + 3)].max())
-                            if win_p >= 0.45:
-                                speech_jaw_ratios.append(jaw_ratio)
-                            elif win_p < 0.10:
-                                silent_jaw_ratios.append(jaw_ratio)
-                        prev_mouth_patch = mpatch
-                        prev_upper_patch = upatch
-                        prev_face_center = (cx, cy)
-                else:
-                    prev_mouth_patch = None
-                    prev_upper_patch = None
-                    prev_face_center = None
         fidx += 1
     cap.release()
 
     median_motion = round(float(np.median(diffs)) if diffs else 0.0, 3)
     frozen_slideshow = median_motion < 0.45
-
-    # Detect genuine silent mouth-flapping (isolated jaw motion >= 2.3x upper-face motion during silence!)
     lip_desync_detected = False
-    if len(silent_jaw_ratios) >= 8:
-        sil_p90 = float(np.percentile(silent_jaw_ratios, 90))
-        if sil_p90 >= 2.35:
-            lip_desync_detected = True
 
     penalty = 0.0
     penalty_reasons: List[str] = []

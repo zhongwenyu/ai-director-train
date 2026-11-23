@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening MCU cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] In the right driver's seat, Shen Mingshan lunges slightly forward behind the steering wheel and curses furiously toward the side window after being spat on.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a medium close-up on <Subject 1> (S1) seated in the right driver's seat. Carrying raw shock into explosive fury, <Subject 1> (S1) jerks slightly forward off the dark red-and-black leather backrest, his knuckles tightening on the upper rim of the three-spoke steering wheel as he glares sharply toward the right window with his brows drawn fiercely behind his gold-rimmed glasses. <Subject 1> (S1) speaks (0.16s-1.01s): <d>[Chinese] 你他妈的！</d> with forceful, clear, natural jaw movement and syllable-accurate lip-sync, snapping his mouth shut at 1.50s and keeping his lips pressed tightly closed as his chest heaves in humiliated rage.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent muted luxury car cabin ambient room tone with faint muffled daytime street air outside, synchronized sharp leather seat creak, tight hand grip friction on the steering wheel rim, and a harsh angry breath intake.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

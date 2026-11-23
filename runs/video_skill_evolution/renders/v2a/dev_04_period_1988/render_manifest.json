@@ -1,0 +1,124 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "MS",
+        "clip_id": "clip_01",
+        "clip_summary": "Medium shot inside the rural adobe bedroom as CHR_1 sits on the kang edge on screen-left in silent remorseful inner monologue while CHR_2 rises from lying on the floral bedding onto the open floor on screen-right to face him.",
+        "detailed_action_and_dialogue": "Smooth motivated rightward pan framing the earthen kang edge on screen-left and the open earthen floor beside the dark wooden cabinet on screen-right. Seated on the kang edge on screen-left, <CHR_1> keeps lips naturally closed, head bowed with furrowed brows, heavy eyelids, and slow weighed-down breathing as deep remorse fills his downward gaze, subtly lifting his eyes rightward near the end of the beat as movement stirs beside him. Behind him on the floral cotton bedding, <CHR_2> keeps lips naturally closed, pushes herself briskly up from her side-lying posture, steps down onto the open packed-earth floor beside the dark wooden cabinet on screen-right, and turns firmly toward screen-left to stand confronting <CHR_1> face-to-face.",
+        "duration_s": 3,
+        "focus_expression_ref": null,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": {
+          "mode": "inner_os",
+          "speaker_id": "CHR_1",
+          "start_s": 0.2,
+          "text": "因为这件事我也内疚了好久，是我对不起她俩。"
+        },
+        "keyframe_prompt": "Medium shot inside [Scene], natural 1980s period film photography, warm low-saturation daylight slanting in from the wooden-lattice window on screen-left above a weathered wooden table and clay jar. On screen-left, [CHR_1] sits slightly hunched on the outer edge of the earthen kang in a worn grey-brown lapel work jacket over an off-white crew-neck T-shirt and dark grey trousers, torso angled right, brow heavy with quiet guilt, lips naturally closed and hands resting tensely on his knees. Behind him on the patterned floral cotton bedding of the kang, [CHR_2] in a light grey-brown coarse cotton shirt and dark black trousers with a low ponytail and loose side strands lies on her side stirring awake, one palm pressing into the quilt to push herself up toward the open earthen floor and dark weathered wooden cabinet visible on screen-right. Natural skin texture, subtle film grain, no text or subtitles.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Quiet daytime rural adobe room tone with faint village air outside the wooden window, intimate close-perspective vocal presence for the inner monologue layered cleanly over synchronized rustling of the cotton quilt and soft footsteps landing on the packed-earth floor.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "OTS",
+        "clip_id": "clip_02",
+        "clip_summary": "Compact over-the-shoulder medium close-up past seated CHR_1 on screen-left onto standing CHR_2 on screen-right thrusting her open palm forward to sharply demand the money.",
+        "detailed_action_and_dialogue": "Locked-off static camera in an over-the-shoulder medium close-up favoring <CHR_2> on screen-right. Standing upright on the open floor before the dark wooden cabinet, <CHR_2> thrusts her open right palm straight forward toward screen-left and leans slightly in with fierce, urgent eyes locked downward-left; <CHR_2> speaks (0.20s-0.85s): <d>[Chinese] 钱！</d> with crisp, decisive jaw opening and syllable-accurate lip-sync. From 0.85s to 2.00s, <CHR_2> keeps lips naturally closed, holding her outstretched open palm steady with a tense breath and unblinking gaze, while the softly blurred grey-brown jacket shoulder silhouette of the seated listener in the lower-left foreground shifts subtly upward in startled attention.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed-lip urgent determination at moderate cinematic intensity, inner brows drawn slightly together, upper eyelids alert and focused with steady eye highlights, subtle tension across the cheekbones",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_1"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Over-the-shoulder medium close-up inside [Scene], framed past the softly blurred grey-brown work-jacket shoulder silhouette of the seated young man in the lower-left foreground, focusing sharply on [CHR_2] standing on the open earthen floor on screen-right in front of the dark weathered wooden cabinet and mottled mud wall. [CHR_2], wearing her light grey-brown small-lapel coarse cotton shirt with her black hair in a low ponytail and loose side strands, faces screen-left and slightly downward toward the seated man, extending her open right palm firmly forward at chest height with focused, urgent eyes and taut posture. Warm desaturated daylight from screen-left shapes natural skin texture, shallow depth of field, soft background bokeh, no text or watermark.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Consistent quiet rural adobe room tone with synchronized crisp rustle of coarse cotton sleeve as her arm extends forward and a sharp intake of breath.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "OTS",
+        "clip_id": "clip_03",
+        "clip_summary": "Reverse over-the-shoulder medium close-up onto seated CHR_1 on screen-left snapping out of his trance and earnestly acknowledging that he still owes CHR_2 the money.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a reverse over-the-shoulder medium close-up favoring <CHR_1> seated on the kang edge on screen-left. Jolted fully back into reality, <CHR_1> blinks rapidly as his gaze flicks from the outstretched hand in the right foreground up toward <CHR_2>'s face, his heavy brow lifting in sudden realization; <CHR_1> speaks (0.20s-1.65s): <d>[Chinese] 对哦，还要给你钱。</d> with clear, natural jaw movement, a brief breath pause at the comma, and syllable-accurate lip-sync while giving an earnest nod and reaching one hand toward his work-jacket pocket. From 1.65s to 2.00s, <CHR_1> keeps lips naturally closed with an attentive, resolved upward-right gaze, while the softly blurred coarse-shirted shoulder and outstretched hand silhouette in the right foreground remains tensely poised with subtle breathing motion.",
+        "duration_s": 2,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed-lip earnest awakening expression at moderate cinematic intensity, brows lifting slightly in quiet realization, clear attentive gaze with gentle resolve softening the upper cheeks",
+          "role_id": "CHR_1"
+        },
+        "foreground_silhouette_role_ids": [
+          "CHR_2"
+        ],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Reverse over-the-shoulder medium close-up inside [Scene], framed past the softly blurred light grey-brown coarse-shirted shoulder and outstretched open hand silhouette of the standing young woman on screen-right, focusing sharply on [CHR_1] seated on the edge of the floral-bedded earthen kang on screen-left. [CHR_1], with tanned rustic skin, tousled short black hair, and a worn grey-brown lapel work jacket over an off-white crew-neck T-shirt, looks screen-right and slightly upward toward her, eyes clearing from dazed heaviness into sudden earnest realization. Behind him on screen-left, warm muted daylight slants through the wooden-lattice window above the blurred old wooden table and clay jar. Shallow depth of field, authentic 35mm period film grain, no text or subtitles.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Consistent quiet rural adobe room tone with subtle creak of the kang edge and synchronized fabric rustle as he shifts his posture and reaches toward his jacket pocket.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1"
+        ]
+      },
+      {
+        "camera_framing": "MCU",
+        "clip_id": "clip_04",
+        "clip_summary": "Tighter medium close-up on CHR_2 on screen-right urgently pleading for the promised ten yuan so her sick mother can buy medicine.",
+        "detailed_action_and_dialogue": "Locked-off static camera in a tight medium close-up on <CHR_2> standing on screen-right, looking urgently downward-left toward seated <CHR_1>. Leaning half a step closer with knitted brows, glistening tear-rimmed eyes, and her outstretched hand trembling slightly at the lower frame edge, <CHR_2> speaks (0.20s-3.55s): <d>[Chinese] 你答应俺的，给俺十块钱，俺娘还等着钱抓药，你快给俺！</d> with clear, natural jaw movement, syllable-accurate lip-sync, and urgent breath pauses between clauses as anxious emotion tightens her voice. From 3.55s to 4.00s, <CHR_2> keeps lips naturally closed, chest rising with an unsteady breath while holding her desperate, unyielding gaze fixed downward-left.",
+        "duration_s": 4,
+        "focus_expression_ref": {
+          "ocular_brow_cue": "Closed-lip anxious pleading expression at moderate cinematic intensity, inner brows knitted upward in heartfelt worry, glistening tear-rimmed eyes holding an urgent focus, slight tautness along the mid-cheeks",
+          "role_id": "CHR_2"
+        },
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Medium close-up inside [Scene] focusing on [CHR_2] standing on screen-right before the softly blurred dark weathered wooden cabinet and mottled adobe mud wall. [CHR_2], a 22-year-old East Asian woman with natural unadorned skin, black hair in a low ponytail with loose side strands, wearing a light grey-brown small-lapel coarse cotton shirt, leans slightly forward facing screen-left and slightly downward, her open right hand held urgently near lower chest level. Warm low-saturation daylight from the left window catches clear moisture highlights in her worried, pleading eyes and knitted inner brows. Shallow depth of field, soft background bokeh, realistic period film texture, no text or borders.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [],
+        "soundscape": "Consistent quiet rural adobe room tone with synchronized urgent breath intakes and subtle rustle of her coarse cotton shirt as she leans forward in plea.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_2"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Wide master blocking shot inside [Scene], a nostalgic 1988 rural Chinese adobe bedroom with mottled mud-plaster walls, warm desaturated daytime sunlight slanting inward from the wooden-lattice window on screen-left above a weathered wooden table with an earthen clay jar. Along screen-left stands the raised earthen kang covered with vintage floral cotton bedding; on screen-right stands a dark weathered wooden cabinet beside an open packed-earth floor space. Establishing the conserved 180-degree horizontal axis: [CHR_1], a 24-year-old East Asian man with tanned skin, short tousled black hair, worn grey-brown lapel work jacket over an off-white crew-neck T-shirt and dark grey trousers, sits on the outer edge of the earthen kang on screen-left facing right toward the open floor, shoulders heavy in quiet thought; behind him on the floral cotton bedding of the kang, [CHR_2], a 22-year-old East Asian woman with natural unadorned skin, low ponytail with loose side strands, light grey-brown coarse cotton shirt and dark black trousers, initially lies on her side stirring awake to rise off the kang onto the open earthen floor beside the dark wooden cabinet on screen-right for a direct face-to-face confrontation with [CHR_1]. Authentic 35mm period cinema look, natural shadows, no text, subtitles, or watermarks.",
+    "scene_summary": "In a warm, desaturated 1988 rural adobe bedroom, a young man seated on the edge of an earthen kang emerges from deep remorseful inner monologue as Hu Xiuchun rises from the floral bedding onto the open floor beside the wooden cabinet to urgently demand the promised ten yuan needed for her ailing mother's medicine."
+  },
+  "stitch_meta": {
+    "clip_count": 4,
+    "visual_cuts": [
+      5.208,
+      7.541,
+      9.624
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 14.0
+  }
+}
