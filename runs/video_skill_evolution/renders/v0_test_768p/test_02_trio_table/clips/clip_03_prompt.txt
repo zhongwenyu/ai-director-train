@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact facial identity and outfit in <Picture 2>.
+<Picture 3> is the reference prop (青花瓷碗装李子).
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Hit by overwhelming tartness from his big bite, <Subject 1> loses facial control and cries out in sour shock while glaring off-screen left in disbelief.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Picture 3>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera in a punchy medium close-up on <Subject 1> (S1) at the right end of the wooden table. At 0.00s-0.20s, intense sour juice floods his mouth from the freshly bitten yellow-flesh plum in his hand, causing <Subject 1> (S1)'s eyebrows to slam together in shock. <Subject 1> (S1) speaks (0.20s-1.20s): <d>[Chinese] 好酸！</d> in an anguished, incredulous outburst with sharp, accurate lip-sync and dramatic facial contortion. Immediately following his exclamation (1.15s-2.00s), <Subject 1> (S1) squeezes his eyes tight, shudders through his shoulders with puckered cheeks as his expression completely loses composure, then snaps an outraged, betrayed glare toward off-screen left.
+
+overall_soundscape:
+Sharp involuntary shudder and breathy exhale, faint movement of hands against the wooden tabletop, warm indoor room ambience.
+
+non_diegetic_music:
+N/A

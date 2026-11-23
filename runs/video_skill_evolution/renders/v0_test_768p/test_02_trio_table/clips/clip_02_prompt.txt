@@ -1,0 +1,28 @@
+subject_definitions:
+<Picture 1> is the opening Medium shot cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> (S1) is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Subject 3> is the man matching the exact facial identity and outfit in <Picture 4>.
+<Picture 5> is the reference prop (青花瓷碗装李子).
+<Audio 1> is the voice-timbre reference for <Subject 2> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Teaming up with <Subject 1>, <Subject 2> turns right with exaggerated delight to offer a fresh plum to unsuspecting <Subject 3>, who looks up from his phone, takes it, and takes a big bite.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Subject 3>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 4>.
+<Picture 5>: fully_preserved - maintain single consistent rigid prop appearance.
+<Audio 1>: reference - guides <Subject 2>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Subtle rightward pan and gentle push-in across the wooden dining table framing all three seated side by side from left to right. At 0.00s-0.20s, <Subject 2> (S1) leans enthusiastically right toward <Subject 3>, holding out a fresh purple-red plum while masking any trace of tartness behind wide, amazed eyes. <Subject 2> (S1) speaks (0.20s-2.55s): <d>[Chinese] 我去，真的好好吃，你也快尝尝。</d> in a bright, convincingly thrilled voice with precise syllable-by-syllable lip-sync, while <Subject 1> on screen-left nods earnestly in silent support and slides the porcelain bowl of plums slightly closer along the table. Prompted by <Subject 2> (S1)'s voice, <Subject 3> looks up from his smartphone (0.25s-0.75s), sets the phone flat on the tabletop, takes the offered plum unsuspectingly from <Subject 2> (S1)'s hand (0.80s-1.95s), and takes a hearty, unguarded bite right into the plum (2.00s-3.00s) as <Subject 1> and <Subject 2> (S1) watch him eagerly.
+
+overall_soundscape:
+Subtle tap of a smartphone resting onto the wooden tabletop, light rustle of clothing, crisp bite into a fresh plum at the end of the shot.
+
+non_diegetic_music:
+N/A

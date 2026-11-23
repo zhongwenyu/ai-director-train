@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium close-up cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> is the man matching the exact facial identity and outfit in <Picture 2>.
+<Subject 2> is the woman matching the exact facial identity and outfit in <Picture 3>.
+<Picture 4> is the reference prop (青花瓷碗装李子).
+
+summary:
+[keyframe completion + reference generation] <Subject 2> bites into the plum, freezes from the intense sourness, catches <Subject 1>'s sly smirk, and instantly shifts into conspiratorial play-acting mode.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 2>.
+<Subject 2>: fully_preserved - retain 100% exact facial identity, hair silhouette, and outfit from <Picture 3>.
+<Picture 4>: fully_preserved - maintain single consistent rigid prop appearance.
+
+detailed_description:
+Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting immediately on the first beat from <Picture 1>, Static camera holding in a tight two-person framing on <Subject 1> on screen-left and <Subject 2> prominent on screen-right. Neither character speaks. From 0.00s to 0.55s, <Subject 2> takes a crisp bite into the fresh purple-red plum, revealing its bright yellow flesh. Instantly at 0.55s-1.25s, sharp sourness hits her palate—<Subject 2> freezes stiffly, eyes squeezing half-shut, eyebrows knitting together, and cheeks puckering tightly in shock. At 1.25s-1.70s, <Subject 2> darts her eyes left toward <Subject 1>, catching <Subject 1> holding back laughter with a sly, knowing grin and a subtle conspiratorial nod toward screen-right. Immediately catching on (1.70s-2.00s), <Subject 2> smooths away her grimace into a sparkling, mischievous smile and begins turning right. Strict vocal silence: characters keep lips silent with zero spoken words and zero vocalizations.
+
+overall_soundscape:
+Crisp juicy crunch of biting into a firm fresh plum, a tiny sharp intake of breath, quiet afternoon room tone.
+
+non_diegetic_music:
+N/A

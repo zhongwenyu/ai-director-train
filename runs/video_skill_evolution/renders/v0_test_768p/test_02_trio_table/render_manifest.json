@@ -1,0 +1,113 @@
+{
+  "scene_plan": {
+    "clips": [
+      {
+        "camera_framing": "Medium shot",
+        "clip_id": "clip_01",
+        "clip_summary": "Seated on the left side of the sunlit wooden dining table, CHR_1 hides his sour wince after tasting a tart plum and enthusiastically persuades CHR_2 beside him to try one from the porcelain bowl.",
+        "detailed_action_and_dialogue": "Subtle push-in across the warm natural-wood dining table. In the opening beat (0.00s-0.20s), <CHR_1> swallows quickly to mask a brief sour pinch of his brows from the half-eaten yellow-flesh plum in his hand, immediately brightening into an exaggerated, beaming grin toward <CHR_2> on screen-right. <CHR_1> speaks (0.20s-3.50s): <d>[Chinese] 好甜好好吃，你快尝尝，真特别好吃。</d> with crisp, accurate lip-sync matching every syllable and an overly eager, persuasive tone. As he speaks, <CHR_1> gestures animatedly with his bitten plum and nudges the round white-and-blue porcelain bowl of purple-red plums slightly rightward across the tabletop toward <CHR_2>, nodding earnestly. Convinced by his enthusiasm, <CHR_2> smiles curiously, reaches into the porcelain bowl (2.60s-3.50s), and lifts a plump purple-red plum toward her mouth (3.50s-4.00s).",
+        "duration_s": 4,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Medium shot across the wide natural-wood dining table in [Scene], inheriting the master 180-degree axis with dark-framed glass windows, lush outdoor greenery, indoor potted plants, and warm afternoon golden sunlight softly blurred in the background. Seated side by side from left to right are [CHR_1] on screen-left, wearing a black collared zip-up jacket over a light-grey vertical-striped shirt with fluffy black bangs, and [CHR_2] on screen-right, wearing a navy button-down knit cardigan over a white crew-neck top with chestnut-brown wavy half-up hair. Both angle slightly toward the front-left tabletop where a round white-and-blue porcelain bowl filled to the brim with purple-red fresh plums rests. [CHR_1] holds a freshly bitten purple-red plum exposing yellow flesh, his brows subtly pinched from hidden sourness just as he forces an enthusiastic smile toward [CHR_2], who looks curiously at the bowl. Natural live-action lighting and skin texture, 16:9, clean frame with zero text or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Warm quiet indoor dining room ambience, gentle ceramic slide of the porcelain bowl against the wooden table, subtle sleeve fabric rustle.",
+        "speaking_role_ids": [
+          "CHR_1"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Medium close-up",
+        "clip_id": "clip_02",
+        "clip_summary": "CHR_2 bites into the plum, freezes from the intense sourness, catches CHR_1's sly smirk, and instantly shifts into conspiratorial play-acting mode.",
+        "detailed_action_and_dialogue": "Static camera holding in a tight two-person framing on <CHR_1> on screen-left and <CHR_2> prominent on screen-right. Neither character speaks. From 0.00s to 0.55s, <CHR_2> takes a crisp bite into the fresh purple-red plum, revealing its bright yellow flesh. Instantly at 0.55s-1.25s, sharp sourness hits her palate—<CHR_2> freezes stiffly, eyes squeezing half-shut, eyebrows knitting together, and cheeks puckering tightly in shock. At 1.25s-1.70s, <CHR_2> darts her eyes left toward <CHR_1>, catching <CHR_1> holding back laughter with a sly, knowing grin and a subtle conspiratorial nod toward screen-right. Immediately catching on (1.70s-2.00s), <CHR_2> smooths away her grimace into a sparkling, mischievous smile and begins turning right.",
+        "duration_s": 2,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Medium close-up across the wooden dining table in [Scene], maintaining the left-to-right axis with [CHR_1] on screen-left and [CHR_2] prominent on screen-right against warm sunlit window greenery and soft indoor lamp glow. [CHR_2] holds a fresh purple-red plum right against her parted lips just about to bite in, while [CHR_1] leans slightly inward from screen-left watching her closely with a barely concealed, expectant smirk; the edge of the white-and-blue porcelain bowl of plums sits at the lower-left foreground tabletop. Photorealistic skin texture, soft golden afternoon rim light, 16:9, clean frame with zero text or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Crisp juicy crunch of biting into a firm fresh plum, a tiny sharp intake of breath, quiet afternoon room tone.",
+        "speaking_role_ids": [],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2"
+        ]
+      },
+      {
+        "camera_framing": "Medium shot",
+        "clip_id": "clip_03",
+        "clip_summary": "Teaming up with CHR_1, CHR_2 turns right with exaggerated delight to offer a fresh plum to unsuspecting CHR_3, who looks up from his phone, takes it, and takes a big bite.",
+        "detailed_action_and_dialogue": "Subtle rightward pan and gentle push-in across the wooden dining table framing all three seated side by side from left to right. At 0.00s-0.20s, <CHR_2> leans enthusiastically right toward <CHR_3>, holding out a fresh purple-red plum while masking any trace of tartness behind wide, amazed eyes. <CHR_2> speaks (0.20s-2.65s): <d>[Chinese] 我去，真的好好吃，你也快尝尝。</d> in a bright, convincingly thrilled voice with precise syllable-by-syllable lip-sync, while <CHR_1> on screen-left nods earnestly in silent support and slides the porcelain bowl of plums slightly closer along the table. Prompted by <CHR_2>'s voice, <CHR_3> looks up from his smartphone (0.25s-0.75s), sets the phone flat on the tabletop, takes the offered plum unsuspectingly from <CHR_2>'s hand (0.80s-1.95s), and takes a hearty, unguarded bite right into the plum (2.00s-3.00s) as <CHR_1> and <CHR_2> watch him eagerly.",
+        "duration_s": 3,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Medium three-shot across the wide natural-wood dining table in [Scene], strictly preserving the master 180-degree axis with [CHR_1], [CHR_2], and [CHR_3] seated side by side along the same far side from left to right against sunlit dark-framed windows and lush foliage. On screen-left, [CHR_1] leans forward with an encouraging, play-acting smile; in the center, [CHR_2] turns rightward toward [CHR_3] with an excited grin, holding a bitten plum in her left hand while extending a fresh whole purple-red plum from the round white-and-blue porcelain bowl on the tabletop with her right hand; on screen-right, [CHR_3] in a light-grey zip-up hoodie layered over a plaid shirt and white T-shirt sits looking down at a smartphone in his hands, just beginning to glance up. Warm golden afternoon sunlight, natural live-action cinematography, 16:9, clean frame with zero text or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Subtle tap of a smartphone resting onto the wooden tabletop, light rustle of clothing, crisp bite into a fresh plum at the end of the shot.",
+        "speaking_role_ids": [
+          "CHR_2"
+        ],
+        "visible_role_ids": [
+          "CHR_1",
+          "CHR_2",
+          "CHR_3"
+        ]
+      },
+      {
+        "camera_framing": "Medium close-up",
+        "clip_id": "clip_04",
+        "clip_summary": "Hit by overwhelming tartness from his big bite, CHR_3 loses facial control and cries out in sour shock while glaring off-screen left in disbelief.",
+        "detailed_action_and_dialogue": "Static camera in a punchy medium close-up on <CHR_3> at the right end of the wooden table. At 0.00s-0.20s, intense sour juice floods his mouth from the freshly bitten yellow-flesh plum in his hand, causing <CHR_3>'s eyebrows to slam together in shock. <CHR_3> speaks (0.20s-1.15s): <d>[Chinese] 好酸！</d> in an anguished, incredulous outburst with sharp, accurate lip-sync and dramatic facial contortion. Immediately following his exclamation (1.15s-2.00s), <CHR_3> squeezes his eyes tight, shudders through his shoulders with puckered cheeks as his expression completely loses composure, then snaps an outraged, betrayed glare toward off-screen left.",
+        "duration_s": 2,
+        "foreground_silhouette_role_ids": [],
+        "include_scene_plate_in_keyframe": true,
+        "inner_os": null,
+        "keyframe_prompt": "Medium close-up of [CHR_3] seated at the right end of the warm wooden dining table in [Scene], maintaining the master 180-degree camera axis with sunlit dark-framed window greenery and indoor plants softly out of focus behind him. Wearing a light-grey hooded zip-up sweatshirt over a black-white-brown plaid shirt and white crew-neck T-shirt with textured dark-brown center-parted hair, [CHR_3] holds a freshly bitten purple-red plum showing bright yellow flesh near his mouth as his eyebrows furrow sharply at the initial jolt of extreme sourness; his smartphone and the rim of the white-and-blue porcelain bowl of plums rest on the lower-left wooden tabletop. Warm golden afternoon sunlight, crisp natural skin detail, 16:9, clean frame with zero text or watermarks.",
+        "lcut_audio_hold_over_next_s": 0,
+        "prop_ids": [
+          "PRP_1"
+        ],
+        "soundscape": "Sharp involuntary shudder and breathy exhale, faint movement of hands against the wooden tabletop, warm indoor room ambience.",
+        "speaking_role_ids": [
+          "CHR_3"
+        ],
+        "visible_role_ids": [
+          "CHR_3"
+        ]
+      }
+    ],
+    "master_blocking_prompt": "Wide master establishing shot across the wide foreground natural-wood dining table in [Scene], establishing a consistent 180-degree camera axis inside the warm-toned wooden dining room. Seated side by side in a single row along the same far side of the wooden table from screen-left to screen-right are [CHR_1], [CHR_2], and [CHR_3]. On screen-left sits [CHR_1], a 22-year-old East Asian man with fluffy black hair and wavy bangs, wearing a light-grey vertical-striped collared shirt under a black collared zip-up jacket; in the center right beside him sits [CHR_2], a 22-year-old East Asian woman with chestnut-brown wavy hair in a half-up princess style with wispy bangs, wearing a white crew-neck top under a navy-blue button-down crew-neck knit cardigan. Both [CHR_1] and [CHR_2] are angled toward the front-left dishware area on the wooden tabletop, where a round white-and-blue porcelain bowl filled to the brim with fresh purple-red plums rests. Seated on the far right of the same side of the table is [CHR_3], a 22-year-old East Asian man with dark-brown textured center-parted short hair, wearing a white crew-neck T-shirt layered with a black-white-brown plaid shirt and a light-grey zip-up hoodie, keeping his head bowed looking down at a smartphone in his hands. Behind them, bright large glass windows with dark frames look out onto lush green foliage, flanked by indoor potted plants and a warm-glow table lamp beside a wooden cabinet, with soft translucent afternoon golden sunlight slanting diagonally into the room. Natural live-action photography lighting, 16:9 aspect ratio, zero text, zero subtitles, zero watermarks.",
+    "scene_summary": "An 11-second four-clip comedic trio scene at a sunlit wooden dining table: CHR_1 tastes an extremely sour plum from a blue-and-white porcelain bowl, masks his grimace, and tricks CHR_2 into biting one; after freezing from the tartness, CHR_2 catches CHR_1's sly grin and joins the ruse to enthusiastically urge phone-absorbed CHR_3 on the right to try one, culminating in CHR_3 taking a big bite and crying out in sour shock."
+  },
+  "stitch_meta": {
+    "clip_count": 4,
+    "visual_cuts": [
+      3.125,
+      4.5,
+      8.958
+    ],
+    "lcut_holds": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "total_duration_s": 11.25
+  }
+}
