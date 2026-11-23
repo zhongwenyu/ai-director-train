@@ -660,15 +660,14 @@ def main() -> int:
         # Diversified K=2 Proposal in Parallel — 100% Genre-Agnostic First Principles (ZERO single-drama exemplars!)
         cand_a_id, cand_b_id = f"v{r_idx}a", f"v{r_idx}b"
         axis_a = (
-            "方向 A（180°过肩/贴视线浅景深近景 + 潜台词极性微表情弧光 + 严禁同人跳切，跨现代/年代/古装/悬疑通用）："
-            "通过 `master_blocking_prompt` 锁死全场相对座位/站位拓扑与唯一 180° 轴线；子镜优先使用保留对侧虚化肩廓或桌面器物的 `Over-the-shoulder MCU` 与贴视线（10°~20°）大光圈浅景深 `MCU/CU`；"
-            "【蒙太奇防跳切铁律】：严禁把同一说话人的连续台词生硬切成两个相连的单人镜头（产生同主体跳切 Jump Cut）！若单人长台词需拆快节奏，必须在两分句之间穿插 1.5s 对手/旁观者的无台词反应镜头（配合 L-Cut 声桥过渡），或在同一推进镜头内完成双拍情绪递进；"
-            "静态首帧五官自然舒展，动态 `detailed_action_and_dialogue` 严格贴合 `subtext_intent` 情绪极性（绝不在严肃争执或悬疑压迫时写甜笑，也绝不在轻喜反讽时面瘫）驱动鲜活眉眼起伏与自然手部支点，心声严守 `inner_os` 闭唇通道。"
+            "方向 A（四通道句内多段式细腻表演编排 + 起幅活态支点优先，跨现代/年代/古装/悬疑通用）："
+            "彻底打破“站桩木偶脸”与“单句单一表情”！Stage 2 子镜首帧 `keyframe_prompt` 在继承 `master_blocking_prompt` 空间座位与 180° 轴线的同时，严禁摆出证件照式双手死贴桌面/垂立僵姿，必须赋予角色处于戏剧进行中的【起幅活态身体倾角、视线张力与手部预备支点】（如身体前倾探询、手搭杯沿/衣襟/胸前合拢预备态）；"
+            "Stage 3 动态 `detailed_action_and_dialogue` 必须针对每个子镜编写【眉眼视线 + 口颊呼吸 + 头颈躯干倾侧 + 手部具象动作】四通道协同的【句内 2~3 段式微表情演进链】（0.0s 起势眼神/呼吸 -> 句中核心潜台词重音处的挑眉/弯眼/瞳孔放大/冷笑/鼻酸转折 -> 句尾收唇/歪头/怔住/垂眸余韵），杜绝空洞情绪形容词，全部落到可见的具象肌肉与肢体动词！"
         )
         axis_b = (
-            "方向 B（正反打反应交织快切 + L-Cut 声桥跨切 + 零死寂紧凑时长控制，全题材通用）："
-            "严格匹配 `target_duration_s` 控制全段总镜长；禁止出现连续两镜拍同一人的同向跳切，所有切镜必须在【说话人 -> 对手反应/回击 -> 旁观者反应】之间形成空间正反打交替；"
-            "当说话人长句在包袱/重音处切向对手无台词反应特写时，开启 `lcut_audio_hold_over_next_s: 0.4~0.7` 让尾音自然覆盖反应画面；心声 `mode=='inner_os'` 100% 放入 `inner_os` 字段且 `speaking_role_ids` 置空、双唇紧闭；画内对白 `0.16s` 即刻开口、清晰咬字零吞尾字。"
+            "方向 B（正反打高反差反应插切 + 严禁同人跳切 + 纯净干声气息演绎优先，全题材通用）："
+            "严格匹配 `target_duration_s` 控制全段总镜长；严禁将同一说话人的连续台词切成两个相邻单人镜头（防同主体跳切），长句拆快节奏时必须在分句间穿插 1.4s 对手或旁观者的【高反差无台词反应特写】（写出具体瞪眼张口怔住、笑容僵死、攥拳咬唇等细腻反应，配合前镜 `lcut_audio_hold_over_next_s: 0.4~0.7` 声桥过渡）；"
+            "利用底层“视频模型纯干声录音棚发声 + 成片后置连续环境声铺底”机制，在 `<d>` 前后专注刻画说话人真实的呼吸气口、轻咳、叹息、反讽语调重音与 `0.16s` 零延迟清晰唇齿咬合，心声 100% 走 `inner_os` 闭唇通道。"
         )
         with cf.ThreadPoolExecutor(max_workers=2) as pex:
             fa = pex.submit(propose_single_axis_candidate, axis_a, champ_files, bottlenecks, champ_telemetry, CAND_ROOT / cand_a_id)

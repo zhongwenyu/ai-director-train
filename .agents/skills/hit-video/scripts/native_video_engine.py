@@ -43,6 +43,14 @@ for p in (str(HERE), str(WORKSTATION_SCRIPTS)):
 import h3_native_runner as H3R  # noqa: E402
 from spark_h3_image import generate_spark_h3_image  # noqa: E402
 
+STUDIO_BRIDGE = Path("/home/zhongwenyu/project/playlets-studio/skills/studio-bridge/scripts")
+if STUDIO_BRIDGE.is_dir() and str(STUDIO_BRIDGE) not in sys.path:
+    sys.path.insert(0, str(STUDIO_BRIDGE))
+try:
+    import vo_split  # type: ignore
+except Exception:
+    vo_split = None
+
 DEFAULT_VAD_ONNX = Path("/home/zhongwenyu/.paseo/models/local-speech/silero-vad/silero_vad.onnx")
 _VAD_SESS: Optional[ort.InferenceSession] = None
 _VAD_LOCK = threading.Lock()
@@ -189,7 +197,9 @@ def resolve_h3_image_keyframe_prompt_and_refs(
         g = char_lookup.get(r, {}).get("gender", "")
         g_word = "woman" if g == "female" else ("man" if g == "male" else "person")
         part1_defs.append(f"The {g_word} in <Picture {idx}> is {s_tok}.")
-        part2_pres.append(f"{s_tok} is 100% preserved in exact facial features, bone structure, hairstyle, and outfit from <Picture {idx}>")
+        part2_pres.append(
+            f"{s_tok} preserves 100% exact facial bone structure, eye/nose/lip identity, hairstyle, and outfit from <Picture {idx}>, while adopting an active, natural, scene-engaged conversational body lean, expressive gaze, and lively hand poise"
+        )
 
     for r in fg_roles:
         if len(refs) >= 6:
@@ -368,33 +378,113 @@ def compile_h3_clip_payload(
     else:
         sync_dur = 2
 
+    acting_hdr = (
+        "Live-action 35mm cinema photography, rich multi-beat facial micro-expressions (vivid eye shifts, eyebrow modulation, cheek and lip nuance), "
+        "natural head/torso lean and purposeful hand body language, crisp syllable-accurate lip-sync, without any text or captions.\n"
+    )
     if not detail_body.startswith("[Shot 1]") and "[Shot 1]" not in detail_body:
-        detail_body = (
-            "Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.\n"
-            f"[Shot 1] Starting immediately on the first beat from <Picture 1>, {detail_body}"
-        )
-    elif "without any text" not in detail_body.lower():
-        detail_body = (
-            "Live-action 35mm cinema photography, vivid expressive human facial acting, crisp syllable-accurate lip-sync, without any text or captions.\n"
-            + detail_body
-        )
+        detail_body = acting_hdr + f"[Shot 1] Starting immediately in active motion from <Picture 1>, {detail_body}"
+    else:
+        detail_body = acting_hdr + detail_body
 
-    soundscape = str(clip_spec.get("soundscape") or "Consistent room tone and subtle natural cloth/prop foley.").strip()
-    soundscape = H3R.HARMFUL_SOUNDSCAPE_MUSIC_RE.sub("ambient tone", soundscape)
+    # CRITICAL AUDIO RULE: Force H3 to synthesize ONLY studio-dry close-mic voice with ZERO background noise!
+    # Continuous scene ambience is added ONCE across the full stitched video in post-production!
+    dry_soundscape = "Silent acoustically dead studio booth; pure clean close-mic human speech vocals only, zero room noise, zero background hum, zero foley, zero music."
 
     full_prompt = (
         "subject_definitions:\n" + "\n".join(subj_lines) + "\n\n"
         f"summary:\n{mode_tags} {raw_sum}\n\n"
         "retention_analysis:\n" + "\n".join(ret_lines) + "\n\n"
         f"detailed_description:\n{detail_body}\n\n"
-        f"overall_soundscape:\n{soundscape}\n\n"
+        f"overall_soundscape:\n{dry_soundscape}\n\n"
         "non_diegetic_music:\nN/A"
     )
     return full_prompt, ref_images, ref_audios, sync_dur
 
 
+def isolate_clean_dry_dialogue_on_clip(mp4_path: Path, is_speaking_clip: bool) -> None:
+    """Strip 100% of H3-synthesized background noise/hiss from speaking clips via Demucs + VAD soft gate."""
+    if not is_speaking_clip:
+        return
+    marker = mp4_path.with_suffix(".dry_vocal")
+    if marker.is_file():
+        return
+
+    with tempfile.TemporaryDirectory(prefix="dryvoc-") as td:
+        td_p = Path(td)
+        voc_wav = td_p / "vocals.wav"
+        if vo_split is not None:
+            try:
+                vo_split.demucs_vocals(mp4_path, voc_wav)
+            except Exception:
+                subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4_path), "-vn", "-ar", "44100", "-ac", "2", str(voc_wav)], check=True)
+        else:
+            subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(mp4_path), "-vn", "-ar", "44100", "-ac", "2", str(voc_wav)], check=True)
+
+        # Apply Silero-VAD soft speech-envelope gate so inter-word pauses are -90dB pure dry silence (zero hiss bursts!)
+        wav16 = td_p / "v16.wav"
+        subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(voc_wav), "-ac", "1", "-ar", "16000", str(wav16)], check=True)
+        with wave.open(str(wav16), "rb") as wf:
+            pcm16 = np.frombuffer(wf.readframes(wf.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
+
+        wav48 = td_p / "v48.wav"
+        subprocess.run(
+            ["ffmpeg", "-y", "-v", "error", "-i", str(voc_wav), "-af", "highpass=f=80,afftdn=nf=-25", "-ac", "1", "-ar", "48000", str(wav48)],
+            check=True,
+        )
+        with wave.open(str(wav48), "rb") as wf48:
+            pcm48 = np.frombuffer(wf48.readframes(wf48.getnframes()), dtype=np.int16).astype(np.float32)
+
+        if DEFAULT_VAD_ONNX.is_file() and len(pcm16) >= 512 and len(pcm48) > 0:
+            sess = _get_vad_sess()
+            hop = 512
+            n_f = len(pcm16) // hop
+            h_st = np.zeros((2, 1, 64), dtype=np.float32)
+            c_st = np.zeros((2, 1, 64), dtype=np.float32)
+            mask_f = np.zeros(n_f, dtype=np.float32)
+            for i in range(n_f):
+                pr_v, h_st, c_st = sess.run(None, {"x": pcm16[i * hop : (i + 1) * hop].reshape(1, hop), "h": h_st, "c": c_st})
+                if float(pr_v[0, 0]) >= 0.30:
+                    mask_f[i] = 1.0
+            # Dilate mask by +-3 hops (~96ms) & smooth with 3-hop Hann window for natural breath onset/release!
+            dilated = np.convolve(mask_f, np.ones(7, dtype=np.float32), mode="same") > 0.5
+            smooth = np.convolve(dilated.astype(np.float32), np.hanning(7) / np.hanning(7).sum(), mode="same")
+            env48 = np.interp(
+                np.linspace(0.0, max(1, n_f - 1), num=len(pcm48), dtype=np.float32),
+                np.arange(n_f, dtype=np.float32),
+                smooth,
+            )
+            gated48 = np.clip(pcm48 * env48, -32767.0, 32767.0).astype(np.int16)
+            gated_wav = td_p / "gated48.wav"
+            with wave.open(str(gated_wav), "wb") as wout:
+                wout.setnchannels(1)
+                wout.setsampwidth(2)
+                wout.setframerate(48000)
+                wout.writeframes(gated48.tobytes())
+        else:
+            gated_wav = wav48
+
+        pr_orig = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_streams", "-show_format", "-of", "json", str(mp4_path)], text=True))
+        v_orig_dur = float(next(s for s in pr_orig["streams"] if s["codec_type"] == "video").get("duration") or pr_orig["format"]["duration"])
+        tmp_mp4 = mp4_path.with_suffix(".dry_mux.mp4")
+        subprocess.run(
+            [
+                "ffmpeg", "-y", "-v", "error",
+                "-i", str(mp4_path), "-i", str(gated_wav),
+                "-map", "0:v", "-map", "1:a",
+                "-c:v", "copy",
+                "-af", f"aformat=channel_layouts=stereo,apad=whole_dur={v_orig_dur:.3f},atrim=start=0:end={v_orig_dur:.3f}",
+                "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k",
+                str(tmp_mp4),
+            ],
+            check=True,
+        )
+        tmp_mp4.replace(mp4_path)
+    marker.write_text("ok\n", encoding="utf-8")
+
+
 def silence_non_speaking_clip_vocals(mp4_path: Path, is_silent_reaction: bool, incoming_lcut_s: float = 0.0) -> None:
-    """Eliminate H3 vocal hallucinations on silent reaction shots & trim excess dead-air pause to crisp 1.35s-1.65s."""
+    """Zero out dialogue stem on silent reaction shots & trim excess dead-air pause to crisp 1.35s-1.65s."""
     if not is_silent_reaction:
         return
     marker = mp4_path.with_suffix(".muted_react")
@@ -406,7 +496,7 @@ def silence_non_speaking_clip_vocals(mp4_path: Path, is_silent_reaction: bool, i
     tmp_out = mp4_path.with_suffix(".clean_react.mp4")
     fc = (
         f"[0:v]trim=start=0:end={target_react_dur:.3f},setpts=PTS-STARTPTS,fps=24,format=yuv420p[v];"
-        f"[0:a]atrim=start=0:end={target_react_dur:.3f},asetpts=PTS-STARTPTS,highpass=f=80,lowpass=f=1600,volume=0.04,aresample=48000[a]"
+        f"[0:a]atrim=start=0:end={target_react_dur:.3f},asetpts=PTS-STARTPTS,volume=0.0,aresample=48000[a]"
     )
     subprocess.run(
         [
@@ -566,7 +656,7 @@ def apply_vo_wav_onto_clip(
         [
             "ffmpeg", "-y", "-v", "error", "-i", str(base_mp4),
             "-c:v", "copy",
-            "-af", "highpass=f=80,lowpass=f=1400,volume=0.025",
+            "-af", "volume=0.0",
             "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "160k",
             str(clean_base),
         ],
@@ -613,6 +703,74 @@ def apply_vo_wav_onto_clip(
     return base_mp4
 
 
+def synthesize_continuous_ambience_wav(setting_summary: str, duration_s: float, out_wav: Path, seed: int = 42) -> Path:
+    """
+    Synthesize ONE seamless, uninterrupted stereo post-production room-tone / ambience bed
+    spanning `0.000s -> duration_s` so background ambience NEVER turns on/off with speech!
+    """
+    sr = 48000
+    n = max(sr, int(round(duration_s * sr)))
+    rng = np.random.default_rng(seed)
+    s_txt = str(setting_summary or "")
+
+    # Stereo decorrelated pink/brown natural acoustic air
+    w_l = rng.standard_normal(n).astype(np.float32)
+    w_r = rng.standard_normal(n).astype(np.float32)
+
+    # Generic acoustic space profile inferred from setting physics (indoor vs outdoor vs night street)
+    is_outdoor = any(k in s_txt for k in ("户外", "公园", "街", "城门", "山", "院", "广场", "摊", "步道", "林"))
+    is_night_street = any(k in s_txt for k in ("夜", "烧烤", "霓虹", "集市", "闹市"))
+
+    # One-pole lowpass + slow air modulation for natural organic room/air presence (never static white hiss!)
+    alpha = 0.035 if is_outdoor else 0.018
+    y_l = np.empty(n, dtype=np.float32)
+    y_r = np.empty(n, dtype=np.float32)
+    # Fast vectorized IIR via scipy-free block filter or cumulative leaky sum
+    # Use FFT bandpass shaping for exact natural acoustic room-tone spectrum!
+    freqs = np.fft.rfftfreq(n, d=1.0 / sr)
+    spec_l = np.fft.rfft(w_l)
+    spec_r = np.fft.rfft(w_r)
+
+    if is_night_street:
+        # Warm distant urban/market air (90 Hz - 1400 Hz gentle roll-off)
+        env = 1.0 / np.maximum(1.0, (freqs / 140.0) ** 0.85)
+        env *= (freqs >= 65.0) * np.exp(-np.maximum(0.0, freqs - 1800.0) / 900.0)
+        target_rms = 0.011  # ~ -39 dBFS continuous stereo bed
+    elif is_outdoor:
+        # Soft open-air breeze & distant space (110 Hz - 2200 Hz soft air)
+        env = 1.0 / np.maximum(1.0, (freqs / 220.0) ** 0.75)
+        env *= (freqs >= 80.0) * np.exp(-np.maximum(0.0, freqs - 2400.0) / 1100.0)
+        target_rms = 0.010  # ~ -40 dBFS continuous stereo bed
+    else:
+        # Quiet cinema indoor room tone (75 Hz - 1100 Hz warm architectural air)
+        env = 1.0 / np.maximum(1.0, (freqs / 110.0) ** 0.90)
+        env *= (freqs >= 60.0) * np.exp(-np.maximum(0.0, freqs - 1200.0) / 650.0)
+        target_rms = 0.0085  # ~ -41.4 dBFS subtle continuous room tone
+
+    y_l = np.fft.irfft(spec_l * env, n=n).astype(np.float32)
+    y_r = np.fft.irfft(spec_r * env, n=n).astype(np.float32)
+
+    # Gentle slow organic breathing modulation (0.18 Hz, +-1.2 dB) so air feels alive rather than frozen loop
+    t = np.linspace(0.0, duration_s, num=n, dtype=np.float32)
+    mod_l = 1.0 + 0.12 * np.sin(2.0 * math.pi * 0.17 * t + 0.3)
+    mod_r = 1.0 + 0.12 * np.sin(2.0 * math.pi * 0.19 * t + 1.4)
+    y_l *= mod_l
+    y_r *= mod_r
+
+    cur_rms = float(np.sqrt(0.5 * (np.mean(y_l ** 2) + np.mean(y_r ** 2)))) + 1e-8
+    scale = target_rms / cur_rms
+    stereo = np.stack([y_l * scale, y_r * scale], axis=1)
+    pcm16 = np.clip(stereo * 32767.0, -32767.0, 32767.0).astype(np.int16)
+
+    out_wav.parent.mkdir(parents=True, exist_ok=True)
+    with wave.open(str(out_wav), "wb") as wf:
+        wf.setnchannels(2)
+        wf.setsampwidth(2)
+        wf.setframerate(sr)
+        wf.writeframes(pcm16.tobytes())
+    return out_wav
+
+
 def stitch_clips_with_lcut(
     clip_mp4s: List[Path],
     lcut_holds: List[float],
@@ -620,6 +778,7 @@ def stitch_clips_with_lcut(
     aspect_ratio: str,
     resolution: str,
     out_mp4: Path,
+    setting_summary: str = "",
 ) -> Dict[str, Any]:
     """
     Frame-accurate stitcher using explicit named `trim=start=0:end=...` & `atrim=start=0:end=...`.
@@ -632,18 +791,29 @@ def stitch_clips_with_lcut(
     tw, th = H3R.RESOLUTION_PRESETS[resolution][aspect_ratio]
 
     if len(clip_mp4s) == 1:
+        pr1 = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(clip_mp4s[0])], text=True))
+        dur1 = float(pr1["format"]["duration"])
+        amb_wav = out_mp4.with_suffix(".amb.wav")
+        synthesize_continuous_ambience_wav(setting_summary, dur1, amb_wav)
         vf = f"scale={tw}:{th}:force_original_aspect_ratio=decrease,pad={tw}:{th}:(ow-iw)/2:(oh-ih)/2,fps=24"
+        fc1 = (
+            f"[0:v]{vf},format=yuv420p[vout];"
+            f"[0:a]aresample=48000,aformat=channel_layouts=stereo,loudnorm=I=-16:TP=-1.5:LRA=11[dlg];"
+            f"[dlg]apad=whole_dur={dur1:.3f}[dlg_pad];"
+            f"[1:a]aresample=48000,aformat=channel_layouts=stereo,atrim=start=0:end={dur1:.3f},asetpts=PTS-STARTPTS[amb];"
+            f"[amb][dlg_pad]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,alimiter=limit=0.96[aout]"
+        )
         subprocess.run(
             [
-                "ffmpeg", "-y", "-v", "error", "-i", str(clip_mp4s[0]),
-                "-vf", vf,
-                "-af", "aresample=48000,loudnorm=I=-16:TP=-1.5:LRA=11",
+                "ffmpeg", "-y", "-v", "error", "-i", str(clip_mp4s[0]), "-i", str(amb_wav),
+                "-filter_complex", fc1, "-map", "[vout]", "-map", "[aout]",
                 "-c:v", "libx264", "-preset", "fast", "-crf", "19", "-pix_fmt", "yuv420p",
                 "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "192k",
                 str(out_mp4),
             ],
             check=True,
         )
+        amb_wav.unlink(missing_ok=True)
         return {"clip_count": 1, "visual_cuts": [], "lcut_holds": [0.0]}
 
     durs: List[float] = []
@@ -698,13 +868,22 @@ def stitch_clips_with_lcut(
         )
         a_labels.append(f"[a{i}]")
 
+    # Synthesize ONE seamless post-stitch stereo ambience bed spanning `0.000s -> total_dur`!
+    amb_wav = out_mp4.with_suffix(".amb.wav")
+    synthesize_continuous_ambience_wav(setting_summary, total_dur + 0.2, amb_wav)
+    amb_idx = n
+    inputs.extend(["-i", str(amb_wav)])
+
     fc = (
         ";".join(v_filters) + ";"
-        + "".join(v_labels) + f"concat=n={n}:v=1:a=0[vout];"
+        + "".join(v_labels) + f"concat=n={n}:v=1:a=0,trim=start=0:end={total_dur:.3f},setpts=PTS-STARTPTS[vout];"
         + ";".join(a_filters) + ";"
         + "".join(a_labels) + f"amix=inputs={n}:duration=longest:dropout_transition=0:normalize=0,"
         + f"atrim=start=0:end={total_dur:.3f},asetpts=PTS-STARTPTS,"
-        + "loudnorm=I=-16:TP=-1.5:LRA=11[aout]"
+        + "loudnorm=I=-16:TP=-1.5:LRA=11,apad=whole_dur=" + f"{total_dur:.3f}[dlg];"
+        + f"[{amb_idx}:a]aresample=48000,aformat=sample_fmts=fltp:channel_layouts=stereo,"
+        + f"atrim=start=0:end={total_dur:.3f},asetpts=PTS-STARTPTS[amb];"
+        + "[amb][dlg]amix=inputs=2:duration=first:dropout_transition=0:normalize=0,alimiter=limit=0.96[aout]"
     )
 
     tmp_out = out_mp4.with_suffix(".tmp_stitch.mp4")
@@ -720,6 +899,7 @@ def stitch_clips_with_lcut(
         ],
         check=True,
     )
+    amb_wav.unlink(missing_ok=True)
 
     # Hard A/V stream duration sync assertion!
     pr_out = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_streams", "-of", "json", str(tmp_out)], text=True))
@@ -831,6 +1011,7 @@ def execute_scene_plan(
             if has_vo and not c_mp4.with_suffix(".vo_done").is_file():
                 vo_wav, vo_dur = synthesize_vo_wav_on_4070(cspec["inner_os"], beat_spec, clips_dir, base_seed + idx * 13 + 5)
                 apply_vo_wav_onto_clip(c_mp4, vo_wav, vo_dur, cspec["inner_os"])
+            isolate_clean_dry_dialogue_on_clip(c_mp4, is_speaking_clip=is_speaking_on_cam)
             silence_non_speaking_clip_vocals(c_mp4, is_silent_reaction=is_silent_react, incoming_lcut_s=prev_hold)
             trim_clip_dead_air_sync(c_mp4, is_speaking_clip=is_speaking_on_cam)
             return idx, c_mp4
@@ -885,6 +1066,7 @@ def execute_scene_plan(
             gpu_pool.run_job(_do_on_gpu, priority_dur=float(dur))
             if has_vo and vo_wav is not None:
                 apply_vo_wav_onto_clip(c_mp4, vo_wav, vo_dur, cspec["inner_os"])
+            isolate_clean_dry_dialogue_on_clip(c_mp4, is_speaking_clip=is_speaking_on_cam)
             silence_non_speaking_clip_vocals(c_mp4, is_silent_reaction=is_silent_react, incoming_lcut_s=prev_hold)
             trim_clip_dead_air_sync(c_mp4, is_speaking_clip=is_speaking_on_cam)
         finally:
@@ -900,7 +1082,9 @@ def execute_scene_plan(
     holds = [float(c.get("lcut_audio_hold_over_next_s", 0.0) or 0.0) for c in clips]
     silent_flags = [not bool(c.get("speaking_role_ids")) for c in clips]
 
-    stitch_meta = stitch_clips_with_lcut(ordered_mp4s, holds, silent_flags, ar, resolution, final_mp4)
+    stitch_meta = stitch_clips_with_lcut(
+        ordered_mp4s, holds, silent_flags, ar, resolution, final_mp4, setting_summary=str(beat_spec.get("setting_summary", ""))
+    )
     (out_dir / "render_manifest.json").write_text(
         json.dumps({"scene_plan": scene_plan, "stitch_meta": stitch_meta}, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

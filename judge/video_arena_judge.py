@@ -185,6 +185,7 @@ def probe_video_signals(
     tail_truncated = False
     speech_total_s = 0.0
     first_speech_s = None
+    audio_dropout_gating = False
 
     if astream is not None and DEFAULT_VAD_ONNX.is_file():
         with tempfile.NamedTemporaryFile(suffix=".wav", delete=True) as tmp_wav:
@@ -200,9 +201,21 @@ def probe_video_signals(
         h_st = np.zeros((2, 1, 64), dtype=np.float32)
         c_st = np.zeros((2, 1, 64), dtype=np.float32)
         vad_probs = np.empty(n_frames, dtype=np.float32)
+        non_speech_dbs: List[float] = []
         for i in range(n_frames):
-            pr, h_st, c_st = sess.run(None, {"x": pcm[i * hop : (i + 1) * hop].reshape(1, hop), "h": h_st, "c": c_st})
-            vad_probs[i] = float(pr[0, 0])
+            chunk = pcm[i * hop : (i + 1) * hop]
+            pr, h_st, c_st = sess.run(None, {"x": chunk.reshape(1, hop), "h": h_st, "c": c_st})
+            vp = float(pr[0, 0])
+            vad_probs[i] = vp
+            if vp < 0.10:
+                rms = float(np.sqrt(np.mean(chunk * chunk)))
+                non_speech_dbs.append(20.0 * np.log10(max(1e-5, rms)))
+        if len(non_speech_dbs) >= 12:
+            # Flag severe audio gating ("background noise present during speech/some clips, dead -80dB drop in pauses/reactions")
+            p10_ns = float(np.percentile(non_speech_dbs, 10))
+            p85_ns = float(np.percentile(non_speech_dbs, 85))
+            if p10_ns < -68.0 or (p85_ns - p10_ns) > 24.0:
+                audio_dropout_gating = True
         dt = hop / 16000.0
         in_s, s0 = False, 0
         for idx, p in enumerate(vad_probs):
@@ -327,6 +340,9 @@ def probe_video_signals(
     if has_spoken_dialogue and first_speech_s is not None and first_speech_s > 2.5:
         penalty += 12.0
         penalty_reasons.append(f"PRE_SPEECH_ZOMBIE_LAG_{first_speech_s:.2f}s")
+    if audio_dropout_gating:
+        penalty += 12.0
+        penalty_reasons.append("AUDIO_BG_GATING_OR_DEAD_SILENCE_DROP")
 
     return {
         "width": w,
@@ -403,8 +419,8 @@ JUDGE_PAIR_PROMPT_TEMPLATE = """你是一位极其严苛、眼睛毒辣的真人
 【严禁打虚高分的铁律！（违者评审作废）】
 1. **分数锚定纪律**：`Target_Benchmark.mp4` 的真实水准定为 **85 分**！如果某候选视频存在【声音和嘴型对不上 / 说完话嘴还在乱动 / 声音出了嘴没张】、【人物表情像木头播音员一样僵硬平淡、远不如参考片灵动鲜活】、【人物座位或空间位置跨镜头乱跳】、【总时长拖沓注水】，该候选总分**绝不允许超过 65 分**，更严禁打出 85–90 分的荒谬虚高分！
 2. **逐项死磕核查**：
-   - `acting_micro_naturalism`（0–25分）：对比 `Target_Benchmark.mp4`，角色的眼神流转、挑眉、弯眼笑意、吃惊瞪眼、尴尬挤笑、手部生活化小动作（合十、托腮、扶额、递物等）是否同样鲜活生动？若是“全程端着不动、面无表情念台词的面瘫克制脸”，最多只能给 8–13 分！
-   - `vocal_dialogue_delivery`（0–20分）：**死盯嘴唇每一拍开合与人声是否严丝合缝（±0.1秒内）！** 凡出现音画错位（嘴动无声、有声嘴不动、多人串嘴、吞尾字），直接给 0–7 分！同时考察语气是否有真实的轻咳、叹气、反讽重音等戏剧表现力。
+   - `acting_micro_naturalism`（0–25分）：对比 `Target_Benchmark.mp4`，死磕【四通道细腻度与句内多段式表情变化】——①眉眼通道（视线流转、眨眼节奏、挑眉/蹙眉、瞳孔震惊放大或弯眼笑意）、②口颊气息（开口前轻吸气/嗤笑/清嗓、句中重音表情转折、句尾抿唇/咬唇/张口怔住）、③头颈躯干（身体前倾施压、微后仰错愕、俏皮歪头、挫败垂肩）、④手部具象动作（双手合十、指尖轻点、攥衣角、扶额、递物等持续自然的小动作）。若角色只是“从头到尾同一种表情、身体与双手僵直不动地干张嘴念词”，哪怕不崩脸也最多只能给 9–13 分！
+   - `vocal_dialogue_delivery`（0–20分）：**第一核查唇音同步（±0.1秒内严丝合缝，错位或心声张嘴直接给 0–7 分）！第二核查人声纯净度与背景底噪连续性**：人声本身必须干净清澈无浑浊伴奏/杂音串扰，且全片环境底噪必须平滑连续——若出现“人物一开口就有嘈杂背景音、人物一闭嘴或切反应镜头背景音瞬间消失成死寂”的抽吸断层感，严厉扣分（最多 8–11 分）！同时考察语气是否有真实的潜台词轻重缓急。
    - `editing_rhythm_and_reactions`（0–20分）：切镜是否像参考片一样紧凑干脆（单镜 2–4秒，总时长与目标接近）？是否有恰当的听话人反应镜头？若把 12 秒戏拍成 20 多秒慢吞吞发呆，给 5–10 分！
    - `character_and_costume_consistency`（0–15分）：五官骨相、神韵、发型服饰与 `Character_Ref_*.png` 及参考片是否一致、跨镜是否不变脸不串衣？
    - `cinematography_and_spatial_coherence`（0–10分）：**核查人物座位/站位空间拓扑！** 同一桌并排坐的两人是否跨镜突然变成前后排或瞬移到走廊？正反打 180° 视线轴线与景深光影是否准确？若空间位置错乱，最多给 2–4 分！
