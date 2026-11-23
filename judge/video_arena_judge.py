@@ -324,7 +324,7 @@ def probe_video_signals(
         if ratio_d > 1.55 or ratio_d < 0.55:
             penalty += 25.0
             penalty_reasons.append(f"DURATION_MISMATCH_{fmt_dur:.1f}s_vs_{target_duration_s:.1f}s")
-    if has_spoken_dialogue and first_speech_s is not None and first_speech_s > 1.6:
+    if has_spoken_dialogue and first_speech_s is not None and first_speech_s > 2.5:
         penalty += 12.0
         penalty_reasons.append(f"PRE_SPEECH_ZOMBIE_LAG_{first_speech_s:.2f}s")
 

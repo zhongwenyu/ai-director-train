@@ -20,9 +20,13 @@ __pycache__/
 *.pid
 *.tmp
 *.vad_trimmed
+*.vo_vad_trimmed
+*.muted_react
+*.demucs_clean
 *.vo_done
 .identity_rebuilt*
 runs/video_skill_evolution_v1_archived_desync/
+runs/video_skill_evolution_v2_pre_demucs_audit/
 corpus/video_bench/*/*/gold_sealed/_crops/
 .env
 .env.*

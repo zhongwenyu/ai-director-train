@@ -242,11 +242,35 @@ def compile_h3_clip_payload(
     char_lookup = {c["role_id"]: c for c in beat_spec.get("characters", [])}
     prop_lookup = {p["prop_id"]: p for p in beat_spec.get("props", [])}
 
+    # Hard-guard: if generator accidentally put a beat_spec `inner_os` turn inside `speaking_role_ids` / `<d>`,
+    # deterministically route it to `inner_os` and strip `<d>` so characters NEVER move lips during inner monologue!
+    os_turns_bare = {
+        re.sub(r"[\s，。！？、；：“”‘’…—,.!?;:\"'（）()]", "", str(t.get("text", ""))): t
+        for t in beat_spec.get("dialogue_turns", [])
+        if t.get("mode") == "inner_os" and t.get("text")
+    }
+    raw_det_check = str(clip_spec.get("detailed_action_and_dialogue") or "")
+    for m_d in re.finditer(r"<d>\s*(?:\[[A-Za-z]+\])?(.*?)</d>", raw_det_check, re.S):
+        d_bare = re.sub(r"[\s，。！？、；：“”‘’…—,.!?;:\"'（）()]", "", m_d.group(1))
+        if d_bare and any(d_bare in k or k in d_bare for k in os_turns_bare):
+            matched_t = next(t for k, t in os_turns_bare.items() if d_bare in k or k in d_bare)
+            if not clip_spec.get("inner_os"):
+                clip_spec = dict(clip_spec)
+                clip_spec["inner_os"] = {
+                    "speaker_id": matched_t["speaker_id"],
+                    "text": matched_t["text"],
+                    "start_s": 0.15,
+                    "mode": "inner_os",
+                }
+            clip_spec = dict(clip_spec)
+            clip_spec["speaking_role_ids"] = []
+            break
+
     ref_images: List[Path] = [keyframe_1k]
     vis_roles = [r for r in clip_spec.get("visible_role_ids", []) if r in asset_files]
     spk_roles = [
         r for r in clip_spec.get("speaking_role_ids", [])
-        if r in voice_files and r in vis_roles
+        if r in voice_files and r in vis_roles and not (clip_spec.get("inner_os") and clip_spec["inner_os"].get("text"))
     ]
 
     role_to_subj_idx: Dict[str, int] = {}
@@ -323,11 +347,11 @@ def compile_h3_clip_payload(
     raw_dur = int(round(float(clip_spec.get("duration_s", 3))))
     os_spec = clip_spec.get("inner_os") if isinstance(clip_spec.get("inner_os"), dict) else None
     if spoken_cjk > 0 and ref_audios:
-        # Brisk natural short-drama speech rate: ~5.1 chars/sec + 0.20s onset + 0.45s tail buffer
-        est_speech_dur = max(1.0, round(spoken_cjk / 5.1, 2))
-        sync_dur = max(3, min(8, math.ceil(0.20 + est_speech_dur + 0.45)))
-        win_start = 0.20
-        win_end = round(min(sync_dur - 0.35, win_start + est_speech_dur), 2)
+        # Tight natural short-drama delivery: allow 2s clips for short lines (<=7 chars) so 5-clip scenes never bloat!
+        est_speech_dur = max(0.85, round(spoken_cjk / 5.4, 2))
+        sync_dur = max(2, min(8, math.ceil(0.16 + est_speech_dur + 0.34)))
+        win_start = 0.16
+        win_end = round(min(sync_dur - 0.26, win_start + est_speech_dur), 2)
         # Rewrite first `(Xs-Ys)` before `<d>` so prompt window matches exact clip duration!
         detail_body = re.sub(
             r"\(\s*\d+(?:\.\d+)?s?\s*[-–~to]+\s*\d+(?:\.\d+)?s?\s*\)(\s*:\s*<d>)",
@@ -336,13 +360,13 @@ def compile_h3_clip_payload(
             count=1,
         )
     elif vo_wav_dur is not None and vo_wav_dur > 0.2:
-        vo_start = float(os_spec.get("start_s", 0.18)) if os_spec else 0.18
-        sync_dur = max(2, min(8, math.ceil(vo_start + vo_wav_dur + 0.30)))
+        vo_start = min(0.18, float(os_spec.get("start_s", 0.15))) if os_spec else 0.15
+        sync_dur = max(2, min(8, math.ceil(vo_start + vo_wav_dur + 0.26)))
     elif os_spec and os_spec.get("text"):
         vo_cjk = len(re.findall(r"[\u4e00-\u9fff0-9A-Za-z]", str(os_spec.get("text", ""))))
-        sync_dur = max(2, min(8, math.ceil(0.20 + max(1.0, vo_cjk / 4.6) + 0.40)))
+        sync_dur = max(2, min(8, math.ceil(0.18 + max(0.9, vo_cjk / 4.8) + 0.32)))
     else:
-        sync_dur = max(2, min(3, raw_dur))
+        sync_dur = 2
 
     if not detail_body.startswith("[Shot 1]") and "[Shot 1]" not in detail_body:
         detail_body = (
@@ -412,7 +436,7 @@ def trim_clip_dead_air_sync(mp4_path: Path, is_speaking_clip: bool) -> None:
             pcm = np.frombuffer(wf.readframes(wf.getnframes()), dtype=np.int16).astype(np.float32) / 32768.0
 
     dur = len(pcm) / 16000.0
-    if dur <= 2.2:
+    if dur <= 1.35:
         marker.write_text("short\n", encoding="utf-8")
         return
 
@@ -433,10 +457,10 @@ def trim_clip_dead_air_sync(mp4_path: Path, is_speaking_clip: bool) -> None:
 
     first_s = act_indices[0] * dt
     last_s = (act_indices[-1] + 1) * dt
-    ts = round(max(0.0, first_s - 0.28), 3) if first_s > 0.45 else 0.0
-    te = round(min(dur, last_s + 0.32), 3) if (dur - last_s) > 0.55 else round(dur, 3)
+    ts = round(max(0.0, first_s - 0.14), 3) if first_s > 0.22 else 0.0
+    te = round(min(dur, last_s + 0.18), 3) if (dur - last_s) > 0.25 else round(dur, 3)
 
-    if te - ts >= 1.5 and (ts > 0.15 or (dur - te) > 0.25):
+    if te - ts >= 1.15 and (ts > 0.08 or (dur - te) > 0.12):
         tmp_out = mp4_path.with_suffix(".sync_trim.mp4")
         fc = (
             f"[0:v]trim=start={ts:.3f}:end={te:.3f},setpts=PTS-STARTPTS,fps=24,format=yuv420p[v];"
@@ -535,15 +559,30 @@ def apply_vo_wav_onto_clip(
     marker = base_mp4.with_suffix(".vo_done")
     if marker.is_file() or vo_wav is None or not vo_wav.is_file():
         return base_mp4
+    # CRITICAL FIX: Strip any hallucinated H3 speech from `base_mp4` BEFORE mixing `vo_wav`,
+    # because `mix_vo_custom` restores `[0:a]` to 1.0 outside `[dst_start, de]`!
+    clean_base = base_mp4.with_suffix(".muted_base.mp4")
+    subprocess.run(
+        [
+            "ffmpeg", "-y", "-v", "error", "-i", str(base_mp4),
+            "-c:v", "copy",
+            "-af", "highpass=f=80,lowpass=f=1400,volume=0.025",
+            "-c:a", "aac", "-ar", "48000", "-ac", "2", "-b:a", "160k",
+            str(clean_base),
+        ],
+        check=True,
+    )
+    clean_base.replace(base_mp4)
+
     probe = json.loads(subprocess.check_output(["ffprobe", "-v", "error", "-show_format", "-of", "json", str(base_mp4)], text=True))
     base_dur = float(probe["format"]["duration"])
-    dst_st = min(0.22, float(os_spec.get("start_s", 0.18)))
+    dst_st = min(0.18, float(os_spec.get("start_s", 0.15)))
     mixed_mp4 = base_mp4.with_suffix(".os_mixed.mp4")
     eff = "none" if str(os_spec.get("mode", "")).lower() == "offscreen_speech" else "inner_vo"
     vo_cfg = {
         "dst_start": dst_st,
         "max_len": max(1.2, base_dur - dst_st - 0.05),
-        "base_duck": 0.18,
+        "base_duck": 0.50,
         "vo_gain": 1.80,
         "effect": eff,
     }
@@ -767,6 +806,22 @@ def execute_scene_plan(
     def _pipeline_single_clip(idx_clip: Tuple[int, Dict[str, Any]]) -> Tuple[int, Path]:
         idx, cspec = idx_clip
         c_mp4 = clips_dir / f"clip_{idx:02d}.mp4"
+        # Auto-correct any beat_spec `inner_os` turn accidentally placed in `<d>` before checking `has_vo`!
+        os_turns_bare = {
+            re.sub(r"[\s，。！？、；：“”‘’…—,.!?;:\"'（）()]", "", str(t.get("text", ""))): t
+            for t in beat_spec.get("dialogue_turns", [])
+            if t.get("mode") == "inner_os" and t.get("text")
+        }
+        for m_d in re.finditer(r"<d>\s*(?:\[[A-Za-z]+\])?(.*?)</d>", str(cspec.get("detailed_action_and_dialogue") or ""), re.S):
+            d_bare = re.sub(r"[\s，。！？、；：“”‘’…—,.!?;:\"'（）()]", "", m_d.group(1))
+            if d_bare and any(d_bare in k or k in d_bare for k in os_turns_bare):
+                matched_t = next(t for k, t in os_turns_bare.items() if d_bare in k or k in d_bare)
+                cspec = dict(cspec)
+                if not cspec.get("inner_os"):
+                    cspec["inner_os"] = {"speaker_id": matched_t["speaker_id"], "text": matched_t["text"], "start_s": 0.15, "mode": "inner_os"}
+                cspec["speaking_role_ids"] = []
+                break
+
         has_vo = bool(cspec.get("inner_os") and isinstance(cspec["inner_os"], dict) and cspec["inner_os"].get("text"))
         is_speaking_on_cam = bool(cspec.get("speaking_role_ids")) and not has_vo
         is_silent_react = (not is_speaking_on_cam) and (not has_vo)

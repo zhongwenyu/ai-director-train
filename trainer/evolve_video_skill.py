@@ -660,14 +660,15 @@ def main() -> int:
         # Diversified K=2 Proposal in Parallel — 100% Genre-Agnostic First Principles (ZERO single-drama exemplars!)
         cand_a_id, cand_b_id = f"v{r_idx}a", f"v{r_idx}b"
         axis_a = (
-            "方向 A（贴视线近正脸浅景深构图 + 潜台词驱动的饱满人类微表情弧光优先，跨现代/年代/古装/悬疑通用）："
-            "通过 `master_blocking_prompt` 锁死全场相对落座/站位拓扑与 180° 视线轴线；说话与核心反应镜头避免平庸的远景侧脸平铺，优先采用贴近视线轴线（10°~20°）的大光圈浅景深中近景/特写以完整呈现双眼眼神光与五官细节；"
-            "静态首帧保持五官自然舒展，而动态 `detailed_action_and_dialogue` 必须严格依据每句输入 `subtext_intent` 的真实情绪极性（无论喜感、悲恸、冷峻压迫、慌乱或隐忍）写出鲜活可感的眉眼肌群变化与符合时代/情境的自然手部支点，0.2s 立即开口且唇齿咬字清晰同步！"
+            "方向 A（180°过肩/贴视线浅景深近景 + 潜台词极性微表情弧光 + 严禁同人跳切，跨现代/年代/古装/悬疑通用）："
+            "通过 `master_blocking_prompt` 锁死全场相对座位/站位拓扑与唯一 180° 轴线；子镜优先使用保留对侧虚化肩廓或桌面器物的 `Over-the-shoulder MCU` 与贴视线（10°~20°）大光圈浅景深 `MCU/CU`；"
+            "【蒙太奇防跳切铁律】：严禁把同一说话人的连续台词生硬切成两个相连的单人镜头（产生同主体跳切 Jump Cut）！若单人长台词需拆快节奏，必须在两分句之间穿插 1.5s 对手/旁观者的无台词反应镜头（配合 L-Cut 声桥过渡），或在同一推进镜头内完成双拍情绪递进；"
+            "静态首帧五官自然舒展，动态 `detailed_action_and_dialogue` 严格贴合 `subtext_intent` 情绪极性（绝不在严肃争执或悬疑压迫时写甜笑，也绝不在轻喜反讽时面瘫）驱动鲜活眉眼起伏与自然手部支点，心声严守 `inner_os` 闭唇通道。"
         )
         axis_b = (
-            "方向 B（长台词短原子拆切 + 关键情绪落点听话人无台词反应插切 + L-Cut 声画缝合优先，全题材通用）："
-            "严禁把多句台词堆进单一冗长固定镜头，将交锋按语义气口拆解为 2~4 秒紧凑单动作子镜，确保全段总时长紧贴 `target_duration_s`；"
-            "在戏剧转折或高张力句尾切入 1.5~2.5 秒对手或旁观者的无台词眼神/神态反应镜头（仅当下一镜为无台词反应镜时设 `lcut_audio_hold_over_next_s: 0.4~0.8` 使尾音自然覆盖反应画面），心声与画外音走 `inner_os` 零口型通道。"
+            "方向 B（正反打反应交织快切 + L-Cut 声桥跨切 + 零死寂紧凑时长控制，全题材通用）："
+            "严格匹配 `target_duration_s` 控制全段总镜长；禁止出现连续两镜拍同一人的同向跳切，所有切镜必须在【说话人 -> 对手反应/回击 -> 旁观者反应】之间形成空间正反打交替；"
+            "当说话人长句在包袱/重音处切向对手无台词反应特写时，开启 `lcut_audio_hold_over_next_s: 0.4~0.7` 让尾音自然覆盖反应画面；心声 `mode=='inner_os'` 100% 放入 `inner_os` 字段且 `speaking_role_ids` 置空、双唇紧闭；画内对白 `0.16s` 即刻开口、清晰咬字零吞尾字。"
         )
         with cf.ThreadPoolExecutor(max_workers=2) as pex:
             fa = pex.submit(propose_single_axis_candidate, axis_a, champ_files, bottlenecks, champ_telemetry, CAND_ROOT / cand_a_id)
