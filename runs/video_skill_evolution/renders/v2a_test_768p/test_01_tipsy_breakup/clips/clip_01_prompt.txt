@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Reverse over-the-shoulder medium close-up (OTS MCU) favoring CHR_2 on screen-left, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse OTS MCU on <Subject 1> on screen-left urgently trying to make the tipsy CHR_1 recognize that he is Shen Jiming.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Immediately following her accusation across the 180-degree axis, <Subject 1> (S1) stands on screen-left facing screen-right, his brows furrowed in exasperated disbelief at being mistaken for someone else. Leaning slightly forward toward screen-right to cut through her drunken fog, he gestures briefly toward himself with an open hand as his eyes widen with urgent emphasis. <Subject 1> (S1) speaks (0.16s-2.16s): <d>[Chinese] 你看清楚我是沈继明啊！</d> with clear, natural jaw movement and syllable-accurate lip-sync. From 1.70s to 2.00s, <Subject 1> (S1) keeps lips naturally closed, exhaling a tight breath while holding an earnest, searching gaze toward screen-right, as the softly blurred dark-brown wool-coated shoulder and hair bun edge in the far screen-right foreground sway slightly in tipsy stubbornness.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent nighttime urban sidewalk ambient tone matching the previous shot; subtle zipper-jacket fabric friction as he gestures toward himself, clear urgent male voice in outdoor night acoustics, no music.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

@@ -1,0 +1,24 @@
+subject_definitions:
+<Picture 1> is the opening Medium-wide two-shot (WS) with ample right-side lead room, smooth motivated rightward camera pan following CHR_1's retreat cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Subject 2> is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 3>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Wide two-shot as <Subject 1> instantly sobers up in sheer terror, bows repeatedly while stammering apologies to her boss <Subject 2>, and scurries away down the sidewalk.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Subject 2>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 3> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Starting from a steady medium-wide two-shot on a tripod, the camera executes a smooth motivated rightward pan as <Subject 1> (S1) flees. At the instant his words land, <Subject 1> (S1) on screen-right snaps bolt upright as her drunken haze shatters completely, eyes flying wide in mortified panic. Clasping both hands hurriedly in front of her dark-brown overcoat, she bends rapidly from the waist in three frantic apologetic bows toward <Subject 2> on screen-left while stammering her apology, then at 2.10s spins 180 degrees to screen-right and scurries hastily away down the grey-white tiled sidewalk. <Subject 1> (S1) speaks (0.16s-3.44s): <d>[Chinese] 对不起沈总，我喝多了，对不起对不起！</d> with clear, natural jaw movement, rapid syllable-accurate lip-sync, and breathless micro-pauses; from 2.65s to 3.00s, <Subject 1> (S1) keeps lips naturally closed with hunched shoulders as she hurries away. Throughout the entire shot, <Subject 2> on screen-left keeps lips naturally closed, shifting his weight slightly back with one hand lifting halfway in stunned, exasperated bewilderment as his eyes track <Subject 1> (S1)'s frantic bows and sudden flight.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent nighttime urban street ambient tone; synchronized rustle of long wool coat during rapid bows and sharp turn, quick pattering flat-shoe footsteps hurrying away on square stone pavement, breathless trembling apology, no music.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

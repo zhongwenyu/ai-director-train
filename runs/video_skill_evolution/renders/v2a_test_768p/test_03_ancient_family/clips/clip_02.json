@@ -1,0 +1,29 @@
+{
+  "headers": {
+    "X-Task-Id": "6c2b664b-f81f-4fdd-83ac-13cc54a11b53",
+    "X-Model": "MiniMax-H3-Native-INT8",
+    "X-Checkpoint": "minimax_h3_ref2va_pruned_int8_convrot.safetensors",
+    "X-Steps": "14",
+    "X-Sampler": "res_multistep",
+    "X-Resolution": "1344x768",
+    "X-Duration": "2.336",
+    "X-Loras": "[]",
+    "X-SOL": "false",
+    "X-Frame0-Guide": "true",
+    "X-Backend": "5090-local"
+  },
+  "elapsed_s": 84.35,
+  "seed": 917226,
+  "requested_duration": 2,
+  "actual_duration": 2.336,
+  "width": 1344,
+  "height": 768,
+  "has_audio": true,
+  "ref_images_1k": [
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v2a_test_768p/test_03_ancient_family/keyframes_1k/clip_02_1k.png",
+    "/home/zhongwenyu/project/ai-director-train/runs/video_skill_evolution/renders/v2a_test_768p/test_03_ancient_family/keyframes_1k/clip_03_CHR_2_expr_multiview_1k.png"
+  ],
+  "ref_audios": [
+    "/home/zhongwenyu/project/ai-director-train/corpus/video_bench/test/test_03_ancient_family/voices/CHR_2.wav"
+  ]
+}

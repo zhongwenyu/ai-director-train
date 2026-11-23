@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening Reverse tight over-the-shoulder close-up (OTS CU) favoring CHR_2 on screen-left, locked-off static camera cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the man matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] Reverse tight OTS CU on <Subject 1> snapping in stunned exasperation and loudly reminding CHR_1 that he is her boss.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera. Cutting to a tight reverse close-up on <Subject 1> (S1) on screen-left as her absurd words register, his pupils contract briefly in half-incredulous disbelief before hardening into stern managerial authority. Stepping half a pace forward toward screen-right, his jaw tightens and his brows draw sharply together as he raises his voice to jolt her sober. <Subject 1> (S1) speaks (0.16s-3.10s): <d>[Chinese] 你他妈是不是喝傻了，我是你老板！</d> with clear, natural jaw movement, syllable-accurate lip-sync, and a sharp breath pause between clauses. From 2.65s to 3.00s, <Subject 1> (S1) keeps lips naturally closed, holding a piercing, stern glare toward screen-right while the blurred brown-coated shoulder edge in the far screen-right foreground jolts rigid in sudden shock.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent nighttime urban street ambient tone; sharp intake of breath, crisp jacket rustle on his slight step forward, forceful stern male voice cutting through the quiet night street, no music.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A

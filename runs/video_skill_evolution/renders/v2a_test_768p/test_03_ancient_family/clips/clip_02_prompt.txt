@@ -1,0 +1,22 @@
+subject_definitions:
+<Picture 1> is the opening OTS MS cinema frame anchoring exact seating, lighting, and initial character pose.
+<Subject 1> (S1) is the woman matching the exact individual close-up facial identity, hair/headwear structure, and outfit in <Picture 2>.
+<Audio 1> is the voice-timbre reference for <Subject 1> (S1).
+
+summary:
+[keyframe completion + reference generation + audio reference] 180-degree reverse over-the-shoulder medium shot past CHR_1's foreground shoulder onto <Subject 1> on the earthen kang, as <Subject 1> props her weak torso forward in panic to beg her mother-in-law not to abandon the baby.
+
+retention_analysis:
+<Picture 1> (opening frame): fully_preserved - anchor exact opening composition, spatial position, and lighting.
+<Subject 1>: fully_preserved - retain 100% individual facial bone geometry, true age, eye/brow/nose/lip proportions, hair structure, accessories, and outfit from <Picture 2> without generic face drift.
+<Audio 1>: reference - guides <Subject 1>'s expressive Mandarin voice timbre and accurate lip-sync.
+
+detailed_description:
+Live-action 35mm cinema photography, authentic human facial expressions and natural body language matching dramatic subtext, crisp syllable-accurate lip-sync, without any text or captions.
+[Shot 1] Starting naturally from <Picture 1>, Locked-off static camera in a 180-degree reverse over-the-shoulder medium shot past the blurred dark-brown padded shoulder silhouette on the extreme left foreground, framing <Subject 1> (S1) on the raised earthen kang on screen-right. Struck with sudden terror, <Subject 1> (S1) braces her trembling hand against the coarse grey-brown quilt and pushes her weak upper torso slightly forward toward screen-left, gazing urgently upward with glistening, panic-widened eyes. <Subject 1> (S1) speaks (0.16s-1.50s): <d>[Chinese] 娘，求您别扔她，</d> with clear, natural jaw movement, syllable-accurate lip-sync, and a sharp trembling breath pause after the first word, her fingers clutching a fold of the coarse quilt tightly before her lips close briefly in a ragged intake of breath at 1.70s.
+
+overall_soundscape:
+Quiet controlled studio-grade location acoustics; clean close-mic vocals with subtle synchronous physical action foley only (Consistent desolate rural adobe room tone with cold wind murmuring outside, synchronized foley of coarse bedding shifting on the earthen kang, <CHR_2>'s palm bracing against rough cotton cloth, and a sharp panicked breath.), zero loud background noise, zero music.
+
+non_diegetic_music:
+N/A
